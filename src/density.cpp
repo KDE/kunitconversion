@@ -29,14 +29,14 @@ Density::Density() : UnitCategory(DensityCategory)
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (density)", "%1 %2"));
 
     setDefaultUnit(UP(KilogramsPerCubicMeter, 1,
-      i18nc("density unit symbol", "kg/m³"),
-      i18nc("unit description in lists", "kilograms per cubic meter"),
-      i18nc("unit synonyms for matching user input",
-            "kilogram per cubic meter;kilograms per cubic meter;kg/m³"),
-      ki18nc("amount in units (real)", "%1 kilograms per cubic meter"),
-      ki18ncp("amount in units (integer)",
-              "%1 kilogram per cubic meter", "%1 kilograms per cubic meter")
-    ));
+                      i18nc("density unit symbol", "kg/m³"),
+                      i18nc("unit description in lists", "kilograms per cubic meter"),
+                      i18nc("unit synonyms for matching user input",
+                            "kilogram per cubic meter;kilograms per cubic meter;kg/m³"),
+                      ki18nc("amount in units (real)", "%1 kilograms per cubic meter"),
+                      ki18ncp("amount in units (integer)",
+                              "%1 kilogram per cubic meter", "%1 kilograms per cubic meter")
+                     ));
 
     // source Google calculator
     U(KilogramPerLiter, 1000,
@@ -46,14 +46,14 @@ Density::Density() : UnitCategory(DensityCategory)
             "kilogram per liter;kilograms per liter;kg/l"),
       ki18nc("amount in units (real)", "%1 kilograms per liter"),
       ki18ncp("amount in units (integer)", "%1 kilogram per liter", "%1 kilograms per liter")
-    );
+     );
     U(GramPerLiter, 1,
       i18nc("density unit symbol", "g/l"),
       i18nc("unit description in lists", "grams per liter"),
       i18nc("unit synonyms for matching user input", "gram per liter;grams per liter;g/l"),
       ki18nc("amount in units (real)", "%1 grams per liter"),
       ki18ncp("amount in units (integer)", "%1 gram per liter", "%1 grams per liter")
-    );
+     );
     U(GramPerMilliliter, 1000,
       i18nc("density unit symbol", "g/ml"),
       i18nc("unit description in lists", "grams per milliliter"),
@@ -61,7 +61,7 @@ Density::Density() : UnitCategory(DensityCategory)
             "gram per milliliter;grams per milliliter;g/ml"),
       ki18nc("amount in units (real)", "%1 grams per milliliter"),
       ki18ncp("amount in units (integer)", "%1 gram per milliliter", "%1 grams per milliliter")
-    );
+     );
 
     // source : Google calculator
     U(OuncePerCubicInch, 1729.99404,
@@ -71,15 +71,15 @@ Density::Density() : UnitCategory(DensityCategory)
             "ounce per cubic inch;ounces per cubic inch;oz/in³"),
       ki18nc("amount in units (real)", "%1 ounces per cubic inch"),
       ki18ncp("amount in units (integer)", "%1 ounce per cubic inch", "%1 ounces per cubic inch")
-    );
+     );
     U(OuncePerCubicFoot, 1.00115396,
       i18nc("density unit symbol", "oz/ft³"),
       i18nc("unit description in lists", "ounces per cubic foot"),
       i18nc("unit synonyms for matching user input",
-      		"ounce per cubic foot;ounces per cubic foot;oz/ft³"),
+            "ounce per cubic foot;ounces per cubic foot;oz/ft³"),
       ki18nc("amount in units (real)", "%1 ounces per cubic foot"),
       ki18ncp("amount in units (integer)", "%1 ounce per cubic foot", "%1 ounces per cubic foot")
-    );
+     );
     U(PoundPerCubicInch, 27679.9047,
       i18nc("density unit symbol", "lb/in³"),
       i18nc("unit description in lists", "pounds per cubic inch"),
@@ -87,7 +87,7 @@ Density::Density() : UnitCategory(DensityCategory)
             "pound per cubic inch;pounds per cubic inch;lb/in³"),
       ki18nc("amount in units (real)", "%1 pounds per cubic inch"),
       ki18ncp("amount in units (integer)", "%1 pound per cubic inch", "%1 pounds per cubic inch")
-    );
+     );
     U(PoundPerCubicFoot, 16.0184634,
       i18nc("density unit symbol", "lb/ft³"),
       i18nc("unit description in lists", "pounds per cubic foot"),
@@ -95,7 +95,7 @@ Density::Density() : UnitCategory(DensityCategory)
             "pound per cubic foot;pounds per cubic foot;lb/ft³"),
       ki18nc("amount in units (real)", "%1 pounds per cubic foot"),
       ki18ncp("amount in units (integer)", "%1 pound per cubic foot", "%1 pounds per cubic foot")
-    );
+     );
     U(PoundPerCubicYard, 0.593276421,
       i18nc("density unit symbol", "lb/yd³"),
       i18nc("unit description in lists", "pounds per cubic yard"),
@@ -103,8 +103,8 @@ Density::Density() : UnitCategory(DensityCategory)
             "pound per cubic yard;pounds per cubic yard;lb/yd³"),
       ki18nc("amount in units (real)", "%1 pounds per cubic yard"),
       ki18ncp("amount in units (integer)", "%1 pound per cubic yard", "%1 pounds per cubic yard")
-    );
+     );
 
     setMostCommonUnits(QList<int>() <<
-            KilogramsPerCubicMeter << KilogramPerLiter << OuncePerCubicInch);
+                       KilogramsPerCubicMeter << KilogramPerLiter << OuncePerCubicInch);
 }

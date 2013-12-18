@@ -48,7 +48,7 @@ public:
 };
 
 UnitCategory::UnitCategory(int id)
-  : d(new UnitCategory::Private)
+    : d(new UnitCategory::Private)
 {
     d->id = id;
 }
@@ -58,7 +58,7 @@ UnitCategory::~UnitCategory()
     delete d;
 }
 
-void UnitCategory::setSymbolStringFormat(const KLocalizedString& symbolStringFormat)
+void UnitCategory::setSymbolStringFormat(const KLocalizedString &symbolStringFormat)
 {
     d->symbolStringFormat = symbolStringFormat;
 }
@@ -78,7 +78,7 @@ QList<UnitPtr> UnitCategory::mostCommonUnits() const
     return d->mostCommonUnits;
 }
 
-void UnitCategory::setMostCommonUnits(const QList<int>& units)
+void UnitCategory::setMostCommonUnits(const QList<int> &units)
 {
     d->mostCommonUnits.clear();
     foreach (int u, units) {
@@ -96,7 +96,7 @@ bool UnitCategory::hasUnit(const QString &unit) const
     return d->unitMap.contains(unit);
 }
 
-Value UnitCategory::convert(const Value& value, const QString& toUnit)
+Value UnitCategory::convert(const Value &value, const QString &toUnit)
 {
     if ((toUnit.isEmpty() || d->unitMap.contains(toUnit)) && value.unit()->isValid()) {
         UnitPtr to = toUnit.isEmpty() ? defaultUnit() : d->unitMap[toUnit];
@@ -105,7 +105,7 @@ Value UnitCategory::convert(const Value& value, const QString& toUnit)
     return Value();
 }
 
-Value UnitCategory::convert(const Value& value, int toUnit)
+Value UnitCategory::convert(const Value &value, int toUnit)
 {
     if (d->idMap.contains(toUnit) && value.unit()->isValid()) {
         return convert(value, d->idMap[toUnit]);
@@ -113,7 +113,7 @@ Value UnitCategory::convert(const Value& value, int toUnit)
     return Value();
 }
 
-Value UnitCategory::convert(const Value& value, UnitPtr toUnit)
+Value UnitCategory::convert(const Value &value, UnitPtr toUnit)
 {
     if (toUnit) {
         double v = toUnit->fromDefault(value.unit()->toDefault(value.number()));
@@ -122,10 +122,10 @@ Value UnitCategory::convert(const Value& value, UnitPtr toUnit)
     return Value();
 }
 
-void UnitCategory::addUnitMapValues(UnitPtr unit, const QString& names)
+void UnitCategory::addUnitMapValues(UnitPtr unit, const QString &names)
 {
     const QStringList list = names.split(';');
-    foreach (const QString& name, list) {
+    foreach (const QString &name, list) {
         d->unitMap[name] = unit;
     }
 }
@@ -136,7 +136,7 @@ void UnitCategory::addIdMapValue(UnitPtr unit, int id)
     d->units.append(unit);
 }
 
-UnitPtr UnitCategory::unit(const QString& s) const
+UnitPtr UnitCategory::unit(const QString &s) const
 {
     return d->unitMap.value(s);
 }
@@ -154,7 +154,7 @@ QString UnitCategory::name() const
     return d->name;
 }
 
-void UnitCategory::setName(const QString& name)
+void UnitCategory::setName(const QString &name)
 {
     d->name = name;
 }
@@ -174,7 +174,7 @@ QString UnitCategory::description() const
     return d->description;
 }
 
-void UnitCategory::setDescription(const QString& description)
+void UnitCategory::setDescription(const QString &description)
 {
     d->description = description;
 }
@@ -184,7 +184,7 @@ QUrl UnitCategory::url() const
     return d->url;
 }
 
-void UnitCategory::setUrl(const QUrl & url)
+void UnitCategory::setUrl(const QUrl &url)
 {
     d->url = url;
 }

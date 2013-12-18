@@ -37,10 +37,10 @@ Complex::~Complex()
 class Unit::Private
 {
 public:
-    Private(UnitCategory* category, const Complex* complex = 0)
-    : multiplier(1.0)
-    , complex(complex)
-    , category(category)
+    Private(UnitCategory *category, const Complex *complex = 0)
+        : multiplier(1.0)
+        , complex(complex)
+        , category(category)
     {
     };
 
@@ -53,15 +53,15 @@ public:
     double multiplier;
     KLocalizedString real;
     KLocalizedString integer;
-    const Complex* complex;
-    UnitCategory* category;
+    const Complex *complex;
+    UnitCategory *category;
     int id;
 };
 
-Unit::Unit(UnitCategory* category, int id, double multiplier, const QString& symbol,
-           const QString& description, const QString& match,
-           const KLocalizedString& real, const KLocalizedString& integer)
-: d(new Unit::Private(category))
+Unit::Unit(UnitCategory *category, int id, double multiplier, const QString &symbol,
+           const QString &description, const QString &match,
+           const KLocalizedString &real, const KLocalizedString &integer)
+    : d(new Unit::Private(category))
 {
     if (category) {
         category->addUnitMapValues(UnitPtr(this), match);
@@ -75,10 +75,10 @@ Unit::Unit(UnitCategory* category, int id, double multiplier, const QString& sym
     d->id = id;
 }
 
-Unit::Unit(UnitCategory* category, int id, const Complex* complex, const QString& symbol,
-           const QString& description, const QString& match,
-           const KLocalizedString& real, const KLocalizedString& integer)
-: d(new Unit::Private(category, complex))
+Unit::Unit(UnitCategory *category, int id, const Complex *complex, const QString &symbol,
+           const QString &description, const QString &match,
+           const KLocalizedString &real, const KLocalizedString &integer)
+    : d(new Unit::Private(category, complex))
 {
     if (category) {
         category->addUnitMapValues(UnitPtr(this), match);
@@ -96,7 +96,7 @@ Unit::~Unit()
     delete d;
 }
 
-UnitCategory* Unit::category() const
+UnitCategory *Unit::category() const
 {
     return d->category;
 }
@@ -140,7 +140,7 @@ double Unit::fromDefault(double value) const
 }
 
 QString Unit::toString(double value, int fieldWidth, char format, int precision,
-                       const QChar& fillChar) const
+                       const QChar &fillChar) const
 {
     if ((int)value == value && precision < 1) {
         return d->integer.subs((int)value).toString();
@@ -149,10 +149,10 @@ QString Unit::toString(double value, int fieldWidth, char format, int precision,
 }
 
 QString Unit::toSymbolString(double value, int fieldWidth, char format, int precision,
-                             const QChar& fillChar) const
+                             const QChar &fillChar) const
 {
     return category()->symbolStringFormat().subs(value, fieldWidth, format, precision, fillChar)
-            .subs(d->symbol).toString();
+           .subs(d->symbol).toString();
 }
 
 bool Unit::isValid() const

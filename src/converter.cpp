@@ -91,8 +91,8 @@ public:
 
 Q_GLOBAL_STATIC(ConverterPrivate, static_d)
 
-Converter::Converter(QObject* parent)
-: QObject(parent), d(static_d())
+Converter::Converter(QObject *parent)
+    : QObject(parent), d(static_d())
 {
 }
 
@@ -100,10 +100,10 @@ Converter::~Converter()
 {
 }
 
-Value Converter::convert(const Value& value, const QString& toUnit) const
+Value Converter::convert(const Value &value, const QString &toUnit) const
 {
     if (value.unit()) {
-        UnitCategory* category = value.unit()->category();
+        UnitCategory *category = value.unit()->category();
         if (category) {
             return category->convert(value, toUnit);
         }
@@ -111,10 +111,10 @@ Value Converter::convert(const Value& value, const QString& toUnit) const
     return Value();
 }
 
-Value Converter::convert(const Value& value, int toUnit) const
+Value Converter::convert(const Value &value, int toUnit) const
 {
     if (value.unit()) {
-        UnitCategory* category = value.unit()->category();
+        UnitCategory *category = value.unit()->category();
         if (category) {
             return category->convert(value, toUnit);
         }
@@ -122,10 +122,10 @@ Value Converter::convert(const Value& value, int toUnit) const
     return Value();
 }
 
-Value Converter::convert(const Value& value, UnitPtr toUnit) const
+Value Converter::convert(const Value &value, UnitPtr toUnit) const
 {
     if (toUnit && value.unit() && value.unit()->isValid()) {
-        UnitCategory* category = value.unit()->category();
+        UnitCategory *category = value.unit()->category();
         if (category) {
             return category->convert(value, toUnit);
         }
@@ -133,9 +133,9 @@ Value Converter::convert(const Value& value, UnitPtr toUnit) const
     return Value();
 }
 
-UnitCategory* Converter::categoryForUnit(const QString& unit) const
+UnitCategory *Converter::categoryForUnit(const QString &unit) const
 {
-    foreach (UnitCategory* u, categories()) {
+    foreach (UnitCategory *u, categories()) {
         if (u->hasUnit(unit)) {
             return u;
         }
@@ -143,9 +143,9 @@ UnitCategory* Converter::categoryForUnit(const QString& unit) const
     return d->categories[InvalidCategory];
 }
 
-UnitPtr Converter::unit(const QString& unitString) const
+UnitPtr Converter::unit(const QString &unitString) const
 {
-    foreach (UnitCategory* u, d->categories) {
+    foreach (UnitCategory *u, d->categories) {
         UnitPtr unitClass = u->unit(unitString);
         if (unitClass) {
             return unitClass;
@@ -156,7 +156,7 @@ UnitPtr Converter::unit(const QString& unitString) const
 
 UnitPtr Converter::unit(int unitId) const
 {
-    foreach (UnitCategory* u, d->categories) {
+    foreach (UnitCategory *u, d->categories) {
         UnitPtr unitClass = u->unit(unitId);
         if (unitClass) {
             return unitClass;
@@ -165,17 +165,18 @@ UnitPtr Converter::unit(int unitId) const
     return d->categories[InvalidCategory]->defaultUnit();
 }
 
-UnitCategory* Converter::category(const QString& category) const
+UnitCategory *Converter::category(const QString &category) const
 {
     foreach (UnitCategory *u, d->categories) {
-        if (u->name() == category)
+        if (u->name() == category) {
             return u;
+        }
     }
     // not found
     return d->categories[InvalidCategory];
 }
 
-UnitCategory* Converter::category(int categoryId) const
+UnitCategory *Converter::category(int categoryId) const
 {
     if (d->categories.contains(categoryId)) {
         return d->categories[categoryId];
@@ -184,9 +185,9 @@ UnitCategory* Converter::category(int categoryId) const
     return d->categories[InvalidCategory];
 }
 
-QList<UnitCategory*> Converter::categories() const
+QList<UnitCategory *> Converter::categories() const
 {
-    QList<UnitCategory*> categories = d->categories.values();
+    QList<UnitCategory *> categories = d->categories.values();
     categories.removeAt(0);
     return categories;
 }

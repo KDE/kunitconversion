@@ -50,7 +50,7 @@ Area::Area() : UnitCategory(AreaCategory)
       // i18n: This is used when a integer-valued amount in units is given,
       // such as "1 mile" or "21 miles".
       ki18ncp("amount in units (integer)", "%1 square yottameter", "%1 square yottameters")
-    );
+     );
     U(SquareZettameter, 1e+42,
       i18nc("area unit symbol", "Zm²"),
       i18nc("unit description in lists", "square zettameters"),
@@ -58,7 +58,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square zettameter;square zettameters;Zm²;Zm/-2;Zm^2;Zm2"),
       ki18nc("amount in units (real)", "%1 square zettameters"),
       ki18ncp("amount in units (integer)", "%1 square zettameter", "%1 square zettameters")
-    );
+     );
     U(SquareExameter, 1e+36,
       i18nc("area unit symbol", "Em²"),
       i18nc("unit description in lists", "square exameters"),
@@ -66,7 +66,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square exameter;square exameters;Em²;Em/-2;Em^2;Em2"),
       ki18nc("amount in units (real)", "%1 square exameters"),
       ki18ncp("amount in units (integer)", "%1 square exameter", "%1 square exameters")
-    );
+     );
     U(SquarePetameter, 1e+30,
       i18nc("area unit symbol", "Pm²"),
       i18nc("unit description in lists", "square petameters"),
@@ -74,7 +74,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square petameter;square petameters;Pm²;Pm/-2;Pm^2;Pm2"),
       ki18nc("amount in units (real)", "%1 square petameters"),
       ki18ncp("amount in units (integer)", "%1 square petameter", "%1 square petameters")
-    );
+     );
     U(SquareTerameter, 1e+24,
       i18nc("area unit symbol", "Tm²"),
       i18nc("unit description in lists", "square terameters"),
@@ -82,7 +82,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square terameter;square terameters;Tm²;Tm/-2;Tm^2;Tm2"),
       ki18nc("amount in units (real)", "%1 square terameters"),
       ki18ncp("amount in units (integer)", "%1 square terameter", "%1 square terameters")
-    );
+     );
     U(SquareGigameter, 1e+18,
       i18nc("area unit symbol", "Gm²"),
       i18nc("unit description in lists", "square gigameters"),
@@ -90,7 +90,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square gigameter;square gigameters;Gm²;Gm/-2;Gm^2;Gm2"),
       ki18nc("amount in units (real)", "%1 square gigameters"),
       ki18ncp("amount in units (integer)", "%1 square gigameter", "%1 square gigameters")
-    );
+     );
     U(SquareMegameter, 1e+12,
       i18nc("area unit symbol", "Mm²"),
       i18nc("unit description in lists", "square megameters"),
@@ -98,7 +98,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square megameter;square megameters;Mm²;Mm/-2;Mm^2;Mm2"),
       ki18nc("amount in units (real)", "%1 square megameters"),
       ki18ncp("amount in units (integer)", "%1 square megameter", "%1 square megameters")
-    );
+     );
     U(SquareKilometer, 1e+06,
       i18nc("area unit symbol", "km²"),
       i18nc("unit description in lists", "square kilometers"),
@@ -106,7 +106,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square kilometer;square kilometers;km²;km/-2;km^2;km2"),
       ki18nc("amount in units (real)", "%1 square kilometers"),
       ki18ncp("amount in units (integer)", "%1 square kilometer", "%1 square kilometers")
-    );
+     );
     U(SquareHectometer, 10000,
       i18nc("area unit symbol", "hm²"),
       i18nc("unit description in lists", "square hectometers"),
@@ -114,7 +114,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square hectometer;square hectometers;hm²;hm/-2;hm^2;hm2;hectare;hectares"),
       ki18nc("amount in units (real)", "%1 square hectometers"),
       ki18ncp("amount in units (integer)", "%1 square hectometer", "%1 square hectometers")
-    );
+     );
     U(SquareDecameter, 100,
       i18nc("area unit symbol", "dam²"),
       i18nc("unit description in lists", "square decameters"),
@@ -122,14 +122,14 @@ Area::Area() : UnitCategory(AreaCategory)
             "square decameter;square decameters;dam²;dam/-2;dam^2;dam2"),
       ki18nc("amount in units (real)", "%1 square decameters"),
       ki18ncp("amount in units (integer)", "%1 square decameter", "%1 square decameters")
-    );
+     );
     setDefaultUnit(UP(SquareMeter, 1,
-      i18nc("area unit symbol", "m²"),
-      i18nc("unit description in lists", "square meters"),
-      i18nc("unit synonyms for matching user input", "square meter;square meters;m²;m/-2;m^2;m2"),
-      ki18nc("amount in units (real)", "%1 square meters"),
-      ki18ncp("amount in units (integer)", "%1 square meter", "%1 square meters")
-    ));
+                      i18nc("area unit symbol", "m²"),
+                      i18nc("unit description in lists", "square meters"),
+                      i18nc("unit synonyms for matching user input", "square meter;square meters;m²;m/-2;m^2;m2"),
+                      ki18nc("amount in units (real)", "%1 square meters"),
+                      ki18ncp("amount in units (integer)", "%1 square meter", "%1 square meters")
+                     ));
     U(SquareDecimeter, 0.01,
       i18nc("area unit symbol", "dm²"),
       i18nc("unit description in lists", "square decimeters"),
@@ -137,7 +137,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square decimeter;square decimeters;dm²;dm/-2;dm^2;dm2"),
       ki18nc("amount in units (real)", "%1 square decimeters"),
       ki18ncp("amount in units (integer)", "%1 square decimeter", "%1 square decimeters")
-    );
+     );
     U(SquareCentimeter, 0.0001,
       i18nc("area unit symbol", "cm²"),
       i18nc("unit description in lists", "square centimeters"),
@@ -145,7 +145,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"),
       ki18nc("amount in units (real)", "%1 square centimeters"),
       ki18ncp("amount in units (integer)", "%1 square centimeter", "%1 square centimeters")
-    );
+     );
     U(SquareMillimeter, 1e-06,
       i18nc("area unit symbol", "mm²"),
       i18nc("unit description in lists", "square millimeters"),
@@ -153,7 +153,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"),
       ki18nc("amount in units (real)", "%1 square millimeters"),
       ki18ncp("amount in units (integer)", "%1 square millimeter", "%1 square millimeters")
-    );
+     );
     U(SquareMicrometer, 1e-12,
       i18nc("area unit symbol", "µm²"),
       i18nc("unit description in lists", "square micrometers"),
@@ -161,7 +161,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"),
       ki18nc("amount in units (real)", "%1 square micrometers"),
       ki18ncp("amount in units (integer)", "%1 square micrometer", "%1 square micrometers")
-    );
+     );
     U(SquareNanometer, 1e-18,
       i18nc("area unit symbol", "nm²"),
       i18nc("unit description in lists", "square nanometers"),
@@ -169,7 +169,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square nanometer;square nanometers;nm²;nm/-2;nm^2;nm2"),
       ki18nc("amount in units (real)", "%1 square nanometers"),
       ki18ncp("amount in units (integer)", "%1 square nanometer", "%1 square nanometers")
-    );
+     );
     U(SquarePicometer, 1e-24,
       i18nc("area unit symbol", "pm²"),
       i18nc("unit description in lists", "square picometers"),
@@ -177,7 +177,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square picometer;square picometers;pm²;pm/-2;pm^2;pm2"),
       ki18nc("amount in units (real)", "%1 square picometers"),
       ki18ncp("amount in units (integer)", "%1 square picometer", "%1 square picometers")
-    );
+     );
     U(SquareFemtometer, 1e-30,
       i18nc("area unit symbol", "fm²"),
       i18nc("unit description in lists", "square femtometers"),
@@ -185,7 +185,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square femtometer;square femtometers;fm²;fm/-2;fm^2;fm2"),
       ki18nc("amount in units (real)", "%1 square femtometers"),
       ki18ncp("amount in units (integer)", "%1 square femtometer", "%1 square femtometers")
-    );
+     );
     U(SquareAttometer, 1e-36,
       i18nc("area unit symbol", "am²"),
       i18nc("unit description in lists", "square attometers"),
@@ -193,7 +193,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square attometer;square attometers;am²;am/-2;am^2;am2"),
       ki18nc("amount in units (real)", "%1 square attometers"),
       ki18ncp("amount in units (integer)", "%1 square attometer", "%1 square attometers")
-    );
+     );
     U(SquareZeptometer, 1e-42,
       i18nc("area unit symbol", "zm²"),
       i18nc("unit description in lists", "square zeptometers"),
@@ -201,7 +201,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square zeptometer;square zeptometers;zm²;zm/-2;zm^2;zm2"),
       ki18nc("amount in units (real)", "%1 square zeptometers"),
       ki18ncp("amount in units (integer)", "%1 square zeptometer", "%1 square zeptometers")
-    );
+     );
     U(SquareYoctometer, 1e-48,
       i18nc("area unit symbol", "ym²"),
       i18nc("unit description in lists", "square yoctometers"),
@@ -209,14 +209,14 @@ Area::Area() : UnitCategory(AreaCategory)
             "square yoctometer;square yoctometers;ym²;ym/-2;ym^2;ym2"),
       ki18nc("amount in units (real)", "%1 square yoctometers"),
       ki18ncp("amount in units (integer)", "%1 square yoctometer", "%1 square yoctometers")
-    );
+     );
     U(Acre, 4046.86,
       i18nc("area unit symbol", "acre"),
       i18nc("unit description in lists", "acres"),
       i18nc("unit synonyms for matching user input", "acre;acres"),
       ki18nc("amount in units (real)", "%1 acres"),
       ki18ncp("amount in units (integer)", "%1 acre", "%1 acres")
-    );
+     );
     U(SquareFoot, 0.092903,
       i18nc("area unit symbol", "ft²"),
       i18nc("unit description in lists", "square feet"),
@@ -224,7 +224,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"),
       ki18nc("amount in units (real)", "%1 square feet"),
       ki18ncp("amount in units (integer)", "%1 square foot", "%1 square feet")
-    );
+     );
     U(SquareInch, 0.00064516,
       i18nc("area unit symbol", "in²"),
       i18nc("unit description in lists", "square inches"),
@@ -232,7 +232,7 @@ Area::Area() : UnitCategory(AreaCategory)
             "square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq in;inch²"),
       ki18nc("amount in units (real)", "%1 square inches"),
       ki18ncp("amount in units (integer)", "%1 square inch", "%1 square inches")
-    );
+     );
     U(SquareMile, 2.58999e+06,
       i18nc("area unit symbol", "mi²"),
       i18nc("unit description in lists", "square miles"),
@@ -240,8 +240,8 @@ Area::Area() : UnitCategory(AreaCategory)
             "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"),
       ki18nc("amount in units (real)", "%1 square miles"),
       ki18ncp("amount in units (integer)", "%1 square mile", "%1 square miles")
-    );
+     );
 
     setMostCommonUnits(QList<int>() <<
-            SquareKilometer << SquareMeter << SquareHectometer << Acre << SquareFoot << SquareMile);
+                       SquareKilometer << SquareMeter << SquareHectometer << Acre << SquareFoot << SquareMile);
 }

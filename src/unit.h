@@ -43,12 +43,12 @@ public:
 class KUNITCONVERSION_EXPORT Unit : public QSharedData
 {
 public:
-    Unit(UnitCategory* category, int id, double multiplier, const QString& symbol,
-         const QString& description, const QString& match,
-         const KLocalizedString& real, const KLocalizedString& integer);
-    Unit(UnitCategory* category, int id, const Complex* complex, const QString& symbol,
-         const QString& description, const QString& match,
-         const KLocalizedString& real, const KLocalizedString& integer);
+    Unit(UnitCategory *category, int id, double multiplier, const QString &symbol,
+         const QString &description, const QString &match,
+         const KLocalizedString &real, const KLocalizedString &integer);
+    Unit(UnitCategory *category, int id, const Complex *complex, const QString &symbol,
+         const QString &description, const QString &match,
+         const KLocalizedString &real, const KLocalizedString &integer);
     virtual ~Unit();
 
     /**
@@ -72,7 +72,7 @@ public:
      * @return value + unit string
      **/
     QString toString(double value, int fieldWidth = 0, char format = 'g', int precision = -1,
-                     const QChar& fillChar = QLatin1Char(' ')) const;
+                     const QChar &fillChar = QLatin1Char(' ')) const;
 
     /**
      * @param value number value
@@ -85,7 +85,7 @@ public:
      * @return value + unit string
      **/
     QString toSymbolString(double value, int fieldWidth = 0, char format = 'g',
-                           int precision = -1, const QChar& fillChar = QLatin1Char(' ')) const;
+                           int precision = -1, const QChar &fillChar = QLatin1Char(' ')) const;
 
     /**
      * @return unit multiplier.
@@ -100,7 +100,7 @@ public:
     /**
      * @return unit category.
      **/
-    UnitCategory* category() const;
+    UnitCategory *category() const;
 
     /**
      * @return if unit is valid.
@@ -119,7 +119,7 @@ protected:
 private:
     friend class UnitCategory;
     class Private;
-    Private* const d;
+    Private *const d;
 };
 
 typedef QExplicitlySharedDataPointer<Unit> UnitPtr;

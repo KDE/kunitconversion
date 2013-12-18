@@ -56,7 +56,7 @@ public:
         SuspendedCurrency  = 0x02, /**< Currency is not currently in use but has not been replaced */
         ObsoleteCurrency   = 0x04  /**< Currency is no longer in use and has been replaced */
     };
-    Q_DECLARE_FLAGS( CurrencyStatusFlags, CurrencyStatus )
+    Q_DECLARE_FLAGS(CurrencyStatusFlags, CurrencyStatus)
 
     /**
      * Constructs a KCurrencyCode for a given ISO Currency Code.
@@ -67,7 +67,7 @@ public:
      * @param language the language to use for translations, default to the Locale language
      *
      */
-    explicit KCurrencyCode( const QString &isoCurrencyCode, const QString &language = QString() );
+    explicit KCurrencyCode(const QString &isoCurrencyCode, const QString &language = QString());
 
     /**
      * Constructs a KCurrencyCode for a given config file and Language.
@@ -80,7 +80,7 @@ public:
      * @param language the language to use for translations, default to the Locale language
      *
      */
-    explicit KCurrencyCode( const QFileInfo &currencyCodeFile, const QString &language = QString() );
+    explicit KCurrencyCode(const QFileInfo &currencyCodeFile, const QString &language = QString());
 
     /**
      * Copy Constructor
@@ -88,7 +88,7 @@ public:
      * @param rhs KCurrencyCode to copy
      *
      */
-    KCurrencyCode( const KCurrencyCode &rhs );
+    KCurrencyCode(const KCurrencyCode &rhs);
 
     /**
      * Destructor.
@@ -101,7 +101,7 @@ public:
      * @param rhs KCurrencyCode to assign
      *
      */
-    KCurrencyCode& operator=( const KCurrencyCode &rhs );
+    KCurrencyCode &operator=(const KCurrencyCode &rhs);
 
     /**
      * Return the ISO 4217 Currency Code in Alpha 3 format, e.g. USD
@@ -289,10 +289,10 @@ public:
      *
      * @return true if valid currency code
      */
-    static bool isValid( const QString &currencyCode, CurrencyStatusFlags currencyStatus =
-                                                      CurrencyStatusFlags( ActiveCurrency |
-                                                                           SuspendedCurrency |
-                                                                           ObsoleteCurrency ) );
+    static bool isValid(const QString &currencyCode, CurrencyStatusFlags currencyStatus =
+                            CurrencyStatusFlags(ActiveCurrency |
+                                    SuspendedCurrency |
+                                    ObsoleteCurrency));
 
     /**
      * Provides list of all known ISO Currency Codes.
@@ -308,10 +308,10 @@ public:
      *
      * @see currencyCodeToName
      */
-    static QStringList allCurrencyCodesList( CurrencyStatusFlags currencyStatus =
-                                             CurrencyStatusFlags( ActiveCurrency |
-                                                                  SuspendedCurrency |
-                                                                  ObsoleteCurrency ) );
+    static QStringList allCurrencyCodesList(CurrencyStatusFlags currencyStatus =
+            CurrencyStatusFlags(ActiveCurrency |
+                                SuspendedCurrency |
+                                ObsoleteCurrency));
 
     /**
      * Convert a known ISO Currency Code to a human readable, localized form.
@@ -328,14 +328,12 @@ public:
      * @see currencyCode
      * @see allCurrencyCodesList
      */
-    static QString currencyCodeToName( const QString &currencyCode, const QString &language = QString() );
-
+    static QString currencyCodeToName(const QString &currencyCode, const QString &language = QString());
 
 private:
     QSharedDataPointer<KCurrencyCodePrivate> d;
 };
 
-Q_DECLARE_OPERATORS_FOR_FLAGS( KCurrencyCode::CurrencyStatusFlags )
-
+Q_DECLARE_OPERATORS_FOR_FLAGS(KCurrencyCode::CurrencyStatusFlags)
 
 #endif // KCURRENCYCODE_H

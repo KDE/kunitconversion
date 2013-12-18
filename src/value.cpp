@@ -28,19 +28,19 @@ class Value::Private
 {
 public:
     Private(double n = 0.0, int u = InvalidUnit)
-    : number(n)
+        : number(n)
     {
         unit = converter.unit(u);
     }
 
     Private(double n, UnitPtr u)
-    : number(n)
-    , unit(u)
+        : number(n)
+        , unit(u)
     {
     }
 
-    Private(double n, const QString& u)
-    : number(n)
+    Private(double n, const QString &u)
+        : number(n)
     {
         unit = converter.unit(u);
     }
@@ -55,27 +55,27 @@ public:
 };
 
 Value::Value()
-: d(new Value::Private())
+    : d(new Value::Private())
 {
 }
 
 Value::Value(double n, UnitPtr u)
-: d(new Value::Private(n, u))
+    : d(new Value::Private(n, u))
 {
 }
 
-Value::Value(double n, const QString& u)
-: d(new Value::Private(n, u))
+Value::Value(double n, const QString &u)
+    : d(new Value::Private(n, u))
 {
 }
 
 Value::Value(double n, int u)
-: d(new Value::Private(n, u))
+    : d(new Value::Private(n, u))
 {
 }
 
-Value::Value(const QVariant& n, const QString& u)
-: d(new Value::Private(n.toDouble(), u))
+Value::Value(const QVariant &n, const QString &u)
+    : d(new Value::Private(n.toDouble(), u))
 {
 }
 
@@ -89,7 +89,7 @@ bool Value::isValid() const
     return (d->unit && d->unit->isValid());
 }
 
-QString Value::toString(int fieldWidth, char format, int precision, const QChar& fillChar) const
+QString Value::toString(int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
     if (isValid()) {
         return d->unit->toString(d->number, fieldWidth, format, precision, fillChar);
@@ -98,7 +98,7 @@ QString Value::toString(int fieldWidth, char format, int precision, const QChar&
 }
 
 QString Value::toSymbolString(int fieldWidth, char format, int precision,
-                              const QChar& fillChar) const
+                              const QChar &fillChar) const
 {
     if (isValid()) {
         return d->unit->toSymbolString(d->number, fieldWidth, format, precision, fillChar);
@@ -106,7 +106,7 @@ QString Value::toSymbolString(int fieldWidth, char format, int precision,
     return QString();
 }
 
-Value& Value::round(uint decimals)
+Value &Value::round(uint decimals)
 {
     uint div = qPow(10, decimals);
     double add = 0.5 / (double)div;
@@ -123,12 +123,12 @@ double Value::number() const
 UnitPtr Value::unit() const
 {
     if (!d->unit) {
-       d->unit = d->converter.unit(InvalidUnit);
+        d->unit = d->converter.unit(InvalidUnit);
     }
     return d->unit;
 }
 
-Value& Value::operator=(const Value& value)
+Value &Value::operator=(const Value &value)
 {
     d->number = value.d->number;
     d->unit = value.d->unit;
@@ -145,7 +145,7 @@ Value Value::convertTo(int unit) const
     return d->converter.convert(*this, unit);
 }
 
-Value Value::convertTo(const QString& unit) const
+Value Value::convertTo(const QString &unit) const
 {
     return d->converter.convert(*this, unit);
 }

@@ -34,9 +34,9 @@ class KUNITCONVERSION_EXPORT Value
 public:
     Value();
     Value(double n, UnitPtr u);
-    Value(double n, const QString& u);
+    Value(double n, const QString &u);
     Value(double n, int u);
-    Value(const QVariant& n, const QString& u);
+    Value(const QVariant &n, const QString &u);
     ~Value();
 
     /**
@@ -57,7 +57,7 @@ public:
      * @return value as a string
      **/
     QString toString(int fieldWidth = 0, char format = 'g', int precision = -1,
-                     const QChar& fillChar = QLatin1Char(' ')) const;
+                     const QChar &fillChar = QLatin1Char(' ')) const;
 
     /**
      * Convert value to a string with symbol
@@ -70,7 +70,7 @@ public:
      * @return value as a string
      **/
     QString toSymbolString(int fieldWidth = 0, char format = 'g', int precision = -1,
-                           const QChar& fillChar = QLatin1Char(' ')) const;
+                           const QChar &fillChar = QLatin1Char(' ')) const;
 
     /**
      * Number part of the value
@@ -81,7 +81,7 @@ public:
      * rounds value to decimal count
      * @param decimals decimal count.
      **/
-    Value& round(uint decimals);
+    Value &round(uint decimals);
 
     /**
      * Unit part of the value
@@ -101,13 +101,13 @@ public:
     /**
     * convert to another unit
     **/
-    Value convertTo(const QString& unit) const;
+    Value convertTo(const QString &unit) const;
 
-    Value& operator=(const Value&);
+    Value &operator=(const Value &);
 
 private:
     class Private;
-    Private* const d;
+    Private *const d;
 };
 
 } // KUnitConversion namespace

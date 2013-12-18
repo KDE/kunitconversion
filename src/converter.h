@@ -139,7 +139,7 @@ class KUNITCONVERSION_EXPORT Converter : public QObject
 {
     Q_OBJECT
 public:
-    explicit Converter(QObject* parent = 0);
+    explicit Converter(QObject *parent = 0);
     ~Converter();
 
     /**
@@ -149,9 +149,9 @@ public:
      * @param toUnit unit to convert to. If empty default unit is used.
      * @return converted value
      **/
-    Value convert(const Value& value, const QString& toUnit = QString()) const;
-    Value convert(const Value& value, int toUnit) const;
-    Value convert(const Value& value, UnitPtr toUnit) const;
+    Value convert(const Value &value, const QString &toUnit = QString()) const;
+    Value convert(const Value &value, int toUnit) const;
+    Value convert(const Value &value, UnitPtr toUnit) const;
 
     /**
      * Find unit category for unit.
@@ -159,7 +159,7 @@ public:
      * @param unit unit to find category for.
      * @return unit category for unit
      **/
-    UnitCategory* categoryForUnit(const QString& unit) const;
+    UnitCategory *categoryForUnit(const QString &unit) const;
 
     /**
      * Find unit for string unit.
@@ -167,7 +167,7 @@ public:
      * @param unitString unit string to find unit for.
      * @return unit for string unit
      **/
-    UnitPtr unit(const QString& unitString) const;
+    UnitPtr unit(const QString &unitString) const;
 
     /**
     * Find unit for unit enum.
@@ -183,7 +183,7 @@ public:
      * @param category name of the category to find (length, area, mass, etc.).
      * @return unit category named category or invalid category.
      **/
-    UnitCategory* category(const QString& category) const;
+    UnitCategory *category(const QString &category) const;
 
     /**
      * Find unit category.
@@ -191,14 +191,14 @@ public:
      * @param categoryId id of the category to find (LengthCategory, AreaCategory, etc.).
      * @return unit category which id is categoryId or invalid category.
      **/
-    UnitCategory* category(int categoryId) const;
+    UnitCategory *category(int categoryId) const;
 
     /**
      * Returns a list of all unit categories.
      *
      * @return list of unit categories.
      **/
-    QList<UnitCategory*> categories() const;
+    QList<UnitCategory *> categories() const;
 
 private:
     ConverterPrivate *d;

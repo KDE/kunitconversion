@@ -29,14 +29,14 @@ Acceleration::Acceleration() : UnitCategory(AccelerationCategory)
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (acceleration)", "%1 %2"));
 
     setDefaultUnit(UP(MetresPerSecondSquared, 1,
-      i18nc("acceleration unit symbol", "m/s²"),
-      i18nc("unit description in lists", "meters per second squared"),
-      i18nc("unit synonyms for matching user input",
-            "meter per second squared;meters per second squared;m/s²;m/s2;m/s^2"),
-      ki18nc("amount in units (real)", "%1 meters per second squared"),
-      ki18ncp("amount in units (integer)", "%1 meter per second squared",
-              "%1 meters per second squared")
-    ));
+                      i18nc("acceleration unit symbol", "m/s²"),
+                      i18nc("unit description in lists", "meters per second squared"),
+                      i18nc("unit synonyms for matching user input",
+                            "meter per second squared;meters per second squared;m/s²;m/s2;m/s^2"),
+                      ki18nc("amount in units (real)", "%1 meters per second squared"),
+                      ki18ncp("amount in units (integer)", "%1 meter per second squared",
+                              "%1 meters per second squared")
+                     ));
     U(FeetPerSecondSquared, 0.3048,
       i18nc("acceleration unit symbol", "ft/s²"),
       i18nc("unit description in lists", "feet per second squared"),
@@ -45,7 +45,7 @@ Acceleration::Acceleration() : UnitCategory(AccelerationCategory)
       ki18nc("amount in units (real)", "%1 feet per second squared"),
       ki18ncp("amount in units (integer)", "%1 foot per second squared",
               "%1 feet per second squared")
-    );
+     );
     U(StandardGravity, 9.80665,
       i18nc("acceleration unit symbol", "g"),
       i18nc("unit description in lists", "standard gravity"),
@@ -53,9 +53,9 @@ Acceleration::Acceleration() : UnitCategory(AccelerationCategory)
       ki18nc("amount in units (real)", "%1 times standard gravity"),
       ki18ncp("amount in units (integer)", "%1 standard gravity",
               "%1 times standard gravity")
-    );
+     );
 
     setMostCommonUnits(QList<int>() <<
-            MetresPerSecondSquared << FeetPerSecondSquared);
+                       MetresPerSecondSquared << FeetPerSecondSquared);
 }
 

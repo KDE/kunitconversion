@@ -72,7 +72,7 @@ public:
      *
      * @return Pointer to unit class.
      **/
-    UnitPtr unit(const QString& s) const;
+    UnitPtr unit(const QString &s) const;
 
     /**
     * Return unit for unit enum.
@@ -109,9 +109,9 @@ public:
      * @param toUnit unit to convert to. If empty default unit is used.
      * @return converted value
      **/
-    Value convert(const Value& value, const QString& toUnit = QString());
-    Value convert(const Value& value, int toUnit);
-    virtual Value convert(const Value& value, UnitPtr toUnit);
+    Value convert(const Value &value, const QString &toUnit = QString());
+    Value convert(const Value &value, int toUnit);
+    virtual Value convert(const Value &value, UnitPtr toUnit);
 
     /**
      * @return category id.
@@ -119,21 +119,21 @@ public:
     int id() const;
 
 protected:
-    void setName(const QString& name);
+    void setName(const QString &name);
     void setDefaultUnit(UnitPtr defaultUnit);
-    void addUnitName(const QString& name);
-    void addUnitMapValues(UnitPtr unit, const QString& names);
+    void addUnitName(const QString &name);
+    void addUnitMapValues(UnitPtr unit, const QString &names);
     void addIdMapValue(UnitPtr unit, int id);
-    void setDescription(const QString& desc);
-    void setUrl(const QUrl & url);
-    void setSymbolStringFormat(const KLocalizedString& symbolStringFormat);
-    void setMostCommonUnits(const QList<int>& units);
+    void setDescription(const QString &desc);
+    void setUrl(const QUrl &url);
+    void setSymbolStringFormat(const KLocalizedString &symbolStringFormat);
+    void setMostCommonUnits(const QList<int> &units);
     KLocalizedString symbolStringFormat() const;
 
 private:
     friend class Unit;
     class Private;
-    Private* const d;
+    Private *const d;
 };
 
 } // KUnitConversion namespace
