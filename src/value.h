@@ -22,7 +22,7 @@
 
 #include <QtCore/QString>
 #include "unit.h"
-#include "kunitconversion_export.h"
+#include "kunitconversion/kunitconversion_export.h"
 
 class QVariant;
 

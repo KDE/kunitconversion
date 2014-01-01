@@ -25,7 +25,7 @@
 #include <QtCore/QString>
 #include <QtCore/QStringList>
 #include <QUrl>
-#include "kunitconversion_export.h"
+#include "kunitconversion/kunitconversion_export.h"
 
 namespace KUnitConversion
 {
