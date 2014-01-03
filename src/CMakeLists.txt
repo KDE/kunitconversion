@@ -28,8 +28,8 @@ set(kunitconversion_LIB_SRCS
 add_library(KF5UnitConversion ${kunitconversion_LIB_SRCS})
 generate_export_header(KF5UnitConversion BASE_NAME KUnitConversion EXPORT_FILE_NAME ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h)
 add_library(KF5::UnitConversion ALIAS KF5UnitConversion)
-target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${KUnitConversion_BINARY_DIR}>" "$<INSTALL_INTERFACE:${INCLUDE_INSTALL_DIR}/kunitconversion>")
-target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${INCLUDE_INSTALL_DIR}>")
+target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${KUnitConversion_BINARY_DIR}>")
+target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${INCLUDE_INSTALL_DIR}>/KUnitConversion")
 
 target_link_libraries(KF5UnitConversion PUBLIC  Qt5::Core
                                         PRIVATE Qt5::Xml
@@ -51,6 +51,7 @@ ecm_generate_headers(
   UnitCategory
 
   MODULE_NAME KUnitConversion
+  PREFIX KUnitConversion
   REQUIRED_HEADERS KUnitConversion_HEADERS
 )
 install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/KUnitConversion DESTINATION ${INCLUDE_INSTALL_DIR} COMPONENT Devel)
@@ -59,5 +60,5 @@ install(TARGETS KF5UnitConversion EXPORT KF5UnitConversionTargets ${INSTALL_TARG
 install(FILES
   ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
   ${KUnitConversion_HEADERS}
-  DESTINATION ${INCLUDE_INSTALL_DIR}/kunitconversion COMPONENT Devel
+  DESTINATION ${INCLUDE_INSTALL_DIR}/KUnitConversion/kunitconversion COMPONENT Devel
 )
