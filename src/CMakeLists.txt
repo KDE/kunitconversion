@@ -44,7 +44,6 @@ set_target_properties(KF5UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_V
 )
 
 ecm_generate_headers(
-  KCurrencyCode
   Converter
   Value
   Unit
@@ -52,6 +51,12 @@ ecm_generate_headers(
 
   MODULE_NAME KUnitConversion
   PREFIX KUnitConversion
+  REQUIRED_HEADERS KUnitConversion_namespaced_HEADERS
+)
+ecm_generate_headers(
+  KCurrencyCode
+
+  MODULE_NAME KUnitConversion
   REQUIRED_HEADERS KUnitConversion_HEADERS
 )
 install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/KUnitConversion DESTINATION ${INCLUDE_INSTALL_DIR} COMPONENT Devel)
@@ -59,6 +64,10 @@ install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/KUnitConversion DESTINATION ${INCL
 install(TARGETS KF5UnitConversion EXPORT KF5UnitConversionTargets ${INSTALL_TARGETS_DEFAULT_ARGS})
 install(FILES
   ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
-  ${KUnitConversion_HEADERS}
+  ${KUnitConversion_namespaced_HEADERS}
   DESTINATION ${INCLUDE_INSTALL_DIR}/KUnitConversion/kunitconversion COMPONENT Devel
+)
+install(FILES
+  ${KUnitConversion_HEADERS}
+  DESTINATION ${INCLUDE_INSTALL_DIR}/KUnitConversion COMPONENT Devel
 )
