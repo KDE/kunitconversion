@@ -33,7 +33,7 @@ if (MSVC)
 endif()
 generate_export_header(KF5UnitConversion BASE_NAME KUnitConversion EXPORT_FILE_NAME ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h)
 add_library(KF5::UnitConversion ALIAS KF5UnitConversion)
-target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${KUnitConversion_BINARY_DIR}>")
+target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${KUnitConversion_BINARY_DIR};${CMAKE_CURRENT_BINARY_DIR}>")
 target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${INCLUDE_INSTALL_DIR}>/KUnitConversion")
 
 target_link_libraries(KF5UnitConversion PUBLIC  Qt5::Core
@@ -48,23 +48,23 @@ set_target_properties(KF5UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_V
                                                    EXPORT_NAME UnitConversion
 )
 
-ecm_generate_headers(
+ecm_generate_headers(KUnitConversion_CamelCase_HEADERS
+  HEADER_NAMES
   Converter
   Value
   Unit
   UnitCategory
 
-  MODULE_NAME KUnitConversion
   PREFIX KUnitConversion
   REQUIRED_HEADERS KUnitConversion_namespaced_HEADERS
 )
-ecm_generate_headers(
+ecm_generate_headers(KUnitConversion_CamelCase_HEADERS
+  HEADER_NAMES
   KCurrencyCode
 
-  MODULE_NAME KUnitConversion
   REQUIRED_HEADERS KUnitConversion_HEADERS
 )
-install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/KUnitConversion DESTINATION ${INCLUDE_INSTALL_DIR} COMPONENT Devel)
+install(FILES ${KUnitConversion_CamelCase_HEADERS} DESTINATION ${INCLUDE_INSTALL_DIR}/KUnitConversion/KUnitConversion COMPONENT Devel)
 
 install(TARGETS KF5UnitConversion EXPORT KF5UnitConversionTargets ${INSTALL_TARGETS_DEFAULT_ARGS})
 install(FILES
