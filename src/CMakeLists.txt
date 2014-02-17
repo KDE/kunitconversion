@@ -34,7 +34,7 @@ endif()
 generate_export_header(KF5UnitConversion BASE_NAME KUnitConversion EXPORT_FILE_NAME ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h)
 add_library(KF5::UnitConversion ALIAS KF5UnitConversion)
 target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${KUnitConversion_BINARY_DIR};${CMAKE_CURRENT_BINARY_DIR}>")
-target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${INCLUDE_INSTALL_DIR}>/KUnitConversion")
+target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${INCLUDE_INSTALL_DIR}/KUnitConversion>")
 
 target_link_libraries(KF5UnitConversion PUBLIC  Qt5::Core
                                         PRIVATE Qt5::Xml
