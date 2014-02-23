@@ -1,6 +1,6 @@
 /*
- *   Copyright (C) 2008-2009 Petri Damstén <damu@iki.fi>
- *   Copyright (C) 2008 Kristof Bal <kristof.bal@gmail.com>
+ *   author Kashyap R Puranik
+ *   email  kashthealien@gmail.com
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -18,15 +18,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef MASS_H
-#define MASS_H
+#ifndef DENSITY_P_H
+#define DENSITY_P_H
 
 #include "unitcategory.h"
 
-class Mass : public KUnitConversion::UnitCategory
+class Density : public KUnitConversion::UnitCategory
 {
 public:
-    Mass();
+    Density();
 };
 
 #endif

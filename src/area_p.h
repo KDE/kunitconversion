@@ -1,5 +1,5 @@
 /*
- *   Copyright (C) 2009 Petri Damstén <damu@iki.fi>
+ *   Copyright (C) 2007-2009 Petri Damstén <damu@iki.fi>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -17,15 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef PRESSURE_H
-#define PRESSURE_H
+#ifndef AREA_P_H
+#define AREA_P_H
 
 #include "unitcategory.h"
 
-class Pressure : public KUnitConversion::UnitCategory
+class Area : public KUnitConversion::UnitCategory
 {
 public:
-    Pressure();
+    Area();
 };
 
 #endif

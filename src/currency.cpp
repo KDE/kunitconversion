@@ -17,7 +17,7 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#include "currency.h"
+#include "currency_p.h"
 
 #include "converter.h"
 #include <QLocale>

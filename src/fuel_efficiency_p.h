@@ -17,8 +17,8 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef FUELEFFICIENCY_H
-#define FUELEFFICIENCY_H
+#ifndef FUELEFFICIENCY_P_H
+#define FUELEFFICIENCY_P_H
 
 #include "unitcategory.h"
 

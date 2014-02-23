@@ -17,15 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef POWER_H
-#define POWER_H
+#ifndef TIME_P_H
+#define TIME_P_H
 
 #include "unitcategory.h"
 
-class Power : public KUnitConversion::UnitCategory
+class Time : public KUnitConversion::UnitCategory
 {
 public:
-    Power();
+    Time();
 };
 
 #endif

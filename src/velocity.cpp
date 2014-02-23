@@ -17,7 +17,8 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#include "velocity.h"
+#include "velocity_p.h"
+
 #include "converter.h"
 #include <math.h>
 #include <klocalizedstring.h>

@@ -17,15 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef ANGLE_H
-#define ANGLE_H
+#ifndef FREQUENCY_P_H
+#define FREQUENCY_P_H
 
 #include "unitcategory.h"
 
-class Angle : public KUnitConversion::UnitCategory
+class Frequency : public KUnitConversion::UnitCategory
 {
 public:
-    Angle();
+    Frequency();
 };
 
 #endif

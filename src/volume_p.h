@@ -1,6 +1,5 @@
 /*
- *   author Kashyap R Puranik
- *   email  kashthealien@gmail.com
+ *   Copyright (C) 2007-2009 Petri Damstén <damu@iki.fi>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -18,15 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef DENSITY_H
-#define DENSITY_H
+#ifndef VOLUME_P_H
+#define VOLUME_P_H
 
 #include "unitcategory.h"
 
-class Density : public KUnitConversion::UnitCategory
+class Volume : public KUnitConversion::UnitCategory
 {
 public:
-    Density();
+    Volume();
 };
 
 #endif

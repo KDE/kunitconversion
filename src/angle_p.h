@@ -17,15 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef FORCE_H
-#define FORCE_H
+#ifndef ANGLE_P_H
+#define ANGLE_P_H
 
 #include "unitcategory.h"
 
-class Force : public KUnitConversion::UnitCategory
+class Angle : public KUnitConversion::UnitCategory
 {
 public:
-    Force();
+    Angle();
 };
 
 #endif

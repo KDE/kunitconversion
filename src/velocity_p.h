@@ -1,5 +1,5 @@
 /*
- *   Copyright (C) 2010 Petri Damstén <damu@iki.fi>
+ *   Copyright (C) 2008-2009 Petri Damstén <damu@iki.fi>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -17,15 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef ACCELERATION_H
-#define ACCELERATION_H
+#ifndef VELOCITY_P_H
+#define VELOCITY_P_H
 
 #include "unitcategory.h"
 
-class Acceleration : public KUnitConversion::UnitCategory
+class Velocity : public KUnitConversion::UnitCategory
 {
 public:
-    Acceleration();
+    Velocity();
 };
 
 #endif

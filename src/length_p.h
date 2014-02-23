@@ -17,15 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef AREA_H
-#define AREA_H
+#ifndef LENGTH_P_H
+#define LENGTH_P_H
 
 #include "unitcategory.h"
 
-class Area : public KUnitConversion::UnitCategory
+class Length : public KUnitConversion::UnitCategory
 {
 public:
-    Area();
+    Length();
 };
 
 #endif

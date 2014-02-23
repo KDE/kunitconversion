@@ -1,5 +1,5 @@
 /*
- *   Copyright (C) 2007-2009 Petri Damstén <damu@iki.fi>
+ *   Copyright (C) 2009 Petri Damstén <damu@iki.fi>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -17,15 +17,15 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef VOLUME_H
-#define VOLUME_H
+#ifndef ENERGY_P_H
+#define ENERGY_P_H
 
 #include "unitcategory.h"
 
-class Volume : public KUnitConversion::UnitCategory
+class Energy : public KUnitConversion::UnitCategory
 {
 public:
-    Volume();
+    Energy();
 };
 
 #endif

@@ -1,5 +1,5 @@
 /*
- *   Copyright (C) 2007-2009 Petri Damstén <damu@iki.fi>
+ *   Copyright (C) 2009 Petri Damstén <damu@iki.fi>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
@@ -17,15 +17,21 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef LENGTH_H
-#define LENGTH_H
+#ifndef CURRENCY_P_H
+#define CURRENCY_P_H
 
 #include "unitcategory.h"
 
-class Length : public KUnitConversion::UnitCategory
+class Currency : public KUnitConversion::UnitCategory
 {
 public:
-    Length();
+    Currency();
+    virtual KUnitConversion::Value convert(const KUnitConversion::Value &value,
+                                           KUnitConversion::UnitPtr to);
+
+private:
+    QString m_cache;
+    bool m_update;
 };
 
 #endif
