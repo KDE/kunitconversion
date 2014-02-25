@@ -21,7 +21,8 @@ include(ECMGenerateHeaders)
 set(KF5_VERSION "4.96.0")
 ecm_setup_version(${KF5_VERSION} VARIABLE_PREFIX KUNITCONVERSION
                         VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/kunitconversion_version.h"
-                        PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5UnitConversionConfigVersion.cmake")
+                        PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5UnitConversionConfigVersion.cmake"
+                        SOVERSION 5)
 
 if("${CMAKE_BINARY_DIR}" STREQUAL "${CMAKE_CURRENT_BINARY_DIR}")
   find_package(KF5I18n ${KF5_VERSION} REQUIRED)
