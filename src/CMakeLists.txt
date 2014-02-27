@@ -1,6 +1,7 @@
 add_definitions(-DTRANSLATION_DOMAIN="libkunitconversion")
 
 set(kunitconversion_LIB_SRCS
+    kcurrencycode.cpp
     converter.cpp
     value.cpp
     unit.cpp
@@ -39,6 +40,7 @@ target_link_libraries(KF5UnitConversion PUBLIC  Qt5::Core
                                         PRIVATE Qt5::Xml
                                                 Qt5::Network
                                                 KF5::I18n #i18n(), ...
+                                                KF5::ConfigCore #only KCurrencyCodePrivate::loadCurrency
 )
 
 set_target_properties(KF5UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_VERSION_STRING}
@@ -55,6 +57,12 @@ ecm_generate_headers(KUnitConversion_CamelCase_HEADERS
 
   PREFIX KUnitConversion
   REQUIRED_HEADERS KUnitConversion_namespaced_HEADERS
+)
+ecm_generate_headers(KUnitConversion_CamelCase_HEADERS
+  HEADER_NAMES
+  KCurrencyCode
+
+  REQUIRED_HEADERS KUnitConversion_HEADERS
 )
 install(FILES ${KUnitConversion_CamelCase_HEADERS} DESTINATION ${INCLUDE_INSTALL_DIR}/KUnitConversion/KUnitConversion COMPONENT Devel)
 
