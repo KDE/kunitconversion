@@ -33,7 +33,7 @@ class KUNITCONVERSION_EXPORT Value
 {
 public:
     Value();
-    Value(double n, UnitPtr u);
+    Value(double n, const Unit &u);
     Value(double n, const QString &u);
     Value(double n, int u);
     Value(const QVariant &n, const QString &u);
@@ -86,12 +86,12 @@ public:
     /**
      * Unit part of the value
      **/
-    UnitPtr unit() const;
+    Unit unit() const;
 
     /**
     * convert to another unit
     **/
-    Value convertTo(UnitPtr unit) const;
+    Value convertTo(const Unit &unit) const;
 
     /**
     * convert to another unit

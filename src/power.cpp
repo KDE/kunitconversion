@@ -99,13 +99,13 @@ Power::Power() : UnitCategory(PowerCategory)
       ki18nc("amount in units (real)", "%1 decawatts"),
       ki18ncp("amount in units (integer)", "%1 decawatt", "%1 decawatts")
      );
-    setDefaultUnit(UP(Watt, 1,
-                      i18nc("power unit symbol", "W"),
-                      i18nc("unit description in lists", "watts"),
-                      i18nc("unit synonyms for matching user input", "watt;watts;W"),
-                      ki18nc("amount in units (real)", "%1 watts"),
-                      ki18ncp("amount in units (integer)", "%1 watt", "%1 watts")
-                     ));
+    setDefaultUnit(Unit(this, Watt, 1,
+                        i18nc("power unit symbol", "W"),
+                        i18nc("unit description in lists", "watts"),
+                        i18nc("unit synonyms for matching user input", "watt;watts;W"),
+                        ki18nc("amount in units (real)", "%1 watts"),
+                        ki18ncp("amount in units (integer)", "%1 watt", "%1 watts")
+                        ));
     U(Deciwatt, 0.1,
       i18nc("power unit symbol", "dW"),
       i18nc("unit description in lists", "deciwatts"),

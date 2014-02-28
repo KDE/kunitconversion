@@ -99,13 +99,13 @@ Pressure::Pressure() : UnitCategory(PressureCategory)
       ki18nc("amount in units (real)", "%1 decapascals"),
       ki18ncp("amount in units (integer)", "%1 decapascal", "%1 decapascals")
      );
-    setDefaultUnit(UP(Pascal, 1,
-                      i18nc("pressure unit symbol", "Pa"),
-                      i18nc("unit description in lists", "pascals"),
-                      i18nc("unit synonyms for matching user input", "pascal;pascals;Pa"),
-                      ki18nc("amount in units (real)", "%1 pascals"),
-                      ki18ncp("amount in units (integer)", "%1 pascal", "%1 pascals")
-                     ));
+    setDefaultUnit(Unit(this, Pascal, 1,
+                        i18nc("pressure unit symbol", "Pa"),
+                        i18nc("unit description in lists", "pascals"),
+                        i18nc("unit synonyms for matching user input", "pascal;pascals;Pa"),
+                        ki18nc("amount in units (real)", "%1 pascals"),
+                        ki18ncp("amount in units (integer)", "%1 pascal", "%1 pascals")
+                        ));
     U(Decipascal, 0.1,
       i18nc("pressure unit symbol", "dPa"),
       i18nc("unit description in lists", "decipascals"),

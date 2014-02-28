@@ -99,13 +99,13 @@ Force::Force() : UnitCategory(ForceCategory)
       ki18nc("amount in units (real)", "%1 decanewtons"),
       ki18ncp("amount in units (integer)", "%1 decanewton", "%1 decanewtons")
      );
-    setDefaultUnit(UP(Newton, 1,
-                      i18nc("force unit symbol", "N"),
-                      i18nc("unit description in lists", "newtons"),
-                      i18nc("unit synonyms for matching user input", "newton;newtons;N"),
-                      ki18nc("amount in units (real)", "%1 newtons"),
-                      ki18ncp("amount in units (integer)", "%1 newton", "%1 newtons")
-                     ));
+    setDefaultUnit(Unit(this, Newton, 1,
+                        i18nc("force unit symbol", "N"),
+                        i18nc("unit description in lists", "newtons"),
+                        i18nc("unit synonyms for matching user input", "newton;newtons;N"),
+                        ki18nc("amount in units (real)", "%1 newtons"),
+                        ki18ncp("amount in units (integer)", "%1 newton", "%1 newtons")
+                        ));
     U(Decinewton, 0.1,
       i18nc("force unit symbol", "dN"),
       i18nc("unit description in lists", "decinewtons"),

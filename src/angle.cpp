@@ -42,13 +42,13 @@ Angle::Angle() : UnitCategory(AngleCategory)
     setName(i18n("Angle"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (angle)", "%1 %2"));
 
-    setDefaultUnit(UP(Degree, 1,
-                      i18nc("angle unit symbol", "°"),
-                      i18nc("unit description in lists", "degrees"),
-                      i18nc("unit synonyms for matching user input", "deg;degree;degrees;°"),
-                      ki18nc("amount in units (real)", "%1 degrees"),
-                      ki18ncp("amount in units (integer)", "%1 degree", "%1 degrees")
-                     ));
+    setDefaultUnit(Unit(this, Degree, 1,
+                        i18nc("angle unit symbol", "°"),
+                        i18nc("unit description in lists", "degrees"),
+                        i18nc("unit synonyms for matching user input", "deg;degree;degrees;°"),
+                        ki18nc("amount in units (real)", "%1 degrees"),
+                        ki18ncp("amount in units (integer)", "%1 degree", "%1 degrees")
+                        ));
     U(Radian, new RadiansConv(),
       i18nc("angle unit symbol", "rad"),
       i18nc("unit description in lists", "radians"),

@@ -151,7 +151,7 @@ public:
      **/
     Value convert(const Value &value, const QString &toUnit = QString()) const;
     Value convert(const Value &value, int toUnit) const;
-    Value convert(const Value &value, UnitPtr toUnit) const;
+    Value convert(const Value &value, const Unit &toUnit) const;
 
     /**
      * Find unit category for unit.
@@ -167,7 +167,7 @@ public:
      * @param unitString unit string to find unit for.
      * @return unit for string unit
      **/
-    UnitPtr unit(const QString &unitString) const;
+    Unit unit(const QString &unitString) const;
 
     /**
     * Find unit for unit enum.
@@ -175,7 +175,7 @@ public:
     * @param unit unit enum to find unit for.
     * @return unit for string unit
     **/
-    UnitPtr unit(int unitId) const;
+    Unit unit(int unitId) const;
 
     /**
      * Find unit category.

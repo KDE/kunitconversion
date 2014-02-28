@@ -65,13 +65,13 @@ FuelEfficiency::FuelEfficiency() : UnitCategory(FuelEfficiencyCategory)
     setName(i18n("Fuel Efficiency"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (fuel efficiency)", "%1 %2"));
 
-    setDefaultUnit(UP(LitersPer100Kilometers, 1,
-                      i18nc("fuelefficiency unit symbol", "l/100 km"),
-                      i18nc("unit description in lists", "liters per 100 kilometers"),
-                      i18nc("unit synonyms for matching user input", "liters per 100 kilometers;liters per 100 kilometers;l/100 km;L/100 km"),
-                      ki18nc("amount in units (real)", "%1 liters per 100 kilometers"),
-                      ki18ncp("amount in units (integer)", "%1 liters per 100 kilometers", "%1 liters per 100 kilometers")
-                     ));
+    setDefaultUnit(Unit(this, LitersPer100Kilometers, 1,
+                        i18nc("fuelefficiency unit symbol", "l/100 km"),
+                        i18nc("unit description in lists", "liters per 100 kilometers"),
+                        i18nc("unit synonyms for matching user input", "liters per 100 kilometers;liters per 100 kilometers;l/100 km;L/100 km"),
+                        ki18nc("amount in units (real)", "%1 liters per 100 kilometers"),
+                        ki18ncp("amount in units (integer)", "%1 liters per 100 kilometers", "%1 liters per 100 kilometers")
+                        ));
     U(MilePerUsGallon, new mpg(),
       i18nc("fuelefficiency unit symbol", "mpg"),
       i18nc("unit description in lists", "miles per US gallon"),

@@ -36,8 +36,8 @@ void ConverterTest::testCategory()
 
 void ConverterTest::testUnits()
 {
-    QCOMPARE(c.unit(QString("km"))->symbol(), QString("km"));
-    QCOMPARE(c.unit(Kilogram)->symbol(), QString("kg"));
+    QCOMPARE(c.unit(QString("km")).symbol(), QString("km"));
+    QCOMPARE(c.unit(Kilogram).symbol(), QString("kg"));
 }
 
 void ConverterTest::testConvert()
@@ -53,7 +53,7 @@ void ConverterTest::testConvert()
 void ConverterTest::testInvalid()
 {
     QCOMPARE(c.categoryForUnit("does not exist")->id(), (int)InvalidCategory);
-    QCOMPARE(c.unit("does not exist")->symbol(), QString(""));
+    QCOMPARE(c.unit("does not exist").symbol(), QString(""));
     QCOMPARE(c.category("does not exist")->name(), QString("Invalid"));
 }
 

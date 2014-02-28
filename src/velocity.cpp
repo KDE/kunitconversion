@@ -42,13 +42,13 @@ Velocity::Velocity() : UnitCategory(VelocityCategory)
     setName(i18n("Speed"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (velocity)", "%1 %2"));
 
-    setDefaultUnit(UP(MeterPerSecond, 1,
-                      i18nc("velocity unit symbol", "m/s"),
-                      i18nc("unit description in lists", "meters per second"),
-                      i18nc("unit synonyms for matching user input", "meter per second;meters per second;m/s;ms"),
-                      ki18nc("amount in units (real)", "%1 meters per second"),
-                      ki18ncp("amount in units (integer)", "%1 meter per second", "%1 meters per second")
-                     ));
+    setDefaultUnit(Unit(this, MeterPerSecond, 1,
+                        i18nc("velocity unit symbol", "m/s"),
+                        i18nc("unit description in lists", "meters per second"),
+                        i18nc("unit synonyms for matching user input", "meter per second;meters per second;m/s;ms"),
+                        ki18nc("amount in units (real)", "%1 meters per second"),
+                        ki18ncp("amount in units (integer)", "%1 meter per second", "%1 meters per second")
+                        ));
     U(KilometerPerHour, 0.277778,
       i18nc("velocity unit symbol", "km/h"),
       i18nc("unit description in lists", "kilometers per hour"),

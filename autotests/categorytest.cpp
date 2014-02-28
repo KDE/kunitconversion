@@ -38,10 +38,10 @@ void CategoryTest::testInfo()
 void CategoryTest::testUnits()
 {
     UnitCategory *cg = c.category(MassCategory);
-    QCOMPARE(cg->defaultUnit()->symbol(), QString("kg"));
+    QCOMPARE(cg->defaultUnit().symbol(), QString("kg"));
     QCOMPARE(cg->hasUnit(QString("g")), true);
-    QCOMPARE(cg->unit(QString("g"))->symbol(), QString("g"));
-    QCOMPARE(cg->unit(Kilogram)->symbol(), QString("kg"));
+    QCOMPARE(cg->unit(QString("g")).symbol(), QString("g"));
+    QCOMPARE(cg->unit(Kilogram).symbol(), QString("kg"));
     QVERIFY(cg->units().size() > 0);
     QVERIFY(cg->allUnits().size() > 0);
 }

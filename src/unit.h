@@ -20,9 +20,10 @@
 #ifndef KUNITCONVERSION_UNIT_H
 #define KUNITCONVERSION_UNIT_H
 
-#include <QtCore/QString>
-#include <QExplicitlySharedDataPointer>
 #include "kunitconversion/kunitconversion_export.h"
+
+#include <QtCore/QString>
+#include <QtCore/QExplicitlySharedDataPointer>
 
 class KLocalizedString;
 
@@ -40,16 +41,60 @@ public:
     virtual double fromDefault(double) const = 0;
 };
 
-class KUNITCONVERSION_EXPORT Unit : public QSharedData
+class UnitPrivate;
+
+class KUNITCONVERSION_EXPORT Unit
 {
 public:
+    /**
+     * Null constructor
+     **/
+    Unit();
     Unit(UnitCategory *category, int id, double multiplier, const QString &symbol,
          const QString &description, const QString &match,
          const KLocalizedString &real, const KLocalizedString &integer);
     Unit(UnitCategory *category, int id, const Complex *complex, const QString &symbol,
          const QString &description, const QString &match,
          const KLocalizedString &real, const KLocalizedString &integer);
-    virtual ~Unit();
+    /**
+     * Copy constructor, copy @param other to this.
+     **/
+    Unit(const Unit &other);
+
+    ~Unit();
+
+    /**
+     * Assignment operator, assign @param other to this.
+     **/
+    Unit &operator=(const Unit &other);
+
+#ifdef Q_COMPILER_RVALUE_REFS
+    /**
+     * Move-assigns \a other to this Unit instance, transferring the
+     * ownership of the managed pointer to this instance.
+     **/
+    Unit &operator=(Unit &&other) { swap(other); return *this; }
+#endif
+
+    /**
+     * Swaps this Unit with \a other. This function is very fast and never fails.
+     **/
+    void swap(Unit &other) { d.swap(other.d); }
+
+    /**
+     * @return Returns true if this Unit is equal to the @param other Unit.
+     **/
+    bool operator==(const Unit &other) const;
+
+    /**
+     * @return Returns true if this Unit is not equal to the @param other Unit.
+     **/
+    bool operator!=(const Unit &other) const;
+
+    /**
+     * @return returns true if this Unit is null
+     **/
+    bool isNull() const;
 
     /**
      * @return translated name for unit.
@@ -118,15 +163,10 @@ protected:
 
 private:
     friend class UnitCategory;
-    class Private;
-    Private *const d;
+    QExplicitlySharedDataPointer<UnitPrivate> d;
 };
 
-typedef QExplicitlySharedDataPointer<Unit> UnitPtr;
-
-#define UP(id, m, s, d, sy, r, i) \
-    (KUnitConversion::UnitPtr(new KUnitConversion::Unit(this, id, m, s, d, sy, r, i)))
-#define U(id, m, s, d, sy, r, i) (new KUnitConversion::Unit(this, id, m, s, d, sy, r, i))
+#define U(id, m, s, d, sy, r, i) (KUnitConversion::Unit(this, id, m, s, d, sy, r, i))
 
 } // KUnitConversion namespace
 

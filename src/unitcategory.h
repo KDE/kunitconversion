@@ -58,7 +58,7 @@ public:
      *
      * @return default unit.
      **/
-    UnitPtr defaultUnit() const;
+    Unit defaultUnit() const;
 
     /**
      * Check if unit category has a unit.
@@ -72,28 +72,28 @@ public:
      *
      * @return Pointer to unit class.
      **/
-    UnitPtr unit(const QString &s) const;
+    Unit unit(const QString &s) const;
 
     /**
     * Return unit for unit enum.
     *
     * @return Pointer to unit class.
     **/
-    UnitPtr unit(int unitId) const;
+    Unit unit(int unitId) const;
 
     /**
      * Return units in this category.
      *
      * @return list of units.
      **/
-    QList<UnitPtr> units() const;
+    QList<Unit> units() const;
 
     /**
      * Return most common units in this category.
      *
      * @return list of units.
      **/
-    QList<UnitPtr> mostCommonUnits() const;
+    QList<Unit> mostCommonUnits() const;
 
     /**
      * Return all unit names, short names and unit synonyms in this category.
@@ -111,7 +111,7 @@ public:
      **/
     Value convert(const Value &value, const QString &toUnit = QString());
     Value convert(const Value &value, int toUnit);
-    virtual Value convert(const Value &value, UnitPtr toUnit);
+    virtual Value convert(const Value &value, const Unit &toUnit);
 
     /**
      * @return category id.
@@ -120,10 +120,10 @@ public:
 
 protected:
     void setName(const QString &name);
-    void setDefaultUnit(UnitPtr defaultUnit);
+    void setDefaultUnit(const Unit &defaultUnit);
     void addUnitName(const QString &name);
-    void addUnitMapValues(UnitPtr unit, const QString &names);
-    void addIdMapValue(UnitPtr unit, int id);
+    void addUnitMapValues(const Unit &unit, const QString &names);
+    void addIdMapValue(const Unit &unit, int id);
     void setDescription(const QString &desc);
     void setUrl(const QUrl &url);
     void setSymbolStringFormat(const KLocalizedString &symbolStringFormat);

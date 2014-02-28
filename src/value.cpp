@@ -33,7 +33,7 @@ public:
         unit = converter.unit(u);
     }
 
-    Private(double n, UnitPtr u)
+    Private(double n, const Unit &u)
         : number(n)
         , unit(u)
     {
@@ -50,7 +50,7 @@ public:
     }
 
     double number;
-    UnitPtr unit;
+    Unit unit;
     Converter converter;
 };
 
@@ -59,7 +59,7 @@ Value::Value()
 {
 }
 
-Value::Value(double n, UnitPtr u)
+Value::Value(double n, const Unit &u)
     : d(new Value::Private(n, u))
 {
 }
@@ -86,13 +86,13 @@ Value::~Value()
 
 bool Value::isValid() const
 {
-    return (d->unit && d->unit->isValid());
+    return (d->unit.isValid());
 }
 
 QString Value::toString(int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
     if (isValid()) {
-        return d->unit->toString(d->number, fieldWidth, format, precision, fillChar);
+        return d->unit.toString(d->number, fieldWidth, format, precision, fillChar);
     }
     return QString();
 }
@@ -101,7 +101,7 @@ QString Value::toSymbolString(int fieldWidth, char format, int precision,
                               const QChar &fillChar) const
 {
     if (isValid()) {
-        return d->unit->toSymbolString(d->number, fieldWidth, format, precision, fillChar);
+        return d->unit.toSymbolString(d->number, fieldWidth, format, precision, fillChar);
     }
     return QString();
 }
@@ -120,9 +120,9 @@ double Value::number() const
     return d->number;
 }
 
-UnitPtr Value::unit() const
+Unit Value::unit() const
 {
-    if (!d->unit) {
+    if (d->unit.isNull()) {
         d->unit = d->converter.unit(InvalidUnit);
     }
     return d->unit;
@@ -135,7 +135,7 @@ Value &Value::operator=(const Value &value)
     return *this;
 }
 
-Value Value::convertTo(UnitPtr unit) const
+Value Value::convertTo(const Unit &unit) const
 {
     return d->converter.convert(*this, unit);
 }

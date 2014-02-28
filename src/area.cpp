@@ -124,13 +124,13 @@ Area::Area() : UnitCategory(AreaCategory)
       ki18nc("amount in units (real)", "%1 square decameters"),
       ki18ncp("amount in units (integer)", "%1 square decameter", "%1 square decameters")
      );
-    setDefaultUnit(UP(SquareMeter, 1,
-                      i18nc("area unit symbol", "m²"),
-                      i18nc("unit description in lists", "square meters"),
-                      i18nc("unit synonyms for matching user input", "square meter;square meters;m²;m/-2;m^2;m2"),
-                      ki18nc("amount in units (real)", "%1 square meters"),
-                      ki18ncp("amount in units (integer)", "%1 square meter", "%1 square meters")
-                     ));
+    setDefaultUnit(Unit(this, SquareMeter, 1,
+                        i18nc("area unit symbol", "m²"),
+                        i18nc("unit description in lists", "square meters"),
+                        i18nc("unit synonyms for matching user input", "square meter;square meters;m²;m/-2;m^2;m2"),
+                        ki18nc("amount in units (real)", "%1 square meters"),
+                        ki18ncp("amount in units (integer)", "%1 square meter", "%1 square meters")
+                        ));
     U(SquareDecimeter, 0.01,
       i18nc("area unit symbol", "dm²"),
       i18nc("unit description in lists", "square decimeters"),

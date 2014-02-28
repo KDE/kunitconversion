@@ -79,13 +79,13 @@ Mass::Mass() : UnitCategory(MassCategory)
       ki18nc("amount in units (real)", "%1 megagrams"),
       ki18ncp("amount in units (integer)", "%1 megagram", "%1 megagrams")
      );
-    setDefaultUnit(UP(Kilogram, 1000,
-                      i18nc("mass unit symbol", "kg"),
-                      i18nc("unit description in lists", "kilograms"),
-                      i18nc("unit synonyms for matching user input", "kilogram;kilograms;kg"),
-                      ki18nc("amount in units (real)", "%1 kilograms"),
-                      ki18ncp("amount in units (integer)", "%1 kilogram", "%1 kilograms")
-                     ));
+    setDefaultUnit(Unit(this, Kilogram, 1000,
+                        i18nc("mass unit symbol", "kg"),
+                        i18nc("unit description in lists", "kilograms"),
+                        i18nc("unit synonyms for matching user input", "kilogram;kilograms;kg"),
+                        ki18nc("amount in units (real)", "%1 kilograms"),
+                        ki18ncp("amount in units (integer)", "%1 kilogram", "%1 kilograms")
+                        ));
     U(Hectogram, 100,
       i18nc("mass unit symbol", "hg"),
       i18nc("unit description in lists", "hectograms"),

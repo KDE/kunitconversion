@@ -29,15 +29,15 @@ Density::Density() : UnitCategory(DensityCategory)
     setName(i18n("Density"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (density)", "%1 %2"));
 
-    setDefaultUnit(UP(KilogramsPerCubicMeter, 1,
-                      i18nc("density unit symbol", "kg/m³"),
-                      i18nc("unit description in lists", "kilograms per cubic meter"),
-                      i18nc("unit synonyms for matching user input",
-                            "kilogram per cubic meter;kilograms per cubic meter;kg/m³"),
-                      ki18nc("amount in units (real)", "%1 kilograms per cubic meter"),
-                      ki18ncp("amount in units (integer)",
-                              "%1 kilogram per cubic meter", "%1 kilograms per cubic meter")
-                     ));
+    setDefaultUnit(Unit(this, KilogramsPerCubicMeter, 1,
+                        i18nc("density unit symbol", "kg/m³"),
+                        i18nc("unit description in lists", "kilograms per cubic meter"),
+                        i18nc("unit synonyms for matching user input",
+                              "kilogram per cubic meter;kilograms per cubic meter;kg/m³"),
+                        ki18nc("amount in units (real)", "%1 kilograms per cubic meter"),
+                        ki18ncp("amount in units (integer)",
+                                "%1 kilogram per cubic meter", "%1 kilograms per cubic meter")
+                        ));
 
     // source Google calculator
     U(KilogramPerLiter, 1000,

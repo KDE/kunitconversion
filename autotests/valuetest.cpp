@@ -30,7 +30,7 @@ void ValueTest::initTestCase()
 
 void ValueTest::testStrings()
 {
-    QCOMPARE(v1.unit()->symbol(), QString("km"));
+    QCOMPARE(v1.unit().symbol(), QString("km"));
     QCOMPARE(v2.toSymbolString(), QString("6.1415 m"));
     QCOMPARE(v3.toString(), QString("9.1415 kilometers"));
 }

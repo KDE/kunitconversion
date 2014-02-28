@@ -246,13 +246,13 @@ Volume::Volume() : UnitCategory(VolumeCategory)
       ki18nc("amount in units (real)", "%1 megaliters"),
       ki18ncp("amount in units (integer)", "%1 megaliter", "%1 megaliters")
      );
-    setDefaultUnit(UP(Kiloliter, 1,
-                      i18nc("volume unit symbol", "kl"),
-                      i18nc("unit description in lists", "kiloliters"),
-                      i18nc("unit synonyms for matching user input", "kiloliter;kiloliters;kl"),
-                      ki18nc("amount in units (real)", "%1 kiloliters"),
-                      ki18ncp("amount in units (integer)", "%1 kiloliter", "%1 kiloliters")
-                     ));
+    setDefaultUnit(Unit(this, Kiloliter, 1,
+                        i18nc("volume unit symbol", "kl"),
+                        i18nc("unit description in lists", "kiloliters"),
+                        i18nc("unit synonyms for matching user input", "kiloliter;kiloliters;kl"),
+                        ki18nc("amount in units (real)", "%1 kiloliters"),
+                        ki18ncp("amount in units (integer)", "%1 kiloliter", "%1 kiloliters")
+                        ));
     U(Hectoliter, 0.1,
       i18nc("volume unit symbol", "hl"),
       i18nc("unit description in lists", "hectoliters"),

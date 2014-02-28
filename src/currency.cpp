@@ -49,14 +49,14 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (currency)", "%1 %2"));
 
     // Static rates
-    setDefaultUnit(UP(Eur, 1,
-                      "EUR",
-                      i18nc("currency name", "Euro"),
-                      i18nc("EUR Euro - unit synonyms for matching user input", "euro;euros") +
-                      ";EUR;" + QString::fromUtf8("€") + ';' + i18nc("currency name", "Euro"),
-                      ki18nc("amount in units (real)", "%1 euros"),
-                      ki18ncp("amount in units (integer)", "%1 euro", "%1 euros")
-                     ));
+    setDefaultUnit(Unit(this, Eur, 1,
+                        "EUR",
+                        i18nc("currency name", "Euro"),
+                        i18nc("EUR Euro - unit synonyms for matching user input", "euro;euros") +
+                        ";EUR;" + QString::fromUtf8("€") + ';' + i18nc("currency name", "Euro"),
+                        ki18nc("amount in units (real)", "%1 euros"),
+                        ki18ncp("amount in units (integer)", "%1 euro", "%1 euros")
+                        ));
     U(Ats, 0.0726728,
       "ATS",
       i18nc("currency name", "Austrian Schilling"),
@@ -531,7 +531,7 @@ static bool isConnected()
     return ret;
 }
 
-Value Currency::convert(const Value &value, UnitPtr to)
+Value Currency::convert(const Value &value, const Unit &to)
 {
     static QMutex mutex;
 
@@ -575,9 +575,9 @@ Value Currency::convert(const Value &value, UnitPtr to)
                 for (int i = 0; i < list.count(); ++i) {
                     const QDomElement e = list.item(i).toElement();
                     if (e.hasAttribute("currency")) {
-                        UnitPtr u = unit(e.attribute("currency"));
-                        if (u) {
-                            u->setMultiplier(1.0 / e.attribute("rate").toDouble());
+                        Unit u = unit(e.attribute("currency"));
+                        if (u.isValid()) {
+                            u.setMultiplier(1.0 / e.attribute("rate").toDouble());
                         }
                     }
                 }

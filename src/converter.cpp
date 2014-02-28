@@ -53,7 +53,7 @@ public:
         const QString s;
         const KLocalizedString ls;
         setName(i18n("Invalid"));
-        setDefaultUnit(UP(InvalidUnit, 1.0, s, s, s, ls, ls));
+        setDefaultUnit(Unit(this, InvalidUnit, 1.0, s, s, s, ls, ls));
         setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (default)", "%1 %2"));
     };
 };
@@ -103,8 +103,8 @@ Converter::~Converter()
 
 Value Converter::convert(const Value &value, const QString &toUnit) const
 {
-    if (value.unit()) {
-        UnitCategory *category = value.unit()->category();
+    if (value.unit().isValid()) {
+        UnitCategory *category = value.unit().category();
         if (category) {
             return category->convert(value, toUnit);
         }
@@ -114,8 +114,8 @@ Value Converter::convert(const Value &value, const QString &toUnit) const
 
 Value Converter::convert(const Value &value, int toUnit) const
 {
-    if (value.unit()) {
-        UnitCategory *category = value.unit()->category();
+    if (value.unit().isValid()) {
+        UnitCategory *category = value.unit().category();
         if (category) {
             return category->convert(value, toUnit);
         }
@@ -123,10 +123,10 @@ Value Converter::convert(const Value &value, int toUnit) const
     return Value();
 }
 
-Value Converter::convert(const Value &value, UnitPtr toUnit) const
+Value Converter::convert(const Value &value, const Unit &toUnit) const
 {
-    if (toUnit && value.unit() && value.unit()->isValid()) {
-        UnitCategory *category = value.unit()->category();
+    if (toUnit.isValid() && value.unit().isValid()) {
+        UnitCategory *category = value.unit().category();
         if (category) {
             return category->convert(value, toUnit);
         }
@@ -144,22 +144,22 @@ UnitCategory *Converter::categoryForUnit(const QString &unit) const
     return d->categories[InvalidCategory];
 }
 
-UnitPtr Converter::unit(const QString &unitString) const
+Unit Converter::unit(const QString &unitString) const
 {
     foreach (UnitCategory *u, d->categories) {
-        UnitPtr unitClass = u->unit(unitString);
-        if (unitClass) {
+        Unit unitClass = u->unit(unitString);
+        if (unitClass.isValid()) {
             return unitClass;
         }
     }
-    return unit(InvalidUnit);
+    return Unit();
 }
 
-UnitPtr Converter::unit(int unitId) const
+Unit Converter::unit(int unitId) const
 {
     foreach (UnitCategory *u, d->categories) {
-        UnitPtr unitClass = u->unit(unitId);
-        if (unitClass) {
+        Unit unitClass = u->unit(unitId);
+        if (unitClass.isValid()) {
             return unitClass;
         }
     }

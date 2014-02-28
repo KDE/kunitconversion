@@ -99,13 +99,13 @@ Frequency::Frequency() : UnitCategory(FrequencyCategory)
       ki18nc("amount in units (real)", "%1 decahertzs"),
       ki18ncp("amount in units (integer)", "%1 decahertz", "%1 decahertzs")
      );
-    setDefaultUnit(UP(Hertz, 1,
-                      i18nc("frequency unit symbol", "Hz"),
-                      i18nc("unit description in lists", "hertzs"),
-                      i18nc("unit synonyms for matching user input", "hertz;hertzs;Hz"),
-                      ki18nc("amount in units (real)", "%1 hertzs"),
-                      ki18ncp("amount in units (integer)", "%1 hertz", "%1 hertzs")
-                     ));
+    setDefaultUnit(Unit(this, Hertz, 1,
+                        i18nc("frequency unit symbol", "Hz"),
+                        i18nc("unit description in lists", "hertzs"),
+                        i18nc("unit synonyms for matching user input", "hertz;hertzs;Hz"),
+                        ki18nc("amount in units (real)", "%1 hertzs"),
+                        ki18ncp("amount in units (integer)", "%1 hertz", "%1 hertzs")
+                        ));
     U(Decihertz, 0.1,
       i18nc("frequency unit symbol", "dHz"),
       i18nc("unit description in lists", "decihertzs"),
