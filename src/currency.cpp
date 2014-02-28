@@ -49,7 +49,7 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (currency)", "%1 %2"));
 
     // Static rates
-    setDefaultUnit(Unit(this, Eur, 1,
+    setDefaultUnit(Unit(*this, Eur, 1,
                         "EUR",
                         i18nc("currency name", "Euro"),
                         i18nc("EUR Euro - unit synonyms for matching user input", "euro;euros") +

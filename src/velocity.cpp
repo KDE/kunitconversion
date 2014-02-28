@@ -42,7 +42,7 @@ Velocity::Velocity() : UnitCategory(VelocityCategory)
     setName(i18n("Speed"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (velocity)", "%1 %2"));
 
-    setDefaultUnit(Unit(this, MeterPerSecond, 1,
+    setDefaultUnit(Unit(*this, MeterPerSecond, 1,
                         i18nc("velocity unit symbol", "m/s"),
                         i18nc("unit description in lists", "meters per second"),
                         i18nc("unit synonyms for matching user input", "meter per second;meters per second;m/s;ms"),

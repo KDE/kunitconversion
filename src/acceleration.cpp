@@ -29,7 +29,7 @@ Acceleration::Acceleration() : UnitCategory(AccelerationCategory)
     setName(i18n("Acceleration"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (acceleration)", "%1 %2"));
 
-    setDefaultUnit(Unit(this, MetresPerSecondSquared, 1,
+    setDefaultUnit(Unit(*this, MetresPerSecondSquared, 1,
                         i18nc("acceleration unit symbol", "m/s²"),
                         i18nc("unit description in lists", "meters per second squared"),
                         i18nc("unit synonyms for matching user input",

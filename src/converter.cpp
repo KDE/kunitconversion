@@ -45,48 +45,33 @@
 namespace KUnitConversion
 {
 
-class Invalid : public UnitCategory
-{
-public:
-    Invalid() : UnitCategory(InvalidCategory)
-    {
-        const QString s;
-        const KLocalizedString ls;
-        setName(i18n("Invalid"));
-        setDefaultUnit(Unit(this, InvalidUnit, 1.0, s, s, s, ls, ls));
-        setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (default)", "%1 %2"));
-    };
-};
-
 class ConverterPrivate
 {
 public:
-    QMap<int, UnitCategory *> categories;
+    QMap<int, UnitCategory> categories;
     ConverterPrivate()
     {
-        categories[InvalidCategory] = new Invalid;
-        categories[LengthCategory] = new Length;
-        categories[AreaCategory] = new Area();
-        categories[VolumeCategory] = new Volume;
-        categories[TemperatureCategory] = new Temperature;
-        categories[VelocityCategory] = new Velocity;
-        categories[MassCategory] = new Mass;
-        categories[PressureCategory] = new Pressure;
-        categories[EnergyCategory] = new Energy;
-        categories[CurrencyCategory] = new Currency;
-        categories[PowerCategory] = new Power;
-        categories[TimeCategory] = new Time;
-        categories[FuelEfficiencyCategory] = new FuelEfficiency;
-        categories[DensityCategory] = new Density;
-        categories[AccelerationCategory] = new Acceleration;
-        categories[ForceCategory] = new Force;
-        categories[AngleCategory] = new Angle;
-        categories[FrequencyCategory] = new Frequency;
+        categories[LengthCategory] = Length();
+        categories[AreaCategory] = Area();
+        categories[VolumeCategory] = Volume();
+        categories[TemperatureCategory] = Temperature();
+        categories[VelocityCategory] = Velocity();
+        categories[MassCategory] = Mass();
+        categories[PressureCategory] = Pressure();
+        categories[EnergyCategory] = Energy();
+        categories[CurrencyCategory] = Currency();
+        categories[PowerCategory] = Power();
+        categories[TimeCategory] = Time();
+        categories[FuelEfficiencyCategory] = FuelEfficiency();
+        categories[DensityCategory] = Density();
+        categories[AccelerationCategory] = Acceleration();
+        categories[ForceCategory] = Force();
+        categories[AngleCategory] = Angle();
+        categories[FrequencyCategory] = Frequency();
     };
 
     ~ConverterPrivate()
     {
-        qDeleteAll(categories);
     };
 };
 
@@ -104,10 +89,7 @@ Converter::~Converter()
 Value Converter::convert(const Value &value, const QString &toUnit) const
 {
     if (value.unit().isValid()) {
-        UnitCategory *category = value.unit().category();
-        if (category) {
-            return category->convert(value, toUnit);
-        }
+        return value.unit().category().convert(value, toUnit);
     }
     return Value();
 }
@@ -115,10 +97,7 @@ Value Converter::convert(const Value &value, const QString &toUnit) const
 Value Converter::convert(const Value &value, int toUnit) const
 {
     if (value.unit().isValid()) {
-        UnitCategory *category = value.unit().category();
-        if (category) {
-            return category->convert(value, toUnit);
-        }
+        return value.unit().category().convert(value, toUnit);
     }
     return Value();
 }
@@ -126,28 +105,25 @@ Value Converter::convert(const Value &value, int toUnit) const
 Value Converter::convert(const Value &value, const Unit &toUnit) const
 {
     if (toUnit.isValid() && value.unit().isValid()) {
-        UnitCategory *category = value.unit().category();
-        if (category) {
-            return category->convert(value, toUnit);
-        }
+        return value.unit().category().convert(value, toUnit);
     }
     return Value();
 }
 
-UnitCategory *Converter::categoryForUnit(const QString &unit) const
+UnitCategory Converter::categoryForUnit(const QString &unit) const
 {
-    foreach (UnitCategory *u, categories()) {
-        if (u->hasUnit(unit)) {
+    foreach (const UnitCategory &u, categories()) {
+        if (u.hasUnit(unit)) {
             return u;
         }
     }
-    return d->categories[InvalidCategory];
+    return UnitCategory();
 }
 
 Unit Converter::unit(const QString &unitString) const
 {
-    foreach (UnitCategory *u, d->categories) {
-        Unit unitClass = u->unit(unitString);
+    foreach (const UnitCategory &u, d->categories) {
+        Unit unitClass = u.unit(unitString);
         if (unitClass.isValid()) {
             return unitClass;
         }
@@ -157,39 +133,38 @@ Unit Converter::unit(const QString &unitString) const
 
 Unit Converter::unit(int unitId) const
 {
-    foreach (UnitCategory *u, d->categories) {
-        Unit unitClass = u->unit(unitId);
+    foreach (const UnitCategory &u, d->categories) {
+        Unit unitClass = u.unit(unitId);
         if (unitClass.isValid()) {
             return unitClass;
         }
     }
-    return d->categories[InvalidCategory]->defaultUnit();
+    return Unit();
 }
 
-UnitCategory *Converter::category(const QString &category) const
+UnitCategory Converter::category(const QString &category) const
 {
-    foreach (UnitCategory *u, d->categories) {
-        if (u->name() == category) {
+    foreach (const UnitCategory &u, d->categories) {
+        if (u.name() == category) {
             return u;
         }
     }
     // not found
-    return d->categories[InvalidCategory];
+    return UnitCategory();
 }
 
-UnitCategory *Converter::category(int categoryId) const
+UnitCategory Converter::category(int categoryId) const
 {
     if (d->categories.contains(categoryId)) {
         return d->categories[categoryId];
     }
     // not found
-    return d->categories[InvalidCategory];
+    return UnitCategory();
 }
 
-QList<UnitCategory *> Converter::categories() const
+QList<UnitCategory> Converter::categories() const
 {
-    QList<UnitCategory *> categories = d->categories.values();
-    categories.removeAt(0);
+    QList<UnitCategory> categories = d->categories.values();
     return categories;
 }
 

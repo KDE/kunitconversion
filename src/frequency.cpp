@@ -99,7 +99,7 @@ Frequency::Frequency() : UnitCategory(FrequencyCategory)
       ki18nc("amount in units (real)", "%1 decahertzs"),
       ki18ncp("amount in units (integer)", "%1 decahertz", "%1 decahertzs")
      );
-    setDefaultUnit(Unit(this, Hertz, 1,
+    setDefaultUnit(Unit(*this, Hertz, 1,
                         i18nc("frequency unit symbol", "Hz"),
                         i18nc("unit description in lists", "hertzs"),
                         i18nc("unit synonyms for matching user input", "hertz;hertzs;Hz"),

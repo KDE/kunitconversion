@@ -29,7 +29,7 @@ Density::Density() : UnitCategory(DensityCategory)
     setName(i18n("Density"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (density)", "%1 %2"));
 
-    setDefaultUnit(Unit(this, KilogramsPerCubicMeter, 1,
+    setDefaultUnit(Unit(*this, KilogramsPerCubicMeter, 1,
                         i18nc("density unit symbol", "kg/m³"),
                         i18nc("unit description in lists", "kilograms per cubic meter"),
                         i18nc("unit synonyms for matching user input",

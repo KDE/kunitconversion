@@ -99,7 +99,7 @@ Time::Time() : UnitCategory(TimeCategory)
       ki18nc("amount in units (real)", "%1 decaseconds"),
       ki18ncp("amount in units (integer)", "%1 decasecond", "%1 decaseconds")
      );
-    setDefaultUnit(Unit(this, Second, 1,
+    setDefaultUnit(Unit(*this, Second, 1,
                         i18nc("time unit symbol", "s"),
                         i18nc("unit description in lists", "seconds"),
                         i18nc("unit synonyms for matching user input", "second;seconds;s"),

@@ -101,7 +101,7 @@ Temperature::Temperature() : UnitCategory(TemperatureCategory)
     setName(i18n("Temperature"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (temperature)", "%1 %2"));
 
-    setDefaultUnit(Unit(this, Kelvin, 1,
+    setDefaultUnit(Unit(*this, Kelvin, 1,
                         i18nc("temperature unit symbol", "K"),
                         i18nc("unit description in lists", "kelvins"),
                         i18nc("unit synonyms for matching user input", "kelvin;kelvins;K"),

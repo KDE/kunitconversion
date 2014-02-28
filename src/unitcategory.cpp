@@ -24,16 +24,32 @@
 namespace KUnitConversion
 {
 
-class UnitCategory::Private
+class UnitCategoryPrivate : public QSharedData
 {
 public:
-    Private()
+    UnitCategoryPrivate() : id(int(InvalidCategory))
     {
     };
 
-    ~Private()
+    virtual ~UnitCategoryPrivate()
     {
     };
+
+    UnitCategoryPrivate *clone()
+    {
+        return new UnitCategoryPrivate(*this);
+    }
+
+    bool operator==(const UnitCategoryPrivate &other) const
+    {
+        return (id == other.id);
+    }
+
+    bool operator!=(const UnitCategoryPrivate &other) const
+    {
+        return !(*this == other);
+    }
+
     QString name;
     Unit defaultUnit;
     QMap<QString, Unit> unitMap;
@@ -46,39 +62,84 @@ public:
     int id;
 };
 
+UnitCategory::UnitCategory()
+    : d(0)
+{
+}
+
 UnitCategory::UnitCategory(int id)
-    : d(new UnitCategory::Private)
+    : d(new UnitCategoryPrivate)
 {
     d->id = id;
 }
 
+UnitCategory::UnitCategory(const UnitCategory &other)
+    : d(other.d)
+{
+}
+
 UnitCategory::~UnitCategory()
 {
-    delete d;
+}
+
+UnitCategory &UnitCategory::operator=(const UnitCategory &other)
+{
+    d = other.d;
+    return *this;
+}
+
+bool UnitCategory::operator==(const UnitCategory &other) const
+{
+    if (d && other.d)
+        return (*d == *other.d);
+    else
+        return (d == other.d);
+}
+
+bool UnitCategory::operator!=(const UnitCategory &other) const
+{
+    if (d && other.d)
+        return (*d != *other.d);
+    else
+        return (d != other.d);
+}
+
+bool UnitCategory::isNull() const
+{
+    return (d <= 0);
 }
 
 void UnitCategory::setSymbolStringFormat(const KLocalizedString &symbolStringFormat)
 {
-    d->symbolStringFormat = symbolStringFormat;
+    if (d)
+        d->symbolStringFormat = symbolStringFormat;
 }
 
 KLocalizedString UnitCategory::symbolStringFormat() const
 {
-    return d->symbolStringFormat;
+    if (d)
+        return d->symbolStringFormat;
+    return KLocalizedString();
 }
 
 QList<Unit> UnitCategory::units() const
 {
-    return d->units;
+    if (d)
+        return d->units;
+    return QList<Unit>();
 }
 
 QList<Unit> UnitCategory::mostCommonUnits() const
 {
-    return d->mostCommonUnits;
+    if (d)
+        return d->mostCommonUnits;
+    return QList<Unit>();
 }
 
 void UnitCategory::setMostCommonUnits(const QList<int> &units)
 {
+    if (isNull())
+        return;
     d->mostCommonUnits.clear();
     foreach (int u, units) {
         d->mostCommonUnits.append(unit(u));
@@ -87,17 +148,21 @@ void UnitCategory::setMostCommonUnits(const QList<int> &units)
 
 QStringList UnitCategory::allUnits() const
 {
-    return d->unitMap.keys();
+    if (d)
+        return d->unitMap.keys();
+    return QStringList();
 }
 
 bool UnitCategory::hasUnit(const QString &unit) const
 {
-    return d->unitMap.contains(unit);
+    if (d)
+        return d->unitMap.contains(unit);
+    return false;
 }
 
 Value UnitCategory::convert(const Value &value, const QString &toUnit)
 {
-    if ((toUnit.isEmpty() || d->unitMap.contains(toUnit)) && value.unit().isValid()) {
+    if (d && (toUnit.isEmpty() || d->unitMap.contains(toUnit)) && value.unit().isValid()) {
         Unit to = toUnit.isEmpty() ? defaultUnit() : d->unitMap[toUnit];
         return convert(value, to);
     }
@@ -106,7 +171,7 @@ Value UnitCategory::convert(const Value &value, const QString &toUnit)
 
 Value UnitCategory::convert(const Value &value, int toUnit)
 {
-    if (d->idMap.contains(toUnit) && value.unit().isValid()) {
+    if (d && d->idMap.contains(toUnit) && value.unit().isValid()) {
         return convert(value, d->idMap[toUnit]);
     }
     return Value();
@@ -114,7 +179,7 @@ Value UnitCategory::convert(const Value &value, int toUnit)
 
 Value UnitCategory::convert(const Value &value, const Unit &toUnit)
 {
-    if (!toUnit.isNull()) {
+    if (d && !toUnit.isNull()) {
         double v = toUnit.fromDefault(value.unit().toDefault(value.number()));
         return Value(v, toUnit);
     }
@@ -123,6 +188,8 @@ Value UnitCategory::convert(const Value &value, const Unit &toUnit)
 
 void UnitCategory::addUnitMapValues(const Unit &unit, const QString &names)
 {
+    if (isNull())
+        return;
     const QStringList list = names.split(';');
     foreach (const QString &name, list) {
         d->unitMap[name] = unit;
@@ -131,18 +198,22 @@ void UnitCategory::addUnitMapValues(const Unit &unit, const QString &names)
 
 void UnitCategory::addIdMapValue(const Unit &unit, int id)
 {
+    if (isNull())
+        return;
     d->idMap[id] = unit;
     d->units.append(unit);
 }
 
 Unit UnitCategory::unit(const QString &s) const
 {
-    return d->unitMap.value(s);
+    if (d)
+        return d->unitMap.value(s);
+    return Unit();
 }
 
 Unit UnitCategory::unit(int unitId) const
 {
-    if (d->idMap.contains(unitId)) {
+    if (d && d->idMap.contains(unitId)) {
         return d->idMap[unitId];
     }
     return Unit();
@@ -150,47 +221,61 @@ Unit UnitCategory::unit(int unitId) const
 
 QString UnitCategory::name() const
 {
-    return d->name;
+    if (d)
+        return d->name;
+    return QString();
 }
 
 void UnitCategory::setName(const QString &name)
 {
-    d->name = name;
+    if (d)
+        d->name = name;
 }
 
 void UnitCategory::setDefaultUnit(const Unit &defaultUnit)
 {
-    d->defaultUnit = defaultUnit;
+    if (d)
+        d->defaultUnit = defaultUnit;
 }
 
 Unit UnitCategory::defaultUnit() const
 {
-    return d->defaultUnit;
+    if (d)
+        return d->defaultUnit;
+    return Unit();
 }
 
 QString UnitCategory::description() const
 {
-    return d->description;
+    if (d)
+        return d->description;
+    return QString();
 }
 
 void UnitCategory::setDescription(const QString &description)
 {
-    d->description = description;
+    if (d)
+        d->description = description;
 }
 
 QUrl UnitCategory::url() const
 {
-    return d->url;
+    if (d)
+        return d->url;
+    return QUrl();
 }
 
 void UnitCategory::setUrl(const QUrl &url)
 {
-    d->url = url;
+    if (d)
+        d->url = url;
 }
 
 int UnitCategory::id() const
 {
-    return d->id;
+    if (d)
+        return d->id;
+    return int(InvalidCategory);
 }
 
 }

@@ -246,7 +246,7 @@ Volume::Volume() : UnitCategory(VolumeCategory)
       ki18nc("amount in units (real)", "%1 megaliters"),
       ki18ncp("amount in units (integer)", "%1 megaliter", "%1 megaliters")
      );
-    setDefaultUnit(Unit(this, Kiloliter, 1,
+    setDefaultUnit(Unit(*this, Kiloliter, 1,
                         i18nc("volume unit symbol", "kl"),
                         i18nc("unit description in lists", "kiloliters"),
                         i18nc("unit synonyms for matching user input", "kiloliter;kiloliters;kl"),

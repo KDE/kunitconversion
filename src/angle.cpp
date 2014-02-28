@@ -42,7 +42,7 @@ Angle::Angle() : UnitCategory(AngleCategory)
     setName(i18n("Angle"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (angle)", "%1 %2"));
 
-    setDefaultUnit(Unit(this, Degree, 1,
+    setDefaultUnit(Unit(*this, Degree, 1,
                         i18nc("angle unit symbol", "°"),
                         i18nc("unit description in lists", "degrees"),
                         i18nc("unit synonyms for matching user input", "deg;degree;degrees;°"),

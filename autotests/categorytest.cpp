@@ -28,41 +28,41 @@ void CategoryTest::initTestCase()
 
 void CategoryTest::testInfo()
 {
-    UnitCategory *cg = c.category(AreaCategory);
-    QCOMPARE(cg->name(), QString("Area"));
-    QCOMPARE(cg->description(), QString(""));
-    QCOMPARE(cg->url(), QUrl());
-    QCOMPARE(cg->id(), (int)AreaCategory);
+    UnitCategory cg = c.category(AreaCategory);
+    QCOMPARE(cg.name(), QString("Area"));
+    QCOMPARE(cg.description(), QString(""));
+    QCOMPARE(cg.url(), QUrl());
+    QCOMPARE(cg.id(), (int)AreaCategory);
 }
 
 void CategoryTest::testUnits()
 {
-    UnitCategory *cg = c.category(MassCategory);
-    QCOMPARE(cg->defaultUnit().symbol(), QString("kg"));
-    QCOMPARE(cg->hasUnit(QString("g")), true);
-    QCOMPARE(cg->unit(QString("g")).symbol(), QString("g"));
-    QCOMPARE(cg->unit(Kilogram).symbol(), QString("kg"));
-    QVERIFY(cg->units().size() > 0);
-    QVERIFY(cg->allUnits().size() > 0);
+    UnitCategory cg = c.category(MassCategory);
+    QCOMPARE(cg.defaultUnit().symbol(), QString("kg"));
+    QCOMPARE(cg.hasUnit(QString("g")), true);
+    QCOMPARE(cg.unit(QString("g")).symbol(), QString("g"));
+    QCOMPARE(cg.unit(Kilogram).symbol(), QString("kg"));
+    QVERIFY(cg.units().size() > 0);
+    QVERIFY(cg.allUnits().size() > 0);
 }
 
 void CategoryTest::testConvert()
 {
-    UnitCategory *cg = c.category(LengthCategory);
-    Value v = cg->convert(Value(3.14, Kilometer), "m");
+    UnitCategory cg = c.category(LengthCategory);
+    Value v = cg.convert(Value(3.14, Kilometer), "m");
     QCOMPARE(v.number(), 3140.0);
-    v = cg->convert(v, "cm");
+    v = cg.convert(v, "cm");
     QCOMPARE(v.number(), 314000.0);
-    v = cg->convert(v, cg->defaultUnit());
+    v = cg.convert(v, cg.defaultUnit());
     QCOMPARE(v.number(), 3140.0);
 }
 
 void CategoryTest::testInvalid()
 {
-    UnitCategory *cg = c.category(99999);
-    QCOMPARE(cg->name(), QString("Invalid"));
+    UnitCategory cg = c.category(99999);
+    QCOMPARE(cg.name(), QString());
     cg = c.category("don't exist");
-    QCOMPARE(cg->name(), QString("Invalid"));
+    QCOMPARE(cg.name(), QString());
 }
 
 QTEST_MAIN(CategoryTest)

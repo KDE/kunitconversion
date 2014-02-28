@@ -111,7 +111,7 @@ Energy::Energy() : UnitCategory(EnergyCategory)
       ki18nc("amount in units (real)", "%1 decajoules"),
       ki18ncp("amount in units (integer)", "%1 decajoule", "%1 decajoules")
      );
-    setDefaultUnit(Unit(this, Joule, 1,
+    setDefaultUnit(Unit(*this, Joule, 1,
                         i18nc("energy unit symbol", "J"),
                         i18nc("unit description in lists", "joules"),
                         i18nc("unit synonyms for matching user input", "joule;joules;J"),

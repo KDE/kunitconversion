@@ -50,10 +50,10 @@ public:
      * Null constructor
      **/
     Unit();
-    Unit(UnitCategory *category, int id, double multiplier, const QString &symbol,
+    Unit(const UnitCategory &category, int id, double multiplier, const QString &symbol,
          const QString &description, const QString &match,
          const KLocalizedString &real, const KLocalizedString &integer);
-    Unit(UnitCategory *category, int id, const Complex *complex, const QString &symbol,
+    Unit(const UnitCategory &category, int id, const Complex *complex, const QString &symbol,
          const QString &description, const QString &match,
          const KLocalizedString &real, const KLocalizedString &integer);
     /**
@@ -145,7 +145,7 @@ public:
     /**
      * @return unit category.
      **/
-    UnitCategory *category() const;
+    UnitCategory category() const;
 
     /**
      * @return if unit is valid.
@@ -166,7 +166,7 @@ private:
     QExplicitlySharedDataPointer<UnitPrivate> d;
 };
 
-#define U(id, m, s, d, sy, r, i) (KUnitConversion::Unit(this, id, m, s, d, sy, r, i))
+#define U(id, m, s, d, sy, r, i) (KUnitConversion::Unit(*this, id, m, s, d, sy, r, i))
 
 } // KUnitConversion namespace
 

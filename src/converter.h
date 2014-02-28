@@ -159,7 +159,7 @@ public:
      * @param unit unit to find category for.
      * @return unit category for unit
      **/
-    UnitCategory *categoryForUnit(const QString &unit) const;
+    UnitCategory categoryForUnit(const QString &unit) const;
 
     /**
      * Find unit for string unit.
@@ -183,7 +183,7 @@ public:
      * @param category name of the category to find (length, area, mass, etc.).
      * @return unit category named category or invalid category.
      **/
-    UnitCategory *category(const QString &category) const;
+    UnitCategory category(const QString &category) const;
 
     /**
      * Find unit category.
@@ -191,14 +191,14 @@ public:
      * @param categoryId id of the category to find (LengthCategory, AreaCategory, etc.).
      * @return unit category which id is categoryId or invalid category.
      **/
-    UnitCategory *category(int categoryId) const;
+    UnitCategory category(int categoryId) const;
 
     /**
      * Returns a list of all unit categories.
      *
      * @return list of unit categories.
      **/
-    QList<UnitCategory *> categories() const;
+    QList<UnitCategory> categories() const;
 
 private:
     ConverterPrivate *d;

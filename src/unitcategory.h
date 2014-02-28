@@ -22,19 +22,67 @@
 
 #include "value.h"
 #include "unit.h"
+#include "kunitconversion/kunitconversion_export.h"
+
+#include <QtCore/QExplicitlySharedDataPointer>
 #include <QtCore/QString>
 #include <QtCore/QStringList>
-#include <QUrl>
-#include "kunitconversion/kunitconversion_export.h"
+#include <QtCore/QUrl>
 
 namespace KUnitConversion
 {
 
+class UnitCategoryPrivate;
+
 class KUNITCONVERSION_EXPORT UnitCategory
 {
 public:
+    /**
+     * Null constructor
+     **/
+    UnitCategory();
+
     UnitCategory(int id);
+
+    /**
+     * Copy constructor, copy @param other to this.
+     **/
+    UnitCategory(const UnitCategory &other);
+
     virtual ~UnitCategory();
+
+    /**
+     * Assignment operator, assign @param other to this.
+     **/
+    UnitCategory &operator=(const UnitCategory &other);
+
+#ifdef Q_COMPILER_RVALUE_REFS
+    /**
+     * Move-assigns \a other to this UnitCategory instance, transferring the
+     * ownership of the managed pointer to this instance.
+     **/
+    UnitCategory &operator=(UnitCategory &&other) { swap(other); return *this; }
+#endif
+
+    /**
+     * Swaps this UnitCategory with \a other. This function is very fast and never fails.
+     **/
+    void swap(UnitCategory &other) { d.swap(other.d); }
+
+    /**
+     * @return Returns true if this UnitCategory is equal to the @param other UnitCategory.
+     **/
+    bool operator==(const UnitCategory &other) const;
+
+    /**
+     * @return Returns true if this UnitCategory is not equal to the @param other UnitCategory.
+     **/
+    bool operator!=(const UnitCategory &other) const;
+
+    /**
+     * @return returns true if this UnitCategory is null
+     **/
+    bool isNull() const;
 
     /**
      * Returns name for the unit category.
@@ -132,8 +180,7 @@ protected:
 
 private:
     friend class Unit;
-    class Private;
-    Private *const d;
+    QExplicitlySharedDataPointer<UnitCategoryPrivate> d;
 };
 
 } // KUnitConversion namespace

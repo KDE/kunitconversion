@@ -40,12 +40,11 @@ public:
     UnitPrivate()
         : multiplier(0),
           complex(0),
-          category(0),
           id(int(InvalidUnit))
     {
     };
 
-    UnitPrivate(UnitCategory *category, const Complex *complex = 0)
+    UnitPrivate(const UnitCategory &category, const Complex *complex = 0)
         : multiplier(1.0)
         , complex(complex)
         , category(category)
@@ -77,7 +76,7 @@ public:
     KLocalizedString real;
     KLocalizedString integer;
     const Complex *complex;
-    UnitCategory *category;
+    UnitCategory category;
     int id;
 };
 
@@ -86,37 +85,33 @@ Unit::Unit()
 {
 }
 
-Unit::Unit(UnitCategory *category, int id, double multiplier, const QString &symbol,
+Unit::Unit(const UnitCategory &category, int id, double multiplier, const QString &symbol,
            const QString &description, const QString &match,
            const KLocalizedString &real, const KLocalizedString &integer)
     : d(new UnitPrivate(category))
 {
-    if (category) {
-        category->addUnitMapValues(*this, match);
-        category->addIdMapValue(*this, id);
-    }
     d->multiplier = multiplier;
     d->real = real;
     d->integer = integer;
     d->symbol = symbol;
     d->description = description;
     d->id = id;
+    d->category.addUnitMapValues(*this, match);
+    d->category.addIdMapValue(*this, id);
 }
 
-Unit::Unit(UnitCategory *category, int id, const Complex *complex, const QString &symbol,
+Unit::Unit(const UnitCategory &category, int id, const Complex *complex, const QString &symbol,
            const QString &description, const QString &match,
            const KLocalizedString &real, const KLocalizedString &integer)
     : d(new UnitPrivate(category, complex))
 {
-    if (category) {
-        category->addUnitMapValues(*this, match);
-        category->addIdMapValue(*this, id);
-    }
     d->real = real;
     d->integer = integer;
     d->symbol = symbol;
     d->description = description;
     d->id = id;
+    d->category.addUnitMapValues(*this, match);
+    d->category.addIdMapValue(*this, id);
 }
 
 Unit::Unit(const Unit &other)
@@ -155,7 +150,7 @@ bool Unit::isNull() const
     return (d <= 0);
 }
 
-UnitCategory *Unit::category() const
+UnitCategory Unit::category() const
 {
     if (d)
         return d->category;
@@ -227,7 +222,7 @@ QString Unit::toSymbolString(double value, int fieldWidth, char format, int prec
 {
     if (isNull())
         return QString();
-    return category()->symbolStringFormat().subs(value, fieldWidth, format, precision, fillChar)
+    return category().symbolStringFormat().subs(value, fieldWidth, format, precision, fillChar)
            .subs(d->symbol).toString();
 }
 

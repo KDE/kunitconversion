@@ -28,9 +28,9 @@ void ConverterTest::initTestCase()
 
 void ConverterTest::testCategory()
 {
-    QCOMPARE(c.categoryForUnit("km")->id(), (int)LengthCategory);
-    QCOMPARE(c.category(QString("Length"))->id(), (int)LengthCategory);
-    QCOMPARE(c.category(LengthCategory)->name(), QString("Length"));
+    QCOMPARE(c.categoryForUnit("km").id(), (int)LengthCategory);
+    QCOMPARE(c.category(QString("Length")).id(), (int)LengthCategory);
+    QCOMPARE(c.category(LengthCategory).name(), QString("Length"));
     QVERIFY(c.categories().size() > 0);
 }
 
@@ -46,15 +46,15 @@ void ConverterTest::testConvert()
     QCOMPARE(v.number(), 3140.0);
     v = c.convert(v, "cm");
     QCOMPARE(v.number(), 314000.0);
-    v = c.convert(v, c.category(LengthCategory)->defaultUnit());
+    v = c.convert(v, c.category(LengthCategory).defaultUnit());
     QCOMPARE(v.number(), 3140.0);
 }
 
 void ConverterTest::testInvalid()
 {
-    QCOMPARE(c.categoryForUnit("does not exist")->id(), (int)InvalidCategory);
-    QCOMPARE(c.unit("does not exist").symbol(), QString(""));
-    QCOMPARE(c.category("does not exist")->name(), QString("Invalid"));
+    QCOMPARE(c.categoryForUnit("does not exist").id(), (int)InvalidCategory);
+    QCOMPARE(c.unit("does not exist").symbol(), QString());
+    QCOMPARE(c.category("does not exist").name(), QString());
 }
 
 QTEST_MAIN(ConverterTest)

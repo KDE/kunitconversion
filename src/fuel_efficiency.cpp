@@ -65,7 +65,7 @@ FuelEfficiency::FuelEfficiency() : UnitCategory(FuelEfficiencyCategory)
     setName(i18n("Fuel Efficiency"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (fuel efficiency)", "%1 %2"));
 
-    setDefaultUnit(Unit(this, LitersPer100Kilometers, 1,
+    setDefaultUnit(Unit(*this, LitersPer100Kilometers, 1,
                         i18nc("fuelefficiency unit symbol", "l/100 km"),
                         i18nc("unit description in lists", "liters per 100 kilometers"),
                         i18nc("unit synonyms for matching user input", "liters per 100 kilometers;liters per 100 kilometers;l/100 km;L/100 km"),
