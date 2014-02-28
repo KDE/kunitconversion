@@ -290,9 +290,9 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
      );
     U(Lvl, 1e+99,
       "LVL",
-      i18nc("currency name", "Latvian Lat"),
-      i18nc("LVL Latvian Lat - unit synonyms for matching user input", "lats;lati") + ";LVL;" +
-      QLocale::countryToString(QLocale::Latvia) + ';' + i18nc("currency name", "Latvian Lat"),
+      i18nc("currency name", "Latvian Lats"),
+      i18nc("LVL Latvian Lats - unit synonyms for matching user input", "lats;lati") + ";LVL;" +
+      QLocale::countryToString(QLocale::Latvia) + ';' + i18nc("currency name", "Latvian Lats"),
       ki18nc("amount in units (real)", "%1 lati"),
       ki18ncp("amount in units (integer)", "%1 lats", "%1 lati")
      );
