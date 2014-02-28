@@ -141,19 +141,19 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
      );
     U(Pte, 0.00498798,
       "PTE",
-      i18nc("currency name", "Portugeuse Escudo"),
-      i18nc("PTE Portugeuse Escudo - unit synonyms for matching user input", "escudo;escudos") +
+      i18nc("currency name", "Portuguese Escudo"),
+      i18nc("PTE Portuguese Escudo - unit synonyms for matching user input", "escudo;escudos") +
       ";PTE;" + QLocale::countryToString(QLocale::Portugal) + ';' +
-      i18nc("currency name", "Portugeuse Escudo"),
+      i18nc("currency name", "Portuguese Escudo"),
       ki18nc("amount in units (real)", "%1 escudos"),
       ki18ncp("amount in units (integer)", "%1 escudo", "%1 escudos")
      );
     U(Esp, 0.00601012,
       "ESP",
-      i18nc("currency name", "Spanish Pesetas"),
-      i18nc("ESP Spanish Pesetas - unit synonyms for matching user input", "peseta;pesetas") +
+      i18nc("currency name", "Spanish Peseta"),
+      i18nc("ESP Spanish Peseta - unit synonyms for matching user input", "peseta;pesetas") +
       ";ESP;" + QLocale::countryToString(QLocale::Spain) + ';' +
-      i18nc("currency name", "Spanish Pesetas"),
+      i18nc("currency name", "Spanish Peseta"),
       ki18nc("amount in units (real)", "%1 pesetas"),
       ki18ncp("amount in units (integer)", "%1 peseta", "%1 pesetas")
      );
@@ -206,10 +206,10 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
     // From ECB
     U(Usd, 1e+99,
       "USD",
-      i18nc("currency name", "United States Dollars"),
-      i18nc("USD United States Dollars - unit synonyms for matching user input", "dollar;dollars") +
+      i18nc("currency name", "United States Dollar"),
+      i18nc("USD United States Dollar - unit synonyms for matching user input", "dollar;dollars") +
       ";USD;$;" + QLocale::countryToString(QLocale::UnitedStates) + ';' +
-      i18nc("currency name", "United States Dollars"),
+      i18nc("currency name", "United States Dollar"),
       ki18nc("amount in units (real)", "%1 United States dollars"),
       ki18ncp("amount in units (integer)", "%1 United States dollar", "%1 United States dollars")
      );
@@ -275,7 +275,7 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
       i18nc("currency name", "Hungarian Forint"),
       i18nc("HUF hungarian Forint - unit synonyms for matching user input", "forint") + ";HUF;" +
       QLocale::countryToString(QLocale::Hungary) + ';' +
-      i18nc("currency name", "hungarian Forint"),
+      i18nc("currency name", "Hungarian Forint"),
       ki18nc("amount in units (real)", "%1 forint"),
       ki18ncp("amount in units (integer)", "%1 forint", "%1 forint")
      );
@@ -290,9 +290,9 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
      );
     U(Lvl, 1e+99,
       "LVL",
-      i18nc("currency name", "Latvian Lats"),
-      i18nc("LVL Latvian Lats - unit synonyms for matching user input", "lats;lati") + ";LVL;" +
-      QLocale::countryToString(QLocale::Latvia) + ';' + i18nc("currency name", "Latvian Lats"),
+      i18nc("currency name", "Latvian Lat"),
+      i18nc("LVL Latvian Lat - unit synonyms for matching user input", "lats;lati") + ";LVL;" +
+      QLocale::countryToString(QLocale::Latvia) + ';' + i18nc("currency name", "Latvian Lat"),
       ki18nc("amount in units (real)", "%1 lati"),
       ki18ncp("amount in units (integer)", "%1 lats", "%1 lati")
      );
@@ -307,10 +307,10 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
      );
     U(Ron, 1e+99,
       "RON",
-      i18nc("currency name", "Roumanian Leu"),
-      i18nc("RON Roumanian Leu - unit synonyms for matching user input", "leu;lei") + ";RON;" +
+      i18nc("currency name", "Romanian Leu"),
+      i18nc("RON Romanian Leu - unit synonyms for matching user input", "leu;lei") + ";RON;" +
       QLocale::countryToString(QLocale::Romania) + ';' +
-      i18nc("currency name", "Roumanian Leu"),
+      i18nc("currency name", "Romanian Leu"),
       ki18nc("amount in units (real)", "%1 lei"),
       ki18ncp("amount in units (integer)", "%1 leu", "%1 lei")
      );
@@ -325,10 +325,10 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
      );
     U(Chf, 1e+99,
       "CHF",
-      i18nc("currency name", "Swiss Francs"),
-      i18nc("CHF Swiss Francs - unit synonyms for matching user input", "franc;francs") + ";CHF;" +
+      i18nc("currency name", "Swiss Franc"),
+      i18nc("CHF Swiss Franc - unit synonyms for matching user input", "franc;francs") + ";CHF;" +
       QLocale::countryToString(QLocale::Switzerland) + ';' +
-      i18nc("currency name", "Swiss Francs"),
+      i18nc("currency name", "Swiss Franc"),
       ki18nc("amount in units (real)", "%1 Swiss francs"),
       ki18ncp("amount in units (integer)", "%1 Swiss franc", "%1 Swiss francs")
      );
@@ -353,11 +353,11 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
      );
     U(Rub, 1e+99,
       "RUB",
-      i18nc("currency name", "Russsian Ruble"),
-      i18nc("RUB Russsian Ruble - unit synonyms for matching user input",
+      i18nc("currency name", "Russian Ruble"),
+      i18nc("RUB Russian Ruble - unit synonyms for matching user input",
             "ruble;rubles;rouble;roubles") + ";RUB;" +
       QLocale::countryToString(QLocale::Russia) + ';' +
-      i18nc("currency name", "Russsian Ruble"),
+      i18nc("currency name", "Russian Ruble"),
       ki18nc("amount in units (real)", "%1 rubles"),
       ki18ncp("amount in units (integer)", "%1 ruble", "%1 rubles") //Alt: rouble/roubles
      );
@@ -382,10 +382,10 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
      );
     U(Brl, 1e+99,
       "BRL",
-      i18nc("currency name", "Brazillian Real"),
-      i18nc("BRL Brazillian Real - unit synonyms for matching user input", "real;reais") +
+      i18nc("currency name", "Brazilian Real"),
+      i18nc("BRL Brazilian Real - unit synonyms for matching user input", "real;reais") +
       ";BRL;" + QLocale::countryToString(QLocale::Brazil) + ';' +
-      i18nc("currency name", "Brazillian Real"),
+      i18nc("currency name", "Brazilian Real"),
       ki18nc("amount in units (real)", "%1 reais"),
       ki18ncp("amount in units (integer)", "%1 real", "%1 reais")
      );
@@ -457,10 +457,10 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
      );
     U(Myr, 1e+99,
       "MYR",
-      i18nc("currency name", "Malasian Ringgit"),
-      i18nc("MYR Malasian Ringgit - unit synonyms for matching user input", "ringgit;ringgits") +
+      i18nc("currency name", "Malaysian Ringgit"),
+      i18nc("MYR Malaysian Ringgit - unit synonyms for matching user input", "ringgit;ringgits") +
       ";MYR;" + QLocale::countryToString(QLocale::Malaysia) + ';' +
-      i18nc("currency name", "Malasian Ringgit"),
+      i18nc("currency name", "Malaysian Ringgit"),
       ki18nc("amount in units (real)", "%1 ringgit"),
       ki18ncp("amount in units (integer)", "%1 ringgit", "%1 ringgit") // Alt: ringgits
      );
