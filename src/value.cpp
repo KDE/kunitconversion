@@ -24,29 +24,63 @@
 namespace KUnitConversion
 {
 
-class Value::Private
+class ValuePrivate : public QSharedData
 {
 public:
-    Private(double n = 0.0, int u = InvalidUnit)
+    ValuePrivate()
+        : number(0)
+    {
+    }
+
+    ValuePrivate(double n = 0.0, int u = InvalidUnit)
         : number(n)
     {
         unit = converter.unit(u);
     }
 
-    Private(double n, const Unit &u)
+    ValuePrivate(double n, const Unit &u)
         : number(n)
         , unit(u)
     {
     }
 
-    Private(double n, const QString &u)
+    ValuePrivate(double n, const QString &u)
         : number(n)
     {
         unit = converter.unit(u);
     }
 
-    ~Private()
+    ValuePrivate(const ValuePrivate &other)
+        : QSharedData(other),
+          number(other.number),
+          unit(other.unit)
     {
+    }
+
+    virtual ~ValuePrivate()
+    {
+    }
+
+    ValuePrivate &operator=(const ValuePrivate &other)
+    {
+        number = other.number;
+        unit = other.unit;
+        return *this;
+    }
+
+    ValuePrivate *clone()
+    {
+        return new ValuePrivate(*this);
+    }
+
+    bool operator==(const ValuePrivate &other) const
+    {
+        return (number == other.number && unit == other.unit);
+    }
+
+    bool operator!=(const ValuePrivate &other) const
+    {
+        return !(*this == other);
     }
 
     double number;
@@ -55,38 +89,64 @@ public:
 };
 
 Value::Value()
-    : d(new Value::Private())
+    : d(0)
 {
 }
 
 Value::Value(double n, const Unit &u)
-    : d(new Value::Private(n, u))
+    : d(new ValuePrivate(n, u))
 {
 }
 
 Value::Value(double n, const QString &u)
-    : d(new Value::Private(n, u))
+    : d(new ValuePrivate(n, u))
 {
 }
 
 Value::Value(double n, int u)
-    : d(new Value::Private(n, u))
+    : d(new ValuePrivate(n, u))
 {
 }
 
 Value::Value(const QVariant &n, const QString &u)
-    : d(new Value::Private(n.toDouble(), u))
+    : d(new ValuePrivate(n.toDouble(), u))
 {
 }
 
 Value::~Value()
 {
-    delete d;
+}
+
+Value &Value::operator=(const Value &other)
+{
+    d = other.d;
+    return *this;
+}
+
+bool Value::operator==(const Value &other) const
+{
+    if (d && other.d)
+        return (*d == *other.d);
+    else
+        return (d == other.d);
+}
+
+bool Value::operator!=(const Value &other) const
+{
+    if (d && other.d)
+        return (*d != *other.d);
+    else
+        return (d != other.d);
+}
+
+bool Value::isNull() const
+{
+    return (d <= 0);
 }
 
 bool Value::isValid() const
 {
-    return (d->unit.isValid());
+    return (d && d->unit.isValid());
 }
 
 QString Value::toString(int fieldWidth, char format, int precision, const QChar &fillChar) const
@@ -108,6 +168,9 @@ QString Value::toSymbolString(int fieldWidth, char format, int precision,
 
 Value &Value::round(uint decimals)
 {
+    if (!isValid())
+        return *this;
+
     uint div = qPow(10, decimals);
     double add = 0.5 / (double)div;
 
@@ -117,37 +180,37 @@ Value &Value::round(uint decimals)
 
 double Value::number() const
 {
-    return d->number;
+    if (d)
+        return d->number;
+    return 0;
 }
 
 Unit Value::unit() const
 {
-    if (d->unit.isNull()) {
-        d->unit = d->converter.unit(InvalidUnit);
-    }
-    return d->unit;
-}
-
-Value &Value::operator=(const Value &value)
-{
-    d->number = value.d->number;
-    d->unit = value.d->unit;
-    return *this;
+    if (d)
+        return d->unit;
+    return Unit();
 }
 
 Value Value::convertTo(const Unit &unit) const
 {
-    return d->converter.convert(*this, unit);
+    if (d)
+        return d->converter.convert(*this, unit);
+    return Value();
 }
 
 Value Value::convertTo(int unit) const
 {
-    return d->converter.convert(*this, unit);
+    if (d)
+        return d->converter.convert(*this, unit);
+    return Value();
 }
 
 Value Value::convertTo(const QString &unit) const
 {
-    return d->converter.convert(*this, unit);
+    if (d)
+        return d->converter.convert(*this, unit);
+    return Value();
 }
 
 }

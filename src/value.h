@@ -20,14 +20,18 @@
 #ifndef KUNITCONVERSION_VALUE_H
 #define KUNITCONVERSION_VALUE_H
 
-#include <QtCore/QString>
 #include "unit.h"
 #include "kunitconversion/kunitconversion_export.h"
+
+#include <QtCore/QString>
+#include <QtCore/QSharedDataPointer>
 
 class QVariant;
 
 namespace KUnitConversion
 {
+
+class ValuePrivate;
 
 class KUNITCONVERSION_EXPORT Value
 {
@@ -37,7 +41,44 @@ public:
     Value(double n, const QString &u);
     Value(double n, int u);
     Value(const QVariant &n, const QString &u);
+    /**
+     * Copy constructor, copy @param other to this.
+     **/
+    Value(const Value &other);
     ~Value();
+
+    /**
+     * Assignment operator, assign @param other to this.
+     **/
+    Value &operator=(const Value &other);
+
+#ifdef Q_COMPILER_RVALUE_REFS
+    /**
+     * Move-assigns \a other to this Value instance, transferring the
+     * ownership of the managed pointer to this instance.
+     **/
+    Value &operator=(Value &&other) { swap(other); return *this; }
+#endif
+
+    /**
+     * Swaps this Value with \a other. This function is very fast and never fails.
+     **/
+    void swap(Value &other) { d.swap(other.d); }
+
+    /**
+     * @return Returns true if this Value is equal to the @param other Value.
+     **/
+    bool operator==(const Value &other) const;
+
+    /**
+     * @return Returns true if this Value is not equal to the @param other Value.
+     **/
+    bool operator!=(const Value &other) const;
+
+    /**
+     * @return returns true if this Value is null
+     **/
+    bool isNull() const;
 
     /**
      * Check if value is valid.
@@ -103,11 +144,8 @@ public:
     **/
     Value convertTo(const QString &unit) const;
 
-    Value &operator=(const Value &);
-
 private:
-    class Private;
-    Private *const d;
+    QSharedDataPointer<ValuePrivate> d;
 };
 
 } // KUnitConversion namespace
