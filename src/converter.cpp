@@ -45,10 +45,9 @@
 namespace KUnitConversion
 {
 
-class ConverterPrivate
+class ConverterPrivate : public QSharedData
 {
 public:
-    QMap<int, UnitCategory> categories;
     ConverterPrivate()
     {
         categories[LengthCategory] = Length();
@@ -70,15 +69,39 @@ public:
         categories[FrequencyCategory] = Frequency();
     };
 
-    ~ConverterPrivate()
+    virtual ~ConverterPrivate()
     {
     };
+
+    ConverterPrivate *clone()
+    {
+        return new ConverterPrivate(*this);
+    }
+
+    bool operator==(const ConverterPrivate &other) const
+    {
+        return (categories == other.categories);
+    }
+
+    bool operator!=(const ConverterPrivate &other) const
+    {
+        return !(*this == other);
+    }
+
+    QMap<int, UnitCategory> categories;
 };
 
-Q_GLOBAL_STATIC(ConverterPrivate, static_d)
+class QConverterSingleton
+{
+public:
+    QConverterSingleton() : d(new ConverterPrivate()) {}
+    QExplicitlySharedDataPointer<ConverterPrivate> d;
+};
 
-Converter::Converter(QObject *parent)
-    : QObject(parent), d(static_d())
+Q_GLOBAL_STATIC(QConverterSingleton, global_converter)
+
+Converter::Converter()
+    : d(global_converter->d)
 {
 }
 
@@ -86,9 +109,31 @@ Converter::~Converter()
 {
 }
 
+Converter &Converter::operator=(const Converter &other)
+{
+    d = other.d;
+    return *this;
+}
+
+bool Converter::operator==(const Converter &other) const
+{
+    if (d && other.d)
+        return (*d == *other.d);
+    else
+        return (d == other.d);
+}
+
+bool Converter::operator!=(const Converter &other) const
+{
+    if (d && other.d)
+        return (*d != *other.d);
+    else
+        return (d != other.d);
+}
+
 Value Converter::convert(const Value &value, const QString &toUnit) const
 {
-    if (value.unit().isValid()) {
+    if (d && value.unit().isValid()) {
         return value.unit().category().convert(value, toUnit);
     }
     return Value();
@@ -96,7 +141,7 @@ Value Converter::convert(const Value &value, const QString &toUnit) const
 
 Value Converter::convert(const Value &value, int toUnit) const
 {
-    if (value.unit().isValid()) {
+    if (d && value.unit().isValid()) {
         return value.unit().category().convert(value, toUnit);
     }
     return Value();
@@ -104,7 +149,7 @@ Value Converter::convert(const Value &value, int toUnit) const
 
 Value Converter::convert(const Value &value, const Unit &toUnit) const
 {
-    if (toUnit.isValid() && value.unit().isValid()) {
+    if (d && toUnit.isValid() && value.unit().isValid()) {
         return value.unit().category().convert(value, toUnit);
     }
     return Value();
@@ -122,7 +167,7 @@ UnitCategory Converter::categoryForUnit(const QString &unit) const
 
 Unit Converter::unit(const QString &unitString) const
 {
-    foreach (const UnitCategory &u, d->categories) {
+    foreach (const UnitCategory &u, categories()) {
         Unit unitClass = u.unit(unitString);
         if (unitClass.isValid()) {
             return unitClass;
@@ -133,7 +178,7 @@ Unit Converter::unit(const QString &unitString) const
 
 Unit Converter::unit(int unitId) const
 {
-    foreach (const UnitCategory &u, d->categories) {
+    foreach (const UnitCategory &u, categories()) {
         Unit unitClass = u.unit(unitId);
         if (unitClass.isValid()) {
             return unitClass;
@@ -144,7 +189,7 @@ Unit Converter::unit(int unitId) const
 
 UnitCategory Converter::category(const QString &category) const
 {
-    foreach (const UnitCategory &u, d->categories) {
+    foreach (const UnitCategory &u, categories()) {
         if (u.name() == category) {
             return u;
         }
@@ -155,7 +200,7 @@ UnitCategory Converter::category(const QString &category) const
 
 UnitCategory Converter::category(int categoryId) const
 {
-    if (d->categories.contains(categoryId)) {
+    if (d && d->categories.contains(categoryId)) {
         return d->categories[categoryId];
     }
     // not found
@@ -164,8 +209,9 @@ UnitCategory Converter::category(int categoryId) const
 
 QList<UnitCategory> Converter::categories() const
 {
-    QList<UnitCategory> categories = d->categories.values();
-    return categories;
+    if (d)
+        return d->categories.values();
+    return QList<UnitCategory>();
 }
 
 }

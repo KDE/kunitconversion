@@ -22,6 +22,8 @@
 
 #include <kunitconversion/value.h>
 #include <kunitconversion/kunitconversion_export.h>
+
+#include <QtCore/QExplicitlySharedDataPointer>
 #include <QtCore/QVariant>
 
 namespace KUnitConversion
@@ -135,12 +137,39 @@ enum UnitId {
 class UnitCategory;
 
 class ConverterPrivate;
-class KUNITCONVERSION_EXPORT Converter : public QObject
+class KUNITCONVERSION_EXPORT Converter
 {
-    Q_OBJECT
 public:
-    explicit Converter(QObject *parent = 0);
+    Converter();
     ~Converter();
+
+    /**
+     * Assignment operator, assign @param other to this.
+     **/
+    Converter &operator=(const Converter &other);
+
+#ifdef Q_COMPILER_RVALUE_REFS
+    /**
+     * Move-assigns \a other to this Converter instance, transferring the
+     * ownership of the managed pointer to this instance.
+     **/
+    Converter &operator=(Converter &&other) { swap(other); return *this; }
+#endif
+
+    /**
+     * Swaps this Converter with \a other. This function is very fast and never fails.
+     **/
+    void swap(Converter &other) { d.swap(other.d); }
+
+    /**
+     * @return Returns true if this Converter is equal to the @param other Converter.
+     **/
+    bool operator==(const Converter &other) const;
+
+    /**
+     * @return Returns true if this Converter is not equal to the @param other Converter.
+     **/
+    bool operator!=(const Converter &other) const;
 
     /**
      * Convert value to another unit.
@@ -201,7 +230,7 @@ public:
     QList<UnitCategory> categories() const;
 
 private:
-    ConverterPrivate *d;
+    QExplicitlySharedDataPointer<ConverterPrivate> d;
 };
 
 } // KUnitConversion namespace
