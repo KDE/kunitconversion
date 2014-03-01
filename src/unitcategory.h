@@ -27,7 +27,6 @@
 #include <QtCore/QExplicitlySharedDataPointer>
 #include <QtCore/QString>
 #include <QtCore/QStringList>
-#include <QtCore/QUrl>
 
 namespace KUnitConversion
 {
@@ -102,11 +101,6 @@ public:
     QString description() const;
 
     /**
-     * @return unit category url for description
-     **/
-    QUrl url() const;
-
-    /**
      * Returns default unit.
      *
      * @return default unit.
@@ -173,7 +167,6 @@ protected:
     void addUnitMapValues(const Unit &unit, const QString &names);
     void addIdMapValue(const Unit &unit, UnitId id);
     void setDescription(const QString &desc);
-    void setUrl(const QUrl &url);
     void setSymbolStringFormat(const KLocalizedString &symbolStringFormat);
     void setMostCommonUnits(const QList<UnitId> &units);
     KLocalizedString symbolStringFormat() const;

@@ -57,7 +57,6 @@ public:
     QList<Unit> m_units;
     QList<Unit> m_mostCommonUnits;
     QString m_description;
-    QUrl m_url;
     KLocalizedString m_symbolStringFormat;
     CategoryId m_id;
 };
@@ -263,19 +262,6 @@ void UnitCategory::setDescription(const QString &description)
 {
     if (d)
         d->m_description = description;
-}
-
-QUrl UnitCategory::url() const
-{
-    if (d)
-        return d->m_url;
-    return QUrl();
-}
-
-void UnitCategory::setUrl(const QUrl &url)
-{
-    if (d)
-        d->m_url = url;
 }
 
 }
