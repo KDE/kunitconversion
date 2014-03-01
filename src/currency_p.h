@@ -22,6 +22,9 @@
 
 #include "unitcategory.h"
 
+namespace KUnitConversion
+{
+
 class Currency : public KUnitConversion::UnitCategory
 {
 public:
@@ -33,5 +36,7 @@ private:
     QString m_cache;
     bool m_update;
 };
+
+}
 
 #endif

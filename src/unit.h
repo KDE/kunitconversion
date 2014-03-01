@@ -271,15 +271,6 @@ public:
     QString toSymbolString(double value, int fieldWidth = 0, char format = 'g', int precision = -1,
                            const QChar &fillChar = QLatin1Char(' ')) const;
 
-    /**
-     * @return unit multiplier.
-     **/
-    double multiplier() const;
-
-    /**
-     * Set unit multiplier.
-     **/
-    void setMultiplier(double multiplier);
 
 protected:
     double toDefault(double value) const;
@@ -287,6 +278,8 @@ protected:
 
 private:
     friend class UnitCategory;
+    friend class Currency;
+    void setUnitMultiplier(double multiplier);
     QExplicitlySharedDataPointer<UnitPrivate> d;
 };
 

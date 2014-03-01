@@ -183,14 +183,7 @@ QString Unit::symbol() const
     return QString();
 }
 
-double Unit::multiplier() const
-{
-    if (d)
-        return d->m_multiplier;
-    return 0;
-}
-
-void Unit::setMultiplier(double multiplier)
+void Unit::setUnitMultiplier(double multiplier)
 {
     if (d)
         d->m_multiplier = multiplier;

@@ -576,7 +576,7 @@ Value Currency::convert(const Value &value, const Unit &to)
                     if (e.hasAttribute("currency")) {
                         Unit u = unit(e.attribute("currency"));
                         if (u.isValid()) {
-                            u.setMultiplier(1.0 / e.attribute("rate").toDouble());
+                            u.setUnitMultiplier(1.0 / e.attribute("rate").toDouble());
                         }
                     }
                 }
