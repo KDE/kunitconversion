@@ -39,7 +39,7 @@ public:
     Value();
     Value(double n, const Unit &u);
     Value(double n, const QString &u);
-    Value(double n, int u);
+    Value(double n, UnitId u);
     Value(const QVariant &n, const QString &u);
     /**
      * Copy constructor, copy @param other to this.
@@ -137,7 +137,7 @@ public:
     /**
     * convert to another unit
     **/
-    Value convertTo(int unit) const;
+    Value convertTo(UnitId unit) const;
 
     /**
     * convert to another unit

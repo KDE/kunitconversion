@@ -32,7 +32,7 @@ public:
     {
     }
 
-    ValuePrivate(double n = 0.0, int u = InvalidUnit)
+    ValuePrivate(double n = 0.0, UnitId u = InvalidUnit)
         : number(n)
     {
         unit = converter.unit(u);
@@ -103,7 +103,7 @@ Value::Value(double n, const QString &u)
 {
 }
 
-Value::Value(double n, int u)
+Value::Value(double n, UnitId u)
     : d(new ValuePrivate(n, u))
 {
 }
@@ -199,7 +199,7 @@ Value Value::convertTo(const Unit &unit) const
     return Value();
 }
 
-Value Value::convertTo(int unit) const
+Value Value::convertTo(UnitId unit) const
 {
     if (d)
         return d->converter.convert(*this, unit);

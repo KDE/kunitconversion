@@ -239,6 +239,6 @@ Energy::Energy() : UnitCategory(EnergyCategory)
       ki18ncp("amount in units (integer)", "%1 nanometer", "%1 nanometers")
      );
 
-    setMostCommonUnits(QList<int>() <<
+    setMostCommonUnits(QList<UnitId>() <<
                        Joule << Kilojoule << Kilocalorie << GuidelineDailyAmount);
 }

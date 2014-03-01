@@ -78,6 +78,6 @@ Angle::Angle() : UnitCategory(AngleCategory)
       ki18ncp("amount in units (integer)", "%1 arc second", "%1 arc seconds")
      );
 
-    setMostCommonUnits(QList<int>() << Degree << Radian << ArcMinute << ArcSecond);
+    setMostCommonUnits(QList<UnitId>() << Degree << Radian << ArcMinute << ArcSecond);
 }
 

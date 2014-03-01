@@ -185,7 +185,7 @@ Frequency::Frequency() : UnitCategory(FrequencyCategory)
       ki18ncp("amount in units (integer)", "%1 revolution per minute", "%1 revolutions per minute")
      );
 
-    setMostCommonUnits(QList<int>() <<
+    setMostCommonUnits(QList<UnitId>() <<
                        Kilohertz << Megahertz << Gigahertz << Hertz << RPM);
 }
 

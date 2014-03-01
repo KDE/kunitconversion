@@ -207,6 +207,6 @@ Force::Force() : UnitCategory(ForceCategory)
       ki18ncp("amount in units (integer)", "%1 poundal", "%1 poundals")
      );
 
-    setMostCommonUnits(QList<int>() << KilonewtonForce << Newton);
+    setMostCommonUnits(QList<UnitId>() << KilonewtonForce << Newton);
 }
 

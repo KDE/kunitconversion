@@ -184,5 +184,5 @@ Power::Power() : UnitCategory(PowerCategory)
       ki18ncp("amount in units (integer)", "%1 horsepower", "%1 horsepowers")
      );
 
-    setMostCommonUnits(QList<int>() << Kilowatt << Watt << Horsepower);
+    setMostCommonUnits(QList<UnitId>() << Kilowatt << Watt << Horsepower);
 }

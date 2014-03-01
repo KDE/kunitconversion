@@ -53,7 +53,7 @@ void ValueTest::testConvert()
 
 void ValueTest::testInvalid()
 {
-    v1 = v1.convertTo(99999);
+    v1 = v1.convertTo(UnitId(99999));
     QCOMPARE(v1.number(), 0.0);
     QCOMPARE(v1.toSymbolString(), QString(""));
     v2 = v2.convertTo("don't exist");

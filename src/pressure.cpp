@@ -247,6 +247,6 @@ Pressure::Pressure() : UnitCategory(PressureCategory)
       ki18ncp("amount in units (integer)", "%1 millimeters of mercury", "%1 millimeters of mercury")
      );
 
-    setMostCommonUnits(QList<int>() <<
+    setMostCommonUnits(QList<UnitId>() <<
                        Hectopascal << Pascal << Bar << Atmosphere << InchesOfMercury);
 }

@@ -106,6 +106,6 @@ Density::Density() : UnitCategory(DensityCategory)
       ki18ncp("amount in units (integer)", "%1 pound per cubic yard", "%1 pounds per cubic yard")
      );
 
-    setMostCommonUnits(QList<int>() <<
+     setMostCommonUnits(QList<UnitId>() <<
                        KilogramsPerCubicMeter << KilogramPerLiter << OuncePerCubicInch);
 }

@@ -42,7 +42,7 @@ public:
      **/
     UnitCategory();
 
-    UnitCategory(int id);
+    UnitCategory(CategoryId id);
 
     /**
      * Copy constructor, copy @param other to this.
@@ -127,7 +127,7 @@ public:
     *
     * @return Pointer to unit class.
     **/
-    Unit unit(int unitId) const;
+    Unit unit(UnitId unitId) const;
 
     /**
      * Return units in this category.
@@ -158,24 +158,24 @@ public:
      * @return converted value
      **/
     Value convert(const Value &value, const QString &toUnit = QString());
-    Value convert(const Value &value, int toUnit);
+    Value convert(const Value &value, UnitId toUnit);
     virtual Value convert(const Value &value, const Unit &toUnit);
 
     /**
      * @return category id.
      **/
-    int id() const;
+    CategoryId id() const;
 
 protected:
     void setName(const QString &name);
     void setDefaultUnit(const Unit &defaultUnit);
     void addUnitName(const QString &name);
     void addUnitMapValues(const Unit &unit, const QString &names);
-    void addIdMapValue(const Unit &unit, int id);
+    void addIdMapValue(const Unit &unit, UnitId id);
     void setDescription(const QString &desc);
     void setUrl(const QUrl &url);
     void setSymbolStringFormat(const KLocalizedString &symbolStringFormat);
-    void setMostCommonUnits(const QList<int> &units);
+    void setMostCommonUnits(const QList<UnitId> &units);
     KLocalizedString symbolStringFormat() const;
 
 private:

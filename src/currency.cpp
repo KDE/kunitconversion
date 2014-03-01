@@ -513,7 +513,7 @@ Currency::Currency() : UnitCategory(CurrencyCategory)
       ki18ncp("amount in units (integer)", "%1 rand", "%1 rand")
      );
 
-    setMostCommonUnits(QList<int>() << Eur << Usd << Jpy << Gbp << Cad);
+    setMostCommonUnits(QList<UnitId>() << Eur << Usd << Jpy << Gbp << Cad);
 
     m_cache = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
     m_update = true;

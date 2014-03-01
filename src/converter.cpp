@@ -88,7 +88,7 @@ public:
         return !(*this == other);
     }
 
-    QMap<int, UnitCategory> categories;
+    QMap<CategoryId, UnitCategory> categories;
 };
 
 class QConverterSingleton
@@ -139,7 +139,7 @@ Value Converter::convert(const Value &value, const QString &toUnit) const
     return Value();
 }
 
-Value Converter::convert(const Value &value, int toUnit) const
+Value Converter::convert(const Value &value, UnitId toUnit) const
 {
     if (d && value.unit().isValid()) {
         return value.unit().category().convert(value, toUnit);
@@ -176,7 +176,7 @@ Unit Converter::unit(const QString &unitString) const
     return Unit();
 }
 
-Unit Converter::unit(int unitId) const
+Unit Converter::unit(UnitId unitId) const
 {
     foreach (const UnitCategory &u, categories()) {
         Unit unitClass = u.unit(unitId);
@@ -198,7 +198,7 @@ UnitCategory Converter::category(const QString &category) const
     return UnitCategory();
 }
 
-UnitCategory Converter::category(int categoryId) const
+UnitCategory Converter::category(CategoryId categoryId) const
 {
     if (d && d->categories.contains(categoryId)) {
         return d->categories[categoryId];

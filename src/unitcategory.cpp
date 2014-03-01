@@ -27,7 +27,7 @@ namespace KUnitConversion
 class UnitCategoryPrivate : public QSharedData
 {
 public:
-    UnitCategoryPrivate() : id(int(InvalidCategory))
+    UnitCategoryPrivate() : id(InvalidCategory)
     {
     };
 
@@ -53,13 +53,13 @@ public:
     QString name;
     Unit defaultUnit;
     QMap<QString, Unit> unitMap;
-    QMap<int, Unit> idMap;
+    QMap<UnitId, Unit> idMap;
     QList<Unit> units;
     QList<Unit> mostCommonUnits;
     QString description;
     QUrl url;
     KLocalizedString symbolStringFormat;
-    int id;
+    CategoryId id;
 };
 
 UnitCategory::UnitCategory()
@@ -67,7 +67,7 @@ UnitCategory::UnitCategory()
 {
 }
 
-UnitCategory::UnitCategory(int id)
+UnitCategory::UnitCategory(CategoryId id)
     : d(new UnitCategoryPrivate)
 {
     d->id = id;
@@ -136,12 +136,12 @@ QList<Unit> UnitCategory::mostCommonUnits() const
     return QList<Unit>();
 }
 
-void UnitCategory::setMostCommonUnits(const QList<int> &units)
+void UnitCategory::setMostCommonUnits(const QList<UnitId> &units)
 {
     if (isNull())
         return;
     d->mostCommonUnits.clear();
-    foreach (int u, units) {
+    foreach (UnitId u, units) {
         d->mostCommonUnits.append(unit(u));
     }
 }
@@ -169,7 +169,7 @@ Value UnitCategory::convert(const Value &value, const QString &toUnit)
     return Value();
 }
 
-Value UnitCategory::convert(const Value &value, int toUnit)
+Value UnitCategory::convert(const Value &value, UnitId toUnit)
 {
     if (d && d->idMap.contains(toUnit) && value.unit().isValid()) {
         return convert(value, d->idMap[toUnit]);
@@ -196,7 +196,7 @@ void UnitCategory::addUnitMapValues(const Unit &unit, const QString &names)
     }
 }
 
-void UnitCategory::addIdMapValue(const Unit &unit, int id)
+void UnitCategory::addIdMapValue(const Unit &unit, UnitId id)
 {
     if (isNull())
         return;
@@ -211,7 +211,7 @@ Unit UnitCategory::unit(const QString &s) const
     return Unit();
 }
 
-Unit UnitCategory::unit(int unitId) const
+Unit UnitCategory::unit(UnitId unitId) const
 {
     if (d && d->idMap.contains(unitId)) {
         return d->idMap[unitId];
@@ -271,11 +271,11 @@ void UnitCategory::setUrl(const QUrl &url)
         d->url = url;
 }
 
-int UnitCategory::id() const
+CategoryId UnitCategory::id() const
 {
     if (d)
         return d->id;
-    return int(InvalidCategory);
+    return InvalidCategory;
 }
 
 }

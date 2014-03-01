@@ -32,7 +32,7 @@ void CategoryTest::testInfo()
     QCOMPARE(cg.name(), QString("Area"));
     QCOMPARE(cg.description(), QString(""));
     QCOMPARE(cg.url(), QUrl());
-    QCOMPARE(cg.id(), (int)AreaCategory);
+    QCOMPARE(cg.id(), AreaCategory);
 }
 
 void CategoryTest::testUnits()
@@ -59,7 +59,7 @@ void CategoryTest::testConvert()
 
 void CategoryTest::testInvalid()
 {
-    UnitCategory cg = c.category(99999);
+    UnitCategory cg = c.category(CategoryId(99999));
     QCOMPARE(cg.name(), QString());
     cg = c.category("don't exist");
     QCOMPARE(cg.name(), QString());

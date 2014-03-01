@@ -40,7 +40,7 @@ public:
     UnitPrivate()
         : multiplier(0),
           complex(0),
-          id(int(InvalidUnit))
+          id(InvalidUnit)
     {
     };
 
@@ -77,7 +77,7 @@ public:
     KLocalizedString integer;
     const Complex *complex;
     UnitCategory category;
-    int id;
+    UnitId id;
 };
 
 Unit::Unit()
@@ -85,7 +85,7 @@ Unit::Unit()
 {
 }
 
-Unit::Unit(const UnitCategory &category, int id, double multiplier, const QString &symbol,
+Unit::Unit(const UnitCategory &category, UnitId id, double multiplier, const QString &symbol,
            const QString &description, const QString &match,
            const KLocalizedString &real, const KLocalizedString &integer)
     : d(new UnitPrivate(category))
@@ -100,7 +100,7 @@ Unit::Unit(const UnitCategory &category, int id, double multiplier, const QStrin
     d->category.addIdMapValue(*this, id);
 }
 
-Unit::Unit(const UnitCategory &category, int id, const Complex *complex, const QString &symbol,
+Unit::Unit(const UnitCategory &category, UnitId id, const Complex *complex, const QString &symbol,
            const QString &description, const QString &match,
            const KLocalizedString &real, const KLocalizedString &integer)
     : d(new UnitPrivate(category, complex))
@@ -154,7 +154,7 @@ UnitCategory Unit::category() const
 {
     if (d)
         return d->category;
-    return (int)InvalidCategory;
+    return InvalidCategory;
 }
 
 QString Unit::description() const
@@ -231,11 +231,11 @@ bool Unit::isValid() const
     return (d && !d->symbol.isEmpty());
 }
 
-int Unit::id() const
+UnitId Unit::id() const
 {
     if (d)
         return d->id;
-    return int(InvalidUnit);
+    return InvalidUnit;
 }
 
 }

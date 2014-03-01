@@ -30,6 +30,127 @@ class KLocalizedString;
 namespace KUnitConversion
 {
 
+enum CategoryId {
+    InvalidCategory = -1,
+    LengthCategory,
+    AreaCategory,
+    VolumeCategory,
+    TemperatureCategory,
+    VelocityCategory,
+    MassCategory,
+    PressureCategory,
+    EnergyCategory,
+    CurrencyCategory,
+    PowerCategory,
+    TimeCategory,
+    FuelEfficiencyCategory,
+    DensityCategory,
+    AccelerationCategory,
+    AngleCategory,
+    FrequencyCategory,
+    ForceCategory
+};
+
+enum UnitId {
+    InvalidUnit = -1, NoUnit = 0, Percent = 1,
+    // Area
+    SquareYottameter = 1000, SquareZettameter, SquareExameter, SquarePetameter, SquareTerameter,
+    SquareGigameter, SquareMegameter, SquareKilometer, SquareHectometer, SquareDecameter,
+    SquareMeter, SquareDecimeter, SquareCentimeter, SquareMillimeter, SquareMicrometer,
+    SquareNanometer, SquarePicometer, SquareFemtometer, SquareAttometer, SquareZeptometer,
+    SquareYoctometer, Acre, SquareFoot, SquareInch, SquareMile,
+
+    // Length
+    Yottameter = 2000, Zettameter, Exameter, Petameter, Terameter, Gigameter, Megameter,
+    Kilometer, Hectometer, Decameter, Meter, Decimeter, Centimeter, Millimeter, Micrometer,
+    Nanometer, Picometer, Femtometer, Attometer, Zeptometer, Yoctometer, Inch, Foot, Yard,
+    Mile, NauticalMile, LightYear, Parsec, AstronomicalUnit, Thou, Angstrom,
+
+    // Volume
+    CubicYottameter = 3000, CubicZettameter, CubicExameter, CubicPetameter, CubicTerameter,
+    CubicGigameter, CubicMegameter, CubicKilometer, CubicHectometer, CubicDecameter, CubicMeter,
+    CubicDecimeter, CubicCentimeter, CubicMillimeter, CubicMicrometer, CubicNanometer,
+    CubicPicometer, CubicFemtometer, CubicAttometer, CubicZeptometer, CubicYoctometer,
+    Yottaliter, Zettaliter, Exaliter, Petaliter, Teraliter, Gigaliter, Megaliter, Kiloliter,
+    Hectoliter, Decaliter, Liter, Deciliter, Centiliter, Milliliter, Microliter, Nanoliter,
+    Picoliter, Femtoliter, Attoliter, Zeptoliter, Yoctoliter, CubicFoot, CubicInch, CubicMile,
+    FluidOunce, Cup, GallonUS, PintImperial,
+
+    // Mass
+    Yottagram = 4000, Zettagram, Exagram, Petagram, Teragram, Gigagram, Megagram, Kilogram,
+    Hectogram, Decagram, Gram, Decigram, Centigram, Milligram, Microgram, Nanogram, Picogram,
+    Femtogram, Attogram, Zeptogram, Yoctogram, Ton, Carat, Pound, Ounce, TroyOunce, MassNewton,
+    Kilonewton,
+
+    // Pressure
+    Yottapascal = 5000, Zettapascal, Exapascal, Petapascal, Terapascal, Gigapascal, Megapascal,
+    Kilopascal, Hectopascal, Decapascal, Pascal, Decipascal, Centipascal, Millipascal,
+    Micropascal, Nanopascal, Picopascal, Femtopascal, Attopascal, Zeptopascal, Yoctopascal,
+    Bar, Millibar, Decibar, Torr, TechnicalAtmosphere, Atmosphere, PoundForcePerSquareInch,
+    InchesOfMercury, MillimetersOfMercury,
+
+    // Temperature
+    Kelvin = 6000, Celsius, Fahrenheit, Rankine, Delisle, TemperatureNewton, Reaumur, Romer,
+
+    // Energy
+    Yottajoule = 7000, Zettajoule, Exajoule, Petajoule, Terajoule, Gigajoule, Megajoule,
+    Kilojoule, Hectojoule, Decajoule, Joule, Decijoule, Centijoule, Millijoule, Microjoule,
+    Nanojoule, Picojoule, Femtojoule, Attojoule, Zeptojoule, Yoctojoule, GuidelineDailyAmount,
+    Electronvolt, Rydberg, Kilocalorie, PhotonWavelength, KiloJoulePerMole, JoulePerMole,
+
+    // Currency
+    Eur = 8000, Ats, Bef, Nlg, Fim, Frf, Dem, Iep, Itl, Luf, Pte, Esp, Grd, Sit, Cyp, Mtl, Skk,
+    Usd, Jpy, Bgn, Czk, Dkk, Eek, Gbp, Huf, Ltl, Lvl, Pln, Ron, Sek, Chf, Nok, Hrk, Rub, Try,
+    Aud, Brl, Cad, Cny, Hkd, Idr, Inr, Krw, Mxn, Myr, Nzd, Php, Sgd, Thb, Zar,
+
+    // Velocity
+    MeterPerSecond = 9000, KilometerPerHour, MilePerHour, FootPerSecond, InchPerSecond, Knot,
+    Mach, SpeedOfLight, Beaufort,
+
+    // Power
+    Yottawatt = 10000, Zettawatt, Exawatt, Petawatt, Terawatt, Gigawatt, Megawatt, Kilowatt,
+    Hectowatt, Decawatt, Watt, Deciwatt, Centiwatt, Milliwatt, Microwatt, Nanowatt, Picowatt,
+    Femtowatt, Attowatt, Zeptowatt, Yoctowatt, Horsepower,
+
+    // Time
+    Yottasecond = 11000, Zettasecond, Exasecond, Petasecond, Terasecond, Gigasecond, Megasecond,
+    Kilosecond, Hectosecond, Decasecond, Second, Decisecond, Centisecond, Millisecond,
+    Microsecond, Nanosecond, Picosecond, Femtosecond, Attosecond, Zeptosecond, Yoctosecond,
+    Minute, Hour, Day, Week, JulianYear, LeapYear, Year,
+
+    // FuelEfficiency
+    LitersPer100Kilometers = 12000, MilePerUsGallon, MilePerImperialGallon, KilometrePerLitre,
+
+    // Density
+    YottakilogramsPerCubicMeter = 13000, ZettakilogramPerCubicMeter, ExakilogramPerCubicMeter,
+    PetakilogramPerCubicMeter, TerakilogramPerCubicMeter, GigakilogramPerCubicMeter,
+    MegakilogramPerCubicMeter, KilokilogramPerCubicMeter, HectokilogramsPerCubicMeter,
+    DecakilogramsPerCubicMeter, KilogramsPerCubicMeter, DecikilogramsPerCubicMeter,
+    CentikilogramsPerCubicMeter, MillikilogramsPerCubicMeter, MicrokilogramsPerCubicMeter,
+    NanokilogramsPerCubicMeter, PicokilogramsPerCubicMeter, FemtokilogramsPerCubicMeter,
+    AttokilogramsPerCubicMeter, ZeptokilogramsPerCubicMeter, YoctokilogramsPerCubicMeter,
+    KilogramPerLiter, GramPerLiter, GramPerMilliliter,
+    OuncePerCubicInch, OuncePerCubicFoot, OuncePerCubicYard,
+    PoundPerCubicInch, PoundPerCubicFoot, PoundPerCubicYard,
+
+    // Acceleration
+    MetresPerSecondSquared = 14000, FeetPerSecondSquared, StandardGravity,
+
+    // Force
+    Yottanewton = 15000, Zettanewton, Exanewton, Petanewton, Teranewton, Giganewton, Meganewton,
+    KilonewtonForce, Hectonewton, Decanewton, Newton, Decinewton, Centinewton, Millinewton, Micronewton,
+    Nanonewton, Piconewton, Femtonewton, Attonewton, Zeptonewton, Yoctonewton, Dyne, Kilopond,
+    PoundForce, Poundal,
+
+    // Angle
+    Degree = 16000, Radian, Gradian, ArcMinute, ArcSecond,
+
+    // Frequency
+    Yottahertz = 17000, Zettahertz, Exahertz, Petahertz, Terahertz, Gigahertz, Megahertz,
+    Kilohertz, Hectohertz, Decahertz, Hertz, Decihertz, Centihertz, Millihertz, Microhertz,
+    Nanohertz, Picohertz, Femtohertz, Attohertz, Zeptohertz, Yoctohertz, RPM
+};
+
 class UnitCategory;
 
 class KUNITCONVERSION_EXPORT Complex
@@ -50,10 +171,10 @@ public:
      * Null constructor
      **/
     Unit();
-    Unit(const UnitCategory &category, int id, double multiplier, const QString &symbol,
+    Unit(const UnitCategory &category, UnitId id, double multiplier, const QString &symbol,
          const QString &description, const QString &match,
          const KLocalizedString &real, const KLocalizedString &integer);
-    Unit(const UnitCategory &category, int id, const Complex *complex, const QString &symbol,
+    Unit(const UnitCategory &category, UnitId id, const Complex *complex, const QString &symbol,
          const QString &description, const QString &match,
          const KLocalizedString &real, const KLocalizedString &integer);
     /**
@@ -155,7 +276,7 @@ public:
     /**
      * @return unit id.
      **/
-    int id() const;
+    UnitId id() const;
 
 protected:
     double toDefault(double value) const;

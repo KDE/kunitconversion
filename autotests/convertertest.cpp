@@ -28,8 +28,8 @@ void ConverterTest::initTestCase()
 
 void ConverterTest::testCategory()
 {
-    QCOMPARE(c.categoryForUnit("km").id(), (int)LengthCategory);
-    QCOMPARE(c.category(QString("Length")).id(), (int)LengthCategory);
+    QCOMPARE(c.categoryForUnit("km").id(), LengthCategory);
+    QCOMPARE(c.category(QString("Length")).id(), LengthCategory);
     QCOMPARE(c.category(LengthCategory).name(), QString("Length"));
     QVERIFY(c.categories().size() > 0);
 }
@@ -52,7 +52,7 @@ void ConverterTest::testConvert()
 
 void ConverterTest::testInvalid()
 {
-    QCOMPARE(c.categoryForUnit("does not exist").id(), (int)InvalidCategory);
+    QCOMPARE(c.categoryForUnit("does not exist").id(), InvalidCategory);
     QCOMPARE(c.unit("does not exist").symbol(), QString());
     QCOMPARE(c.category("does not exist").name(), QString());
 }

@@ -56,7 +56,7 @@ Acceleration::Acceleration() : UnitCategory(AccelerationCategory)
               "%1 times standard gravity")
      );
 
-    setMostCommonUnits(QList<int>() <<
+    setMostCommonUnits(QList<UnitId>() <<
                        MetresPerSecondSquared << FeetPerSecondSquared);
 }
 
