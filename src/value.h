@@ -37,14 +37,16 @@ class KUNITCONVERSION_EXPORT Value
 {
 public:
     Value();
-    Value(double n, const Unit &u);
-    Value(double n, const QString &u);
-    Value(double n, UnitId u);
-    Value(const QVariant &n, const QString &u);
+    Value(double number, const Unit &unit);
+    Value(double number, const QString &unitString);
+    Value(double number, UnitId unitId);
+    Value(const QVariant &number, const QString &unitString);
+
     /**
      * Copy constructor, copy @param other to this.
      **/
     Value(const Value &other);
+
     ~Value();
 
     /**
@@ -88,6 +90,16 @@ public:
     bool isValid() const;
 
     /**
+     * Number part of the value
+     **/
+    double number() const;
+
+    /**
+     * Unit part of the value
+     **/
+    Unit unit() const;
+
+    /**
      * Convert value to a string
      * @param fieldWidth width of the formatted field, padded by spaces.
      *                   Positive value aligns right, negative aligns left
@@ -114,20 +126,10 @@ public:
                            const QChar &fillChar = QLatin1Char(' ')) const;
 
     /**
-     * Number part of the value
-     **/
-    double number() const;
-
-    /**
      * rounds value to decimal count
      * @param decimals decimal count.
      **/
     Value &round(uint decimals);
-
-    /**
-     * Unit part of the value
-     **/
-    Unit unit() const;
 
     /**
     * convert to another unit

@@ -50,23 +50,23 @@ class ConverterPrivate : public QSharedData
 public:
     ConverterPrivate()
     {
-        categories[LengthCategory] = Length();
-        categories[AreaCategory] = Area();
-        categories[VolumeCategory] = Volume();
-        categories[TemperatureCategory] = Temperature();
-        categories[VelocityCategory] = Velocity();
-        categories[MassCategory] = Mass();
-        categories[PressureCategory] = Pressure();
-        categories[EnergyCategory] = Energy();
-        categories[CurrencyCategory] = Currency();
-        categories[PowerCategory] = Power();
-        categories[TimeCategory] = Time();
-        categories[FuelEfficiencyCategory] = FuelEfficiency();
-        categories[DensityCategory] = Density();
-        categories[AccelerationCategory] = Acceleration();
-        categories[ForceCategory] = Force();
-        categories[AngleCategory] = Angle();
-        categories[FrequencyCategory] = Frequency();
+        m_categories[LengthCategory] = Length();
+        m_categories[AreaCategory] = Area();
+        m_categories[VolumeCategory] = Volume();
+        m_categories[TemperatureCategory] = Temperature();
+        m_categories[VelocityCategory] = Velocity();
+        m_categories[MassCategory] = Mass();
+        m_categories[PressureCategory] = Pressure();
+        m_categories[EnergyCategory] = Energy();
+        m_categories[CurrencyCategory] = Currency();
+        m_categories[PowerCategory] = Power();
+        m_categories[TimeCategory] = Time();
+        m_categories[FuelEfficiencyCategory] = FuelEfficiency();
+        m_categories[DensityCategory] = Density();
+        m_categories[AccelerationCategory] = Acceleration();
+        m_categories[ForceCategory] = Force();
+        m_categories[AngleCategory] = Angle();
+        m_categories[FrequencyCategory] = Frequency();
     };
 
     virtual ~ConverterPrivate()
@@ -80,7 +80,7 @@ public:
 
     bool operator==(const ConverterPrivate &other) const
     {
-        return (categories == other.categories);
+        return (m_categories == other.m_categories);
     }
 
     bool operator!=(const ConverterPrivate &other) const
@@ -88,7 +88,7 @@ public:
         return !(*this == other);
     }
 
-    QMap<CategoryId, UnitCategory> categories;
+    QMap<CategoryId, UnitCategory> m_categories;
 };
 
 class QConverterSingleton
@@ -200,8 +200,8 @@ UnitCategory Converter::category(const QString &category) const
 
 UnitCategory Converter::category(CategoryId categoryId) const
 {
-    if (d && d->categories.contains(categoryId)) {
-        return d->categories[categoryId];
+    if (d && d->m_categories.contains(categoryId)) {
+        return d->m_categories[categoryId];
     }
     // not found
     return UnitCategory();
@@ -210,7 +210,7 @@ UnitCategory Converter::category(CategoryId categoryId) const
 QList<UnitCategory> Converter::categories() const
 {
     if (d)
-        return d->categories.values();
+        return d->m_categories.values();
     return QList<UnitCategory>();
 }
 

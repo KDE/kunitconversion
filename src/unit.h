@@ -52,7 +52,10 @@ enum CategoryId {
 };
 
 enum UnitId {
-    InvalidUnit = -1, NoUnit = 0, Percent = 1,
+    InvalidUnit = -1,
+    NoUnit = 0,
+    Percent = 1,
+
     // Area
     SquareYottameter = 1000, SquareZettameter, SquareExameter, SquarePetameter, SquareTerameter,
     SquareGigameter, SquareMegameter, SquareKilometer, SquareHectometer, SquareDecameter,
@@ -218,6 +221,21 @@ public:
     bool isNull() const;
 
     /**
+     * @return if unit is valid.
+     **/
+    bool isValid() const;
+
+    /**
+     * @return unit id.
+     **/
+    UnitId id() const;
+
+    /**
+     * @return unit category.
+     **/
+    UnitCategory category() const;
+
+    /**
      * @return translated name for unit.
      **/
     QString description() const;
@@ -250,8 +268,8 @@ public:
      *                 field width is greater than argument width
      * @return value + unit string
      **/
-    QString toSymbolString(double value, int fieldWidth = 0, char format = 'g',
-                           int precision = -1, const QChar &fillChar = QLatin1Char(' ')) const;
+    QString toSymbolString(double value, int fieldWidth = 0, char format = 'g', int precision = -1,
+                           const QChar &fillChar = QLatin1Char(' ')) const;
 
     /**
      * @return unit multiplier.
@@ -262,21 +280,6 @@ public:
      * Set unit multiplier.
      **/
     void setMultiplier(double multiplier);
-
-    /**
-     * @return unit category.
-     **/
-    UnitCategory category() const;
-
-    /**
-     * @return if unit is valid.
-     **/
-    bool isValid() const;
-
-    /**
-     * @return unit id.
-     **/
-    UnitId id() const;
 
 protected:
     double toDefault(double value) const;

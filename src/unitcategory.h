@@ -85,6 +85,11 @@ public:
     bool isNull() const;
 
     /**
+     * @return category id.
+     **/
+    CategoryId id() const;
+
+    /**
      * Returns name for the unit category.
      *
      * @return Translated name for category.
@@ -160,11 +165,6 @@ public:
     Value convert(const Value &value, const QString &toUnit = QString());
     Value convert(const Value &value, UnitId toUnit);
     virtual Value convert(const Value &value, const Unit &toUnit);
-
-    /**
-     * @return category id.
-     **/
-    CategoryId id() const;
 
 protected:
     void setName(const QString &name);

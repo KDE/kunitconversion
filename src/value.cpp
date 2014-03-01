@@ -28,32 +28,32 @@ class ValuePrivate : public QSharedData
 {
 public:
     ValuePrivate()
-        : number(0)
+        : m_number(0)
     {
     }
 
-    ValuePrivate(double n = 0.0, UnitId u = InvalidUnit)
-        : number(n)
+    ValuePrivate(double number = 0.0, UnitId unitId = InvalidUnit)
+        : m_number(number)
     {
-        unit = converter.unit(u);
+        m_unit = m_converter.unit(unitId);
     }
 
-    ValuePrivate(double n, const Unit &u)
-        : number(n)
-        , unit(u)
+    ValuePrivate(double number, const Unit &unit)
+        : m_number(number),
+          m_unit(unit)
     {
     }
 
-    ValuePrivate(double n, const QString &u)
-        : number(n)
+    ValuePrivate(double number, const QString &unitString)
+        : m_number(number)
     {
-        unit = converter.unit(u);
+        m_unit = m_converter.unit(unitString);
     }
 
     ValuePrivate(const ValuePrivate &other)
         : QSharedData(other),
-          number(other.number),
-          unit(other.unit)
+          m_number(other.m_number),
+          m_unit(other.m_unit)
     {
     }
 
@@ -63,8 +63,8 @@ public:
 
     ValuePrivate &operator=(const ValuePrivate &other)
     {
-        number = other.number;
-        unit = other.unit;
+        m_number = other.m_number;
+        m_unit = other.m_unit;
         return *this;
     }
 
@@ -75,7 +75,7 @@ public:
 
     bool operator==(const ValuePrivate &other) const
     {
-        return (number == other.number && unit == other.unit);
+        return (m_number == other.m_number && m_unit == other.m_unit);
     }
 
     bool operator!=(const ValuePrivate &other) const
@@ -83,9 +83,9 @@ public:
         return !(*this == other);
     }
 
-    double number;
-    Unit unit;
-    Converter converter;
+    double m_number;
+    Unit m_unit;
+    Converter m_converter;
 };
 
 Value::Value()
@@ -93,23 +93,23 @@ Value::Value()
 {
 }
 
-Value::Value(double n, const Unit &u)
-    : d(new ValuePrivate(n, u))
+Value::Value(double number, const Unit &unit)
+    : d(new ValuePrivate(number, unit))
 {
 }
 
-Value::Value(double n, const QString &u)
-    : d(new ValuePrivate(n, u))
+Value::Value(double number, const QString &unitString)
+    : d(new ValuePrivate(number, unitString))
 {
 }
 
-Value::Value(double n, UnitId u)
-    : d(new ValuePrivate(n, u))
+Value::Value(double number, UnitId unitId)
+    : d(new ValuePrivate(number, unitId))
 {
 }
 
-Value::Value(const QVariant &n, const QString &u)
-    : d(new ValuePrivate(n.toDouble(), u))
+Value::Value(const QVariant &number, const QString &unitString)
+    : d(new ValuePrivate(number.toDouble(), unitString))
 {
 }
 
@@ -146,23 +146,35 @@ bool Value::isNull() const
 
 bool Value::isValid() const
 {
-    return (d && d->unit.isValid());
+    return (d && d->m_unit.isValid());
+}
+
+double Value::number() const
+{
+    if (d)
+        return d->m_number;
+    return 0;
+}
+
+Unit Value::unit() const
+{
+    if (d)
+        return d->m_unit;
+    return Unit();
 }
 
 QString Value::toString(int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
-    if (isValid()) {
-        return d->unit.toString(d->number, fieldWidth, format, precision, fillChar);
-    }
+    if (isValid())
+        return d->m_unit.toString(d->m_number, fieldWidth, format, precision, fillChar);
     return QString();
 }
 
 QString Value::toSymbolString(int fieldWidth, char format, int precision,
                               const QChar &fillChar) const
 {
-    if (isValid()) {
-        return d->unit.toSymbolString(d->number, fieldWidth, format, precision, fillChar);
-    }
+    if (isValid())
+        return d->m_unit.toSymbolString(d->m_number, fieldWidth, format, precision, fillChar);
     return QString();
 }
 
@@ -174,42 +186,28 @@ Value &Value::round(uint decimals)
     uint div = qPow(10, decimals);
     double add = 0.5 / (double)div;
 
-    d->number = (int)((d->number + add) * div) / (double)div;
+    d->m_number = (int)((d->m_number + add) * div) / (double)div;
     return *this;
-}
-
-double Value::number() const
-{
-    if (d)
-        return d->number;
-    return 0;
-}
-
-Unit Value::unit() const
-{
-    if (d)
-        return d->unit;
-    return Unit();
 }
 
 Value Value::convertTo(const Unit &unit) const
 {
     if (d)
-        return d->converter.convert(*this, unit);
+        return d->m_converter.convert(*this, unit);
     return Value();
 }
 
-Value Value::convertTo(UnitId unit) const
+Value Value::convertTo(UnitId unitId) const
 {
     if (d)
-        return d->converter.convert(*this, unit);
+        return d->m_converter.convert(*this, unitId);
     return Value();
 }
 
-Value Value::convertTo(const QString &unit) const
+Value Value::convertTo(const QString &unitString) const
 {
     if (d)
-        return d->converter.convert(*this, unit);
+        return d->m_converter.convert(*this, unitString);
     return Value();
 }
 
