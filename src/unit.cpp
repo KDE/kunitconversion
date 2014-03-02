@@ -18,6 +18,7 @@
  */
 
 #include "unit.h"
+#include "unit_p.h"
 #include "unitcategory.h"
 
 #include <klocalizedstring.h>
@@ -34,84 +35,107 @@ Complex::~Complex()
 {
 }
 
-class UnitPrivate : public QSharedData
+UnitPrivate::UnitPrivate()
+    : m_categoryId(InvalidCategory),
+      m_id(InvalidUnit),
+      m_multiplier(1.0),
+      m_complex(0)
 {
-public:
-    UnitPrivate()
-        : m_id(InvalidUnit),
-          m_multiplier(0),
-          m_complex(0)
-    {
-    };
+}
 
-    UnitPrivate(const UnitCategory &category, const Complex *complex = 0)
-        : m_multiplier(1.0),
-          m_category(category),
-          m_complex(complex)
-    {
-    };
+UnitPrivate::UnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+                         const QString &symbol, const QString &description,
+                         const QString &matchString, const KLocalizedString &symbolString,
+                         const KLocalizedString &realString, const KLocalizedString &integerString)
+    : m_categoryId(categoryId),
+      m_id(id),
+      m_multiplier(multiplier),
+      m_symbol(symbol),
+      m_description(description),
+      m_matchString(matchString),
+      m_symbolString(symbolString),
+      m_realString(realString),
+      m_integerString(integerString),
+      m_complex(0)
+{
+}
 
-    virtual ~UnitPrivate()
-    {
-    };
+UnitPrivate::~UnitPrivate()
+{
+}
 
-    UnitPrivate *clone()
-    {
-        return new UnitPrivate(*this);
-    }
+UnitPrivate *UnitPrivate::clone()
+{
+    return new UnitPrivate(*this);
+}
 
-    bool operator==(const UnitPrivate &other) const
-    {
-        return (m_id == other.m_id && m_symbol == other.m_symbol);
-    }
+bool UnitPrivate::operator==(const UnitPrivate &other) const
+{
+    return (m_id == other.m_id && m_symbol == other.m_symbol);
+}
 
-    bool operator!=(const UnitPrivate &other) const
-    {
-        return !(*this == other);
-    }
+bool UnitPrivate::operator!=(const UnitPrivate &other) const
+{
+    return !(*this == other);
+}
 
-    UnitId m_id;
-    QString m_symbol;
-    QString m_description;
-    double m_multiplier;
-    KLocalizedString m_realString;
-    KLocalizedString m_integerString;
-    UnitCategory m_category;
-    const Complex *m_complex;
-};
+void UnitPrivate::setUnitMultiplier(double multiplier)
+{
+    m_multiplier = multiplier;
+}
+
+double UnitPrivate::unitMultiplier() const
+{
+    return m_multiplier;
+}
+
+double UnitPrivate::toDefault(double value) const
+{
+    if (m_complex)
+        return m_complex->toDefault(value);
+    else
+        return value * m_multiplier;
+}
+
+double UnitPrivate::fromDefault(double value) const
+{
+    if (m_complex)
+        return m_complex->fromDefault(value);
+    else
+        return value / m_multiplier;
+}
 
 Unit::Unit()
     : d(0)
 {
 }
 
-Unit::Unit(const UnitCategory &category, UnitId id, double multiplier, const QString &symbol,
-           const QString &description, const QString &match,
-           const KLocalizedString &realString, const KLocalizedString &integerString)
-    : d(new UnitPrivate(category))
+Unit::Unit(UnitPrivate *dd)
+    : d(dd)
 {
-    d->m_id = id;
-    d->m_symbol = symbol;
-    d->m_description = description;
-    d->m_multiplier = multiplier;
-    d->m_realString = realString;
-    d->m_integerString = integerString;
-    d->m_category.addUnitMapValues(*this, match);
+}
+
+Unit::Unit(const UnitCategory &category, UnitId id, double multiplier, const QString &symbol,
+           const QString &description, const QString &matchString,
+           const KLocalizedString &realString, const KLocalizedString &integerString)
+    : d(new UnitPrivate(category.id(), id, multiplier, symbol, description, matchString, KLocalizedString(), realString, integerString))
+{
+    d->m_category = category;
+    d->m_category.addUnitMapValues(*this, matchString);
     d->m_category.addIdMapValue(*this, id);
+    d->m_symbolString = category.symbolStringFormat();
 }
 
 Unit::Unit(const UnitCategory &category, UnitId id, const Complex *complex, const QString &symbol,
-           const QString &description, const QString &match,
+           const QString &description, const QString &matchString,
            const KLocalizedString &realString, const KLocalizedString &integerString)
-    : d(new UnitPrivate(category, complex))
+    : d(new UnitPrivate(category.id(), id, 1.0, symbol, description, matchString, KLocalizedString(), realString, integerString))
 {
-    d->m_id = id;
-    d->m_symbol = symbol;
-    d->m_description = description;
-    d->m_realString = realString;
-    d->m_integerString = integerString;
-    d->m_category.addUnitMapValues(*this, match);
+    d->m_category = category;
+    d->m_category.addUnitMapValues(*this, matchString);
     d->m_category.addIdMapValue(*this, id);
+    d->m_complex = complex;
+    d->m_symbolString = category.symbolStringFormat();
 }
 
 Unit::Unit(const Unit &other)
@@ -162,6 +186,13 @@ UnitId Unit::id() const
     return InvalidUnit;
 }
 
+CategoryId Unit::categoryId() const
+{
+    if (d)
+        return d->m_categoryId;
+    return InvalidCategory;
+}
+
 UnitCategory Unit::category() const
 {
     if (d)
@@ -186,29 +217,21 @@ QString Unit::symbol() const
 void Unit::setUnitMultiplier(double multiplier)
 {
     if (d)
-        d->m_multiplier = multiplier;
+        setUnitMultiplier(multiplier);
 }
 
 double Unit::toDefault(double value) const
 {
-    if (isNull())
-        return 0;
-    if (d->m_complex) {
-        return d->m_complex->toDefault(value);
-    } else {
-        return value * d->m_multiplier;
-    }
+    if (d)
+        return d->toDefault(value);
+    return 0;
 }
 
 double Unit::fromDefault(double value) const
 {
-    if (isNull())
-        return 0;
-    if (d->m_complex) {
-        return d->m_complex->fromDefault(value);
-    } else {
-        return value / d->m_multiplier;
-    }
+    if (d)
+        return d->fromDefault(value);
+    return 0;
 }
 
 QString Unit::toString(double value, int fieldWidth, char format, int precision,
@@ -225,11 +248,9 @@ QString Unit::toString(double value, int fieldWidth, char format, int precision,
 QString Unit::toSymbolString(double value, int fieldWidth, char format, int precision,
                              const QChar &fillChar) const
 {
-    if (isNull())
-        return QString();
-    return category().symbolStringFormat().subs(value, fieldWidth, format, precision, fillChar)
-                                          .subs(d->m_symbol)
-                                          .toString();
+    if (d)
+        return d->m_symbolString.subs(value, fieldWidth, format, precision, fillChar).subs(d->m_symbol).toString();
+    return QString();
 }
 
 }

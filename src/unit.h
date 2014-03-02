@@ -185,7 +185,7 @@ public:
      **/
     Unit(const Unit &other);
 
-    ~Unit();
+    virtual ~Unit();
 
     /**
      * Assignment operator, assign @param other to this.
@@ -229,6 +229,11 @@ public:
      * @return unit id.
      **/
     UnitId id() const;
+
+    /**
+     * @return category id.
+     **/
+    CategoryId categoryId() const;
 
     /**
      * @return unit category.
@@ -277,9 +282,13 @@ protected:
     double fromDefault(double value) const;
 
 private:
+    friend class CustomUnit;
     friend class UnitCategory;
     friend class Currency;
+
+    Unit(UnitPrivate *dd);
     void setUnitMultiplier(double multiplier);
+
     QExplicitlySharedDataPointer<UnitPrivate> d;
 };
 
