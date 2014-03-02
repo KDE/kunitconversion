@@ -22,11 +22,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Power::Power() : UnitCategory(PowerCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Power"));
+
+Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (power)", "%1 %2"));
 
     U(Yottawatt, 1e+24,
@@ -186,3 +186,5 @@ Power::Power() : UnitCategory(PowerCategory)
 
     setMostCommonUnits(QList<UnitId>() << Kilowatt << Watt << Horsepower);
 }
+
+} // KUnitConversion namespace

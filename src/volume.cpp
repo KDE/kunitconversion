@@ -22,11 +22,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Volume::Volume() : UnitCategory(VolumeCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Volume"));
+
+Volume::Volume() : CustomCategory(VolumeCategory, i18n("Volume"), i18n("Volume"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (volume)", "%1 %2"));
 
     U(CubicYottameter, 1e+72,
@@ -403,3 +403,5 @@ Volume::Volume() : UnitCategory(VolumeCategory)
     setMostCommonUnits(QList<UnitId>() <<
                        Deciliter << Liter << GallonUS << FluidOunce << CubicMeter << Cup << PintImperial);
 }
+
+} // KUnitConversion namespace

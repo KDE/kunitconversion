@@ -20,12 +20,17 @@
 #ifndef PRESSURE_P_H
 #define PRESSURE_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Pressure : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Pressure : public CustomCategory
 {
 public:
     Pressure();
 };
+
+} // KUnitConversion namespace
 
 #endif

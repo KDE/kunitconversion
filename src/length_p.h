@@ -20,12 +20,17 @@
 #ifndef LENGTH_P_H
 #define LENGTH_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Length : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Length : public CustomCategory
 {
 public:
     Length();
 };
+
+} // KUnitConversion namespace
 
 #endif

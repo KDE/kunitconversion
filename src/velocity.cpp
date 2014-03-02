@@ -23,7 +23,8 @@
 #include <math.h>
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
+namespace KUnitConversion
+{
 
 class BeaufortConv : public Complex
 {
@@ -37,9 +38,8 @@ class BeaufortConv : public Complex
     };
 };
 
-Velocity::Velocity() : UnitCategory(VelocityCategory)
+Velocity::Velocity() : CustomCategory(VelocityCategory, i18n("Speed"), i18n("Speed"))
 {
-    setName(i18n("Speed"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (velocity)", "%1 %2"));
 
     setDefaultUnit(Unit(*this, MeterPerSecond, 1,
@@ -114,3 +114,5 @@ Velocity::Velocity() : UnitCategory(VelocityCategory)
     setMostCommonUnits(QList<UnitId>() <<
                        MeterPerSecond << KilometerPerHour << MilePerHour << Knot << Mach);
 }
+
+} // KUnitConversion namespace

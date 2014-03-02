@@ -20,12 +20,17 @@
 #ifndef FUELEFFICIENCY_P_H
 #define FUELEFFICIENCY_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class FuelEfficiency : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class FuelEfficiency : public CustomCategory
 {
 public:
     FuelEfficiency();
 };
+
+} // KUnitConversion namespace
 
 #endif

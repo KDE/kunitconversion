@@ -22,11 +22,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Time::Time() : UnitCategory(TimeCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Time"));
+
+Time::Time() : CustomCategory(TimeCategory, i18n("Time"), i18n("Time"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (time)", "%1 %2"));
 
     U(Yottasecond, 1e+24,
@@ -229,3 +229,5 @@ Time::Time() : UnitCategory(TimeCategory)
 
     setMostCommonUnits(QList<UnitId>() << Second << Minute << Day << Week << Year);
 }
+
+} // KUnitConversion namespace

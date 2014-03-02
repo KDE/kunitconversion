@@ -20,12 +20,17 @@
 #ifndef ANGLE_P_H
 #define ANGLE_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Angle : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Angle : public CustomCategory
 {
 public:
     Angle();
 };
+
+} // KUnitConversion namespace
 
 #endif

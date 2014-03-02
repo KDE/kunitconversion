@@ -22,11 +22,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Frequency::Frequency() : UnitCategory(FrequencyCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Frequency"));
+
+Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i18n("Frequency"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (frequency", "%1 %2"));
 
     U(Yottahertz, 1e+24,
@@ -189,3 +189,4 @@ Frequency::Frequency() : UnitCategory(FrequencyCategory)
                        Kilohertz << Megahertz << Gigahertz << Hertz << RPM);
 }
 
+} // KUnitConversion namespace

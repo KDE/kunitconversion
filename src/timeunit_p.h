@@ -20,12 +20,17 @@
 #ifndef TIME_P_H
 #define TIME_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Time : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Time : public CustomCategory
 {
 public:
     Time();
 };
+
+} // KUnitConversion namespace
 
 #endif

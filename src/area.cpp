@@ -22,11 +22,13 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Area::Area() : UnitCategory(AreaCategory)
+namespace KUnitConversion
 {
-    setName(i18nc("Unit Category: two dimensional size of a surface", "Area"));
+
+Area::Area() : CustomCategory(AreaCategory,
+                              i18nc("Unit Category: two dimensional size of a surface", "Area"),
+                              i18nc("Unit Category: two dimensional size of a surface", "Area"))
+{
     // i18n: Used when converting to symbol string e.g. 2.34 m²
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (area)", "%1 %2"));
 
@@ -246,3 +248,5 @@ Area::Area() : UnitCategory(AreaCategory)
     setMostCommonUnits(QList<UnitId>() <<
                        SquareKilometer << SquareMeter << SquareHectometer << Acre << SquareFoot << SquareMile);
 }
+
+} // KUnitConversion namespace

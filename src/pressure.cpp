@@ -22,11 +22,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Pressure::Pressure() : UnitCategory(PressureCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Pressure"));
+
+Pressure::Pressure() : CustomCategory(PressureCategory, i18n("Pressure"), i18n("Pressure"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (pressure)", "%1 %2"));
 
     U(Yottapascal, 1e+24,
@@ -250,3 +250,5 @@ Pressure::Pressure() : UnitCategory(PressureCategory)
     setMostCommonUnits(QList<UnitId>() <<
                        Hectopascal << Pascal << Bar << Atmosphere << InchesOfMercury);
 }
+
+} // KUnitConversion namespace

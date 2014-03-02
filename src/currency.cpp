@@ -37,14 +37,13 @@
 #include <kcurrencycode.h>
 #include <qstandardpaths.h>
 
-using namespace KUnitConversion;
+namespace KUnitConversion
+{
 
 static const char URL[] = "http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
 
-Currency::Currency() : UnitCategory(CurrencyCategory)
+Currency::Currency() : CustomCategory(CurrencyCategory, i18n("Currency"), i18n("From ECB"))
 {
-    setName(i18n("Currency"));
-    setDescription(i18n("From ECB"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (currency)", "%1 %2"));
 
     // Static rates
@@ -587,3 +586,5 @@ Value Currency::convert(const Value &value, const Unit &to)
     Value v = UnitCategory::convert(value, to);
     return v;
 }
+
+} // KUnitConversion namespace

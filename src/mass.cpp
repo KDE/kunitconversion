@@ -23,11 +23,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Mass::Mass() : UnitCategory(MassCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Mass"));
+
+Mass::Mass() : CustomCategory(MassCategory, i18n("Mass"), i18n("Mass"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (mass)", "%1 %2"));
 
     U(Yottagram, 1e+24,
@@ -234,3 +234,5 @@ Mass::Mass() : UnitCategory(MassCategory)
     setMostCommonUnits(QList<UnitId>() <<
                        Kilogram << Gram << Microgram << Ton << Pound << Ounce);
 }
+
+} // KUnitConversion namespace

@@ -22,11 +22,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Acceleration::Acceleration() : UnitCategory(AccelerationCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Acceleration"));
+
+Acceleration::Acceleration() : CustomCategory(AccelerationCategory, i18n("Acceleration"), i18n("Acceleration"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (acceleration)", "%1 %2"));
 
     setDefaultUnit(Unit(*this, MetresPerSecondSquared, 1,
@@ -60,3 +60,4 @@ Acceleration::Acceleration() : UnitCategory(AccelerationCategory)
                        MetresPerSecondSquared << FeetPerSecondSquared);
 }
 
+} // KUnitConversion namespace

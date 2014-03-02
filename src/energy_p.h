@@ -20,12 +20,17 @@
 #ifndef ENERGY_P_H
 #define ENERGY_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Energy : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Energy : public CustomCategory
 {
 public:
     Energy();
 };
+
+} // KUnitConversion namespace
 
 #endif

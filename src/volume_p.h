@@ -20,12 +20,17 @@
 #ifndef VOLUME_P_H
 #define VOLUME_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Volume : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Volume : public CustomCategory
 {
 public:
     Volume();
 };
+
+} // KUnitConversion namespace
 
 #endif

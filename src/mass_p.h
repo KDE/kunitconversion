@@ -21,12 +21,17 @@
 #ifndef MASS_P_H
 #define MASS_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Mass : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Mass : public CustomCategory
 {
 public:
     Mass();
 };
+
+} // KUnitConversion namespace
 
 #endif

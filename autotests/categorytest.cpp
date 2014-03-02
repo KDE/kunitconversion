@@ -30,7 +30,7 @@ void CategoryTest::testInfo()
 {
     UnitCategory cg = c.category(AreaCategory);
     QCOMPARE(cg.name(), QString("Area"));
-    QCOMPARE(cg.description(), QString(""));
+    QCOMPARE(cg.description(), QString("Area"));
     QCOMPARE(cg.id(), AreaCategory);
 }
 

@@ -20,12 +20,17 @@
 #ifndef ACCELERATION_P_H
 #define ACCELERATION_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Acceleration : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Acceleration : public CustomCategory
 {
 public:
     Acceleration();
 };
+
+} // KUnitConversion namespace
 
 #endif

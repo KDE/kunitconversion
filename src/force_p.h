@@ -20,12 +20,17 @@
 #ifndef FORCE_P_H
 #define FORCE_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Force : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Force : public CustomCategory
 {
 public:
     Force();
 };
+
+} // KUnitConversion namespace
 
 #endif

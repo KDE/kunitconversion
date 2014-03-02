@@ -20,12 +20,17 @@
 #ifndef TEMPERATURE_P_H
 #define TEMPERATURE_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Temperature : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Temperature : public CustomCategory
 {
 public:
     Temperature();
 };
+
+} // KUnitConversion namespace
 
 #endif

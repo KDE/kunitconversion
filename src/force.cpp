@@ -22,11 +22,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Force::Force() : UnitCategory(ForceCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Force"));
+
+Force::Force() : CustomCategory(ForceCategory, i18n("Force"), i18n("Force"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (force", "%1 %2"));
 
     U(Yottanewton, 1e+24,
@@ -210,3 +210,4 @@ Force::Force() : UnitCategory(ForceCategory)
     setMostCommonUnits(QList<UnitId>() << KilonewtonForce << Newton);
 }
 
+} // KUnitConversion namespace

@@ -22,11 +22,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Density::Density() : UnitCategory(DensityCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Density"));
+
+Density::Density() : CustomCategory(DensityCategory, i18n("Density"), i18n("Density"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (density)", "%1 %2"));
 
     setDefaultUnit(Unit(*this, KilogramsPerCubicMeter, 1,
@@ -109,3 +109,5 @@ Density::Density() : UnitCategory(DensityCategory)
      setMostCommonUnits(QList<UnitId>() <<
                        KilogramsPerCubicMeter << KilogramPerLiter << OuncePerCubicInch);
 }
+
+} // KUnitConversion namespace

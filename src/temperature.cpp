@@ -22,7 +22,8 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
+namespace KUnitConversion
+{
 
 class CelsiusConv : public Complex
 {
@@ -96,9 +97,8 @@ class RomerConv : public Complex
     };
 };
 
-Temperature::Temperature() : UnitCategory(TemperatureCategory)
+Temperature::Temperature() : CustomCategory(TemperatureCategory, i18n("Temperature"), i18n("Temperature"))
 {
-    setName(i18n("Temperature"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (temperature)", "%1 %2"));
 
     setDefaultUnit(Unit(*this, Kelvin, 1,
@@ -160,3 +160,5 @@ Temperature::Temperature() : UnitCategory(TemperatureCategory)
 
     setMostCommonUnits(QList<UnitId>() << Kelvin << Celsius << Fahrenheit);
 }
+
+} // KUnitConversion namespace

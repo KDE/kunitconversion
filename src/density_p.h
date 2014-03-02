@@ -21,12 +21,17 @@
 #ifndef DENSITY_P_H
 #define DENSITY_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Density : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Density : public CustomCategory
 {
 public:
     Density();
 };
+
+} // KUnitConversion namespace
 
 #endif

@@ -20,12 +20,12 @@
 #ifndef CURRENCY_P_H
 #define CURRENCY_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
 namespace KUnitConversion
 {
 
-class Currency : public KUnitConversion::UnitCategory
+class Currency : public CustomCategory
 {
 public:
     Currency();

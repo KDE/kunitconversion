@@ -20,12 +20,17 @@
 #ifndef VELOCITY_P_H
 #define VELOCITY_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Velocity : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Velocity : public CustomCategory
 {
 public:
     Velocity();
 };
+
+} // KUnitConversion namespace
 
 #endif

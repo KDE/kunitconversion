@@ -22,7 +22,8 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
+namespace KUnitConversion
+{
 
 class PhotonWavelengthConv : public Complex
 {
@@ -36,9 +37,8 @@ class PhotonWavelengthConv : public Complex
     };
 };
 
-Energy::Energy() : UnitCategory(EnergyCategory)
+Energy::Energy() : CustomCategory(EnergyCategory, i18n("Energy"), i18n("Energy"))
 {
-    setName(i18n("Energy"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (energy)", "%1 %2"));
 
     U(Yottajoule, 1e+24,
@@ -242,3 +242,5 @@ Energy::Energy() : UnitCategory(EnergyCategory)
     setMostCommonUnits(QList<UnitId>() <<
                        Joule << Kilojoule << Kilocalorie << GuidelineDailyAmount);
 }
+
+} // KUnitConversion namespace

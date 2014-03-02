@@ -22,7 +22,8 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
+namespace KUnitConversion
+{
 
 class kmpl : public Complex
 {
@@ -60,9 +61,8 @@ class mpgi : public Complex
     };
 };
 
-FuelEfficiency::FuelEfficiency() : UnitCategory(FuelEfficiencyCategory)
+FuelEfficiency::FuelEfficiency() : CustomCategory(FuelEfficiencyCategory, i18n("Fuel Efficiency"), i18n("Fuel Efficiency"))
 {
-    setName(i18n("Fuel Efficiency"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (fuel efficiency)", "%1 %2"));
 
     setDefaultUnit(Unit(*this, LitersPer100Kilometers, 1,
@@ -97,3 +97,5 @@ FuelEfficiency::FuelEfficiency() : UnitCategory(FuelEfficiencyCategory)
     setMostCommonUnits(QList<UnitId>() <<
                        LitersPer100Kilometers << MilePerUsGallon << MilePerImperialGallon);
 }
+
+} // KUnitConversion namespace

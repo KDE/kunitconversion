@@ -20,12 +20,17 @@
 #ifndef POWER_P_H
 #define POWER_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Power : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Power : public CustomCategory
 {
 public:
     Power();
 };
+
+} // KUnitConversion namespace
 
 #endif

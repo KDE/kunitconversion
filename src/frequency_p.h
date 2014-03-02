@@ -20,12 +20,17 @@
 #ifndef FREQUENCY_P_H
 #define FREQUENCY_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Frequency : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Frequency : public CustomCategory
 {
 public:
     Frequency();
 };
+
+} // KUnitConversion namespace
 
 #endif

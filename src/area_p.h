@@ -20,12 +20,17 @@
 #ifndef AREA_P_H
 #define AREA_P_H
 
-#include "unitcategory.h"
+#include "unitcategory_p.h"
 
-class Area : public KUnitConversion::UnitCategory
+namespace KUnitConversion
+{
+
+class Area : public CustomCategory
 {
 public:
     Area();
 };
+
+} // KUnitConversion namespace
 
 #endif

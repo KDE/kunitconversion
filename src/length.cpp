@@ -22,11 +22,11 @@
 #include "converter.h"
 #include <klocalizedstring.h>
 
-using namespace KUnitConversion;
-
-Length::Length() : UnitCategory(LengthCategory)
+namespace KUnitConversion
 {
-    setName(i18n("Length"));
+
+Length::Length() : CustomCategory(LengthCategory, i18n("Length"), i18n("Length"))
+{
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (length", "%1 %2"));
 
     U(Yottameter, 1e+24,
@@ -252,3 +252,4 @@ Length::Length() : UnitCategory(LengthCategory)
                        Kilometer << Meter << Centimeter << Millimeter << Mile << Yard << Foot << Inch);
 }
 
+} // KUnitConversion namespace

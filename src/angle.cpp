@@ -23,7 +23,8 @@
 #include <klocalizedstring.h>
 #include <math.h>
 
-using namespace KUnitConversion;
+namespace KUnitConversion
+{
 
 class RadiansConv : public Complex
 {
@@ -37,9 +38,8 @@ class RadiansConv : public Complex
     };
 };
 
-Angle::Angle() : UnitCategory(AngleCategory)
+Angle::Angle() : CustomCategory(AngleCategory, i18n("Angle"), i18n("Angle"))
 {
-    setName(i18n("Angle"));
     setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (angle)", "%1 %2"));
 
     setDefaultUnit(Unit(*this, Degree, 1,
@@ -81,3 +81,4 @@ Angle::Angle() : UnitCategory(AngleCategory)
     setMostCommonUnits(QList<UnitId>() << Degree << Radian << ArcMinute << ArcSecond);
 }
 
+} // KUnitConversion namespace
