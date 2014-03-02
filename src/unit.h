@@ -284,6 +284,7 @@ protected:
 private:
     friend class CustomUnit;
     friend class UnitCategory;
+    friend class UnitCategoryPrivate;
     friend class Currency;
 
     Unit(UnitPrivate *dd);

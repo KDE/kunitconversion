@@ -171,8 +171,16 @@ protected:
     void setMostCommonUnits(const QList<UnitId> &units);
     KLocalizedString symbolStringFormat() const;
 
+    void addDefaultUnit(const Unit &unit);
+    void addCommonUnit(const Unit &unit);
+    void addUnit(const Unit &unit);
+
 private:
+    friend class CustomCategory;
     friend class Unit;
+
+    UnitCategory(UnitCategoryPrivate *dd);
+
     QExplicitlySharedDataPointer<UnitCategoryPrivate> d;
 };
 

@@ -18,51 +18,59 @@
  */
 
 #include "unitcategory.h"
+#include "unitcategory_p.h"
+#include "unit_p.h"
+
 #include <klocalizedstring.h>
 #include <QMap>
 
 namespace KUnitConversion
 {
 
-class UnitCategoryPrivate : public QSharedData
+UnitCategoryPrivate::UnitCategoryPrivate()
+    : m_id(InvalidCategory)
 {
-public:
-    UnitCategoryPrivate() : m_id(InvalidCategory)
-    {
-    };
+}
 
-    virtual ~UnitCategoryPrivate()
-    {
-    };
+UnitCategoryPrivate::UnitCategoryPrivate(CategoryId id, const QString &name, const QString &description)
+    : m_id(id),
+      m_name(name),
+      m_description(description)
+{
+}
 
-    UnitCategoryPrivate *clone()
-    {
-        return new UnitCategoryPrivate(*this);
-    }
+UnitCategoryPrivate::~UnitCategoryPrivate()
+{
+}
 
-    bool operator==(const UnitCategoryPrivate &other) const
-    {
-        return (m_id == other.m_id);
-    }
+UnitCategoryPrivate *UnitCategoryPrivate::clone()
+{
+    return new UnitCategoryPrivate(*this);
+}
 
-    bool operator!=(const UnitCategoryPrivate &other) const
-    {
-        return !(*this == other);
-    }
+bool UnitCategoryPrivate::operator==(const UnitCategoryPrivate &other) const
+{
+    return (m_id == other.m_id);
+}
 
-    QString m_name;
-    Unit m_defaultUnit;
-    QMap<QString, Unit> m_unitMap;
-    QMap<UnitId, Unit> m_idMap;
-    QList<Unit> m_units;
-    QList<Unit> m_mostCommonUnits;
-    QString m_description;
-    KLocalizedString m_symbolStringFormat;
-    CategoryId m_id;
-};
+bool UnitCategoryPrivate::operator!=(const UnitCategoryPrivate &other) const
+{
+    return !(*this == other);
+}
+
+Value UnitCategoryPrivate::convert(const Value &value, const Unit &toUnit)
+{
+    double v = value.unit().toDefault(value.number());
+    return Value(toUnit.fromDefault(v), toUnit);
+}
 
 UnitCategory::UnitCategory()
     : d(0)
+{
+}
+
+UnitCategory::UnitCategory(UnitCategoryPrivate *dd)
+    : d(dd)
 {
 }
 
@@ -262,6 +270,34 @@ void UnitCategory::setDescription(const QString &description)
 {
     if (d)
         d->m_description = description;
+}
+
+void UnitCategory::addDefaultUnit(const Unit &unit)
+{
+    if (d) {
+        addCommonUnit(unit);
+        d->m_defaultUnit = unit;
+    }
+}
+
+void UnitCategory::addCommonUnit(const Unit &unit)
+{
+    if (d) {
+        addUnit(unit);
+        d->m_mostCommonUnits.append(unit);
+    }
+}
+
+void UnitCategory::addUnit(const Unit &unit)
+{
+    if (d) {
+        unit.d->m_category = *this;
+        const QStringList list = unit.d->m_matchString.split(';');
+        foreach (const QString &name, list)
+            d->m_unitMap[name] = unit;
+        d->m_idMap[unit.id()] = unit;
+        d->m_units.append(unit);
+    }
 }
 
 }
