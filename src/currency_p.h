@@ -29,12 +29,6 @@ class Currency : public CustomCategory
 {
 public:
     Currency();
-    virtual KUnitConversion::Value convert(const KUnitConversion::Value &value,
-                                           const KUnitConversion::Unit &toUnit);
-
-private:
-    QString m_cache;
-    bool m_update;
 };
 
 }

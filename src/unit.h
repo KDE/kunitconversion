@@ -285,7 +285,7 @@ private:
     friend class CustomUnit;
     friend class UnitCategory;
     friend class UnitCategoryPrivate;
-    friend class Currency;
+    friend class CurrencyCategoryPrivate;
 
     Unit(UnitPrivate *dd);
     void setUnitMultiplier(double multiplier);

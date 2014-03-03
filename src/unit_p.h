@@ -44,6 +44,9 @@ public:
     bool operator==(const UnitPrivate &other) const;
     bool operator!=(const UnitPrivate &other) const;
 
+    void setUnitMultiplier(double multiplier);
+    double unitMultiplier() const;
+
     virtual double toDefault(double value) const;
     virtual double fromDefault(double value) const;
 

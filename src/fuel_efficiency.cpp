@@ -18,84 +18,80 @@
  */
 
 #include "fuel_efficiency_p.h"
+#include "unit_p.h"
 
-#include "converter.h"
 #include <klocalizedstring.h>
 
 namespace KUnitConversion
 {
 
-class kmpl : public Complex
+class FuelUnitPrivate : public UnitPrivate
 {
-    double toDefault(double value) const
-    {
-        return 100.0 / value;
-    };
-    double fromDefault(double value) const
-    {
-        return 100.0 / value;
-    };
-};
+public:
+    FuelUnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+                    const QString &symbol, const QString &description,
+                    const QString &matchString, const KLocalizedString &symbolString,
+                    const KLocalizedString &realString, const KLocalizedString &integerString)
+        : UnitPrivate(categoryId, id, multiplier,
+                      symbol, description,
+                      matchString, symbolString,
+                      realString, integerString)
+    {};
 
-class mpg : public Complex
-{
     double toDefault(double value) const
     {
-        return 235.2 / value;
+        return unitMultiplier() / value;
     };
-    double fromDefault(double value) const
-    {
-        return 235.2 / value;
-    };
-};
 
-class mpgi : public Complex
-{
-    double toDefault(double value) const
-    {
-        return 282.5 / value;
-    };
     double fromDefault(double value) const
     {
-        return 282.5 / value;
+        return unitMultiplier() / value;
     };
 };
 
 FuelEfficiency::FuelEfficiency() : CustomCategory(FuelEfficiencyCategory, i18n("Fuel Efficiency"), i18n("Fuel Efficiency"))
 {
-    setSymbolStringFormat(ki18nc("%1 value, %2 unit symbol (fuel efficiency)", "%1 %2"));
+    KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (fuel efficiency)", "%1 %2");
 
-    setDefaultUnit(Unit(*this, LitersPer100Kilometers, 1,
-                        i18nc("fuelefficiency unit symbol", "l/100 km"),
-                        i18nc("unit description in lists", "liters per 100 kilometers"),
-                        i18nc("unit synonyms for matching user input", "liters per 100 kilometers;liters per 100 kilometers;l/100 km;L/100 km"),
-                        ki18nc("amount in units (real)", "%1 liters per 100 kilometers"),
-                        ki18ncp("amount in units (integer)", "%1 liters per 100 kilometers", "%1 liters per 100 kilometers")
-                        ));
-    U(MilePerUsGallon, new mpg(),
-      i18nc("fuelefficiency unit symbol", "mpg"),
-      i18nc("unit description in lists", "miles per US gallon"),
-      i18nc("unit synonyms for matching user input", "mile per US gallon;miles per US gallon;mpg"),
-      ki18nc("amount in units (real)", "%1 miles per US gallon"),
-      ki18ncp("amount in units (integer)", "%1 mile per US gallon", "%1 miles per US gallon")
-     );
-    U(MilePerImperialGallon, new mpgi(),
-      i18nc("fuelefficiency unit symbol", "mpg (imperial)"),
-      i18nc("unit description in lists", "miles per imperial gallon"),
-      i18nc("unit synonyms for matching user input", "mile per imperial gallon;miles per imperial gallon;mpg (imperial)"),
-      ki18nc("amount in units (real)", "%1 miles per imperial gallon"),
-      ki18ncp("amount in units (integer)", "%1 mile per imperial gallon", "%1 miles per imperial gallon")
-     );
-    U(KilometrePerLitre, new kmpl(),
-      i18nc("fuelefficiency unit symbol", "kmpl"),
-      i18nc("unit description in lists", "kilometers per liter"),
-      i18nc("unit synonyms for matching user input", "kilometer per liter;kilometers per liter;kmpl;km/l"),
-      ki18nc("amount in units (real)", "%1 kilometers per liter"),
-      ki18ncp("amount in units (integer)", "%1 kilometer per liter", "%1 kilometers per liter")
-     );
+    addDefaultUnit(CustomUnit(new FuelUnitPrivate(FuelEfficiencyCategory, LitersPer100Kilometers, 1,
+                                                  i18nc("fuelefficiency unit symbol", "l/100 km"),
+                                                  i18nc("unit description in lists", "liters per 100 kilometers"),
+                                                  i18nc("unit synonyms for matching user input",
+                                                        "liters per 100 kilometers;liters per 100 kilometers;l/100 km;L/100 km"),
+                                                  symbolString,
+                                                  ki18nc("amount in units (real)", "%1 liters per 100 kilometers"),
+                                                  ki18ncp("amount in units (integer)", "%1 liters per 100 kilometers",
+                                                          "%1 liters per 100 kilometers"))));
 
-    setMostCommonUnits(QList<UnitId>() <<
-                       LitersPer100Kilometers << MilePerUsGallon << MilePerImperialGallon);
+    addCommonUnit(CustomUnit(new FuelUnitPrivate(FuelEfficiencyCategory, MilePerUsGallon, 235.2,
+                                                 i18nc("fuelefficiency unit symbol", "mpg"),
+                                                 i18nc("unit description in lists", "miles per US gallon"),
+                                                 i18nc("unit synonyms for matching user input",
+                                                       "mile per US gallon;miles per US gallon;mpg"),
+                                                 symbolString,
+                                                 ki18nc("amount in units (real)", "%1 miles per US gallon"),
+                                                 ki18ncp("amount in units (integer)", "%1 mile per US gallon",
+                                                         "%1 miles per US gallon"))));
+
+    addCommonUnit(CustomUnit(new FuelUnitPrivate(FuelEfficiencyCategory, MilePerImperialGallon, 282.5,
+                                                 i18nc("fuelefficiency unit symbol", "mpg (imperial)"),
+                                                 i18nc("unit description in lists", "miles per imperial gallon"),
+                                                 i18nc("unit synonyms for matching user input",
+                                                       "mile per imperial gallon;miles per imperial gallon;mpg (imperial)"),
+                                                 symbolString,
+                                                 ki18nc("amount in units (real)", "%1 miles per imperial gallon"),
+                                                 ki18ncp("amount in units (integer)", "%1 mile per imperial gallon",
+                                                         "%1 miles per imperial gallon"))));
+
+    addCommonUnit(CustomUnit(new FuelUnitPrivate(FuelEfficiencyCategory, KilometrePerLitre, 100.0,
+                                                 i18nc("fuelefficiency unit symbol", "kmpl"),
+                                                 i18nc("unit description in lists", "kilometers per liter"),
+                                                 i18nc("unit synonyms for matching user input",
+                                                       "kilometer per liter;kilometers per liter;kmpl;km/l"),
+                                                 symbolString,
+                                                 ki18nc("amount in units (real)", "%1 kilometers per liter"),
+                                                 ki18ncp("amount in units (integer)", "%1 kilometer per liter",
+                                                         "%1 kilometers per liter"))));
 }
 
 } // KUnitConversion namespace
