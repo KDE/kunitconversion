@@ -41,8 +41,6 @@ public:
      **/
     UnitCategory();
 
-    UnitCategory(CategoryId id);
-
     /**
      * Copy constructor, copy @param other to this.
      **/
@@ -161,16 +159,6 @@ public:
     virtual Value convert(const Value &value, const Unit &toUnit);
 
 protected:
-    void setName(const QString &name);
-    void setDefaultUnit(const Unit &defaultUnit);
-    void addUnitName(const QString &name);
-    void addUnitMapValues(const Unit &unit, const QString &names);
-    void addIdMapValue(const Unit &unit, UnitId id);
-    void setDescription(const QString &desc);
-    void setSymbolStringFormat(const KLocalizedString &symbolStringFormat);
-    void setMostCommonUnits(const QList<UnitId> &units);
-    KLocalizedString symbolStringFormat() const;
-
     void addDefaultUnit(const Unit &unit);
     void addCommonUnit(const Unit &unit);
     void addUnit(const Unit &unit);

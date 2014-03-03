@@ -155,16 +155,6 @@ enum UnitId {
 };
 
 class UnitCategory;
-
-class KUNITCONVERSION_EXPORT Complex
-{
-public:
-    Complex();
-    virtual ~Complex();
-    virtual double toDefault(double) const = 0;
-    virtual double fromDefault(double) const = 0;
-};
-
 class UnitPrivate;
 
 class KUNITCONVERSION_EXPORT Unit
@@ -174,12 +164,7 @@ public:
      * Null constructor
      **/
     Unit();
-    Unit(const UnitCategory &category, UnitId id, double multiplier, const QString &symbol,
-         const QString &description, const QString &match,
-         const KLocalizedString &real, const KLocalizedString &integer);
-    Unit(const UnitCategory &category, UnitId id, const Complex *complex, const QString &symbol,
-         const QString &description, const QString &match,
-         const KLocalizedString &real, const KLocalizedString &integer);
+
     /**
      * Copy constructor, copy @param other to this.
      **/

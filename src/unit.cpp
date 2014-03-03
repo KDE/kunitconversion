@@ -27,19 +27,10 @@
 namespace KUnitConversion
 {
 
-Complex::Complex()
-{
-}
-
-Complex::~Complex()
-{
-}
-
 UnitPrivate::UnitPrivate()
     : m_categoryId(InvalidCategory),
       m_id(InvalidUnit),
-      m_multiplier(1.0),
-      m_complex(0)
+      m_multiplier(1.0)
 {
 }
 
@@ -55,8 +46,7 @@ UnitPrivate::UnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
       m_matchString(matchString),
       m_symbolString(symbolString),
       m_realString(realString),
-      m_integerString(integerString),
-      m_complex(0)
+      m_integerString(integerString)
 {
 }
 
@@ -91,18 +81,12 @@ double UnitPrivate::unitMultiplier() const
 
 double UnitPrivate::toDefault(double value) const
 {
-    if (m_complex)
-        return m_complex->toDefault(value);
-    else
-        return value * m_multiplier;
+    return value * m_multiplier;
 }
 
 double UnitPrivate::fromDefault(double value) const
 {
-    if (m_complex)
-        return m_complex->fromDefault(value);
-    else
-        return value / m_multiplier;
+    return value / m_multiplier;
 }
 
 Unit::Unit()
@@ -113,29 +97,6 @@ Unit::Unit()
 Unit::Unit(UnitPrivate *dd)
     : d(dd)
 {
-}
-
-Unit::Unit(const UnitCategory &category, UnitId id, double multiplier, const QString &symbol,
-           const QString &description, const QString &matchString,
-           const KLocalizedString &realString, const KLocalizedString &integerString)
-    : d(new UnitPrivate(category.id(), id, multiplier, symbol, description, matchString, KLocalizedString(), realString, integerString))
-{
-    d->m_category = category;
-    d->m_category.addUnitMapValues(*this, matchString);
-    d->m_category.addIdMapValue(*this, id);
-    d->m_symbolString = category.symbolStringFormat();
-}
-
-Unit::Unit(const UnitCategory &category, UnitId id, const Complex *complex, const QString &symbol,
-           const QString &description, const QString &matchString,
-           const KLocalizedString &realString, const KLocalizedString &integerString)
-    : d(new UnitPrivate(category.id(), id, 1.0, symbol, description, matchString, KLocalizedString(), realString, integerString))
-{
-    d->m_category = category;
-    d->m_category.addUnitMapValues(*this, matchString);
-    d->m_category.addIdMapValue(*this, id);
-    d->m_complex = complex;
-    d->m_symbolString = category.symbolStringFormat();
 }
 
 Unit::Unit(const Unit &other)

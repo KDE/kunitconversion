@@ -74,12 +74,6 @@ UnitCategory::UnitCategory(UnitCategoryPrivate *dd)
 {
 }
 
-UnitCategory::UnitCategory(CategoryId id)
-    : d(new UnitCategoryPrivate)
-{
-    d->m_id = id;
-}
-
 UnitCategory::UnitCategory(const UnitCategory &other)
     : d(other.d)
 {
@@ -123,19 +117,6 @@ CategoryId UnitCategory::id() const
     return InvalidCategory;
 }
 
-void UnitCategory::setSymbolStringFormat(const KLocalizedString &symbolStringFormat)
-{
-    if (d)
-        d->m_symbolStringFormat = symbolStringFormat;
-}
-
-KLocalizedString UnitCategory::symbolStringFormat() const
-{
-    if (d)
-        return d->m_symbolStringFormat;
-    return KLocalizedString();
-}
-
 QList<Unit> UnitCategory::units() const
 {
     if (d)
@@ -148,16 +129,6 @@ QList<Unit> UnitCategory::mostCommonUnits() const
     if (d)
         return d->m_mostCommonUnits;
     return QList<Unit>();
-}
-
-void UnitCategory::setMostCommonUnits(const QList<UnitId> &units)
-{
-    if (isNull())
-        return;
-    d->m_mostCommonUnits.clear();
-    foreach (UnitId u, units) {
-        d->m_mostCommonUnits.append(unit(u));
-    }
 }
 
 QStringList UnitCategory::allUnits() const
@@ -200,24 +171,6 @@ Value UnitCategory::convert(const Value &value, const Unit &toUnit)
     return Value();
 }
 
-void UnitCategory::addUnitMapValues(const Unit &unit, const QString &names)
-{
-    if (isNull())
-        return;
-    const QStringList list = names.split(';');
-    foreach (const QString &name, list) {
-        d->m_unitMap[name] = unit;
-    }
-}
-
-void UnitCategory::addIdMapValue(const Unit &unit, UnitId id)
-{
-    if (isNull())
-        return;
-    d->m_idMap[id] = unit;
-    d->m_units.append(unit);
-}
-
 Unit UnitCategory::unit(const QString &s) const
 {
     if (d)
@@ -240,18 +193,6 @@ QString UnitCategory::name() const
     return QString();
 }
 
-void UnitCategory::setName(const QString &name)
-{
-    if (d)
-        d->m_name = name;
-}
-
-void UnitCategory::setDefaultUnit(const Unit &defaultUnit)
-{
-    if (d)
-        d->m_defaultUnit = defaultUnit;
-}
-
 Unit UnitCategory::defaultUnit() const
 {
     if (d)
@@ -264,12 +205,6 @@ QString UnitCategory::description() const
     if (d)
         return d->m_description;
     return QString();
-}
-
-void UnitCategory::setDescription(const QString &description)
-{
-    if (d)
-        d->m_description = description;
 }
 
 void UnitCategory::addDefaultUnit(const Unit &unit)

@@ -60,7 +60,6 @@ public:
     KLocalizedString m_realString;
     KLocalizedString m_integerString;
     UnitCategory m_category;
-    const Complex *m_complex;
 };
 
 class CustomUnit : public Unit
