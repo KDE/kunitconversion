@@ -30,7 +30,7 @@ namespace KUnitConversion
 class RadiansUnitPrivate : public UnitPrivate
 {
 public:
-    RadiansUnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+    RadiansUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                        const QString &symbol, const QString &description,
                        const QString &matchString, const KLocalizedString &symbolString,
                        const KLocalizedString &realString, const KLocalizedString &integerString)
@@ -40,11 +40,11 @@ public:
                       realString, integerString)
     {};
 
-    double toDefault(double value) const
+    qreal toDefault(qreal value) const
     {
         return (value / (2 * M_PI)) * 360.0;
     };
-    double fromDefault(double value) const
+    qreal fromDefault(qreal value) const
     {
         return (value / 360.0) * (2 * M_PI);
     };

@@ -32,19 +32,19 @@ public:
     {
     }
 
-    ValuePrivate(double number = 0.0, UnitId unitId = InvalidUnit)
+    ValuePrivate(qreal number = 0.0, UnitId unitId = InvalidUnit)
         : m_number(number)
     {
         m_unit = m_converter.unit(unitId);
     }
 
-    ValuePrivate(double number, const Unit &unit)
+    ValuePrivate(qreal number, const Unit &unit)
         : m_number(number),
           m_unit(unit)
     {
     }
 
-    ValuePrivate(double number, const QString &unitString)
+    ValuePrivate(qreal number, const QString &unitString)
         : m_number(number)
     {
         m_unit = m_converter.unit(unitString);
@@ -83,7 +83,7 @@ public:
         return !(*this == other);
     }
 
-    double m_number;
+    qreal m_number;
     Unit m_unit;
     Converter m_converter;
 };
@@ -93,23 +93,23 @@ Value::Value()
 {
 }
 
-Value::Value(double number, const Unit &unit)
+Value::Value(qreal number, const Unit &unit)
     : d(new ValuePrivate(number, unit))
 {
 }
 
-Value::Value(double number, const QString &unitString)
+Value::Value(qreal number, const QString &unitString)
     : d(new ValuePrivate(number, unitString))
 {
 }
 
-Value::Value(double number, UnitId unitId)
+Value::Value(qreal number, UnitId unitId)
     : d(new ValuePrivate(number, unitId))
 {
 }
 
 Value::Value(const QVariant &number, const QString &unitString)
-    : d(new ValuePrivate(number.toDouble(), unitString))
+    : d(new ValuePrivate(number.toReal(), unitString))
 {
 }
 
@@ -149,7 +149,7 @@ bool Value::isValid() const
     return (d && d->m_unit.isValid());
 }
 
-double Value::number() const
+qreal Value::number() const
 {
     if (d)
         return d->m_number;
@@ -184,9 +184,9 @@ Value &Value::round(uint decimals)
         return *this;
 
     uint div = qPow(10, decimals);
-    double add = 0.5 / (double)div;
+    qreal add = 0.5 / (qreal)div;
 
-    d->m_number = (int)((d->m_number + add) * div) / (double)div;
+    d->m_number = (int)((d->m_number + add) * div) / (qreal)div;
     return *this;
 }
 

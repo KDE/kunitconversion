@@ -37,9 +37,9 @@ class KUNITCONVERSION_EXPORT Value
 {
 public:
     Value();
-    Value(double number, const Unit &unit);
-    Value(double number, const QString &unitString);
-    Value(double number, UnitId unitId);
+    Value(qreal number, const Unit &unit);
+    Value(qreal number, const QString &unitString);
+    Value(qreal number, UnitId unitId);
     Value(const QVariant &number, const QString &unitString);
 
     /**
@@ -92,7 +92,7 @@ public:
     /**
      * Number part of the value
      **/
-    double number() const;
+    qreal number() const;
 
     /**
      * Unit part of the value

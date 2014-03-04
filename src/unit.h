@@ -245,7 +245,7 @@ public:
      *                 field width is greater than argument width
      * @return value + unit string
      **/
-    QString toString(double value, int fieldWidth = 0, char format = 'g', int precision = -1,
+    QString toString(qreal value, int fieldWidth = 0, char format = 'g', int precision = -1,
                      const QChar &fillChar = QLatin1Char(' ')) const;
 
     /**
@@ -258,13 +258,13 @@ public:
      *                 field width is greater than argument width
      * @return value + unit string
      **/
-    QString toSymbolString(double value, int fieldWidth = 0, char format = 'g', int precision = -1,
+    QString toSymbolString(qreal value, int fieldWidth = 0, char format = 'g', int precision = -1,
                            const QChar &fillChar = QLatin1Char(' ')) const;
 
 
 protected:
-    double toDefault(double value) const;
-    double fromDefault(double value) const;
+    qreal toDefault(qreal value) const;
+    qreal fromDefault(qreal value) const;
 
 private:
     friend class CustomUnit;
@@ -273,7 +273,7 @@ private:
     friend class CurrencyCategoryPrivate;
 
     Unit(UnitPrivate *dd);
-    void setUnitMultiplier(double multiplier);
+    void setUnitMultiplier(qreal multiplier);
 
     QExplicitlySharedDataPointer<UnitPrivate> d;
 };

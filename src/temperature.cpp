@@ -28,7 +28,7 @@ namespace KUnitConversion
 class CelsiusUnitPrivate : public UnitPrivate
 {
 public:
-    CelsiusUnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+    CelsiusUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                        const QString &symbol, const QString &description,
                        const QString &matchString, const KLocalizedString &symbolString,
                        const KLocalizedString &realString, const KLocalizedString &integerString)
@@ -38,12 +38,12 @@ public:
                       realString, integerString)
     {};
 
-    double toDefault(double value) const
+    qreal toDefault(qreal value) const
     {
         return value + 273.15;
     };
 
-    double fromDefault(double value) const
+    qreal fromDefault(qreal value) const
     {
         return value - 273.15;
     };
@@ -52,7 +52,7 @@ public:
 class FahrenheitUnitPrivate : public UnitPrivate
 {
 public:
-    FahrenheitUnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+    FahrenheitUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                           const QString &symbol, const QString &description,
                           const QString &matchString, const KLocalizedString &symbolString,
                           const KLocalizedString &realString, const KLocalizedString &integerString)
@@ -62,12 +62,12 @@ public:
                       realString, integerString)
     {};
 
-    double toDefault(double value) const
+    qreal toDefault(qreal value) const
     {
         return (value + 459.67) * 5.0 / 9.0;
     };
 
-    double fromDefault(double value) const
+    qreal fromDefault(qreal value) const
     {
         return (value * 9.0 / 5.0) - 459.67;
     };
@@ -76,7 +76,7 @@ public:
 class DelisleUnitPrivate : public UnitPrivate
 {
 public:
-    DelisleUnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+    DelisleUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                        const QString &symbol, const QString &description,
                        const QString &matchString, const KLocalizedString &symbolString,
                        const KLocalizedString &realString, const KLocalizedString &integerString)
@@ -86,12 +86,12 @@ public:
                       realString, integerString)
     {};
 
-    double toDefault(double value) const
+    qreal toDefault(qreal value) const
     {
         return 373.15 - (value * 2.0 / 3.0);
     };
 
-    double fromDefault(double value) const
+    qreal fromDefault(qreal value) const
     {
         return (373.15 - value) * 3.0 / 2.0;
     };
@@ -100,7 +100,7 @@ public:
 class NewtonUnitPrivate : public UnitPrivate
 {
 public:
-    NewtonUnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+    NewtonUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                       const QString &symbol, const QString &description,
                       const QString &matchString, const KLocalizedString &symbolString,
                       const KLocalizedString &realString, const KLocalizedString &integerString)
@@ -110,12 +110,12 @@ public:
                       realString, integerString)
     {};
 
-    double toDefault(double value) const
+    qreal toDefault(qreal value) const
     {
         return (value * 100.0 / 33.0) + 273.15;
     };
 
-    double fromDefault(double value) const
+    qreal fromDefault(qreal value) const
     {
         return (value - 273.15) * 33.0 / 100.0;
     };
@@ -124,7 +124,7 @@ public:
 class ReaumurUnitPrivate : public UnitPrivate
 {
 public:
-    ReaumurUnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+    ReaumurUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                        const QString &symbol, const QString &description,
                        const QString &matchString, const KLocalizedString &symbolString,
                        const KLocalizedString &realString, const KLocalizedString &integerString)
@@ -134,12 +134,12 @@ public:
                       realString, integerString)
     {};
 
-    double toDefault(double value) const
+    qreal toDefault(qreal value) const
     {
         return (value * 5.0 / 4.0) + 273.15;
     };
 
-    double fromDefault(double value) const
+    qreal fromDefault(qreal value) const
     {
         return (value - 273.15) * 4.0 / 5.0;
     };
@@ -148,7 +148,7 @@ public:
 class RomerUnitPrivate : public UnitPrivate
 {
 public:
-    RomerUnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+    RomerUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                      const QString &symbol, const QString &description,
                      const QString &matchString, const KLocalizedString &symbolString,
                      const KLocalizedString &realString, const KLocalizedString &integerString)
@@ -158,12 +158,12 @@ public:
                       realString, integerString)
     {};
 
-    double toDefault(double value) const
+    qreal toDefault(qreal value) const
     {
         return (value - 7.5) * 40.0 / 21.0 + 273.15;
     };
 
-    double fromDefault(double value) const
+    qreal fromDefault(qreal value) const
     {
         return (value - 273.15) * 21.0 / 40.0 + 7.5;
     };

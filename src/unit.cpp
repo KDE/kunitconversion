@@ -34,7 +34,7 @@ UnitPrivate::UnitPrivate()
 {
 }
 
-UnitPrivate::UnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+UnitPrivate::UnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                          const QString &symbol, const QString &description,
                          const QString &matchString, const KLocalizedString &symbolString,
                          const KLocalizedString &realString, const KLocalizedString &integerString)
@@ -69,22 +69,22 @@ bool UnitPrivate::operator!=(const UnitPrivate &other) const
     return !(*this == other);
 }
 
-void UnitPrivate::setUnitMultiplier(double multiplier)
+void UnitPrivate::setUnitMultiplier(qreal multiplier)
 {
     m_multiplier = multiplier;
 }
 
-double UnitPrivate::unitMultiplier() const
+qreal UnitPrivate::unitMultiplier() const
 {
     return m_multiplier;
 }
 
-double UnitPrivate::toDefault(double value) const
+qreal UnitPrivate::toDefault(qreal value) const
 {
     return value * m_multiplier;
 }
 
-double UnitPrivate::fromDefault(double value) const
+qreal UnitPrivate::fromDefault(qreal value) const
 {
     return value / m_multiplier;
 }
@@ -175,27 +175,27 @@ QString Unit::symbol() const
     return QString();
 }
 
-void Unit::setUnitMultiplier(double multiplier)
+void Unit::setUnitMultiplier(qreal multiplier)
 {
     if (d)
         setUnitMultiplier(multiplier);
 }
 
-double Unit::toDefault(double value) const
+qreal Unit::toDefault(qreal value) const
 {
     if (d)
         return d->toDefault(value);
     return 0;
 }
 
-double Unit::fromDefault(double value) const
+qreal Unit::fromDefault(qreal value) const
 {
     if (d)
         return d->fromDefault(value);
     return 0;
 }
 
-QString Unit::toString(double value, int fieldWidth, char format, int precision,
+QString Unit::toString(qreal value, int fieldWidth, char format, int precision,
                        const QChar &fillChar) const
 {
     if (isNull())
@@ -206,7 +206,7 @@ QString Unit::toString(double value, int fieldWidth, char format, int precision,
     return d->m_realString.subs(value, fieldWidth, format, precision, fillChar).toString();
 }
 
-QString Unit::toSymbolString(double value, int fieldWidth, char format, int precision,
+QString Unit::toSymbolString(qreal value, int fieldWidth, char format, int precision,
                              const QChar &fillChar) const
 {
     if (d)

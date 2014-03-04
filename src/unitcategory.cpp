@@ -60,7 +60,7 @@ bool UnitCategoryPrivate::operator!=(const UnitCategoryPrivate &other) const
 
 Value UnitCategoryPrivate::convert(const Value &value, const Unit &toUnit)
 {
-    double v = value.unit().toDefault(value.number());
+    qreal v = value.unit().toDefault(value.number());
     return Value(toUnit.fromDefault(v), toUnit);
 }
 
@@ -165,7 +165,7 @@ Value UnitCategory::convert(const Value &value, UnitId toUnit)
 Value UnitCategory::convert(const Value &value, const Unit &toUnit)
 {
     if (d && !toUnit.isNull()) {
-        double v = toUnit.fromDefault(value.unit().toDefault(value.number()));
+        qreal v = toUnit.fromDefault(value.unit().toDefault(value.number()));
         return Value(v, toUnit);
     }
     return Value();

@@ -29,7 +29,7 @@ namespace KUnitConversion
 class BeaufortUnitPrivate : public UnitPrivate
 {
 public:
-    BeaufortUnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+    BeaufortUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                        const QString &symbol, const QString &description,
                        const QString &matchString, const KLocalizedString &symbolString,
                        const KLocalizedString &realString, const KLocalizedString &integerString)
@@ -39,12 +39,12 @@ public:
                       realString, integerString)
     {};
 
-    double toDefault(double value) const
+    qreal toDefault(qreal value) const
     {
         return 0.836 * pow(value, 3.0 / 2.0);
     };
 
-    double fromDefault(double value) const
+    qreal fromDefault(qreal value) const
     {
         return pow(value / 0.836, 2.0 / 3.0);
     };

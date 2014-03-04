@@ -33,7 +33,7 @@ class UnitPrivate : public QSharedData
 public:
     UnitPrivate();
 
-    UnitPrivate(CategoryId categoryId, UnitId id, double multiplier,
+    UnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
                 const QString &symbol, const QString &description,
                 const QString &matchString, const KLocalizedString &symbolString,
                 const KLocalizedString &realString, const KLocalizedString &integerString);
@@ -44,15 +44,15 @@ public:
     bool operator==(const UnitPrivate &other) const;
     bool operator!=(const UnitPrivate &other) const;
 
-    void setUnitMultiplier(double multiplier);
-    double unitMultiplier() const;
+    void setUnitMultiplier(qreal multiplier);
+    qreal unitMultiplier() const;
 
-    virtual double toDefault(double value) const;
-    virtual double fromDefault(double value) const;
+    virtual qreal toDefault(qreal value) const;
+    virtual qreal fromDefault(qreal value) const;
 
     CategoryId m_categoryId;
     UnitId m_id;
-    double m_multiplier;
+    qreal m_multiplier;
     QString m_symbol;
     QString m_description;
     QString m_matchString;
@@ -68,7 +68,7 @@ public:
     CustomUnit(UnitPrivate *dd) : Unit(dd)
     {};
 
-    CustomUnit(CategoryId categoryId, UnitId id, double multiplier,
+    CustomUnit(CategoryId categoryId, UnitId id, qreal multiplier,
                      const QString &symbol, const QString &description,
                      const QString &matchString, const KLocalizedString &symbolString,
                      const KLocalizedString &realString, const KLocalizedString &integerString)
