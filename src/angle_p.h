@@ -1,5 +1,6 @@
 /*
  *   Copyright (C) 2010 Petri Damstén <damu@iki.fi>
+ *   Copyright (C) 2014 John Layt <jlayt@kde.org>
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU Library General Public License as
