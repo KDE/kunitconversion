@@ -21,22 +21,18 @@
 #include "currency_p.h"
 #include "unit_p.h"
 
-#include <QLocale>
-#include <QtCore/QFileInfo>
-#include <QtCore/QDateTime>
-#include <QtCore/QMutex>
-#include <QtCore/QProcess>
-#include <QtXml/QDomDocument>
-#include <QDebug>
-#include <klocalizedstring.h>
+#include <KI18n/klocalizedstring.h>
 
-#include <QtNetwork/QNetworkInterface>
+#include <QtCore/QDateTime>
+#include <QtCore/QFileInfo>
+#include <QtCore/QLocale>
+#include <QtCore/QMutex>
+#include <QtCore/QStandardPaths>
 #include <QtNetwork/QNetworkAccessManager>
+#include <QtNetwork/QNetworkInterface>
 #include <QtNetwork/QNetworkReply>
 #include <QtNetwork/QNetworkRequest>
-
-#include <kcurrencycode.h>
-#include <qstandardpaths.h>
+#include <QtXml/QDomDocument>
 
 namespace KUnitConversion
 {

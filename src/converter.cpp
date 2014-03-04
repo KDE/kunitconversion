@@ -20,17 +20,16 @@
 
 #include "converter.h"
 
-#include <klocalizedstring.h>
-
-#include "unit.h"
-#include "unitcategory.h"
-
+#include "acceleration_p.h"
+#include "angle_p.h"
 #include "area_p.h"
-#include "length_p.h"
 #include "currency_p.h"
 #include "density_p.h"
 #include "energy_p.h"
+#include "force_p.h"
+#include "frequency_p.h"
 #include "fuel_efficiency_p.h"
+#include "length_p.h"
 #include "mass_p.h"
 #include "power_p.h"
 #include "pressure_p.h"
@@ -38,10 +37,8 @@
 #include "timeunit_p.h"
 #include "velocity_p.h"
 #include "volume_p.h"
-#include "acceleration_p.h"
-#include "force_p.h"
-#include "angle_p.h"
-#include "frequency_p.h"
+
+#include <KI18n/klocalizedstring.h>
 
 namespace KUnitConversion
 {

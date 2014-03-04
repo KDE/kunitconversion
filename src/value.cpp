@@ -20,6 +20,7 @@
 
 #include "value.h"
 #include "converter.h"
+
 #include <qmath.h>
 
 namespace KUnitConversion

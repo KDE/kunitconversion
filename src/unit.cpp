@@ -22,8 +22,7 @@
 #include "unit_p.h"
 #include "unitcategory.h"
 
-#include <klocalizedstring.h>
-#include <qdebug.h>
+#include <KI18n/klocalizedstring.h>
 
 namespace KUnitConversion
 {

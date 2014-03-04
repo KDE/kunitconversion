@@ -21,9 +21,10 @@
 #ifndef KUNITCONVERSION_UNITCATEGORY_H
 #define KUNITCONVERSION_UNITCATEGORY_H
 
+#include "kunitconversion/kunitconversion_export.h"
+
 #include "value.h"
 #include "unit.h"
-#include "kunitconversion/kunitconversion_export.h"
 
 #include <QtCore/QExplicitlySharedDataPointer>
 #include <QtCore/QString>

@@ -21,7 +21,7 @@
 #include "temperature_p.h"
 #include "unit_p.h"
 
-#include <klocalizedstring.h>
+#include <KI18n/klocalizedstring.h>
 
 namespace KUnitConversion
 {

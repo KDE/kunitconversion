@@ -24,7 +24,8 @@
 #include "unitcategory.h"
 
 #include <KI18n/KLocalizedString>
-#include <QMap>
+
+#include <QtCore/QMap>
 
 namespace KUnitConversion
 {

@@ -19,17 +19,17 @@
 
 #include "kcurrencycode.h"
 
-#include <QtCore/QSharedData>
+#include <KConfigCore/kconfig.h>
+#include <KConfigCore/kconfiggroup.h>
+#include <KI18n/klocalizedstring.h>
+
 #include <QtCore/QDate>
+#include <QtCore/QDir>
+#include <QtCore/QFileInfo>
+#include <QtCore/QSharedData>
+#include <QtCore/QStandardPaths>
 #include <QtCore/QString>
 #include <QtCore/QStringList>
-#include <QtCore/QFileInfo>
-#include <QDir>
-#include <qstandardpaths.h>
-
-#include "kconfig.h"
-#include "kconfiggroup.h"
-#include "klocalizedstring.h"
 
 class KCurrencyCodePrivate : public QSharedData
 {

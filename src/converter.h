@@ -21,8 +21,9 @@
 #ifndef KUNITCONVERSION_CONVERTER_H
 #define KUNITCONVERSION_CONVERTER_H
 
-#include <kunitconversion/unitcategory.h>
 #include <kunitconversion/kunitconversion_export.h>
+
+#include "unitcategory.h"
 
 #include <QtCore/QExplicitlySharedDataPointer>
 #include <QtCore/QVariant>
@@ -30,6 +31,8 @@
 namespace KUnitConversion
 {
 
+class Value;
+class UnitCategory;
 class ConverterPrivate;
 
 class KUNITCONVERSION_EXPORT Converter

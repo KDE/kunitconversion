@@ -21,8 +21,10 @@
 #include "velocity_p.h"
 #include "unit_p.h"
 
+#include <KI18n/klocalizedstring.h>
+
 #include <math.h>
-#include <klocalizedstring.h>
+
 
 namespace KUnitConversion
 {

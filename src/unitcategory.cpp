@@ -22,8 +22,9 @@
 #include "unitcategory_p.h"
 #include "unit_p.h"
 
-#include <klocalizedstring.h>
-#include <QMap>
+#include <KI18n/klocalizedstring.h>
+
+#include <QtCore/QMap>
 
 namespace KUnitConversion
 {
