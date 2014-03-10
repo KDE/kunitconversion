@@ -132,7 +132,7 @@ bool Unit::operator!=(const Unit &other) const
 
 bool Unit::isNull() const
 {
-    return (d <= 0);
+    return d;
 }
 
 bool Unit::isValid() const

@@ -109,7 +109,7 @@ bool UnitCategory::operator!=(const UnitCategory &other) const
 
 bool UnitCategory::isNull() const
 {
-    return (d <= 0);
+    return d;
 }
 
 CategoryId UnitCategory::id() const
