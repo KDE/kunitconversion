@@ -148,7 +148,7 @@ bool Value::operator!=(const Value &other) const
 
 bool Value::isNull() const
 {
-    return (d <= 0);
+    return !d;
 }
 
 bool Value::isValid() const
