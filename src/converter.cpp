@@ -107,6 +107,11 @@ Converter::~Converter()
 {
 }
 
+Converter::Converter(const Converter &other)
+: d(other.d)
+{
+}
+
 Converter &Converter::operator=(const Converter &other)
 {
     d = other.d;

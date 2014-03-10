@@ -40,6 +40,7 @@ class KUNITCONVERSION_EXPORT Converter
 public:
     Converter();
     ~Converter();
+    Converter(const Converter &other);
 
     /**
      * Assignment operator, assign @param other to this.

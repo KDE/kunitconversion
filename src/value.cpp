@@ -95,6 +95,11 @@ Value::Value()
 {
 }
 
+Value::Value(const Value &other)
+    : d(other.d)
+{
+}
+
 Value::Value(qreal number, const Unit &unit)
     : d(new ValuePrivate(number, unit))
 {
