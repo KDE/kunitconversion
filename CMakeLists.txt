@@ -33,6 +33,7 @@ remove_definitions(-DQT_NO_CAST_TO_ASCII)
 remove_definitions(-DQT_NO_CAST_FROM_ASCII)
 remove_definitions(-DQT_NO_CAST_FROM_BYTEARRAY)
 
+add_definitions(-DTRANSLATION_DOMAIN=\"kunitconversion5\")
 add_subdirectory(src)
 add_subdirectory(autotests)
 
