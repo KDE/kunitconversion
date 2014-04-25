@@ -1,3 +1,5 @@
+add_subdirectory(currency)
+
 add_definitions(-DTRANSLATION_DOMAIN="libkunitconversion")
 
 set(kunitconversion_LIB_SRCS
