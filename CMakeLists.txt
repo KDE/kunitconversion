@@ -18,15 +18,16 @@ include(GenerateExportHeader)
 include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 
-set(KF5_VERSION "4.98.0")
+set(KF5_VERSION "4.98.0") # handled by release scripts # handled by release scripts
+set(KF5_DEP_VERSION "4.98.0") # handled by release scripts
 ecm_setup_version(${KF5_VERSION} VARIABLE_PREFIX KUNITCONVERSION
                         VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/kunitconversion_version.h"
                         PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5UnitConversionConfigVersion.cmake"
                         SOVERSION 5)
 
 if("${CMAKE_BINARY_DIR}" STREQUAL "${CMAKE_CURRENT_BINARY_DIR}")
-  find_package(KF5I18n ${KF5_VERSION} REQUIRED)
-  find_package(KF5Config ${KF5_VERSION} REQUIRED)
+  find_package(KF5I18n ${KF5_DEP_VERSION} REQUIRED)
+  find_package(KF5Config ${KF5_DEP_VERSION} REQUIRED)
 endif()
 
 remove_definitions(-DQT_NO_CAST_TO_ASCII)
