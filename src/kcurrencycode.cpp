@@ -65,7 +65,7 @@ public:
 
 KCurrencyCodePrivate::KCurrencyCodePrivate(const QString &isoCurrencyCode, const QString &language)
 {
-    QFileInfo file(QStandardPaths::locate(QStandardPaths::GenericDataLocation, QLatin1String("locale/") + QString::fromLatin1("currency/%1.desktop").arg(isoCurrencyCode.toLower())));
+    QFileInfo file(QStandardPaths::locate(QStandardPaths::GenericDataLocation, QLatin1String("kf5/locale/currency/") + QString::fromLatin1("%1.desktop").arg(isoCurrencyCode.toLower())));
 
     loadCurrency(file, language);
 }
@@ -278,7 +278,7 @@ QStringList KCurrencyCode::allCurrencyCodesList(CurrencyStatusFlags currencyStat
 {
     QStringList currencyCodes;
 
-    const QStringList dirs = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, QLatin1String("locale/currency"), QStandardPaths::LocateDirectory);
+    const QStringList dirs = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, QLatin1String("kf5/locale/currency/"), QStandardPaths::LocateDirectory);
     Q_FOREACH (const QString &dir, dirs) {
         Q_FOREACH (const QString &path, QDir(dir).entryList(QStringList() << QLatin1String("*.desktop"))) {
             const QString code = path.mid(path.length() - 11, 3).toUpper();
