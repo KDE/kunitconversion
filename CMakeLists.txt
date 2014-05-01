@@ -25,10 +25,7 @@ ecm_setup_version(${KF5_VERSION} VARIABLE_PREFIX KUNITCONVERSION
                         PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5UnitConversionConfigVersion.cmake"
                         SOVERSION 5)
 
-if("${CMAKE_BINARY_DIR}" STREQUAL "${CMAKE_CURRENT_BINARY_DIR}")
-  find_package(KF5I18n ${KF5_DEP_VERSION} REQUIRED)
-  find_package(KF5Config ${KF5_DEP_VERSION} REQUIRED)
-endif()
+find_package(KF5I18n ${KF5_DEP_VERSION} REQUIRED)
 
 remove_definitions(-DQT_NO_CAST_TO_ASCII)
 remove_definitions(-DQT_NO_CAST_FROM_ASCII)
@@ -63,6 +60,4 @@ install(FILES
   DESTINATION ${KF5_INCLUDE_INSTALL_DIR} COMPONENT Devel
 )
 
-if ("${CMAKE_BINARY_DIR}" STREQUAL "${CMAKE_CURRENT_BINARY_DIR}")
-  feature_summary(WHAT ALL   FATAL_ON_MISSING_REQUIRED_PACKAGES)
-endif()
+feature_summary(WHAT ALL   FATAL_ON_MISSING_REQUIRED_PACKAGES)
