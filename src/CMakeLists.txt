@@ -25,7 +25,7 @@ set(kunitconversion_LIB_SRCS
 )
 
 add_library(KF5UnitConversion ${kunitconversion_LIB_SRCS})
-if (MSVC)
+if (WIN32)
     # As stated in http://msdn.microsoft.com/en-us/library/4hwaceh6.aspx M_PI only gets defined
 	# when using MSVC if _USE_MATH_DEFINES is defined (this is needed for angle.cpp)
     target_compile_definitions(KF5UnitConversion PRIVATE _USE_MATH_DEFINES)
