@@ -158,6 +158,21 @@ enum UnitId {
 class UnitCategory;
 class UnitPrivate;
 
+/**
+ * @short Class to define a unit of measurement
+ *
+ * @since 4.4
+ *
+ * This is a class to define a unit of measurement.
+ *
+ * @b license GNU-LGPL v.2 or later
+ *
+ * @see Converter, UnitCategory, Value
+ *
+ * @author Petri Damstén <damu@iki.fi>
+ * @author John Layt <jlayt@kde.org>
+ */
+
 class KUNITCONVERSION_EXPORT Unit
 {
 public:

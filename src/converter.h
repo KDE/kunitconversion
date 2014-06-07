@@ -35,6 +35,21 @@ class Value;
 class UnitCategory;
 class ConverterPrivate;
 
+/**
+ * @short Class for converting values between units of measurement
+ *
+ * @since 4.4
+ *
+ * This is a class to convert values between different units of measurement.
+ *
+ * @b license GNU-LGPL v.2 or later
+ *
+ * @see Unit, UnitCategory, Value
+ *
+ * @author Petri Damstén <damu@iki.fi>
+ * @author John Layt <jlayt@kde.org>
+ */
+
 class KUNITCONVERSION_EXPORT Converter
 {
 public:

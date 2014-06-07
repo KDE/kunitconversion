@@ -35,6 +35,21 @@ namespace KUnitConversion
 
 class ValuePrivate;
 
+/**
+ * @short Class to hold a value in a unit of measurement
+ *
+ * @since 4.4
+ *
+ * This is a class to hold a value in a unit of measurement.
+ *
+ * @b license GNU-LGPL v.2 or later
+ *
+ * @see Converter, Unit, UnitCategory
+ *
+ * @author Petri Damstén <damu@iki.fi>
+ * @author John Layt <jlayt@kde.org>
+ */
+
 class KUNITCONVERSION_EXPORT Value
 {
 public:
