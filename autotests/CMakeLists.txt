@@ -9,6 +9,5 @@ ecm_add_tests(
     valuetest.cpp
     categorytest.cpp
     convertertest.cpp
-    NAME_PREFIX "kunitconversion-"
     LINK_LIBRARIES KF5::UnitConversion Qt5::Test
 )
