@@ -65,11 +65,11 @@ public:
         m_categories[ForceCategory] = Force();
         m_categories[AngleCategory] = Angle();
         m_categories[FrequencyCategory] = Frequency();
-    };
+    }
 
     virtual ~ConverterPrivate()
     {
-    };
+    }
 
     ConverterPrivate *clone()
     {

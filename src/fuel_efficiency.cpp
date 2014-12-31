@@ -37,17 +37,17 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return unitMultiplier() / value;
-    };
+    }
 
     qreal fromDefault(qreal value) const
     {
         return unitMultiplier() / value;
-    };
+    }
 };
 
 FuelEfficiency::FuelEfficiency() : CustomCategory(FuelEfficiencyCategory, i18n("Fuel Efficiency"), i18n("Fuel Efficiency"))

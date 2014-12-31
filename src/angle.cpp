@@ -39,16 +39,16 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return (value / (2 * M_PI)) * 360.0;
-    };
+    }
     qreal fromDefault(qreal value) const
     {
         return (value / 360.0) * (2 * M_PI);
-    };
+    }
 };
 
 Angle::Angle() : CustomCategory(AngleCategory, i18n("Angle"), i18n("Angle"))

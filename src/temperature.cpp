@@ -37,17 +37,17 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return value + 273.15;
-    };
+    }
 
     qreal fromDefault(qreal value) const
     {
         return value - 273.15;
-    };
+    }
 };
 
 class FahrenheitUnitPrivate : public UnitPrivate
@@ -61,17 +61,17 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return (value + 459.67) * 5.0 / 9.0;
-    };
+    }
 
     qreal fromDefault(qreal value) const
     {
         return (value * 9.0 / 5.0) - 459.67;
-    };
+    }
 };
 
 class DelisleUnitPrivate : public UnitPrivate
@@ -85,17 +85,17 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return 373.15 - (value * 2.0 / 3.0);
-    };
+    }
 
     qreal fromDefault(qreal value) const
     {
         return (373.15 - value) * 3.0 / 2.0;
-    };
+    }
 };
 
 class NewtonUnitPrivate : public UnitPrivate
@@ -109,17 +109,17 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return (value * 100.0 / 33.0) + 273.15;
-    };
+    }
 
     qreal fromDefault(qreal value) const
     {
         return (value - 273.15) * 33.0 / 100.0;
-    };
+    }
 };
 
 class ReaumurUnitPrivate : public UnitPrivate
@@ -133,17 +133,17 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return (value * 5.0 / 4.0) + 273.15;
-    };
+    }
 
     qreal fromDefault(qreal value) const
     {
         return (value - 273.15) * 4.0 / 5.0;
-    };
+    }
 };
 
 class RomerUnitPrivate : public UnitPrivate
@@ -157,17 +157,17 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return (value - 7.5) * 40.0 / 21.0 + 273.15;
-    };
+    }
 
     qreal fromDefault(qreal value) const
     {
         return (value - 273.15) * 21.0 / 40.0 + 7.5;
-    };
+    }
 };
 
 Temperature::Temperature() : CustomCategory(TemperatureCategory, i18n("Temperature"), i18n("Temperature"))

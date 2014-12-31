@@ -37,17 +37,17 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return (2.99792458e+08 * 6.62606896e-34) / (value * 1e-09);
-    };
+    }
 
     qreal fromDefault(qreal value) const
     {
         return ((2.99792458e+08 * 6.62606896e-34) / value) / 1e-09;
-    };
+    }
 };
 
 Energy::Energy() : CustomCategory(EnergyCategory, i18n("Energy"), i18n("Energy"))

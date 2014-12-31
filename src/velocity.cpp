@@ -40,17 +40,17 @@ public:
                       symbol, description,
                       matchString, symbolString,
                       realString, integerString)
-    {};
+    {}
 
     qreal toDefault(qreal value) const
     {
         return 0.836 * pow(value, 3.0 / 2.0);
-    };
+    }
 
     qreal fromDefault(qreal value) const
     {
         return pow(value / 0.836, 2.0 / 3.0);
-    };
+    }
 };
 
 Velocity::Velocity() : CustomCategory(VelocityCategory, i18n("Speed"), i18n("Speed"))

@@ -48,7 +48,7 @@ public:
     {
         m_cache = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation)
                   + QStringLiteral("/libkunitconversion/currency.xml");
-    };
+    }
 
     virtual Value convert(const Value &value, const Unit &toUnit);
 

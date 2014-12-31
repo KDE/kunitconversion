@@ -67,7 +67,7 @@ class CustomUnit : public Unit
 {
 public:
     CustomUnit(UnitPrivate *dd) : Unit(dd)
-    {};
+    {}
 
     CustomUnit(CategoryId categoryId, UnitId id, qreal multiplier,
                      const QString &symbol, const QString &description,
@@ -77,10 +77,10 @@ public:
                                symbol, description,
                                matchString, symbolString,
                                realString, integerString))
-    {};
+    {}
 
     virtual ~CustomUnit()
-    {};
+    {}
 };
 
 } // KUnitConversion namespace

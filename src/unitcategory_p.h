@@ -58,14 +58,14 @@ class CustomCategory : public UnitCategory
 {
 public:
     CustomCategory(UnitCategoryPrivate *dd) : UnitCategory(dd)
-    {};
+    {}
 
     CustomCategory(CategoryId id, const QString &name, const QString &description)
         : UnitCategory(new UnitCategoryPrivate(id, name, description))
-    {};
+    {}
 
     virtual ~CustomCategory()
-    {};
+    {}
 };
 
 } // KUnitConversion namespace
