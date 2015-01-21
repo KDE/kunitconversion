@@ -178,7 +178,7 @@ QString Unit::symbol() const
 void Unit::setUnitMultiplier(qreal multiplier)
 {
     if (d)
-        setUnitMultiplier(multiplier);
+        d->setUnitMultiplier(multiplier);
 }
 
 qreal Unit::toDefault(qreal value) const
