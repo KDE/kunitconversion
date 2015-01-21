@@ -167,8 +167,7 @@ Value UnitCategory::convert(const Value &value, UnitId toUnit)
 Value UnitCategory::convert(const Value &value, const Unit &toUnit)
 {
     if (d && !toUnit.isNull()) {
-        qreal v = toUnit.fromDefault(value.unit().toDefault(value.number()));
-        return Value(v, toUnit);
+        return d->convert(value, toUnit);
     }
     return Value();
 }
