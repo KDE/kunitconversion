@@ -34,7 +34,7 @@ public:
     {
     }
 
-    ValuePrivate(qreal number = 0.0, UnitId unitId = InvalidUnit)
+    ValuePrivate(qreal number, UnitId unitId = InvalidUnit)
         : m_number(number)
     {
         m_unit = m_converter.unit(unitId);
