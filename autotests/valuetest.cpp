@@ -24,7 +24,7 @@ using namespace KUnitConversion;
 void ValueTest::initTestCase()
 {
     v1 = Value(3.1415, Kilometer);
-    v2 = Value(6.1415, "m");
+    v2 = Value(6.1415, QStringLiteral("m"));
     v3 = Value(9.1415, v1.unit());
 }
 
@@ -45,7 +45,7 @@ void ValueTest::testConvert()
 {
     v1 = v1.convertTo(Meter);
     QCOMPARE(v1.number(), 3140.0);
-    v1 = v1.convertTo("cm");
+    v1 = v1.convertTo(QStringLiteral("cm"));
     QCOMPARE(v1.number(), 314000.0);
     v1 = v1.convertTo(v2.unit());
     QCOMPARE(v1.number(), 3140.0);
@@ -55,10 +55,10 @@ void ValueTest::testInvalid()
 {
     v1 = v1.convertTo(UnitId(99999));
     QCOMPARE(v1.number(), 0.0);
-    QCOMPARE(v1.toSymbolString(), QString(""));
-    v2 = v2.convertTo("don't exist");
+    QCOMPARE(v1.toSymbolString(), QLatin1String(""));
+    v2 = v2.convertTo(QStringLiteral("don't exist"));
     QCOMPARE(v2.number(), 0.0);
-    QCOMPARE(v2.toSymbolString(), QString(""));
+    QCOMPARE(v2.toSymbolString(), QLatin1String(""));
 }
 
 QTEST_MAIN(ValueTest)

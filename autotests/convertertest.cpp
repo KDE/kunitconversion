@@ -42,9 +42,9 @@ void ConverterTest::testUnits()
 
 void ConverterTest::testConvert()
 {
-    Value v = c.convert(Value(3.14, Kilometer), "m");
+    Value v = c.convert(Value(3.14, Kilometer), QStringLiteral("m"));
     QCOMPARE(v.number(), 3140.0);
-    v = c.convert(v, "cm");
+    v = c.convert(v, QStringLiteral("cm"));
     QCOMPARE(v.number(), 314000.0);
     v = c.convert(v, c.category(LengthCategory).defaultUnit());
     QCOMPARE(v.number(), 3140.0);

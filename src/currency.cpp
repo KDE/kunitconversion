@@ -62,18 +62,18 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
 
     // Static rates
     addDefaultUnit(CustomUnit(CurrencyCategory, Eur, 1,
-                              "EUR",
+                              QStringLiteral("EUR"),
                               i18nc("currency name", "Euro"),
                               i18nc("EUR Euro - unit synonyms for matching user input", "euro;euros")
                               + ";EUR;"
-                              + QString::fromUtf8("€") + ';'
+                              + QStringLiteral("€") + ';'
                               + i18nc("currency name", "Euro"),
                               symbolString,
                               ki18nc("amount in units (real)", "%1 euros"),
                               ki18ncp("amount in units (integer)", "%1 euro", "%1 euros")));
 
     addUnit(CustomUnit(CurrencyCategory, Ats, 0.0726728,
-                       "ATS",
+                       QStringLiteral("ATS"),
                        i18nc("currency name", "Austrian Schilling"),
                        i18nc("ATS Austrian Schilling - unit synonyms for matching user input", "schilling;schillings")
                        + ";ATS;"
@@ -84,7 +84,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 schilling", "%1 schillings")));
 
     addUnit(CustomUnit(CurrencyCategory, Bef, 0.0247894,
-                       "BEF",
+                       QStringLiteral("BEF"),
                        i18nc("currency name", "Belgian Franc"),
                        i18nc("BEF Belgian Franc - unit synonyms for matching user input", "franc;francs")
                        + ";BEF;"
@@ -95,7 +95,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Belgian franc", "%1 Belgian francs")));
 
     addUnit(CustomUnit(CurrencyCategory, Nlg, 0.45378,
-                       "NLG",
+                       QStringLiteral("NLG"),
                        i18nc("currency name", "Netherlands Guilder"),
                        i18nc("NLG Netherlands Guilder - unit synonyms for matching user input", "guilder;guilders")
                        + ";NLG;"
@@ -106,7 +106,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 guilder", "%1 guilders")));
 
     addUnit(CustomUnit(CurrencyCategory, Fim, 0.168188,
-                       "FIM",
+                       QStringLiteral("FIM"),
                        i18nc("currency name", "Finnish Markka"),
                        i18nc("FIM Finnish Markka - unit synonyms for matching user input", "markka;markkas;markkaa")
                        + ";FIM;"
@@ -117,7 +117,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 markka", "%1 markkas")));  // Alternative = markkaa
 
     addUnit(CustomUnit(CurrencyCategory, Frf, 0.152449,
-                       "FRF",
+                       QStringLiteral("FRF"),
                        i18nc("currency name", "French Franc"),
                        i18nc("FRF French Franc - unit synonyms for matching user input", "franc;francs")
                        + ";FRF;"
@@ -128,7 +128,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 French franc", "%1 French francs")));
 
     addUnit(CustomUnit(CurrencyCategory, Dem, 0.511292,
-                       "DEM",
+                       QStringLiteral("DEM"),
                        i18nc("currency name", "German Mark"),
                        i18nc("DEM German Mark - unit synonyms for matching user input", "mark;marks")
                        + ";DEM;"
@@ -139,7 +139,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 mark", "%1 marks")));
 
     addUnit(CustomUnit(CurrencyCategory, Iep, 1.26974,
-                       "IEP",
+                       QStringLiteral("IEP"),
                        i18nc("currency name", "Irish Pound"),
                        i18nc("IEP Irish Pound - unit synonyms for matching user input", "Irish pound;Irish pounds")
                        + ";IEP;"
@@ -150,7 +150,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Irish pound", "%1 Irish pounds")));
 
     addUnit(CustomUnit(CurrencyCategory, Itl, 0.000516457,
-                       "ITL",
+                       QStringLiteral("ITL"),
                        i18nc("currency name", "Italian Lira"),
                        i18nc("ITL Italian Lira - unit synonyms for matching user input", "lira;liras")
                        + ";ITL;"
@@ -161,7 +161,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Italian lira", "%1 Italian lira")));
 
     addUnit(CustomUnit(CurrencyCategory, Luf, 0.0247894,
-                       "LUF",
+                       QStringLiteral("LUF"),
                        i18nc("currency name", "Luxembourgish Franc"),
                        i18nc("LUF Luxembourgish Franc - unit synonyms for matching user input", "franc;francs")
                        + ";LUF;"
@@ -172,7 +172,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Luxembourgish franc", "%1 Luxembourgish francs")));
 
     addUnit(CustomUnit(CurrencyCategory, Pte, 0.00498798,
-                       "PTE",
+                       QStringLiteral("PTE"),
                        i18nc("currency name", "Portuguese Escudo"),
                        i18nc("PTE Portuguese Escudo - unit synonyms for matching user input", "escudo;escudos")
                        + ";PTE;"
@@ -183,7 +183,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 escudo", "%1 escudos")));
 
     addUnit(CustomUnit(CurrencyCategory, Esp, 0.00601012,
-                       "ESP",
+                       QStringLiteral("ESP"),
                        i18nc("currency name", "Spanish Peseta"),
                        i18nc("ESP Spanish Peseta - unit synonyms for matching user input", "peseta;pesetas")
                        + ";ESP;"
@@ -194,7 +194,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 peseta", "%1 pesetas")));
 
     addUnit(CustomUnit(CurrencyCategory, Grd, 0.0029347,
-                       "GRD",
+                       QStringLiteral("GRD"),
                        i18nc("currency name", "Greek Drachma"),
                        i18nc("GRD Greek Drachma - unit synonyms for matching user input", "drachma;drachmas")
                        + ";GRD;"
@@ -205,7 +205,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 drachma", "%1 drachmas")));
 
     addUnit(CustomUnit(CurrencyCategory, Sit, 0.00417293,
-                       "SIT",
+                       QStringLiteral("SIT"),
                        i18nc("currency name", "Slovenian Tolar"),
                        i18nc("SIT Slovenian Tolar - unit synonyms for matching user input", "tolar;tolars;tolarjev")
                        + ";SIT;"
@@ -216,7 +216,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 tolar", "%1 tolars")));  //Alt: tolarjev/tolarja/tolarji
 
     addUnit(CustomUnit(CurrencyCategory, Cyp, 1.7086,
-                       "CYP",
+                       QStringLiteral("CYP"),
                        i18nc("currency name", "Cypriot Pound"),
                        i18nc("CYP Cypriot Pound - unit synonyms for matching user input",
                              "Cypriot pound;Cypriot pounds")
@@ -228,7 +228,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Cypriot pound", "%1 Cypriot pounds")));
 
     addUnit(CustomUnit(CurrencyCategory, Mtl, 2.32937,
-                       "MTL",
+                       QStringLiteral("MTL"),
                        i18nc("currency name", "Maltese Lira"),
                        i18nc("MTL Maltese Lira - unit synonyms for matching user input", "Maltese lira")
                        + ";MTL;"
@@ -239,7 +239,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Maltese lira", "%1 Maltese lira")));
 
     addUnit(CustomUnit(CurrencyCategory, Skk, 0.0331939,
-                       "SKK",
+                       QStringLiteral("SKK"),
                        i18nc("currency name", "Slovak Koruna"),
                        i18nc("SKK Slovak Koruna - unit synonyms for matching user input",
                              "koruna;korunas;koruny;korun")
@@ -253,7 +253,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
 
     // From ECB
     addCommonUnit(CustomUnit(CurrencyCategory, Usd, 1e+99,
-                             "USD",
+                             QStringLiteral("USD"),
                              i18nc("currency name", "United States Dollar"),
                              i18nc("USD United States Dollar - unit synonyms for matching user input", "dollar;dollars")
                              + ";USD;$;"
@@ -264,11 +264,11 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                              ki18ncp("amount in units (integer)", "%1 United States dollar", "%1 United States dollars")));
 
     addCommonUnit(CustomUnit(CurrencyCategory, Jpy, 1e+99,
-                             "JPY",
+                             QStringLiteral("JPY"),
                              i18nc("currency name", "Japanese Yen"),
                              i18nc("JPY Japanese Yen - unit synonyms for matching user input", "yen")
                              + ";JPY;"
-                             + QString::fromUtf8("¥") + ';'
+                             + QStringLiteral("¥") + ';'
                              + QLocale::countryToString(QLocale::Japan) + ';'
                              + i18nc("currency name", "Japanese Yen"),
                              symbolString,
@@ -276,7 +276,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                              ki18ncp("amount in units (integer)", "%1 yen", "%1 yen")));
 
     addUnit(CustomUnit(CurrencyCategory, Bgn, 1e+99,
-                       "BGN",
+                       QStringLiteral("BGN"),
                        i18nc("currency name", "Bulgarian Lev"),
                        i18nc("BGN Bulgarian Lev - unit synonyms for matching user input", "lev;leva")
                        + ";BGN;"
@@ -287,7 +287,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 lev", "%1 leva")));
 
     addUnit(CustomUnit(CurrencyCategory, Czk, 1e+99,
-                       "CZK",
+                       QStringLiteral("CZK"),
                        i18nc("currency name", "Czech Koruna"),
                        i18nc("CZK Czech Koruna - unit synonyms for matching user input", "koruna;korunas")
                        + ";CZK;"
@@ -299,7 +299,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Czech koruna", "%1 Czech korunas")));
 
     addUnit(CustomUnit(CurrencyCategory, Dkk, 1e+99,
-                       "DKK",
+                       QStringLiteral("DKK"),
                        i18nc("currency name", "Danish Krone"),
                        i18nc("DKK Danish Krone - unit synonyms for matching user input", "Danish krone;Danish kroner")
                        + ";DKK;"
@@ -310,7 +310,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Danish krone", "%1 Danish kroner")));
 
     addUnit(CustomUnit(CurrencyCategory, Eek, 1e+99,
-                       "EEK",
+                       QStringLiteral("EEK"),
                        i18nc("currency name", "Estonian Kroon"),
                        i18nc("EEK Estonian Kroon - unit synonyms for matching user input", "kroon;kroons;krooni")
                        + ";EEK;"
@@ -321,12 +321,12 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 kroon", "%1 kroons"))); // Alt: krooni
 
     addCommonUnit(CustomUnit(CurrencyCategory, Gbp, 1e+99,
-                             "GBP",
+                             QStringLiteral("GBP"),
                              i18nc("currency name", "British Pound"),
                              i18nc("GBP British Pound - unit synonyms for matching user input",
                                    "pound;pounds;pound sterling;pounds sterling")
                              + ";GBP;"
-                             + QString::fromUtf8("£") + ';'
+                             + QStringLiteral("£") + ';'
                              + QLocale::countryToString(QLocale::UnitedKingdom) + ';'
                              + i18nc("currency name", "British Pound"),
                              symbolString,
@@ -334,7 +334,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                              ki18ncp("amount in units (integer)", "%1 pound sterling", "%1 pounds sterling")));
 
     addUnit(CustomUnit(CurrencyCategory, Huf, 1e+99,
-                       "HUF",
+                       QStringLiteral("HUF"),
                        i18nc("currency name", "Hungarian Forint"),
                        i18nc("HUF hungarian Forint - unit synonyms for matching user input", "forint")
                        + ";HUF;"
@@ -345,7 +345,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 forint", "%1 forint")));
 
     addUnit(CustomUnit(CurrencyCategory, Ltl, 1e+99,
-                       "LTL",
+                       QStringLiteral("LTL"),
                        i18nc("currency name", "Lithuanian Litas"),
                        i18nc("LTL Lithuanian Litas - unit synonyms for matching user input", "litas;litai;litu")
                        + ";LTL;"
@@ -356,7 +356,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 litas", "%1 litai"))); // Alt: litu
 
     addUnit(CustomUnit(CurrencyCategory, Lvl, 1e+99,
-                       "LVL",
+                       QStringLiteral("LVL"),
                        i18nc("currency name", "Latvian Lats"),
                        i18nc("LVL Latvian Lats - unit synonyms for matching user input", "lats;lati")
                        + ";LVL;"
@@ -367,7 +367,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 lats", "%1 lati")));
 
     addUnit(CustomUnit(CurrencyCategory, Pln, 1e+99,
-                       "PLN",
+                       QStringLiteral("PLN"),
                        i18nc("currency name", "Polish Zloty"),
                        i18nc("PLN Polish Zloty - unit synonyms for matching user input", "zloty;zlotys;zloties")
                        + ";PLN;"
@@ -378,7 +378,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 zloty", "%1 zlotys"))); // Alt: zloty, zlote, zlotych
 
     addUnit(CustomUnit(CurrencyCategory, Ron, 1e+99,
-                       "RON",
+                       QStringLiteral("RON"),
                        i18nc("currency name", "Romanian Leu"),
                        i18nc("RON Romanian Leu - unit synonyms for matching user input", "leu;lei")
                        + ";RON;"
@@ -389,7 +389,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 leu", "%1 lei")));
 
     addUnit(CustomUnit(CurrencyCategory, Sek, 1e+99,
-                       "SEK",
+                       QStringLiteral("SEK"),
                        i18nc("currency name", "Swedish Krona"),
                        i18nc("SEK Swedish Krona - unit synonyms for matching user input", "krona;kronor")
                        + ";SEK;"
@@ -400,7 +400,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 krona", "%1 kronor")));
 
     addUnit(CustomUnit(CurrencyCategory, Chf, 1e+99,
-                       "CHF",
+                       QStringLiteral("CHF"),
                        i18nc("currency name", "Swiss Franc"),
                        i18nc("CHF Swiss Franc - unit synonyms for matching user input", "franc;francs")
                        + ";CHF;"
@@ -411,7 +411,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Swiss franc", "%1 Swiss francs")));
 
     addUnit(CustomUnit(CurrencyCategory, Nok, 1e+99,
-                       "NOK",
+                       QStringLiteral("NOK"),
                        i18nc("currency name", "Norwegian Krone"),
                        i18nc("Norwegian Krone - unit synonyms for matching user input",
                              "Norwegian krone;Norwegian kroner")
@@ -423,7 +423,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Norwegian krone", "%1 Norwegian kroner")));
 
     addUnit(CustomUnit(CurrencyCategory, Hrk, 1e+99,
-                       "HRK",
+                       QStringLiteral("HRK"),
                        i18nc("currency name", "Croatian Kuna"),
                        i18nc("HRK Croatian Kuna - unit synonyms for matching user input", "kuna;kune")
                        + ";HRK;"
@@ -434,7 +434,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 kuna", "%1 kune")));
 
     addUnit(CustomUnit(CurrencyCategory, Rub, 1e+99,
-                       "RUB",
+                       QStringLiteral("RUB"),
                        i18nc("currency name", "Russian Ruble"),
                        i18nc("RUB Russian Ruble - unit synonyms for matching user input",
                              "ruble;rubles;rouble;roubles")
@@ -446,7 +446,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 ruble", "%1 rubles"))); //Alt: rouble/roubles
 
     addUnit(CustomUnit(CurrencyCategory, Try, 1e+99,
-                       "TRY",
+                       QStringLiteral("TRY"),
                        i18nc("currency name", "Turkish Lira"),
                        i18nc("TRY Turkish Lira - unit synonyms for matching user input", "lira")
                        + ";TRY;"
@@ -457,7 +457,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Turkish lira", "%1 Turkish lira")));
 
     addUnit(CustomUnit(CurrencyCategory, Aud, 1e+99,
-                       "AUD",
+                       QStringLiteral("AUD"),
                        i18nc("currency name", "Australian Dollar"),
                        i18nc("AUD Australian Dollar - unit synonyms for matching user input",
                              "Australian dollar;Australian dollars")
@@ -469,7 +469,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Australian dollar", "%1 Australian dollars")));
 
     addUnit(CustomUnit(CurrencyCategory, Brl, 1e+99,
-                       "BRL",
+                       QStringLiteral("BRL"),
                        i18nc("currency name", "Brazilian Real"),
                        i18nc("BRL Brazilian Real - unit synonyms for matching user input", "real;reais")
                        + ";BRL;"
@@ -480,7 +480,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 real", "%1 reais")));
 
     addCommonUnit(CustomUnit(CurrencyCategory, Cad, 1e+99,
-                             "CAD",
+                             QStringLiteral("CAD"),
                              i18nc("currency name", "Canadian Dollar"),
                              i18nc("Canadian Dollar - unit synonyms for matching user input",
                                    "Canadian dollar;Canadian dollars")
@@ -492,7 +492,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                              ki18ncp("amount in units (integer)", "%1 Canadian dollar", "%1 Canadian dollars")));
 
     addUnit(CustomUnit(CurrencyCategory, Cny, 1e+99,
-                       "CNY",
+                       QStringLiteral("CNY"),
                        i18nc("currency name", "Chinese Yuan"),
                        i18nc("Chinese Yuan - unit synonyms for matching user input", "yuan")
                        + ";CNY;"
@@ -503,7 +503,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 yuan", "%1 yuan")));
 
     addUnit(CustomUnit(CurrencyCategory, Hkd, 1e+99,
-                       "HKD",
+                       QStringLiteral("HKD"),
                        i18nc("currency name", "Hong Kong Dollar"),
                        i18nc("Hong Kong Dollar - unit synonyms for matching user input",
                              "Hong Kong dollar;Hong Kong dollars")
@@ -515,7 +515,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Hong Kong dollar", "%1 Hong Kong dollars")));
 
     addUnit(CustomUnit(CurrencyCategory, Idr, 1e+99,
-                       "IDR",
+                       QStringLiteral("IDR"),
                        i18nc("currency name", "Indonesian Rupiah"),
                        i18nc("IDR Indonesian Rupiah - unit synonyms for matching user input", "rupiah;rupiahs") +
                        + ";IDR;"
@@ -526,7 +526,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 rupiah", "%1 rupiahs"))); // Alt: rupiah
 
     addUnit(CustomUnit(CurrencyCategory, Inr, 1e+99,
-                       "INR",
+                       QStringLiteral("INR"),
                        i18nc("currency name", "Indian Rupee"),
                        i18nc("INR Indian Rupee - unit synonyms for matching user input", "rupee;rupees")
                        + ";INR;"
@@ -537,7 +537,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 rupee", "%1 rupees"))); // Alt: rupee
 
     addUnit(CustomUnit(CurrencyCategory, Krw, 1e+99,
-                       "KRW",
+                       QStringLiteral("KRW"),
                        i18nc("currency name", "Korean Won"),
                        i18nc("KRW Korean Won - unit synonyms for matching user input", "won")
                        + ";KRW;"
@@ -548,7 +548,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 won", "%1 won")));
 
     addUnit(CustomUnit(CurrencyCategory, Mxn, 1e+99,
-                       "MXN",
+                       QStringLiteral("MXN"),
                        i18nc("currency name", "Mexican Peso"),
                        i18nc("MXN Mexican Peso - unit synonyms for matching user input",
                              "Mexican peso;Mexican pesos")
@@ -560,7 +560,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Mexican peso", "%1 Mexican pesos")));
 
     addUnit(CustomUnit(CurrencyCategory, Myr, 1e+99,
-                       "MYR",
+                       QStringLiteral("MYR"),
                        i18nc("currency name", "Malaysian Ringgit"),
                        i18nc("MYR Malaysian Ringgit - unit synonyms for matching user input", "ringgit;ringgits")
                        + ";MYR;"
@@ -571,7 +571,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 ringgit", "%1 ringgit"))); // Alt: ringgits
 
     addUnit(CustomUnit(CurrencyCategory, Nzd, 1e+99,
-                       "NZD",
+                       QStringLiteral("NZD"),
                        i18nc("currency name", "New Zealand Dollar"),
                        i18nc("NZD New Zealand Dollar - unit synonyms for matching user input",
                              "New Zealand dollar;New Zealand dollars")
@@ -583,7 +583,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 New Zealand dollar", "%1 New Zealand dollars")));
 
     addUnit(CustomUnit(CurrencyCategory, Php, 1e+99,
-                       "PHP",
+                       QStringLiteral("PHP"),
                        i18nc("currency name", "Philippine Peso"),
                        i18nc("PHP Philippine Peso - unit synonyms for matching user input",
                              "Philippine peso;Philippine pesos")
@@ -595,7 +595,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Philippine peso", "%1 Philippine pesos")));
 
     addUnit(CustomUnit(CurrencyCategory, Sgd, 1e+99,
-                       "SGD",
+                       QStringLiteral("SGD"),
                        i18nc("currency name", "Singapore Dollar"),
                        i18nc("SGD Singapore Dollar - unit synonyms for matching user input",
                              "Singapore dollar;Singapore dollars")
@@ -607,7 +607,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 Singapore dollar", "%1 Singapore dollars")));
 
     addUnit(CustomUnit(CurrencyCategory, Thb, 1e+99,
-                       "THB",
+                       QStringLiteral("THB"),
                        i18nc("currency name", "Thai Baht"),
                        i18nc("THB Thai Baht - unit synonyms for matching user input", "baht")
                        + ";THB;"
@@ -618,7 +618,7 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18ncp("amount in units (integer)", "%1 baht", "%1 baht")));
 
     addUnit(CustomUnit(CurrencyCategory, Zar, 1e+99,
-                       "ZAR",
+                       QStringLiteral("ZAR"),
                        i18nc("currency name", "South African Rand"),
                        i18nc("South African Rand - unit synonyms for matching user input", "rand")
                        + ";ZAR;"
@@ -681,13 +681,13 @@ Value CurrencyCategoryPrivate::convert(const Value &value, const Unit &to)
         if (file.open(QIODevice::ReadOnly)) {
             QDomDocument doc;
             if (doc.setContent(&file, false)) {
-                QDomNodeList list = doc.elementsByTagName("Cube");
+                QDomNodeList list = doc.elementsByTagName(QStringLiteral("Cube"));
                 for (int i = 0; i < list.count(); ++i) {
                     const QDomElement e = list.item(i).toElement();
-                    if (e.hasAttribute("currency")) {
-                        Unit u = m_unitMap.value(e.attribute("currency"));
+                    if (e.hasAttribute(QStringLiteral("currency"))) {
+                        Unit u = m_unitMap.value(e.attribute(QStringLiteral("currency")));
                         if (u.isValid()) {
-                            u.setUnitMultiplier(1.0 / e.attribute("rate").toDouble());
+                            u.setUnitMultiplier(1.0 / e.attribute(QStringLiteral("rate")).toDouble());
                         }
                     }
                 }
