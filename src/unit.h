@@ -294,8 +294,6 @@ private:
     QExplicitlySharedDataPointer<UnitPrivate> d;
 };
 
-#define U(id, m, s, d, sy, r, i) (KUnitConversion::Unit(*this, id, m, s, d, sy, r, i))
-
 } // KUnitConversion namespace
 
 #endif
