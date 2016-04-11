@@ -344,6 +344,17 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        ki18nc("amount in units (real)", "%1 forint"),
                        ki18ncp("amount in units (integer)", "%1 forint", "%1 forint")));
 
+    addUnit(CustomUnit(CurrencyCategory, Ils, 1e+99,
+                       QStringLiteral("ILS"),
+                       i18nc("currency name", "Israeli New Shekel"),
+                       i18nc("ILS Israeli New Shekel - unit synonyms for matching user input", "shekel;shekels;sheqel;sheqels;sheqalim")
+                       + ";ILS;"
+                       + QLocale::countryToString(QLocale::Israel) + ';'
+                       + i18nc("currency name", "Israeli New Shekel"),
+                       symbolString,
+                       ki18nc("amount in units (real)", "%1 shekels"),
+                       ki18ncp("amount in units (integer)", "%1 shekel", "%1 shekels")));
+
     addUnit(CustomUnit(CurrencyCategory, Ltl, 1e+99,
                        QStringLiteral("LTL"),
                        i18nc("currency name", "Lithuanian Litas"),
