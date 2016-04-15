@@ -35,6 +35,7 @@ private Q_SLOTS:
     void testRound();
     void testConvert();
     void testInvalid();
+    void testCurrencyNotDownloaded();
 
 private:
     Value v1;

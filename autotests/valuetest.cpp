@@ -19,10 +19,16 @@
 
 #include "valuetest.h"
 
+#include <QStandardPaths>
+
 using namespace KUnitConversion;
+
 
 void ValueTest::initTestCase()
 {
+    qputenv("KF5UNITCONVERT_NO_DOWNLOAD", "1");
+    QStandardPaths::setTestModeEnabled(true);
+
     v1 = Value(3.1415, Kilometer);
     v2 = Value(6.1415, QStringLiteral("m"));
     v3 = Value(9.1415, v1.unit());
@@ -59,6 +65,13 @@ void ValueTest::testInvalid()
     v2 = v2.convertTo(QStringLiteral("don't exist"));
     QCOMPARE(v2.number(), 0.0);
     QCOMPARE(v2.toSymbolString(), QLatin1String(""));
+}
+
+void ValueTest::testCurrencyNotDownloaded()
+{
+    auto pounds = Value(100, Gbp);
+    auto eur = pounds.convertTo(Eur);
+    QVERIFY(!eur.isValid());
 }
 
 QTEST_MAIN(ValueTest)

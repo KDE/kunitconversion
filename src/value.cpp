@@ -153,7 +153,7 @@ bool Value::isNull() const
 
 bool Value::isValid() const
 {
-    return (d && d->m_unit.isValid());
+    return (d && d->m_unit.isValid() && !qIsNaN(d->m_number));
 }
 
 qreal Value::number() const
