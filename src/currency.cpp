@@ -24,9 +24,12 @@
 #include <KI18n/klocalizedstring.h>
 
 #include <QtCore/QDateTime>
+#include <QtCore/QDir>
+#include <QtCore/QEventLoop>
 #include <QtCore/QFileInfo>
 #include <QtCore/QLocale>
 #include <QtCore/QMutex>
+#include <QtCore/QSaveFile>
 #include <QtCore/QStandardPaths>
 #include <QtNetwork/QNetworkAccessManager>
 #include <QtNetwork/QNetworkInterface>
@@ -660,36 +663,39 @@ Value CurrencyCategoryPrivate::convert(const Value &value, const Unit &to)
 {
     static QMutex mutex;
 
-    mutex.lock();
     QFileInfo info(m_cache);
     if (!info.exists() || info.lastModified().secsTo(QDateTime::currentDateTime()) > 86400) {
         if (isConnected()) {
-            //qDebug() << "Getting currency info from net:" << URL;
-            // TODO: This crashes in runner. Threading issues??
-            /*
-            KIO::Job* job = KIO::file_copy(QUrl(URL), QUrl::fromLocalFile(m_cache), -1,
-                                           KIO::Overwrite | KIO::HideProgressInfo);
-            job->setUiDelegate(0);
-            if (job->exec()) {
-                m_update = true;
-            }
-            */
-            //qDebug() << "Removed previous cache:" << QFile::remove(m_cache);
-
+            // Bug 345750: QNetworkReply does not work without an event loop and doesn't implement waitForReadyRead()
+            QEventLoop loop;
             QNetworkAccessManager manager;
-            QNetworkReply *reply = manager.get(QNetworkRequest(QUrl(URL)));
-            QFile cacheFile(m_cache);
-            cacheFile.open(QFile::WriteOnly);
-            while (!reply->error() && !reply->atEnd()) {
-                if (reply->bytesAvailable() > 0
-                        || reply->waitForReadyRead(500)) {
-                    cacheFile.write(reply->readAll());
+            auto *reply = manager.get(QNetworkRequest(QUrl(URL))); // reply is owned by the network access manager
+            QObject::connect(reply, &QNetworkReply::finished, [&] {
+                if (!reply->error()) {
+                    const QString cacheDir = info.absolutePath();
+                    if (!QFileInfo::exists(cacheDir)) {
+                        QDir().mkpath(cacheDir);
+                    }
+
+                    QSaveFile cacheFile(m_cache);
+                    if (cacheFile.open(QFile::WriteOnly)) {
+                        cacheFile.write(reply->readAll());
+
+                        if (cacheFile.commit()) {
+                            mutex.lock();
+                            m_update = true;
+                            mutex.unlock();
+                        }
+                    }
                 }
-            }
-            cacheFile.close();
+
+                loop.quit();
+            });
+            loop.exec(QEventLoop::ExcludeUserInputEvents);
         }
     }
-    mutex.unlock();
+
+    mutex.lock();
 
     if (m_update) {
         QFile file(m_cache);
@@ -710,6 +716,8 @@ Value CurrencyCategoryPrivate::convert(const Value &value, const Unit &to)
             }
         }
     }
+    mutex.unlock();
+
     Value v = UnitCategoryPrivate::convert(value, to);
     return v;
 }
