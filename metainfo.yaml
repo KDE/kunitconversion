@@ -11,3 +11,7 @@ libraries:
  - qmake: KUnitConversion
    cmake: "KF5::UnitConversion"
 cmakename: KF5UnitConversion
+
+public_lib: true
+group: Frameworks
+subgroup: Tier 2
