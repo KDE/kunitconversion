@@ -53,21 +53,39 @@ class ValuePrivate;
 class KUNITCONVERSION_EXPORT Value
 {
 public:
+    /**
+     * Creates a null value.
+     */
     Value();
+    /**
+     * Creates a value with a unit instance
+     */
     Value(qreal number, const Unit &unit);
+    /**
+     * Creates a value with a unit (as a string).
+     */
     Value(qreal number, const QString &unitString);
+    /**
+     * Creates a value with a unit (as a enum value).
+     */
     Value(qreal number, UnitId unitId);
+    /**
+     * Creates a value based on a QVariant (calling toReal() on it) with a unit (as a string).
+     */
     Value(const QVariant &number, const QString &unitString);
 
     /**
-     * Copy constructor, copy @param other to this.
+     * Copy constructor, copy @p other to this.
      **/
     Value(const Value &other);
 
+    /**
+     * Destroys this Value instance
+     */
     ~Value();
 
     /**
-     * Assignment operator, assign @param other to this.
+     * Assignment operator, assign @p other to this.
      **/
     Value &operator=(const Value &other);
 

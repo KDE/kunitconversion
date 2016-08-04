@@ -27,3 +27,11 @@ following areas are supported:
 * Velocity
 * Volume
 
+## Usage
+
+To convert 100 GBP into EUR, you can write:
+
+    using namespace KUnitConversion;
+    Value pounds(100, Gbp);
+    Value eur = pounds.convertTo(Eur);
+

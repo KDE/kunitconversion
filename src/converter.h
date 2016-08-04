@@ -53,12 +53,22 @@ class ConverterPrivate;
 class KUNITCONVERSION_EXPORT Converter
 {
 public:
+    /**
+     * Creates a Converter instance.
+     */
     Converter();
+    /**
+     * Destroys this Converter instance.
+     */
     ~Converter();
+    /**
+     * Copy constructor.
+     * @param other existing Converter instance.
+     */
     Converter(const Converter &other);
 
     /**
-     * Assignment operator, assign @param other to this.
+     * Assignment operator, assign @p other to this.
      **/
     Converter &operator=(const Converter &other);
 
