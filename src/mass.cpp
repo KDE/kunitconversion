@@ -258,6 +258,14 @@ Mass::Mass() : CustomCategory(MassCategory, i18n("Mass"), i18n("Mass"))
                        symbolString,
                        ki18nc("amount in units (real)", "%1 kilonewton"),
                        ki18ncp("amount in units (integer)", "%1 kilonewton", "%1 kilonewton")));
+
+    addUnit(CustomUnit(MassCategory, Stone, 6350.29318,
+                       i18nc("mass unit symbol", "st"),
+                       i18nc("unit description in lists", "stone"),
+                       i18nc("unit synonyms for matching user input", "stone;st"),
+                       symbolString,
+                       ki18nc("amount in units (real)", "%1 stone"),
+                       ki18ncp("amount in units (integer)", "%1 stone", "%1 stone")));
 }
 
 } // KUnitConversion namespace

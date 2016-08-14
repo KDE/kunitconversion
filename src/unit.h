@@ -86,6 +86,9 @@ enum UnitId {
     Femtogram, Attogram, Zeptogram, Yoctogram, Ton, Carat, Pound, Ounce, TroyOunce, MassNewton,
     Kilonewton,
 
+    /** @since 5.26 */
+    Stone,
+
     // Pressure
     Yottapascal = 5000, Zettapascal, Exapascal, Petapascal, Terapascal, Gigapascal, Megapascal,
     Kilopascal, Hectopascal, Decapascal, Pascal, Decipascal, Centipascal, Millipascal,
