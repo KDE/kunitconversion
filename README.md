@@ -14,6 +14,8 @@ following areas are supported:
 * Area
 * Currency
 * Density
+* Electrical Current
+* Electrical Resistance
 * Energy
 * Force
 * Frequency
@@ -23,9 +25,13 @@ following areas are supported:
 * Power
 * Pressure
 * Temperature
+* Thermal Conductivity
+* Thermal Flux
+* Thermal Generation
 * Time
 * Velocity
 * Volume
+* Voltage
 
 ## Usage
 

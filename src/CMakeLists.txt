@@ -20,6 +20,12 @@ set(kunitconversion_LIB_SRCS
     force.cpp
     angle.cpp
     frequency.cpp
+    thermal_conductivity.cpp
+    thermal_flux.cpp
+    thermal_generation.cpp
+    voltage.cpp
+    electrical_current.cpp
+    electrical_resistance.cpp
 )
 
 add_library(KF5UnitConversion ${kunitconversion_LIB_SRCS})

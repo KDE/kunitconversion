@@ -49,7 +49,19 @@ enum CategoryId {
     AccelerationCategory,
     AngleCategory,
     FrequencyCategory,
-    ForceCategory
+    ForceCategory,
+    /** @since 5.27 */
+    ThermalConductivityCategory,
+    /** @since 5.27 */
+    ThermalFluxCategory,
+    /** @since 5.27 */
+    ThermalGenerationCategory,
+    /** @since 5.27 */
+    VoltageCategory,
+    /** @since 5.27 */
+    ElectricalCurrentCategory,
+    /** @since 5.27 */
+    ElectricalResistanceCategory
 };
 
 enum UnitId {
@@ -104,6 +116,10 @@ enum UnitId {
     Kilojoule, Hectojoule, Decajoule, Joule, Decijoule, Centijoule, Millijoule, Microjoule,
     Nanojoule, Picojoule, Femtojoule, Attojoule, Zeptojoule, Yoctojoule, GuidelineDailyAmount,
     Electronvolt, Rydberg, Kilocalorie, PhotonWavelength, KiloJoulePerMole, JoulePerMole,
+    /** @since 5.27 */
+    Btu,
+    /** @since 5.27 */
+    Erg,
 
     // Currency
     Eur = 8000, Ats, Bef, Nlg, Fim, Frf, Dem, Iep, Itl, Luf, Pte, Esp, Grd, Sit, Cyp, Mtl, Skk,
@@ -155,7 +171,161 @@ enum UnitId {
     // Frequency
     Yottahertz = 17000, Zettahertz, Exahertz, Petahertz, Terahertz, Gigahertz, Megahertz,
     Kilohertz, Hectohertz, Decahertz, Hertz, Decihertz, Centihertz, Millihertz, Microhertz,
-    Nanohertz, Picohertz, Femtohertz, Attohertz, Zeptohertz, Yoctohertz, RPM
+    Nanohertz, Picohertz, Femtohertz, Attohertz, Zeptohertz, Yoctohertz, RPM,
+
+    // Thermal Conductivity
+    /** @since 5.27 */
+    WattPerMeterKelvin = 18000,
+    /** @since 5.27 */
+    BtuPerFootHourFahrenheit,
+    /** @since 5.27 */
+    BtuPerSquareFootHourFahrenheitPerInch,
+
+    // Thermal Flux Density
+    /** @since 5.27 */
+    WattPerSquareMeter = 19000,
+    /** @since 5.27 */
+    BtuPerHourPerSquareFoot,
+
+    // Thermal Generation per volume
+    /** @since 5.27 */
+    WattPerCubicMeter = 20000,
+    /** @since 5.27 */
+    BtuPerHourPerCubicFoot,
+
+    // Voltage
+    /** @since 5.27 */
+    Yottavolts = 30000,
+    /** @since 5.27 */
+    Zettavolts,
+    /** @since 5.27 */
+    Exavolts,
+    /** @since 5.27 */
+    Petavolts,
+    /** @since 5.27 */
+    Teravolts,
+    /** @since 5.27 */
+    Gigavolts,
+    /** @since 5.27 */
+    Megavolts,
+    /** @since 5.27 */
+    Kilovolts,
+    /** @since 5.27 */
+    Hectovolts,
+    /** @since 5.27 */
+    Decavolts,
+    /** @since 5.27 */
+    Volts,
+    /** @since 5.27 */
+    Decivolts,
+    /** @since 5.27 */
+    Centivolts,
+    /** @since 5.27 */
+    Millivolts,
+    /** @since 5.27 */
+    Microvolts,
+    /** @since 5.27 */
+    Nanovolts,
+    /** @since 5.27 */
+    Picovolts,
+    /** @since 5.27 */
+    Femtovolts,
+    /** @since 5.27 */
+    Attovolts,
+    /** @since 5.27 */
+    Zeptovolts,
+    /** @since 5.27 */
+    Yoctovolts,
+    /** @since 5.27 */
+    Statvolts,
+
+    // Electrical Current
+    /** @since 5.27 */
+    Yottaampere = 31000,
+    /** @since 5.27 */
+    Zettaampere,
+    /** @since 5.27 */
+    Exaampere,
+    /** @since 5.27 */
+    Petaampere,
+    /** @since 5.27 */
+    Teraampere,
+    /** @since 5.27 */
+    Gigaampere,
+    /** @since 5.27 */
+    Megaampere,
+    /** @since 5.27 */
+    Kiloampere,
+    /** @since 5.27 */
+    Hectoampere,
+    /** @since 5.27 */
+    Decaampere,
+    /** @since 5.27 */
+    Ampere,
+    /** @since 5.27 */
+    Deciampere,
+    /** @since 5.27 */
+    Centiampere,
+    /** @since 5.27 */
+    Milliampere,
+    /** @since 5.27 */
+    Microampere,
+    /** @since 5.27 */
+    Nanoampere,
+    /** @since 5.27 */
+    Picoampere,
+    /** @since 5.27 */
+    Femtoampere,
+    /** @since 5.27 */
+    Attoampere,
+    /** @since 5.27 */
+    Zeptoampere,
+    /** @since 5.27 */
+    Yoctoampere,
+
+    // Electrical Resistance
+    /** @since 5.27 */
+    Yottaohms = 32000,
+    /** @since 5.27 */
+    Zettaohms,
+    /** @since 5.27 */
+    Exaohms,
+    /** @since 5.27 */
+    Petaohms,
+    /** @since 5.27 */
+    Teraohms,
+    /** @since 5.27 */
+    Gigaohms,
+    /** @since 5.27 */
+    Megaohms,
+    /** @since 5.27 */
+    Kiloohms,
+    /** @since 5.27 */
+    Hectoohms,
+    /** @since 5.27 */
+    Decaohms,
+    /** @since 5.27 */
+    Ohms,
+    /** @since 5.27 */
+    Deciohms,
+    /** @since 5.27 */
+    Centiohms,
+    /** @since 5.27 */
+    Milliohms,
+    /** @since 5.27 */
+    Microohms,
+    /** @since 5.27 */
+    Nanoohms,
+    /** @since 5.27 */
+    Picoohms,
+    /** @since 5.27 */
+    Femtoohms,
+    /** @since 5.27 */
+    Attoohms,
+    /** @since 5.27 */
+    Zeptoohms,
+    /** @since 5.27 */
+    Yoctoohms
 };
 
 class UnitCategory;

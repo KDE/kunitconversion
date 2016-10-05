@@ -271,6 +271,22 @@ Energy::Energy() : CustomCategory(EnergyCategory, i18n("Energy"), i18n("Energy")
                              ki18nc("amount in units (real)", "%1 kilocalories"),
                              ki18ncp("amount in units (integer)", "%1 kilocalorie", "%1 kilocalories")));
 
+    addCommonUnit(CustomUnit(EnergyCategory, Btu, 1055.05585,
+                             i18nc("energy unit symbol", "BTU"),
+                             i18nc("unit description in lists", "British Thermal Unit"),
+                             i18nc("unit synonyms for matching user input", "Btu;BTU;Btus;BTUs"),
+                             symbolString,
+                             ki18nc("amount in units (real)", "%1 BTU"),
+                             ki18ncp("amount in units (integer)", "%1 BTU", "%1 BTU")));
+
+    addCommonUnit(CustomUnit(EnergyCategory, Erg, 1.0e-7,
+                             i18nc("energy unit symbol", "Erg"),
+                             i18nc("unit description in lists", "ergs"),
+                             i18nc("unit synonyms for matching user input", "Erg;erg;Ergs;ergs"),
+                             symbolString,
+                             ki18nc("amount in units (real)", "%1 ergs"),
+                             ki18ncp("amount in units (integer)", "%1 erg", "%1 erg")));
+
     addUnit(CustomUnit(new PhotoUnitPrivate(EnergyCategory, PhotonWavelength, 1.0,
                                             i18nc("energy unit symbol", "nm"),
                                             i18nc("unit description in lists", "photon wavelength in nanometers"),

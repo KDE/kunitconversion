@@ -25,6 +25,8 @@
 #include "area_p.h"
 #include "currency_p.h"
 #include "density_p.h"
+#include "electrical_current_p.h"
+#include "electrical_resistance_p.h"
 #include "energy_p.h"
 #include "force_p.h"
 #include "frequency_p.h"
@@ -34,8 +36,12 @@
 #include "power_p.h"
 #include "pressure_p.h"
 #include "temperature_p.h"
+#include "thermal_conductivity_p.h"
+#include "thermal_generation_p.h"
+#include "thermal_flux_p.h"
 #include "timeunit_p.h"
 #include "velocity_p.h"
+#include "voltage_p.h"
 #include "volume_p.h"
 
 #include <KI18n/klocalizedstring.h>
@@ -65,6 +71,12 @@ public:
         m_categories[ForceCategory] = Force();
         m_categories[AngleCategory] = Angle();
         m_categories[FrequencyCategory] = Frequency();
+        m_categories[ThermalConductivityCategory] = ThermalConductivity();
+        m_categories[ThermalFluxCategory] = ThermalFlux();
+        m_categories[ThermalGenerationCategory] = ThermalGeneration();
+        m_categories[VoltageCategory] = Voltage();
+        m_categories[ElectricalCurrentCategory] = ElectricalCurrent();
+        m_categories[ElectricalResistanceCategory] = ElectricalResistance();
     }
 
     virtual ~ConverterPrivate()
