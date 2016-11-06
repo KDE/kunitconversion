@@ -53,7 +53,7 @@ public:
                   + QStringLiteral("/libkunitconversion/currency.xml");
     }
 
-    virtual Value convert(const Value &value, const Unit &toUnit);
+    Value convert(const Value &value, const Unit &toUnit) Q_DECL_OVERRIDE;
 
     QString m_cache;
     bool m_update;

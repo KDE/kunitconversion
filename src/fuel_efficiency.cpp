@@ -39,12 +39,12 @@ public:
                       realString, integerString)
     {}
 
-    qreal toDefault(qreal value) const
+    qreal toDefault(qreal value) const Q_DECL_OVERRIDE
     {
         return unitMultiplier() / value;
     }
 
-    qreal fromDefault(qreal value) const
+    qreal fromDefault(qreal value) const Q_DECL_OVERRIDE
     {
         return unitMultiplier() / value;
     }
