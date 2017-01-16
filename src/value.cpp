@@ -91,7 +91,7 @@ public:
 };
 
 Value::Value()
-    : d(0)
+    : d(nullptr)
 {
 }
 

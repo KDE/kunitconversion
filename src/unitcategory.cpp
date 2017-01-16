@@ -67,7 +67,7 @@ Value UnitCategoryPrivate::convert(const Value &value, const Unit &toUnit)
 }
 
 UnitCategory::UnitCategory()
-    : d(0)
+    : d(nullptr)
 {
 }
 

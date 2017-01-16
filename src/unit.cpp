@@ -90,7 +90,7 @@ qreal UnitPrivate::fromDefault(qreal value) const
 }
 
 Unit::Unit()
-    : d(0)
+    : d(nullptr)
 {
 }
 
