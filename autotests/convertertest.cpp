@@ -57,5 +57,12 @@ void ConverterTest::testInvalid()
     QCOMPARE(c.category("does not exist").name(), QString());
 }
 
+void ConverterTest::testCurrency()
+{
+    Value input = Value(1000, Eur);
+    Value v = c.convert(input, "$");
+    QVERIFY(v.number() > 100);
+}
+
 QTEST_MAIN(ConverterTest)
 
