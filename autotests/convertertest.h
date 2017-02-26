@@ -36,9 +36,6 @@ private Q_SLOTS:
     void testConvert();
     void testInvalid();
     void testCurrency();
-
-private:
-    Converter c;
 };
 
 #endif // CONVERTERTEST_H

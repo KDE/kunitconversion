@@ -19,15 +19,24 @@
 
 #include "convertertest.h"
 #include <kunitconversion/unitcategory.h>
+#include <QVector>
+#include <QThread>
+#include <QStandardPaths>
 
 using namespace KUnitConversion;
 
 void ConverterTest::initTestCase()
 {
+    QStandardPaths::enableTestMode(true);
+
+    // Remove currency cache to force a download
+    const QString cache = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
+    QFile::remove(cache);
 }
 
 void ConverterTest::testCategory()
 {
+    Converter c;
     QCOMPARE(c.categoryForUnit("km").id(), LengthCategory);
     QCOMPARE(c.category(QString("Length")).id(), LengthCategory);
     QCOMPARE(c.category(LengthCategory).name(), QString("Length"));
@@ -36,12 +45,14 @@ void ConverterTest::testCategory()
 
 void ConverterTest::testUnits()
 {
+    Converter c;
     QCOMPARE(c.unit(QString("km")).symbol(), QString("km"));
     QCOMPARE(c.unit(Kilogram).symbol(), QString("kg"));
 }
 
 void ConverterTest::testConvert()
 {
+    Converter c;
     Value v = c.convert(Value(3.14, Kilometer), QStringLiteral("m"));
     QCOMPARE(v.number(), 3140.0);
     v = c.convert(v, QStringLiteral("cm"));
@@ -52,16 +63,44 @@ void ConverterTest::testConvert()
 
 void ConverterTest::testInvalid()
 {
+    Converter c;
     QCOMPARE(c.categoryForUnit("does not exist").id(), InvalidCategory);
     QCOMPARE(c.unit("does not exist").symbol(), QString());
     QCOMPARE(c.category("does not exist").name(), QString());
 }
 
+class CurrencyTestThread : public QThread
+{
+public:
+    CurrencyTestThread(Converter &c) : m_c(c) {}
+    void run() Q_DECL_OVERRIDE
+    {
+        Value input = Value(1000, Eur);
+        Value v = m_c.convert(input, "$");
+        number = v.number();
+    }
+    int number;
+    Converter &m_c;
+};
+
 void ConverterTest::testCurrency()
 {
-    Value input = Value(1000, Eur);
-    Value v = c.convert(input, "$");
-    QVERIFY(v.number() > 100);
+    Converter c;
+    // 2 threads is enough for tsan to notice races, let's not hammer the website with more concurrent requests
+    const int numThreads = 2;
+    QVector<CurrencyTestThread *> threads;
+    threads.resize(numThreads);
+    for (int i = 0; i < numThreads; ++i) {
+        threads[i] = new CurrencyTestThread(c);
+    }
+    for (int i = 0; i < numThreads; ++i) {
+        threads[i]->start();
+    }
+    for (int i = 0; i < numThreads; ++i) {
+        threads[i]->wait();
+        QVERIFY(threads.at(i)->number > 100);
+    }
+    qDeleteAll(threads);
 }
 
 QTEST_MAIN(ConverterTest)
