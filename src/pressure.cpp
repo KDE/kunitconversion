@@ -78,7 +78,7 @@ Pressure::Pressure() : CustomCategory(PressureCategory, i18n("Pressure"), i18n("
                        ki18nc("amount in units (real)", "%1 gigapascals"),
                        ki18ncp("amount in units (integer)", "%1 gigapascal", "%1 gigapascals")));
 
-    addUnit(CustomUnit(PressureCategory, Megapascal, 1e+06,
+    addCommonUnit(CustomUnit(PressureCategory, Megapascal, 1e+06,
                        i18nc("pressure unit symbol", "MPa"),
                        i18nc("unit description in lists", "megapascals"),
                        i18nc("unit synonyms for matching user input", "megapascal;megapascals;MPa"),
@@ -247,7 +247,7 @@ Pressure::Pressure() : CustomCategory(PressureCategory, i18n("Pressure"), i18n("
                              ki18nc("amount in units (real)", "%1 atmospheres"),
                              ki18ncp("amount in units (integer)", "%1 atmosphere", "%1 atmospheres")));
 
-    addUnit(CustomUnit(PressureCategory, PoundForcePerSquareInch, 6894.76,
+    addCommonUnit(CustomUnit(PressureCategory, PoundForcePerSquareInch, 6894.76,
                        i18nc("pressure unit symbol", "psi"),
                        i18nc("unit description in lists", "pound-force per square inch"),
                        i18nc("unit synonyms for matching user input",
