@@ -228,7 +228,7 @@ void UnitCategory::addUnit(const Unit &unit)
 {
     if (d) {
         unit.d->m_category = *this;
-        const QStringList list = unit.d->m_matchString.split(';');
+        const QStringList list = unit.d->m_matchString.split(QLatin1Char(';'));
         foreach (const QString &name, list)
             d->m_unitMap[name] = unit;
         d->m_idMap[unit.id()] = unit;

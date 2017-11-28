@@ -35,8 +35,7 @@ ecm_setup_version(PROJECT VARIABLE_PREFIX KUNITCONVERSION
 
 find_package(KF5I18n ${KF5_DEP_VERSION} REQUIRED)
 
-remove_definitions(-DQT_NO_CAST_FROM_ASCII)
-remove_definitions(-DQT_NO_CAST_FROM_BYTEARRAY)
+#remove_definitions(-DQT_NO_CAST_FROM_BYTEARRAY)
 
 add_definitions(-DTRANSLATION_DOMAIN=\"kunitconversion5\")
 if (IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/po")

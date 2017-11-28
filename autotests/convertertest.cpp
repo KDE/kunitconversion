@@ -37,17 +37,17 @@ void ConverterTest::initTestCase()
 void ConverterTest::testCategory()
 {
     Converter c;
-    QCOMPARE(c.categoryForUnit("km").id(), LengthCategory);
-    QCOMPARE(c.category(QString("Length")).id(), LengthCategory);
-    QCOMPARE(c.category(LengthCategory).name(), QString("Length"));
+    QCOMPARE(c.categoryForUnit(QStringLiteral("km")).id(), LengthCategory);
+    QCOMPARE(c.category(QStringLiteral("Length")).id(), LengthCategory);
+    QCOMPARE(c.category(LengthCategory).name(), QStringLiteral("Length"));
     QVERIFY(c.categories().size() > 0);
 }
 
 void ConverterTest::testUnits()
 {
     Converter c;
-    QCOMPARE(c.unit(QString("km")).symbol(), QString("km"));
-    QCOMPARE(c.unit(Kilogram).symbol(), QString("kg"));
+    QCOMPARE(c.unit(QStringLiteral("km")).symbol(), QStringLiteral("km"));
+    QCOMPARE(c.unit(Kilogram).symbol(), QStringLiteral("kg"));
 }
 
 void ConverterTest::testConvert()
@@ -64,9 +64,9 @@ void ConverterTest::testConvert()
 void ConverterTest::testInvalid()
 {
     Converter c;
-    QCOMPARE(c.categoryForUnit("does not exist").id(), InvalidCategory);
-    QCOMPARE(c.unit("does not exist").symbol(), QString());
-    QCOMPARE(c.category("does not exist").name(), QString());
+    QCOMPARE(c.categoryForUnit(QStringLiteral("does not exist")).id(), InvalidCategory);
+    QCOMPARE(c.unit(QStringLiteral("does not exist")).symbol(), QString());
+    QCOMPARE(c.category(QStringLiteral("does not exist")).name(), QString());
 }
 
 class CurrencyTestThread : public QThread
@@ -76,7 +76,7 @@ public:
     void run() Q_DECL_OVERRIDE
     {
         Value input = Value(1000, Eur);
-        Value v = m_c.convert(input, "$");
+        Value v = m_c.convert(input, QStringLiteral("$"));
         number = v.number();
     }
     int number;

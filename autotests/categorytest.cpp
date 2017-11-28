@@ -29,18 +29,18 @@ void CategoryTest::initTestCase()
 void CategoryTest::testInfo()
 {
     UnitCategory cg = c.category(AreaCategory);
-    QCOMPARE(cg.name(), QString("Area"));
-    QCOMPARE(cg.description(), QString("Area"));
+    QCOMPARE(cg.name(), QStringLiteral("Area"));
+    QCOMPARE(cg.description(), QStringLiteral("Area"));
     QCOMPARE(cg.id(), AreaCategory);
 }
 
 void CategoryTest::testUnits()
 {
     UnitCategory cg = c.category(MassCategory);
-    QCOMPARE(cg.defaultUnit().symbol(), QString("kg"));
-    QCOMPARE(cg.hasUnit(QString("g")), true);
-    QCOMPARE(cg.unit(QString("g")).symbol(), QString("g"));
-    QCOMPARE(cg.unit(Kilogram).symbol(), QString("kg"));
+    QCOMPARE(cg.defaultUnit().symbol(), QStringLiteral("kg"));
+    QCOMPARE(cg.hasUnit(QStringLiteral("g")), true);
+    QCOMPARE(cg.unit(QStringLiteral("g")).symbol(), QStringLiteral("g"));
+    QCOMPARE(cg.unit(Kilogram).symbol(), QStringLiteral("kg"));
     QVERIFY(cg.units().size() > 0);
     QVERIFY(cg.allUnits().size() > 0);
 }
