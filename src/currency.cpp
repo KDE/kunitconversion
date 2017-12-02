@@ -40,7 +40,7 @@
 namespace KUnitConversion
 {
 
-static const char URL[] = "http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
+static const char URL[] = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
 
 class CurrencyCategoryPrivate : public UnitCategoryPrivate
 {
