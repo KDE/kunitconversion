@@ -31,11 +31,11 @@
 #include <QtCore/QMutex>
 #include <QtCore/QSaveFile>
 #include <QtCore/QStandardPaths>
+#include <QtCore/QXmlStreamReader>
 #include <QtNetwork/QNetworkAccessManager>
 #include <QtNetwork/QNetworkInterface>
 #include <QtNetwork/QNetworkReply>
 #include <QtNetwork/QNetworkRequest>
-#include <QtXml/QDomDocument>
 
 namespace KUnitConversion
 {
@@ -700,20 +700,25 @@ Value CurrencyCategoryPrivate::convert(const Value &value, const Unit &to)
     if (m_update) {
         QFile file(m_cache);
         if (file.open(QIODevice::ReadOnly)) {
-            QDomDocument doc;
-            if (doc.setContent(&file, false)) {
-                QDomNodeList list = doc.elementsByTagName(QStringLiteral("Cube"));
-                for (int i = 0; i < list.count(); ++i) {
-                    const QDomElement e = list.item(i).toElement();
-                    if (e.hasAttribute(QStringLiteral("currency"))) {
-                        Unit u = m_unitMap.value(e.attribute(QStringLiteral("currency")));
-                        if (u.isValid()) {
-                            u.setUnitMultiplier(1.0 / e.attribute(QStringLiteral("rate")).toDouble());
+            QXmlStreamReader xml(&file);
+            while (!xml.atEnd()) {
+                xml.readNext();
+
+                if (xml.isStartElement() && xml.name() == QLatin1String("Cube")) {
+                    const auto attributes = xml.attributes();
+                    if (attributes.hasAttribute(QLatin1String("currency"))) {
+                        Unit unit = m_unitMap.value(attributes.value(QLatin1String("currency")).toString());
+                        if (unit.isValid()) {
+                            const auto multiplier = attributes.value(QLatin1String("rate")).toDouble();
+                            if (!qFuzzyIsNull(multiplier)) {
+                                unit.setUnitMultiplier(1.0 / multiplier);
+                            }
                         }
                     }
                 }
-                m_update = false;
             }
+
+            m_update = xml.hasError();
         }
     }
     mutex.unlock();

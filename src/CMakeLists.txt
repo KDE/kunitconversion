@@ -40,8 +40,7 @@ target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${KUnitCo
 target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion>")
 
 target_link_libraries(KF5UnitConversion PUBLIC  Qt5::Core
-                                        PRIVATE Qt5::Xml
-                                                Qt5::Network
+                                        PRIVATE Qt5::Network
                                                 KF5::I18n #i18n(), ...
 )
 
