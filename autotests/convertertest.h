@@ -20,7 +20,7 @@
 #ifndef CONVERTERTEST_H
 #define CONVERTERTEST_H
 
-#include <QtCore/QObject>
+#include <QObject>
 #include <QTest>
 #include <kunitconversion/converter.h>
 

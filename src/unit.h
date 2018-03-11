@@ -23,8 +23,8 @@
 
 #include "kunitconversion/kunitconversion_export.h"
 
-#include <QtCore/QString>
-#include <QtCore/QExplicitlySharedDataPointer>
+#include <QString>
+#include <QExplicitlySharedDataPointer>
 
 class KLocalizedString;
 

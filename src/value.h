@@ -25,8 +25,8 @@
 
 #include "unit.h"
 
-#include <QtCore/QString>
-#include <QtCore/QSharedDataPointer>
+#include <QString>
+#include <QSharedDataPointer>
 
 class QVariant;
 

@@ -23,19 +23,19 @@
 
 #include <KI18n/klocalizedstring.h>
 
-#include <QtCore/QDateTime>
-#include <QtCore/QDir>
-#include <QtCore/QEventLoop>
-#include <QtCore/QFileInfo>
-#include <QtCore/QLocale>
-#include <QtCore/QMutex>
-#include <QtCore/QSaveFile>
-#include <QtCore/QStandardPaths>
-#include <QtCore/QXmlStreamReader>
-#include <QtNetwork/QNetworkAccessManager>
-#include <QtNetwork/QNetworkInterface>
-#include <QtNetwork/QNetworkReply>
-#include <QtNetwork/QNetworkRequest>
+#include <QDateTime>
+#include <QDir>
+#include <QEventLoop>
+#include <QFileInfo>
+#include <QLocale>
+#include <QMutex>
+#include <QSaveFile>
+#include <QStandardPaths>
+#include <QXmlStreamReader>
+#include <QNetworkAccessManager>
+#include <QNetworkInterface>
+#include <QNetworkReply>
+#include <QNetworkRequest>
 
 namespace KUnitConversion
 {

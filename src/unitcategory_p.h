@@ -25,7 +25,7 @@
 
 #include <KI18n/KLocalizedString>
 
-#include <QtCore/QMap>
+#include <QMap>
 
 namespace KUnitConversion
 {

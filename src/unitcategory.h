@@ -26,9 +26,9 @@
 #include "value.h"
 #include "unit.h"
 
-#include <QtCore/QExplicitlySharedDataPointer>
-#include <QtCore/QString>
-#include <QtCore/QStringList>
+#include <QExplicitlySharedDataPointer>
+#include <QString>
+#include <QStringList>
 
 namespace KUnitConversion
 {
