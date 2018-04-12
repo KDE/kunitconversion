@@ -355,37 +355,37 @@ public:
     Unit();
 
     /**
-     * Copy constructor, copy @param other to this.
+     * Copy constructor, copy @p other to this.
      **/
     Unit(const Unit &other);
 
     virtual ~Unit();
 
     /**
-     * Assignment operator, assign @param other to this.
+     * Assignment operator, assign @p other to this.
      **/
     Unit &operator=(const Unit &other);
 
 #ifdef Q_COMPILER_RVALUE_REFS
     /**
-     * Move-assigns \a other to this Unit instance, transferring the
+     * Move-assigns @p other to this Unit instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
     Unit &operator=(Unit &&other) { swap(other); return *this; }
 #endif
 
     /**
-     * Swaps this Unit with \a other. This function is very fast and never fails.
+     * Swaps this Unit with @p other. This function is very fast and never fails.
      **/
     void swap(Unit &other) { d.swap(other.d); }
 
     /**
-     * @return Returns true if this Unit is equal to the @param other Unit.
+     * @return @c true if this Unit is equal to the @p other Unit.
      **/
     bool operator==(const Unit &other) const;
 
     /**
-     * @return Returns true if this Unit is not equal to the @param other Unit.
+     * @return @c true if this Unit is not equal to the @p other Unit.
      **/
     bool operator!=(const Unit &other) const;
 

@@ -74,24 +74,24 @@ public:
 
 #ifdef Q_COMPILER_RVALUE_REFS
     /**
-     * Move-assigns \a other to this Converter instance, transferring the
+     * Move-assigns @p other to this Converter instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
     Converter &operator=(Converter &&other) { swap(other); return *this; }
 #endif
 
     /**
-     * Swaps this Converter with \a other. This function is very fast and never fails.
+     * Swaps this Converter with @p other. This function is very fast and never fails.
      **/
     void swap(Converter &other) { d.swap(other.d); }
 
     /**
-     * @return Returns true if this Converter is equal to the @param other Converter.
+     * @return @c true if this Converter is equal to the @p other Converter.
      **/
     bool operator==(const Converter &other) const;
 
     /**
-     * @return Returns true if this Converter is not equal to the @param other Converter.
+     * @return @c true if this Converter is not equal to the @p other Converter.
      **/
     bool operator!=(const Converter &other) const;
 

@@ -91,24 +91,24 @@ public:
 
 #ifdef Q_COMPILER_RVALUE_REFS
     /**
-     * Move-assigns \a other to this Value instance, transferring the
+     * Move-assigns @p other to this Value instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
     Value &operator=(Value &&other) { swap(other); return *this; }
 #endif
 
     /**
-     * Swaps this Value with \a other. This function is very fast and never fails.
+     * Swaps this Value with @p other. This function is very fast and never fails.
      **/
     void swap(Value &other) { d.swap(other.d); }
 
     /**
-     * @return Returns true if this Value is equal to the @param other Value.
+     * @return @c true if this Value is equal to the @p other Value.
      **/
     bool operator==(const Value &other) const;
 
     /**
-     * @return Returns true if this Value is not equal to the @param other Value.
+     * @return @c true if this Value is not equal to the @p other Value.
      **/
     bool operator!=(const Value &other) const;
 

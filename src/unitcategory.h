@@ -59,37 +59,37 @@ public:
     UnitCategory();
 
     /**
-     * Copy constructor, copy @param other to this.
+     * Copy constructor, copy @p other to this.
      **/
     UnitCategory(const UnitCategory &other);
 
     virtual ~UnitCategory();
 
     /**
-     * Assignment operator, assign @param other to this.
+     * Assignment operator, assign @p other to this.
      **/
     UnitCategory &operator=(const UnitCategory &other);
 
 #ifdef Q_COMPILER_RVALUE_REFS
     /**
-     * Move-assigns \a other to this UnitCategory instance, transferring the
+     * Move-assigns @p other to this UnitCategory instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
     UnitCategory &operator=(UnitCategory &&other) { swap(other); return *this; }
 #endif
 
     /**
-     * Swaps this UnitCategory with \a other. This function is very fast and never fails.
+     * Swaps this UnitCategory with @p other. This function is very fast and never fails.
      **/
     void swap(UnitCategory &other) { d.swap(other.d); }
 
     /**
-     * @return Returns true if this UnitCategory is equal to the @param other UnitCategory.
+     * @return @c true if this UnitCategory is equal to the @p other UnitCategory.
      **/
     bool operator==(const UnitCategory &other) const;
 
     /**
-     * @return Returns true if this UnitCategory is not equal to the @param other UnitCategory.
+     * @return @c true if this UnitCategory is not equal to the @p other UnitCategory.
      **/
     bool operator!=(const UnitCategory &other) const;
 
