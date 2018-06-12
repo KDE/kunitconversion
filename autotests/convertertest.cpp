@@ -73,7 +73,7 @@ class CurrencyTestThread : public QThread
 {
 public:
     CurrencyTestThread(Converter &c) : m_c(c) {}
-    void run() Q_DECL_OVERRIDE
+    void run() override
     {
         Value input = Value(1000, Eur);
         Value v = m_c.convert(input, QStringLiteral("$"));

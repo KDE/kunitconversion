@@ -42,12 +42,12 @@ public:
                       realString, integerString)
     {}
 
-    qreal toDefault(qreal value) const Q_DECL_OVERRIDE
+    qreal toDefault(qreal value) const override
     {
         return 0.836 * pow(value, 3.0 / 2.0);
     }
 
-    qreal fromDefault(qreal value) const Q_DECL_OVERRIDE
+    qreal fromDefault(qreal value) const override
     {
         return pow(value / 0.836, 2.0 / 3.0);
     }

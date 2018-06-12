@@ -39,12 +39,12 @@ public:
                       realString, integerString)
     {}
 
-    qreal toDefault(qreal value) const Q_DECL_OVERRIDE
+    qreal toDefault(qreal value) const override
     {
         return (2.99792458e+08 * 6.62606896e-34) / (value * 1e-09);
     }
 
-    qreal fromDefault(qreal value) const Q_DECL_OVERRIDE
+    qreal fromDefault(qreal value) const override
     {
         return ((2.99792458e+08 * 6.62606896e-34) / value) / 1e-09;
     }

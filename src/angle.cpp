@@ -41,11 +41,11 @@ public:
                       realString, integerString)
     {}
 
-    qreal toDefault(qreal value) const Q_DECL_OVERRIDE
+    qreal toDefault(qreal value) const override
     {
         return (value / (2 * M_PI)) * 360.0;
     }
-    qreal fromDefault(qreal value) const Q_DECL_OVERRIDE
+    qreal fromDefault(qreal value) const override
     {
         return (value / 360.0) * (2 * M_PI);
     }
