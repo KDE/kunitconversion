@@ -18,8 +18,8 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef TIME_P_H
-#define TIME_P_H
+#ifndef TIMEUNIT_P_H
+#define TIMEUNIT_P_H
 
 #include "unitcategory_p.h"
 

@@ -138,7 +138,7 @@ public:
      * Convert value to a string
      * @param fieldWidth width of the formatted field, padded by spaces.
      *                   Positive value aligns right, negative aligns left
-     * @param format type of floating point formating, like in QString::arg
+     * @param format type of floating point formatting, like in QString::arg
      * @param precision number of digits after the decimal separator
      * @param fillChar the character used to fill up the empty places when
      *                 field width is greater than argument width
@@ -151,7 +151,7 @@ public:
      * Convert value to a string with symbol
      * @param fieldWidth width of the formatted field, padded by spaces.
      *                   Positive value aligns right, negative aligns left
-     * @param format type of floating point formating, like in QString::arg
+     * @param format type of floating point formatting, like in QString::arg
      * @param precision number of digits after the decimal separator
      * @param fillChar the character used to fill up the empty places when
      *                 field width is greater than argument width
