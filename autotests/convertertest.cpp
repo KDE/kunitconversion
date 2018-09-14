@@ -27,7 +27,7 @@ using namespace KUnitConversion;
 
 void ConverterTest::initTestCase()
 {
-    QStandardPaths::enableTestMode(true);
+    QStandardPaths::setTestModeEnabled(true);
 
     // Remove currency cache to force a download
     const QString cache = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
