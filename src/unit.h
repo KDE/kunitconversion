@@ -61,7 +61,9 @@ enum CategoryId {
     /** @since 5.27 */
     ElectricalCurrentCategory,
     /** @since 5.27 */
-    ElectricalResistanceCategory
+    ElectricalResistanceCategory,
+    /** @since 5.53 */
+    PermeabilityCategory
 };
 
 enum UnitId {
@@ -91,6 +93,8 @@ enum UnitId {
     Hectoliter, Decaliter, Liter, Deciliter, Centiliter, Milliliter, Microliter, Nanoliter,
     Picoliter, Femtoliter, Attoliter, Zeptoliter, Yoctoliter, CubicFoot, CubicInch, CubicMile,
     FluidOunce, Cup, GallonUS, PintImperial,
+    /** @since 5.53 */
+    OilBarrel,
 
     // Mass
     Yottagram = 4000, Zettagram, Exagram, Petagram, Teragram, Gigagram, Megagram, Kilogram,
@@ -325,7 +329,14 @@ enum UnitId {
     /** @since 5.27 */
     Zeptoohms,
     /** @since 5.27 */
-    Yoctoohms
+    Yoctoohms,
+
+    /** @since 5.53 */
+    Darcy = 33000,
+    /** @since 5.53 */
+    MiliDarcy,
+    /** @since 5.53 */
+    PermeabilitySquareMicrometer
 };
 
 class UnitCategory;

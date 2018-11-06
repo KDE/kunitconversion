@@ -33,6 +33,7 @@
 #include "fuel_efficiency_p.h"
 #include "length_p.h"
 #include "mass_p.h"
+#include "permeability_p.h"
 #include "power_p.h"
 #include "pressure_p.h"
 #include "temperature_p.h"
@@ -77,6 +78,7 @@ public:
         m_categories[VoltageCategory] = Voltage();
         m_categories[ElectricalCurrentCategory] = ElectricalCurrent();
         m_categories[ElectricalResistanceCategory] = ElectricalResistance();
+        m_categories[PermeabilityCategory] = Permeability();
     }
 
     virtual ~ConverterPrivate()

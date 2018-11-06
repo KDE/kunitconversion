@@ -22,6 +22,7 @@ following areas are supported:
 * Fuel efficiency
 * Length
 * Mass
+* Permeability
 * Power
 * Pressure
 * Temperature

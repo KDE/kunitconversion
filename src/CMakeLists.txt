@@ -26,6 +26,7 @@ set(kunitconversion_LIB_SRCS
     voltage.cpp
     electrical_current.cpp
     electrical_resistance.cpp
+    permeability.cpp
 )
 
 add_library(KF5UnitConversion ${kunitconversion_LIB_SRCS})

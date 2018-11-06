@@ -449,6 +449,16 @@ Volume::Volume() : CustomCategory(VolumeCategory, i18n("Volume"), i18n("Volume")
                              ki18nc("amount in units (real)", "%1 pints (imperial)"),
                              ki18ncp("amount in units (integer)", "%1 pint (imperial)", "%1 pints (imperial)")));
 
+     addUnit(CustomUnit(VolumeCategory, OilBarrel, 0.158987294,
+                             i18nc("volume unit symbol", "bbl"),
+                             i18nc("unit description in lists", "oil barrels"),
+                             i18nc("unit synonyms for matching user input",
+                                   "oil barrels;oil barrel;bbl"),
+                             symbolString,
+                             ki18nc("amount in units (real)", "%1 oil barrels"),
+                             ki18ncp("amount in units (integer)", "%1 oil barrel", "%1 oil barrels")));
+
+
 }
 
 } // KUnitConversion namespace
