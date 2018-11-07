@@ -34,19 +34,19 @@ Permeability::Permeability() : CustomCategory(PermeabilityCategory, i18n("Permea
                              i18nc("volume unit symbol", "Darcy"),
                              i18nc("unit description in lists", "Darcy"),
                              i18nc("unit synonyms for matching user input",
-                                   "Darcy;Dar;Darc"),
+                                   "Darcy;Darcys;Dar;Darc"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 Darcy"),
-                             ki18ncp("amount in units (integer)", "%1 Darcy", "%1 Darcy")));
+                             ki18ncp("amount in units (integer)", "%1 Darcy", "%1 Darcys")));
 
     addCommonUnit(CustomUnit(PermeabilityCategory, MiliDarcy, 0.001,
                              i18nc("volume unit symbol", "mDarcy"),
-                             i18nc("unit description in lists", "Mili-Darcy"),
+                             i18nc("unit description in lists", "Milli-Darcy"),
                              i18nc("unit synonyms for matching user input",
-                                   "Mili-Darcy;MiliDarcy;MiliDar;MDarcy;MDar;MDarc"),
+                                   "Milli-Darcy;MilliDarcy;MilliDar;mDarcy;mDar;mDarc"),
                              symbolString,
-                             ki18nc("amount in units (real)", "%1 Mili-Darcy"),
-                             ki18ncp("amount in units (integer)", "%1 Mili-Darcy", "%1 Mili-Darcy")));
+                             ki18nc("amount in units (real)", "%1 Milli-Darcy"),
+                             ki18ncp("amount in units (integer)", "%1 Milli-Darcy", "%1 Milli-Darcys")));
 
     addCommonUnit(CustomUnit(PermeabilityCategory, PermeabilitySquareMicrometer, 0.9869233,
                              i18nc("volume unit symbol", "µm²"),
