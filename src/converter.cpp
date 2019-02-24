@@ -174,7 +174,8 @@ Value Converter::convert(const Value &value, const Unit &toUnit) const
 
 UnitCategory Converter::categoryForUnit(const QString &unit) const
 {
-    foreach (const UnitCategory &u, categories()) {
+    const auto lstCategories = categories();
+    for (const UnitCategory &u : lstCategories) {
         if (u.hasUnit(unit)) {
             return u;
         }
@@ -184,7 +185,8 @@ UnitCategory Converter::categoryForUnit(const QString &unit) const
 
 Unit Converter::unit(const QString &unitString) const
 {
-    foreach (const UnitCategory &u, categories()) {
+    const auto lstCategories = categories();
+    for (const UnitCategory &u : lstCategories) {
         Unit unitClass = u.unit(unitString);
         if (unitClass.isValid()) {
             return unitClass;
@@ -195,7 +197,8 @@ Unit Converter::unit(const QString &unitString) const
 
 Unit Converter::unit(UnitId unitId) const
 {
-    foreach (const UnitCategory &u, categories()) {
+    const auto lstCategories = categories();
+    for (const UnitCategory &u : lstCategories) {
         Unit unitClass = u.unit(unitId);
         if (unitClass.isValid()) {
             return unitClass;
@@ -206,7 +209,8 @@ Unit Converter::unit(UnitId unitId) const
 
 UnitCategory Converter::category(const QString &category) const
 {
-    foreach (const UnitCategory &u, categories()) {
+    const auto lstCategories = categories();
+    for (const UnitCategory &u : lstCategories) {
         if (u.name() == category) {
             return u;
         }

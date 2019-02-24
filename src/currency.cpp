@@ -650,7 +650,8 @@ static bool isConnected()
         return false;
     }
     bool ret = false;
-    foreach (const QNetworkInterface &net, QNetworkInterface::allInterfaces()) {
+    const auto listInterface = QNetworkInterface::allInterfaces();
+    for (const QNetworkInterface &net : listInterface) {
         if (net.flags().testFlag(QNetworkInterface::IsUp) && !net.flags().testFlag(QNetworkInterface::IsLoopBack)) {
             ret = true;
             break;
