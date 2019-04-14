@@ -59,6 +59,26 @@ void ConverterTest::testConvert()
     QCOMPARE(v.number(), 314000.0);
     v = c.convert(v, c.category(LengthCategory).defaultUnit());
     QCOMPARE(v.number(), 3140.0);
+
+    v = Value(8.0, LitersPer100Kilometers);
+    v = c.convert(v, QStringLiteral("mpg"));
+    QCOMPARE(v.number(), 29.401875);
+    v = c.convert(v, QStringLiteral("mpg (imperial)"));
+    QCOMPARE(v.number(), 35.310125);
+    v = c.convert(v, QStringLiteral("kmpl"));
+    QCOMPARE(v.number(), 12.5);
+    v = c.convert(v, QStringLiteral("l/100 km"));
+    QCOMPARE(v.number(), 8.0);
+
+    v = Value(33.0, MilePerUsGallon);
+    v = c.convert(v, QStringLiteral("mpg (imperial)"));
+    QCOMPARE(v.number(), 39.63128627);
+    v = c.convert(v, QStringLiteral("kmpl"));
+    QCOMPARE(v.number(), 14.0297174925);
+    v = c.convert(v, QStringLiteral("l/100 km"));
+    QCOMPARE(v.number(), 7.12772727273);
+    v = c.convert(v, QStringLiteral("mpg"));
+    QCOMPARE(v.number(), 33.0);
 }
 
 void ConverterTest::testInvalid()
