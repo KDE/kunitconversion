@@ -26,7 +26,6 @@
 #include "unitcategory.h"
 
 #include <QExplicitlySharedDataPointer>
-#include <QVariant>
 
 namespace KUnitConversion
 {

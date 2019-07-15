@@ -22,6 +22,7 @@
 #include "converter.h"
 
 #include <qmath.h>
+#include <QVariant>
 
 namespace KUnitConversion
 {
