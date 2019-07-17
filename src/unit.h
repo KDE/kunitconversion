@@ -63,7 +63,9 @@ enum CategoryId {
     /** @since 5.27 */
     ElectricalResistanceCategory,
     /** @since 5.53 */
-    PermeabilityCategory
+    PermeabilityCategory,
+    /** @since 5.61 **/
+    BinaryDataCategory
 };
 
 enum UnitId {
@@ -336,7 +338,76 @@ enum UnitId {
     /** @since 5.53 */
     MiliDarcy,
     /** @since 5.53 */
-    PermeabilitySquareMicrometer
+    PermeabilitySquareMicrometer,
+
+    /** @since 5.61 */
+    Yobibyte = 34000,
+    /** @since 5.61 */
+    Yobibit,
+    /** @since 5.61 */
+    Yottabyte,
+    /** @since 5.61 */
+    Yottabit,
+    /** @since 5.61 */
+    Zebibyte,
+    /** @since 5.61 */
+    Zebibit,
+    /** @since 5.61 */
+    Zettabyte,
+    /** @since 5.61 */
+    Zettabit,
+    /** @since 5.61 */
+    Exbibyte,
+    /** @since 5.61 */
+    Exbibit,
+    /** @since 5.61 */
+    Exabyte,
+    /** @since 5.61 */
+    Exabit,
+    /** @since 5.61 */
+    Pebibyte,
+    /** @since 5.61 */
+    Pebibit,
+    /** @since 5.61 */
+    Petabyte,
+    /** @since 5.61 */
+    Petabit,
+    /** @since 5.61 */
+    Tebibyte,
+    /** @since 5.61 */
+    Tebibit,
+    /** @since 5.61 */
+    Terabyte,
+    /** @since 5.61 */
+    Terabit,
+    /** @since 5.61 */
+    Gibibyte,
+    /** @since 5.61 */
+    Gibibit,
+    /** @since 5.61 */
+    Gigabyte,
+    /** @since 5.61 */
+    Gigabit,
+    /** @since 5.61 */
+    Mebibyte,
+    /** @since 5.61 */
+    Mebibit,
+    /** @since 5.61 */
+    Megabyte,
+    /** @since 5.61 */
+    Megabit,
+    /** @since 5.61 */
+    Kibibyte,
+    /** @since 5.61 */
+    Kibibit,
+    /** @since 5.61 */
+    Kilobyte,
+    /** @since 5.61 */
+    Kilobit,
+    /** @since 5.61 */
+    Byte,
+    /** @since 5.61 */
+    Bit
 };
 
 class UnitCategory;

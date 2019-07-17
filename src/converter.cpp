@@ -23,6 +23,7 @@
 #include "acceleration_p.h"
 #include "angle_p.h"
 #include "area_p.h"
+#include "binary_data_p.h"
 #include "currency_p.h"
 #include "density_p.h"
 #include "electrical_current_p.h"
@@ -79,6 +80,7 @@ public:
         m_categories[ElectricalCurrentCategory] = ElectricalCurrent();
         m_categories[ElectricalResistanceCategory] = ElectricalResistance();
         m_categories[PermeabilityCategory] = Permeability();
+        m_categories[BinaryDataCategory] = BinaryData();
     }
 
     virtual ~ConverterPrivate()

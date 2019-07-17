@@ -27,6 +27,7 @@ set(kunitconversion_LIB_SRCS
     electrical_current.cpp
     electrical_resistance.cpp
     permeability.cpp
+    binary_data.cpp
 )
 
 add_library(KF5UnitConversion ${kunitconversion_LIB_SRCS})

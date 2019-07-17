@@ -12,6 +12,7 @@ following areas are supported:
 * Acceleration
 * Angle
 * Area
+* Binary Data
 * Currency
 * Density
 * Electrical Current
