@@ -191,10 +191,10 @@ BinaryData::BinaryData() : CustomCategory(BinaryDataCategory, i18n("Binary Data"
                              ki18ncp("amount in units (integer)", "%1 petabyte", "%1 petabytes")));
 
     addUnit(CustomUnit(BinaryDataCategory, Petabit, 1e+15,
-                             i18nc("binary data unit symbol", "Tb"),
+                             i18nc("binary data unit symbol", "Pb"),
                              i18nc("unit description in lists", "petabits"),
                              i18nc("unit synonyms for matching user input",
-                                   "Tb;petabit;petabits"),
+                                   "Pb;petabit;petabits"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 petabits"),
                              ki18ncp("amount in units (integer)", "%1 petabit", "%1 petabits")));
