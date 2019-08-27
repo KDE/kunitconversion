@@ -140,6 +140,8 @@ enum UnitId {
     Yottawatt = 10000, Zettawatt, Exawatt, Petawatt, Terawatt, Gigawatt, Megawatt, Kilowatt,
     Hectowatt, Decawatt, Watt, Deciwatt, Centiwatt, Milliwatt, Microwatt, Nanowatt, Picowatt,
     Femtowatt, Attowatt, Zeptowatt, Yoctowatt, Horsepower,
+    /** @since 5.62 */
+    DecibelKilowatt, DecibelWatt, DecibelMilliwatt, DecibelMicrowatt,
 
     // Time
     Yottasecond = 11000, Zettasecond, Exasecond, Petasecond, Terasecond, Gigasecond, Megasecond,

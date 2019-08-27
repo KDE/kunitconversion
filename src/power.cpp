@@ -22,9 +22,39 @@
 #include "unit_p.h"
 
 #include <KI18n/klocalizedstring.h>
+#include <QtMath>
 
 namespace KUnitConversion
 {
+
+class DecibelUnitPrivate : public UnitPrivate
+{
+public:
+    DecibelUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
+                       const QString &symbol, const QString &description,
+                       const QString &matchString, const KLocalizedString &symbolString,
+                       const KLocalizedString &realString, const KLocalizedString &integerString)
+        : UnitPrivate(categoryId, id, multiplier,
+                      symbol, description,
+                      matchString, symbolString,
+                      realString, integerString)
+    {}
+
+    qreal toDefault(qreal value) const override
+    {
+        // y[W] = 10 ^ (value[dBW] / 10)
+        return qPow(10, value / 10) * m_multiplier;
+    }
+
+    qreal fromDefault(qreal value) const override
+    {
+        // y[dBW] = 10 * log10(value[W])
+        // QMath only provides natural log function (qLn) and constant M_LN10 = ln(10)
+        // We use the logarithm change of base: log10(x) = ln(x) / ln(10)
+        return 10 * qLn(value / m_multiplier) / M_LN10;
+    }
+};
+
 
 Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
 {
@@ -205,6 +235,40 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                              symbolString,
                              ki18nc("amount in units (real)", "%1 horsepowers"),
                              ki18ncp("amount in units (integer)", "%1 horsepower", "%1 horsepowers")));
+
+    //Logarithmic Power Units (http://en.wikipedia.org/wiki/Decibel)
+
+    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory, DecibelKilowatt, 1000,
+                                              i18nc("power unit symbol", "dBk"),
+                                              i18nc("unit description in lists", "decibel kilowatts"),
+                                              i18nc("unit synonyms for matching user input", "dBk;dBkW;dB(kW)"),
+                                              symbolString,
+                                              ki18nc("amount in units (real)", "%1 decibel kilowatts"),
+                                              ki18ncp("amount in units (integer)", "%1 decibel kilowatt", "%1 decibel kilowatts"))));
+
+    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory, DecibelWatt, 1,
+                                              i18nc("power unit symbol", "dBW"),
+                                              i18nc("unit description in lists", "decibel watts"),
+                                              i18nc("unit synonyms for matching user input", "dBW;dB(W)"),
+                                              symbolString,
+                                              ki18nc("amount in units (real)", "%1 decibel watts"),
+                                              ki18ncp("amount in units (integer)", "%1 decibel watt", "%1 decibel watts"))));
+
+    addCommonUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory, DecibelMilliwatt, 0.001,
+                                                    i18nc("power unit symbol", "dBm"),
+                                                    i18nc("unit description in lists", "decibel milliwatts"),
+                                                    i18nc("unit synonyms for matching user input", "dBm;dBmW;dB(mW)"),
+                                                    symbolString,
+                                                    ki18nc("amount in units (real)", "%1 decibel milliwatts"),
+                                                    ki18ncp("amount in units (integer)", "%1 decibel milliwatt", "%1 decibel milliwatts"))));
+
+    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory, DecibelMicrowatt, 1e-6,
+                                              i18nc("power unit symbol", "dBµW"),
+                                              i18nc("unit description in lists", "decibel microwatts"),
+                                              i18nc("unit synonyms for matching user input", "dBuW;dBµW;dB(uW);dB(µW)"),
+                                              symbolString,
+                                              ki18nc("amount in units (real)", "%1 decibel microwatts"),
+                                              ki18ncp("amount in units (integer)", "%1 decibel microwatt", "%1 decibel microwatts"))));
 }
 
 } // KUnitConversion namespace
