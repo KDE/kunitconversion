@@ -38,7 +38,8 @@ if (WIN32)
 endif()
 generate_export_header(KF5UnitConversion BASE_NAME KUnitConversion EXPORT_FILE_NAME ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h)
 add_library(KF5::UnitConversion ALIAS KF5UnitConversion)
-target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${KUnitConversion_BINARY_DIR};${CMAKE_CURRENT_BINARY_DIR}>")
+set(kunitconversion_BUILD_INCLUDE_DIRS ${KUnitConversion_BINARY_DIR} ${CMAKE_CURRENT_BINARY_DIR})
+target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${kunitconversion_BUILD_INCLUDE_DIRS}>")
 target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion>")
 
 target_link_libraries(KF5UnitConversion PUBLIC  Qt5::Core
@@ -82,6 +83,8 @@ if(BUILD_QCH)
         MD_MAINPAGE "${CMAKE_SOURCE_DIR}/README.md"
         LINK_QCHS
             Qt5Core_QCH
+        INCLUDE_DIRS
+            ${kunitconversion_BUILD_INCLUDE_DIRS}
         BLANK_MACROS
             KUNITCONVERSION_EXPORT
             KUNITCONVERSION_DEPRECATED
