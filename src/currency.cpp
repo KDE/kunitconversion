@@ -672,7 +672,11 @@ Value CurrencyCategoryPrivate::convert(const Value &value, const Unit &to)
             QNetworkAccessManager manager;
             auto *reply = manager.get(QNetworkRequest(QUrl(QString::fromLatin1(URL)))); // reply is owned by the network access manager
             QObject::connect(reply, &QNetworkReply::finished, [&] {
+#if (QT_VERSION < QT_VERSION_CHECK(5, 15, 0))
                 if (!reply->error()) {
+#else
+                if (!reply->networkError()) {
+#endif
                     const QString cacheDir = info.absolutePath();
                     if (!QFileInfo::exists(cacheDir)) {
                         QDir().mkpath(cacheDir);
