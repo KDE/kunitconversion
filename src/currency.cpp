@@ -641,6 +641,17 @@ Currency::Currency() : CustomCategory(new CurrencyCategoryPrivate(CurrencyCatego
                        symbolString,
                        ki18nc("amount in units (real)", "%1 rand"),
                        ki18ncp("amount in units (integer)", "%1 rand", "%1 rand")));
+    addUnit(CustomUnit(CurrencyCategory, Isk, qSNaN(),
+                QStringLiteral("ISK"),
+                i18nc("currency name", "Icelandic Krona"),
+                i18nc("Icelandic Krona - unit synonyms for matching user input",
+                    "Icelandic krona;Icelandic crown")
+                + QStringLiteral(";ISK;")
+                + QLocale::countryToString(QLocale::Iceland) + QLatin1Char(';')
+                + i18nc("currency name", "Icelandic Krona"),
+                symbolString,
+                ki18nc("amount in units (real)", "%1 Icelandic kronar"),
+                ki18ncp("amount in units (integer)", "%1 Icelandic krona", "%1 Icelandic kronar")));
 }
 
 static bool isConnected()
