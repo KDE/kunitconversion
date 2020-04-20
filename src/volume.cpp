@@ -440,6 +440,15 @@ Volume::Volume() : CustomCategory(VolumeCategory, i18n("Volume"), i18n("Volume")
                              ki18nc("amount in units (real)", "%1 gallons (U.S. liquid)"),
                              ki18ncp("amount in units (integer)", "%1 gallon (U.S. liquid)", "%1 gallons (U.S. liquid)")));
 
+    addUnit(CustomUnit(VolumeCategory, GallonImperial, 0.00454609,
+                       i18nc("volume unit symbol", "imp gal"),
+                       i18nc("unit description in lists", "gallons (imperial)"),
+                       i18nc("unit synonyms for matching user input",
+                             "gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial gal;imperial gallon;imperial gallons"),
+                       symbolString,
+                       ki18nc("amount in units (real)", "%1 gallons (imperial)"),
+                       ki18ncp("amount in units (integer)", "%1 gallon (imperial)", "%1 gallons (imperial)")));
+
     addCommonUnit(CustomUnit(VolumeCategory, PintImperial, 0.000568261,
                              i18nc("volume unit symbol", "pt"),
                              i18nc("unit description in lists", "pints (imperial)"),
@@ -448,6 +457,15 @@ Volume::Volume() : CustomCategory(VolumeCategory, i18n("Volume"), i18n("Volume")
                              symbolString,
                              ki18nc("amount in units (real)", "%1 pints (imperial)"),
                              ki18ncp("amount in units (integer)", "%1 pint (imperial)", "%1 pints (imperial)")));
+
+    addUnit(CustomUnit(VolumeCategory, PintUS, 0.000473176,
+                       i18nc("volume unit symbol", "US pt"),
+                       i18nc("unit description in lists", "pints (U.S. liquid)"),
+                       i18nc("unit synonyms for matching user input",
+                             "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"),
+                       symbolString,
+                       ki18nc("amount in units (real)", "%1 pints (U.S. liquid)"),
+                       ki18ncp("amount in units (integer)", "%1 pint (U.S. liquid)", "%1 pints (U.S. liquid)")));
 
      addUnit(CustomUnit(VolumeCategory, OilBarrel, 0.158987294,
                              i18nc("volume unit symbol", "bbl"),

@@ -90,7 +90,7 @@ FuelEfficiency::FuelEfficiency() : CustomCategory(FuelEfficiencyCategory, i18n("
                                                  i18nc("fuelefficiency unit symbol", "mpg (imperial)"),
                                                  i18nc("unit description in lists", "miles per imperial gallon"),
                                                  i18nc("unit synonyms for matching user input",
-                                                       "mile per imperial gallon;miles per imperial gallon;mpg (imperial)"),
+                                                       "mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;mpg (imp)"),
                                                  symbolString,
                                                  ki18nc("amount in units (real)", "%1 miles per imperial gallon"),
                                                  ki18ncp("amount in units (integer)", "%1 mile per imperial gallon",

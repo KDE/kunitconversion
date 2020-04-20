@@ -97,6 +97,8 @@ enum UnitId {
     FluidOunce, Cup, GallonUS, PintImperial,
     /** @since 5.53 */
     OilBarrel,
+    /** @since 5.70 */
+    GallonImperial, PintUS,
 
     // Mass
     Yottagram = 4000, Zettagram, Exagram, Petagram, Teragram, Gigagram, Megagram, Kilogram,
