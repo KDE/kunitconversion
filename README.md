@@ -20,7 +20,7 @@ following areas are supported:
 * Energy
 * Force
 * Frequency
-* Fuel efficiency
+* Fuel Efficiency
 * Length
 * Mass
 * Permeability
