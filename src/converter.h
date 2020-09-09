@@ -24,8 +24,6 @@ class ConverterPrivate;
 /**
  * @short Class for converting values between units of measurement
  *
- * @since 4.4
- *
  * This is a class to convert values between different units of measurement.
  *
  * @see Unit, UnitCategory, Value

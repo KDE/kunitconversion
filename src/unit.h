@@ -407,8 +407,6 @@ class UnitPrivate;
 /**
  * @short Class to define a unit of measurement
  *
- * @since 4.4
- *
  * This is a class to define a unit of measurement.
  *
  * @see Converter, UnitCategory, Value

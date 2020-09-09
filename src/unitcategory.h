@@ -25,8 +25,6 @@ class UnitCategoryPrivate;
 /**
  * @short Class to define a category of units of measurement
  *
- * @since 4.4
- *
  * This is a class to define a category of units of measurement.
  *
  * @see Converter, Unit, Value
