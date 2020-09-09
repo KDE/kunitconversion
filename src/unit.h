@@ -411,8 +411,6 @@ class UnitPrivate;
  *
  * This is a class to define a unit of measurement.
  *
- * @b license GNU-LGPL v.2 or later
- *
  * @see Converter, UnitCategory, Value
  *
  * @author Petri Damstén <damu@iki.fi>

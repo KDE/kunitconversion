@@ -29,8 +29,6 @@ class ValuePrivate;
  *
  * This is a class to hold a value in a unit of measurement.
  *
- * @b license GNU-LGPL v.2 or later
- *
  * @see Converter, Unit, UnitCategory
  *
  * @author Petri Damstén <damu@iki.fi>

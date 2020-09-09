@@ -28,8 +28,6 @@ class ConverterPrivate;
  *
  * This is a class to convert values between different units of measurement.
  *
- * @b license GNU-LGPL v.2 or later
- *
  * @see Unit, UnitCategory, Value
  *
  * @author Petri Damstén <damu@iki.fi>

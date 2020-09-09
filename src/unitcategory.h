@@ -29,8 +29,6 @@ class UnitCategoryPrivate;
  *
  * This is a class to define a category of units of measurement.
  *
- * @b license GNU-LGPL v.2 or later
- *
  * @see Converter, Unit, Value
  *
  * @author Petri Damstén <damu@iki.fi>
