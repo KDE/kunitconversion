@@ -148,14 +148,30 @@ public:
     QStringList allUnits() const;
 
     /**
-     * Convert value to another unit.
+     * Convert value to another unit selected by string.
      *
      * @param value value to convert
      * @param toUnit unit to convert to. If empty default unit is used.
      * @return converted value
      **/
     Value convert(const Value &value, const QString &toUnit = QString());
+
+    /**
+     * Convert value to another unit selected by enum.
+     *
+     * @param value value to convert
+     * @param toUnit unit to convert to.
+     * @return converted value
+     **/
     Value convert(const Value &value, UnitId toUnit);
+
+    /**
+     * Convert value to another unit.
+     *
+     * @param value value to convert
+     * @param toUnit unit to be used for conversion
+     * @return converted value
+     **/
     virtual Value convert(const Value &value, const Unit &toUnit);
 
 protected:

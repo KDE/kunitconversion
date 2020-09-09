@@ -107,7 +107,7 @@ public:
     /**
     * Find unit for unit enum.
     *
-    * @param unit unit enum to find unit for.
+    * @param unitId unit enum to find unit for.
     * @return unit for string unit
     **/
     Unit unit(UnitId unitId) const;
