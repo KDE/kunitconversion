@@ -33,7 +33,7 @@ set(kunitconversion_LIB_SRCS
 add_library(KF5UnitConversion ${kunitconversion_LIB_SRCS})
 if (WIN32)
     # As stated in http://msdn.microsoft.com/en-us/library/4hwaceh6.aspx M_PI only gets defined
-	# when using MSVC if _USE_MATH_DEFINES is defined (this is needed for angle.cpp)
+    # when using MSVC if _USE_MATH_DEFINES is defined (this is needed for angle.cpp)
     target_compile_definitions(KF5UnitConversion PRIVATE _USE_MATH_DEFINES)
 endif()
 generate_export_header(KF5UnitConversion BASE_NAME KUnitConversion EXPORT_FILE_NAME ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h)
@@ -44,7 +44,7 @@ target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KD
 
 target_link_libraries(KF5UnitConversion PUBLIC  Qt5::Core
                                         PRIVATE Qt5::Network
-                                                KF5::I18n #i18n(), ...
+                                                KF5::I18n
 )
 
 set_target_properties(KF5UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_VERSION_STRING}
@@ -53,22 +53,22 @@ set_target_properties(KF5UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_V
 )
 
 ecm_generate_headers(KUnitConversion_CamelCase_HEADERS
-  HEADER_NAMES
-  Converter
-  Value
-  Unit
-  UnitCategory
+    HEADER_NAMES
+    Converter
+    Value
+    Unit
+    UnitCategory
 
-  PREFIX KUnitConversion
-  REQUIRED_HEADERS KUnitConversion_HEADERS
+    PREFIX KUnitConversion
+    REQUIRED_HEADERS KUnitConversion_HEADERS
 )
 install(FILES ${KUnitConversion_CamelCase_HEADERS} DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion/KUnitConversion COMPONENT Devel)
 
 install(TARGETS KF5UnitConversion EXPORT KF5UnitConversionTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
 install(FILES
-  ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
-  ${KUnitConversion_HEADERS}
-  DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion/kunitconversion COMPONENT Devel
+    ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
+    ${KUnitConversion_HEADERS}
+    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion/kunitconversion COMPONENT Devel
 )
 
 if(BUILD_QCH)
