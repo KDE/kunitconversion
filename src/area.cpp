@@ -234,7 +234,7 @@ Area::Area() : CustomCategory(AreaCategory,
                              i18nc("area unit symbol", "ft²"),
                              i18nc("unit description in lists", "square feet"),
                              i18nc("unit synonyms for matching user input",
-                                   "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"),
+                                   "square foot;square feet;ft²;square ft;sq foot;sq ft;sqft;sq feet;feet²"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 square feet"),
                              ki18ncp("amount in units (integer)", "%1 square foot", "%1 square feet")));
