@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(KF5_VERSION "5.79.0") # handled by release scripts
-set(KF5_DEP_VERSION "5.79.0") # handled by release scripts
-project(KUnitConversion VERSION ${KF5_VERSION})
+set(KF_VERSION "5.79.0") # handled by release scripts
+set(KF_DEP_VERSION "5.79.0") # handled by release scripts
+project(KUnitConversion VERSION ${KF_VERSION})
 
 include(FeatureSummary)
 find_package(ECM 5.79.0  NO_MODULE)
@@ -40,7 +40,7 @@ if (BUILD_QCH)
 endif()
 
 # I18n
-find_package(KF5I18n ${KF5_DEP_VERSION} REQUIRED)
+find_package(KF5I18n ${KF_DEP_VERSION} REQUIRED)
 add_definitions(-DTRANSLATION_DOMAIN=\"kunitconversion5\")
 if (IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/po")
     ki18n_install(po)

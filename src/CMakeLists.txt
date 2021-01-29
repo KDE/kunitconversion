@@ -76,7 +76,7 @@ if(BUILD_QCH)
         KF5UnitConversion_QCH
         NAME KUnitConversion
         BASE_NAME KF5UnitConversion
-        VERSION ${KF5_VERSION}
+        VERSION ${KF_VERSION}
         ORG_DOMAIN org.kde
         SOURCES # using only public headers, to cover only public API
             ${KUnitConversion_HEADERS}
