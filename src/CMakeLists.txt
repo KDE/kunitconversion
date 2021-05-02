@@ -47,7 +47,7 @@ target_link_libraries(KF5UnitConversion PUBLIC  Qt5::Core
                                                 KF5::I18n
 )
 
-set_target_properties(KF5UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_VERSION_STRING}
+set_target_properties(KF5UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_VERSION}
                                                    SOVERSION ${KUNITCONVERSION_SOVERSION}
                                                    EXPORT_NAME UnitConversion
 )
