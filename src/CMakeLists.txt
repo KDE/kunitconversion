@@ -1,4 +1,7 @@
-set(kunitconversion_LIB_SRCS
+add_library(KF5UnitConversion)
+add_library(KF5::UnitConversion ALIAS KF5UnitConversion)
+
+target_sources(KF5UnitConversion PRIVATE
     converter.cpp
     value.cpp
     unit.cpp
@@ -30,14 +33,12 @@ set(kunitconversion_LIB_SRCS
     binary_data.cpp
 )
 
-add_library(KF5UnitConversion ${kunitconversion_LIB_SRCS})
 if (WIN32)
     # As stated in http://msdn.microsoft.com/en-us/library/4hwaceh6.aspx M_PI only gets defined
     # when using MSVC if _USE_MATH_DEFINES is defined (this is needed for angle.cpp)
     target_compile_definitions(KF5UnitConversion PRIVATE _USE_MATH_DEFINES)
 endif()
 generate_export_header(KF5UnitConversion BASE_NAME KUnitConversion EXPORT_FILE_NAME ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h)
-add_library(KF5::UnitConversion ALIAS KF5UnitConversion)
 set(kunitconversion_BUILD_INCLUDE_DIRS ${KUnitConversion_BINARY_DIR} ${CMAKE_CURRENT_BINARY_DIR})
 target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${kunitconversion_BUILD_INCLUDE_DIRS}>")
 target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion>")
