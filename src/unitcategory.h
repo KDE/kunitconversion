@@ -9,13 +9,12 @@
 #define KUNITCONVERSION_UNITCATEGORY_H
 
 #include "kunitconversion/kunitconversion_export.h"
-
 #include "unit.h"
 #include "value.h"
-
 #include <QExplicitlySharedDataPointer>
 #include <QString>
 #include <QStringList>
+#include <chrono>
 
 namespace KUnitConversion
 {
@@ -180,6 +179,20 @@ public:
      **/
     virtual Value convert(const Value &value, const Unit &toUnit);
 
+    /**
+     * @return true if category has conversion table that needs to be updated via online access, otherwise false
+     */
+    bool hasOnlineConversionTable() const;
+
+    /**
+     * Explicit request to sync conversion table when it is older than @p updateSkipPeriod.
+     *
+     * This method is supposed to be called at a convenient time at application startup. Yet it is
+     * safe to already do unit conversions that require an up-to-date conversion table (like currency).
+     * Those conversions yet block internally until the table is up-to-date.
+     */
+    void syncConversionTable(std::chrono::seconds updateSkipPeriod);
+
 protected:
     void addDefaultUnit(const Unit &unit);
     void addCommonUnit(const Unit &unit);
@@ -191,6 +204,7 @@ private:
 
     UnitCategory(UnitCategoryPrivate *dd);
 
+protected:
     QExplicitlySharedDataPointer<UnitCategoryPrivate> d;
 };
 

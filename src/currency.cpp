@@ -6,10 +6,10 @@
  */
 
 #include "currency_p.h"
+#include "kunitconversion_debug.h"
 #include "unit_p.h"
-
 #include <KI18n/klocalizedstring.h>
-
+#include <QAtomicInteger>
 #include <QDateTime>
 #include <QDir>
 #include <QEventLoop>
@@ -23,26 +23,36 @@
 #include <QSaveFile>
 #include <QStandardPaths>
 #include <QXmlStreamReader>
+#include <mutex>
+
+using namespace std::chrono_literals;
 
 namespace KUnitConversion
 {
 static const char URL[] = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
+
+static QString cacheLocation()
+{
+    return QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
+}
 
 class CurrencyCategoryPrivate : public UnitCategoryPrivate
 {
 public:
     CurrencyCategoryPrivate(CategoryId id, const QString &name, const QString &description)
         : UnitCategoryPrivate(id, name, description)
-        , m_update(true)
     {
-        m_cache = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
     }
 
     Value convert(const Value &value, const Unit &toUnit) override;
-
-    QString m_cache;
-    bool m_update;
+    bool hasOnlineConversionTable() const override;
+    void syncConversionTable(std::chrono::seconds updateSkipSeconds) override;
 };
+
+bool CurrencyCategoryPrivate::hasOnlineConversionTable() const
+{
+    return true;
+}
 
 Currency::Currency()
     : CustomCategory(new CurrencyCategoryPrivate(CurrencyCategory, i18n("Currency"), i18n("From ECB")))
@@ -644,12 +654,25 @@ static bool isConnected()
     return ret;
 }
 
-Value CurrencyCategoryPrivate::convert(const Value &value, const Unit &to)
+QDateTime Currency::lastConversionTableUpdate()
 {
-    static QMutex mutex;
+    QFileInfo info(cacheLocation());
+    if (!info.exists()) {
+        qCDebug(LOG_KUNITCONVERSION) << "No cache file available:" << cacheLocation();
+        return QDateTime();
+    } else {
+        return info.lastModified();
+    }
+}
 
-    QFileInfo info(m_cache);
-    if (!info.exists() || info.lastModified().secsTo(QDateTime::currentDateTime()) > 86400) {
+void CurrencyCategoryPrivate::syncConversionTable(std::chrono::seconds updateSkipPeriod)
+{
+    // sync call is expected to be guarded as being called only once
+    auto updateCurrencyConversionTable = [this](const QString &cachePath) {
+        qCDebug(LOG_KUNITCONVERSION) << "currency conversion table sync started";
+        static QMutex mutex;
+        QMutexLocker locker(&mutex);
+        bool updateError{false};
         if (isConnected()) {
             // Bug 345750: QNetworkReply does not work without an event loop and doesn't implement waitForReadyRead()
             QEventLoop loop;
@@ -657,56 +680,74 @@ Value CurrencyCategoryPrivate::convert(const Value &value, const Unit &to)
             auto *reply = manager.get(QNetworkRequest(QUrl(QString::fromLatin1(URL)))); // reply is owned by the network access manager
             QObject::connect(reply, &QNetworkReply::finished, [&] {
                 if (!reply->error()) {
+                    QFileInfo info(cachePath);
                     const QString cacheDir = info.absolutePath();
                     if (!QFileInfo::exists(cacheDir)) {
                         QDir().mkpath(cacheDir);
                     }
 
-                    QSaveFile cacheFile(m_cache);
+                    QSaveFile cacheFile(cachePath);
                     if (cacheFile.open(QFile::WriteOnly)) {
                         cacheFile.write(reply->readAll());
-
-                        if (cacheFile.commit()) {
-                            mutex.lock();
-                            m_update = true;
-                            mutex.unlock();
+                        if (!cacheFile.commit()) {
+                            updateError = true;
+                        } else {
+                            qCInfo(LOG_KUNITCONVERSION) << "currency conversion table data obtained via network";
                         }
                     }
+                } else {
+                    updateError = true;
+                    qCCritical(LOG_KUNITCONVERSION) << "currency conversion table network error" << reply->error();
                 }
-
                 loop.quit();
             });
             loop.exec(QEventLoop::ExcludeUserInputEvents);
+        } else {
+            qCInfo(LOG_KUNITCONVERSION) << "currency conversion table update has no network connection, abort update";
         }
-    }
 
-    mutex.lock();
+        if (!updateError) {
+            QFile file(cachePath);
+            if (file.open(QIODevice::ReadOnly)) {
+                QXmlStreamReader xml(&file);
+                while (!xml.atEnd()) {
+                    xml.readNext();
 
-    if (m_update) {
-        QFile file(m_cache);
-        if (file.open(QIODevice::ReadOnly)) {
-            QXmlStreamReader xml(&file);
-            while (!xml.atEnd()) {
-                xml.readNext();
-
-                if (xml.isStartElement() && xml.name() == QLatin1String("Cube")) {
-                    const auto attributes = xml.attributes();
-                    if (attributes.hasAttribute(QLatin1String("currency"))) {
-                        Unit unit = m_unitMap.value(attributes.value(QLatin1String("currency")).toString());
-                        if (unit.isValid()) {
-                            const auto multiplier = attributes.value(QLatin1String("rate")).toDouble();
-                            if (!qFuzzyIsNull(multiplier)) {
-                                unit.setUnitMultiplier(1.0 / multiplier);
+                    if (xml.isStartElement() && xml.name() == QLatin1String("Cube")) {
+                        const auto attributes = xml.attributes();
+                        if (attributes.hasAttribute(QLatin1String("currency"))) {
+                            Unit unit = m_unitMap.value(attributes.value(QLatin1String("currency")).toString());
+                            if (unit.isValid()) {
+                                const auto multiplier = attributes.value(QLatin1String("rate")).toDouble();
+                                if (!qFuzzyIsNull(multiplier)) {
+                                    unit.setUnitMultiplier(1.0 / multiplier);
+                                    qCDebug(LOG_KUNITCONVERSION()) << "currency updated:" << unit.description() << multiplier;
+                                }
                             }
                         }
                     }
                 }
+                updateError = xml.hasError();
+                if (updateError) {
+                    qCCritical(LOG_KUNITCONVERSION) << "currency conversion fetch could not parse obtained XML, update aborted";
+                }
             }
-
-            m_update = xml.hasError();
         }
+        return !updateError;
+    };
+
+    QFileInfo info(cacheLocation());
+    if (!info.exists() || info.lastModified().secsTo(QDateTime::currentDateTime()) > updateSkipPeriod.count()) {
+        updateCurrencyConversionTable(cacheLocation());
     }
-    mutex.unlock();
+}
+
+Value CurrencyCategoryPrivate::convert(const Value &value, const Unit &to)
+{
+    // TODO KF6 remove this blocking call and change behavior that explicit call to syncConversionTable is mandatory before
+    // right now, if a sync is performed at application start, then this call will not block anymore for 24 hours
+    static std::once_flag updateFlag;
+    std::call_once(updateFlag, &CurrencyCategoryPrivate::syncConversionTable, this, 24h);
 
     Value v = UnitCategoryPrivate::convert(value, to);
     return v;

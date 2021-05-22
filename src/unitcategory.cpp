@@ -220,4 +220,14 @@ void UnitCategory::addUnit(const Unit &unit)
     }
 }
 
+bool UnitCategory::hasOnlineConversionTable() const
+{
+    return d->hasOnlineConversionTable();
+}
+
+void UnitCategory::syncConversionTable(std::chrono::seconds updateSkipPeriod)
+{
+    d->syncConversionTable(updateSkipPeriod);
+}
+
 }

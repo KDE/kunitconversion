@@ -1,6 +1,14 @@
 add_library(KF5UnitConversion)
 add_library(KF5::UnitConversion ALIAS KF5UnitConversion)
 
+ecm_qt_declare_logging_category(KF5UnitConversion
+    HEADER kunitconversion_debug.h
+    IDENTIFIER LOG_KUNITCONVERSION
+    CATEGORY_NAME kf.kunitconversion
+    DESCRIPTION "kunitconversion"
+    EXPORT KUNITCONVERSION
+)
+
 target_sources(KF5UnitConversion PRIVATE
     converter.cpp
     value.cpp
@@ -70,6 +78,12 @@ install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
     ${KUnitConversion_HEADERS}
     DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion/kunitconversion COMPONENT Devel
+)
+
+ecm_qt_install_logging_categories(
+    EXPORT KUNITCONVERSION
+    FILE kunitconversion.categories
+    DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
 )
 
 if(BUILD_QCH)
