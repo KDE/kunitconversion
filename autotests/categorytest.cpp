@@ -5,12 +5,18 @@
  */
 
 #include "categorytest.h"
+#include <QStandardPaths>
+#include <chrono>
+#include <currency_p.h>
 #include <kunitconversion/unitcategory.h>
+#include <unitcategory_p.h>
 
 using namespace KUnitConversion;
+using namespace std::chrono_literals;
 
 void CategoryTest::initTestCase()
 {
+    QStandardPaths::setTestModeEnabled(true);
 }
 
 void CategoryTest::testInfo()
@@ -49,6 +55,28 @@ void CategoryTest::testInvalid()
     QCOMPARE(cg.name(), QString());
     cg = c.category(QStringLiteral("don't exist"));
     QCOMPARE(cg.name(), QString());
+}
+
+void CategoryTest::testCurrencyTableUpdate()
+{
+    // Remove currency cache to force a download
+    const QString cache = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
+    QFile::remove(cache);
+    QVERIFY(Currency::lastConversionTableUpdate().isNull());
+
+    UnitCategory category = c.category(CurrencyCategory);
+    QCOMPARE(category.hasOnlineConversionTable(), true);
+    {
+        category.syncConversionTable(std::chrono::seconds::zero()); // no skip period = force update
+        QVERIFY(!Currency::lastConversionTableUpdate().isNull());
+        QDateTime lastUpdate = Currency::lastConversionTableUpdate();
+        QVERIFY(lastUpdate.secsTo(QDateTime::currentDateTime()) < std::chrono::seconds(1h).count());
+
+        category.syncConversionTable(1h);
+        QVERIFY(!Currency::lastConversionTableUpdate().isNull());
+        QDateTime newUpdate = Currency::lastConversionTableUpdate();
+        QCOMPARE(newUpdate, lastUpdate);
+    }
 }
 
 QTEST_MAIN(CategoryTest)

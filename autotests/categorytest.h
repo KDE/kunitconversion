@@ -22,6 +22,7 @@ private Q_SLOTS:
     void testUnits();
     void testConvert();
     void testInvalid();
+    void testCurrencyTableUpdate();
 
 private:
     Converter c;

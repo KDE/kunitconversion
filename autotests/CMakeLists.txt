@@ -6,5 +6,5 @@ ecm_add_tests(
     valuetest.cpp
     categorytest.cpp
     convertertest.cpp
-    LINK_LIBRARIES KF5::UnitConversion Qt5::Test
+    LINK_LIBRARIES KF5::UnitConversion KF5::I18n Qt5::Test
 )

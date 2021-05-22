@@ -29,6 +29,17 @@ public:
 
     virtual Value convert(const Value &value, const Unit &toUnit);
 
+    virtual bool hasOnlineConversionTable() const
+    {
+        return false;
+    }
+
+    virtual void syncConversionTable(std::chrono::seconds updateSkipPeriod)
+    {
+        Q_UNUSED(updateSkipPeriod)
+        return;
+    }
+
     CategoryId m_id;
     QString m_name;
     QString m_description;

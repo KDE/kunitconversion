@@ -9,13 +9,20 @@
 #define CURRENCY_P_H
 
 #include "unitcategory_p.h"
+#include <QDateTime>
 
 namespace KUnitConversion
 {
-class Currency : public CustomCategory
+class KUNITCONVERSION_EXPORT Currency : public CustomCategory
 {
 public:
     Currency();
+    /**
+     * @brief Provides time of last conversion table update for usage in tests
+     *
+     * If no conversion table is available the QDateTime object is a null datetime.
+     */
+    static QDateTime lastConversionTableUpdate();
 };
 
 }
