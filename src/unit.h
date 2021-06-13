@@ -13,7 +13,6 @@
 #include <QString>
 #include <QExplicitlySharedDataPointer>
 
-class KLocalizedString;
 
 namespace KUnitConversion
 {
