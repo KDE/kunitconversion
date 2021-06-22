@@ -16,7 +16,6 @@
 
 namespace KUnitConversion
 {
-
 class Value;
 class UnitCategory;
 class ConverterPrivate;
@@ -59,13 +58,20 @@ public:
      * Move-assigns @p other to this Converter instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
-    Converter &operator=(Converter &&other) { swap(other); return *this; }
+    Converter &operator=(Converter &&other)
+    {
+        swap(other);
+        return *this;
+    }
 #endif
 
     /**
      * Swaps this Converter with @p other. This function is very fast and never fails.
      **/
-    void swap(Converter &other) { d.swap(other.d); }
+    void swap(Converter &other)
+    {
+        d.swap(other.d);
+    }
 
     /**
      * @return @c true if this Converter is equal to the @p other Converter.
@@ -105,11 +111,11 @@ public:
     Unit unit(const QString &unitString) const;
 
     /**
-    * Find unit for unit enum.
-    *
-    * @param unitId unit enum to find unit for.
-    * @return unit for string unit
-    **/
+     * Find unit for unit enum.
+     *
+     * @param unitId unit enum to find unit for.
+     * @return unit for string unit
+     **/
     Unit unit(UnitId unitId) const;
 
     /**

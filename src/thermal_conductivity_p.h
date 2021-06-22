@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class ThermalConductivity : public CustomCategory
 {
 public:

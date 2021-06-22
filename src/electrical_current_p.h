@@ -13,7 +13,6 @@
 
 namespace KUnitConversion
 {
-
 class ElectricalCurrent : public CustomCategory
 {
 public:

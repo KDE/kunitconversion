@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Length : public CustomCategory
 {
 public:

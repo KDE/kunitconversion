@@ -26,8 +26,8 @@
 #include "pressure_p.h"
 #include "temperature_p.h"
 #include "thermal_conductivity_p.h"
-#include "thermal_generation_p.h"
 #include "thermal_flux_p.h"
+#include "thermal_generation_p.h"
 #include "timeunit_p.h"
 #include "velocity_p.h"
 #include "voltage_p.h"
@@ -37,7 +37,6 @@
 
 namespace KUnitConversion
 {
-
 class ConverterPrivate : public QSharedData
 {
 public:
@@ -95,7 +94,10 @@ public:
 class QConverterSingleton
 {
 public:
-    QConverterSingleton() : d(new ConverterPrivate()) {}
+    QConverterSingleton()
+        : d(new ConverterPrivate())
+    {
+    }
     QExplicitlySharedDataPointer<ConverterPrivate> d;
 };
 
@@ -111,7 +113,7 @@ Converter::~Converter()
 }
 
 Converter::Converter(const Converter &other)
-: d(other.d)
+    : d(other.d)
 {
 }
 
@@ -225,4 +227,3 @@ QList<UnitCategory> Converter::categories() const
 }
 
 }
-

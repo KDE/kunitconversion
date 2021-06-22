@@ -10,8 +10,8 @@
 
 #include "kunitconversion/kunitconversion_export.h"
 
-#include "value.h"
 #include "unit.h"
+#include "value.h"
 
 #include <QExplicitlySharedDataPointer>
 #include <QString>
@@ -19,7 +19,6 @@
 
 namespace KUnitConversion
 {
-
 class UnitCategoryPrivate;
 
 /**
@@ -58,13 +57,20 @@ public:
      * Move-assigns @p other to this UnitCategory instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
-    UnitCategory &operator=(UnitCategory &&other) { swap(other); return *this; }
+    UnitCategory &operator=(UnitCategory &&other)
+    {
+        swap(other);
+        return *this;
+    }
 #endif
 
     /**
      * Swaps this UnitCategory with @p other. This function is very fast and never fails.
      **/
-    void swap(UnitCategory &other) { d.swap(other.d); }
+    void swap(UnitCategory &other)
+    {
+        d.swap(other.d);
+    }
 
     /**
      * @return @c true if this UnitCategory is equal to the @p other UnitCategory.
@@ -120,10 +126,10 @@ public:
     Unit unit(const QString &s) const;
 
     /**
-    * Return unit for unit enum.
-    *
-    * @return Pointer to unit class.
-    **/
+     * Return unit for unit enum.
+     *
+     * @return Pointer to unit class.
+     **/
     Unit unit(UnitId unitId) const;
 
     /**

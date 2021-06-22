@@ -13,7 +13,6 @@
 
 namespace KUnitConversion
 {
-
 class Mass : public CustomCategory
 {
 public:

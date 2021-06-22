@@ -10,7 +10,6 @@
 
 using namespace KUnitConversion;
 
-
 void ValueTest::initTestCase()
 {
     qputenv("KF5UNITCONVERT_NO_DOWNLOAD", "1");
@@ -62,4 +61,3 @@ void ValueTest::testCurrencyNotDownloaded()
 }
 
 QTEST_MAIN(ValueTest)
-

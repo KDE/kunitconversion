@@ -12,31 +12,30 @@
 
 namespace KUnitConversion
 {
-
-ThermalGeneration::ThermalGeneration() : CustomCategory(ThermalGenerationCategory, i18n("Thermal Generation"), i18n("Thermal Generation"))
+ThermalGeneration::ThermalGeneration()
+    : CustomCategory(ThermalGenerationCategory, i18n("Thermal Generation"), i18n("Thermal Generation"))
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (thermal generation)", "%1 %2");
 
-    addDefaultUnit(CustomUnit(ThermalGenerationCategory, WattPerCubicMeter, 1,
+    addDefaultUnit(CustomUnit(ThermalGenerationCategory,
+                              WattPerCubicMeter,
+                              1,
                               i18nc("thermal generation unit symbol", "W/m³"),
                               i18nc("unit description in lists", "watt per cubic meter"),
-                              i18nc("unit synonyms for matching user input",
-                                    "watt per cubic meter;W/m3;W/m^3"),
+                              i18nc("unit synonyms for matching user input", "watt per cubic meter;W/m3;W/m^3"),
                               symbolString,
                               ki18nc("amount in units (real)", "%1 watts per cubic meter"),
-                              ki18ncp("amount in units (integer)", "%1 watt per cubic meter",
-                                      "%1 watts per cubic meter")));
+                              ki18ncp("amount in units (integer)", "%1 watt per cubic meter", "%1 watts per cubic meter")));
 
-    addCommonUnit(CustomUnit(ThermalGenerationCategory, BtuPerHourPerCubicFoot, 0.09662,
+    addCommonUnit(CustomUnit(ThermalGenerationCategory,
+                             BtuPerHourPerCubicFoot,
+                             0.09662,
                              i18nc("thermal generation unit symbol", "Btu/hr/ft³"),
                              i18nc("unit description in lists", "btu per hour per cubic foot"),
-                             i18nc("unit synonyms for matching user input",
-                                   "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"),
+                             i18nc("unit synonyms for matching user input", "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 btu per hour per cubic foot"),
-                             ki18ncp("amount in units (integer)", "%1 btu per hour per cubic foot",
-                                     "%1 btu per hour per cubic foot")));
-
+                             ki18ncp("amount in units (integer)", "%1 btu per hour per cubic foot", "%1 btu per hour per cubic foot")));
 }
 
 } // KUnitConversion namespace

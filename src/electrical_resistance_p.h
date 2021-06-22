@@ -13,7 +13,6 @@
 
 namespace KUnitConversion
 {
-
 class ElectricalResistance : public CustomCategory
 {
 public:

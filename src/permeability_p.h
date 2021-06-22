@@ -11,7 +11,6 @@
 
 namespace KUnitConversion
 {
-
 class Permeability : public CustomCategory
 {
 public:

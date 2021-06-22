@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Acceleration : public CustomCategory
 {
 public:

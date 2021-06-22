@@ -12,14 +12,13 @@
 
 #include "unit.h"
 
-#include <QString>
 #include <QSharedDataPointer>
+#include <QString>
 
 class QVariant;
 
 namespace KUnitConversion
 {
-
 class ValuePrivate;
 
 /**
@@ -77,13 +76,20 @@ public:
      * Move-assigns @p other to this Value instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
-    Value &operator=(Value &&other) { swap(other); return *this; }
+    Value &operator=(Value &&other)
+    {
+        swap(other);
+        return *this;
+    }
 #endif
 
     /**
      * Swaps this Value with @p other. This function is very fast and never fails.
      **/
-    void swap(Value &other) { d.swap(other.d); }
+    void swap(Value &other)
+    {
+        d.swap(other.d);
+    }
 
     /**
      * @return @c true if this Value is equal to the @p other Value.
@@ -127,8 +133,7 @@ public:
      *                 field width is greater than argument width
      * @return value as a string
      **/
-    QString toString(int fieldWidth = 0, char format = 'g', int precision = -1,
-                     const QChar &fillChar = QLatin1Char(' ')) const;
+    QString toString(int fieldWidth = 0, char format = 'g', int precision = -1, const QChar &fillChar = QLatin1Char(' ')) const;
 
     /**
      * Convert value to a string with symbol
@@ -140,8 +145,7 @@ public:
      *                 field width is greater than argument width
      * @return value as a string
      **/
-    QString toSymbolString(int fieldWidth = 0, char format = 'g', int precision = -1,
-                           const QChar &fillChar = QLatin1Char(' ')) const;
+    QString toSymbolString(int fieldWidth = 0, char format = 'g', int precision = -1, const QChar &fillChar = QLatin1Char(' ')) const;
 
     /**
      * rounds value to decimal count
@@ -150,18 +154,18 @@ public:
     Value &round(uint decimals);
 
     /**
-    * convert to another unit
-    **/
+     * convert to another unit
+     **/
     Value convertTo(const Unit &unit) const;
 
     /**
-    * convert to another unit
-    **/
+     * convert to another unit
+     **/
     Value convertTo(UnitId unit) const;
 
     /**
-    * convert to another unit
-    **/
+     * convert to another unit
+     **/
     Value convertTo(const QString &unit) const;
 
 private:

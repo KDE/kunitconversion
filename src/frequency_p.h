@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Frequency : public CustomCategory
 {
 public:

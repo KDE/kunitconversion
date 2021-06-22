@@ -13,7 +13,6 @@
 
 namespace KUnitConversion
 {
-
 class Density : public CustomCategory
 {
 public:

@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Velocity : public CustomCategory
 {
 public:

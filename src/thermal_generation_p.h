@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class ThermalGeneration : public CustomCategory
 {
 public:

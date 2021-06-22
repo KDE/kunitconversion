@@ -6,24 +6,22 @@
  */
 
 #include "unitcategory.h"
-#include "unitcategory_p.h"
 #include "unit_p.h"
+#include "unitcategory_p.h"
 
 #include <KI18n/klocalizedstring.h>
 
-
 namespace KUnitConversion
 {
-
 UnitCategoryPrivate::UnitCategoryPrivate()
     : m_id(InvalidCategory)
 {
 }
 
 UnitCategoryPrivate::UnitCategoryPrivate(CategoryId id, const QString &name, const QString &description)
-    : m_id(id),
-      m_name(name),
-      m_description(description)
+    : m_id(id)
+    , m_name(name)
+    , m_description(description)
 {
 }
 

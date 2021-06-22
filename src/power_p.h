@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Power : public CustomCategory
 {
 public:

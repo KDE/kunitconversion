@@ -8,12 +8,11 @@
 #include "value.h"
 #include "converter.h"
 
-#include <qmath.h>
 #include <QVariant>
+#include <qmath.h>
 
 namespace KUnitConversion
 {
-
 class ValuePrivate : public QSharedData
 {
 public:
@@ -29,8 +28,8 @@ public:
     }
 
     ValuePrivate(qreal number, const Unit &unit)
-        : m_number(number),
-          m_unit(unit)
+        : m_number(number)
+        , m_unit(unit)
     {
     }
 
@@ -41,9 +40,9 @@ public:
     }
 
     ValuePrivate(const ValuePrivate &other)
-        : QSharedData(other),
-          m_number(other.m_number),
-          m_unit(other.m_unit)
+        : QSharedData(other)
+        , m_number(other.m_number)
+        , m_unit(other.m_unit)
     {
     }
 
@@ -165,8 +164,7 @@ QString Value::toString(int fieldWidth, char format, int precision, const QChar 
     return QString();
 }
 
-QString Value::toSymbolString(int fieldWidth, char format, int precision,
-                              const QChar &fillChar) const
+QString Value::toSymbolString(int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
     if (isValid())
         return d->m_unit.toSymbolString(d->m_number, fieldWidth, format, precision, fillChar);

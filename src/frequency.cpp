@@ -12,12 +12,14 @@
 
 namespace KUnitConversion
 {
-
-Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i18n("Frequency"))
+Frequency::Frequency()
+    : CustomCategory(FrequencyCategory, i18n("Frequency"), i18n("Frequency"))
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (frequency", "%1 %2");
 
-    addUnit(CustomUnit(FrequencyCategory, Yottahertz, 1e+24,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Yottahertz,
+                       1e+24,
                        i18nc("frequency unit symbol", "YHz"),
                        i18nc("unit description in lists", "yottahertzs"),
                        i18nc("unit synonyms for matching user input", "yottahertz;yottahertzs;YHz"),
@@ -25,7 +27,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 yottahertzs"),
                        ki18ncp("amount in units (integer)", "%1 yottahertz", "%1 yottahertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Zettahertz, 1e+21,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Zettahertz,
+                       1e+21,
                        i18nc("frequency unit symbol", "ZHz"),
                        i18nc("unit description in lists", "zettahertzs"),
                        i18nc("unit synonyms for matching user input", "zettahertz;zettahertzs;ZHz"),
@@ -33,7 +37,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 zettahertzs"),
                        ki18ncp("amount in units (integer)", "%1 zettahertz", "%1 zettahertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Exahertz, 1e+18,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Exahertz,
+                       1e+18,
                        i18nc("frequency unit symbol", "EHz"),
                        i18nc("unit description in lists", "exahertzs"),
                        i18nc("unit synonyms for matching user input", "exahertz;exahertzs;EHz"),
@@ -41,7 +47,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 exahertzs"),
                        ki18ncp("amount in units (integer)", "%1 exahertz", "%1 exahertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Petahertz, 1e+15,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Petahertz,
+                       1e+15,
                        i18nc("frequency unit symbol", "PHz"),
                        i18nc("unit description in lists", "petahertzs"),
                        i18nc("unit synonyms for matching user input", "petahertz;petahertzs;PHz"),
@@ -49,7 +57,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 petahertzs"),
                        ki18ncp("amount in units (integer)", "%1 petahertz", "%1 petahertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Terahertz, 1e+12,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Terahertz,
+                       1e+12,
                        i18nc("frequency unit symbol", "THz"),
                        i18nc("unit description in lists", "terahertzs"),
                        i18nc("unit synonyms for matching user input", "terahertz;terahertzs;THz"),
@@ -57,7 +67,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 terahertzs"),
                        ki18ncp("amount in units (integer)", "%1 terahertz", "%1 terahertzs")));
 
-    addCommonUnit(CustomUnit(FrequencyCategory, Gigahertz, 1e+09,
+    addCommonUnit(CustomUnit(FrequencyCategory,
+                             Gigahertz,
+                             1e+09,
                              i18nc("frequency unit symbol", "GHz"),
                              i18nc("unit description in lists", "gigahertzs"),
                              i18nc("unit synonyms for matching user input", "gigahertz;gigahertzs;GHz"),
@@ -65,7 +77,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                              ki18nc("amount in units (real)", "%1 gigahertzs"),
                              ki18ncp("amount in units (integer)", "%1 gigahertz", "%1 gigahertzs")));
 
-    addCommonUnit(CustomUnit(FrequencyCategory, Megahertz, 1e+06,
+    addCommonUnit(CustomUnit(FrequencyCategory,
+                             Megahertz,
+                             1e+06,
                              i18nc("frequency unit symbol", "MHz"),
                              i18nc("unit description in lists", "megahertzs"),
                              i18nc("unit synonyms for matching user input", "megahertz;megahertzs;MHz"),
@@ -73,7 +87,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                              ki18nc("amount in units (real)", "%1 megahertzs"),
                              ki18ncp("amount in units (integer)", "%1 megahertz", "%1 megahertzs")));
 
-    addCommonUnit(CustomUnit(FrequencyCategory, Kilohertz, 1000,
+    addCommonUnit(CustomUnit(FrequencyCategory,
+                             Kilohertz,
+                             1000,
                              i18nc("frequency unit symbol", "kHz"),
                              i18nc("unit description in lists", "kilohertzs"),
                              i18nc("unit synonyms for matching user input", "kilohertz;kilohertzs;kHz"),
@@ -81,7 +97,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                              ki18nc("amount in units (real)", "%1 kilohertzs"),
                              ki18ncp("amount in units (integer)", "%1 kilohertz", "%1 kilohertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Hectohertz, 100,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Hectohertz,
+                       100,
                        i18nc("frequency unit symbol", "hHz"),
                        i18nc("unit description in lists", "hectohertzs"),
                        i18nc("unit synonyms for matching user input", "hectohertz;hectohertzs;hHz"),
@@ -89,7 +107,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 hectohertzs"),
                        ki18ncp("amount in units (integer)", "%1 hectohertz", "%1 hectohertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Decahertz, 10,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Decahertz,
+                       10,
                        i18nc("frequency unit symbol", "daHz"),
                        i18nc("unit description in lists", "decahertzs"),
                        i18nc("unit synonyms for matching user input", "decahertz;decahertzs;daHz"),
@@ -97,7 +117,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 decahertzs"),
                        ki18ncp("amount in units (integer)", "%1 decahertz", "%1 decahertzs")));
 
-    addDefaultUnit(CustomUnit(FrequencyCategory, Hertz, 1,
+    addDefaultUnit(CustomUnit(FrequencyCategory,
+                              Hertz,
+                              1,
                               i18nc("frequency unit symbol", "Hz"),
                               i18nc("unit description in lists", "hertzs"),
                               i18nc("unit synonyms for matching user input", "hertz;hertzs;Hz"),
@@ -105,7 +127,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                               ki18nc("amount in units (real)", "%1 hertzs"),
                               ki18ncp("amount in units (integer)", "%1 hertz", "%1 hertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Decihertz, 0.1,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Decihertz,
+                       0.1,
                        i18nc("frequency unit symbol", "dHz"),
                        i18nc("unit description in lists", "decihertzs"),
                        i18nc("unit synonyms for matching user input", "decihertz;decihertzs;dHz"),
@@ -113,7 +137,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 decihertzs"),
                        ki18ncp("amount in units (integer)", "%1 decihertz", "%1 decihertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Centihertz, 0.01,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Centihertz,
+                       0.01,
                        i18nc("frequency unit symbol", "cHz"),
                        i18nc("unit description in lists", "centihertzs"),
                        i18nc("unit synonyms for matching user input", "centihertz;centihertzs;cHz"),
@@ -121,7 +147,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 centihertzs"),
                        ki18ncp("amount in units (integer)", "%1 centihertz", "%1 centihertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Millihertz, 0.001,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Millihertz,
+                       0.001,
                        i18nc("frequency unit symbol", "mHz"),
                        i18nc("unit description in lists", "millihertzs"),
                        i18nc("unit synonyms for matching user input", "millihertz;millihertzs;mHz"),
@@ -129,7 +157,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 millihertzs"),
                        ki18ncp("amount in units (integer)", "%1 millihertz", "%1 millihertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Microhertz, 1e-06,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Microhertz,
+                       1e-06,
                        i18nc("frequency unit symbol", "µHz"),
                        i18nc("unit description in lists", "microhertzs"),
                        i18nc("unit synonyms for matching user input", "microhertz;microhertzs;µHz;uHz"),
@@ -137,7 +167,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 microhertzs"),
                        ki18ncp("amount in units (integer)", "%1 microhertz", "%1 microhertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Nanohertz, 1e-09,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Nanohertz,
+                       1e-09,
                        i18nc("frequency unit symbol", "nHz"),
                        i18nc("unit description in lists", "nanohertzs"),
                        i18nc("unit synonyms for matching user input", "nanohertz;nanohertzs;nHz"),
@@ -145,7 +177,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 nanohertzs"),
                        ki18ncp("amount in units (integer)", "%1 nanohertz", "%1 nanohertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Picohertz, 1e-12,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Picohertz,
+                       1e-12,
                        i18nc("frequency unit symbol", "pHz"),
                        i18nc("unit description in lists", "picohertzs"),
                        i18nc("unit synonyms for matching user input", "picohertz;picohertzs;pHz"),
@@ -153,7 +187,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 picohertzs"),
                        ki18ncp("amount in units (integer)", "%1 picohertz", "%1 picohertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Femtohertz, 1e-15,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Femtohertz,
+                       1e-15,
                        i18nc("frequency unit symbol", "fHz"),
                        i18nc("unit description in lists", "femtohertzs"),
                        i18nc("unit synonyms for matching user input", "femtohertz;femtohertzs;fHz"),
@@ -161,7 +197,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 femtohertzs"),
                        ki18ncp("amount in units (integer)", "%1 femtohertz", "%1 femtohertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Attohertz, 1e-18,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Attohertz,
+                       1e-18,
                        i18nc("frequency unit symbol", "aHz"),
                        i18nc("unit description in lists", "attohertzs"),
                        i18nc("unit synonyms for matching user input", "attohertz;attohertzs;aHz"),
@@ -169,7 +207,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 attohertzs"),
                        ki18ncp("amount in units (integer)", "%1 attohertz", "%1 attohertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Zeptohertz, 1e-21,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Zeptohertz,
+                       1e-21,
                        i18nc("frequency unit symbol", "zHz"),
                        i18nc("unit description in lists", "zeptohertzs"),
                        i18nc("unit synonyms for matching user input", "zeptohertz;zeptohertzs;zHz"),
@@ -177,7 +217,9 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 zeptohertzs"),
                        ki18ncp("amount in units (integer)", "%1 zeptohertz", "%1 zeptohertzs")));
 
-    addUnit(CustomUnit(FrequencyCategory, Yoctohertz, 1e-24,
+    addUnit(CustomUnit(FrequencyCategory,
+                       Yoctohertz,
+                       1e-24,
                        i18nc("frequency unit symbol", "yHz"),
                        i18nc("unit description in lists", "yoctohertzs"),
                        i18nc("unit synonyms for matching user input", "yoctohertz;yoctohertzs;yHz"),
@@ -185,15 +227,15 @@ Frequency::Frequency() : CustomCategory(FrequencyCategory, i18n("Frequency"), i1
                        ki18nc("amount in units (real)", "%1 yoctohertzs"),
                        ki18ncp("amount in units (integer)", "%1 yoctohertz", "%1 yoctohertzs")));
 
-    addCommonUnit(CustomUnit(FrequencyCategory, RPM, 1.0 / 60.0,
+    addCommonUnit(CustomUnit(FrequencyCategory,
+                             RPM,
+                             1.0 / 60.0,
                              i18nc("frequency unit symbol", "RPM"),
                              i18nc("unit description in lists", "revolutions per minute"),
-                             i18nc("unit synonyms for matching user input",
-                                   "revolutions per minute;revolution per minute;RPM"),
+                             i18nc("unit synonyms for matching user input", "revolutions per minute;revolution per minute;RPM"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 revolutions per minute"),
-                             ki18ncp("amount in units (integer)", "%1 revolution per minute",
-                                                                  "%1 revolutions per minute")));
+                             ki18ncp("amount in units (integer)", "%1 revolution per minute", "%1 revolutions per minute")));
 }
 
 } // KUnitConversion namespace

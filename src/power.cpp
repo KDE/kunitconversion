@@ -13,19 +13,21 @@
 
 namespace KUnitConversion
 {
-
 class DecibelUnitPrivate : public UnitPrivate
 {
 public:
-    DecibelUnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
-                       const QString &symbol, const QString &description,
-                       const QString &matchString, const KLocalizedString &symbolString,
-                       const KLocalizedString &realString, const KLocalizedString &integerString)
-        : UnitPrivate(categoryId, id, multiplier,
-                      symbol, description,
-                      matchString, symbolString,
-                      realString, integerString)
-    {}
+    DecibelUnitPrivate(CategoryId categoryId,
+                       UnitId id,
+                       qreal multiplier,
+                       const QString &symbol,
+                       const QString &description,
+                       const QString &matchString,
+                       const KLocalizedString &symbolString,
+                       const KLocalizedString &realString,
+                       const KLocalizedString &integerString)
+        : UnitPrivate(categoryId, id, multiplier, symbol, description, matchString, symbolString, realString, integerString)
+    {
+    }
 
     qreal toDefault(qreal value) const override
     {
@@ -42,12 +44,14 @@ public:
     }
 };
 
-
-Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
+Power::Power()
+    : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (power)", "%1 %2");
 
-    addUnit(CustomUnit(PowerCategory, Yottawatt, 1e+24,
+    addUnit(CustomUnit(PowerCategory,
+                       Yottawatt,
+                       1e+24,
                        i18nc("power unit symbol", "YW"),
                        i18nc("unit description in lists", "yottawatts"),
                        i18nc("unit synonyms for matching user input", "yottawatt;yottawatts;YW"),
@@ -55,7 +59,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 yottawatts"),
                        ki18ncp("amount in units (integer)", "%1 yottawatt", "%1 yottawatts")));
 
-    addUnit(CustomUnit(PowerCategory, Zettawatt, 1e+21,
+    addUnit(CustomUnit(PowerCategory,
+                       Zettawatt,
+                       1e+21,
                        i18nc("power unit symbol", "ZW"),
                        i18nc("unit description in lists", "zettawatts"),
                        i18nc("unit synonyms for matching user input", "zettawatt;zettawatts;ZW"),
@@ -63,7 +69,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 zettawatts"),
                        ki18ncp("amount in units (integer)", "%1 zettawatt", "%1 zettawatts")));
 
-    addUnit(CustomUnit(PowerCategory, Exawatt, 1e+18,
+    addUnit(CustomUnit(PowerCategory,
+                       Exawatt,
+                       1e+18,
                        i18nc("power unit symbol", "EW"),
                        i18nc("unit description in lists", "exawatts"),
                        i18nc("unit synonyms for matching user input", "exawatt;exawatts;EW"),
@@ -71,7 +79,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 exawatts"),
                        ki18ncp("amount in units (integer)", "%1 exawatt", "%1 exawatts")));
 
-    addUnit(CustomUnit(PowerCategory, Petawatt, 1e+15,
+    addUnit(CustomUnit(PowerCategory,
+                       Petawatt,
+                       1e+15,
                        i18nc("power unit symbol", "PW"),
                        i18nc("unit description in lists", "petawatts"),
                        i18nc("unit synonyms for matching user input", "petawatt;petawatts;PW"),
@@ -79,7 +89,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 petawatts"),
                        ki18ncp("amount in units (integer)", "%1 petawatt", "%1 petawatts")));
 
-    addUnit(CustomUnit(PowerCategory, Terawatt, 1e+12,
+    addUnit(CustomUnit(PowerCategory,
+                       Terawatt,
+                       1e+12,
                        i18nc("power unit symbol", "TW"),
                        i18nc("unit description in lists", "terawatts"),
                        i18nc("unit synonyms for matching user input", "terawatt;terawatts;TW"),
@@ -87,7 +99,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 terawatts"),
                        ki18ncp("amount in units (integer)", "%1 terawatt", "%1 terawatts")));
 
-    addUnit(CustomUnit(PowerCategory, Gigawatt, 1e+09,
+    addUnit(CustomUnit(PowerCategory,
+                       Gigawatt,
+                       1e+09,
                        i18nc("power unit symbol", "GW"),
                        i18nc("unit description in lists", "gigawatts"),
                        i18nc("unit synonyms for matching user input", "gigawatt;gigawatts;GW"),
@@ -95,7 +109,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 gigawatts"),
                        ki18ncp("amount in units (integer)", "%1 gigawatt", "%1 gigawatts")));
 
-    addUnit(CustomUnit(PowerCategory, Megawatt, 1e+06,
+    addUnit(CustomUnit(PowerCategory,
+                       Megawatt,
+                       1e+06,
                        i18nc("power unit symbol", "MW"),
                        i18nc("unit description in lists", "megawatts"),
                        i18nc("unit synonyms for matching user input", "megawatt;megawatts;MW"),
@@ -103,7 +119,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 megawatts"),
                        ki18ncp("amount in units (integer)", "%1 megawatt", "%1 megawatts")));
 
-    addCommonUnit(CustomUnit(PowerCategory, Kilowatt, 1000,
+    addCommonUnit(CustomUnit(PowerCategory,
+                             Kilowatt,
+                             1000,
                              i18nc("power unit symbol", "kW"),
                              i18nc("unit description in lists", "kilowatts"),
                              i18nc("unit synonyms for matching user input", "kilowatt;kilowatts;kW"),
@@ -111,7 +129,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                              ki18nc("amount in units (real)", "%1 kilowatts"),
                              ki18ncp("amount in units (integer)", "%1 kilowatt", "%1 kilowatts")));
 
-    addUnit(CustomUnit(PowerCategory, Hectowatt, 100,
+    addUnit(CustomUnit(PowerCategory,
+                       Hectowatt,
+                       100,
                        i18nc("power unit symbol", "hW"),
                        i18nc("unit description in lists", "hectowatts"),
                        i18nc("unit synonyms for matching user input", "hectowatt;hectowatts;hW"),
@@ -119,7 +139,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 hectowatts"),
                        ki18ncp("amount in units (integer)", "%1 hectowatt", "%1 hectowatts")));
 
-    addUnit(CustomUnit(PowerCategory, Decawatt, 10,
+    addUnit(CustomUnit(PowerCategory,
+                       Decawatt,
+                       10,
                        i18nc("power unit symbol", "daW"),
                        i18nc("unit description in lists", "decawatts"),
                        i18nc("unit synonyms for matching user input", "decawatt;decawatts;daW"),
@@ -127,7 +149,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 decawatts"),
                        ki18ncp("amount in units (integer)", "%1 decawatt", "%1 decawatts")));
 
-    addDefaultUnit(CustomUnit(PowerCategory, Watt, 1,
+    addDefaultUnit(CustomUnit(PowerCategory,
+                              Watt,
+                              1,
                               i18nc("power unit symbol", "W"),
                               i18nc("unit description in lists", "watts"),
                               i18nc("unit synonyms for matching user input", "watt;watts;W"),
@@ -135,7 +159,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                               ki18nc("amount in units (real)", "%1 watts"),
                               ki18ncp("amount in units (integer)", "%1 watt", "%1 watts")));
 
-    addUnit(CustomUnit(PowerCategory, Deciwatt, 0.1,
+    addUnit(CustomUnit(PowerCategory,
+                       Deciwatt,
+                       0.1,
                        i18nc("power unit symbol", "dW"),
                        i18nc("unit description in lists", "deciwatts"),
                        i18nc("unit synonyms for matching user input", "deciwatt;deciwatts;dW"),
@@ -143,7 +169,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 deciwatts"),
                        ki18ncp("amount in units (integer)", "%1 deciwatt", "%1 deciwatts")));
 
-    addUnit(CustomUnit(PowerCategory, Centiwatt, 0.01,
+    addUnit(CustomUnit(PowerCategory,
+                       Centiwatt,
+                       0.01,
                        i18nc("power unit symbol", "cW"),
                        i18nc("unit description in lists", "centiwatts"),
                        i18nc("unit synonyms for matching user input", "centiwatt;centiwatts;cW"),
@@ -151,7 +179,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 centiwatts"),
                        ki18ncp("amount in units (integer)", "%1 centiwatt", "%1 centiwatts")));
 
-    addUnit(CustomUnit(PowerCategory, Milliwatt, 0.001,
+    addUnit(CustomUnit(PowerCategory,
+                       Milliwatt,
+                       0.001,
                        i18nc("power unit symbol", "mW"),
                        i18nc("unit description in lists", "milliwatts"),
                        i18nc("unit synonyms for matching user input", "milliwatt;milliwatts;mW"),
@@ -159,7 +189,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 milliwatts"),
                        ki18ncp("amount in units (integer)", "%1 milliwatt", "%1 milliwatts")));
 
-    addUnit(CustomUnit(PowerCategory, Microwatt, 1e-06,
+    addUnit(CustomUnit(PowerCategory,
+                       Microwatt,
+                       1e-06,
                        i18nc("power unit symbol", "µW"),
                        i18nc("unit description in lists", "microwatts"),
                        i18nc("unit synonyms for matching user input", "microwatt;microwatts;µW;uW"),
@@ -167,7 +199,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 microwatts"),
                        ki18ncp("amount in units (integer)", "%1 microwatt", "%1 microwatts")));
 
-    addUnit(CustomUnit(PowerCategory, Nanowatt, 1e-09,
+    addUnit(CustomUnit(PowerCategory,
+                       Nanowatt,
+                       1e-09,
                        i18nc("power unit symbol", "nW"),
                        i18nc("unit description in lists", "nanowatts"),
                        i18nc("unit synonyms for matching user input", "nanowatt;nanowatts;nW"),
@@ -175,7 +209,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 nanowatts"),
                        ki18ncp("amount in units (integer)", "%1 nanowatt", "%1 nanowatts")));
 
-    addUnit(CustomUnit(PowerCategory, Picowatt, 1e-12,
+    addUnit(CustomUnit(PowerCategory,
+                       Picowatt,
+                       1e-12,
                        i18nc("power unit symbol", "pW"),
                        i18nc("unit description in lists", "picowatts"),
                        i18nc("unit synonyms for matching user input", "picowatt;picowatts;pW"),
@@ -183,7 +219,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 picowatts"),
                        ki18ncp("amount in units (integer)", "%1 picowatt", "%1 picowatts")));
 
-    addUnit(CustomUnit(PowerCategory, Femtowatt, 1e-15,
+    addUnit(CustomUnit(PowerCategory,
+                       Femtowatt,
+                       1e-15,
                        i18nc("power unit symbol", "fW"),
                        i18nc("unit description in lists", "femtowatts"),
                        i18nc("unit synonyms for matching user input", "femtowatt;femtowatts;fW"),
@@ -191,7 +229,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 femtowatts"),
                        ki18ncp("amount in units (integer)", "%1 femtowatt", "%1 femtowatts")));
 
-    addUnit(CustomUnit(PowerCategory, Attowatt, 1e-18,
+    addUnit(CustomUnit(PowerCategory,
+                       Attowatt,
+                       1e-18,
                        i18nc("power unit symbol", "aW"),
                        i18nc("unit description in lists", "attowatts"),
                        i18nc("unit synonyms for matching user input", "attowatt;attowatts;aW"),
@@ -199,7 +239,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 attowatts"),
                        ki18ncp("amount in units (integer)", "%1 attowatt", "%1 attowatts")));
 
-    addUnit(CustomUnit(PowerCategory, Zeptowatt, 1e-21,
+    addUnit(CustomUnit(PowerCategory,
+                       Zeptowatt,
+                       1e-21,
                        i18nc("power unit symbol", "zW"),
                        i18nc("unit description in lists", "zeptowatts"),
                        i18nc("unit synonyms for matching user input", "zeptowatt;zeptowatts;zW"),
@@ -207,7 +249,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 zeptowatts"),
                        ki18ncp("amount in units (integer)", "%1 zeptowatt", "%1 zeptowatts")));
 
-    addUnit(CustomUnit(PowerCategory, Yoctowatt, 1e-24,
+    addUnit(CustomUnit(PowerCategory,
+                       Yoctowatt,
+                       1e-24,
                        i18nc("power unit symbol", "yW"),
                        i18nc("unit description in lists", "yoctowatts"),
                        i18nc("unit synonyms for matching user input", "yoctowatt;yoctowatts;yW"),
@@ -215,7 +259,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                        ki18nc("amount in units (real)", "%1 yoctowatts"),
                        ki18ncp("amount in units (integer)", "%1 yoctowatt", "%1 yoctowatts")));
 
-    addCommonUnit(CustomUnit(PowerCategory, Horsepower, 735.499,
+    addCommonUnit(CustomUnit(PowerCategory,
+                             Horsepower,
+                             735.499,
                              i18nc("power unit symbol", "hp"),
                              i18nc("unit description in lists", "horsepowers"),
                              i18nc("unit synonyms for matching user input", "horsepower;horsepowers;hp"),
@@ -223,9 +269,11 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                              ki18nc("amount in units (real)", "%1 horsepowers"),
                              ki18ncp("amount in units (integer)", "%1 horsepower", "%1 horsepowers")));
 
-    //Logarithmic Power Units (http://en.wikipedia.org/wiki/Decibel)
+    // Logarithmic Power Units (http://en.wikipedia.org/wiki/Decibel)
 
-    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory, DecibelKilowatt, 1000,
+    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory,
+                                              DecibelKilowatt,
+                                              1000,
                                               i18nc("power unit symbol", "dBk"),
                                               i18nc("unit description in lists", "decibel kilowatts"),
                                               i18nc("unit synonyms for matching user input", "dBk;dBkW;dB(kW)"),
@@ -233,7 +281,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                                               ki18nc("amount in units (real)", "%1 decibel kilowatts"),
                                               ki18ncp("amount in units (integer)", "%1 decibel kilowatt", "%1 decibel kilowatts"))));
 
-    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory, DecibelWatt, 1,
+    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory,
+                                              DecibelWatt,
+                                              1,
                                               i18nc("power unit symbol", "dBW"),
                                               i18nc("unit description in lists", "decibel watts"),
                                               i18nc("unit synonyms for matching user input", "dBW;dB(W)"),
@@ -241,7 +291,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                                               ki18nc("amount in units (real)", "%1 decibel watts"),
                                               ki18ncp("amount in units (integer)", "%1 decibel watt", "%1 decibel watts"))));
 
-    addCommonUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory, DecibelMilliwatt, 0.001,
+    addCommonUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory,
+                                                    DecibelMilliwatt,
+                                                    0.001,
                                                     i18nc("power unit symbol", "dBm"),
                                                     i18nc("unit description in lists", "decibel milliwatts"),
                                                     i18nc("unit synonyms for matching user input", "dBm;dBmW;dB(mW)"),
@@ -249,7 +301,9 @@ Power::Power() : CustomCategory(PowerCategory, i18n("Power"), i18n("Power"))
                                                     ki18nc("amount in units (real)", "%1 decibel milliwatts"),
                                                     ki18ncp("amount in units (integer)", "%1 decibel milliwatt", "%1 decibel milliwatts"))));
 
-    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory, DecibelMicrowatt, 1e-6,
+    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory,
+                                              DecibelMicrowatt,
+                                              1e-6,
                                               i18nc("power unit symbol", "dBµW"),
                                               i18nc("unit description in lists", "decibel microwatts"),
                                               i18nc("unit synonyms for matching user input", "dBuW;dBµW;dB(uW);dB(µW)"),

@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Energy : public CustomCategory
 {
 public:

@@ -52,4 +52,3 @@ void CategoryTest::testInvalid()
 }
 
 QTEST_MAIN(CategoryTest)
-

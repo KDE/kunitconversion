@@ -13,7 +13,6 @@
 
 namespace KUnitConversion
 {
-
 class Voltage : public CustomCategory
 {
 public:

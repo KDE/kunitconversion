@@ -13,7 +13,6 @@
 
 namespace KUnitConversion
 {
-
 class ThermalFlux : public CustomCategory
 {
 public:

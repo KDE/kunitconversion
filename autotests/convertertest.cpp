@@ -5,10 +5,10 @@
  */
 
 #include "convertertest.h"
-#include <kunitconversion/unitcategory.h>
-#include <QVector>
-#include <QThread>
 #include <QStandardPaths>
+#include <QThread>
+#include <QVector>
+#include <kunitconversion/unitcategory.h>
 
 using namespace KUnitConversion;
 
@@ -79,7 +79,10 @@ void ConverterTest::testInvalid()
 class CurrencyTestThread : public QThread
 {
 public:
-    CurrencyTestThread(Converter &c) : m_c(c) {}
+    CurrencyTestThread(Converter &c)
+        : m_c(c)
+    {
+    }
     void run() override
     {
         Value input = Value(1000, Eur);
@@ -111,4 +114,3 @@ void ConverterTest::testCurrency()
 }
 
 QTEST_MAIN(ConverterTest)
-

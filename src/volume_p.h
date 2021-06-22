@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Volume : public CustomCategory
 {
 public:

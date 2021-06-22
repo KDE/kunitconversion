@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Time : public CustomCategory
 {
 public:

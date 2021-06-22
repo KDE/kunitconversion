@@ -15,16 +15,20 @@
 
 namespace KUnitConversion
 {
-
 class UnitPrivate : public QSharedData
 {
 public:
     UnitPrivate();
 
-    UnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
-                const QString &symbol, const QString &description,
-                const QString &matchString, const KLocalizedString &symbolString,
-                const KLocalizedString &realString, const KLocalizedString &integerString);
+    UnitPrivate(CategoryId categoryId,
+                UnitId id,
+                qreal multiplier,
+                const QString &symbol,
+                const QString &description,
+                const QString &matchString,
+                const KLocalizedString &symbolString,
+                const KLocalizedString &realString,
+                const KLocalizedString &integerString);
 
     virtual ~UnitPrivate();
 
@@ -53,21 +57,27 @@ public:
 class CustomUnit : public Unit
 {
 public:
-    CustomUnit(UnitPrivate *dd) : Unit(dd)
-    {}
+    CustomUnit(UnitPrivate *dd)
+        : Unit(dd)
+    {
+    }
 
-    CustomUnit(CategoryId categoryId, UnitId id, qreal multiplier,
-                     const QString &symbol, const QString &description,
-                     const QString &matchString, const KLocalizedString &symbolString,
-                     const KLocalizedString &realString, const KLocalizedString &integerString)
-        : Unit(new UnitPrivate(categoryId, id, multiplier,
-                               symbol, description,
-                               matchString, symbolString,
-                               realString, integerString))
-    {}
+    CustomUnit(CategoryId categoryId,
+               UnitId id,
+               qreal multiplier,
+               const QString &symbol,
+               const QString &description,
+               const QString &matchString,
+               const KLocalizedString &symbolString,
+               const KLocalizedString &realString,
+               const KLocalizedString &integerString)
+        : Unit(new UnitPrivate(categoryId, id, multiplier, symbol, description, matchString, symbolString, realString, integerString))
+    {
+    }
 
     virtual ~CustomUnit()
-    {}
+    {
+    }
 };
 
 } // KUnitConversion namespace

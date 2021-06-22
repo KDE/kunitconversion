@@ -11,7 +11,6 @@
 
 namespace KUnitConversion
 {
-
 class BinaryData : public CustomCategory
 {
 public:

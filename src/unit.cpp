@@ -13,27 +13,31 @@
 
 namespace KUnitConversion
 {
-
 UnitPrivate::UnitPrivate()
-    : m_categoryId(InvalidCategory),
-      m_id(InvalidUnit),
-      m_multiplier(1.0)
+    : m_categoryId(InvalidCategory)
+    , m_id(InvalidUnit)
+    , m_multiplier(1.0)
 {
 }
 
-UnitPrivate::UnitPrivate(CategoryId categoryId, UnitId id, qreal multiplier,
-                         const QString &symbol, const QString &description,
-                         const QString &matchString, const KLocalizedString &symbolString,
-                         const KLocalizedString &realString, const KLocalizedString &integerString)
-    : m_categoryId(categoryId),
-      m_id(id),
-      m_multiplier(multiplier),
-      m_symbol(symbol),
-      m_description(description),
-      m_matchString(matchString),
-      m_symbolString(symbolString),
-      m_realString(realString),
-      m_integerString(integerString)
+UnitPrivate::UnitPrivate(CategoryId categoryId,
+                         UnitId id,
+                         qreal multiplier,
+                         const QString &symbol,
+                         const QString &description,
+                         const QString &matchString,
+                         const KLocalizedString &symbolString,
+                         const KLocalizedString &realString,
+                         const KLocalizedString &integerString)
+    : m_categoryId(categoryId)
+    , m_id(id)
+    , m_multiplier(multiplier)
+    , m_symbol(symbol)
+    , m_description(description)
+    , m_matchString(matchString)
+    , m_symbolString(symbolString)
+    , m_realString(realString)
+    , m_integerString(integerString)
 {
 }
 
@@ -182,8 +186,7 @@ qreal Unit::fromDefault(qreal value) const
     return 0;
 }
 
-QString Unit::toString(qreal value, int fieldWidth, char format, int precision,
-                       const QChar &fillChar) const
+QString Unit::toString(qreal value, int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
     if (isNull())
         return QString();
@@ -193,8 +196,7 @@ QString Unit::toString(qreal value, int fieldWidth, char format, int precision,
     return d->m_realString.subs(value, fieldWidth, format, precision, fillChar).toString();
 }
 
-QString Unit::toSymbolString(qreal value, int fieldWidth, char format, int precision,
-                             const QChar &fillChar) const
+QString Unit::toSymbolString(qreal value, int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
     if (d)
         return d->m_symbolString.subs(value, fieldWidth, format, precision, fillChar).subs(d->m_symbol).toString();
@@ -202,4 +204,3 @@ QString Unit::toSymbolString(qreal value, int fieldWidth, char format, int preci
 }
 
 }
-

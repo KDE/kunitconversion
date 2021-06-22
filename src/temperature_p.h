@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Temperature : public CustomCategory
 {
 public:

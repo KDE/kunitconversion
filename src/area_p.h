@@ -12,7 +12,6 @@
 
 namespace KUnitConversion
 {
-
 class Area : public CustomCategory
 {
 public:
