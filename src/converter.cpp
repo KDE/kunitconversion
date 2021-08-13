@@ -125,18 +125,20 @@ Converter &Converter::operator=(const Converter &other)
 
 bool Converter::operator==(const Converter &other) const
 {
-    if (d && other.d)
+    if (d && other.d) {
         return (*d == *other.d);
-    else
+    } else {
         return (d == other.d);
+    }
 }
 
 bool Converter::operator!=(const Converter &other) const
 {
-    if (d && other.d)
+    if (d && other.d) {
         return (*d != *other.d);
-    else
+    } else {
         return (d != other.d);
+    }
 }
 
 Value Converter::convert(const Value &value, const QString &toUnit) const
@@ -221,8 +223,9 @@ UnitCategory Converter::category(CategoryId categoryId) const
 
 QList<UnitCategory> Converter::categories() const
 {
-    if (d)
+    if (d) {
         return d->m_categories.values();
+    }
     return QList<UnitCategory>();
 }
 

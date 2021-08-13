@@ -119,18 +119,20 @@ Value &Value::operator=(const Value &other)
 
 bool Value::operator==(const Value &other) const
 {
-    if (d && other.d)
+    if (d && other.d) {
         return (*d == *other.d);
-    else
+    } else {
         return (d == other.d);
+    }
 }
 
 bool Value::operator!=(const Value &other) const
 {
-    if (d && other.d)
+    if (d && other.d) {
         return (*d != *other.d);
-    else
+    } else {
         return (d != other.d);
+    }
 }
 
 bool Value::isNull() const
@@ -145,36 +147,41 @@ bool Value::isValid() const
 
 qreal Value::number() const
 {
-    if (d)
+    if (d) {
         return d->m_number;
+    }
     return 0;
 }
 
 Unit Value::unit() const
 {
-    if (d)
+    if (d) {
         return d->m_unit;
+    }
     return Unit();
 }
 
 QString Value::toString(int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
-    if (isValid())
+    if (isValid()) {
         return d->m_unit.toString(d->m_number, fieldWidth, format, precision, fillChar);
+    }
     return QString();
 }
 
 QString Value::toSymbolString(int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
-    if (isValid())
+    if (isValid()) {
         return d->m_unit.toSymbolString(d->m_number, fieldWidth, format, precision, fillChar);
+    }
     return QString();
 }
 
 Value &Value::round(uint decimals)
 {
-    if (!isValid())
+    if (!isValid()) {
         return *this;
+    }
 
     uint div = qPow(10, decimals);
     qreal add = 0.5 / (qreal)div;
@@ -185,22 +192,25 @@ Value &Value::round(uint decimals)
 
 Value Value::convertTo(const Unit &unit) const
 {
-    if (d)
+    if (d) {
         return d->m_converter.convert(*this, unit);
+    }
     return Value();
 }
 
 Value Value::convertTo(UnitId unitId) const
 {
-    if (d)
+    if (d) {
         return d->m_converter.convert(*this, unitId);
+    }
     return Value();
 }
 
 Value Value::convertTo(const QString &unitString) const
 {
-    if (d)
+    if (d) {
         return d->m_converter.convert(*this, unitString);
+    }
     return Value();
 }
 

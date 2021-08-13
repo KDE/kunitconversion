@@ -107,18 +107,20 @@ Unit &Unit::operator=(const Unit &other)
 
 bool Unit::operator==(const Unit &other) const
 {
-    if (d && other.d)
+    if (d && other.d) {
         return (*d == *other.d);
-    else
+    } else {
         return (d == other.d);
+    }
 }
 
 bool Unit::operator!=(const Unit &other) const
 {
-    if (d && other.d)
+    if (d && other.d) {
         return (*d != *other.d);
-    else
+    } else {
         return (d != other.d);
+    }
 }
 
 bool Unit::isNull() const
@@ -133,63 +135,72 @@ bool Unit::isValid() const
 
 UnitId Unit::id() const
 {
-    if (d)
+    if (d) {
         return d->m_id;
+    }
     return InvalidUnit;
 }
 
 CategoryId Unit::categoryId() const
 {
-    if (d)
+    if (d) {
         return d->m_categoryId;
+    }
     return InvalidCategory;
 }
 
 UnitCategory Unit::category() const
 {
-    if (d)
+    if (d) {
         return d->m_category;
+    }
     return UnitCategory();
 }
 
 QString Unit::description() const
 {
-    if (d)
+    if (d) {
         return d->m_description;
+    }
     return QString();
 }
 
 QString Unit::symbol() const
 {
-    if (d)
+    if (d) {
         return d->m_symbol;
+    }
     return QString();
 }
 
 void Unit::setUnitMultiplier(qreal multiplier)
 {
-    if (d)
+    if (d) {
         d->setUnitMultiplier(multiplier);
+    }
 }
 
 qreal Unit::toDefault(qreal value) const
 {
-    if (d)
+    if (d) {
         return d->toDefault(value);
+    }
     return 0;
 }
 
 qreal Unit::fromDefault(qreal value) const
 {
-    if (d)
+    if (d) {
         return d->fromDefault(value);
+    }
     return 0;
 }
 
 QString Unit::toString(qreal value, int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
-    if (isNull())
+    if (isNull()) {
         return QString();
+    }
     if ((int)value == value && precision < 1) {
         return d->m_integerString.subs((int)value).toString();
     }
@@ -198,8 +209,9 @@ QString Unit::toString(qreal value, int fieldWidth, char format, int precision, 
 
 QString Unit::toSymbolString(qreal value, int fieldWidth, char format, int precision, const QChar &fillChar) const
 {
-    if (d)
+    if (d) {
         return d->m_symbolString.subs(value, fieldWidth, format, precision, fillChar).subs(d->m_symbol).toString();
+    }
     return QString();
 }
 

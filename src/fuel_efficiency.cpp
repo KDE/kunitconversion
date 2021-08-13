@@ -32,15 +32,17 @@ public:
 
     qreal toDefault(qreal value) const override
     {
-        if (m_isReciprocalToDefaultUnit)
+        if (m_isReciprocalToDefaultUnit) {
             return unitMultiplier() / value;
+        }
         return UnitPrivate::toDefault(value);
     }
 
     qreal fromDefault(qreal value) const override
     {
-        if (m_isReciprocalToDefaultUnit)
+        if (m_isReciprocalToDefaultUnit) {
             return unitMultiplier() / value;
+        }
         return UnitPrivate::fromDefault(value);
     }
 

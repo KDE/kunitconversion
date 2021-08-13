@@ -77,18 +77,20 @@ UnitCategory &UnitCategory::operator=(const UnitCategory &other)
 
 bool UnitCategory::operator==(const UnitCategory &other) const
 {
-    if (d && other.d)
+    if (d && other.d) {
         return (*d == *other.d);
-    else
+    } else {
         return (d == other.d);
+    }
 }
 
 bool UnitCategory::operator!=(const UnitCategory &other) const
 {
-    if (d && other.d)
+    if (d && other.d) {
         return (*d != *other.d);
-    else
+    } else {
         return (d != other.d);
+    }
 }
 
 bool UnitCategory::isNull() const
@@ -98,36 +100,41 @@ bool UnitCategory::isNull() const
 
 CategoryId UnitCategory::id() const
 {
-    if (d)
+    if (d) {
         return d->m_id;
+    }
     return InvalidCategory;
 }
 
 QList<Unit> UnitCategory::units() const
 {
-    if (d)
+    if (d) {
         return d->m_units;
+    }
     return QList<Unit>();
 }
 
 QList<Unit> UnitCategory::mostCommonUnits() const
 {
-    if (d)
+    if (d) {
         return d->m_mostCommonUnits;
+    }
     return QList<Unit>();
 }
 
 QStringList UnitCategory::allUnits() const
 {
-    if (d)
+    if (d) {
         return d->m_unitMap.keys();
+    }
     return QStringList();
 }
 
 bool UnitCategory::hasUnit(const QString &unit) const
 {
-    if (d)
+    if (d) {
         return d->m_unitMap.contains(unit);
+    }
     return false;
 }
 
@@ -158,8 +165,9 @@ Value UnitCategory::convert(const Value &value, const Unit &toUnit)
 
 Unit UnitCategory::unit(const QString &s) const
 {
-    if (d)
+    if (d) {
         return d->m_unitMap.value(s);
+    }
     return Unit();
 }
 
@@ -173,22 +181,25 @@ Unit UnitCategory::unit(UnitId unitId) const
 
 QString UnitCategory::name() const
 {
-    if (d)
+    if (d) {
         return d->m_name;
+    }
     return QString();
 }
 
 Unit UnitCategory::defaultUnit() const
 {
-    if (d)
+    if (d) {
         return d->m_defaultUnit;
+    }
     return Unit();
 }
 
 QString UnitCategory::description() const
 {
-    if (d)
+    if (d) {
         return d->m_description;
+    }
     return QString();
 }
 
@@ -213,8 +224,9 @@ void UnitCategory::addUnit(const Unit &unit)
     if (d) {
         unit.d->m_category = *this;
         const QStringList list = unit.d->m_matchString.split(QLatin1Char(';'));
-        for (const QString &name : list)
+        for (const QString &name : list) {
             d->m_unitMap[name] = unit;
+        }
         d->m_idMap[unit.id()] = unit;
         d->m_units.append(unit);
     }
