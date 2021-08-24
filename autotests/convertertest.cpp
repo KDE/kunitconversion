@@ -8,9 +8,11 @@
 #include <QStandardPaths>
 #include <QThread>
 #include <QVector>
+#include <currency_p.h>
 #include <kunitconversion/unitcategory.h>
 
 using namespace KUnitConversion;
+using namespace std::chrono_literals;
 
 void ConverterTest::initTestCase()
 {
@@ -111,6 +113,20 @@ void ConverterTest::testCurrency()
         QVERIFY(threads.at(i)->number > 100);
     }
     qDeleteAll(threads);
+}
+
+void ConverterTest::testCurrencyConversionTableUpdate()
+{
+    const QString cache = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
+
+    // Missing conversion table must lead to update of table
+    // note that this is the same code path as for last modified updates
+    QFile::remove(cache);
+    QVERIFY(Currency::lastConversionTableUpdate().isNull());
+    Converter c;
+    Value input = Value(1000, Eur);
+    Value v = c.convert(input, QStringLiteral("$"));
+    QVERIFY(!Currency::lastConversionTableUpdate().isNull());
 }
 
 QTEST_MAIN(ConverterTest)

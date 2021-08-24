@@ -745,9 +745,12 @@ void CurrencyCategoryPrivate::syncConversionTable(std::chrono::seconds updateSki
 Value CurrencyCategoryPrivate::convert(const Value &value, const Unit &to)
 {
     // TODO KF6 remove this blocking call and change behavior that explicit call to syncConversionTable is mandatory before
-    // right now, if a sync is performed at application start, then this call will not block anymore for 24 hours
-    static std::once_flag updateFlag;
-    std::call_once(updateFlag, &CurrencyCategoryPrivate::syncConversionTable, this, 24h);
+    // first access to converted data, also to make syncs more explicit
+    static QMutex updateFlag;
+    {
+        QMutexLocker locker(&updateFlag);
+        CurrencyCategoryPrivate::syncConversionTable(24h);
+    }
 
     Value v = UnitCategoryPrivate::convert(value, to);
     return v;
