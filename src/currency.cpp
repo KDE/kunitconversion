@@ -47,6 +47,7 @@ public:
     Value convert(const Value &value, const Unit &toUnit) override;
     bool hasOnlineConversionTable() const override;
     void syncConversionTable(std::chrono::seconds updateSkipSeconds) override;
+    bool m_initialized{false}; //!< indicates if units are prepared from currency table
 };
 
 bool CurrencyCategoryPrivate::hasOnlineConversionTable() const
@@ -668,12 +669,12 @@ QDateTime Currency::lastConversionTableUpdate()
 void CurrencyCategoryPrivate::syncConversionTable(std::chrono::seconds updateSkipPeriod)
 {
     // sync call is expected to be guarded as being called only once
-    auto updateCurrencyConversionTable = [this](const QString &cachePath) {
+    auto updateCurrencyConversionTable = [this](const QString &cachePath, bool performNetworkSync) {
         qCDebug(LOG_KUNITCONVERSION) << "currency conversion table sync started";
         static QMutex mutex;
         QMutexLocker locker(&mutex);
         bool updateError{false};
-        if (isConnected()) {
+        if (performNetworkSync && isConnected()) {
             // Bug 345750: QNetworkReply does not work without an event loop and doesn't implement waitForReadyRead()
             QEventLoop loop;
             QNetworkAccessManager manager;
@@ -733,12 +734,15 @@ void CurrencyCategoryPrivate::syncConversionTable(std::chrono::seconds updateSki
                 }
             }
         }
+        m_initialized = !updateError;
         return !updateError;
     };
 
     QFileInfo info(cacheLocation());
     if (!info.exists() || info.lastModified().secsTo(QDateTime::currentDateTime()) > updateSkipPeriod.count()) {
-        updateCurrencyConversionTable(cacheLocation());
+        updateCurrencyConversionTable(cacheLocation(), true);
+    } else if (!m_initialized) {
+        updateCurrencyConversionTable(cacheLocation(), false);
     }
 }
 
