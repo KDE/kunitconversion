@@ -75,7 +75,7 @@ public:
     {
     }
 
-    virtual ~CustomUnit()
+    ~CustomUnit() override
     {
     }
 };

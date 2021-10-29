@@ -64,7 +64,7 @@ public:
     {
     }
 
-    virtual ~CustomCategory()
+    ~CustomCategory() override
     {
     }
 };
