@@ -14,6 +14,7 @@ void ValueTest::initTestCase()
 {
     qputenv("KF5UNITCONVERT_NO_DOWNLOAD", "1");
     QStandardPaths::setTestModeEnabled(true);
+    QLocale::setDefault(QLocale::c());
 
     v1 = Value(3.1415, Kilometer);
     v2 = Value(6.1415, QStringLiteral("m"));
