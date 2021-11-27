@@ -9,7 +9,7 @@
 #include "unit_p.h"
 #include "unitcategory.h"
 
-#include <KI18n/klocalizedstring.h>
+#include <KLocalizedString>
 
 namespace KUnitConversion
 {

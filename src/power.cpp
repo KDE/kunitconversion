@@ -8,7 +8,7 @@
 #include "power_p.h"
 #include "unit_p.h"
 
-#include <KI18n/klocalizedstring.h>
+#include <KLocalizedString>
 #include <QtMath>
 
 namespace KUnitConversion

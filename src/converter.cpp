@@ -33,7 +33,7 @@
 #include "voltage_p.h"
 #include "volume_p.h"
 
-#include <KI18n/klocalizedstring.h>
+#include <KLocalizedString>
 
 namespace KUnitConversion
 {

@@ -8,7 +8,7 @@
 #include "unit_p.h"
 #include "velocity_p.h"
 
-#include <KI18n/klocalizedstring.h>
+#include <KLocalizedString>
 
 #include <math.h>
 

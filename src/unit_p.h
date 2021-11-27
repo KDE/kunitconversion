@@ -11,7 +11,7 @@
 #include "unit.h"
 #include "unitcategory.h"
 
-#include <KI18n/KLocalizedString>
+#include <KLocalizedString>
 
 namespace KUnitConversion
 {

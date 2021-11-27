@@ -8,7 +8,7 @@
 #include "currency_p.h"
 #include "kunitconversion_debug.h"
 #include "unit_p.h"
-#include <KI18n/klocalizedstring.h>
+#include <KLocalizedString>
 #include <QAtomicInteger>
 #include <QDateTime>
 #include <QDir>

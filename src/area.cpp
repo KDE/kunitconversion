@@ -8,7 +8,7 @@
 #include "area_p.h"
 #include "unit_p.h"
 
-#include <KI18n/klocalizedstring.h>
+#include <KLocalizedString>
 
 namespace KUnitConversion
 {

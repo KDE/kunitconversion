@@ -7,7 +7,7 @@
 #include "binary_data_p.h"
 #include "unit_p.h"
 
-#include <KI18n/klocalizedstring.h>
+#include <KLocalizedString>
 
 #include <math.h>
 
