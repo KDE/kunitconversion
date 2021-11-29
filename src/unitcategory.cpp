@@ -222,7 +222,10 @@ void UnitCategory::addCommonUnit(const Unit &unit)
 void UnitCategory::addUnit(const Unit &unit)
 {
     if (d) {
-        unit.d->m_category = *this;
+        // ### this is emulating a weak_ptr to break a reference cycle between Unit and UnitCategory
+        // ### even without that, this is slicing the polymorphic part of UnitCategory
+        // this only works by chance as apart from the ctors those parts contain no logic or data it seems
+        unit.d->m_category = d.data();
         const QStringList list = unit.d->m_matchString.split(QLatin1Char(';'));
         for (const QString &name : list) {
             d->m_unitMap[name] = unit;

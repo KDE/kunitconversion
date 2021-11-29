@@ -10,6 +10,7 @@
 
 #include "unit.h"
 #include "unitcategory.h"
+#include "unitcategory_p.h"
 
 #include <KLocalizedString>
 
@@ -51,7 +52,7 @@ public:
     KLocalizedString m_symbolString;
     KLocalizedString m_realString;
     KLocalizedString m_integerString;
-    UnitCategory m_category;
+    UnitCategoryPrivate *m_category = nullptr; // emulating a weak_ptr, as we otherwise have an undeleteable reference cycle
 };
 
 class CustomUnit : public Unit
