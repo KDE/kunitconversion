@@ -58,7 +58,7 @@ void ValueTest::testCurrencyNotDownloaded()
 {
     // ensure that no local conversion table is available
     const QString cache = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
-    if (!QFile::exists(cache)) {
+    if (QFile::exists(cache)) {
         QFile::remove(cache);
     }
 
