@@ -49,7 +49,7 @@ Power::Power()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (power)", "%1 %2");
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Yottawatt,
                        1e+24,
                        i18nc("power unit symbol", "YW"),
@@ -59,7 +59,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 yottawatts"),
                        ki18ncp("amount in units (integer)", "%1 yottawatt", "%1 yottawatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Zettawatt,
                        1e+21,
                        i18nc("power unit symbol", "ZW"),
@@ -69,7 +69,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 zettawatts"),
                        ki18ncp("amount in units (integer)", "%1 zettawatt", "%1 zettawatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Exawatt,
                        1e+18,
                        i18nc("power unit symbol", "EW"),
@@ -79,7 +79,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 exawatts"),
                        ki18ncp("amount in units (integer)", "%1 exawatt", "%1 exawatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Petawatt,
                        1e+15,
                        i18nc("power unit symbol", "PW"),
@@ -89,7 +89,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 petawatts"),
                        ki18ncp("amount in units (integer)", "%1 petawatt", "%1 petawatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Terawatt,
                        1e+12,
                        i18nc("power unit symbol", "TW"),
@@ -99,7 +99,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 terawatts"),
                        ki18ncp("amount in units (integer)", "%1 terawatt", "%1 terawatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Gigawatt,
                        1e+09,
                        i18nc("power unit symbol", "GW"),
@@ -109,7 +109,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 gigawatts"),
                        ki18ncp("amount in units (integer)", "%1 gigawatt", "%1 gigawatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Megawatt,
                        1e+06,
                        i18nc("power unit symbol", "MW"),
@@ -119,7 +119,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 megawatts"),
                        ki18ncp("amount in units (integer)", "%1 megawatt", "%1 megawatts")));
 
-    addCommonUnit(CustomUnit(PowerCategory,
+    addCommonUnit(UnitPrivate::makeUnit(PowerCategory,
                              Kilowatt,
                              1000,
                              i18nc("power unit symbol", "kW"),
@@ -129,7 +129,7 @@ Power::Power()
                              ki18nc("amount in units (real)", "%1 kilowatts"),
                              ki18ncp("amount in units (integer)", "%1 kilowatt", "%1 kilowatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Hectowatt,
                        100,
                        i18nc("power unit symbol", "hW"),
@@ -139,7 +139,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 hectowatts"),
                        ki18ncp("amount in units (integer)", "%1 hectowatt", "%1 hectowatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Decawatt,
                        10,
                        i18nc("power unit symbol", "daW"),
@@ -149,7 +149,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 decawatts"),
                        ki18ncp("amount in units (integer)", "%1 decawatt", "%1 decawatts")));
 
-    addDefaultUnit(CustomUnit(PowerCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(PowerCategory,
                               Watt,
                               1,
                               i18nc("power unit symbol", "W"),
@@ -159,7 +159,7 @@ Power::Power()
                               ki18nc("amount in units (real)", "%1 watts"),
                               ki18ncp("amount in units (integer)", "%1 watt", "%1 watts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Deciwatt,
                        0.1,
                        i18nc("power unit symbol", "dW"),
@@ -169,7 +169,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 deciwatts"),
                        ki18ncp("amount in units (integer)", "%1 deciwatt", "%1 deciwatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Centiwatt,
                        0.01,
                        i18nc("power unit symbol", "cW"),
@@ -179,7 +179,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 centiwatts"),
                        ki18ncp("amount in units (integer)", "%1 centiwatt", "%1 centiwatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Milliwatt,
                        0.001,
                        i18nc("power unit symbol", "mW"),
@@ -189,7 +189,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 milliwatts"),
                        ki18ncp("amount in units (integer)", "%1 milliwatt", "%1 milliwatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Microwatt,
                        1e-06,
                        i18nc("power unit symbol", "µW"),
@@ -199,7 +199,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 microwatts"),
                        ki18ncp("amount in units (integer)", "%1 microwatt", "%1 microwatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Nanowatt,
                        1e-09,
                        i18nc("power unit symbol", "nW"),
@@ -209,7 +209,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 nanowatts"),
                        ki18ncp("amount in units (integer)", "%1 nanowatt", "%1 nanowatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Picowatt,
                        1e-12,
                        i18nc("power unit symbol", "pW"),
@@ -219,7 +219,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 picowatts"),
                        ki18ncp("amount in units (integer)", "%1 picowatt", "%1 picowatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Femtowatt,
                        1e-15,
                        i18nc("power unit symbol", "fW"),
@@ -229,7 +229,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 femtowatts"),
                        ki18ncp("amount in units (integer)", "%1 femtowatt", "%1 femtowatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Attowatt,
                        1e-18,
                        i18nc("power unit symbol", "aW"),
@@ -239,7 +239,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 attowatts"),
                        ki18ncp("amount in units (integer)", "%1 attowatt", "%1 attowatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Zeptowatt,
                        1e-21,
                        i18nc("power unit symbol", "zW"),
@@ -249,7 +249,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 zeptowatts"),
                        ki18ncp("amount in units (integer)", "%1 zeptowatt", "%1 zeptowatts")));
 
-    addUnit(CustomUnit(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(PowerCategory,
                        Yoctowatt,
                        1e-24,
                        i18nc("power unit symbol", "yW"),
@@ -259,7 +259,7 @@ Power::Power()
                        ki18nc("amount in units (real)", "%1 yoctowatts"),
                        ki18ncp("amount in units (integer)", "%1 yoctowatt", "%1 yoctowatts")));
 
-    addCommonUnit(CustomUnit(PowerCategory,
+    addCommonUnit(UnitPrivate::makeUnit(PowerCategory,
                              Horsepower,
                              735.499,
                              i18nc("power unit symbol", "hp"),
@@ -271,7 +271,7 @@ Power::Power()
 
     // Logarithmic Power Units (http://en.wikipedia.org/wiki/Decibel)
 
-    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(new DecibelUnitPrivate(PowerCategory,
                                               DecibelKilowatt,
                                               1000,
                                               i18nc("power unit symbol", "dBk"),
@@ -281,7 +281,7 @@ Power::Power()
                                               ki18nc("amount in units (real)", "%1 decibel kilowatts"),
                                               ki18ncp("amount in units (integer)", "%1 decibel kilowatt", "%1 decibel kilowatts"))));
 
-    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(new DecibelUnitPrivate(PowerCategory,
                                               DecibelWatt,
                                               1,
                                               i18nc("power unit symbol", "dBW"),
@@ -291,7 +291,7 @@ Power::Power()
                                               ki18nc("amount in units (real)", "%1 decibel watts"),
                                               ki18ncp("amount in units (integer)", "%1 decibel watt", "%1 decibel watts"))));
 
-    addCommonUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory,
+    addCommonUnit(UnitPrivate::makeUnit(new DecibelUnitPrivate(PowerCategory,
                                                     DecibelMilliwatt,
                                                     0.001,
                                                     i18nc("power unit symbol", "dBm"),
@@ -301,7 +301,7 @@ Power::Power()
                                                     ki18nc("amount in units (real)", "%1 decibel milliwatts"),
                                                     ki18ncp("amount in units (integer)", "%1 decibel milliwatt", "%1 decibel milliwatts"))));
 
-    addUnit(CustomUnit(new DecibelUnitPrivate(PowerCategory,
+    addUnit(UnitPrivate::makeUnit(new DecibelUnitPrivate(PowerCategory,
                                               DecibelMicrowatt,
                                               1e-6,
                                               i18nc("power unit symbol", "dBµW"),

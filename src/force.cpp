@@ -17,7 +17,7 @@ Force::Force()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (force", "%1 %2");
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Yottanewton,
                        1e+24,
                        i18nc("force unit symbol", "YN"),
@@ -27,7 +27,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 yottanewtons"),
                        ki18ncp("amount in units (integer)", "%1 yottanewton", "%1 yottanewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Zettanewton,
                        1e+21,
                        i18nc("force unit symbol", "ZN"),
@@ -37,7 +37,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 zettanewtons"),
                        ki18ncp("amount in units (integer)", "%1 zettanewton", "%1 zettanewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Exanewton,
                        1e+18,
                        i18nc("force unit symbol", "EN"),
@@ -47,7 +47,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 exanewtons"),
                        ki18ncp("amount in units (integer)", "%1 exanewton", "%1 exanewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Petanewton,
                        1e+15,
                        i18nc("force unit symbol", "PN"),
@@ -57,7 +57,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 petanewtons"),
                        ki18ncp("amount in units (integer)", "%1 petanewton", "%1 petanewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Teranewton,
                        1e+12,
                        i18nc("force unit symbol", "TN"),
@@ -67,7 +67,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 teranewtons"),
                        ki18ncp("amount in units (integer)", "%1 teranewton", "%1 teranewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Giganewton,
                        1e+09,
                        i18nc("force unit symbol", "GN"),
@@ -77,7 +77,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 giganewtons"),
                        ki18ncp("amount in units (integer)", "%1 giganewton", "%1 giganewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Meganewton,
                        1e+06,
                        i18nc("force unit symbol", "MN"),
@@ -87,7 +87,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 meganewtons"),
                        ki18ncp("amount in units (integer)", "%1 meganewton", "%1 meganewtons")));
 
-    addCommonUnit(CustomUnit(ForceCategory,
+    addCommonUnit(UnitPrivate::makeUnit(ForceCategory,
                              KilonewtonForce,
                              1000,
                              i18nc("force unit symbol", "kN"),
@@ -97,7 +97,7 @@ Force::Force()
                              ki18nc("amount in units (real)", "%1 kilonewtons"),
                              ki18ncp("amount in units (integer)", "%1 kilonewton", "%1 kilonewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Hectonewton,
                        100,
                        i18nc("force unit symbol", "hN"),
@@ -107,7 +107,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 hectonewtons"),
                        ki18ncp("amount in units (integer)", "%1 hectonewton", "%1 hectonewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Decanewton,
                        10,
                        i18nc("force unit symbol", "daN"),
@@ -117,7 +117,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 decanewtons"),
                        ki18ncp("amount in units (integer)", "%1 decanewton", "%1 decanewtons")));
 
-    addDefaultUnit(CustomUnit(ForceCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(ForceCategory,
                               Newton,
                               1,
                               i18nc("force unit symbol", "N"),
@@ -127,7 +127,7 @@ Force::Force()
                               ki18nc("amount in units (real)", "%1 newtons"),
                               ki18ncp("amount in units (integer)", "%1 newton", "%1 newtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Decinewton,
                        0.1,
                        i18nc("force unit symbol", "dN"),
@@ -137,7 +137,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 decinewtons"),
                        ki18ncp("amount in units (integer)", "%1 decinewton", "%1 decinewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Centinewton,
                        0.01,
                        i18nc("force unit symbol", "cN"),
@@ -147,7 +147,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 centinewtons"),
                        ki18ncp("amount in units (integer)", "%1 centinewton", "%1 centinewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Millinewton,
                        0.001,
                        i18nc("force unit symbol", "mN"),
@@ -157,7 +157,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 millinewtons"),
                        ki18ncp("amount in units (integer)", "%1 millinewton", "%1 millinewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Micronewton,
                        1e-06,
                        i18nc("force unit symbol", "µN"),
@@ -167,7 +167,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 micronewtons"),
                        ki18ncp("amount in units (integer)", "%1 micronewton", "%1 micronewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Nanonewton,
                        1e-09,
                        i18nc("force unit symbol", "nN"),
@@ -177,7 +177,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 nanonewtons"),
                        ki18ncp("amount in units (integer)", "%1 nanonewton", "%1 nanonewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Piconewton,
                        1e-12,
                        i18nc("force unit symbol", "pN"),
@@ -187,7 +187,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 piconewtons"),
                        ki18ncp("amount in units (integer)", "%1 piconewton", "%1 piconewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Femtonewton,
                        1e-15,
                        i18nc("force unit symbol", "fN"),
@@ -197,7 +197,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 femtonewtons"),
                        ki18ncp("amount in units (integer)", "%1 femtonewton", "%1 femtonewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Attonewton,
                        1e-18,
                        i18nc("force unit symbol", "aN"),
@@ -207,7 +207,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 attonewtons"),
                        ki18ncp("amount in units (integer)", "%1 attonewton", "%1 attonewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Zeptonewton,
                        1e-21,
                        i18nc("force unit symbol", "zN"),
@@ -217,7 +217,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 zeptonewtons"),
                        ki18ncp("amount in units (integer)", "%1 zeptonewton", "%1 zeptonewtons")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Yoctonewton,
                        1e-24,
                        i18nc("force unit symbol", "yN"),
@@ -228,7 +228,7 @@ Force::Force()
                        ki18ncp("amount in units (integer)", "%1 yoctonewton", "%1 yoctonewtons")));
 
     // http://en.wikipedia.org/wiki/Force#Units_of_measurement
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Dyne,
                        0.0001,
                        i18nc("force unit symbol", "dyn"),
@@ -238,7 +238,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 dynes"),
                        ki18ncp("amount in units (integer)", "%1 dyne", "%1 dynes")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Kilopond,
                        9.80665,
                        i18nc("force unit symbol", "kp"),
@@ -248,7 +248,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 kiloponds"),
                        ki18ncp("amount in units (integer)", "%1 kilopond", "%1 kiloponds")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        PoundForce,
                        4.448222,
                        i18nc("force unit symbol", "lbf"),
@@ -258,7 +258,7 @@ Force::Force()
                        ki18nc("amount in units (real)", "%1 pound-force"),
                        ki18ncp("amount in units (integer)", "%1 pound-force", "%1 pound-force")));
 
-    addUnit(CustomUnit(ForceCategory,
+    addUnit(UnitPrivate::makeUnit(ForceCategory,
                        Poundal,
                        0.138255,
                        i18nc("force unit symbol", "pdl"),

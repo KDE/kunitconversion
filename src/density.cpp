@@ -17,7 +17,7 @@ Density::Density()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (density)", "%1 %2");
 
-    addDefaultUnit(CustomUnit(DensityCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(DensityCategory,
                               KilogramsPerCubicMeter,
                               1,
                               i18nc("density unit symbol", "kg/m³"),
@@ -28,7 +28,7 @@ Density::Density()
                               ki18ncp("amount in units (integer)", "%1 kilogram per cubic meter", "%1 kilograms per cubic meter")));
 
     // source Google calculator
-    addCommonUnit(CustomUnit(DensityCategory,
+    addCommonUnit(UnitPrivate::makeUnit(DensityCategory,
                              KilogramPerLiter,
                              1000,
                              i18nc("density unit symbol", "kg/l"),
@@ -38,7 +38,7 @@ Density::Density()
                              ki18nc("amount in units (real)", "%1 kilograms per liter"),
                              ki18ncp("amount in units (integer)", "%1 kilogram per liter", "%1 kilograms per liter")));
 
-    addUnit(CustomUnit(DensityCategory,
+    addUnit(UnitPrivate::makeUnit(DensityCategory,
                        GramPerLiter,
                        1,
                        i18nc("density unit symbol", "g/l"),
@@ -48,7 +48,7 @@ Density::Density()
                        ki18nc("amount in units (real)", "%1 grams per liter"),
                        ki18ncp("amount in units (integer)", "%1 gram per liter", "%1 grams per liter")));
 
-    addUnit(CustomUnit(DensityCategory,
+    addUnit(UnitPrivate::makeUnit(DensityCategory,
                        GramPerMilliliter,
                        1000,
                        i18nc("density unit symbol", "g/ml"),
@@ -59,7 +59,7 @@ Density::Density()
                        ki18ncp("amount in units (integer)", "%1 gram per milliliter", "%1 grams per milliliter")));
 
     // source : Google calculator
-    addUnit(CustomUnit(DensityCategory,
+    addUnit(UnitPrivate::makeUnit(DensityCategory,
                        OuncePerCubicInch,
                        1729.99404,
                        i18nc("density unit symbol", "oz/in³"),
@@ -69,7 +69,7 @@ Density::Density()
                        ki18nc("amount in units (real)", "%1 ounces per cubic inch"),
                        ki18ncp("amount in units (integer)", "%1 ounce per cubic inch", "%1 ounces per cubic inch")));
 
-    addCommonUnit(CustomUnit(DensityCategory,
+    addCommonUnit(UnitPrivate::makeUnit(DensityCategory,
                              OuncePerCubicFoot,
                              1.00115396,
                              i18nc("density unit symbol", "oz/ft³"),
@@ -79,7 +79,7 @@ Density::Density()
                              ki18nc("amount in units (real)", "%1 ounces per cubic foot"),
                              ki18ncp("amount in units (integer)", "%1 ounce per cubic foot", "%1 ounces per cubic foot")));
 
-    addUnit(CustomUnit(DensityCategory,
+    addUnit(UnitPrivate::makeUnit(DensityCategory,
                        PoundPerCubicInch,
                        27679.9047,
                        i18nc("density unit symbol", "lb/in³"),
@@ -89,7 +89,7 @@ Density::Density()
                        ki18nc("amount in units (real)", "%1 pounds per cubic inch"),
                        ki18ncp("amount in units (integer)", "%1 pound per cubic inch", "%1 pounds per cubic inch")));
 
-    addUnit(CustomUnit(DensityCategory,
+    addUnit(UnitPrivate::makeUnit(DensityCategory,
                        PoundPerCubicFoot,
                        16.0184634,
                        i18nc("density unit symbol", "lb/ft³"),
@@ -99,7 +99,7 @@ Density::Density()
                        ki18nc("amount in units (real)", "%1 pounds per cubic foot"),
                        ki18ncp("amount in units (integer)", "%1 pound per cubic foot", "%1 pounds per cubic foot")));
 
-    addUnit(CustomUnit(DensityCategory,
+    addUnit(UnitPrivate::makeUnit(DensityCategory,
                        PoundPerCubicYard,
                        0.593276421,
                        i18nc("density unit symbol", "lb/yd³"),

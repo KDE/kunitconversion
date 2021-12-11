@@ -58,7 +58,7 @@ FuelEfficiency::FuelEfficiency()
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (fuel efficiency)", "%1 %2");
 
     addDefaultUnit(
-        CustomUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
+        UnitPrivate::makeUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
                                        LitersPer100Kilometers,
                                        1,
                                        i18nc("fuelefficiency unit symbol", "l/100 km"),
@@ -68,7 +68,7 @@ FuelEfficiency::FuelEfficiency()
                                        ki18nc("amount in units (real)", "%1 liters per 100 kilometers"),
                                        ki18ncp("amount in units (integer)", "%1 liters per 100 kilometers", "%1 liters per 100 kilometers"))));
 
-    addCommonUnit(CustomUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
+    addCommonUnit(UnitPrivate::makeUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
                                                  MilePerUsGallon,
                                                  235.215,
                                                  i18nc("fuelefficiency unit symbol", "mpg"),
@@ -79,7 +79,7 @@ FuelEfficiency::FuelEfficiency()
                                                  ki18ncp("amount in units (integer)", "%1 mile per US gallon", "%1 miles per US gallon"),
                                                  true)));
 
-    addCommonUnit(CustomUnit(new FuelUnitPrivate(
+    addCommonUnit(UnitPrivate::makeUnit(new FuelUnitPrivate(
         FuelEfficiencyCategory,
         MilePerImperialGallon,
         282.481,
@@ -91,7 +91,7 @@ FuelEfficiency::FuelEfficiency()
         ki18ncp("amount in units (integer)", "%1 mile per imperial gallon", "%1 miles per imperial gallon"),
         true)));
 
-    addCommonUnit(CustomUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
+    addCommonUnit(UnitPrivate::makeUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
                                                  KilometrePerLitre,
                                                  100.0,
                                                  i18nc("fuelefficiency unit symbol", "kmpl"),

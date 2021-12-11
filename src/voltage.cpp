@@ -18,7 +18,7 @@ Voltage::Voltage()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (voltage", "%1 %2");
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Yottavolts,
                        1e+24,
                        i18nc("voltage unit symbol", "YV"),
@@ -28,7 +28,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 yottavolts"),
                        ki18ncp("amount in units (integer)", "%1 yottavolt", "%1 yottavolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Zettavolts,
                        1e+21,
                        i18nc("voltage unit symbol", "ZV"),
@@ -38,7 +38,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 zettavolts"),
                        ki18ncp("amount in units (integer)", "%1 zettavolt", "%1 zettavolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Exavolts,
                        1e+18,
                        i18nc("voltage unit symbol", "EV"),
@@ -48,7 +48,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 exavolts"),
                        ki18ncp("amount in units (integer)", "%1 exavolt", "%1 exavolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Petavolts,
                        1e+15,
                        i18nc("voltage unit symbol", "PV"),
@@ -58,7 +58,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 petavolts"),
                        ki18ncp("amount in units (integer)", "%1 petavolt", "%1 petavolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Teravolts,
                        1e+12,
                        i18nc("voltage unit symbol", "TV"),
@@ -68,7 +68,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 teravolts"),
                        ki18ncp("amount in units (integer)", "%1 teravolt", "%1 teravolts")));
 
-    addCommonUnit(CustomUnit(VoltageCategory,
+    addCommonUnit(UnitPrivate::makeUnit(VoltageCategory,
                              Gigavolts,
                              1e+09,
                              i18nc("voltage unit symbol", "GV"),
@@ -78,7 +78,7 @@ Voltage::Voltage()
                              ki18nc("amount in units (real)", "%1 gigavolts"),
                              ki18ncp("amount in units (integer)", "%1 gigavolt", "%1 gigavolts")));
 
-    addCommonUnit(CustomUnit(VoltageCategory,
+    addCommonUnit(UnitPrivate::makeUnit(VoltageCategory,
                              Megavolts,
                              1e+06,
                              i18nc("voltage unit symbol", "MV"),
@@ -88,7 +88,7 @@ Voltage::Voltage()
                              ki18nc("amount in units (real)", "%1 megavolts"),
                              ki18ncp("amount in units (integer)", "%1 megavolt", "%1 megavolts")));
 
-    addCommonUnit(CustomUnit(VoltageCategory,
+    addCommonUnit(UnitPrivate::makeUnit(VoltageCategory,
                              Kilovolts,
                              1000,
                              i18nc("voltage unit symbol", "kV"),
@@ -98,7 +98,7 @@ Voltage::Voltage()
                              ki18nc("amount in units (real)", "%1 kilovolts"),
                              ki18ncp("amount in units (integer)", "%1 kilovolt", "%1 kilovolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Hectovolts,
                        100,
                        i18nc("voltage unit symbol", "hV"),
@@ -108,7 +108,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 hectovolts"),
                        ki18ncp("amount in units (integer)", "%1 hectovolt", "%1 hectovolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Decavolts,
                        10,
                        i18nc("voltage unit symbol", "daV"),
@@ -118,7 +118,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 decavolts"),
                        ki18ncp("amount in units (integer)", "%1 decavolt", "%1 decavolts")));
 
-    addDefaultUnit(CustomUnit(VoltageCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(VoltageCategory,
                               Volts,
                               1,
                               i18nc("voltage unit symbol", "V"),
@@ -128,7 +128,7 @@ Voltage::Voltage()
                               ki18nc("amount in units (real)", "%1 volts"),
                               ki18ncp("amount in units (integer)", "%1 volt", "%1 volts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Decivolts,
                        0.1,
                        i18nc("voltage unit symbol", "dV"),
@@ -138,7 +138,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 decivolts"),
                        ki18ncp("amount in units (integer)", "%1 decivolt", "%1 decivolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Centivolts,
                        0.01,
                        i18nc("voltage unit symbol", "cV"),
@@ -148,7 +148,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 centivolts"),
                        ki18ncp("amount in units (integer)", "%1 centivolt", "%1 centivolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Millivolts,
                        0.001,
                        i18nc("voltage unit symbol", "mV"),
@@ -158,7 +158,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 millivolts"),
                        ki18ncp("amount in units (integer)", "%1 millivolt", "%1 millivolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Microvolts,
                        1e-06,
                        i18nc("voltage unit symbol", "µV"),
@@ -168,7 +168,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 microvolts"),
                        ki18ncp("amount in units (integer)", "%1 microvolt", "%1 microvolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Nanovolts,
                        1e-09,
                        i18nc("voltage unit symbol", "nV"),
@@ -178,7 +178,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 nanovolts"),
                        ki18ncp("amount in units (integer)", "%1 nanovolt", "%1 nanovolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Picovolts,
                        1e-12,
                        i18nc("voltage unit symbol", "pV"),
@@ -188,7 +188,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 picovolts"),
                        ki18ncp("amount in units (integer)", "%1 picovolt", "%1 picovolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Femtovolts,
                        1e-15,
                        i18nc("voltage unit symbol", "fV"),
@@ -198,7 +198,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 femtovolts"),
                        ki18ncp("amount in units (integer)", "%1 femtovolt", "%1 femtovolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Attovolts,
                        1e-18,
                        i18nc("voltage unit symbol", "aV"),
@@ -208,7 +208,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 attovolts"),
                        ki18ncp("amount in units (integer)", "%1 attovolt", "%1 attovolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Zeptovolts,
                        1e-21,
                        i18nc("voltage unit symbol", "zV"),
@@ -218,7 +218,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 zeptovolts"),
                        ki18ncp("amount in units (integer)", "%1 zeptovolt", "%1 zeptovolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Yoctovolts,
                        1e-24,
                        i18nc("voltage unit symbol", "yV"),
@@ -228,7 +228,7 @@ Voltage::Voltage()
                        ki18nc("amount in units (real)", "%1 yoctovolts"),
                        ki18ncp("amount in units (integer)", "%1 yoctovolt", "%1 yoctovolts")));
 
-    addUnit(CustomUnit(VoltageCategory,
+    addUnit(UnitPrivate::makeUnit(VoltageCategory,
                        Statvolts,
                        299.792458,
                        i18nc("voltage unit symbol", "stV"),

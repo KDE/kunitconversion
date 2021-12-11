@@ -179,7 +179,7 @@ Temperature::Temperature()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (temperature)", "%1 %2");
 
-    addDefaultUnit(CustomUnit(TemperatureCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(TemperatureCategory,
                               Kelvin,
                               1,
                               i18nc("temperature unit symbol", "K"),
@@ -189,7 +189,7 @@ Temperature::Temperature()
                               ki18nc("amount in units (real)", "%1 kelvins"),
                               ki18ncp("amount in units (integer)", "%1 kelvin", "%1 kelvins")));
 
-    addCommonUnit(CustomUnit(new CelsiusUnitPrivate(TemperatureCategory,
+    addCommonUnit(UnitPrivate::makeUnit(new CelsiusUnitPrivate(TemperatureCategory,
                                                     Celsius,
                                                     1,
                                                     i18nc("temperature unit symbol", "°C"),
@@ -199,7 +199,7 @@ Temperature::Temperature()
                                                     ki18nc("amount in units (real)", "%1 degrees Celsius"),
                                                     ki18ncp("amount in units (integer)", "%1 degree Celsius", "%1 degrees Celsius"))));
 
-    addCommonUnit(CustomUnit(new FahrenheitUnitPrivate(TemperatureCategory,
+    addCommonUnit(UnitPrivate::makeUnit(new FahrenheitUnitPrivate(TemperatureCategory,
                                                        Fahrenheit,
                                                        1,
                                                        i18nc("temperature unit symbol", "°F"),
@@ -209,7 +209,7 @@ Temperature::Temperature()
                                                        ki18nc("amount in units (real)", "%1 degrees Fahrenheit"),
                                                        ki18ncp("amount in units (integer)", "%1 degree Fahrenheit", "%1 degrees Fahrenheit"))));
 
-    addUnit(CustomUnit(TemperatureCategory,
+    addUnit(UnitPrivate::makeUnit(TemperatureCategory,
                        Rankine,
                        0.555556,
                        i18nc("temperature unit symbol", "R"),
@@ -219,7 +219,7 @@ Temperature::Temperature()
                        ki18nc("amount in units (real)", "%1 Rankine"),
                        ki18ncp("amount in units (integer)", "%1 Rankine", "%1 Rankine")));
 
-    addUnit(CustomUnit(new DelisleUnitPrivate(TemperatureCategory,
+    addUnit(UnitPrivate::makeUnit(new DelisleUnitPrivate(TemperatureCategory,
                                               Delisle,
                                               1,
                                               i18nc("temperature unit symbol", "°De"),
@@ -229,7 +229,7 @@ Temperature::Temperature()
                                               ki18nc("amount in units (real)", "%1 degrees Delisle"),
                                               ki18ncp("amount in units (integer)", "%1 degree Delisle", "%1 degrees Delisle"))));
 
-    addUnit(CustomUnit(new NewtonUnitPrivate(TemperatureCategory,
+    addUnit(UnitPrivate::makeUnit(new NewtonUnitPrivate(TemperatureCategory,
                                              TemperatureNewton,
                                              1,
                                              i18nc("temperature unit symbol", "°N"),
@@ -239,7 +239,7 @@ Temperature::Temperature()
                                              ki18nc("amount in units (real)", "%1 degrees Newton"),
                                              ki18ncp("amount in units (integer)", "%1 degree Newton", "%1 degrees Newton"))));
 
-    addUnit(CustomUnit(new ReaumurUnitPrivate(TemperatureCategory,
+    addUnit(UnitPrivate::makeUnit(new ReaumurUnitPrivate(TemperatureCategory,
                                               Reaumur,
                                               1,
                                               i18nc("temperature unit symbol", "°Ré"),
@@ -249,7 +249,7 @@ Temperature::Temperature()
                                               ki18nc("amount in units (real)", "%1 degrees Réaumur"),
                                               ki18ncp("amount in units (integer)", "%1 degree Réaumur", "%1 degrees Réaumur"))));
 
-    addUnit(CustomUnit(new RomerUnitPrivate(TemperatureCategory,
+    addUnit(UnitPrivate::makeUnit(new RomerUnitPrivate(TemperatureCategory,
                                             Romer,
                                             1,
                                             i18nc("temperature unit symbol", "°Rø"),

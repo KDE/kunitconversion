@@ -61,7 +61,7 @@ Currency::Currency()
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (currency)", "%1 %2");
 
     // Static rates
-    addDefaultUnit(CustomUnit(CurrencyCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(CurrencyCategory,
                               Eur,
                               1.0,
                               QStringLiteral("EUR"),
@@ -72,7 +72,7 @@ Currency::Currency()
                               ki18nc("amount in units (real)", "%1 euros"),
                               ki18ncp("amount in units (integer)", "%1 euro", "%1 euros")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Ats,
                        0.0726728,
                        QStringLiteral("ATS"),
@@ -83,7 +83,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 schillings"),
                        ki18ncp("amount in units (integer)", "%1 schilling", "%1 schillings")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Bef,
                        0.0247894,
                        QStringLiteral("BEF"),
@@ -94,7 +94,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Belgian francs"),
                        ki18ncp("amount in units (integer)", "%1 Belgian franc", "%1 Belgian francs")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Nlg,
                        0.45378,
                        QStringLiteral("NLG"),
@@ -105,7 +105,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 guilders"),
                        ki18ncp("amount in units (integer)", "%1 guilder", "%1 guilders")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Fim,
                        0.168188,
                        QStringLiteral("FIM"),
@@ -116,7 +116,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 markkas"),
                        ki18ncp("amount in units (integer)", "%1 markka", "%1 markkas"))); // Alternative = markkaa
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Frf,
                        0.152449,
                        QStringLiteral("FRF"),
@@ -127,7 +127,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 French francs"),
                        ki18ncp("amount in units (integer)", "%1 French franc", "%1 French francs")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Dem,
                        0.511292,
                        QStringLiteral("DEM"),
@@ -138,7 +138,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 marks"),
                        ki18ncp("amount in units (integer)", "%1 mark", "%1 marks")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Iep,
                        1.26974,
                        QStringLiteral("IEP"),
@@ -149,7 +149,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Irish pounds"),
                        ki18ncp("amount in units (integer)", "%1 Irish pound", "%1 Irish pounds")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Itl,
                        0.000516457,
                        QStringLiteral("ITL"),
@@ -160,7 +160,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Italian lira"),
                        ki18ncp("amount in units (integer)", "%1 Italian lira", "%1 Italian lira")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Luf,
                        0.0247894,
                        QStringLiteral("LUF"),
@@ -171,7 +171,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Luxembourgish francs"),
                        ki18ncp("amount in units (integer)", "%1 Luxembourgish franc", "%1 Luxembourgish francs")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Pte,
                        0.00498798,
                        QStringLiteral("PTE"),
@@ -182,7 +182,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 escudos"),
                        ki18ncp("amount in units (integer)", "%1 escudo", "%1 escudos")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Esp,
                        0.00601012,
                        QStringLiteral("ESP"),
@@ -193,7 +193,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 pesetas"),
                        ki18ncp("amount in units (integer)", "%1 peseta", "%1 pesetas")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Grd,
                        0.0029347,
                        QStringLiteral("GRD"),
@@ -204,7 +204,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 drachmas"),
                        ki18ncp("amount in units (integer)", "%1 drachma", "%1 drachmas")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Sit,
                        0.00417293,
                        QStringLiteral("SIT"),
@@ -215,7 +215,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 tolars"),
                        ki18ncp("amount in units (integer)", "%1 tolar", "%1 tolars"))); // Alt: tolarjev/tolarja/tolarji
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Cyp,
                        1.7086,
                        QStringLiteral("CYP"),
@@ -226,7 +226,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Cypriot pounds"),
                        ki18ncp("amount in units (integer)", "%1 Cypriot pound", "%1 Cypriot pounds")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Mtl,
                        2.32937,
                        QStringLiteral("MTL"),
@@ -237,7 +237,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Maltese lira"),
                        ki18ncp("amount in units (integer)", "%1 Maltese lira", "%1 Maltese lira")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Skk,
                        0.0331939,
                        QStringLiteral("SKK"),
@@ -249,7 +249,7 @@ Currency::Currency()
                        ki18ncp("amount in units (integer)", "%1 Slovak koruna", "%1 Slovak korunas"))); // Alt: koruny, korun
 
     // From ECB
-    addCommonUnit(CustomUnit(CurrencyCategory,
+    addCommonUnit(UnitPrivate::makeUnit(CurrencyCategory,
                              Usd,
                              qSNaN(),
                              QStringLiteral("USD"),
@@ -260,7 +260,7 @@ Currency::Currency()
                              ki18nc("amount in units (real)", "%1 United States dollars"),
                              ki18ncp("amount in units (integer)", "%1 United States dollar", "%1 United States dollars")));
 
-    addCommonUnit(CustomUnit(CurrencyCategory,
+    addCommonUnit(UnitPrivate::makeUnit(CurrencyCategory,
                              Jpy,
                              qSNaN(),
                              QStringLiteral("JPY"),
@@ -271,7 +271,7 @@ Currency::Currency()
                              ki18nc("amount in units (real)", "%1 yen"),
                              ki18ncp("amount in units (integer)", "%1 yen", "%1 yen")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Bgn,
                        qSNaN(),
                        QStringLiteral("BGN"),
@@ -282,7 +282,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 leva"),
                        ki18ncp("amount in units (integer)", "%1 lev", "%1 leva")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Czk,
                        qSNaN(),
                        QStringLiteral("CZK"),
@@ -294,7 +294,7 @@ Currency::Currency()
                        // Alt: koruny, korun
                        ki18ncp("amount in units (integer)", "%1 Czech koruna", "%1 Czech korunas")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Dkk,
                        qSNaN(),
                        QStringLiteral("DKK"),
@@ -305,7 +305,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Danish kroner"),
                        ki18ncp("amount in units (integer)", "%1 Danish krone", "%1 Danish kroner")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Eek,
                        qSNaN(),
                        QStringLiteral("EEK"),
@@ -316,7 +316,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 kroons"),
                        ki18ncp("amount in units (integer)", "%1 kroon", "%1 kroons"))); // Alt: krooni
 
-    addCommonUnit(CustomUnit(CurrencyCategory,
+    addCommonUnit(UnitPrivate::makeUnit(CurrencyCategory,
                              Gbp,
                              qSNaN(),
                              QStringLiteral("GBP"),
@@ -328,7 +328,7 @@ Currency::Currency()
                              ki18nc("amount in units (real)", "%1 pounds sterling"),
                              ki18ncp("amount in units (integer)", "%1 pound sterling", "%1 pounds sterling")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Huf,
                        qSNaN(),
                        QStringLiteral("HUF"),
@@ -339,7 +339,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 forint"),
                        ki18ncp("amount in units (integer)", "%1 forint", "%1 forint")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Ils,
                        qSNaN(),
                        QStringLiteral("ILS"),
@@ -351,7 +351,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 shekels"),
                        ki18ncp("amount in units (integer)", "%1 shekel", "%1 shekels")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Ltl,
                        qSNaN(),
                        QStringLiteral("LTL"),
@@ -362,7 +362,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 litas"),
                        ki18ncp("amount in units (integer)", "%1 litas", "%1 litai"))); // Alt: litu
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Lvl,
                        qSNaN(),
                        QStringLiteral("LVL"),
@@ -373,7 +373,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 lati"),
                        ki18ncp("amount in units (integer)", "%1 lats", "%1 lati")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Pln,
                        qSNaN(),
                        QStringLiteral("PLN"),
@@ -384,7 +384,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 zlotys"),
                        ki18ncp("amount in units (integer)", "%1 zloty", "%1 zlotys"))); // Alt: zloty, zlote, zlotych
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Ron,
                        qSNaN(),
                        QStringLiteral("RON"),
@@ -395,7 +395,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 lei"),
                        ki18ncp("amount in units (integer)", "%1 leu", "%1 lei")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Sek,
                        qSNaN(),
                        QStringLiteral("SEK"),
@@ -406,7 +406,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 kronor"),
                        ki18ncp("amount in units (integer)", "%1 krona", "%1 kronor")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Chf,
                        qSNaN(),
                        QStringLiteral("CHF"),
@@ -417,7 +417,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Swiss francs"),
                        ki18ncp("amount in units (integer)", "%1 Swiss franc", "%1 Swiss francs")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Nok,
                        qSNaN(),
                        QStringLiteral("NOK"),
@@ -428,7 +428,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Norwegian kroner"),
                        ki18ncp("amount in units (integer)", "%1 Norwegian krone", "%1 Norwegian kroner")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Hrk,
                        qSNaN(),
                        QStringLiteral("HRK"),
@@ -439,7 +439,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 kune"),
                        ki18ncp("amount in units (integer)", "%1 kuna", "%1 kune")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Rub,
                        qSNaN(),
                        QStringLiteral("RUB"),
@@ -450,7 +450,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 rubles"),
                        ki18ncp("amount in units (integer)", "%1 ruble", "%1 rubles"))); // Alt: rouble/roubles
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Try,
                        qSNaN(),
                        QStringLiteral("TRY"),
@@ -461,7 +461,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Turkish lira"),
                        ki18ncp("amount in units (integer)", "%1 Turkish lira", "%1 Turkish lira")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Aud,
                        qSNaN(),
                        QStringLiteral("AUD"),
@@ -472,7 +472,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Australian dollars"),
                        ki18ncp("amount in units (integer)", "%1 Australian dollar", "%1 Australian dollars")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Brl,
                        qSNaN(),
                        QStringLiteral("BRL"),
@@ -483,7 +483,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 reais"),
                        ki18ncp("amount in units (integer)", "%1 real", "%1 reais")));
 
-    addCommonUnit(CustomUnit(CurrencyCategory,
+    addCommonUnit(UnitPrivate::makeUnit(CurrencyCategory,
                              Cad,
                              qSNaN(),
                              QStringLiteral("CAD"),
@@ -494,7 +494,7 @@ Currency::Currency()
                              ki18nc("amount in units (real)", "%1 Canadian dollars"),
                              ki18ncp("amount in units (integer)", "%1 Canadian dollar", "%1 Canadian dollars")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Cny,
                        qSNaN(),
                        QStringLiteral("CNY"),
@@ -505,7 +505,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 yuan"),
                        ki18ncp("amount in units (integer)", "%1 yuan", "%1 yuan")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Hkd,
                        qSNaN(),
                        QStringLiteral("HKD"),
@@ -516,7 +516,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Hong Kong dollars"),
                        ki18ncp("amount in units (integer)", "%1 Hong Kong dollar", "%1 Hong Kong dollars")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Idr,
                        qSNaN(),
                        QStringLiteral("IDR"),
@@ -527,7 +527,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 rupiahs"),
                        ki18ncp("amount in units (integer)", "%1 rupiah", "%1 rupiahs"))); // Alt: rupiah
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Inr,
                        qSNaN(),
                        QStringLiteral("INR"),
@@ -538,7 +538,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 rupees"),
                        ki18ncp("amount in units (integer)", "%1 rupee", "%1 rupees"))); // Alt: rupee
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Krw,
                        qSNaN(),
                        QStringLiteral("KRW"),
@@ -549,7 +549,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 won"),
                        ki18ncp("amount in units (integer)", "%1 won", "%1 won")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Mxn,
                        qSNaN(),
                        QStringLiteral("MXN"),
@@ -560,7 +560,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Mexican pesos"),
                        ki18ncp("amount in units (integer)", "%1 Mexican peso", "%1 Mexican pesos")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Myr,
                        qSNaN(),
                        QStringLiteral("MYR"),
@@ -571,7 +571,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 ringgit"),
                        ki18ncp("amount in units (integer)", "%1 ringgit", "%1 ringgit"))); // Alt: ringgits
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Nzd,
                        qSNaN(),
                        QStringLiteral("NZD"),
@@ -583,7 +583,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 New Zealand dollars"),
                        ki18ncp("amount in units (integer)", "%1 New Zealand dollar", "%1 New Zealand dollars")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Php,
                        qSNaN(),
                        QStringLiteral("PHP"),
@@ -594,7 +594,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Philippine pesos"),
                        ki18ncp("amount in units (integer)", "%1 Philippine peso", "%1 Philippine pesos")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Sgd,
                        qSNaN(),
                        QStringLiteral("SGD"),
@@ -605,7 +605,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 Singapore dollars"),
                        ki18ncp("amount in units (integer)", "%1 Singapore dollar", "%1 Singapore dollars")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Thb,
                        qSNaN(),
                        QStringLiteral("THB"),
@@ -616,7 +616,7 @@ Currency::Currency()
                        ki18nc("amount in units (real)", "%1 baht"),
                        ki18ncp("amount in units (integer)", "%1 baht", "%1 baht")));
 
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Zar,
                        qSNaN(),
                        QStringLiteral("ZAR"),
@@ -626,7 +626,7 @@ Currency::Currency()
                        symbolString,
                        ki18nc("amount in units (real)", "%1 rand"),
                        ki18ncp("amount in units (integer)", "%1 rand", "%1 rand")));
-    addUnit(CustomUnit(CurrencyCategory,
+    addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Isk,
                        qSNaN(),
                        QStringLiteral("ISK"),

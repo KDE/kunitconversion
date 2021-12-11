@@ -17,7 +17,7 @@ Acceleration::Acceleration()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (acceleration)", "%1 %2");
 
-    addDefaultUnit(CustomUnit(AccelerationCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(AccelerationCategory,
                               MetresPerSecondSquared,
                               1,
                               i18nc("acceleration unit symbol", "m/s²"),
@@ -27,7 +27,7 @@ Acceleration::Acceleration()
                               ki18nc("amount in units (real)", "%1 meters per second squared"),
                               ki18ncp("amount in units (integer)", "%1 meter per second squared", "%1 meters per second squared")));
 
-    addCommonUnit(CustomUnit(AccelerationCategory,
+    addCommonUnit(UnitPrivate::makeUnit(AccelerationCategory,
                              FeetPerSecondSquared,
                              0.3048,
                              i18nc("acceleration unit symbol", "ft/s²"),
@@ -37,7 +37,7 @@ Acceleration::Acceleration()
                              ki18nc("amount in units (real)", "%1 feet per second squared"),
                              ki18ncp("amount in units (integer)", "%1 foot per second squared", "%1 feet per second squared")));
 
-    addUnit(CustomUnit(AccelerationCategory,
+    addUnit(UnitPrivate::makeUnit(AccelerationCategory,
                        StandardGravity,
                        9.80665,
                        i18nc("acceleration unit symbol", "g"),

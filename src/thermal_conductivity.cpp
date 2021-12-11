@@ -17,7 +17,7 @@ ThermalConductivity::ThermalConductivity()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (thermal conductivity)", "%1 %2");
 
-    addDefaultUnit(CustomUnit(ThermalConductivityCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(ThermalConductivityCategory,
                               WattPerMeterKelvin,
                               1,
                               i18nc("thermal conductivity unit symbol", "W/m·K"),
@@ -27,7 +27,7 @@ ThermalConductivity::ThermalConductivity()
                               ki18nc("amount in units (real)", "%1 watts per meter kelvin"),
                               ki18ncp("amount in units (integer)", "%1 watt per meter kelvin", "%1 watts per meter kelvin")));
 
-    addCommonUnit(CustomUnit(ThermalConductivityCategory,
+    addCommonUnit(UnitPrivate::makeUnit(ThermalConductivityCategory,
                              BtuPerFootHourFahrenheit,
                              0.5779,
                              i18nc("thermal conductivity unit symbol", "Btu/ft·hr·°F"),
@@ -38,7 +38,7 @@ ThermalConductivity::ThermalConductivity()
                              ki18nc("amount in units (real)", "%1 btu per foot hour degree Fahrenheit"),
                              ki18ncp("amount in units (integer)", "%1 btu per foot hour degree Fahrenheit", "%1 btu per foot hour degree Fahrenheit")));
 
-    addCommonUnit(CustomUnit(ThermalConductivityCategory,
+    addCommonUnit(UnitPrivate::makeUnit(ThermalConductivityCategory,
                              BtuPerSquareFootHourFahrenheitPerInch,
                              6.9348,
                              i18nc("thermal conductivity unit symbol", "Btu/ft²·hr·°F/in"),

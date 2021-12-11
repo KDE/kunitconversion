@@ -18,7 +18,7 @@ ThermalFlux::ThermalFlux()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (thermal flux density)", "%1 %2");
 
-    addDefaultUnit(CustomUnit(ThermalFluxCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(ThermalFluxCategory,
                               WattPerSquareMeter,
                               1,
                               i18nc("thermal flux unit symbol", "W/m²"),
@@ -28,7 +28,7 @@ ThermalFlux::ThermalFlux()
                               ki18nc("amount in units (real)", "%1 watts per square meter"),
                               ki18ncp("amount in units (integer)", "%1 watt per square meter", "%1 watts per square meter")));
 
-    addCommonUnit(CustomUnit(ThermalFluxCategory,
+    addCommonUnit(UnitPrivate::makeUnit(ThermalFluxCategory,
                              BtuPerHourPerSquareFoot,
                              0.3169986,
                              i18nc("thermal flux unit symbol", "Btu/hr/ft²"),

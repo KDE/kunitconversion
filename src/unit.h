@@ -765,6 +765,7 @@ public:
      **/
     Unit(const Unit &other);
 
+    // TODO KF6: remove virtual
     virtual ~Unit();
 
     /**
@@ -772,6 +773,7 @@ public:
      **/
     Unit &operator=(const Unit &other);
 
+    // TODO KF6: de-inline
 #ifdef Q_COMPILER_RVALUE_REFS
     /**
      * Move-assigns @p other to this Unit instance, transferring the
@@ -784,6 +786,7 @@ public:
     }
 #endif
 
+    // TODO KF6: remove
     /**
      * Swaps this Unit with @p other. This function is very fast and never fails.
      **/
@@ -866,7 +869,7 @@ protected:
     qreal fromDefault(qreal value) const;
 
 private:
-    friend class CustomUnit;
+    friend class UnitPrivate;
     friend class UnitCategory;
     friend class UnitCategoryPrivate;
     friend class CurrencyCategoryPrivate;

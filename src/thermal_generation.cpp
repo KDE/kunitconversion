@@ -17,7 +17,7 @@ ThermalGeneration::ThermalGeneration()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (thermal generation)", "%1 %2");
 
-    addDefaultUnit(CustomUnit(ThermalGenerationCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(ThermalGenerationCategory,
                               WattPerCubicMeter,
                               1,
                               i18nc("thermal generation unit symbol", "W/m³"),
@@ -27,7 +27,7 @@ ThermalGeneration::ThermalGeneration()
                               ki18nc("amount in units (real)", "%1 watts per cubic meter"),
                               ki18ncp("amount in units (integer)", "%1 watt per cubic meter", "%1 watts per cubic meter")));
 
-    addCommonUnit(CustomUnit(ThermalGenerationCategory,
+    addCommonUnit(UnitPrivate::makeUnit(ThermalGenerationCategory,
                              BtuPerHourPerCubicFoot,
                              0.09662,
                              i18nc("thermal generation unit symbol", "Btu/hr/ft³"),

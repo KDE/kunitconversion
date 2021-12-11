@@ -17,7 +17,7 @@ Time::Time()
 {
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (time)", "%1 %2");
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Yottasecond,
                        1e+24,
                        i18nc("time unit symbol", "Ys"),
@@ -27,7 +27,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 yottaseconds"),
                        ki18ncp("amount in units (integer)", "%1 yottasecond", "%1 yottaseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Zettasecond,
                        1e+21,
                        i18nc("time unit symbol", "Zs"),
@@ -37,7 +37,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 zettaseconds"),
                        ki18ncp("amount in units (integer)", "%1 zettasecond", "%1 zettaseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Exasecond,
                        1e+18,
                        i18nc("time unit symbol", "Es"),
@@ -47,7 +47,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 exaseconds"),
                        ki18ncp("amount in units (integer)", "%1 exasecond", "%1 exaseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Petasecond,
                        1e+15,
                        i18nc("time unit symbol", "Ps"),
@@ -57,7 +57,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 petaseconds"),
                        ki18ncp("amount in units (integer)", "%1 petasecond", "%1 petaseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Terasecond,
                        1e+12,
                        i18nc("time unit symbol", "Ts"),
@@ -67,7 +67,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 teraseconds"),
                        ki18ncp("amount in units (integer)", "%1 terasecond", "%1 teraseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Gigasecond,
                        1e+09,
                        i18nc("time unit symbol", "Gs"),
@@ -77,7 +77,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 gigaseconds"),
                        ki18ncp("amount in units (integer)", "%1 gigasecond", "%1 gigaseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Megasecond,
                        1e+06,
                        i18nc("time unit symbol", "Ms"),
@@ -87,7 +87,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 megaseconds"),
                        ki18ncp("amount in units (integer)", "%1 megasecond", "%1 megaseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Kilosecond,
                        1000,
                        i18nc("time unit symbol", "ks"),
@@ -97,7 +97,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 kiloseconds"),
                        ki18ncp("amount in units (integer)", "%1 kilosecond", "%1 kiloseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Hectosecond,
                        100,
                        i18nc("time unit symbol", "hs"),
@@ -107,7 +107,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 hectoseconds"),
                        ki18ncp("amount in units (integer)", "%1 hectosecond", "%1 hectoseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Decasecond,
                        10,
                        i18nc("time unit symbol", "das"),
@@ -117,7 +117,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 decaseconds"),
                        ki18ncp("amount in units (integer)", "%1 decasecond", "%1 decaseconds")));
 
-    addDefaultUnit(CustomUnit(TimeCategory,
+    addDefaultUnit(UnitPrivate::makeUnit(TimeCategory,
                               Second,
                               1,
                               i18nc("time unit symbol", "s"),
@@ -127,7 +127,7 @@ Time::Time()
                               ki18nc("amount in units (real)", "%1 seconds"),
                               ki18ncp("amount in units (integer)", "%1 second", "%1 seconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Decisecond,
                        0.1,
                        i18nc("time unit symbol", "ds"),
@@ -137,7 +137,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 deciseconds"),
                        ki18ncp("amount in units (integer)", "%1 decisecond", "%1 deciseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Centisecond,
                        0.01,
                        i18nc("time unit symbol", "cs"),
@@ -147,7 +147,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 centiseconds"),
                        ki18ncp("amount in units (integer)", "%1 centisecond", "%1 centiseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Millisecond,
                        0.001,
                        i18nc("time unit symbol", "ms"),
@@ -157,7 +157,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 milliseconds"),
                        ki18ncp("amount in units (integer)", "%1 millisecond", "%1 milliseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Microsecond,
                        1e-06,
                        i18nc("time unit symbol", "µs"),
@@ -167,7 +167,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 microseconds"),
                        ki18ncp("amount in units (integer)", "%1 microsecond", "%1 microseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Nanosecond,
                        1e-09,
                        i18nc("time unit symbol", "ns"),
@@ -177,7 +177,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 nanoseconds"),
                        ki18ncp("amount in units (integer)", "%1 nanosecond", "%1 nanoseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Picosecond,
                        1e-12,
                        i18nc("time unit symbol", "ps"),
@@ -187,7 +187,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 picoseconds"),
                        ki18ncp("amount in units (integer)", "%1 picosecond", "%1 picoseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Femtosecond,
                        1e-15,
                        i18nc("time unit symbol", "fs"),
@@ -197,7 +197,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 femtoseconds"),
                        ki18ncp("amount in units (integer)", "%1 femtosecond", "%1 femtoseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Attosecond,
                        1e-18,
                        i18nc("time unit symbol", "as"),
@@ -207,7 +207,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 attoseconds"),
                        ki18ncp("amount in units (integer)", "%1 attosecond", "%1 attoseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Zeptosecond,
                        1e-21,
                        i18nc("time unit symbol", "zs"),
@@ -217,7 +217,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 zeptoseconds"),
                        ki18ncp("amount in units (integer)", "%1 zeptosecond", "%1 zeptoseconds")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        Yoctosecond,
                        1e-24,
                        i18nc("time unit symbol", "ys"),
@@ -227,7 +227,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 yoctoseconds"),
                        ki18ncp("amount in units (integer)", "%1 yoctosecond", "%1 yoctoseconds")));
 
-    addCommonUnit(CustomUnit(TimeCategory,
+    addCommonUnit(UnitPrivate::makeUnit(TimeCategory,
                              Minute,
                              60,
                              i18nc("time unit symbol", "min"),
@@ -237,7 +237,7 @@ Time::Time()
                              ki18nc("amount in units (real)", "%1 minutes"),
                              ki18ncp("amount in units (integer)", "%1 minute", "%1 minutes")));
 
-    addCommonUnit(CustomUnit(TimeCategory,
+    addCommonUnit(UnitPrivate::makeUnit(TimeCategory,
                              Hour,
                              3600,
                              i18nc("time unit symbol", "h"),
@@ -247,7 +247,7 @@ Time::Time()
                              ki18nc("amount in units (real)", "%1 hours"),
                              ki18ncp("amount in units (integer)", "%1 hour", "%1 hours")));
 
-    addCommonUnit(CustomUnit(TimeCategory,
+    addCommonUnit(UnitPrivate::makeUnit(TimeCategory,
                              Day,
                              86400,
                              i18nc("time unit symbol", "d"),
@@ -257,7 +257,7 @@ Time::Time()
                              ki18nc("amount in units (real)", "%1 days"),
                              ki18ncp("amount in units (integer)", "%1 day", "%1 days")));
 
-    addCommonUnit(CustomUnit(TimeCategory,
+    addCommonUnit(UnitPrivate::makeUnit(TimeCategory,
                              Week,
                              604800,
                              i18nc("time unit symbol", "w"),
@@ -267,7 +267,7 @@ Time::Time()
                              ki18nc("amount in units (real)", "%1 weeks"),
                              ki18ncp("amount in units (integer)", "%1 week", "%1 weeks")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        JulianYear,
                        3.15576e+07,
                        i18nc("time unit symbol", "a"),
@@ -277,7 +277,7 @@ Time::Time()
                        ki18nc("amount in units (real)", "%1 Julian years"),
                        ki18ncp("amount in units (integer)", "%1 Julian year", "%1 Julian years")));
 
-    addUnit(CustomUnit(TimeCategory,
+    addUnit(UnitPrivate::makeUnit(TimeCategory,
                        LeapYear,
                        3.16224e+07,
                        i18nc("time unit symbol", "lpy"),
@@ -288,7 +288,7 @@ Time::Time()
                        ki18ncp("amount in units (integer)", "%1 leap year", "%1 leap years")));
 
     // Let's say we call that a normal year
-    addCommonUnit(CustomUnit(TimeCategory,
+    addCommonUnit(UnitPrivate::makeUnit(TimeCategory,
                              Year,
                              3.1536e+07,
                              i18nc("time unit symbol", "y"),
