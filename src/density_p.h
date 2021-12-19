@@ -13,10 +13,9 @@
 
 namespace KUnitConversion
 {
-class Density : public CustomCategory
+namespace Density
 {
-public:
-    Density();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

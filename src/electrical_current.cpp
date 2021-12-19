@@ -13,12 +13,13 @@
 
 namespace KUnitConversion
 {
-ElectricalCurrent::ElectricalCurrent()
-    : CustomCategory(ElectricalCurrentCategory, i18n("ElectricalCurrent"), i18n("ElectricalCurrent"))
+UnitCategory ElectricalCurrent::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(ElectricalCurrentCategory, i18n("ElectricalCurrent"), i18n("ElectricalCurrent"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (electrical current", "%1 %2");
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Yottaampere,
                        1e+24,
                        i18nc("electrical current unit symbol", "YA"),
@@ -28,7 +29,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 yottaamperes"),
                        ki18ncp("amount in units (integer)", "%1 yottaampere", "%1 yottaamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Zettaampere,
                        1e+21,
                        i18nc("electrical current unit symbol", "ZA"),
@@ -38,7 +39,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 zettaamperes"),
                        ki18ncp("amount in units (integer)", "%1 zettaampere", "%1 zettaamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Exaampere,
                        1e+18,
                        i18nc("electrical current unit symbol", "EA"),
@@ -48,7 +49,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 exaamperes"),
                        ki18ncp("amount in units (integer)", "%1 exaampere", "%1 exaamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Petaampere,
                        1e+15,
                        i18nc("electrical current unit symbol", "PA"),
@@ -58,7 +59,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 petaamperes"),
                        ki18ncp("amount in units (integer)", "%1 petaampere", "%1 petaamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Teraampere,
                        1e+12,
                        i18nc("electrical current unit symbol", "TA"),
@@ -68,7 +69,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 teraamperes"),
                        ki18ncp("amount in units (integer)", "%1 teraampere", "%1 teraamperes")));
 
-    addCommonUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                              Gigaampere,
                              1e+09,
                              i18nc("electrical current unit symbol", "GA"),
@@ -78,7 +79,7 @@ ElectricalCurrent::ElectricalCurrent()
                              ki18nc("amount in units (real)", "%1 gigaamperes"),
                              ki18ncp("amount in units (integer)", "%1 gigaampere", "%1 gigaamperes")));
 
-    addCommonUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                              Megaampere,
                              1e+06,
                              i18nc("electrical current unit symbol", "MA"),
@@ -88,7 +89,7 @@ ElectricalCurrent::ElectricalCurrent()
                              ki18nc("amount in units (real)", "%1 megaamperes"),
                              ki18ncp("amount in units (integer)", "%1 megaampere", "%1 megaamperes")));
 
-    addCommonUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                              Kiloampere,
                              1000,
                              i18nc("electrical current unit symbol", "kA"),
@@ -98,7 +99,7 @@ ElectricalCurrent::ElectricalCurrent()
                              ki18nc("amount in units (real)", "%1 kiloamperes"),
                              ki18ncp("amount in units (integer)", "%1 kiloampere", "%1 kiloamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Hectoampere,
                        100,
                        i18nc("electrical current unit symbol", "hA"),
@@ -108,7 +109,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 hectoamperes"),
                        ki18ncp("amount in units (integer)", "%1 hectoampere", "%1 hectoamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Decaampere,
                        10,
                        i18nc("electrical current unit symbol", "daA"),
@@ -118,7 +119,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 decaamperes"),
                        ki18ncp("amount in units (integer)", "%1 decaampere", "%1 decaamperes")));
 
-    addDefaultUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                               Ampere,
                               1,
                               i18nc("electrical current unit symbol", "A"),
@@ -128,7 +129,7 @@ ElectricalCurrent::ElectricalCurrent()
                               ki18nc("amount in units (real)", "%1 amperes"),
                               ki18ncp("amount in units (integer)", "%1 ampere", "%1 amperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Deciampere,
                        0.1,
                        i18nc("electrical current unit symbol", "dA"),
@@ -138,7 +139,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 deciamperes"),
                        ki18ncp("amount in units (integer)", "%1 deciampere", "%1 deciamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Centiampere,
                        0.01,
                        i18nc("electrical current unit symbol", "cA"),
@@ -148,7 +149,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 centiamperes"),
                        ki18ncp("amount in units (integer)", "%1 centiampere", "%1 centiamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Milliampere,
                        0.001,
                        i18nc("electrical current unit symbol", "mA"),
@@ -158,7 +159,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 milliamperes"),
                        ki18ncp("amount in units (integer)", "%1 milliampere", "%1 milliamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Microampere,
                        1e-06,
                        i18nc("electrical current unit symbol", "µA"),
@@ -168,7 +169,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 microamperes"),
                        ki18ncp("amount in units (integer)", "%1 microampere", "%1 microamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Nanoampere,
                        1e-09,
                        i18nc("electrical current unit symbol", "nA"),
@@ -178,7 +179,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 nanoamperes"),
                        ki18ncp("amount in units (integer)", "%1 nanoampere", "%1 nanoamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Picoampere,
                        1e-12,
                        i18nc("electrical current unit symbol", "pA"),
@@ -188,7 +189,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 picoamperes"),
                        ki18ncp("amount in units (integer)", "%1 picoampere", "%1 picoamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Femtoampere,
                        1e-15,
                        i18nc("electrical current unit symbol", "fA"),
@@ -198,7 +199,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 femtoamperes"),
                        ki18ncp("amount in units (integer)", "%1 femtoampere", "%1 femtoamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Attoampere,
                        1e-18,
                        i18nc("electrical current unit symbol", "aA"),
@@ -208,7 +209,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 attoamperes"),
                        ki18ncp("amount in units (integer)", "%1 attoampere", "%1 attoamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Zeptoampere,
                        1e-21,
                        i18nc("electrical current unit symbol", "zA"),
@@ -218,7 +219,7 @@ ElectricalCurrent::ElectricalCurrent()
                        ki18nc("amount in units (real)", "%1 zeptoamperes"),
                        ki18ncp("amount in units (integer)", "%1 zeptoampere", "%1 zeptoamperes")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalCurrentCategory,
                        Yoctoampere,
                        1e-24,
                        i18nc("electrical current unit symbol", "yA"),
@@ -227,6 +228,8 @@ ElectricalCurrent::ElectricalCurrent()
                        symbolString,
                        ki18nc("amount in units (real)", "%1 yoctoamperes"),
                        ki18ncp("amount in units (integer)", "%1 yoctoampere", "%1 yoctoamperes")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

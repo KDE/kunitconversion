@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Energy : public CustomCategory
+namespace Energy
 {
-public:
-    Energy();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class ThermalGeneration : public CustomCategory
+namespace ThermalGeneration
 {
-public:
-    ThermalGeneration();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Frequency : public CustomCategory
+namespace Frequency
 {
-public:
-    Frequency();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

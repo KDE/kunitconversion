@@ -13,10 +13,9 @@
 
 namespace KUnitConversion
 {
-class ElectricalResistance : public CustomCategory
+namespace ElectricalResistance
 {
-public:
-    ElectricalResistance();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

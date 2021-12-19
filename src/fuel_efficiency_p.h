@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class FuelEfficiency : public CustomCategory
+namespace FuelEfficiency
 {
-public:
-    FuelEfficiency();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

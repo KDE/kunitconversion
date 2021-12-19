@@ -13,10 +13,9 @@
 
 namespace KUnitConversion
 {
-class ElectricalCurrent : public CustomCategory
+namespace ElectricalCurrent
 {
-public:
-    ElectricalCurrent();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

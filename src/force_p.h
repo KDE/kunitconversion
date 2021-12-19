@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Force : public CustomCategory
+namespace Force
 {
-public:
-    Force();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

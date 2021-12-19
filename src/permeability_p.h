@@ -11,10 +11,9 @@
 
 namespace KUnitConversion
 {
-class Permeability : public CustomCategory
+namespace Permeability
 {
-public:
-    Permeability();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

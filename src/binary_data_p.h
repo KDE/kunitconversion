@@ -11,10 +11,9 @@
 
 namespace KUnitConversion
 {
-class BinaryData : public CustomCategory
+namespace BinaryData
 {
-public:
-    BinaryData();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

@@ -42,31 +42,31 @@ class ConverterPrivate : public QSharedData
 public:
     ConverterPrivate()
     {
-        m_categories[LengthCategory] = Length();
-        m_categories[AreaCategory] = Area();
-        m_categories[VolumeCategory] = Volume();
-        m_categories[TemperatureCategory] = Temperature();
-        m_categories[VelocityCategory] = Velocity();
-        m_categories[MassCategory] = Mass();
-        m_categories[PressureCategory] = Pressure();
-        m_categories[EnergyCategory] = Energy();
-        m_categories[CurrencyCategory] = Currency();
-        m_categories[PowerCategory] = Power();
-        m_categories[TimeCategory] = Time();
-        m_categories[FuelEfficiencyCategory] = FuelEfficiency();
-        m_categories[DensityCategory] = Density();
-        m_categories[AccelerationCategory] = Acceleration();
-        m_categories[ForceCategory] = Force();
-        m_categories[AngleCategory] = Angle();
-        m_categories[FrequencyCategory] = Frequency();
-        m_categories[ThermalConductivityCategory] = ThermalConductivity();
-        m_categories[ThermalFluxCategory] = ThermalFlux();
-        m_categories[ThermalGenerationCategory] = ThermalGeneration();
-        m_categories[VoltageCategory] = Voltage();
-        m_categories[ElectricalCurrentCategory] = ElectricalCurrent();
-        m_categories[ElectricalResistanceCategory] = ElectricalResistance();
-        m_categories[PermeabilityCategory] = Permeability();
-        m_categories[BinaryDataCategory] = BinaryData();
+        m_categories[LengthCategory] = Length::makeCategory();
+        m_categories[AreaCategory] = Area::makeCategory();
+        m_categories[VolumeCategory] = Volume::makeCategory();
+        m_categories[TemperatureCategory] = Temperature::makeCategory();
+        m_categories[VelocityCategory] = Velocity::makeCategory();
+        m_categories[MassCategory] = Mass::makeCategory();
+        m_categories[PressureCategory] = Pressure::makeCategory();
+        m_categories[EnergyCategory] = Energy::makeCategory();
+        m_categories[CurrencyCategory] = Currency::makeCategory();
+        m_categories[PowerCategory] = Power::makeCategory();
+        m_categories[TimeCategory] = Time::makeCategory();
+        m_categories[FuelEfficiencyCategory] = FuelEfficiency::makeCategory();
+        m_categories[DensityCategory] = Density::makeCategory();
+        m_categories[AccelerationCategory] = Acceleration::makeCategory();
+        m_categories[ForceCategory] = Force::makeCategory();
+        m_categories[AngleCategory] = Angle::makeCategory();
+        m_categories[FrequencyCategory] = Frequency::makeCategory();
+        m_categories[ThermalConductivityCategory] = ThermalConductivity::makeCategory();
+        m_categories[ThermalFluxCategory] = ThermalFlux::makeCategory();
+        m_categories[ThermalGenerationCategory] = ThermalGeneration::makeCategory();
+        m_categories[VoltageCategory] = Voltage::makeCategory();
+        m_categories[ElectricalCurrentCategory] = ElectricalCurrent::makeCategory();
+        m_categories[ElectricalResistanceCategory] = ElectricalResistance::makeCategory();
+        m_categories[PermeabilityCategory] = Permeability::makeCategory();
+        m_categories[BinaryDataCategory] = BinaryData::makeCategory();
     }
 
     virtual ~ConverterPrivate()

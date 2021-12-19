@@ -40,12 +40,13 @@ public:
     }
 };
 
-Angle::Angle()
-    : CustomCategory(AngleCategory, i18n("Angle"), i18n("Angle"))
+UnitCategory Angle::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(AngleCategory, i18n("Angle"), i18n("Angle"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (angle)", "%1 %2");
 
-    addDefaultUnit(UnitPrivate::makeUnit(AngleCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(AngleCategory,
                               Degree,
                               1,
                               i18nc("angle unit symbol", "°"),
@@ -55,7 +56,7 @@ Angle::Angle()
                               ki18nc("amount in units (real)", "%1 degrees"),
                               ki18ncp("amount in units (integer)", "%1 degree", "%1 degrees")));
 
-    addCommonUnit(UnitPrivate::makeUnit(new RadiansUnitPrivate(AngleCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(new RadiansUnitPrivate(AngleCategory,
                                                     Radian,
                                                     1.0,
                                                     i18nc("angle unit symbol", "rad"),
@@ -65,7 +66,7 @@ Angle::Angle()
                                                     ki18nc("amount in units (real)", "%1 radians"),
                                                     ki18ncp("amount in units (integer)", "%1 radian", "%1 radians"))));
 
-    addUnit(UnitPrivate::makeUnit(AngleCategory,
+    d->addUnit(UnitPrivate::makeUnit(AngleCategory,
                        Gradian,
                        360.0 / 400.0,
                        i18nc("angle unit symbol", "grad"),
@@ -75,7 +76,7 @@ Angle::Angle()
                        ki18nc("amount in units (real)", "%1 gradians"),
                        ki18ncp("amount in units (integer)", "%1 gradian", "%1 gradians")));
 
-    addCommonUnit(UnitPrivate::makeUnit(AngleCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(AngleCategory,
                              ArcMinute,
                              1.0 / 60.0,
                              i18nc("angle unit symbol", "'"),
@@ -85,7 +86,7 @@ Angle::Angle()
                              ki18nc("amount in units (real)", "%1 arc minutes"),
                              ki18ncp("amount in units (integer)", "%1 arc minute", "%1 arc minutes")));
 
-    addCommonUnit(UnitPrivate::makeUnit(AngleCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(AngleCategory,
                              ArcSecond,
                              1.0 / 3600.0,
                              i18nc("angle unit symbol", "\""),
@@ -94,6 +95,8 @@ Angle::Angle()
                              symbolString,
                              ki18nc("amount in units (real)", "%1 arc seconds"),
                              ki18ncp("amount in units (integer)", "%1 arc second", "%1 arc seconds")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

@@ -13,12 +13,13 @@
 
 namespace KUnitConversion
 {
-ElectricalResistance::ElectricalResistance()
-    : CustomCategory(ElectricalResistanceCategory, i18n("Resistance"), i18n("Resistance"))
+UnitCategory ElectricalResistance::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(ElectricalResistanceCategory, i18n("Resistance"), i18n("Resistance"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (electrical resistance", "%1 %2");
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Yottaohms,
                        1e+24,
                        i18nc("electrical resistance unit symbol", "YΩ"),
@@ -28,7 +29,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 yottaohms"),
                        ki18ncp("amount in units (integer)", "%1 yottaohm", "%1 yottaohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Zettaohms,
                        1e+21,
                        i18nc("electrical resistance unit symbol", "ZΩ"),
@@ -38,7 +39,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 zettaohms"),
                        ki18ncp("amount in units (integer)", "%1 zettaohm", "%1 zettaohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Exaohms,
                        1e+18,
                        i18nc("electrical resistance unit symbol", "EΩ"),
@@ -48,7 +49,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 exaohms"),
                        ki18ncp("amount in units (integer)", "%1 exaohm", "%1 exaohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Petaohms,
                        1e+15,
                        i18nc("electrical resistance unit symbol", "PΩ"),
@@ -58,7 +59,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 petaohms"),
                        ki18ncp("amount in units (integer)", "%1 petaohm", "%1 petaohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Teraohms,
                        1e+12,
                        i18nc("electrical resistance unit symbol", "TΩ"),
@@ -68,7 +69,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 teraohms"),
                        ki18ncp("amount in units (integer)", "%1 teraohm", "%1 teraohms")));
 
-    addCommonUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                              Gigaohms,
                              1e+09,
                              i18nc("electrical resistance unit symbol", "GΩ"),
@@ -78,7 +79,7 @@ ElectricalResistance::ElectricalResistance()
                              ki18nc("amount in units (real)", "%1 gigaohms"),
                              ki18ncp("amount in units (integer)", "%1 gigaohm", "%1 gigaohms")));
 
-    addCommonUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                              Megaohms,
                              1e+06,
                              i18nc("electrical resistance unit symbol", "MΩ"),
@@ -88,7 +89,7 @@ ElectricalResistance::ElectricalResistance()
                              ki18nc("amount in units (real)", "%1 megaohms"),
                              ki18ncp("amount in units (integer)", "%1 megaohm", "%1 megaohms")));
 
-    addCommonUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                              Kiloohms,
                              1000,
                              i18nc("electrical resistance unit symbol", "kΩ"),
@@ -98,7 +99,7 @@ ElectricalResistance::ElectricalResistance()
                              ki18nc("amount in units (real)", "%1 kiloohms"),
                              ki18ncp("amount in units (integer)", "%1 kiloohm", "%1 kiloohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Hectoohms,
                        100,
                        i18nc("electrical resistance unit symbol", "hΩ"),
@@ -108,7 +109,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 hectoohms"),
                        ki18ncp("amount in units (integer)", "%1 hectoohm", "%1 hectoohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Decaohms,
                        10,
                        i18nc("electrical resistance unit symbol", "daΩ"),
@@ -118,7 +119,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 decaohms"),
                        ki18ncp("amount in units (integer)", "%1 decaohm", "%1 decaohms")));
 
-    addDefaultUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                               Ohms,
                               1,
                               i18nc("electrical resistance unit symbol", "Ω"),
@@ -128,7 +129,7 @@ ElectricalResistance::ElectricalResistance()
                               ki18nc("amount in units (real)", "%1 ohms"),
                               ki18ncp("amount in units (integer)", "%1 ohm", "%1 ohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Deciohms,
                        0.1,
                        i18nc("electrical resistance unit symbol", "dΩ"),
@@ -138,7 +139,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 deciohms"),
                        ki18ncp("amount in units (integer)", "%1 deciohm", "%1 deciohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Centiohms,
                        0.01,
                        i18nc("electrical resistance unit symbol", "cΩ"),
@@ -148,7 +149,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 centiohms"),
                        ki18ncp("amount in units (integer)", "%1 centiohm", "%1 centiohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Milliohms,
                        0.001,
                        i18nc("electrical resistance unit symbol", "mΩ"),
@@ -158,7 +159,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 milliohms"),
                        ki18ncp("amount in units (integer)", "%1 milliohm", "%1 milliohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Microohms,
                        1e-06,
                        i18nc("electrical resistance unit symbol", "µΩ"),
@@ -168,7 +169,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 microohms"),
                        ki18ncp("amount in units (integer)", "%1 microohm", "%1 microohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Nanoohms,
                        1e-09,
                        i18nc("electrical resistance unit symbol", "nΩ"),
@@ -178,7 +179,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 nanoohms"),
                        ki18ncp("amount in units (integer)", "%1 nanoohm", "%1 nanoohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Picoohms,
                        1e-12,
                        i18nc("electrical resistance unit symbol", "pΩ"),
@@ -188,7 +189,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 picoohms"),
                        ki18ncp("amount in units (integer)", "%1 picoohm", "%1 picoohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Femtoohms,
                        1e-15,
                        i18nc("electrical resistance unit symbol", "fΩ"),
@@ -198,7 +199,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 femtoohms"),
                        ki18ncp("amount in units (integer)", "%1 femtoohm", "%1 femtoohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Attoohms,
                        1e-18,
                        i18nc("electrical resistance unit symbol", "aΩ"),
@@ -208,7 +209,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 attoohms"),
                        ki18ncp("amount in units (integer)", "%1 attoohm", "%1 attoohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Zeptoohms,
                        1e-21,
                        i18nc("electrical resistance unit symbol", "zΩ"),
@@ -218,7 +219,7 @@ ElectricalResistance::ElectricalResistance()
                        ki18nc("amount in units (real)", "%1 zeptoohms"),
                        ki18ncp("amount in units (integer)", "%1 zeptoohm", "%1 zeptoohms")));
 
-    addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
+    d->addUnit(UnitPrivate::makeUnit(ElectricalResistanceCategory,
                        Yoctoohms,
                        1e-24,
                        i18nc("electrical resistance unit symbol", "yΩ"),
@@ -227,6 +228,8 @@ ElectricalResistance::ElectricalResistance()
                        symbolString,
                        ki18nc("amount in units (real)", "%1 yoctoohms"),
                        ki18ncp("amount in units (integer)", "%1 yoctoohm", "%1 yoctoohms")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

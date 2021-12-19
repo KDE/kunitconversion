@@ -206,33 +206,48 @@ QString UnitCategory::description() const
 void UnitCategory::addDefaultUnit(const Unit &unit)
 {
     if (d) {
-        addCommonUnit(unit);
-        d->m_defaultUnit = unit;
+        d->addDefaultUnit(unit);
     }
+}
+
+void UnitCategoryPrivate::addDefaultUnit(const Unit &unit)
+{
+    addCommonUnit(unit);
+    m_defaultUnit = unit;
 }
 
 void UnitCategory::addCommonUnit(const Unit &unit)
 {
     if (d) {
-        addUnit(unit);
-        d->m_mostCommonUnits.append(unit);
+        d->addCommonUnit(unit);
     }
+}
+
+void UnitCategoryPrivate::addCommonUnit(const Unit &unit)
+{
+    addUnit(unit);
+    m_mostCommonUnits.append(unit);
 }
 
 void UnitCategory::addUnit(const Unit &unit)
 {
     if (d) {
-        // ### this is emulating a weak_ptr to break a reference cycle between Unit and UnitCategory
-        // ### even without that, this is slicing the polymorphic part of UnitCategory
-        // this only works by chance as apart from the ctors those parts contain no logic or data it seems
-        unit.d->m_category = d.data();
-        const QStringList list = unit.d->m_matchString.split(QLatin1Char(';'));
-        for (const QString &name : list) {
-            d->m_unitMap[name] = unit;
-        }
-        d->m_idMap[unit.id()] = unit;
-        d->m_units.append(unit);
+        d->addUnit(unit);
     }
+}
+
+void UnitCategoryPrivate::addUnit(const Unit &unit)
+{
+    // ### this is emulating a weak_ptr to break a reference cycle between Unit and UnitCategory
+    // ### even without that, this is slicing the polymorphic part of UnitCategory
+    // this only works by chance as apart from the ctors those parts contain no logic or data it seems
+    unit.d->m_category = this;
+    const QStringList list = unit.d->m_matchString.split(QLatin1Char(';'));
+    for (const QString &name : list) {
+        m_unitMap[name] = unit;
+    }
+    m_idMap[unit.id()] = unit;
+    m_units.append(unit);
 }
 
 bool UnitCategory::hasOnlineConversionTable() const

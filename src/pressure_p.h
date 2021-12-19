@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Pressure : public CustomCategory
+namespace Pressure
 {
-public:
-    Pressure();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

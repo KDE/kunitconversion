@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Length : public CustomCategory
+namespace Length
 {
-public:
-    Length();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Volume : public CustomCategory
+namespace Volume
 {
-public:
-    Volume();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

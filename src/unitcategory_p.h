@@ -40,6 +40,24 @@ public:
         return;
     }
 
+    void addDefaultUnit(const Unit &unit);
+    void addCommonUnit(const Unit &unit);
+    void addUnit(const Unit &unit);
+
+    static inline UnitCategoryPrivate* get(const UnitCategory &category)
+    {
+        return category.d.data();
+    }
+
+    static inline UnitCategory makeCategory(CategoryId id, const QString &name, const QString &description)
+    {
+        return UnitCategory(new UnitCategoryPrivate(id, name, description));
+    }
+    static inline UnitCategory makeCategory(UnitCategoryPrivate *dd)
+    {
+        return UnitCategory(dd);
+    }
+
     CategoryId m_id;
     QString m_name;
     QString m_description;
@@ -49,24 +67,6 @@ public:
     QMap<UnitId, Unit> m_idMap;
     QList<Unit> m_units;
     QList<Unit> m_mostCommonUnits;
-};
-
-class CustomCategory : public UnitCategory
-{
-public:
-    CustomCategory(UnitCategoryPrivate *dd)
-        : UnitCategory(dd)
-    {
-    }
-
-    CustomCategory(CategoryId id, const QString &name, const QString &description)
-        : UnitCategory(new UnitCategoryPrivate(id, name, description))
-    {
-    }
-
-    ~CustomCategory() override
-    {
-    }
 };
 
 } // KUnitConversion namespace

@@ -39,12 +39,13 @@ public:
     }
 };
 
-BinaryData::BinaryData()
-    : CustomCategory(BinaryDataCategory, i18n("Binary Data"), i18n("Binary Data Size"))
+UnitCategory BinaryData::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(BinaryDataCategory, i18n("Binary Data"), i18n("Binary Data Size"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (binary data)", "%1 %2");
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Yobibyte,
                                                        83,
                                                        i18nc("binary data unit symbol", "YiB"),
@@ -54,7 +55,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 yobibytes"),
                                                        ki18ncp("amount in units (integer)", "%1 yobibyte", "%1 yobibytes"))));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Yobibit,
                                                        80,
                                                        i18nc("binary data unit symbol", "Yib"),
@@ -64,7 +65,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 yobibits"),
                                                        ki18ncp("amount in units (integer)", "%1 yobibit", "%1 yobibits"))));
 
-    addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                        Yottabyte,
                        8e+24,
                        i18nc("binary data unit symbol", "YB"),
@@ -74,7 +75,7 @@ BinaryData::BinaryData()
                        ki18nc("amount in units (real)", "%1 yottabytes"),
                        ki18ncp("amount in units (integer)", "%1 yottabyte", "%1 yottabytes")));
 
-    addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                        Yottabit,
                        1e+24,
                        i18nc("binary data unit symbol", "Yb"),
@@ -84,7 +85,7 @@ BinaryData::BinaryData()
                        ki18nc("amount in units (real)", "%1 yottabits"),
                        ki18ncp("amount in units (integer)", "%1 yottabit", "%1 yottabits")));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Zebibyte,
                                                        73,
                                                        i18nc("binary data unit symbol", "ZiB"),
@@ -94,7 +95,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 zebibytes"),
                                                        ki18ncp("amount in units (integer)", "%1 zebibyte", "%1 zebibytes"))));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Zebibit,
                                                        70,
                                                        i18nc("binary data unit symbol", "Zib"),
@@ -104,7 +105,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 zebibits"),
                                                        ki18ncp("amount in units (integer)", "%1 zebibit", "%1 zebibits"))));
 
-    addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                        Zettabyte,
                        8e+21,
                        i18nc("binary data unit symbol", "ZB"),
@@ -114,7 +115,7 @@ BinaryData::BinaryData()
                        ki18nc("amount in units (real)", "%1 zettabytes"),
                        ki18ncp("amount in units (integer)", "%1 zettabyte", "%1 zettabytes")));
 
-    addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                        Zettabit,
                        1e+21,
                        i18nc("binary data unit symbol", "Zb"),
@@ -124,7 +125,7 @@ BinaryData::BinaryData()
                        ki18nc("amount in units (real)", "%1 zettabits"),
                        ki18ncp("amount in units (integer)", "%1 zettabit", "%1 zettabits")));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Exbibyte,
                                                        63,
                                                        i18nc("binary data unit symbol", "EiB"),
@@ -134,7 +135,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 exbibytes"),
                                                        ki18ncp("amount in units (integer)", "%1 exbibyte", "%1 exbibytes"))));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Exbibit,
                                                        60,
                                                        i18nc("binary data unit symbol", "Eib"),
@@ -144,7 +145,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 exbibits"),
                                                        ki18ncp("amount in units (integer)", "%1 exbibit", "%1 exbibits"))));
 
-    addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                        Exabyte,
                        8e+18,
                        i18nc("binary data unit symbol", "EB"),
@@ -154,7 +155,7 @@ BinaryData::BinaryData()
                        ki18nc("amount in units (real)", "%1 exabytes"),
                        ki18ncp("amount in units (integer)", "%1 exabyte", "%1 exabytes")));
 
-    addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                        Exabit,
                        1e+18,
                        i18nc("binary data unit symbol", "Eb"),
@@ -164,7 +165,7 @@ BinaryData::BinaryData()
                        ki18nc("amount in units (real)", "%1 exabits"),
                        ki18ncp("amount in units (integer)", "%1 exabit", "%1 exabits")));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Pebibyte,
                                                        53,
                                                        i18nc("binary data unit symbol", "PiB"),
@@ -174,7 +175,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 pebibytes"),
                                                        ki18ncp("amount in units (integer)", "%1 pebibyte", "%1 pebibytes"))));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Pebibit,
                                                        50,
                                                        i18nc("binary data unit symbol", "Pib"),
@@ -184,7 +185,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 pebibits"),
                                                        ki18ncp("amount in units (integer)", "%1 pebibit", "%1 pebibits"))));
 
-    addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                        Petabyte,
                        8e+15,
                        i18nc("binary data unit symbol", "PB"),
@@ -194,7 +195,7 @@ BinaryData::BinaryData()
                        ki18nc("amount in units (real)", "%1 petabytes"),
                        ki18ncp("amount in units (integer)", "%1 petabyte", "%1 petabytes")));
 
-    addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                        Petabit,
                        1e+15,
                        i18nc("binary data unit symbol", "Pb"),
@@ -204,7 +205,7 @@ BinaryData::BinaryData()
                        ki18nc("amount in units (real)", "%1 petabits"),
                        ki18ncp("amount in units (integer)", "%1 petabit", "%1 petabits")));
 
-    addCommonUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                              Tebibyte,
                                                              43,
                                                              i18nc("binary data unit symbol", "TiB"),
@@ -214,7 +215,7 @@ BinaryData::BinaryData()
                                                              ki18nc("amount in units (real)", "%1 tebibytes"),
                                                              ki18ncp("amount in units (integer)", "%1 tebibyte", "%1 tebibytes"))));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Tebibit,
                                                        40,
                                                        i18nc("binary data unit symbol", "Tib"),
@@ -224,7 +225,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 tebibits"),
                                                        ki18ncp("amount in units (integer)", "%1 tebibit", "%1 tebibits"))));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Terabyte,
                              8e+12,
                              i18nc("binary data unit symbol", "TB"),
@@ -234,7 +235,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 terabytes"),
                              ki18ncp("amount in units (integer)", "%1 terabyte", "%1 terabytes")));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Terabit,
                              1e+12,
                              i18nc("binary data unit symbol", "Tb"),
@@ -244,7 +245,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 terabits"),
                              ki18ncp("amount in units (integer)", "%1 terabit", "%1 terabits")));
 
-    addCommonUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                              Gibibyte,
                                                              33,
                                                              i18nc("binary data unit symbol", "GiB"),
@@ -254,7 +255,7 @@ BinaryData::BinaryData()
                                                              ki18nc("amount in units (real)", "%1 gibibytes"),
                                                              ki18ncp("amount in units (integer)", "%1 gibibyte", "%1 gibibytes"))));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Gibibit,
                                                        30,
                                                        i18nc("binary data unit symbol", "Gib"),
@@ -264,7 +265,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 gibibits"),
                                                        ki18ncp("amount in units (integer)", "%1 gibibit", "%1 gibibits"))));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Gigabyte,
                              8e+09,
                              i18nc("binary data unit symbol", "GB"),
@@ -274,7 +275,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 gigabytes"),
                              ki18ncp("amount in units (integer)", "%1 gigabyte", "%1 gigabytes")));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Gigabit,
                              1e+09,
                              i18nc("binary data unit symbol", "Gb"),
@@ -284,7 +285,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 gigabits"),
                              ki18ncp("amount in units (integer)", "%1 gigabit", "%1 gigabits")));
 
-    addCommonUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                              Mebibyte,
                                                              23,
                                                              i18nc("binary data unit symbol", "MiB"),
@@ -294,7 +295,7 @@ BinaryData::BinaryData()
                                                              ki18nc("amount in units (real)", "%1 mebibytes"),
                                                              ki18ncp("amount in units (integer)", "%1 mebibyte", "%1 mebibytes"))));
 
-    addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(new BinaryPowerOfTwoUnitPrivate(BinaryDataCategory,
                                                        Mebibit,
                                                        20,
                                                        i18nc("binary data unit symbol", "Mib"),
@@ -304,7 +305,7 @@ BinaryData::BinaryData()
                                                        ki18nc("amount in units (real)", "%1 mebibits"),
                                                        ki18ncp("amount in units (integer)", "%1 mebibit", "%1 mebibits"))));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Megabyte,
                              8e+06,
                              i18nc("binary data unit symbol", "MB"),
@@ -314,7 +315,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 megabytes"),
                              ki18ncp("amount in units (integer)", "%1 megabyte", "%1 megabytes")));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Megabit,
                              1e+06,
                              i18nc("binary data unit symbol", "Mb"),
@@ -324,7 +325,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 megabits"),
                              ki18ncp("amount in units (integer)", "%1 megabit", "%1 megabits")));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Kibibyte,
                              8192,
                              i18nc("binary data unit symbol", "KiB"),
@@ -334,7 +335,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 kibibytes"),
                              ki18ncp("amount in units (integer)", "%1 kibibyte", "%1 kibibytes")));
 
-    addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                        Kibibit,
                        1024,
                        i18nc("binary data unit symbol", "Kib"),
@@ -344,7 +345,7 @@ BinaryData::BinaryData()
                        ki18nc("amount in units (real)", "%1 kibibits"),
                        ki18ncp("amount in units (integer)", "%1 kibibit", "%1 kibibits")));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Kilobyte,
                              8000,
                              i18nc("binary data unit symbol", "kB"),
@@ -354,7 +355,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 kilobytes"),
                              ki18ncp("amount in units (integer)", "%1 kilobyte", "%1 kilobytes")));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Kilobit,
                              1000,
                              i18nc("binary data unit symbol", "kb"),
@@ -364,7 +365,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 kilobits"),
                              ki18ncp("amount in units (integer)", "%1 kilobit", "%1 kilobits")));
 
-    addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Byte,
                              8,
                              i18nc("binary data unit symbol", "B"),
@@ -374,7 +375,7 @@ BinaryData::BinaryData()
                              ki18nc("amount in units (real)", "%1 bytes"),
                              ki18ncp("amount in units (integer)", "%1 byte", "%1 bytes")));
 
-    addDefaultUnit(UnitPrivate::makeUnit(BinaryDataCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                               Bit,
                               1,
                               i18nc("binary data unit symbol", "b"),
@@ -383,6 +384,8 @@ BinaryData::BinaryData()
                               symbolString,
                               ki18nc("amount in units (real)", "%1 bits"),
                               ki18ncp("amount in units (integer)", "%1 bit", "%1 bits")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

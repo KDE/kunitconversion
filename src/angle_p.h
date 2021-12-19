@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Angle : public CustomCategory
+namespace Angle
 {
-public:
-    Angle();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

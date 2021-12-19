@@ -12,12 +12,13 @@
 
 namespace KUnitConversion
 {
-ThermalGeneration::ThermalGeneration()
-    : CustomCategory(ThermalGenerationCategory, i18n("Thermal Generation"), i18n("Thermal Generation"))
+UnitCategory ThermalGeneration::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(ThermalGenerationCategory, i18n("Thermal Generation"), i18n("Thermal Generation"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (thermal generation)", "%1 %2");
 
-    addDefaultUnit(UnitPrivate::makeUnit(ThermalGenerationCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(ThermalGenerationCategory,
                               WattPerCubicMeter,
                               1,
                               i18nc("thermal generation unit symbol", "W/m³"),
@@ -27,7 +28,7 @@ ThermalGeneration::ThermalGeneration()
                               ki18nc("amount in units (real)", "%1 watts per cubic meter"),
                               ki18ncp("amount in units (integer)", "%1 watt per cubic meter", "%1 watts per cubic meter")));
 
-    addCommonUnit(UnitPrivate::makeUnit(ThermalGenerationCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(ThermalGenerationCategory,
                              BtuPerHourPerCubicFoot,
                              0.09662,
                              i18nc("thermal generation unit symbol", "Btu/hr/ft³"),
@@ -36,6 +37,8 @@ ThermalGeneration::ThermalGeneration()
                              symbolString,
                              ki18nc("amount in units (real)", "%1 btu per hour per cubic foot"),
                              ki18ncp("amount in units (integer)", "%1 btu per hour per cubic foot", "%1 btu per hour per cubic foot")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

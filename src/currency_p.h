@@ -13,16 +13,17 @@
 
 namespace KUnitConversion
 {
-class KUNITCONVERSION_EXPORT Currency : public CustomCategory
+namespace Currency
 {
-public:
-    Currency();
+    UnitCategory makeCategory();
     /**
      * @brief Provides time of last conversion table update for usage in tests
      *
      * If no conversion table is available the QDateTime object is a null datetime.
+     *
+     * @internal exported for unit tests only
      */
-    static QDateTime lastConversionTableUpdate();
+    KUNITCONVERSION_EXPORT QDateTime lastConversionTableUpdate();
 };
 
 }

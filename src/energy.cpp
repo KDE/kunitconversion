@@ -39,12 +39,13 @@ public:
     }
 };
 
-Energy::Energy()
-    : CustomCategory(EnergyCategory, i18n("Energy"), i18n("Energy"))
+UnitCategory Energy::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(EnergyCategory, i18n("Energy"), i18n("Energy"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (energy)", "%1 %2");
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Yottajoule,
                        1e+24,
                        i18nc("energy unit symbol", "YJ"),
@@ -54,7 +55,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 yottajoules"),
                        ki18ncp("amount in units (integer)", "%1 yottajoule", "%1 yottajoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Zettajoule,
                        1e+21,
                        i18nc("energy unit symbol", "ZJ"),
@@ -64,7 +65,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 zettajoules"),
                        ki18ncp("amount in units (integer)", "%1 zettajoule", "%1 zettajoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Exajoule,
                        1e+18,
                        i18nc("energy unit symbol", "EJ"),
@@ -74,7 +75,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 exajoules"),
                        ki18ncp("amount in units (integer)", "%1 exajoule", "%1 exajoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Petajoule,
                        1e+15,
                        i18nc("energy unit symbol", "PJ"),
@@ -84,7 +85,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 petajoules"),
                        ki18ncp("amount in units (integer)", "%1 petajoule", "%1 petajoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Terajoule,
                        1e+12,
                        i18nc("energy unit symbol", "TJ"),
@@ -94,7 +95,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 terajoules"),
                        ki18ncp("amount in units (integer)", "%1 terajoule", "%1 terajoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Gigajoule,
                        1e+09,
                        i18nc("energy unit symbol", "GJ"),
@@ -104,7 +105,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 gigajoules"),
                        ki18ncp("amount in units (integer)", "%1 gigajoule", "%1 gigajoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Megajoule,
                        1e+06,
                        i18nc("energy unit symbol", "MJ"),
@@ -114,7 +115,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 megajoules"),
                        ki18ncp("amount in units (integer)", "%1 megajoule", "%1 megajoules")));
 
-    addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
                              Kilojoule,
                              1000,
                              i18nc("energy unit symbol", "kJ"),
@@ -124,7 +125,7 @@ Energy::Energy()
                              ki18nc("amount in units (real)", "%1 kilojoules"),
                              ki18ncp("amount in units (integer)", "%1 kilojoule", "%1 kilojoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Hectojoule,
                        100,
                        i18nc("energy unit symbol", "hJ"),
@@ -134,7 +135,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 hectojoules"),
                        ki18ncp("amount in units (integer)", "%1 hectojoule", "%1 hectojoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Decajoule,
                        10,
                        i18nc("energy unit symbol", "daJ"),
@@ -144,7 +145,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 decajoules"),
                        ki18ncp("amount in units (integer)", "%1 decajoule", "%1 decajoules")));
 
-    addDefaultUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(EnergyCategory,
                               Joule,
                               1,
                               i18nc("energy unit symbol", "J"),
@@ -154,7 +155,7 @@ Energy::Energy()
                               ki18nc("amount in units (real)", "%1 joules"),
                               ki18ncp("amount in units (integer)", "%1 joule", "%1 joules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Decijoule,
                        0.1,
                        i18nc("energy unit symbol", "dJ"),
@@ -164,7 +165,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 decijoules"),
                        ki18ncp("amount in units (integer)", "%1 decijoule", "%1 decijoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Centijoule,
                        0.01,
                        i18nc("energy unit symbol", "cJ"),
@@ -174,7 +175,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 centijoules"),
                        ki18ncp("amount in units (integer)", "%1 centijoule", "%1 centijoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Millijoule,
                        0.001,
                        i18nc("energy unit symbol", "mJ"),
@@ -184,7 +185,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 millijoules"),
                        ki18ncp("amount in units (integer)", "%1 millijoule", "%1 millijoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Microjoule,
                        1e-06,
                        i18nc("energy unit symbol", "µJ"),
@@ -194,7 +195,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 microjoules"),
                        ki18ncp("amount in units (integer)", "%1 microjoule", "%1 microjoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Nanojoule,
                        1e-09,
                        i18nc("energy unit symbol", "nJ"),
@@ -204,7 +205,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 nanojoules"),
                        ki18ncp("amount in units (integer)", "%1 nanojoule", "%1 nanojoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Picojoule,
                        1e-12,
                        i18nc("energy unit symbol", "pJ"),
@@ -214,7 +215,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 picojoules"),
                        ki18ncp("amount in units (integer)", "%1 picojoule", "%1 picojoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Femtojoule,
                        1e-15,
                        i18nc("energy unit symbol", "fJ"),
@@ -224,7 +225,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 femtojoules"),
                        ki18ncp("amount in units (integer)", "%1 femtojoule", "%1 femtojoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Attojoule,
                        1e-18,
                        i18nc("energy unit symbol", "aJ"),
@@ -234,7 +235,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 attojoules"),
                        ki18ncp("amount in units (integer)", "%1 attojoule", "%1 attojoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Zeptojoule,
                        1e-21,
                        i18nc("energy unit symbol", "zJ"),
@@ -244,7 +245,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 zeptojoules"),
                        ki18ncp("amount in units (integer)", "%1 zeptojoule", "%1 zeptojoules")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Yoctojoule,
                        1e-24,
                        i18nc("energy unit symbol", "yJ"),
@@ -254,7 +255,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 yoctojoules"),
                        ki18ncp("amount in units (integer)", "%1 yoctojoule", "%1 yoctojoules")));
 
-    addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
                              GuidelineDailyAmount,
                              8.3736e+06,
                              i18nc("energy unit symbol", "GDA"),
@@ -264,7 +265,7 @@ Energy::Energy()
                              ki18nc("amount in units (real)", "%1 guideline daily amount"),
                              ki18ncp("amount in units (integer)", "%1 guideline daily amount", "%1 guideline daily amount")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Electronvolt,
                        1.60218e-19,
                        i18nc("energy unit symbol", "eV"),
@@ -274,7 +275,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 electronvolts"),
                        ki18ncp("amount in units (integer)", "%1 electronvolt", "%1 electronvolts")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        JoulePerMole,
                        1.66054238581e-24,
                        i18nc("energy unit symbol", "J/mol"),
@@ -284,7 +285,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 joules per mole"),
                        ki18ncp("amount in units (integer)", "%1 joule per mole", "%1 joules per mole")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        KiloJoulePerMole,
                        1.66054238581e-21,
                        i18nc("energy unit symbol", "kJ/mol"),
@@ -294,7 +295,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 kilojoules per mole"),
                        ki18ncp("amount in units (integer)", "%1 kilojoule per mole", "%1 kilojoules per mole")));
 
-    addUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(EnergyCategory,
                        Rydberg,
                        2.17987e-18,
                        i18nc("energy unit symbol", "Ry"),
@@ -304,7 +305,7 @@ Energy::Energy()
                        ki18nc("amount in units (real)", "%1 rydbergs"),
                        ki18ncp("amount in units (integer)", "%1 rydberg", "%1 rydbergs")));
 
-    addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
                              Kilocalorie,
                              4186.8,
                              i18nc("energy unit symbol", "kcal"),
@@ -314,7 +315,7 @@ Energy::Energy()
                              ki18nc("amount in units (real)", "%1 kilocalories"),
                              ki18ncp("amount in units (integer)", "%1 kilocalorie", "%1 kilocalories")));
 
-    addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
                              Btu,
                              1055.05585,
                              i18nc("energy unit symbol", "BTU"),
@@ -324,7 +325,7 @@ Energy::Energy()
                              ki18nc("amount in units (real)", "%1 BTU"),
                              ki18ncp("amount in units (integer)", "%1 BTU", "%1 BTU")));
 
-    addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(EnergyCategory,
                              Erg,
                              1.0e-7,
                              i18nc("energy unit symbol", "Erg"),
@@ -334,7 +335,7 @@ Energy::Energy()
                              ki18nc("amount in units (real)", "%1 ergs"),
                              ki18ncp("amount in units (integer)", "%1 erg", "%1 erg")));
 
-    addUnit(UnitPrivate::makeUnit(new PhotoUnitPrivate(EnergyCategory,
+    d->addUnit(UnitPrivate::makeUnit(new PhotoUnitPrivate(EnergyCategory,
                                             PhotonWavelength,
                                             1.0,
                                             i18nc("energy unit symbol", "nm"),
@@ -343,6 +344,8 @@ Energy::Energy()
                                             symbolString,
                                             ki18nc("amount in units (real)", "%1 nanometers"),
                                             ki18ncp("amount in units (integer)", "%1 nanometer", "%1 nanometers"))));
+
+    return c;
 }
 
 } // KUnitConversion namespace

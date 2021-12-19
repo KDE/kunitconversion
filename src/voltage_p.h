@@ -13,10 +13,9 @@
 
 namespace KUnitConversion
 {
-class Voltage : public CustomCategory
+namespace Voltage
 {
-public:
-    Voltage();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

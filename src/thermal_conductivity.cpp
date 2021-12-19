@@ -12,12 +12,13 @@
 
 namespace KUnitConversion
 {
-ThermalConductivity::ThermalConductivity()
-    : CustomCategory(ThermalConductivityCategory, i18n("Thermal Conductivity"), i18n("Thermal Conductivity"))
+UnitCategory ThermalConductivity::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(ThermalConductivityCategory, i18n("Thermal Conductivity"), i18n("Thermal Conductivity"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (thermal conductivity)", "%1 %2");
 
-    addDefaultUnit(UnitPrivate::makeUnit(ThermalConductivityCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(ThermalConductivityCategory,
                               WattPerMeterKelvin,
                               1,
                               i18nc("thermal conductivity unit symbol", "W/m·K"),
@@ -27,7 +28,7 @@ ThermalConductivity::ThermalConductivity()
                               ki18nc("amount in units (real)", "%1 watts per meter kelvin"),
                               ki18ncp("amount in units (integer)", "%1 watt per meter kelvin", "%1 watts per meter kelvin")));
 
-    addCommonUnit(UnitPrivate::makeUnit(ThermalConductivityCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(ThermalConductivityCategory,
                              BtuPerFootHourFahrenheit,
                              0.5779,
                              i18nc("thermal conductivity unit symbol", "Btu/ft·hr·°F"),
@@ -38,7 +39,7 @@ ThermalConductivity::ThermalConductivity()
                              ki18nc("amount in units (real)", "%1 btu per foot hour degree Fahrenheit"),
                              ki18ncp("amount in units (integer)", "%1 btu per foot hour degree Fahrenheit", "%1 btu per foot hour degree Fahrenheit")));
 
-    addCommonUnit(UnitPrivate::makeUnit(ThermalConductivityCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(ThermalConductivityCategory,
                              BtuPerSquareFootHourFahrenheitPerInch,
                              6.9348,
                              i18nc("thermal conductivity unit symbol", "Btu/ft²·hr·°F/in"),
@@ -51,6 +52,8 @@ ThermalConductivity::ThermalConductivity()
                              ki18ncp("amount in units (integer)",
                                      "%1 btu per square foot hour degree Fahrenheit per inch",
                                      "%1 btu per square foot hour degree Fahrenheit per inch")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

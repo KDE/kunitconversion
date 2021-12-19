@@ -12,12 +12,13 @@
 
 namespace KUnitConversion
 {
-Pressure::Pressure()
-    : CustomCategory(PressureCategory, i18n("Pressure"), i18n("Pressure"))
+UnitCategory Pressure::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(PressureCategory, i18n("Pressure"), i18n("Pressure"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (pressure)", "%1 %2");
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Yottapascal,
                        1e+24,
                        i18nc("pressure unit symbol", "YPa"),
@@ -27,7 +28,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 yottapascals"),
                        ki18ncp("amount in units (integer)", "%1 yottapascal", "%1 yottapascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Zettapascal,
                        1e+21,
                        i18nc("pressure unit symbol", "ZPa"),
@@ -37,7 +38,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 zettapascals"),
                        ki18ncp("amount in units (integer)", "%1 zettapascal", "%1 zettapascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Exapascal,
                        1e+18,
                        i18nc("pressure unit symbol", "EPa"),
@@ -47,7 +48,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 exapascals"),
                        ki18ncp("amount in units (integer)", "%1 exapascal", "%1 exapascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Petapascal,
                        1e+15,
                        i18nc("pressure unit symbol", "PPa"),
@@ -57,7 +58,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 petapascals"),
                        ki18ncp("amount in units (integer)", "%1 petapascal", "%1 petapascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Terapascal,
                        1e+12,
                        i18nc("pressure unit symbol", "TPa"),
@@ -67,7 +68,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 terapascals"),
                        ki18ncp("amount in units (integer)", "%1 terapascal", "%1 terapascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Gigapascal,
                        1e+09,
                        i18nc("pressure unit symbol", "GPa"),
@@ -77,7 +78,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 gigapascals"),
                        ki18ncp("amount in units (integer)", "%1 gigapascal", "%1 gigapascals")));
 
-    addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
                              Megapascal,
                              1e+06,
                              i18nc("pressure unit symbol", "MPa"),
@@ -87,7 +88,7 @@ Pressure::Pressure()
                              ki18nc("amount in units (real)", "%1 megapascals"),
                              ki18ncp("amount in units (integer)", "%1 megapascal", "%1 megapascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Kilopascal,
                        1000,
                        i18nc("pressure unit symbol", "kPa"),
@@ -97,7 +98,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 kilopascals"),
                        ki18ncp("amount in units (integer)", "%1 kilopascal", "%1 kilopascals")));
 
-    addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
                              Hectopascal,
                              100,
                              i18nc("pressure unit symbol", "hPa"),
@@ -107,7 +108,7 @@ Pressure::Pressure()
                              ki18nc("amount in units (real)", "%1 hectopascals"),
                              ki18ncp("amount in units (integer)", "%1 hectopascal", "%1 hectopascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Decapascal,
                        10,
                        i18nc("pressure unit symbol", "daPa"),
@@ -117,7 +118,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 decapascals"),
                        ki18ncp("amount in units (integer)", "%1 decapascal", "%1 decapascals")));
 
-    addDefaultUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(PressureCategory,
                               Pascal,
                               1,
                               i18nc("pressure unit symbol", "Pa"),
@@ -127,7 +128,7 @@ Pressure::Pressure()
                               ki18nc("amount in units (real)", "%1 pascals"),
                               ki18ncp("amount in units (integer)", "%1 pascal", "%1 pascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Decipascal,
                        0.1,
                        i18nc("pressure unit symbol", "dPa"),
@@ -137,7 +138,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 decipascals"),
                        ki18ncp("amount in units (integer)", "%1 decipascal", "%1 decipascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Centipascal,
                        0.01,
                        i18nc("pressure unit symbol", "cPa"),
@@ -147,7 +148,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 centipascals"),
                        ki18ncp("amount in units (integer)", "%1 centipascal", "%1 centipascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Millipascal,
                        0.001,
                        i18nc("pressure unit symbol", "mPa"),
@@ -157,7 +158,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 millipascals"),
                        ki18ncp("amount in units (integer)", "%1 millipascal", "%1 millipascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Micropascal,
                        1e-06,
                        i18nc("pressure unit symbol", "µPa"),
@@ -167,7 +168,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 micropascals"),
                        ki18ncp("amount in units (integer)", "%1 micropascal", "%1 micropascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Nanopascal,
                        1e-09,
                        i18nc("pressure unit symbol", "nPa"),
@@ -177,7 +178,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 nanopascals"),
                        ki18ncp("amount in units (integer)", "%1 nanopascal", "%1 nanopascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Picopascal,
                        1e-12,
                        i18nc("pressure unit symbol", "pPa"),
@@ -187,7 +188,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 picopascals"),
                        ki18ncp("amount in units (integer)", "%1 picopascal", "%1 picopascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Femtopascal,
                        1e-15,
                        i18nc("pressure unit symbol", "fPa"),
@@ -197,7 +198,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 femtopascals"),
                        ki18ncp("amount in units (integer)", "%1 femtopascal", "%1 femtopascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Attopascal,
                        1e-18,
                        i18nc("pressure unit symbol", "aPa"),
@@ -207,7 +208,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 attopascals"),
                        ki18ncp("amount in units (integer)", "%1 attopascal", "%1 attopascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Zeptopascal,
                        1e-21,
                        i18nc("pressure unit symbol", "zPa"),
@@ -217,7 +218,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 zeptopascals"),
                        ki18ncp("amount in units (integer)", "%1 zeptopascal", "%1 zeptopascals")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Yoctopascal,
                        1e-24,
                        i18nc("pressure unit symbol", "yPa"),
@@ -227,7 +228,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 yoctopascals"),
                        ki18ncp("amount in units (integer)", "%1 yoctopascal", "%1 yoctopascals")));
 
-    addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
                              Bar,
                              100000,
                              i18nc("pressure unit symbol", "bar"),
@@ -237,7 +238,7 @@ Pressure::Pressure()
                              ki18nc("amount in units (real)", "%1 bars"),
                              ki18ncp("amount in units (integer)", "%1 bar", "%1 bars")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Millibar,
                        100,
                        i18nc("pressure unit symbol", "mbar"),
@@ -247,7 +248,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 millibars"),
                        ki18ncp("amount in units (integer)", "%1 millibar", "%1 millibars")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Decibar,
                        10000,
                        i18nc("pressure unit symbol", "dbar"),
@@ -257,7 +258,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 decibars"),
                        ki18ncp("amount in units (integer)", "%1 decibar", "%1 decibars")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        Torr,
                        133.322,
                        i18nc("pressure unit symbol", "Torr"),
@@ -267,7 +268,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 torr"),
                        ki18ncp("amount in units (integer)", "%1 torr", "%1 torr")));
 
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        TechnicalAtmosphere,
                        98066.5,
                        i18nc("pressure unit symbol", "at"),
@@ -277,7 +278,7 @@ Pressure::Pressure()
                        ki18nc("amount in units (real)", "%1 technical atmospheres"),
                        ki18ncp("amount in units (integer)", "%1 technical atmosphere", "%1 technical atmospheres")));
 
-    addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
                              Atmosphere,
                              101325,
                              i18nc("pressure unit symbol", "atm"),
@@ -287,7 +288,7 @@ Pressure::Pressure()
                              ki18nc("amount in units (real)", "%1 atmospheres"),
                              ki18ncp("amount in units (integer)", "%1 atmosphere", "%1 atmospheres")));
 
-    addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
                              PoundForcePerSquareInch,
                              6894.76,
                              i18nc("pressure unit symbol", "psi"),
@@ -298,7 +299,7 @@ Pressure::Pressure()
                              ki18ncp("amount in units (integer)", "%1 pound-force per square inch", "%1 pound-force per square inch")));
 
     // http://en.wikipedia.org/wiki/InHg
-    addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(PressureCategory,
                              InchesOfMercury,
                              3386.39,
                              i18nc("pressure unit symbol", "inHg"),
@@ -309,7 +310,7 @@ Pressure::Pressure()
                              ki18ncp("amount in units (integer)", "%1 inches of mercury", "%1 inches of mercury")));
 
     // http://en.wikipedia.org/wiki/MmHg#mmHg
-    addUnit(UnitPrivate::makeUnit(PressureCategory,
+    d->addUnit(UnitPrivate::makeUnit(PressureCategory,
                        MillimetersOfMercury,
                        133.322,
                        i18nc("pressure unit symbol", "mmHg"),
@@ -318,6 +319,8 @@ Pressure::Pressure()
                        symbolString,
                        ki18nc("amount in units (real)", "%1 millimeters of mercury"),
                        ki18ncp("amount in units (integer)", "%1 millimeters of mercury", "%1 millimeters of mercury")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

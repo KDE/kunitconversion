@@ -44,6 +44,7 @@ public:
      **/
     UnitCategory(const UnitCategory &other);
 
+    // TODO KF6: remove virtual
     virtual ~UnitCategory();
 
     /**
@@ -51,6 +52,7 @@ public:
      **/
     UnitCategory &operator=(const UnitCategory &other);
 
+    // TODO KF6: de-inline
 #ifdef Q_COMPILER_RVALUE_REFS
     /**
      * Move-assigns @p other to this UnitCategory instance, transferring the
@@ -63,6 +65,7 @@ public:
     }
 #endif
 
+    // TODO KF6: remove
     /**
      * Swaps this UnitCategory with @p other. This function is very fast and never fails.
      **/
@@ -152,6 +155,7 @@ public:
      **/
     QStringList allUnits() const;
 
+    // TODO KF6: make const
     /**
      * Convert value to another unit selected by string.
      *
@@ -161,6 +165,7 @@ public:
      **/
     Value convert(const Value &value, const QString &toUnit = QString());
 
+    // TODO KF6: make const
     /**
      * Convert value to another unit selected by enum.
      *
@@ -170,6 +175,7 @@ public:
      **/
     Value convert(const Value &value, UnitId toUnit);
 
+    // TODO KF6: make const, remove virtual
     /**
      * Convert value to another unit.
      *
@@ -194,13 +200,14 @@ public:
     void syncConversionTable(std::chrono::seconds updateSkipPeriod);
 
 protected:
+    // TODO KF6: remove those three
     void addDefaultUnit(const Unit &unit);
     void addCommonUnit(const Unit &unit);
     void addUnit(const Unit &unit);
 
 private:
-    friend class CustomCategory;
     friend class Unit;
+    friend class UnitCategoryPrivate;
 
     UnitCategory(UnitCategoryPrivate *dd);
 

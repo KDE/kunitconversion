@@ -13,10 +13,9 @@
 
 namespace KUnitConversion
 {
-class Mass : public CustomCategory
+namespace Mass
 {
-public:
-    Mass();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

@@ -12,15 +12,17 @@
 
 namespace KUnitConversion
 {
-Area::Area()
-    : CustomCategory(AreaCategory,
-                     i18nc("Unit Category: two dimensional size of a surface", "Area"),
-                     i18nc("Unit Category: two dimensional size of a surface", "Area"))
+
+UnitCategory Area::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(AreaCategory,
+                     i18nc("Unit Category: two dimensional size of a surface", "Area"),
+                     i18nc("Unit Category: two dimensional size of a surface", "Area"));
+    auto d = UnitCategoryPrivate::get(c);
     // i18n: Used when converting to symbol string e.g. 2.34 m²
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (area)", "%1 %2");
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareYottameter,
                        1e+48,
                        // i18n: Used when unit symbol is needed.
@@ -44,7 +46,7 @@ Area::Area()
                        // such as "1 mile" or "21 miles".
                        ki18ncp("amount in units (integer)", "%1 square yottameter", "%1 square yottameters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareZettameter,
                        1e+42,
                        i18nc("area unit symbol", "Zm²"),
@@ -54,7 +56,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square zettameters"),
                        ki18ncp("amount in units (integer)", "%1 square zettameter", "%1 square zettameters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareExameter,
                        1e+36,
                        i18nc("area unit symbol", "Em²"),
@@ -64,7 +66,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square exameters"),
                        ki18ncp("amount in units (integer)", "%1 square exameter", "%1 square exameters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquarePetameter,
                        1e+30,
                        i18nc("area unit symbol", "Pm²"),
@@ -74,7 +76,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square petameters"),
                        ki18ncp("amount in units (integer)", "%1 square petameter", "%1 square petameters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareTerameter,
                        1e+24,
                        i18nc("area unit symbol", "Tm²"),
@@ -84,7 +86,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square terameters"),
                        ki18ncp("amount in units (integer)", "%1 square terameter", "%1 square terameters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareGigameter,
                        1e+18,
                        i18nc("area unit symbol", "Gm²"),
@@ -94,7 +96,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square gigameters"),
                        ki18ncp("amount in units (integer)", "%1 square gigameter", "%1 square gigameters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareMegameter,
                        1e+12,
                        i18nc("area unit symbol", "Mm²"),
@@ -104,7 +106,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square megameters"),
                        ki18ncp("amount in units (integer)", "%1 square megameter", "%1 square megameters")));
 
-    addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
                              SquareKilometer,
                              1e+06,
                              i18nc("area unit symbol", "km²"),
@@ -114,7 +116,7 @@ Area::Area()
                              ki18nc("amount in units (real)", "%1 square kilometers"),
                              ki18ncp("amount in units (integer)", "%1 square kilometer", "%1 square kilometers")));
 
-    addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
                              SquareHectometer,
                              10000,
                              i18nc("area unit symbol", "hm²"),
@@ -124,7 +126,7 @@ Area::Area()
                              ki18nc("amount in units (real)", "%1 square hectometers"),
                              ki18ncp("amount in units (integer)", "%1 square hectometer", "%1 square hectometers")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareDecameter,
                        100,
                        i18nc("area unit symbol", "dam²"),
@@ -134,7 +136,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square decameters"),
                        ki18ncp("amount in units (integer)", "%1 square decameter", "%1 square decameters")));
 
-    addDefaultUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(AreaCategory,
                               SquareMeter,
                               1,
                               i18nc("area unit symbol", "m²"),
@@ -144,7 +146,7 @@ Area::Area()
                               ki18nc("amount in units (real)", "%1 square meters"),
                               ki18ncp("amount in units (integer)", "%1 square meter", "%1 square meters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareDecimeter,
                        0.01,
                        i18nc("area unit symbol", "dm²"),
@@ -154,7 +156,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square decimeters"),
                        ki18ncp("amount in units (integer)", "%1 square decimeter", "%1 square decimeters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareCentimeter,
                        0.0001,
                        i18nc("area unit symbol", "cm²"),
@@ -164,7 +166,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square centimeters"),
                        ki18ncp("amount in units (integer)", "%1 square centimeter", "%1 square centimeters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareMillimeter,
                        1e-06,
                        i18nc("area unit symbol", "mm²"),
@@ -174,7 +176,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square millimeters"),
                        ki18ncp("amount in units (integer)", "%1 square millimeter", "%1 square millimeters")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareMicrometer,
                        1e-12,
                        i18nc("area unit symbol", "µm²"),
@@ -184,7 +186,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square micrometers"),
                        ki18ncp("amount in units (integer)", "%1 square micrometer", "%1 square micrometers")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareNanometer,
                        1e-18,
                        i18nc("area unit symbol", "nm²"),
@@ -194,7 +196,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square nanometers"),
                        ki18ncp("amount in units (integer)", "%1 square nanometer", "%1 square nanometers")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquarePicometer,
                        1e-24,
                        i18nc("area unit symbol", "pm²"),
@@ -204,7 +206,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square picometers"),
                        ki18ncp("amount in units (integer)", "%1 square picometer", "%1 square picometers")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareFemtometer,
                        1e-30,
                        i18nc("area unit symbol", "fm²"),
@@ -214,7 +216,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square femtometers"),
                        ki18ncp("amount in units (integer)", "%1 square femtometer", "%1 square femtometers")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareAttometer,
                        1e-36,
                        i18nc("area unit symbol", "am²"),
@@ -224,7 +226,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square attometers"),
                        ki18ncp("amount in units (integer)", "%1 square attometer", "%1 square attometers")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareZeptometer,
                        1e-42,
                        i18nc("area unit symbol", "zm²"),
@@ -234,7 +236,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square zeptometers"),
                        ki18ncp("amount in units (integer)", "%1 square zeptometer", "%1 square zeptometers")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareYoctometer,
                        1e-48,
                        i18nc("area unit symbol", "ym²"),
@@ -244,7 +246,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square yoctometers"),
                        ki18ncp("amount in units (integer)", "%1 square yoctometer", "%1 square yoctometers")));
 
-    addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
                              Acre,
                              4046.86,
                              i18nc("area unit symbol", "acre"),
@@ -254,7 +256,7 @@ Area::Area()
                              ki18nc("amount in units (real)", "%1 acres"),
                              ki18ncp("amount in units (integer)", "%1 acre", "%1 acres")));
 
-    addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
                              SquareFoot,
                              0.092903,
                              i18nc("area unit symbol", "ft²"),
@@ -264,7 +266,7 @@ Area::Area()
                              ki18nc("amount in units (real)", "%1 square feet"),
                              ki18ncp("amount in units (integer)", "%1 square foot", "%1 square feet")));
 
-    addUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
                        SquareInch,
                        0.00064516,
                        i18nc("area unit symbol", "in²"),
@@ -274,7 +276,7 @@ Area::Area()
                        ki18nc("amount in units (real)", "%1 square inches"),
                        ki18ncp("amount in units (integer)", "%1 square inch", "%1 square inches")));
 
-    addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(AreaCategory,
                              SquareMile,
                              2.58999e+06,
                              i18nc("area unit symbol", "mi²"),
@@ -283,6 +285,8 @@ Area::Area()
                              symbolString,
                              ki18nc("amount in units (real)", "%1 square miles"),
                              ki18ncp("amount in units (integer)", "%1 square mile", "%1 square miles")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

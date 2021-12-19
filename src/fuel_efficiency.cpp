@@ -52,12 +52,13 @@ private:
                                          Converter has to account for this. */
 };
 
-FuelEfficiency::FuelEfficiency()
-    : CustomCategory(FuelEfficiencyCategory, i18n("Fuel Efficiency"), i18n("Fuel Efficiency"))
+UnitCategory FuelEfficiency::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(FuelEfficiencyCategory, i18n("Fuel Efficiency"), i18n("Fuel Efficiency"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (fuel efficiency)", "%1 %2");
 
-    addDefaultUnit(
+    d->addDefaultUnit(
         UnitPrivate::makeUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
                                        LitersPer100Kilometers,
                                        1,
@@ -68,7 +69,7 @@ FuelEfficiency::FuelEfficiency()
                                        ki18nc("amount in units (real)", "%1 liters per 100 kilometers"),
                                        ki18ncp("amount in units (integer)", "%1 liters per 100 kilometers", "%1 liters per 100 kilometers"))));
 
-    addCommonUnit(UnitPrivate::makeUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
                                                  MilePerUsGallon,
                                                  235.215,
                                                  i18nc("fuelefficiency unit symbol", "mpg"),
@@ -79,7 +80,7 @@ FuelEfficiency::FuelEfficiency()
                                                  ki18ncp("amount in units (integer)", "%1 mile per US gallon", "%1 miles per US gallon"),
                                                  true)));
 
-    addCommonUnit(UnitPrivate::makeUnit(new FuelUnitPrivate(
+    d->addCommonUnit(UnitPrivate::makeUnit(new FuelUnitPrivate(
         FuelEfficiencyCategory,
         MilePerImperialGallon,
         282.481,
@@ -91,7 +92,7 @@ FuelEfficiency::FuelEfficiency()
         ki18ncp("amount in units (integer)", "%1 mile per imperial gallon", "%1 miles per imperial gallon"),
         true)));
 
-    addCommonUnit(UnitPrivate::makeUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(new FuelUnitPrivate(FuelEfficiencyCategory,
                                                  KilometrePerLitre,
                                                  100.0,
                                                  i18nc("fuelefficiency unit symbol", "kmpl"),
@@ -101,6 +102,8 @@ FuelEfficiency::FuelEfficiency()
                                                  ki18nc("amount in units (real)", "%1 kilometers per liter"),
                                                  ki18ncp("amount in units (integer)", "%1 kilometer per liter", "%1 kilometers per liter"),
                                                  true)));
+
+    return c;
 }
 
 } // KUnitConversion namespace

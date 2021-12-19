@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Temperature : public CustomCategory
+namespace Temperature
 {
-public:
-    Temperature();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

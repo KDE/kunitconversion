@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class ThermalConductivity : public CustomCategory
+namespace ThermalConductivity
 {
-public:
-    ThermalConductivity();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

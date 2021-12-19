@@ -13,10 +13,9 @@
 
 namespace KUnitConversion
 {
-class ThermalFlux : public CustomCategory
+namespace ThermalFlux
 {
-public:
-    ThermalFlux();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

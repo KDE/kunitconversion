@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Area : public CustomCategory
+namespace Area
 {
-public:
-    Area();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

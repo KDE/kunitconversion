@@ -13,12 +13,13 @@
 
 namespace KUnitConversion
 {
-Mass::Mass()
-    : CustomCategory(MassCategory, i18n("Mass"), i18n("Mass"))
+UnitCategory Mass::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(MassCategory, i18n("Mass"), i18n("Mass"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (mass)", "%1 %2");
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Yottagram,
                        1e+24,
                        i18nc("mass unit symbol", "Yg"),
@@ -28,7 +29,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 yottagrams"),
                        ki18ncp("amount in units (integer)", "%1 yottagram", "%1 yottagrams")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Zettagram,
                        1e+21,
                        i18nc("mass unit symbol", "Zg"),
@@ -38,7 +39,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 zettagrams"),
                        ki18ncp("amount in units (integer)", "%1 zettagram", "%1 zettagrams")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Exagram,
                        1e+18,
                        i18nc("mass unit symbol", "Eg"),
@@ -48,7 +49,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 exagrams"),
                        ki18ncp("amount in units (integer)", "%1 exagram", "%1 exagrams")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Petagram,
                        1e+15,
                        i18nc("mass unit symbol", "Pg"),
@@ -58,7 +59,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 petagrams"),
                        ki18ncp("amount in units (integer)", "%1 petagram", "%1 petagrams")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Teragram,
                        1e+12,
                        i18nc("mass unit symbol", "Tg"),
@@ -68,7 +69,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 teragrams"),
                        ki18ncp("amount in units (integer)", "%1 teragram", "%1 teragrams")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Gigagram,
                        1e+09,
                        i18nc("mass unit symbol", "Gg"),
@@ -78,7 +79,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 gigagrams"),
                        ki18ncp("amount in units (integer)", "%1 gigagram", "%1 gigagrams")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Megagram,
                        1e+06,
                        i18nc("mass unit symbol", "Mg"),
@@ -88,7 +89,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 megagrams"),
                        ki18ncp("amount in units (integer)", "%1 megagram", "%1 megagrams")));
 
-    addDefaultUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(MassCategory,
                               Kilogram,
                               1000,
                               i18nc("mass unit symbol", "kg"),
@@ -98,7 +99,7 @@ Mass::Mass()
                               ki18nc("amount in units (real)", "%1 kilograms"),
                               ki18ncp("amount in units (integer)", "%1 kilogram", "%1 kilograms")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Hectogram,
                        100,
                        i18nc("mass unit symbol", "hg"),
@@ -108,7 +109,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 hectograms"),
                        ki18ncp("amount in units (integer)", "%1 hectogram", "%1 hectograms")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Decagram,
                        10,
                        i18nc("mass unit symbol", "dag"),
@@ -118,7 +119,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 decagrams"),
                        ki18ncp("amount in units (integer)", "%1 decagram", "%1 decagrams")));
 
-    addCommonUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(MassCategory,
                              Gram,
                              1,
                              i18nc("mass unit symbol", "g"),
@@ -128,7 +129,7 @@ Mass::Mass()
                              ki18nc("amount in units (real)", "%1 grams"),
                              ki18ncp("amount in units (integer)", "%1 gram", "%1 grams")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Decigram,
                        0.1,
                        i18nc("mass unit symbol", "dg"),
@@ -138,7 +139,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 decigrams"),
                        ki18ncp("amount in units (integer)", "%1 decigram", "%1 decigrams")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Centigram,
                        0.01,
                        i18nc("mass unit symbol", "cg"),
@@ -148,7 +149,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 centigrams"),
                        ki18ncp("amount in units (integer)", "%1 centigram", "%1 centigrams")));
 
-    addCommonUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(MassCategory,
                              Milligram,
                              0.001,
                              i18nc("mass unit symbol", "mg"),
@@ -158,7 +159,7 @@ Mass::Mass()
                              ki18nc("amount in units (real)", "%1 milligrams"),
                              ki18ncp("amount in units (integer)", "%1 milligram", "%1 milligrams")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Microgram,
                        1e-06,
                        i18nc("mass unit symbol", "µg"),
@@ -168,7 +169,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 micrograms"),
                        ki18ncp("amount in units (integer)", "%1 microgram", "%1 micrograms")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Nanogram,
                        1e-09,
                        i18nc("mass unit symbol", "ng"),
@@ -178,7 +179,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 nanograms"),
                        ki18ncp("amount in units (integer)", "%1 nanogram", "%1 nanograms")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Picogram,
                        1e-12,
                        i18nc("mass unit symbol", "pg"),
@@ -188,7 +189,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 picograms"),
                        ki18ncp("amount in units (integer)", "%1 picogram", "%1 picograms")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Femtogram,
                        1e-15,
                        i18nc("mass unit symbol", "fg"),
@@ -198,7 +199,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 femtograms"),
                        ki18ncp("amount in units (integer)", "%1 femtogram", "%1 femtograms")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Attogram,
                        1e-18,
                        i18nc("mass unit symbol", "ag"),
@@ -208,7 +209,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 attograms"),
                        ki18ncp("amount in units (integer)", "%1 attogram", "%1 attograms")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Zeptogram,
                        1e-21,
                        i18nc("mass unit symbol", "zg"),
@@ -218,7 +219,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 zeptograms"),
                        ki18ncp("amount in units (integer)", "%1 zeptogram", "%1 zeptograms")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Yoctogram,
                        1e-24,
                        i18nc("mass unit symbol", "yg"),
@@ -228,7 +229,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 yoctograms"),
                        ki18ncp("amount in units (integer)", "%1 yoctogram", "%1 yoctograms")));
 
-    addCommonUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(MassCategory,
                              Ton,
                              1e+06,
                              i18nc("mass unit symbol", "t"),
@@ -239,7 +240,7 @@ Mass::Mass()
                              ki18ncp("amount in units (integer)", "%1 ton", "%1 tons")));
 
     // I guess it's useful...
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Carat,
                        0.2,
                        i18nc("mass unit symbol", "CD"),
@@ -250,7 +251,7 @@ Mass::Mass()
                        ki18ncp("amount in units (integer)", "%1 carat", "%1 carats")));
 
     // http://en.wikipedia.org/wiki/Pound_(mass)#International_pound
-    addCommonUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(MassCategory,
                              Pound,
                              453.592,
                              i18nc("mass unit symbol", "lb"),
@@ -261,7 +262,7 @@ Mass::Mass()
                              ki18ncp("amount in units (integer)", "%1 pound", "%1 pounds")));
 
     // International avoirdupois ounce
-    addCommonUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(MassCategory,
                              Ounce,
                              28.3495,
                              i18nc("mass unit symbol", "oz"),
@@ -271,7 +272,7 @@ Mass::Mass()
                              ki18nc("amount in units (real)", "%1 ounces"),
                              ki18ncp("amount in units (integer)", "%1 ounce", "%1 ounces")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        TroyOunce,
                        31.1035,
                        i18nc("mass unit symbol", "t oz"),
@@ -281,7 +282,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 troy ounces"),
                        ki18ncp("amount in units (integer)", "%1 troy ounce", "%1 troy ounces")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        MassNewton,
                        101.937,
                        i18nc("mass unit symbol", "N"),
@@ -292,7 +293,7 @@ Mass::Mass()
                        ki18ncp("amount in units (integer)", "%1 newton", "%1 newtons")));
 
     // used a lot in industry (aircraft engines for example)
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Kilonewton,
                        101937,
                        i18nc("mass unit symbol", "kN"),
@@ -302,7 +303,7 @@ Mass::Mass()
                        ki18nc("amount in units (real)", "%1 kilonewton"),
                        ki18ncp("amount in units (integer)", "%1 kilonewton", "%1 kilonewton")));
 
-    addUnit(UnitPrivate::makeUnit(MassCategory,
+    d->addUnit(UnitPrivate::makeUnit(MassCategory,
                        Stone,
                        6350.29318,
                        i18nc("mass unit symbol", "st"),
@@ -311,6 +312,8 @@ Mass::Mass()
                        symbolString,
                        ki18nc("amount in units (real)", "%1 stone"),
                        ki18ncp("amount in units (integer)", "%1 stone", "%1 stone")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

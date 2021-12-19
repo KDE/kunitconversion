@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Time : public CustomCategory
+namespace Time
 {
-public:
-    Time();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Velocity : public CustomCategory
+namespace Velocity
 {
-public:
-    Velocity();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace

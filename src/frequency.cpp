@@ -12,12 +12,14 @@
 
 namespace KUnitConversion
 {
-Frequency::Frequency()
-    : CustomCategory(FrequencyCategory, i18n("Frequency"), i18n("Frequency"))
+
+UnitCategory Frequency::makeCategory()
 {
+    auto c = UnitCategoryPrivate::makeCategory(FrequencyCategory, i18n("Frequency"), i18n("Frequency"));
+    auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (frequency", "%1 %2");
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Yottahertz,
                        1e+24,
                        i18nc("frequency unit symbol", "YHz"),
@@ -27,7 +29,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 yottahertzs"),
                        ki18ncp("amount in units (integer)", "%1 yottahertz", "%1 yottahertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Zettahertz,
                        1e+21,
                        i18nc("frequency unit symbol", "ZHz"),
@@ -37,7 +39,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 zettahertzs"),
                        ki18ncp("amount in units (integer)", "%1 zettahertz", "%1 zettahertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Exahertz,
                        1e+18,
                        i18nc("frequency unit symbol", "EHz"),
@@ -47,7 +49,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 exahertzs"),
                        ki18ncp("amount in units (integer)", "%1 exahertz", "%1 exahertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Petahertz,
                        1e+15,
                        i18nc("frequency unit symbol", "PHz"),
@@ -57,7 +59,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 petahertzs"),
                        ki18ncp("amount in units (integer)", "%1 petahertz", "%1 petahertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Terahertz,
                        1e+12,
                        i18nc("frequency unit symbol", "THz"),
@@ -67,7 +69,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 terahertzs"),
                        ki18ncp("amount in units (integer)", "%1 terahertz", "%1 terahertzs")));
 
-    addCommonUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(FrequencyCategory,
                              Gigahertz,
                              1e+09,
                              i18nc("frequency unit symbol", "GHz"),
@@ -77,7 +79,7 @@ Frequency::Frequency()
                              ki18nc("amount in units (real)", "%1 gigahertzs"),
                              ki18ncp("amount in units (integer)", "%1 gigahertz", "%1 gigahertzs")));
 
-    addCommonUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(FrequencyCategory,
                              Megahertz,
                              1e+06,
                              i18nc("frequency unit symbol", "MHz"),
@@ -87,7 +89,7 @@ Frequency::Frequency()
                              ki18nc("amount in units (real)", "%1 megahertzs"),
                              ki18ncp("amount in units (integer)", "%1 megahertz", "%1 megahertzs")));
 
-    addCommonUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(FrequencyCategory,
                              Kilohertz,
                              1000,
                              i18nc("frequency unit symbol", "kHz"),
@@ -97,7 +99,7 @@ Frequency::Frequency()
                              ki18nc("amount in units (real)", "%1 kilohertzs"),
                              ki18ncp("amount in units (integer)", "%1 kilohertz", "%1 kilohertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Hectohertz,
                        100,
                        i18nc("frequency unit symbol", "hHz"),
@@ -107,7 +109,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 hectohertzs"),
                        ki18ncp("amount in units (integer)", "%1 hectohertz", "%1 hectohertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Decahertz,
                        10,
                        i18nc("frequency unit symbol", "daHz"),
@@ -117,7 +119,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 decahertzs"),
                        ki18ncp("amount in units (integer)", "%1 decahertz", "%1 decahertzs")));
 
-    addDefaultUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addDefaultUnit(UnitPrivate::makeUnit(FrequencyCategory,
                               Hertz,
                               1,
                               i18nc("frequency unit symbol", "Hz"),
@@ -127,7 +129,7 @@ Frequency::Frequency()
                               ki18nc("amount in units (real)", "%1 hertzs"),
                               ki18ncp("amount in units (integer)", "%1 hertz", "%1 hertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Decihertz,
                        0.1,
                        i18nc("frequency unit symbol", "dHz"),
@@ -137,7 +139,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 decihertzs"),
                        ki18ncp("amount in units (integer)", "%1 decihertz", "%1 decihertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Centihertz,
                        0.01,
                        i18nc("frequency unit symbol", "cHz"),
@@ -147,7 +149,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 centihertzs"),
                        ki18ncp("amount in units (integer)", "%1 centihertz", "%1 centihertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Millihertz,
                        0.001,
                        i18nc("frequency unit symbol", "mHz"),
@@ -157,7 +159,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 millihertzs"),
                        ki18ncp("amount in units (integer)", "%1 millihertz", "%1 millihertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Microhertz,
                        1e-06,
                        i18nc("frequency unit symbol", "µHz"),
@@ -167,7 +169,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 microhertzs"),
                        ki18ncp("amount in units (integer)", "%1 microhertz", "%1 microhertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Nanohertz,
                        1e-09,
                        i18nc("frequency unit symbol", "nHz"),
@@ -177,7 +179,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 nanohertzs"),
                        ki18ncp("amount in units (integer)", "%1 nanohertz", "%1 nanohertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Picohertz,
                        1e-12,
                        i18nc("frequency unit symbol", "pHz"),
@@ -187,7 +189,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 picohertzs"),
                        ki18ncp("amount in units (integer)", "%1 picohertz", "%1 picohertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Femtohertz,
                        1e-15,
                        i18nc("frequency unit symbol", "fHz"),
@@ -197,7 +199,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 femtohertzs"),
                        ki18ncp("amount in units (integer)", "%1 femtohertz", "%1 femtohertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Attohertz,
                        1e-18,
                        i18nc("frequency unit symbol", "aHz"),
@@ -207,7 +209,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 attohertzs"),
                        ki18ncp("amount in units (integer)", "%1 attohertz", "%1 attohertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Zeptohertz,
                        1e-21,
                        i18nc("frequency unit symbol", "zHz"),
@@ -217,7 +219,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 zeptohertzs"),
                        ki18ncp("amount in units (integer)", "%1 zeptohertz", "%1 zeptohertzs")));
 
-    addUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(FrequencyCategory,
                        Yoctohertz,
                        1e-24,
                        i18nc("frequency unit symbol", "yHz"),
@@ -227,7 +229,7 @@ Frequency::Frequency()
                        ki18nc("amount in units (real)", "%1 yoctohertzs"),
                        ki18ncp("amount in units (integer)", "%1 yoctohertz", "%1 yoctohertzs")));
 
-    addCommonUnit(UnitPrivate::makeUnit(FrequencyCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(FrequencyCategory,
                              RPM,
                              1.0 / 60.0,
                              i18nc("frequency unit symbol", "RPM"),
@@ -236,6 +238,8 @@ Frequency::Frequency()
                              symbolString,
                              ki18nc("amount in units (real)", "%1 revolutions per minute"),
                              ki18ncp("amount in units (integer)", "%1 revolution per minute", "%1 revolutions per minute")));
+
+    return c;
 }
 
 } // KUnitConversion namespace

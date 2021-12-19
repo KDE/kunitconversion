@@ -12,10 +12,9 @@
 
 namespace KUnitConversion
 {
-class Power : public CustomCategory
+namespace Power
 {
-public:
-    Power();
+    UnitCategory makeCategory();
 };
 
 } // KUnitConversion namespace
