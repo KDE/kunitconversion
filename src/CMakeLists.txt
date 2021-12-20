@@ -49,10 +49,10 @@ endif()
 generate_export_header(KF5UnitConversion BASE_NAME KUnitConversion EXPORT_FILE_NAME ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h)
 set(kunitconversion_BUILD_INCLUDE_DIRS ${KUnitConversion_BINARY_DIR} ${CMAKE_CURRENT_BINARY_DIR})
 target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${kunitconversion_BUILD_INCLUDE_DIRS}>")
-target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion>")
+target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion>")
 
-target_link_libraries(KF5UnitConversion PUBLIC  Qt5::Core
-                                        PRIVATE Qt5::Network
+target_link_libraries(KF5UnitConversion PUBLIC  Qt${QT_MAJOR_VERSION}::Core
+                                        PRIVATE Qt${QT_MAJOR_VERSION}::Network
                                                 KF5::I18n
 )
 
@@ -71,13 +71,13 @@ ecm_generate_headers(KUnitConversion_CamelCase_HEADERS
     PREFIX KUnitConversion
     REQUIRED_HEADERS KUnitConversion_HEADERS
 )
-install(FILES ${KUnitConversion_CamelCase_HEADERS} DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion/KUnitConversion COMPONENT Devel)
+install(FILES ${KUnitConversion_CamelCase_HEADERS} DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion/KUnitConversion COMPONENT Devel)
 
 install(TARGETS KF5UnitConversion EXPORT KF5UnitConversionTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
 install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
     ${KUnitConversion_HEADERS}
-    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion/kunitconversion COMPONENT Devel
+    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion/kunitconversion COMPONENT Devel
 )
 
 ecm_qt_install_logging_categories(
@@ -111,5 +111,5 @@ if(BUILD_QCH)
 endif()
 
 include(ECMGeneratePriFile)
-ecm_generate_pri_file(BASE_NAME KUnitConversion LIB_NAME KF5UnitConversion DEPS "core" FILENAME_VAR PRI_FILENAME INCLUDE_INSTALL_DIR ${KDE_INSTALL_INCLUDEDIR_KF5}/KUnitConversion)
+ecm_generate_pri_file(BASE_NAME KUnitConversion LIB_NAME KF5UnitConversion DEPS "core" FILENAME_VAR PRI_FILENAME INCLUDE_INSTALL_DIR ${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion)
 install(FILES ${PRI_FILENAME} DESTINATION ${ECM_MKSPECS_INSTALL_DIR})

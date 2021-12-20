@@ -9,8 +9,6 @@ find_package(ECM 5.89.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
-set(REQUIRED_QT_VERSION 5.15.2)
-find_package(Qt5 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Network)
 include(KDEInstallDirs)
 include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(KDECMakeSettings)
@@ -18,6 +16,9 @@ include(GenerateExportHeader)
 include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMQtDeclareLoggingCategory)
+
+set(REQUIRED_QT_VERSION 5.15.2)
+find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Network)
 
 set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5UnitConversion")
 
@@ -67,7 +68,7 @@ install(FILES
 install(EXPORT KF5UnitConversionTargets DESTINATION "${CMAKECONFIG_INSTALL_DIR}" FILE KF5UnitConversionTargets.cmake NAMESPACE KF5:: )
 install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion_version.h
-    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5} COMPONENT Devel
+    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF} COMPONENT Devel
 )
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
