@@ -69,15 +69,7 @@ public:
         m_categories[BinaryDataCategory] = BinaryData::makeCategory();
     }
 
-    virtual ~ConverterPrivate()
-    {
-    }
-
-    ConverterPrivate *clone()
-    {
-        return new ConverterPrivate(*this);
-    }
-
+#if KUNITCONVERSION_BUILD_DEPRECATED_SINCE(5, 91)
     bool operator==(const ConverterPrivate &other) const
     {
         return (m_categories == other.m_categories);
@@ -87,6 +79,7 @@ public:
     {
         return !(*this == other);
     }
+#endif
 
     QMap<CategoryId, UnitCategory> m_categories;
 };
@@ -123,6 +116,7 @@ Converter &Converter::operator=(const Converter &other)
     return *this;
 }
 
+#if KUNITCONVERSION_BUILD_DEPRECATED_SINCE(5, 91)
 bool Converter::operator==(const Converter &other) const
 {
     if (d && other.d) {
@@ -140,6 +134,7 @@ bool Converter::operator!=(const Converter &other) const
         return (d != other.d);
     }
 }
+#endif
 
 Value Converter::convert(const Value &value, const QString &toUnit) const
 {

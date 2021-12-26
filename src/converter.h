@@ -53,6 +53,7 @@ public:
      **/
     Converter &operator=(const Converter &other);
 
+    // TODO KF6 de-inline
 #ifdef Q_COMPILER_RVALUE_REFS
     /**
      * Move-assigns @p other to this Converter instance, transferring the
@@ -65,6 +66,7 @@ public:
     }
 #endif
 
+    // TODO KF6 remove
     /**
      * Swaps this Converter with @p other. This function is very fast and never fails.
      **/
@@ -73,15 +75,21 @@ public:
         d.swap(other.d);
     }
 
+#if KUNITCONVERSION_ENABLE_DEPRECATED_SINCE(5, 91)
     /**
      * @return @c true if this Converter is equal to the @p other Converter.
+     * @deprecated since 5.91, result is always true
      **/
+    KUNITCONVERSION_DEPRECATED_VERSION(5, 91, "result is always true")
     bool operator==(const Converter &other) const;
 
     /**
      * @return @c true if this Converter is not equal to the @p other Converter.
+     * @deprecated since 5.91, result is always false
      **/
+    KUNITCONVERSION_DEPRECATED_VERSION(5, 91, "result is always false")
     bool operator!=(const Converter &other) const;
+#endif
 
     /**
      * Convert value to another unit.
