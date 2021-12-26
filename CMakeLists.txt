@@ -46,7 +46,7 @@ find_package(KF5I18n ${KF_DEP_VERSION} REQUIRED)
 add_definitions(-DTRANSLATION_DOMAIN=\"kunitconversion5\")
 ki18n_install(po)
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f02)
-add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055100)
+add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055900)
 
 add_subdirectory(src)
 if (BUILD_TESTING)
