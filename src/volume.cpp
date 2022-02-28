@@ -490,6 +490,26 @@ UnitCategory Volume::makeCategory()
                              ki18ncp("amount in units (integer)", "%1 cup", "%1 cups")));
 
     d->addCommonUnit(UnitPrivate::makeUnit(VolumeCategory,
+                            Teaspoon,
+                            0.000005, // FDA standard 5ml
+                            i18nc("volume unit symbol", "tsp"),
+                            i18nc("unit description in lists", "teaspoon"),
+                            i18nc("unit synonyms for matching user input", "teaspoons;tsps"),
+                            symbolString,
+                            ki18nc("amount in units (real)", "%1 teaspoons"),
+                            ki18ncp("amount in units (integer)", "%1 teaspoon", "%1 teaspoons")));
+
+    d->addCommonUnit(UnitPrivate::makeUnit(VolumeCategory,
+                            Tablespoon,
+                            0.000015, // FDA standard 15ml
+                            i18nc("volume unit symbol", "tbsp"),
+                            i18nc("unit description in lists", "tablespoon"),
+                            i18nc("unit synonyms for matching user input", "tablespoons;tbsps"),
+                            symbolString,
+                            ki18nc("amount in units (real)", "%1 tablespoons"),
+                            ki18ncp("amount in units (integer)", "%1 tablespoon", "%1 tablespoons")));
+
+    d->addCommonUnit(UnitPrivate::makeUnit(VolumeCategory,
                              GallonUS,
                              0.00378541,
                              i18nc("volume unit symbol", "gal"),

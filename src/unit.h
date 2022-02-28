@@ -165,6 +165,8 @@ enum UnitId {
     CubicMile,
     FluidOunce,
     Cup,
+    Teaspoon,
+    Tablespoon,
     GallonUS,
     PintImperial,
     /** @since 5.53 */
