@@ -33,7 +33,11 @@ static const char URL[] = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-d
 
 static QString cacheLocation()
 {
+#ifndef Q_OS_ANDROID
     return QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
+#else
+    return QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
+#endif
 }
 
 class CurrencyCategoryPrivate : public UnitCategoryPrivate
