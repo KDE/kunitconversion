@@ -111,7 +111,7 @@ UnitCategory Area::makeCategory()
                              1e+06,
                              i18nc("area unit symbol", "km²"),
                              i18nc("unit description in lists", "square kilometers"),
-                             i18nc("unit synonyms for matching user input", "square kilometer;square kilometers;km²;km/-2;km^2;km2"),
+                             i18nc("unit synonyms for matching user input", "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 square kilometers"),
                              ki18ncp("amount in units (integer)", "%1 square kilometer", "%1 square kilometers")));
@@ -141,7 +141,7 @@ UnitCategory Area::makeCategory()
                               1,
                               i18nc("area unit symbol", "m²"),
                               i18nc("unit description in lists", "square meters"),
-                              i18nc("unit synonyms for matching user input", "square meter;square meters;m²;m/-2;m^2;m2"),
+                              i18nc("unit synonyms for matching user input", "square meter;square meters;sq m;m²;m/-2;m^2;m2"),
                               symbolString,
                               ki18nc("amount in units (real)", "%1 square meters"),
                               ki18ncp("amount in units (integer)", "%1 square meter", "%1 square meters")));
@@ -161,7 +161,7 @@ UnitCategory Area::makeCategory()
                        0.0001,
                        i18nc("area unit symbol", "cm²"),
                        i18nc("unit description in lists", "square centimeters"),
-                       i18nc("unit synonyms for matching user input", "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"),
+                       i18nc("unit synonyms for matching user input", "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 square centimeters"),
                        ki18ncp("amount in units (integer)", "%1 square centimeter", "%1 square centimeters")));
@@ -171,7 +171,7 @@ UnitCategory Area::makeCategory()
                        1e-06,
                        i18nc("area unit symbol", "mm²"),
                        i18nc("unit description in lists", "square millimeters"),
-                       i18nc("unit synonyms for matching user input", "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"),
+                       i18nc("unit synonyms for matching user input", "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 square millimeters"),
                        ki18ncp("amount in units (integer)", "%1 square millimeter", "%1 square millimeters")));
