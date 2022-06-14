@@ -242,7 +242,11 @@ void UnitCategoryPrivate::addUnit(const Unit &unit)
     // ### even without that, this is slicing the polymorphic part of UnitCategory
     // this only works by chance as apart from the ctors those parts contain no logic or data it seems
     unit.d->m_category = this;
-    const QStringList list = unit.d->m_matchString.split(QLatin1Char(';'));
+    const QStringList list = unit.d->m_matchString.split(QLatin1Char(';'), Qt::SkipEmptyParts);
+    Q_ASSERT_X(!list.isEmpty(),
+               "UnitCategoryPrivate::addUnit",
+               QLatin1String("Empty match string for unit symbol: '%1' '%2' - fix translation?").arg(unit.symbol(), unit.description()).toUtf8().constData());
+
     for (const QString &name : list) {
         m_unitMap[name] = unit;
     }
