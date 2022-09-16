@@ -82,7 +82,7 @@ ecm_generate_headers(KUnitConversion_CamelCase_HEADERS
 )
 install(FILES ${KUnitConversion_CamelCase_HEADERS} DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion/KUnitConversion COMPONENT Devel)
 
-install(TARGETS KF5UnitConversion EXPORT KF5UnitConversionTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS KF5UnitConversion EXPORT KF5UnitConversionTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
 install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
     ${KUnitConversion_HEADERS}
