@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
 
 set(KF_VERSION "5.99.0") # handled by release scripts
-set(KF_DEP_VERSION "5.98.0") # handled by release scripts
+set(KF_DEP_VERSION "5.99.0") # handled by release scripts
 project(KUnitConversion VERSION ${KF_VERSION})
 
 include(FeatureSummary)
-find_package(ECM 5.98.0  NO_MODULE)
+find_package(ECM 5.99.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
