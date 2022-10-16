@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-27 00:41+0000\n"
-"PO-Revision-Date: 2022-04-28 18:48+0300\n"
+"PO-Revision-Date: 2022-08-30 13:56+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-POT-Import-Date: 2012-12-01 22:24:27+0000\n"
-"X-Generator: Lokalize 20.04.2\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -156,7 +156,7 @@ msgstr "astetta"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "deg;degree;degrees;°"
-msgstr "deg;aste;astetta;°"
+msgstr "aste;astetta;°;deg"
 
 #: angle.cpp:56
 #, kde-format
@@ -564,9 +564,7 @@ msgid "square kilometers"
 msgstr "neliökilometrit"
 
 #: area.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square kilometer;square kilometers;km²;km/-2;km^2;km2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
 msgstr "neliökilometri;neliökilometriä;km²;km/-2;km^2;km2"
@@ -663,9 +661,7 @@ msgid "square meters"
 msgstr "neliömetrit"
 
 #: area.cpp:144
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
 msgstr "neliömetri;neliömetriä;m²;m/-2;m^2;m2"
@@ -729,9 +725,7 @@ msgid "square centimeters"
 msgstr "neliösenttimetrit"
 
 #: area.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
 msgstr "neliösenttimetri;neliösenttimetriä;cm²;cm/-2;cm^2;cm2"
@@ -763,9 +757,7 @@ msgid "square millimeters"
 msgstr "neliömillimetrit"
 
 #: area.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
 msgstr "neliömillimetri;neliömillimetriä;mm²;mm/-2;mm^2;mm2"
@@ -14185,32 +14177,27 @@ msgstr "stV"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "statvolts"
-msgstr ""
+msgstr "statvolttia"
 
 #: voltage.cpp:237
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "statvolt;statvolts;stV"
-msgstr ""
+msgstr "statvolt;statvoltia;statvoltti;statvolttia;stV"
 
 #: voltage.cpp:239
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 electronvolts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 statvolts"
-msgstr "%1 elektronivolttia"
+msgstr "%1 statvolttia"
 
 #: voltage.cpp:240
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 second"
-#| msgid_plural "%1 seconds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 statvolt"
 msgid_plural "%1 statvolts"
-msgstr[0] "%1 sekunti"
-msgstr[1] "%1 sekuntia"
+msgstr[0] "%1 statvoltti"
+msgstr[1] "%1 statvolttia"
 
 #: volume.cpp:18
 #, kde-format
@@ -15746,7 +15733,7 @@ msgstr "teelusikallinen"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsps"
-msgstr ""
+msgstr "teelusikka;teelusikkaa;teelusikallinen;teelusikallista;tl"
 
 #: volume.cpp:499
 #, kde-format
@@ -15778,7 +15765,7 @@ msgstr "ruokalusikallinen"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsps"
-msgstr ""
+msgstr "ruokalusikka;ruokalusikkaa;ruokalusikallinen;ruokalusikallista;rkl"
 
 #: volume.cpp:509
 #, kde-format
