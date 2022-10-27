@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-27 00:41+0000\n"
-"PO-Revision-Date: 2022-06-17 11:02+0300\n"
+"PO-Revision-Date: 2022-10-26 23:58+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.04.2\n"
+"X-Generator: Lokalize 22.08.1\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -13187,7 +13187,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "m/s"
-msgstr "m/s"
+msgstr "m/sn"
 
 #: velocity.cpp:54
 #, kde-format
@@ -13219,7 +13219,7 @@ msgstr[1] "saniyede %1 metre"
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "km/h"
-msgstr "km/h"
+msgstr "km/sa"
 
 #: velocity.cpp:64
 #, kde-format
@@ -13283,7 +13283,7 @@ msgstr[1] "saatte %1 mil"
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "ft/s"
-msgstr "ft/s"
+msgstr "ft/sn"
 
 #: velocity.cpp:84
 #, kde-format
@@ -13315,7 +13315,7 @@ msgstr[1] "saniyede %1 ayak"
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "in/s"
-msgstr "in/s"
+msgstr "in/sn"
 
 #: velocity.cpp:94
 #, kde-format
