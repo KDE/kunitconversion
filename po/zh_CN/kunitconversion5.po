@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-27 00:41+0000\n"
+"POT-Creation-Date: 2022-10-28 00:42+0000\n"
 "PO-Revision-Date: 2022-10-22 05:29\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -15252,9 +15252,11 @@ msgid "teaspoon"
 msgstr "茶匙"
 
 #: volume.cpp:497
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "teaspoon;teaspoons;tsps"
 msgctxt "unit synonyms for matching user input"
-msgid "teaspoon;teaspoons;tsps"
+msgid "teaspoon;teaspoons;tsp;tsps"
 msgstr "茶匙;teaspoon;teaspoons;tsps"
 
 #: volume.cpp:499
@@ -15283,9 +15285,11 @@ msgid "tablespoon"
 msgstr "汤匙"
 
 #: volume.cpp:507
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "tablespoon;tablespoons;tbsps"
 msgctxt "unit synonyms for matching user input"
-msgid "tablespoon;tablespoons;tbsps"
+msgid "tablespoon;tablespoons;tbsp;tbsps"
 msgstr "汤匙;tablespoon;tablespoons;tbsps"
 
 #: volume.cpp:509

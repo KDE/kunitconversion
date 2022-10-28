@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-27 00:41+0000\n"
+"POT-Creation-Date: 2022-10-28 00:42+0000\n"
 "PO-Revision-Date: 2010-12-17 00:21+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -16290,7 +16290,7 @@ msgstr ""
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "teaspoon;teaspoons;tsps"
+msgid "teaspoon;teaspoons;tsp;tsps"
 msgstr ""
 
 #: volume.cpp:499
@@ -16326,7 +16326,7 @@ msgstr ""
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "tablespoon;tablespoons;tbsps"
+msgid "tablespoon;tablespoons;tbsp;tbsps"
 msgstr ""
 
 #: volume.cpp:509

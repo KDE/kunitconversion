@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-27 00:41+0000\n"
+"POT-Creation-Date: 2022-10-28 00:42+0000\n"
 "PO-Revision-Date: 2022-05-27 08:43+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -15733,9 +15733,11 @@ msgid "teaspoon"
 msgstr "culleradeta"
 
 #: volume.cpp:497
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "teaspoon;teaspoons;tsps"
 msgctxt "unit synonyms for matching user input"
-msgid "teaspoon;teaspoons;tsps"
+msgid "teaspoon;teaspoons;tsp;tsps"
 msgstr "culleradeta;culleradetes;tsps"
 
 #: volume.cpp:499
@@ -15765,9 +15767,11 @@ msgid "tablespoon"
 msgstr "cullerada"
 
 #: volume.cpp:507
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "tablespoon;tablespoons;tbsps"
 msgctxt "unit synonyms for matching user input"
-msgid "tablespoon;tablespoons;tbsps"
+msgid "tablespoon;tablespoons;tbsp;tbsps"
 msgstr "cullerada;cullerades;tbsps"
 
 #: volume.cpp:509

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-27 00:41+0000\n"
+"POT-Creation-Date: 2022-10-28 00:42+0000\n"
 "PO-Revision-Date: 2019-07-19 02:58+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
@@ -15704,7 +15704,7 @@ msgstr ""
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "teaspoon;teaspoons;tsps"
+msgid "teaspoon;teaspoons;tsp;tsps"
 msgstr ""
 
 #: volume.cpp:499
@@ -15736,7 +15736,7 @@ msgstr ""
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "tablespoon;tablespoons;tbsps"
+msgid "tablespoon;tablespoons;tbsp;tbsps"
 msgstr ""
 
 #: volume.cpp:509

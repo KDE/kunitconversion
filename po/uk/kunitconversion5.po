@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-27 00:41+0000\n"
+"POT-Creation-Date: 2022-10-28 00:42+0000\n"
 "PO-Revision-Date: 2022-05-27 09:22+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -16933,9 +16933,11 @@ msgid "teaspoon"
 msgstr "чайна ложка"
 
 #: volume.cpp:497
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "teaspoon;teaspoons;tsps"
 msgctxt "unit synonyms for matching user input"
-msgid "teaspoon;teaspoons;tsps"
+msgid "teaspoon;teaspoons;tsp;tsps"
 msgstr "чайні ложки;чайна ложка;чайної ложки;чайних ложки;чайних ложок;ч.л.;чл"
 
 #: volume.cpp:499
@@ -16967,9 +16969,11 @@ msgid "tablespoon"
 msgstr "столова ложка"
 
 #: volume.cpp:507
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "tablespoon;tablespoons;tbsps"
 msgctxt "unit synonyms for matching user input"
-msgid "tablespoon;tablespoons;tbsps"
+msgid "tablespoon;tablespoons;tbsp;tbsps"
 msgstr "столові ложки;столова ложка;столових ложки;столових ложок;ст.л.;tbsps"
 
 #: volume.cpp:509
