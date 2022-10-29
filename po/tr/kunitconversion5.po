@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-28 00:42+0000\n"
-"PO-Revision-Date: 2022-10-26 23:58+0300\n"
+"PO-Revision-Date: 2022-10-28 12:10+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,12 +20,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.08.1\n"
+"X-Generator: Lokalize 22.08.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
 msgid "Acceleration"
-msgstr "İvme"
+msgstr "İvmelendirme"
 
 #: acceleration.cpp:19
 #, kde-format
@@ -15717,12 +15717,10 @@ msgid "teaspoon"
 msgstr "çay kaşığı"
 
 #: volume.cpp:497
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teaspoon;teaspoons;tsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr "teaspoon;teaspoons;tsps;çay kaşığı"
+msgstr "teaspoon;teaspoons;tsps;çay kaşığı;çayk;çaykaşığı"
 
 #: volume.cpp:499
 #, kde-format
@@ -15751,12 +15749,10 @@ msgid "tablespoon"
 msgstr "yemek kaşığı"
 
 #: volume.cpp:507
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "tablespoon;tablespoons;tbsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr "tablespoon;tablespoons;tbsps;yemek kaşığı"
+msgstr "tablespoon;tablespoons;tbsps;yemek kaşığı;yemekk;ymkk;yemekkaşığı"
 
 #: volume.cpp:509
 #, kde-format
