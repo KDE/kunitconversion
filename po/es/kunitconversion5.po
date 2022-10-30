@@ -16,14 +16,14 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-28 00:42+0000\n"
-"PO-Revision-Date: 2022-05-27 12:32+0200\n"
+"PO-Revision-Date: 2022-10-29 19:03+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 22.04.1\n"
+"X-Generator: Lokalize 22.08.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: acceleration.cpp:17
@@ -15732,12 +15732,10 @@ msgid "teaspoon"
 msgstr "cucharadita"
 
 #: volume.cpp:497
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teaspoon;teaspoons;tsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr "cucharadita;cucharaditas;cdtas"
+msgstr "cucharadita;cucharaditas;cdta;cdtas"
 
 #: volume.cpp:499
 #, kde-format
@@ -15766,12 +15764,10 @@ msgid "tablespoon"
 msgstr "cucharada"
 
 #: volume.cpp:507
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "tablespoon;tablespoons;tbsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr "cucharada;cucharadas;cdas"
+msgstr "cucharada;cucharadas;cda;cdas"
 
 #: volume.cpp:509
 #, kde-format
