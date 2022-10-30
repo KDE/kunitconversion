@@ -234,7 +234,7 @@ UnitCategory Mass::makeCategory()
                              1e+06,
                              i18nc("mass unit symbol", "t"),
                              i18nc("unit description in lists", "tons"),
-                             i18nc("unit synonyms for matching user input", "ton;tons;t;tonne"), // TODO Fix! Tonne == Metric Ton == Mg
+                             i18nc("unit synonyms for matching user input", "ton;tons;t;tonne;tonnes"), // TODO Fix! Tonne == Metric Ton == Mg
                              symbolString,
                              ki18nc("amount in units (real)", "%1 tons"),
                              ki18ncp("amount in units (integer)", "%1 ton", "%1 tons")));
@@ -245,7 +245,7 @@ UnitCategory Mass::makeCategory()
                        0.2,
                        i18nc("mass unit symbol", "CD"),
                        i18nc("unit description in lists", "carats"),
-                       i18nc("unit synonyms for matching user input", "carat;carats;CD"),
+                       i18nc("unit synonyms for matching user input", "carat;carats;CD;ct"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 carats"),
                        ki18ncp("amount in units (integer)", "%1 carat", "%1 carats")));
@@ -256,7 +256,7 @@ UnitCategory Mass::makeCategory()
                              453.592,
                              i18nc("mass unit symbol", "lb"),
                              i18nc("unit description in lists", "pounds"),
-                             i18nc("unit synonyms for matching user input", "pound;pounds;lb"),
+                             i18nc("unit synonyms for matching user input", "pound;pounds;lb;lbs"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 pounds"),
                              ki18ncp("amount in units (integer)", "%1 pound", "%1 pounds")));
