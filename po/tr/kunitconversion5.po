@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-28 00:42+0000\n"
+"POT-Creation-Date: 2022-11-01 00:44+0000\n"
 "PO-Revision-Date: 2022-10-28 12:10+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -9598,9 +9598,11 @@ msgid "tons"
 msgstr "ton"
 
 #: mass.cpp:237
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "ton;tons;t;tonne"
 msgctxt "unit synonyms for matching user input"
-msgid "ton;tons;t;tonne"
+msgid "ton;tons;t;tonne;tonnes"
 msgstr "ton;ton;t;ton"
 
 #: mass.cpp:239
@@ -9630,9 +9632,11 @@ msgid "carats"
 msgstr "karat"
 
 #: mass.cpp:248
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "carat;carats;CD"
 msgctxt "unit synonyms for matching user input"
-msgid "carat;carats;CD"
+msgid "carat;carats;CD;ct"
 msgstr "karat;karat;CD"
 
 #: mass.cpp:250
@@ -9662,9 +9666,11 @@ msgid "pounds"
 msgstr "Pound"
 
 #: mass.cpp:259
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pound;pounds;lb"
 msgctxt "unit synonyms for matching user input"
-msgid "pound;pounds;lb"
+msgid "pound;pounds;lb;lbs"
 msgstr "pound;pound;lb"
 
 #: mass.cpp:261

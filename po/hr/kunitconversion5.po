@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-28 00:42+0000\n"
+"POT-Creation-Date: 2022-11-01 00:44+0000\n"
 "PO-Revision-Date: 2011-07-24 13:27+0200\n"
 "Last-Translator: Marko Dimjašević <marko@dimjasevic.net>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -10814,10 +10814,12 @@ msgid "tons"
 msgstr ""
 
 #: mass.cpp:237
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "hectonewton;hectonewtons;hN"
 msgctxt "unit synonyms for matching user input"
-msgid "ton;tons;t;tonne"
-msgstr ""
+msgid "ton;tons;t;tonne;tonnes"
+msgstr "hektanjutn;hektanjutna;hN"
 
 #: mass.cpp:239
 #, kde-format
@@ -10848,7 +10850,7 @@ msgstr ""
 #: mass.cpp:248
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "carat;carats;CD"
+msgid "carat;carats;CD;ct"
 msgstr ""
 
 #: mass.cpp:250
@@ -10880,7 +10882,7 @@ msgstr ""
 #: mass.cpp:259
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "pound;pounds;lb"
+msgid "pound;pounds;lb;lbs"
 msgstr ""
 
 #: mass.cpp:261

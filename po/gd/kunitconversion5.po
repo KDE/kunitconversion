@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-28 00:42+0000\n"
+"POT-Creation-Date: 2022-11-01 00:44+0000\n"
 "PO-Revision-Date: 2016-05-05 13:20+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -10830,10 +10830,12 @@ msgid "tons"
 msgstr ""
 
 #: mass.cpp:237
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "attonewton;attonewtons;aN"
 msgctxt "unit synonyms for matching user input"
-msgid "ton;tons;t;tonne"
-msgstr ""
+msgid "ton;tons;t;tonne;tonnes"
+msgstr "attonewton;attonewtons;ato-newton;aN"
 
 #: mass.cpp:239
 #, kde-format
@@ -10866,7 +10868,7 @@ msgstr ""
 #: mass.cpp:248
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "carat;carats;CD"
+msgid "carat;carats;CD;ct"
 msgstr ""
 
 #: mass.cpp:250
@@ -10898,10 +10900,12 @@ msgid "pounds"
 msgstr ""
 
 #: mass.cpp:259
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "poundal;poundals;pdl"
 msgctxt "unit synonyms for matching user input"
-msgid "pound;pounds;lb"
-msgstr ""
+msgid "pound;pounds;lb;lbs"
+msgstr "poundal;poundals;punndal;pdl"
 
 #: mass.cpp:261
 #, kde-format

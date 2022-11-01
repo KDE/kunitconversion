@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-28 00:42+0000\n"
+"POT-Creation-Date: 2022-11-01 00:44+0000\n"
 "PO-Revision-Date: 2014-10-29 10:45+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -9847,7 +9847,7 @@ msgstr ""
 #: mass.cpp:237
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "ton;tons;t;tonne"
+msgid "ton;tons;t;tonne;tonnes"
 msgstr ""
 
 #: mass.cpp:239
@@ -9879,7 +9879,7 @@ msgstr ""
 #: mass.cpp:248
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "carat;carats;CD"
+msgid "carat;carats;CD;ct"
 msgstr ""
 
 #: mass.cpp:250
@@ -9911,7 +9911,7 @@ msgstr ""
 #: mass.cpp:259
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "pound;pounds;lb"
+msgid "pound;pounds;lb;lbs"
 msgstr ""
 
 #: mass.cpp:261

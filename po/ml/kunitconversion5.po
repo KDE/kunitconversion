@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-28 00:42+0000\n"
+"POT-Creation-Date: 2022-11-01 00:44+0000\n"
 "PO-Revision-Date: 2019-07-19 02:58+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
@@ -9591,7 +9591,7 @@ msgstr ""
 #: mass.cpp:237
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "ton;tons;t;tonne"
+msgid "ton;tons;t;tonne;tonnes"
 msgstr ""
 
 #: mass.cpp:239
@@ -9623,7 +9623,7 @@ msgstr ""
 #: mass.cpp:248
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "carat;carats;CD"
+msgid "carat;carats;CD;ct"
 msgstr ""
 
 #: mass.cpp:250
@@ -9655,7 +9655,7 @@ msgstr ""
 #: mass.cpp:259
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "pound;pounds;lb"
+msgid "pound;pounds;lb;lbs"
 msgstr ""
 
 #: mass.cpp:261
