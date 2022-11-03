@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-10-28 11:44+0100\n"
+"PO-Revision-Date: 2022-11-02 14:03+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -189,7 +189,7 @@ msgstr ""
 "X-POFile-SpellExtra: YB yotabits gigabit KiB Tb Tib mebibyte zetabytes Yb\n"
 "X-POFile-SpellExtra: yotabit Kib TB TiB yobibits zebibits zetabyte exbibit\n"
 "X-POFile-SpellExtra: kb kibibyte gigabyte terabits Eib pebibyte pebibytes\n"
-"X-POFile-SpellExtra: dBk dBm dBmW dB dBuW dBkW dBW imp pit col\n"
+"X-POFile-SpellExtra: dBk dBm dBmW dB dBuW dBkW dBW imp pit col lbs\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -9773,9 +9773,7 @@ msgid "tons"
 msgstr "toneladas"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
 msgstr "tonelada;toneladas;t;ton"
@@ -9807,12 +9805,10 @@ msgid "carats"
 msgstr "quilates"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "quilate;quilates;CD"
+msgstr "quilate;quilates;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9841,12 +9837,10 @@ msgid "pounds"
 msgstr "libras"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "libra;libras;lb"
+msgstr "libra;libras;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format

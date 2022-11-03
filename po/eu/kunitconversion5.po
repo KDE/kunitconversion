@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-10-29 13:50+0200\n"
+"PO-Revision-Date: 2022-11-02 06:05+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -9647,9 +9647,7 @@ msgid "tons"
 msgstr "tonak"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
 msgstr "tona;tonak;t"
@@ -9681,12 +9679,10 @@ msgid "carats"
 msgstr "kilateak"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "kilate;kilateak;CD"
+msgstr "kilate;kilateak;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9715,12 +9711,10 @@ msgid "pounds"
 msgstr "librak"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "libra;librak;lb"
+msgstr "libra;librak;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
