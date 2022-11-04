@@ -189,7 +189,7 @@ msgstr ""
 "X-POFile-SpellExtra: YB yotabits gigabit KiB Tb Tib mebibyte zetabytes Yb\n"
 "X-POFile-SpellExtra: yotabit Kib TB TiB yobibits zebibits zetabyte exbibit\n"
 "X-POFile-SpellExtra: kb kibibyte gigabyte terabits Eib pebibyte pebibytes\n"
-"X-POFile-SpellExtra: dBk dBm dBmW dB dBuW dBkW dBW imp pit col lbs\n"
+"X-POFile-SpellExtra: dBk dBm dBmW dB dBuW dBkW dBW imp pit col lbs ct\n"
 
 #: acceleration.cpp:17
 #, kde-format
