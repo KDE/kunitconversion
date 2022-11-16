@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-05-27 13:09+0200\n"
+"PO-Revision-Date: 2022-11-03 12:29+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.04.1\n"
+"X-Generator: Lokalize 22.08.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -9596,9 +9596,7 @@ msgid "tons"
 msgstr "tonnellate"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
 msgstr "tonnellata;tonnellate;t"
@@ -9630,12 +9628,10 @@ msgid "carats"
 msgstr "carati"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "carato;carati;CD"
+msgstr "carato;carati;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9664,9 +9660,7 @@ msgid "pounds"
 msgstr "libbre"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
 msgstr "libbra;libbre;lb"
@@ -15725,9 +15719,7 @@ msgid "teaspoon"
 msgstr "cucchiaino"
 
 #: volume.cpp:497
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teaspoon;teaspoons;tsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
 msgstr "cucchiaino;cucchiaini;tsp"
@@ -15759,9 +15751,7 @@ msgid "tablespoon"
 msgstr "cucchiaio"
 
 #: volume.cpp:507
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "tablespoon;tablespoons;tbsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
 msgstr "cucchiaio;cucchiai;tbsp"
