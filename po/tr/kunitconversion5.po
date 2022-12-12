@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-11-01 12:43+0300\n"
+"PO-Revision-Date: 2022-12-11 14:28+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.08.2\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2438,26 +2438,26 @@ msgstr[1] "%1 Mark"
 #, kde-format
 msgctxt "currency name"
 msgid "Irish Pound"
-msgstr "İrlanda Poundu"
+msgstr "İrlanda Sterlini"
 
 #: currency.cpp:151
 #, kde-format
 msgctxt "IEP Irish Pound - unit synonyms for matching user input"
 msgid "Irish pound;Irish pounds"
-msgstr "İrlanda poundu;İrlanda poundu"
+msgstr "İrlanda sterlini;İrlanda poundu"
 
 #: currency.cpp:154
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Irish pounds"
-msgstr "%1 İrlanda poundu"
+msgstr "%1 İrlanda Sterlini"
 
 #: currency.cpp:155
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Irish pound"
 msgid_plural "%1 Irish pounds"
-msgstr[0] "%1 İrlanda poundu"
+msgstr[0] "%1 İrlanda Sterlini"
 msgstr[1] "%1 İrlanda poundu"
 
 #: currency.cpp:161 currency.cpp:163
@@ -2476,15 +2476,15 @@ msgstr "lira;lira"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Italian lira"
-msgstr "%1 İtalyan lirası"
+msgstr "%1 İtalyan Lirası"
 
 #: currency.cpp:166
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Italian lira"
 msgid_plural "%1 Italian lira"
-msgstr[0] "%1 İtalyan lirası"
-msgstr[1] "%1 İtalyan lirası"
+msgstr[0] "%1 İtalyan Lirası"
+msgstr[1] "%1 İtalyan Lirası"
 
 #: currency.cpp:172 currency.cpp:174
 #, kde-format
@@ -2502,15 +2502,15 @@ msgstr "frang;frang"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Luxembourgish francs"
-msgstr "%1 Lüksemburg frangı"
+msgstr "%1 Lüksemburg Frankı"
 
 #: currency.cpp:177
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Luxembourgish franc"
 msgid_plural "%1 Luxembourgish francs"
-msgstr[0] "%1 Lüksemburg frangı"
-msgstr[1] "%1 Lüksemburg frangı"
+msgstr[0] "%1 Lüksemburg Frankı"
+msgstr[1] "%1 Lüksemburg Frankı"
 
 #: currency.cpp:183 currency.cpp:185
 #, kde-format
@@ -2684,15 +2684,15 @@ msgstr "koruna;koruna;koruna;koruna"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Slovak korunas"
-msgstr "%1 Slovak korunası"
+msgstr "%1 Slovak Korunası"
 
 #: currency.cpp:254
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Slovak koruna"
 msgid_plural "%1 Slovak korunas"
-msgstr[0] "%1 Slovak Kronu"
-msgstr[1] "%1 Slovak korunası"
+msgstr[0] "%1 Slovak Korunası"
+msgstr[1] "%1 Slovak Korunası"
 
 #: currency.cpp:261 currency.cpp:263
 #, kde-format
@@ -3010,7 +3010,7 @@ msgstr[1] "%1 Zloti"
 #, kde-format
 msgctxt "currency name"
 msgid "Romanian Leu"
-msgstr "Romanya Leyi"
+msgstr "Rumen Levi"
 
 #: currency.cpp:397
 #, kde-format
@@ -3036,7 +3036,7 @@ msgstr[1] "%1 leu"
 #, kde-format
 msgctxt "currency name"
 msgid "Swedish Krona"
-msgstr "Isveç Kronu"
+msgstr "İsveç Kronu"
 
 #: currency.cpp:408
 #, kde-format
@@ -3374,7 +3374,7 @@ msgstr[1] "%1 Rupi"
 #, kde-format
 msgctxt "currency name"
 msgid "Korean Won"
-msgstr "Kore Wonu"
+msgstr "Kore Vonu"
 
 #: currency.cpp:551
 #, kde-format
@@ -3594,15 +3594,15 @@ msgstr "İzlanda kronu;İzlanda kronası"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronar"
-msgstr "%1 İzlanda kronu"
+msgstr "%1 İzlanda Kronu"
 
 #: currency.cpp:643
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronar"
-msgstr[0] "%1 İzlanda kronu"
-msgstr[1] "%1 İzlanda kronu"
+msgstr[0] "%1 İzlanda Kronu"
+msgstr[1] "%1 İzlanda Kronu"
 
 #: density.cpp:17
 #, kde-format
