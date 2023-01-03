@@ -435,7 +435,7 @@ UnitCategory Currency::makeCategory()
 
     d->addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Hrk,
-                       qSNaN(),
+                       1.0/7.53450,
                        QStringLiteral("HRK"),
                        i18nc("currency name", "Croatian Kuna"),
                        i18nc("HRK Croatian Kuna - unit synonyms for matching user input", "kuna;kune") + QStringLiteral(";HRK;")
