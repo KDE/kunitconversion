@@ -6,20 +6,20 @@
 # Maciej Wikło <maciej.wiklo@wp.pl>, 2009, 2010.
 # Marta Rybczyńska <kde-i18n@rybczynska.net>, 2009, 2010, 2011.
 # Marcin Floryan <mfloryan@mm.waw.pl>, 2010.
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2014, 2016, 2018, 2019, 2021, 2022.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2014, 2016, 2018, 2019, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-06-27 20:27+0200\n"
+"PO-Revision-Date: 2023-01-04 20:54+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 22.03.70\n"
+"X-Generator: Lokalize 22.12.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Polish\n"
@@ -9909,12 +9909,10 @@ msgid "tons"
 msgstr "tony"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
-msgstr "tona;tony;t"
+msgstr "tona;tony;t;tona;tony"
 
 #: mass.cpp:239
 #, kde-format
@@ -9944,12 +9942,10 @@ msgid "carats"
 msgstr "karaty"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "karat;karaty;CD"
+msgstr "karat;karaty;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9979,12 +9975,10 @@ msgid "pounds"
 msgstr "funty"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "funt;funty;lb"
+msgstr "funt;funty;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
@@ -16233,12 +16227,10 @@ msgid "teaspoon"
 msgstr "łyżeczka stołowa"
 
 #: volume.cpp:497
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teaspoon;teaspoons;tsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr "łyżeczka stołowa;łyżeczki stołowe;łst"
+msgstr "łyżeczka stołowa;łyżeczki stołowe;łst;łst"
 
 #: volume.cpp:499
 #, kde-format
@@ -16268,12 +16260,10 @@ msgid "tablespoon"
 msgstr "łyżeczka stołowa"
 
 #: volume.cpp:507
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "tablespoon;tablespoons;tbsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr "łyżeczka stołowa;łyżeczki stołowe;łstł"
+msgstr "łyżeczka stołowa;łyżeczki stołowe;łstł;łstł"
 
 #: volume.cpp:509
 #, kde-format
