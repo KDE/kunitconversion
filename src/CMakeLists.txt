@@ -27,6 +27,7 @@ target_sources(KF5UnitConversion PRIVATE
     timeunit.cpp
     fuel_efficiency.cpp
     density.cpp
+    weight_per_area.cpp
     acceleration.cpp
     force.cpp
     angle.cpp

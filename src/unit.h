@@ -30,6 +30,7 @@ enum CategoryId {
     TimeCategory,
     FuelEfficiencyCategory,
     DensityCategory,
+    WeightPerAreaCategory,
     AccelerationCategory,
     AngleCategory,
     FrequencyCategory,
@@ -445,6 +446,10 @@ enum UnitId {
     PoundPerCubicInch,
     PoundPerCubicFoot,
     PoundPerCubicYard,
+
+    // Weight per area
+    GramsPerSquareMeter,
+    OuncesPerSquareYard,
 
     // Acceleration
     MetresPerSecondSquared = 14000,

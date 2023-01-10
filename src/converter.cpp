@@ -16,6 +16,7 @@
 #include "electrical_current_p.h"
 #include "electrical_resistance_p.h"
 #include "energy_p.h"
+#include "weight_per_area_p.h"
 #include "force_p.h"
 #include "frequency_p.h"
 #include "fuel_efficiency_p.h"
@@ -29,6 +30,7 @@
 #include "thermal_flux_p.h"
 #include "thermal_generation_p.h"
 #include "timeunit_p.h"
+#include "unit.h"
 #include "velocity_p.h"
 #include "voltage_p.h"
 #include "volume_p.h"
@@ -55,6 +57,7 @@ public:
         m_categories[TimeCategory] = Time::makeCategory();
         m_categories[FuelEfficiencyCategory] = FuelEfficiency::makeCategory();
         m_categories[DensityCategory] = Density::makeCategory();
+        m_categories[WeightPerAreaCategory] = WeightPerArea::makeCategory();
         m_categories[AccelerationCategory] = Acceleration::makeCategory();
         m_categories[ForceCategory] = Force::makeCategory();
         m_categories[AngleCategory] = Angle::makeCategory();

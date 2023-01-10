@@ -34,6 +34,7 @@ following areas are supported:
 * Velocity
 * Volume
 * Voltage
+* Weight per area
 
 ## Usage
 
