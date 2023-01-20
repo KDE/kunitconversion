@@ -1,7 +1,7 @@
-add_library(KF5UnitConversion)
-add_library(KF5::UnitConversion ALIAS KF5UnitConversion)
+add_library(KF6UnitConversion)
+add_library(KF6::UnitConversion ALIAS KF6UnitConversion)
 
-ecm_qt_declare_logging_category(KF5UnitConversion
+ecm_qt_declare_logging_category(KF6UnitConversion
     HEADER kunitconversion_debug.h
     IDENTIFIER LOG_KUNITCONVERSION
     CATEGORY_NAME kf.kunitconversion
@@ -9,7 +9,7 @@ ecm_qt_declare_logging_category(KF5UnitConversion
     EXPORT KUNITCONVERSION
 )
 
-target_sources(KF5UnitConversion PRIVATE
+target_sources(KF6UnitConversion PRIVATE
     converter.cpp
     value.cpp
     unit.cpp
@@ -45,9 +45,9 @@ target_sources(KF5UnitConversion PRIVATE
 if (WIN32)
     # As stated in http://msdn.microsoft.com/en-us/library/4hwaceh6.aspx M_PI only gets defined
     # when using MSVC if _USE_MATH_DEFINES is defined (this is needed for angle.cpp)
-    target_compile_definitions(KF5UnitConversion PRIVATE _USE_MATH_DEFINES)
+    target_compile_definitions(KF6UnitConversion PRIVATE _USE_MATH_DEFINES)
 endif()
-ecm_generate_export_header(KF5UnitConversion
+ecm_generate_export_header(KF6UnitConversion
     BASE_NAME KUnitConversion
     EXPORT_FILE_NAME ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
     GROUP_BASE_NAME KF
@@ -58,15 +58,15 @@ ecm_generate_export_header(KF5UnitConversion
 )
 
 set(kunitconversion_BUILD_INCLUDE_DIRS ${KUnitConversion_BINARY_DIR} ${CMAKE_CURRENT_BINARY_DIR})
-target_include_directories(KF5UnitConversion PUBLIC "$<BUILD_INTERFACE:${kunitconversion_BUILD_INCLUDE_DIRS}>")
-target_include_directories(KF5UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion>")
+target_include_directories(KF6UnitConversion PUBLIC "$<BUILD_INTERFACE:${kunitconversion_BUILD_INCLUDE_DIRS}>")
+target_include_directories(KF6UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion>")
 
-target_link_libraries(KF5UnitConversion PUBLIC  Qt${QT_MAJOR_VERSION}::Core
+target_link_libraries(KF6UnitConversion PUBLIC  Qt${QT_MAJOR_VERSION}::Core
                                         PRIVATE Qt${QT_MAJOR_VERSION}::Network
-                                                KF5::I18n
+                                                KF6::I18n
 )
 
-set_target_properties(KF5UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_VERSION}
+set_target_properties(KF6UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_VERSION}
                                                    SOVERSION ${KUNITCONVERSION_SOVERSION}
                                                    EXPORT_NAME UnitConversion
 )
@@ -83,7 +83,7 @@ ecm_generate_headers(KUnitConversion_CamelCase_HEADERS
 )
 install(FILES ${KUnitConversion_CamelCase_HEADERS} DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion/KUnitConversion COMPONENT Devel)
 
-install(TARGETS KF5UnitConversion EXPORT KF5UnitConversionTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS KF6UnitConversion EXPORT KF6UnitConversionTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
 install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
     ${KUnitConversion_HEADERS}
@@ -98,9 +98,9 @@ ecm_qt_install_logging_categories(
 
 if(BUILD_QCH)
     ecm_add_qch(
-        KF5UnitConversion_QCH
+        KF6UnitConversion_QCH
         NAME KUnitConversion
-        BASE_NAME KF5UnitConversion
+        BASE_NAME KF6UnitConversion
         VERSION ${KF_VERSION}
         ORG_DOMAIN org.kde
         SOURCES # using only public headers, to cover only public API
@@ -121,5 +121,5 @@ if(BUILD_QCH)
 endif()
 
 include(ECMGeneratePriFile)
-ecm_generate_pri_file(BASE_NAME KUnitConversion LIB_NAME KF5UnitConversion DEPS "core" FILENAME_VAR PRI_FILENAME INCLUDE_INSTALL_DIR ${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion)
+ecm_generate_pri_file(BASE_NAME KUnitConversion LIB_NAME KF6UnitConversion DEPS "core" FILENAME_VAR PRI_FILENAME INCLUDE_INSTALL_DIR ${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion)
 install(FILES ${PRI_FILENAME} DESTINATION ${ECM_MKSPECS_INSTALL_DIR})

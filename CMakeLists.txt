@@ -23,12 +23,12 @@ set(EXCLUDE_DEPRECATED_BEFORE_AND_AT 0 CACHE STRING "Control the range of deprec
 set(REQUIRED_QT_VERSION 6.4.0)
 find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Network)
 
-set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5UnitConversion")
+set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6UnitConversion")
 
 ecm_setup_version(PROJECT VARIABLE_PREFIX KUNITCONVERSION
                         VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/kunitconversion_version.h"
-                        PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5UnitConversionConfigVersion.cmake"
-                        SOVERSION 5)
+                        PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6UnitConversionConfigVersion.cmake"
+                        SOVERSION 6)
 
 # QCH
 include(ECMAddQch)
@@ -36,16 +36,16 @@ option(BUILD_QCH "Build API documentation in QCH format (for e.g. Qt Assistant, 
 add_feature_info(QCH ${BUILD_QCH} "API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)")
 if (BUILD_QCH)
     ecm_install_qch_export(
-        TARGETS KF5UnitConversion_QCH
-        FILE KF5UnitConversionQchTargets.cmake
+        TARGETS KF6UnitConversion_QCH
+        FILE KF6UnitConversionQchTargets.cmake
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
         COMPONENT Devel
     )
-    set(PACKAGE_INCLUDE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/KF5UnitConversionQchTargets.cmake\")")
+    set(PACKAGE_INCLUDE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/KF6UnitConversionQchTargets.cmake\")")
 endif()
 
 # I18n
-find_package(KF5I18n ${KF_DEP_VERSION} REQUIRED)
+find_package(KF6I18n ${KF_DEP_VERSION} REQUIRED)
 add_definitions(-DTRANSLATION_DOMAIN=\"kunitconversion5\")
 ki18n_install(po)
 
@@ -61,17 +61,17 @@ endif()
 # create a Config.cmake and a ConfigVersion.cmake file and install them
 include(CMakePackageConfigHelpers)
 configure_package_config_file(
-    "${CMAKE_CURRENT_SOURCE_DIR}/KF5UnitConversionConfig.cmake.in"
-    "${CMAKE_CURRENT_BINARY_DIR}/KF5UnitConversionConfig.cmake"
+    "${CMAKE_CURRENT_SOURCE_DIR}/KF6UnitConversionConfig.cmake.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/KF6UnitConversionConfig.cmake"
     INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
 )
 install(FILES
-    "${CMAKE_CURRENT_BINARY_DIR}/KF5UnitConversionConfig.cmake"
-    "${CMAKE_CURRENT_BINARY_DIR}/KF5UnitConversionConfigVersion.cmake"
+    "${CMAKE_CURRENT_BINARY_DIR}/KF6UnitConversionConfig.cmake"
+    "${CMAKE_CURRENT_BINARY_DIR}/KF6UnitConversionConfigVersion.cmake"
     DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
     COMPONENT Devel
 )
-install(EXPORT KF5UnitConversionTargets DESTINATION "${CMAKECONFIG_INSTALL_DIR}" FILE KF5UnitConversionTargets.cmake NAMESPACE KF5:: )
+install(EXPORT KF6UnitConversionTargets DESTINATION "${CMAKECONFIG_INSTALL_DIR}" FILE KF6UnitConversionTargets.cmake NAMESPACE KF6:: )
 install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion_version.h
     DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion COMPONENT Devel
