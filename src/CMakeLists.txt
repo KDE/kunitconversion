@@ -61,8 +61,8 @@ set(kunitconversion_BUILD_INCLUDE_DIRS ${KUnitConversion_BINARY_DIR} ${CMAKE_CUR
 target_include_directories(KF6UnitConversion PUBLIC "$<BUILD_INTERFACE:${kunitconversion_BUILD_INCLUDE_DIRS}>")
 target_include_directories(KF6UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion>")
 
-target_link_libraries(KF6UnitConversion PUBLIC  Qt${QT_MAJOR_VERSION}::Core
-                                        PRIVATE Qt${QT_MAJOR_VERSION}::Network
+target_link_libraries(KF6UnitConversion PUBLIC  Qt6::Core
+                                        PRIVATE Qt6::Network
                                                 KF6::I18n
 )
 
@@ -107,7 +107,7 @@ if(BUILD_QCH)
             ${KUnitConversion_HEADERS}
         MD_MAINPAGE "${CMAKE_SOURCE_DIR}/README.md"
         LINK_QCHS
-            Qt5Core_QCH
+            Qt6Core_QCH
         INCLUDE_DIRS
             ${kunitconversion_BUILD_INCLUDE_DIRS}
         BLANK_MACROS
