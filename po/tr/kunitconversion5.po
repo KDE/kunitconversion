@@ -6,13 +6,13 @@
 # Ozan Çağlayan <ozan@pardus.org.tr>, 2010, 2011.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2017.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-12-11 14:28+0300\n"
+"PO-Revision-Date: 2023-01-24 20:32+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2860,21 +2860,21 @@ msgstr "İngiliz Sterlini"
 #, kde-format
 msgctxt "GBP British Pound - unit synonyms for matching user input"
 msgid "pound;pounds;pound sterling;pounds sterling"
-msgstr "pound;pound;pound sterling;pound sterling"
+msgstr "pound;pound;pound sterling;pound sterling;sterlin"
 
 #: currency.cpp:333
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pounds sterling"
-msgstr "%1 pound sterlin"
+msgstr "%1 sterlin"
 
 #: currency.cpp:334
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound sterling"
 msgid_plural "%1 pounds sterling"
-msgstr[0] "%1 pound sterlin"
-msgstr[1] "%1 pound sterlin"
+msgstr[0] "%1 sterlin"
+msgstr[1] "%1 sterlin"
 
 #: currency.cpp:340 currency.cpp:342
 #, kde-format
