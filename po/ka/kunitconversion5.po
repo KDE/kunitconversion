@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-10-04 06:12+0200\n"
+"PO-Revision-Date: 2023-01-30 09:09+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -1134,7 +1134,7 @@ msgstr "ბინარული მონაცემები"
 #: binary_data.cpp:44
 #, kde-format
 msgid "Binary Data Size"
-msgstr ""
+msgstr "ბინარული მონაცემების ზომა"
 
 #: binary_data.cpp:46
 #, kde-format
@@ -1280,7 +1280,7 @@ msgstr "ზიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zebibytes"
-msgstr ""
+msgstr "ზებიბაიტი"
 
 #: binary_data.cpp:93
 #, kde-format
@@ -1292,59 +1292,59 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zebibytes"
-msgstr ""
+msgstr "%1 ზებიბაიტი"
 
 #: binary_data.cpp:96
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zebibyte"
 msgid_plural "%1 zebibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზებიბაიტი"
+msgstr[1] "%1 ზებიბაიტი"
 
 #: binary_data.cpp:101
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zib"
-msgstr ""
+msgstr "ზიბ"
 
 #: binary_data.cpp:102
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zebibits"
-msgstr ""
+msgstr "ზებიბიტი"
 
 #: binary_data.cpp:103
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Zib;zebibit;zebibits"
-msgstr ""
+msgstr "ზიბ;ზებიბიტი"
 
 #: binary_data.cpp:105
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zebibits"
-msgstr ""
+msgstr "%1 ზებიბიტი"
 
 #: binary_data.cpp:106
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zebibit"
 msgid_plural "%1 zebibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზებიბიტი"
+msgstr[1] "%1 ზებიბიტი"
 
 #: binary_data.cpp:111
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "ZB"
-msgstr ""
+msgstr "ზბ"
 
 #: binary_data.cpp:112
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettabytes"
-msgstr ""
+msgstr "ზეტაბაიტი"
 
 #: binary_data.cpp:113
 #, kde-format
@@ -1356,27 +1356,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettabytes"
-msgstr ""
+msgstr "%1 ზეტაბაიტი"
 
 #: binary_data.cpp:116
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettabyte"
 msgid_plural "%1 zettabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტაბაიტი"
+msgstr[1] "%1 ზეტაბაიტი"
 
 #: binary_data.cpp:121
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zb"
-msgstr ""
+msgstr "ზბ"
 
 #: binary_data.cpp:122
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettabits"
-msgstr ""
+msgstr "ზეტაბიტი"
 
 #: binary_data.cpp:123
 #, kde-format
@@ -1388,15 +1388,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettabits"
-msgstr ""
+msgstr "%1 ზეტაბიტი"
 
 #: binary_data.cpp:126
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettabit"
 msgid_plural "%1 zettabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტაბიტი"
+msgstr[1] "%1 ზეტაბიტი"
 
 #: binary_data.cpp:131
 #, kde-format
@@ -1408,7 +1408,7 @@ msgstr "ეიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exbibytes"
-msgstr ""
+msgstr "ექსიბაიტი"
 
 #: binary_data.cpp:133
 #, kde-format
@@ -1420,15 +1420,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exbibytes"
-msgstr ""
+msgstr "%1 ექსიბაიტი"
 
 #: binary_data.cpp:136
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exbibyte"
 msgid_plural "%1 exbibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსიბაიტი"
+msgstr[1] "%1 ექსიბაიტი"
 
 #: binary_data.cpp:141
 #, kde-format
@@ -1440,7 +1440,7 @@ msgstr "ეიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exbibits"
-msgstr ""
+msgstr "ექსიბიტი"
 
 #: binary_data.cpp:143
 #, kde-format
@@ -1452,15 +1452,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exbibits"
-msgstr ""
+msgstr "%1 ექსიბიტი"
 
 #: binary_data.cpp:146
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exbibit"
 msgid_plural "%1 exbibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსიბიტი"
+msgstr[1] "%1 ექსიბიტი"
 
 #: binary_data.cpp:151
 #, kde-format
@@ -1472,7 +1472,7 @@ msgstr "ებ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exabytes"
-msgstr ""
+msgstr "ექსაბაიტი"
 
 #: binary_data.cpp:153
 #, kde-format
@@ -1484,15 +1484,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exabytes"
-msgstr ""
+msgstr "%1 ექსაბაიტი"
 
 #: binary_data.cpp:156
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exabyte"
 msgid_plural "%1 exabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსაბაიტი"
+msgstr[1] "%1 ექსაბაიტი"
 
 #: binary_data.cpp:161
 #, kde-format
@@ -1504,7 +1504,7 @@ msgstr "ებ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exabits"
-msgstr ""
+msgstr "ექსაბიტი"
 
 #: binary_data.cpp:163
 #, kde-format
@@ -1516,15 +1516,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exabits"
-msgstr ""
+msgstr "%1 ექსაბიტი"
 
 #: binary_data.cpp:166
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exabit"
 msgid_plural "%1 exabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსაბიტი"
+msgstr[1] "%1 ექსაბიტი"
 
 #: binary_data.cpp:171
 #, kde-format
@@ -1536,7 +1536,7 @@ msgstr "პიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pebibytes"
-msgstr ""
+msgstr "პებიბაიტი"
 
 #: binary_data.cpp:173
 #, kde-format
@@ -1548,15 +1548,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pebibytes"
-msgstr ""
+msgstr "%1 პებიბაიტი"
 
 #: binary_data.cpp:176
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pebibyte"
 msgid_plural "%1 pebibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პებიბაიტი"
+msgstr[1] "%1 პებიბაიტი"
 
 #: binary_data.cpp:181
 #, kde-format
@@ -1568,7 +1568,7 @@ msgstr "პიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pebibits"
-msgstr ""
+msgstr "პებიბიტი"
 
 #: binary_data.cpp:183
 #, kde-format
@@ -1580,15 +1580,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pebibits"
-msgstr ""
+msgstr "%1 პებიბიტი"
 
 #: binary_data.cpp:186
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pebibit"
 msgid_plural "%1 pebibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პებიბიტი"
+msgstr[1] "%1 პებიბიტი"
 
 #: binary_data.cpp:191
 #, kde-format
@@ -1600,7 +1600,7 @@ msgstr "პბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petabytes"
-msgstr ""
+msgstr "პეტაბაიტი"
 
 #: binary_data.cpp:193
 #, kde-format
@@ -1612,15 +1612,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petabytes"
-msgstr ""
+msgstr "%1 პეტაბაიტი"
 
 #: binary_data.cpp:196
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petabyte"
 msgid_plural "%1 petabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტაბაიტი"
+msgstr[1] "%1 პეტაბაიტი"
 
 #: binary_data.cpp:201
 #, kde-format
@@ -1632,7 +1632,7 @@ msgstr "პბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petabits"
-msgstr ""
+msgstr "პეტაბიტი"
 
 #: binary_data.cpp:203
 #, kde-format
@@ -1644,15 +1644,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petabits"
-msgstr ""
+msgstr "%1 პეტაბიტი"
 
 #: binary_data.cpp:206
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petabit"
 msgid_plural "%1 petabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტაბიტი"
+msgstr[1] "%1 პეტაბიტი"
 
 #: binary_data.cpp:211
 #, kde-format
@@ -1664,7 +1664,7 @@ msgstr "ტიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tebibytes"
-msgstr ""
+msgstr "ტებიბაიტი"
 
 #: binary_data.cpp:213
 #, kde-format
@@ -1676,15 +1676,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tebibytes"
-msgstr ""
+msgstr "%1 ტებიბაიტი"
 
 #: binary_data.cpp:216
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tebibyte"
 msgid_plural "%1 tebibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტებიბაიტი"
+msgstr[1] "%1 ტებიბაიტი"
 
 #: binary_data.cpp:221
 #, kde-format
@@ -1696,7 +1696,7 @@ msgstr "ტიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tebibits"
-msgstr ""
+msgstr "ტებიბიტი"
 
 #: binary_data.cpp:223
 #, kde-format
@@ -1708,15 +1708,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tebibits"
-msgstr ""
+msgstr "%1 ტებიბიტი"
 
 #: binary_data.cpp:226
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tebibit"
 msgid_plural "%1 tebibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტებიბიტი"
+msgstr[1] "%1 ტებიბიტი"
 
 #: binary_data.cpp:231
 #, kde-format
@@ -1728,7 +1728,7 @@ msgstr "ტბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terabytes"
-msgstr ""
+msgstr "ტერაბაიტი"
 
 #: binary_data.cpp:233
 #, kde-format
@@ -1740,15 +1740,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terabytes"
-msgstr ""
+msgstr "%1 ტერაბაიტი"
 
 #: binary_data.cpp:236
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terabyte"
 msgid_plural "%1 terabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერაბაიტი"
+msgstr[1] "%1 ტერაბაიტი"
 
 #: binary_data.cpp:241
 #, kde-format
@@ -1760,7 +1760,7 @@ msgstr "ტბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terabits"
-msgstr ""
+msgstr "ტერაბიტი"
 
 #: binary_data.cpp:243
 #, kde-format
@@ -1772,15 +1772,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terabits"
-msgstr ""
+msgstr "%1 ტერაბიტი"
 
 #: binary_data.cpp:246
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terabit"
 msgid_plural "%1 terabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერაბიტი"
+msgstr[1] "%1 ტერაბიტი"
 
 #: binary_data.cpp:251
 #, kde-format
@@ -1792,7 +1792,7 @@ msgstr "გიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gibibytes"
-msgstr ""
+msgstr "გიბიბაიტი"
 
 #: binary_data.cpp:253
 #, kde-format
@@ -1804,15 +1804,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gibibytes"
-msgstr ""
+msgstr "%1 გიბიბაიტი"
 
 #: binary_data.cpp:256
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gibibyte"
 msgid_plural "%1 gibibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიბიბაიტი"
+msgstr[1] "%1 გიბიბაიტი"
 
 #: binary_data.cpp:261
 #, kde-format
@@ -1824,7 +1824,7 @@ msgstr "გიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gibibits"
-msgstr ""
+msgstr "გიბიბიტი"
 
 #: binary_data.cpp:263
 #, kde-format
@@ -1836,15 +1836,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gibibits"
-msgstr ""
+msgstr "%1 გიბიბიტი"
 
 #: binary_data.cpp:266
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gibibit"
 msgid_plural "%1 gibibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიბიბიტი"
+msgstr[1] "%1 გიბიბიტი"
 
 #: binary_data.cpp:271
 #, kde-format
@@ -1856,7 +1856,7 @@ msgstr "გბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigabytes"
-msgstr ""
+msgstr "გიგაბაიტი"
 
 #: binary_data.cpp:273
 #, kde-format
@@ -1868,15 +1868,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigabytes"
-msgstr ""
+msgstr "%1 გიგაბაიტი"
 
 #: binary_data.cpp:276
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigabyte"
 msgid_plural "%1 gigabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგაბაიტი"
+msgstr[1] "%1 გიგაბაიტი"
 
 #: binary_data.cpp:281
 #, kde-format
@@ -1888,7 +1888,7 @@ msgstr "გბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigabits"
-msgstr ""
+msgstr "გიგაბიტი"
 
 #: binary_data.cpp:283
 #, kde-format
@@ -1900,15 +1900,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigabits"
-msgstr ""
+msgstr "%1 გიგაბიტი"
 
 #: binary_data.cpp:286
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigabit"
 msgid_plural "%1 gigabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგაბიტი"
+msgstr[1] "%1 გიგაბიტი"
 
 #: binary_data.cpp:291
 #, kde-format
@@ -1920,7 +1920,7 @@ msgstr "მიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "mebibytes"
-msgstr ""
+msgstr "მებიბაიტი"
 
 #: binary_data.cpp:293
 #, kde-format
@@ -1932,15 +1932,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 mebibytes"
-msgstr ""
+msgstr "%1 მებიბაიტი"
 
 #: binary_data.cpp:296
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mebibyte"
 msgid_plural "%1 mebibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მებიბაიტი"
+msgstr[1] "%1 მებიბაიტი"
 
 #: binary_data.cpp:301
 #, kde-format
@@ -1952,7 +1952,7 @@ msgstr "მიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "mebibits"
-msgstr ""
+msgstr "მებიბიტი"
 
 #: binary_data.cpp:303
 #, kde-format
@@ -1964,15 +1964,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 mebibits"
-msgstr ""
+msgstr "%1 მებიბიტი"
 
 #: binary_data.cpp:306
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mebibit"
 msgid_plural "%1 mebibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მებიბიტი"
+msgstr[1] "%1 მებიბიტი"
 
 #: binary_data.cpp:311
 #, kde-format
@@ -1984,7 +1984,7 @@ msgstr "მბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megabytes"
-msgstr ""
+msgstr "მეგაბაიტი"
 
 #: binary_data.cpp:313
 #, kde-format
@@ -1996,15 +1996,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megabytes"
-msgstr ""
+msgstr "%1 მეგაბაიტი"
 
 #: binary_data.cpp:316
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megabyte"
 msgid_plural "%1 megabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგაბაიტი"
+msgstr[1] "%1 მეგაბაიტი"
 
 #: binary_data.cpp:321
 #, kde-format
@@ -2016,7 +2016,7 @@ msgstr "მბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megabits"
-msgstr ""
+msgstr "მეგაბიტი"
 
 #: binary_data.cpp:323
 #, kde-format
@@ -2028,15 +2028,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megabits"
-msgstr ""
+msgstr "%1 მეგაბიტი"
 
 #: binary_data.cpp:326
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megabit"
 msgid_plural "%1 megabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგაბიტი"
+msgstr[1] "%1 მეგაბიტი"
 
 #: binary_data.cpp:331
 #, kde-format
@@ -2048,7 +2048,7 @@ msgstr "კიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kibibytes"
-msgstr ""
+msgstr "კიბიბაიტი"
 
 #: binary_data.cpp:333
 #, kde-format
@@ -2060,15 +2060,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kibibytes"
-msgstr ""
+msgstr "%1 კიბიბაიტი"
 
 #: binary_data.cpp:336
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kibibyte"
 msgid_plural "%1 kibibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კიბიბაიტი"
+msgstr[1] "%1 კიბიბაიტი"
 
 #: binary_data.cpp:341
 #, kde-format
@@ -2080,7 +2080,7 @@ msgstr "კიბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kibibits"
-msgstr ""
+msgstr "კიბიბიტი"
 
 #: binary_data.cpp:343
 #, kde-format
@@ -2092,15 +2092,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kibibits"
-msgstr ""
+msgstr "%1 კიბიბიტი"
 
 #: binary_data.cpp:346
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kibibit"
 msgid_plural "%1 kibibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კიბიბიტი"
+msgstr[1] "%1 კიბიბიტი"
 
 #: binary_data.cpp:351
 #, kde-format
@@ -2112,7 +2112,7 @@ msgstr "კბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilobytes"
-msgstr ""
+msgstr "კილობაიტი"
 
 #: binary_data.cpp:353
 #, kde-format
@@ -2124,15 +2124,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilobytes"
-msgstr ""
+msgstr "%1 კილობაიტი"
 
 #: binary_data.cpp:356
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilobyte"
 msgid_plural "%1 kilobytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილობაიტი"
+msgstr[1] "%1 კილობაიტი"
 
 #: binary_data.cpp:361
 #, kde-format
@@ -2144,7 +2144,7 @@ msgstr "კბ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilobits"
-msgstr ""
+msgstr "კილობიტი"
 
 #: binary_data.cpp:363
 #, kde-format
@@ -2156,15 +2156,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilobits"
-msgstr ""
+msgstr "%1 კილობიტი"
 
 #: binary_data.cpp:366
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilobit"
 msgid_plural "%1 kilobits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილობიტი"
+msgstr[1] "%1 კილობიტი"
 
 #: binary_data.cpp:371
 #, kde-format
@@ -2195,8 +2195,8 @@ msgstr "%1 ბაიტი"
 msgctxt "amount in units (integer)"
 msgid "%1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ბაიტი"
+msgstr[1] "%1 ბაიტი"
 
 #: binary_data.cpp:381
 #, kde-format
@@ -2208,7 +2208,7 @@ msgstr "b"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "bits"
-msgstr ""
+msgstr "ბიტი"
 
 #: binary_data.cpp:383
 #, kde-format
@@ -2238,13 +2238,13 @@ msgstr "ფული"
 #: currency.cpp:64
 #, kde-format
 msgid "From ECB"
-msgstr ""
+msgstr "ECB-დან"
 
 #: currency.cpp:66
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (currency)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: currency.cpp:73 currency.cpp:75
 #, kde-format
@@ -2262,15 +2262,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 euros"
-msgstr ""
+msgstr "%1 ევრო"
 
 #: currency.cpp:78
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 euro"
 msgid_plural "%1 euros"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ევრო"
+msgstr[1] "%1 ევრო"
 
 #: currency.cpp:84 currency.cpp:86
 #, kde-format
@@ -2288,15 +2288,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 schillings"
-msgstr ""
+msgstr "%1 შილინგი"
 
 #: currency.cpp:89
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 schilling"
 msgid_plural "%1 schillings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 შილინგი"
+msgstr[1] "%1 შილინგი"
 
 #: currency.cpp:95 currency.cpp:97
 #, kde-format
@@ -2314,15 +2314,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Belgian francs"
-msgstr ""
+msgstr "%1 ბელგიური ფრანკი"
 
 #: currency.cpp:100
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Belgian franc"
 msgid_plural "%1 Belgian francs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ბელგიური ფრანკი"
+msgstr[1] "%1 ბელგიური ფრანკი"
 
 #: currency.cpp:106 currency.cpp:108
 #, kde-format
@@ -2340,15 +2340,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 guilders"
-msgstr ""
+msgstr "%1 გულდენი"
 
 #: currency.cpp:111
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 guilder"
 msgid_plural "%1 guilders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გულდენი"
+msgstr[1] "%1 გულდენი"
 
 #: currency.cpp:117 currency.cpp:119
 #, kde-format
@@ -2366,15 +2366,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 markkas"
-msgstr ""
+msgstr "%1 მარკა"
 
 #: currency.cpp:122
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 markka"
 msgid_plural "%1 markkas"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მარკა"
+msgstr[1] "%1 მარკა"
 
 #: currency.cpp:128 currency.cpp:130
 #, kde-format
@@ -2392,15 +2392,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 French francs"
-msgstr ""
+msgstr "%1 ფრანგული ფრანკი"
 
 #: currency.cpp:133
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 French franc"
 msgid_plural "%1 French francs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფრანგული ფრანკი"
+msgstr[1] "%1 ფრანგული ფრანკი"
 
 #: currency.cpp:139 currency.cpp:141
 #, kde-format
@@ -2418,15 +2418,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 marks"
-msgstr ""
+msgstr "%1 მარკა"
 
 #: currency.cpp:144
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mark"
 msgid_plural "%1 marks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მარკა"
+msgstr[1] "%1 მარკა"
 
 #: currency.cpp:150 currency.cpp:152
 #, kde-format
@@ -2444,15 +2444,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Irish pounds"
-msgstr ""
+msgstr "%1 ირლანდიური ფუნტი"
 
 #: currency.cpp:155
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Irish pound"
 msgid_plural "%1 Irish pounds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ირლანდიური ფუნტი"
+msgstr[1] "%1 ირლანდიური ფუნტი"
 
 #: currency.cpp:161 currency.cpp:163
 #, kde-format
@@ -2470,15 +2470,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Italian lira"
-msgstr ""
+msgstr "%1 იტალიური ლირა"
 
 #: currency.cpp:166
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Italian lira"
 msgid_plural "%1 Italian lira"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იტალიური ლირა"
+msgstr[1] "%1 იტალიური ლირა"
 
 #: currency.cpp:172 currency.cpp:174
 #, kde-format
@@ -2496,15 +2496,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Luxembourgish francs"
-msgstr ""
+msgstr "%1 ლუქსემბურგული ფრანკი"
 
 #: currency.cpp:177
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Luxembourgish franc"
 msgid_plural "%1 Luxembourgish francs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ლუქსემბურგული ფრანკი"
+msgstr[1] "%1 ლუქსემბურგული ფრანკი"
 
 #: currency.cpp:183 currency.cpp:185
 #, kde-format
@@ -2522,15 +2522,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 escudos"
-msgstr ""
+msgstr "%1 ესკუდო"
 
 #: currency.cpp:188
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 escudo"
 msgid_plural "%1 escudos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ესკუდო"
+msgstr[1] "%1 ესკუდო"
 
 #: currency.cpp:194 currency.cpp:196
 #, kde-format
@@ -2548,15 +2548,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pesetas"
-msgstr ""
+msgstr "%1 პესეტა"
 
 #: currency.cpp:199
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 peseta"
 msgid_plural "%1 pesetas"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პესეტა"
+msgstr[1] "%1 პესეტა"
 
 #: currency.cpp:205 currency.cpp:207
 #, kde-format
@@ -2574,15 +2574,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 drachmas"
-msgstr ""
+msgstr "%1 დრაქმა"
 
 #: currency.cpp:210
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 drachma"
 msgid_plural "%1 drachmas"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დრაქმა"
+msgstr[1] "%1 დრაქმა"
 
 #: currency.cpp:216 currency.cpp:218
 #, kde-format
@@ -2600,15 +2600,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tolars"
-msgstr ""
+msgstr "%1 ტოლარი"
 
 #: currency.cpp:221
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tolar"
 msgid_plural "%1 tolars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტოლარი"
+msgstr[1] "%1 ტოლარი"
 
 #: currency.cpp:227 currency.cpp:229
 #, kde-format
@@ -2626,15 +2626,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Cypriot pounds"
-msgstr ""
+msgstr "%1 კვიპროსულიფუნტი"
 
 #: currency.cpp:232
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Cypriot pound"
 msgid_plural "%1 Cypriot pounds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კვიპროსულიფუნტი"
+msgstr[1] "%1 კვიპროსულიფუნტი"
 
 #: currency.cpp:238 currency.cpp:240
 #, kde-format
@@ -2652,15 +2652,15 @@ msgstr "მალტური ლირა"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Maltese lira"
-msgstr ""
+msgstr "%1 მალტური ლირა"
 
 #: currency.cpp:243
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Maltese lira"
 msgid_plural "%1 Maltese lira"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მალტური ლირა"
+msgstr[1] "%1 მალტური ლირა"
 
 #: currency.cpp:249 currency.cpp:251
 #, kde-format
@@ -2678,15 +2678,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Slovak korunas"
-msgstr ""
+msgstr "%1 სლოვაკური კრონა"
 
 #: currency.cpp:254
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Slovak koruna"
 msgid_plural "%1 Slovak korunas"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 სლოვაკური კრონა"
+msgstr[1] "%1 სლოვაკური კრონა"
 
 #: currency.cpp:261 currency.cpp:263
 #, kde-format
@@ -2704,15 +2704,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 United States dollars"
-msgstr ""
+msgstr "%1 აშშ დოლარი"
 
 #: currency.cpp:266
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 United States dollar"
 msgid_plural "%1 United States dollars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 აშშ დოლარი"
+msgstr[1] "%1 აშშ დოლარი"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
@@ -2724,21 +2724,21 @@ msgstr "იაპონური იენი"
 #, kde-format
 msgctxt "JPY Japanese Yen - unit synonyms for matching user input"
 msgid "yen"
-msgstr ""
+msgstr "იენი"
 
 #: currency.cpp:276
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yen"
-msgstr ""
+msgstr "%1 იენი"
 
 #: currency.cpp:277
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yen"
 msgid_plural "%1 yen"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იენი"
+msgstr[1] "%1 იენი"
 
 #: currency.cpp:283 currency.cpp:285
 #, kde-format
@@ -2756,15 +2756,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 leva"
-msgstr ""
+msgstr "%1 ლევი"
 
 #: currency.cpp:288
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 lev"
 msgid_plural "%1 leva"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ლევი"
+msgstr[1] "%1 ლევი"
 
 #: currency.cpp:294 currency.cpp:296
 #, kde-format
@@ -2782,15 +2782,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Czech korunas"
-msgstr ""
+msgstr "%1 ჩეხური კრონა"
 
 #: currency.cpp:300
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Czech koruna"
 msgid_plural "%1 Czech korunas"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჩეხური კრონა"
+msgstr[1] "%1 ჩეხური კრონა"
 
 #: currency.cpp:306 currency.cpp:308
 #, kde-format
@@ -2808,15 +2808,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Danish kroner"
-msgstr ""
+msgstr "%1 დანიური კრონა"
 
 #: currency.cpp:311
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Danish krone"
 msgid_plural "%1 Danish kroner"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დანიური კრონა"
+msgstr[1] "%1 დანიური კრონა"
 
 #: currency.cpp:317 currency.cpp:319
 #, kde-format
@@ -2834,21 +2834,21 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kroons"
-msgstr ""
+msgstr "%1 ესტონური კრონა"
 
 #: currency.cpp:322
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kroon"
 msgid_plural "%1 kroons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ესტონური კრონა"
+msgstr[1] "%1 ესტონური კრონა"
 
 #: currency.cpp:328 currency.cpp:331
 #, kde-format
 msgctxt "currency name"
 msgid "British Pound"
-msgstr ""
+msgstr "ბრიტანული ფუნტი სტერლინგი"
 
 #: currency.cpp:329
 #, kde-format
@@ -2860,15 +2860,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pounds sterling"
-msgstr ""
+msgstr "%1 ფუნტი სტერლინგი"
 
 #: currency.cpp:334
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound sterling"
 msgid_plural "%1 pounds sterling"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფუნტი სტერლინგი"
+msgstr[1] "%1 ფუნტი სტერლინგი"
 
 #: currency.cpp:340 currency.cpp:342
 #, kde-format
@@ -2886,21 +2886,21 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 forint"
-msgstr ""
+msgstr "%1 ფორინტი"
 
 #: currency.cpp:345
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 forint"
 msgid_plural "%1 forint"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფორინტი"
+msgstr[1] "%1 ფორინტი"
 
 #: currency.cpp:351 currency.cpp:354
 #, kde-format
 msgctxt "currency name"
 msgid "Israeli New Shekel"
-msgstr ""
+msgstr "ისრაელის ახალი შეკელი"
 
 #: currency.cpp:352
 #, kde-format
@@ -2912,15 +2912,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 shekels"
-msgstr ""
+msgstr "%1 შეკელი"
 
 #: currency.cpp:357
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 shekel"
 msgid_plural "%1 shekels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 შეკელი"
+msgstr[1] "%1 შეკელი"
 
 #: currency.cpp:363 currency.cpp:365
 #, kde-format
@@ -2938,15 +2938,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 litas"
-msgstr ""
+msgstr "%1 ლიტასი"
 
 #: currency.cpp:368
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 litas"
 msgid_plural "%1 litai"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ლიტასი"
+msgstr[1] "%1 ლიტასი"
 
 #: currency.cpp:374 currency.cpp:376
 #, kde-format
@@ -2964,15 +2964,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 lati"
-msgstr ""
+msgstr "%1 ლატი"
 
 #: currency.cpp:379
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 lats"
 msgid_plural "%1 lati"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ლატი"
+msgstr[1] "%1 ლატი"
 
 #: currency.cpp:385 currency.cpp:387
 #, kde-format
@@ -2990,15 +2990,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zlotys"
-msgstr ""
+msgstr "%1 ზლოტი"
 
 #: currency.cpp:390
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zloty"
 msgid_plural "%1 zlotys"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზლოტი"
+msgstr[1] "%1 ზლოტი"
 
 #: currency.cpp:396 currency.cpp:398
 #, kde-format
@@ -3016,15 +3016,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 lei"
-msgstr ""
+msgstr "%1 ლეი"
 
 #: currency.cpp:401
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 leu"
 msgid_plural "%1 lei"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ლეი"
+msgstr[1] "%1 ლეი"
 
 #: currency.cpp:407 currency.cpp:409
 #, kde-format
@@ -3042,15 +3042,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kronor"
-msgstr ""
+msgstr "%1 კრონა"
 
 #: currency.cpp:412
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 krona"
 msgid_plural "%1 kronor"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კრონა"
+msgstr[1] "%1 კრონა"
 
 #: currency.cpp:418 currency.cpp:420
 #, kde-format
@@ -3068,15 +3068,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Swiss francs"
-msgstr ""
+msgstr "%1 შვეიცარიული ფრანკი"
 
 #: currency.cpp:423
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Swiss franc"
 msgid_plural "%1 Swiss francs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 შვეიცარიული ფრანკი"
+msgstr[1] "%1 შვეიცარიული ფრანკი"
 
 #: currency.cpp:429 currency.cpp:431
 #, kde-format
@@ -3094,15 +3094,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Norwegian kroner"
-msgstr ""
+msgstr "%1 ნორვეგიული კრონი"
 
 #: currency.cpp:434
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Norwegian krone"
 msgid_plural "%1 Norwegian kroner"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნორვეგიული კრონი"
+msgstr[1] "%1 ნორვეგიული კრონი"
 
 #: currency.cpp:440 currency.cpp:442
 #, kde-format
@@ -3120,15 +3120,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kune"
-msgstr ""
+msgstr "%1 კუნა"
 
 #: currency.cpp:445
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kuna"
 msgid_plural "%1 kune"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კუნა"
+msgstr[1] "%1 კუნა"
 
 #: currency.cpp:451 currency.cpp:453
 #, kde-format
@@ -3146,15 +3146,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rubles"
-msgstr ""
+msgstr "%1 რუბლი"
 
 #: currency.cpp:456
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ruble"
 msgid_plural "%1 rubles"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 რუბლი"
+msgstr[1] "%1 რუბლი"
 
 #: currency.cpp:462 currency.cpp:464
 #, kde-format
@@ -3166,21 +3166,21 @@ msgstr "თურქული ლირა"
 #, kde-format
 msgctxt "TRY Turkish Lira - unit synonyms for matching user input"
 msgid "lira"
-msgstr ""
+msgstr "ლირა"
 
 #: currency.cpp:466
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Turkish lira"
-msgstr ""
+msgstr "%1 თურქული ლირა"
 
 #: currency.cpp:467
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Turkish lira"
 msgid_plural "%1 Turkish lira"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 თურქული ლირა"
+msgstr[1] "%1 თურქული ლირა"
 
 #: currency.cpp:473 currency.cpp:475
 #, kde-format
@@ -3198,15 +3198,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Australian dollars"
-msgstr ""
+msgstr "%1 ავსტრალიური დოლარი"
 
 #: currency.cpp:478
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Australian dollar"
 msgid_plural "%1 Australian dollars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ავსტრალიური დოლარი"
+msgstr[1] "%1 ავსტრალიური დოლარი"
 
 #: currency.cpp:484 currency.cpp:486
 #, kde-format
@@ -3224,15 +3224,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 reais"
-msgstr ""
+msgstr "%1 რეალი"
 
 #: currency.cpp:489
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 real"
 msgid_plural "%1 reais"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 რეალი"
+msgstr[1] "%1 რეალი"
 
 #: currency.cpp:495 currency.cpp:497
 #, kde-format
@@ -3250,15 +3250,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Canadian dollars"
-msgstr ""
+msgstr "%1 კანადური დოლარი"
 
 #: currency.cpp:500
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Canadian dollar"
 msgid_plural "%1 Canadian dollars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კანადური დოლარი"
+msgstr[1] "%1 კანადური დოლარი"
 
 #: currency.cpp:506 currency.cpp:508
 #, kde-format
@@ -3270,21 +3270,21 @@ msgstr "ჩინური იანი"
 #, kde-format
 msgctxt "Chinese Yuan - unit synonyms for matching user input"
 msgid "yuan"
-msgstr ""
+msgstr "იუანი"
 
 #: currency.cpp:510
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yuan"
-msgstr ""
+msgstr "%1 იუანი"
 
 #: currency.cpp:511
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yuan"
 msgid_plural "%1 yuan"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იუანი"
+msgstr[1] "%1 იუანი"
 
 #: currency.cpp:517 currency.cpp:519
 #, kde-format
@@ -3302,15 +3302,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Hong Kong dollars"
-msgstr ""
+msgstr "%1 ჰონგ კონგის დოლარი"
 
 #: currency.cpp:522
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Hong Kong dollar"
 msgid_plural "%1 Hong Kong dollars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰონგ კონგის დოლარი"
+msgstr[1] "%1 ჰონგ კონგის დოლარი"
 
 #: currency.cpp:528 currency.cpp:530
 #, kde-format
@@ -3328,15 +3328,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rupiahs"
-msgstr ""
+msgstr "%1 რუპია"
 
 #: currency.cpp:533
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rupiah"
 msgid_plural "%1 rupiahs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 რუპია"
+msgstr[1] "%1 რუპია"
 
 #: currency.cpp:539 currency.cpp:541
 #, kde-format
@@ -3354,41 +3354,41 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rupees"
-msgstr ""
+msgstr "%1 რუპია"
 
 #: currency.cpp:544
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rupee"
 msgid_plural "%1 rupees"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 რუპია"
+msgstr[1] "%1 რუპია"
 
 #: currency.cpp:550 currency.cpp:552
 #, kde-format
 msgctxt "currency name"
 msgid "Korean Won"
-msgstr ""
+msgstr "კორეული ვონი"
 
 #: currency.cpp:551
 #, kde-format
 msgctxt "KRW Korean Won - unit synonyms for matching user input"
 msgid "won"
-msgstr ""
+msgstr "ვონი"
 
 #: currency.cpp:554
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 won"
-msgstr ""
+msgstr "%1 ვონი"
 
 #: currency.cpp:555
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 won"
 msgid_plural "%1 won"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ვონი"
+msgstr[1] "%1 ვონი"
 
 #: currency.cpp:561 currency.cpp:563
 #, kde-format
@@ -3406,15 +3406,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Mexican pesos"
-msgstr ""
+msgstr "%1 მექსიკური ესპანური"
 
 #: currency.cpp:566
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Mexican peso"
 msgid_plural "%1 Mexican pesos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მექსიკური ესპანური"
+msgstr[1] "%1 მექსიკური ესპანური"
 
 #: currency.cpp:572 currency.cpp:574
 #, kde-format
@@ -3432,15 +3432,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ringgit"
-msgstr ""
+msgstr "%1 რინგიტი"
 
 #: currency.cpp:577
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ringgit"
 msgid_plural "%1 ringgit"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 რინგიტი"
+msgstr[1] "%1 რინგიტი"
 
 #: currency.cpp:583 currency.cpp:586
 #, kde-format
@@ -3458,15 +3458,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 New Zealand dollars"
-msgstr ""
+msgstr "%1 ახალზელანდიური დოლარი"
 
 #: currency.cpp:589
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 New Zealand dollar"
 msgid_plural "%1 New Zealand dollars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ახალზელანდიური დოლარი"
+msgstr[1] "%1 ახალზელანდიური დოლარი"
 
 #: currency.cpp:595 currency.cpp:597
 #, kde-format
@@ -3484,15 +3484,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Philippine pesos"
-msgstr ""
+msgstr "%1 ფილიპინური პესო"
 
 #: currency.cpp:600
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Philippine peso"
 msgid_plural "%1 Philippine pesos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფილიპინური პესო"
+msgstr[1] "%1 ფილიპინური პესო"
 
 #: currency.cpp:606 currency.cpp:608
 #, kde-format
@@ -3510,15 +3510,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Singapore dollars"
-msgstr ""
+msgstr "%1 სინგაპურული დოლარი"
 
 #: currency.cpp:611
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Singapore dollar"
 msgid_plural "%1 Singapore dollars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 სინგაპურული დოლარი"
+msgstr[1] "%1 სინგაპურული დოლარი"
 
 #: currency.cpp:617 currency.cpp:619
 #, kde-format
@@ -3530,21 +3530,21 @@ msgstr "ტაილანდური ბაჰტი"
 #, kde-format
 msgctxt "THB Thai Baht - unit synonyms for matching user input"
 msgid "baht"
-msgstr ""
+msgstr "ბაჰტი"
 
 #: currency.cpp:621
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 baht"
-msgstr ""
+msgstr "%1 ბაჰტი"
 
 #: currency.cpp:622
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 baht"
 msgid_plural "%1 baht"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ბაჰტი"
+msgstr[1] "%1 ბაჰტი"
 
 #: currency.cpp:628 currency.cpp:630
 #, kde-format
@@ -3556,21 +3556,21 @@ msgstr "სამხრეთ აფრიკული რენდი"
 #, kde-format
 msgctxt "South African Rand - unit synonyms for matching user input"
 msgid "rand"
-msgstr ""
+msgstr "რენდი"
 
 #: currency.cpp:632
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rand"
-msgstr ""
+msgstr "%1 რენდი"
 
 #: currency.cpp:633
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rand"
 msgid_plural "%1 rand"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 რენდი"
+msgstr[1] "%1 რენდი"
 
 #: currency.cpp:638 currency.cpp:640
 #, kde-format
@@ -3588,15 +3588,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronar"
-msgstr ""
+msgstr "%1 ისლანდიური კრონა"
 
 #: currency.cpp:643
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronar"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ისლანდიური კრონა"
+msgstr[1] "%1 ისლანდიური კრონა"
 
 #: density.cpp:17
 #, kde-format
@@ -3607,13 +3607,13 @@ msgstr "სიმკვრივე"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (density)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: density.cpp:24
 #, kde-format
 msgctxt "density unit symbol"
 msgid "kg/m³"
-msgstr ""
+msgstr "კგ/მ³"
 
 #: density.cpp:25
 #, kde-format
@@ -3631,27 +3631,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilograms per cubic meter"
-msgstr ""
+msgstr "%1 კილოგრამი კუბურ მეტრში"
 
 #: density.cpp:29
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilogram per cubic meter"
 msgid_plural "%1 kilograms per cubic meter"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოგრამი კუბურ მეტრში"
+msgstr[1] "%1 კილოგრამი კუბურ მეტრში"
 
 #: density.cpp:35
 #, kde-format
 msgctxt "density unit symbol"
 msgid "kg/l"
-msgstr ""
+msgstr "კგ/ლ"
 
 #: density.cpp:36
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilograms per liter"
-msgstr ""
+msgstr "კილოგრამი ლიტრში"
 
 #: density.cpp:37
 #, kde-format
@@ -3663,27 +3663,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilograms per liter"
-msgstr ""
+msgstr "%1 კილოგრამი ლიტრში"
 
 #: density.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilogram per liter"
 msgid_plural "%1 kilograms per liter"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოგრამი ლიტრში"
+msgstr[1] "%1 კილოგრამი ლიტრში"
 
 #: density.cpp:45
 #, kde-format
 msgctxt "density unit symbol"
 msgid "g/l"
-msgstr ""
+msgstr "გ/ლ"
 
 #: density.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "grams per liter"
-msgstr ""
+msgstr "გრამი ლიტრში"
 
 #: density.cpp:47
 #, kde-format
@@ -3695,27 +3695,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per liter"
-msgstr ""
+msgstr "%1 გრამი ლიტრში"
 
 #: density.cpp:50
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gram per liter"
 msgid_plural "%1 grams per liter"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გრამი ლიტრში"
+msgstr[1] "%1 გრამი ლიტრში"
 
 #: density.cpp:55
 #, kde-format
 msgctxt "density unit symbol"
 msgid "g/ml"
-msgstr ""
+msgstr "გ/მლ"
 
 #: density.cpp:56
 #, kde-format
 msgctxt "unit description in lists"
 msgid "grams per milliliter"
-msgstr ""
+msgstr "გრამი მილილიტრში"
 
 #: density.cpp:57
 #, kde-format
@@ -3727,21 +3727,21 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per milliliter"
-msgstr ""
+msgstr "%1 გრამი მილილიტრში"
 
 #: density.cpp:60
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gram per milliliter"
 msgid_plural "%1 grams per milliliter"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გრამი მილილიტრში"
+msgstr[1] "%1 გრამი მილილიტრში"
 
 #: density.cpp:66
 #, kde-format
 msgctxt "density unit symbol"
 msgid "oz/in³"
-msgstr ""
+msgstr "უნცია/დუიმ³"
 
 #: density.cpp:67
 #, kde-format
@@ -3759,15 +3759,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per cubic inch"
-msgstr ""
+msgstr "%1 უნცია/დუიმ³"
 
 #: density.cpp:71
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounce per cubic inch"
 msgid_plural "%1 ounces per cubic inch"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 უნცია/დუიმ³"
+msgstr[1] "%1 უნცია/დუიმ³"
 
 #: density.cpp:76
 #, kde-format
@@ -3906,19 +3906,19 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (electrical current"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: electrical_current.cpp:25
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "YA"
-msgstr ""
+msgstr "ია"
 
 #: electrical_current.cpp:26
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yottaamperes"
-msgstr ""
+msgstr "იოტაამპერი"
 
 #: electrical_current.cpp:27
 #, kde-format
@@ -3930,15 +3930,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottaamperes"
-msgstr ""
+msgstr "%1 იოტაამპერი"
 
 #: electrical_current.cpp:30
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottaampere"
 msgid_plural "%1 yottaamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოტაამპერი"
+msgstr[1] "%1 იოტაამპერი"
 
 #: electrical_current.cpp:35
 #, kde-format
@@ -3950,7 +3950,7 @@ msgstr "ZA"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettaamperes"
-msgstr ""
+msgstr "ზეტაამპერი"
 
 #: electrical_current.cpp:37
 #, kde-format
@@ -3962,27 +3962,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettaamperes"
-msgstr ""
+msgstr "%1 ზეტაამპერი"
 
 #: electrical_current.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettaampere"
 msgid_plural "%1 zettaamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტაამპერი"
+msgstr[1] "%1 ზეტაამპერი"
 
 #: electrical_current.cpp:45
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "EA"
-msgstr ""
+msgstr "ეა"
 
 #: electrical_current.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exaamperes"
-msgstr ""
+msgstr "ექსაამპერი"
 
 #: electrical_current.cpp:47
 #, kde-format
@@ -3994,27 +3994,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exaamperes"
-msgstr ""
+msgstr "%1 ექსაამპერი"
 
 #: electrical_current.cpp:50
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exaampere"
 msgid_plural "%1 exaamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსაამპერი"
+msgstr[1] "%1 ექსაამპერი"
 
 #: electrical_current.cpp:55
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "PA"
-msgstr ""
+msgstr "პა"
 
 #: electrical_current.cpp:56
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petaamperes"
-msgstr ""
+msgstr "პეტაამპერი"
 
 #: electrical_current.cpp:57
 #, kde-format
@@ -4026,27 +4026,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petaamperes"
-msgstr ""
+msgstr "%1 პეტაამპერი"
 
 #: electrical_current.cpp:60
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petaampere"
 msgid_plural "%1 petaamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტაამპერი"
+msgstr[1] "%1 პეტაამპერი"
 
 #: electrical_current.cpp:65
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "TA"
-msgstr ""
+msgstr "ტა"
 
 #: electrical_current.cpp:66
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teraamperes"
-msgstr ""
+msgstr "ტერაამპერი"
 
 #: electrical_current.cpp:67
 #, kde-format
@@ -4058,27 +4058,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teraamperes"
-msgstr ""
+msgstr "%1 ტერაამპერი"
 
 #: electrical_current.cpp:70
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teraampere"
 msgid_plural "%1 teraamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერაამპერი"
+msgstr[1] "%1 ტერაამპერი"
 
 #: electrical_current.cpp:75
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "GA"
-msgstr ""
+msgstr "გა"
 
 #: electrical_current.cpp:76
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigaamperes"
-msgstr ""
+msgstr "გიგაამპერი"
 
 #: electrical_current.cpp:77
 #, kde-format
@@ -4090,27 +4090,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigaamperes"
-msgstr ""
+msgstr "%1 გიგაამპერი"
 
 #: electrical_current.cpp:80
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigaampere"
 msgid_plural "%1 gigaamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგაამპერი"
+msgstr[1] "%1 გიგაამპერი"
 
 #: electrical_current.cpp:85
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "MA"
-msgstr ""
+msgstr "მა"
 
 #: electrical_current.cpp:86
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megaamperes"
-msgstr ""
+msgstr "მეგაამპერი"
 
 #: electrical_current.cpp:87
 #, kde-format
@@ -4122,27 +4122,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megaamperes"
-msgstr ""
+msgstr "%1 მეგაამპერი"
 
 #: electrical_current.cpp:90
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megaampere"
 msgid_plural "%1 megaamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგაამპერი"
+msgstr[1] "%1 მეგაამპერი"
 
 #: electrical_current.cpp:95
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "kA"
-msgstr ""
+msgstr "კა"
 
 #: electrical_current.cpp:96
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kiloamperes"
-msgstr ""
+msgstr "კილოამპერი"
 
 #: electrical_current.cpp:97
 #, kde-format
@@ -4154,27 +4154,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kiloamperes"
-msgstr ""
+msgstr "%1 კილოამპერი"
 
 #: electrical_current.cpp:100
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kiloampere"
 msgid_plural "%1 kiloamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოამპერი"
+msgstr[1] "%1 კილოამპერი"
 
 #: electrical_current.cpp:105
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "hA"
-msgstr ""
+msgstr "ჰა"
 
 #: electrical_current.cpp:106
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectoamperes"
-msgstr ""
+msgstr "ჰექტოამპერი"
 
 #: electrical_current.cpp:107
 #, kde-format
@@ -4186,27 +4186,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectoamperes"
-msgstr ""
+msgstr "%1 ჰექტოამპერი"
 
 #: electrical_current.cpp:110
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectoampere"
 msgid_plural "%1 hectoamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰექტოამპერი"
+msgstr[1] "%1 ჰექტოამპერი"
 
 #: electrical_current.cpp:115
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "daA"
-msgstr ""
+msgstr "დაა"
 
 #: electrical_current.cpp:116
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decaamperes"
-msgstr ""
+msgstr "დეკაამპერი"
 
 #: electrical_current.cpp:117
 #, kde-format
@@ -4218,27 +4218,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decaamperes"
-msgstr ""
+msgstr "%1 დეკაამპერი"
 
 #: electrical_current.cpp:120
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decaampere"
 msgid_plural "%1 decaamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეკაამპერი"
+msgstr[1] "%1 დეკაამპერი"
 
 #: electrical_current.cpp:125
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "A"
-msgstr ""
+msgstr "ა"
 
 #: electrical_current.cpp:126
 #, kde-format
 msgctxt "unit description in lists"
 msgid "amperes"
-msgstr ""
+msgstr "ამპერი"
 
 #: electrical_current.cpp:127
 #, kde-format
@@ -4264,13 +4264,13 @@ msgstr[1] "%1 ამპერი"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "dA"
-msgstr ""
+msgstr "და"
 
 #: electrical_current.cpp:136
 #, kde-format
 msgctxt "unit description in lists"
 msgid "deciamperes"
-msgstr ""
+msgstr "დეციამპერი"
 
 #: electrical_current.cpp:137
 #, kde-format
@@ -4282,27 +4282,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 deciamperes"
-msgstr ""
+msgstr "%1 დეციამპერი"
 
 #: electrical_current.cpp:140
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 deciampere"
 msgid_plural "%1 deciamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეციამპერი"
+msgstr[1] "%1 დეციამპერი"
 
 #: electrical_current.cpp:145
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "cA"
-msgstr ""
+msgstr "ცა"
 
 #: electrical_current.cpp:146
 #, kde-format
 msgctxt "unit description in lists"
 msgid "centiamperes"
-msgstr ""
+msgstr "ცენტიამპერი"
 
 #: electrical_current.cpp:147
 #, kde-format
@@ -4314,15 +4314,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centiamperes"
-msgstr ""
+msgstr "%1 ცენტიამპერი"
 
 #: electrical_current.cpp:150
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centiampere"
 msgid_plural "%1 centiamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ცენტიამპერი"
+msgstr[1] "%1 ცენტიამპერი"
 
 #: electrical_current.cpp:155
 #, kde-format
@@ -4334,7 +4334,7 @@ msgstr "მა"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "milliamperes"
-msgstr ""
+msgstr "მილიამპერი"
 
 #: electrical_current.cpp:157
 #, kde-format
@@ -4346,27 +4346,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 milliamperes"
-msgstr ""
+msgstr "%1 მილიამპერი"
 
 #: electrical_current.cpp:160
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 milliampere"
 msgid_plural "%1 milliamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მილიამპერი"
+msgstr[1] "%1 მილიამპერი"
 
 #: electrical_current.cpp:165
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "µA"
-msgstr ""
+msgstr "µა"
 
 #: electrical_current.cpp:166
 #, kde-format
 msgctxt "unit description in lists"
 msgid "microamperes"
-msgstr ""
+msgstr "მიკროამპერი"
 
 #: electrical_current.cpp:167
 #, kde-format
@@ -4378,27 +4378,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 microamperes"
-msgstr ""
+msgstr "%1 მიკროამპერი"
 
 #: electrical_current.cpp:170
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microampere"
 msgid_plural "%1 microamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მიკროამპერი"
+msgstr[1] "%1 მიკროამპერი"
 
 #: electrical_current.cpp:175
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "nA"
-msgstr ""
+msgstr "ნა"
 
 #: electrical_current.cpp:176
 #, kde-format
 msgctxt "unit description in lists"
 msgid "nanoamperes"
-msgstr ""
+msgstr "ნანოამპერი"
 
 #: electrical_current.cpp:177
 #, kde-format
@@ -4410,27 +4410,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanoamperes"
-msgstr ""
+msgstr "%1 ნანოამპერი"
 
 #: electrical_current.cpp:180
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanoampere"
 msgid_plural "%1 nanoamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნანოამპერი"
+msgstr[1] "%1 ნანოამპერი"
 
 #: electrical_current.cpp:185
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "pA"
-msgstr ""
+msgstr "პა"
 
 #: electrical_current.cpp:186
 #, kde-format
 msgctxt "unit description in lists"
 msgid "picoamperes"
-msgstr ""
+msgstr "პიკოამპერი"
 
 #: electrical_current.cpp:187
 #, kde-format
@@ -4442,27 +4442,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picoamperes"
-msgstr ""
+msgstr "%1 პიკოამპერი"
 
 #: electrical_current.cpp:190
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picoampere"
 msgid_plural "%1 picoamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პიკოამპერი"
+msgstr[1] "%1 პიკოამპერი"
 
 #: electrical_current.cpp:195
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "fA"
-msgstr ""
+msgstr "ფა"
 
 #: electrical_current.cpp:196
 #, kde-format
 msgctxt "unit description in lists"
 msgid "femtoamperes"
-msgstr ""
+msgstr "ფემტოამპერი"
 
 #: electrical_current.cpp:197
 #, kde-format
@@ -4474,15 +4474,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtoamperes"
-msgstr ""
+msgstr "%1 ფემტოამპერი"
 
 #: electrical_current.cpp:200
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtoampere"
 msgid_plural "%1 femtoamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფემტოამპერი"
+msgstr[1] "%1 ფემტოამპერი"
 
 #: electrical_current.cpp:205
 #, kde-format
@@ -4494,7 +4494,7 @@ msgstr "aA"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "attoamperes"
-msgstr ""
+msgstr "ატოამპერი"
 
 #: electrical_current.cpp:207
 #, kde-format
@@ -4506,27 +4506,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attoamperes"
-msgstr ""
+msgstr "%1 ატოამპერი"
 
 #: electrical_current.cpp:210
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attoampere"
 msgid_plural "%1 attoamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ატოამპერი"
+msgstr[1] "%1 ატოამპერი"
 
 #: electrical_current.cpp:215
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "zA"
-msgstr ""
+msgstr "ზა"
 
 #: electrical_current.cpp:216
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zeptoamperes"
-msgstr ""
+msgstr "ზეპტოამპერი"
 
 #: electrical_current.cpp:217
 #, kde-format
@@ -4538,27 +4538,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptoamperes"
-msgstr ""
+msgstr "%1 ზეპტოამპერი"
 
 #: electrical_current.cpp:220
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptoampere"
 msgid_plural "%1 zeptoamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეპტოამპერი"
+msgstr[1] "%1 ზეპტოამპერი"
 
 #: electrical_current.cpp:225
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "yA"
-msgstr ""
+msgstr "ია"
 
 #: electrical_current.cpp:226
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yoctoamperes"
-msgstr ""
+msgstr "იოქტოამპერი"
 
 #: electrical_current.cpp:227
 #, kde-format
@@ -4570,38 +4570,38 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctoamperes"
-msgstr ""
+msgstr "%1 იოქტოამპერი"
 
 #: electrical_current.cpp:230
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctoampere"
 msgid_plural "%1 yoctoamperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოქტოამპერი"
+msgstr[1] "%1 იოქტოამპერი"
 
 #: electrical_resistance.cpp:18
 #, kde-format
 msgid "Resistance"
-msgstr ""
+msgstr "წინაღობა"
 
 #: electrical_resistance.cpp:20
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (electrical resistance"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: electrical_resistance.cpp:25
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "YΩ"
-msgstr ""
+msgstr "YΩ"
 
 #: electrical_resistance.cpp:26
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yottaohms"
-msgstr ""
+msgstr "იოტაომი"
 
 #: electrical_resistance.cpp:27
 #, kde-format
@@ -4613,27 +4613,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottaohms"
-msgstr ""
+msgstr "%1 იოტაომი"
 
 #: electrical_resistance.cpp:30
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottaohm"
 msgid_plural "%1 yottaohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოტაომი"
+msgstr[1] "%1 იოტაომი"
 
 #: electrical_resistance.cpp:35
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "ZΩ"
-msgstr ""
+msgstr "ZΩ"
 
 #: electrical_resistance.cpp:36
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettaohms"
-msgstr ""
+msgstr "ზეტაომი"
 
 #: electrical_resistance.cpp:37
 #, kde-format
@@ -4645,27 +4645,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettaohms"
-msgstr ""
+msgstr "%1 ზეტაომი"
 
 #: electrical_resistance.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettaohm"
 msgid_plural "%1 zettaohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტაომი"
+msgstr[1] "%1 ზეტაომი"
 
 #: electrical_resistance.cpp:45
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "EΩ"
-msgstr ""
+msgstr "EΩ"
 
 #: electrical_resistance.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exaohms"
-msgstr ""
+msgstr "ექსაომი"
 
 #: electrical_resistance.cpp:47
 #, kde-format
@@ -4677,27 +4677,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exaohms"
-msgstr ""
+msgstr "%1 ექსაომი"
 
 #: electrical_resistance.cpp:50
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exaohm"
 msgid_plural "%1 exaohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსაომი"
+msgstr[1] "%1 ექსაომი"
 
 #: electrical_resistance.cpp:55
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "PΩ"
-msgstr ""
+msgstr "PΩ"
 
 #: electrical_resistance.cpp:56
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petaohms"
-msgstr ""
+msgstr "პეტაომი"
 
 #: electrical_resistance.cpp:57
 #, kde-format
@@ -4709,27 +4709,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petaohms"
-msgstr ""
+msgstr "%1 პეტაომი"
 
 #: electrical_resistance.cpp:60
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petaohm"
 msgid_plural "%1 petaohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტაომი"
+msgstr[1] "%1 პეტაომი"
 
 #: electrical_resistance.cpp:65
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "TΩ"
-msgstr ""
+msgstr "TΩ"
 
 #: electrical_resistance.cpp:66
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teraohms"
-msgstr ""
+msgstr "ტერაომი"
 
 #: electrical_resistance.cpp:67
 #, kde-format
@@ -4741,27 +4741,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teraohms"
-msgstr ""
+msgstr "%1 ტერაომი"
 
 #: electrical_resistance.cpp:70
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teraohm"
 msgid_plural "%1 teraohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერაომი"
+msgstr[1] "%1 ტერაომი"
 
 #: electrical_resistance.cpp:75
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "GΩ"
-msgstr ""
+msgstr "GΩ"
 
 #: electrical_resistance.cpp:76
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigaohms"
-msgstr ""
+msgstr "გიგაომი"
 
 #: electrical_resistance.cpp:77
 #, kde-format
@@ -4773,27 +4773,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigaohms"
-msgstr ""
+msgstr "%1 გიგაომი"
 
 #: electrical_resistance.cpp:80
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigaohm"
 msgid_plural "%1 gigaohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგაომი"
+msgstr[1] "%1 გიგაომი"
 
 #: electrical_resistance.cpp:85
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "MΩ"
-msgstr ""
+msgstr "MΩ"
 
 #: electrical_resistance.cpp:86
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megaohms"
-msgstr ""
+msgstr "მეგაომი"
 
 #: electrical_resistance.cpp:87
 #, kde-format
@@ -4805,27 +4805,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megaohms"
-msgstr ""
+msgstr "%1 მეგაომი"
 
 #: electrical_resistance.cpp:90
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megaohm"
 msgid_plural "%1 megaohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგაომი"
+msgstr[1] "%1 მეგაომი"
 
 #: electrical_resistance.cpp:95
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "kΩ"
-msgstr ""
+msgstr "kΩ"
 
 #: electrical_resistance.cpp:96
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kiloohms"
-msgstr ""
+msgstr "კილოომი"
 
 #: electrical_resistance.cpp:97
 #, kde-format
@@ -4837,27 +4837,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kiloohms"
-msgstr ""
+msgstr "%1 კილოომი"
 
 #: electrical_resistance.cpp:100
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kiloohm"
 msgid_plural "%1 kiloohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოომი"
+msgstr[1] "%1 კილოომი"
 
 #: electrical_resistance.cpp:105
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "hΩ"
-msgstr ""
+msgstr "hΩ"
 
 #: electrical_resistance.cpp:106
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectoohms"
-msgstr ""
+msgstr "ჰექტოომი"
 
 #: electrical_resistance.cpp:107
 #, kde-format
@@ -4869,27 +4869,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectoohms"
-msgstr ""
+msgstr "%1 ჰექტოომი"
 
 #: electrical_resistance.cpp:110
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectoohm"
 msgid_plural "%1 hectoohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰექტოომი"
+msgstr[1] "%1 ჰექტოომი"
 
 #: electrical_resistance.cpp:115
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "daΩ"
-msgstr ""
+msgstr "daΩ"
 
 #: electrical_resistance.cpp:116
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decaohms"
-msgstr ""
+msgstr "დეკაომი"
 
 #: electrical_resistance.cpp:117
 #, kde-format
@@ -4901,27 +4901,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decaohms"
-msgstr ""
+msgstr "%1 დეკაომი"
 
 #: electrical_resistance.cpp:120
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decaohm"
 msgid_plural "%1 decaohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეკაომი"
+msgstr[1] "%1 დეკაომი"
 
 #: electrical_resistance.cpp:125
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "Ω"
-msgstr ""
+msgstr "Ω"
 
 #: electrical_resistance.cpp:126
 #, kde-format
 msgctxt "unit description in lists"
 msgid "ohms"
-msgstr ""
+msgstr "ომი"
 
 #: electrical_resistance.cpp:127
 #, kde-format
@@ -4933,27 +4933,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ohms"
-msgstr ""
+msgstr "%1 ომი"
 
 #: electrical_resistance.cpp:130
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ohm"
 msgid_plural "%1 ohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ომი"
+msgstr[1] "%1 ომი"
 
 #: electrical_resistance.cpp:135
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "dΩ"
-msgstr ""
+msgstr "dΩ"
 
 #: electrical_resistance.cpp:136
 #, kde-format
 msgctxt "unit description in lists"
 msgid "deciohms"
-msgstr ""
+msgstr "დეციომი"
 
 #: electrical_resistance.cpp:137
 #, kde-format
@@ -4965,27 +4965,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 deciohms"
-msgstr ""
+msgstr "%1 დეციომი"
 
 #: electrical_resistance.cpp:140
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 deciohm"
 msgid_plural "%1 deciohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეციომი"
+msgstr[1] "%1 დეციომი"
 
 #: electrical_resistance.cpp:145
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "cΩ"
-msgstr ""
+msgstr "cΩ"
 
 #: electrical_resistance.cpp:146
 #, kde-format
 msgctxt "unit description in lists"
 msgid "centiohms"
-msgstr ""
+msgstr "ცენტიომი"
 
 #: electrical_resistance.cpp:147
 #, kde-format
@@ -4997,27 +4997,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centiohms"
-msgstr ""
+msgstr "%1 ცენტიომი"
 
 #: electrical_resistance.cpp:150
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centiohm"
 msgid_plural "%1 centiohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ცენტიომი"
+msgstr[1] "%1 ცენტიომი"
 
 #: electrical_resistance.cpp:155
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "mΩ"
-msgstr ""
+msgstr "mΩ"
 
 #: electrical_resistance.cpp:156
 #, kde-format
 msgctxt "unit description in lists"
 msgid "milliohms"
-msgstr ""
+msgstr "მილიომი"
 
 #: electrical_resistance.cpp:157
 #, kde-format
@@ -5029,27 +5029,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 milliohms"
-msgstr ""
+msgstr "%1 მილიომი"
 
 #: electrical_resistance.cpp:160
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 milliohm"
 msgid_plural "%1 milliohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მილიომი"
+msgstr[1] "%1 მილიომი"
 
 #: electrical_resistance.cpp:165
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "µΩ"
-msgstr ""
+msgstr "µΩ"
 
 #: electrical_resistance.cpp:166
 #, kde-format
 msgctxt "unit description in lists"
 msgid "microohms"
-msgstr ""
+msgstr "მიკროომი"
 
 #: electrical_resistance.cpp:167
 #, kde-format
@@ -5061,27 +5061,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 microohms"
-msgstr ""
+msgstr "%1 მიკროომი"
 
 #: electrical_resistance.cpp:170
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microohm"
 msgid_plural "%1 microohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მიკროომი"
+msgstr[1] "%1 მიკროომი"
 
 #: electrical_resistance.cpp:175
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "nΩ"
-msgstr ""
+msgstr "nΩ"
 
 #: electrical_resistance.cpp:176
 #, kde-format
 msgctxt "unit description in lists"
 msgid "nanoohms"
-msgstr ""
+msgstr "ნანოომი"
 
 #: electrical_resistance.cpp:177
 #, kde-format
@@ -5093,27 +5093,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanoohms"
-msgstr ""
+msgstr "%1 ნანოომი"
 
 #: electrical_resistance.cpp:180
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanoohm"
 msgid_plural "%1 nanoohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნანოომი"
+msgstr[1] "%1 ნანოომი"
 
 #: electrical_resistance.cpp:185
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "pΩ"
-msgstr ""
+msgstr "pΩ"
 
 #: electrical_resistance.cpp:186
 #, kde-format
 msgctxt "unit description in lists"
 msgid "picoohms"
-msgstr ""
+msgstr "პიკოომი"
 
 #: electrical_resistance.cpp:187
 #, kde-format
@@ -5125,27 +5125,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picoohms"
-msgstr ""
+msgstr "%1 პიკოომი"
 
 #: electrical_resistance.cpp:190
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picoohm"
 msgid_plural "%1 picoohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პიკოომი"
+msgstr[1] "%1 პიკოომი"
 
 #: electrical_resistance.cpp:195
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "fΩ"
-msgstr ""
+msgstr "fΩ"
 
 #: electrical_resistance.cpp:196
 #, kde-format
 msgctxt "unit description in lists"
 msgid "femtoohms"
-msgstr ""
+msgstr "ფემტოომი"
 
 #: electrical_resistance.cpp:197
 #, kde-format
@@ -5157,27 +5157,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtoohms"
-msgstr ""
+msgstr "%1 ფემტოომი"
 
 #: electrical_resistance.cpp:200
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtoohm"
 msgid_plural "%1 femtoohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფემტოომი"
+msgstr[1] "%1 ფემტოომი"
 
 #: electrical_resistance.cpp:205
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "aΩ"
-msgstr ""
+msgstr "aΩ"
 
 #: electrical_resistance.cpp:206
 #, kde-format
 msgctxt "unit description in lists"
 msgid "attoohms"
-msgstr ""
+msgstr "ატოომი"
 
 #: electrical_resistance.cpp:207
 #, kde-format
@@ -5189,27 +5189,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attoohms"
-msgstr ""
+msgstr "%1 ატოომი"
 
 #: electrical_resistance.cpp:210
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attoohm"
 msgid_plural "%1 attoohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ატოომი"
+msgstr[1] "%1 ატოომი"
 
 #: electrical_resistance.cpp:215
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "zΩ"
-msgstr ""
+msgstr "zΩ"
 
 #: electrical_resistance.cpp:216
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zeptoohms"
-msgstr ""
+msgstr "ზეპტაომი"
 
 #: electrical_resistance.cpp:217
 #, kde-format
@@ -5221,27 +5221,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptoohms"
-msgstr ""
+msgstr "%1 ზეპტაომი"
 
 #: electrical_resistance.cpp:220
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptoohm"
 msgid_plural "%1 zeptoohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეპტაომი"
+msgstr[1] "%1 ზეპტაომი"
 
 #: electrical_resistance.cpp:225
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "yΩ"
-msgstr ""
+msgstr "yΩ"
 
 #: electrical_resistance.cpp:226
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yoctoohms"
-msgstr ""
+msgstr "იოქტოომი"
 
 #: electrical_resistance.cpp:227
 #, kde-format
@@ -5253,15 +5253,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctoohms"
-msgstr ""
+msgstr "%1 იოქტოომი"
 
 #: electrical_resistance.cpp:230
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctoohm"
 msgid_plural "%1 yoctoohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოქტოომი"
+msgstr[1] "%1 იოქტოომი"
 
 #: energy.cpp:44
 #, kde-format
@@ -5272,19 +5272,19 @@ msgstr "ენერგია"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (energy)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: energy.cpp:51
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "YJ"
-msgstr ""
+msgstr "იჯ"
 
 #: energy.cpp:52
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yottajoules"
-msgstr ""
+msgstr "იოტაჯოული"
 
 #: energy.cpp:53
 #, kde-format
@@ -5296,27 +5296,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottajoules"
-msgstr ""
+msgstr "%1 იოტაჯოული"
 
 #: energy.cpp:56
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottajoule"
 msgid_plural "%1 yottajoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოტაჯოული"
+msgstr[1] "%1 იოტაჯოული"
 
 #: energy.cpp:61
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "ZJ"
-msgstr ""
+msgstr "ზჯ"
 
 #: energy.cpp:62
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettajoules"
-msgstr ""
+msgstr "ზეტაჯოული"
 
 #: energy.cpp:63
 #, kde-format
@@ -5328,27 +5328,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettajoules"
-msgstr ""
+msgstr "%1 ზეტაჯოული"
 
 #: energy.cpp:66
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettajoule"
 msgid_plural "%1 zettajoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტაჯოული"
+msgstr[1] "%1 ზეტაჯოული"
 
 #: energy.cpp:71
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "EJ"
-msgstr ""
+msgstr "ეჯ"
 
 #: energy.cpp:72
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exajoules"
-msgstr ""
+msgstr "ექსაჯოული"
 
 #: energy.cpp:73
 #, kde-format
@@ -5360,27 +5360,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exajoules"
-msgstr ""
+msgstr "%1 ექსაჯოული"
 
 #: energy.cpp:76
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exajoule"
 msgid_plural "%1 exajoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსაჯოული"
+msgstr[1] "%1 ექსაჯოული"
 
 #: energy.cpp:81
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "PJ"
-msgstr ""
+msgstr "პჯ"
 
 #: energy.cpp:82
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petajoules"
-msgstr ""
+msgstr "პეტაჯოული"
 
 #: energy.cpp:83
 #, kde-format
@@ -5392,27 +5392,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petajoules"
-msgstr ""
+msgstr "%1 პეტაჯოული"
 
 #: energy.cpp:86
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petajoule"
 msgid_plural "%1 petajoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტაჯოული"
+msgstr[1] "%1 პეტაჯოული"
 
 #: energy.cpp:91
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "TJ"
-msgstr ""
+msgstr "ტჯ"
 
 #: energy.cpp:92
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terajoules"
-msgstr ""
+msgstr "ტერაჯოული"
 
 #: energy.cpp:93
 #, kde-format
@@ -5424,27 +5424,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terajoules"
-msgstr ""
+msgstr "%1 ტერაჯოული"
 
 #: energy.cpp:96
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terajoule"
 msgid_plural "%1 terajoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერაჯოული"
+msgstr[1] "%1 ტერაჯოული"
 
 #: energy.cpp:101
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "GJ"
-msgstr ""
+msgstr "გჯ"
 
 #: energy.cpp:102
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigajoules"
-msgstr ""
+msgstr "გიგაჯოული"
 
 #: energy.cpp:103
 #, kde-format
@@ -5456,27 +5456,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigajoules"
-msgstr ""
+msgstr "%1 გიგაჯოული"
 
 #: energy.cpp:106
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigajoule"
 msgid_plural "%1 gigajoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგაჯოული"
+msgstr[1] "%1 გიგაჯოული"
 
 #: energy.cpp:111
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "MJ"
-msgstr ""
+msgstr "მჯ"
 
 #: energy.cpp:112
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megajoules"
-msgstr ""
+msgstr "მეგაჯოული"
 
 #: energy.cpp:113
 #, kde-format
@@ -5488,27 +5488,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megajoules"
-msgstr ""
+msgstr "%1 მეგაჯოული"
 
 #: energy.cpp:116
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megajoule"
 msgid_plural "%1 megajoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგაჯოული"
+msgstr[1] "%1 მეგაჯოული"
 
 #: energy.cpp:121
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kJ"
-msgstr ""
+msgstr "კჯ"
 
 #: energy.cpp:122
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilojoules"
-msgstr ""
+msgstr "კილოჯოული"
 
 #: energy.cpp:123
 #, kde-format
@@ -5520,27 +5520,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilojoules"
-msgstr ""
+msgstr "%1 კილოჯოული"
 
 #: energy.cpp:126
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilojoule"
 msgid_plural "%1 kilojoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოჯოული"
+msgstr[1] "%1 კილოჯოული"
 
 #: energy.cpp:131
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "hJ"
-msgstr ""
+msgstr "ჰჯ"
 
 #: energy.cpp:132
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectojoules"
-msgstr ""
+msgstr "ჰექტოჯოული"
 
 #: energy.cpp:133
 #, kde-format
@@ -5552,27 +5552,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectojoules"
-msgstr ""
+msgstr "%1 ჰექტოჯოული"
 
 #: energy.cpp:136
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectojoule"
 msgid_plural "%1 hectojoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰექტოჯოული"
+msgstr[1] "%1 ჰექტოჯოული"
 
 #: energy.cpp:141
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "daJ"
-msgstr ""
+msgstr "დაჯ"
 
 #: energy.cpp:142
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decajoules"
-msgstr ""
+msgstr "დეკაჯოული"
 
 #: energy.cpp:143
 #, kde-format
@@ -5584,15 +5584,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decajoules"
-msgstr ""
+msgstr "%1 დეკაჯოული"
 
 #: energy.cpp:146
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decajoule"
 msgid_plural "%1 decajoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეკაჯოული"
+msgstr[1] "%1 დეკაჯოული"
 
 #: energy.cpp:151
 #, kde-format
@@ -5604,7 +5604,7 @@ msgstr "J"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "joules"
-msgstr ""
+msgstr "ჯოული"
 
 #: energy.cpp:153
 #, kde-format
@@ -5616,27 +5616,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 joules"
-msgstr ""
+msgstr "%1 ჯოული"
 
 #: energy.cpp:156
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 joule"
 msgid_plural "%1 joules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჯოული"
+msgstr[1] "%1 ჯოული"
 
 #: energy.cpp:161
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "dJ"
-msgstr ""
+msgstr "დჯ"
 
 #: energy.cpp:162
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decijoules"
-msgstr ""
+msgstr "დეციჯოული"
 
 #: energy.cpp:163
 #, kde-format
@@ -5648,27 +5648,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decijoules"
-msgstr ""
+msgstr "%1 დეციჯოული"
 
 #: energy.cpp:166
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decijoule"
 msgid_plural "%1 decijoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეციჯოული"
+msgstr[1] "%1 დეციჯოული"
 
 #: energy.cpp:171
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "cJ"
-msgstr ""
+msgstr "ცჯ"
 
 #: energy.cpp:172
 #, kde-format
 msgctxt "unit description in lists"
 msgid "centijoules"
-msgstr ""
+msgstr "ცენტიჯოული"
 
 #: energy.cpp:173
 #, kde-format
@@ -5680,27 +5680,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centijoules"
-msgstr ""
+msgstr "%1 ცენტიჯოული"
 
 #: energy.cpp:176
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centijoule"
 msgid_plural "%1 centijoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ცენტიჯოული"
+msgstr[1] "%1 ცენტიჯოული"
 
 #: energy.cpp:181
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "mJ"
-msgstr ""
+msgstr "მჯ"
 
 #: energy.cpp:182
 #, kde-format
 msgctxt "unit description in lists"
 msgid "millijoules"
-msgstr ""
+msgstr "მილიჯოული"
 
 #: energy.cpp:183
 #, kde-format
@@ -5712,27 +5712,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 millijoules"
-msgstr ""
+msgstr "%1 მილიჯოული"
 
 #: energy.cpp:186
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 millijoule"
 msgid_plural "%1 millijoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მილიჯოული"
+msgstr[1] "%1 მილიჯოული"
 
 #: energy.cpp:191
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "µJ"
-msgstr ""
+msgstr "µჯ"
 
 #: energy.cpp:192
 #, kde-format
 msgctxt "unit description in lists"
 msgid "microjoules"
-msgstr ""
+msgstr "მიკროჯოული"
 
 #: energy.cpp:193
 #, kde-format
@@ -5744,27 +5744,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 microjoules"
-msgstr ""
+msgstr "%1 მიკროჯოული"
 
 #: energy.cpp:196
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microjoule"
 msgid_plural "%1 microjoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მიკროჯოული"
+msgstr[1] "%1 მიკროჯოული"
 
 #: energy.cpp:201
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "nJ"
-msgstr ""
+msgstr "ნჯ"
 
 #: energy.cpp:202
 #, kde-format
 msgctxt "unit description in lists"
 msgid "nanojoules"
-msgstr ""
+msgstr "ნანოჯოული"
 
 #: energy.cpp:203
 #, kde-format
@@ -5776,27 +5776,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanojoules"
-msgstr ""
+msgstr "%1 ნანოჯოული"
 
 #: energy.cpp:206
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanojoule"
 msgid_plural "%1 nanojoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნანოჯოული"
+msgstr[1] "%1 ნანოჯოული"
 
 #: energy.cpp:211
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "pJ"
-msgstr ""
+msgstr "პჯ"
 
 #: energy.cpp:212
 #, kde-format
 msgctxt "unit description in lists"
 msgid "picojoules"
-msgstr ""
+msgstr "პიკოჯოული"
 
 #: energy.cpp:213
 #, kde-format
@@ -5808,27 +5808,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picojoules"
-msgstr ""
+msgstr "%1 პიკოჯოული"
 
 #: energy.cpp:216
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picojoule"
 msgid_plural "%1 picojoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პიკოჯოული"
+msgstr[1] "%1 პიკოჯოული"
 
 #: energy.cpp:221
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "fJ"
-msgstr ""
+msgstr "ფჯ"
 
 #: energy.cpp:222
 #, kde-format
 msgctxt "unit description in lists"
 msgid "femtojoules"
-msgstr ""
+msgstr "ფემტოჯოული"
 
 #: energy.cpp:223
 #, kde-format
@@ -5840,27 +5840,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtojoules"
-msgstr ""
+msgstr "%1 ფემტოჯოული"
 
 #: energy.cpp:226
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtojoule"
 msgid_plural "%1 femtojoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფემტოჯოული"
+msgstr[1] "%1 ფემტოჯოული"
 
 #: energy.cpp:231
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "aJ"
-msgstr ""
+msgstr "აჯ"
 
 #: energy.cpp:232
 #, kde-format
 msgctxt "unit description in lists"
 msgid "attojoules"
-msgstr ""
+msgstr "ატოჯოული"
 
 #: energy.cpp:233
 #, kde-format
@@ -5872,27 +5872,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attojoules"
-msgstr ""
+msgstr "%1 ატოჯოული"
 
 #: energy.cpp:236
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attojoule"
 msgid_plural "%1 attojoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ატოჯოული"
+msgstr[1] "%1 ატოჯოული"
 
 #: energy.cpp:241
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "zJ"
-msgstr ""
+msgstr "ზჯ"
 
 #: energy.cpp:242
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zeptojoules"
-msgstr ""
+msgstr "ზეპტოჯოული"
 
 #: energy.cpp:243
 #, kde-format
@@ -5904,27 +5904,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptojoules"
-msgstr ""
+msgstr "%1 ზეპტოჯოული"
 
 #: energy.cpp:246
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptojoule"
 msgid_plural "%1 zeptojoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეპტოჯოული"
+msgstr[1] "%1 ზეპტოჯოული"
 
 #: energy.cpp:251
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "yJ"
-msgstr ""
+msgstr "იჯ"
 
 #: energy.cpp:252
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yoctojoules"
-msgstr ""
+msgstr "იოქტოჯოული"
 
 #: energy.cpp:253
 #, kde-format
@@ -5936,15 +5936,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctojoules"
-msgstr ""
+msgstr "%1 იოქტოჯოული"
 
 #: energy.cpp:256
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctojoule"
 msgid_plural "%1 yoctojoules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოქტოჯოული"
+msgstr[1] "%1 იოქტოჯოული"
 
 #: energy.cpp:261
 #, kde-format
@@ -5982,13 +5982,13 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "eV"
-msgstr ""
+msgstr "ევ"
 
 #: energy.cpp:272
 #, kde-format
 msgctxt "unit description in lists"
 msgid "electronvolts"
-msgstr ""
+msgstr "ელექტრონ-ვოლტი"
 
 #: energy.cpp:273
 #, kde-format
@@ -6000,27 +6000,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 electronvolts"
-msgstr ""
+msgstr "%1 ელექტრონ-ვოლტი"
 
 #: energy.cpp:276
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 electronvolt"
 msgid_plural "%1 electronvolts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ელექტრონ-ვოლტი"
+msgstr[1] "%1 ელექტრონ-ვოლტი"
 
 #: energy.cpp:281
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "J/mol"
-msgstr ""
+msgstr "ჯ/მოლ"
 
 #: energy.cpp:282
 #, kde-format
 msgctxt "unit description in lists"
 msgid "joule per mole"
-msgstr ""
+msgstr "ჯოული მოლზე"
 
 #: energy.cpp:283
 #, kde-format
@@ -6032,27 +6032,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 joules per mole"
-msgstr ""
+msgstr "%1 ჯოული მოლზე"
 
 #: energy.cpp:286
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 joule per mole"
 msgid_plural "%1 joules per mole"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჯოული მოლზე"
+msgstr[1] "%1 ჯოული მოლზე"
 
 #: energy.cpp:291
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kJ/mol"
-msgstr ""
+msgstr "კჯ/მოლ"
 
 #: energy.cpp:292
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilojoule per mole"
-msgstr ""
+msgstr "კილოჯოული მოლზე"
 
 #: energy.cpp:293
 #, kde-format
@@ -6066,15 +6066,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilojoules per mole"
-msgstr ""
+msgstr "%1 კილოჯოული მოლზე"
 
 #: energy.cpp:296
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilojoule per mole"
 msgid_plural "%1 kilojoules per mole"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოჯოული მოლზე"
+msgstr[1] "%1 კილოჯოული მოლზე"
 
 #: energy.cpp:301
 #, kde-format
@@ -6112,13 +6112,13 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kcal"
-msgstr ""
+msgstr "კკალ"
 
 #: energy.cpp:312
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilocalories"
-msgstr ""
+msgstr "კილოკალორია"
 
 #: energy.cpp:313
 #, kde-format
@@ -6130,15 +6130,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilocalories"
-msgstr ""
+msgstr "%1 კილოკალორია"
 
 #: energy.cpp:316
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilocalorie"
 msgid_plural "%1 kilocalories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოკალორია"
+msgstr[1] "%1 კილოკალორია"
 
 #: energy.cpp:321
 #, kde-format
@@ -6214,7 +6214,7 @@ msgstr "ნმ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "photon wavelength in nanometers"
-msgstr ""
+msgstr "ფოტონის ტალღის სიგრძე ნანომტრებში"
 
 #: energy.cpp:343
 #, kde-format
@@ -6226,15 +6226,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanometers"
-msgstr ""
+msgstr "%1 ნანომეტრი"
 
 #: energy.cpp:346 length.cpp:180
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanometer"
 msgid_plural "%1 nanometers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნანომეტრი"
+msgstr[1] "%1 ნანომეტრი"
 
 #: force.cpp:17
 #, kde-format
@@ -6245,19 +6245,19 @@ msgstr "ძალა"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (force"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: force.cpp:24
 #, kde-format
 msgctxt "force unit symbol"
 msgid "YN"
-msgstr ""
+msgstr "ინ"
 
 #: force.cpp:25
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yottanewtons"
-msgstr ""
+msgstr "იოტანიუტონი"
 
 #: force.cpp:26
 #, kde-format
@@ -6269,27 +6269,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottanewtons"
-msgstr ""
+msgstr "%1 იოტანიუტონი"
 
 #: force.cpp:29
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottanewton"
 msgid_plural "%1 yottanewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოტანიუტონი"
+msgstr[1] "%1 იოტანიუტონი"
 
 #: force.cpp:34
 #, kde-format
 msgctxt "force unit symbol"
 msgid "ZN"
-msgstr ""
+msgstr "ზნ"
 
 #: force.cpp:35
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettanewtons"
-msgstr ""
+msgstr "ზეტანიუტონი"
 
 #: force.cpp:36
 #, kde-format
@@ -6301,27 +6301,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettanewtons"
-msgstr ""
+msgstr "%1 ზეტანიუტონი"
 
 #: force.cpp:39
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettanewton"
 msgid_plural "%1 zettanewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტანიუტონი"
+msgstr[1] "%1 ზეტანიუტონი"
 
 #: force.cpp:44
 #, kde-format
 msgctxt "force unit symbol"
 msgid "EN"
-msgstr ""
+msgstr "ენ"
 
 #: force.cpp:45
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exanewtons"
-msgstr ""
+msgstr "ექსანიუტონი"
 
 #: force.cpp:46
 #, kde-format
@@ -6333,27 +6333,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exanewtons"
-msgstr ""
+msgstr "%1 ექსანიუტონი"
 
 #: force.cpp:49
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exanewton"
 msgid_plural "%1 exanewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსანიუტონი"
+msgstr[1] "%1 ექსანიუტონი"
 
 #: force.cpp:54
 #, kde-format
 msgctxt "force unit symbol"
 msgid "PN"
-msgstr ""
+msgstr "პნ"
 
 #: force.cpp:55
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petanewtons"
-msgstr ""
+msgstr "პეტანიუტონი"
 
 #: force.cpp:56
 #, kde-format
@@ -6365,27 +6365,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petanewtons"
-msgstr ""
+msgstr "%1 პეტანიუტონი"
 
 #: force.cpp:59
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petanewton"
 msgid_plural "%1 petanewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტანიუტონი"
+msgstr[1] "%1 პეტანიუტონი"
 
 #: force.cpp:64
 #, kde-format
 msgctxt "force unit symbol"
 msgid "TN"
-msgstr ""
+msgstr "ტნ"
 
 #: force.cpp:65
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teranewtons"
-msgstr ""
+msgstr "ტერანიუტონი"
 
 #: force.cpp:66
 #, kde-format
@@ -6397,27 +6397,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teranewtons"
-msgstr ""
+msgstr "%1 ტერანიუტონი"
 
 #: force.cpp:69
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teranewton"
 msgid_plural "%1 teranewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერანიუტონი"
+msgstr[1] "%1 ტერანიუტონი"
 
 #: force.cpp:74
 #, kde-format
 msgctxt "force unit symbol"
 msgid "GN"
-msgstr ""
+msgstr "გნ"
 
 #: force.cpp:75
 #, kde-format
 msgctxt "unit description in lists"
 msgid "giganewtons"
-msgstr ""
+msgstr "გიგანიუტონი"
 
 #: force.cpp:76
 #, kde-format
@@ -6429,27 +6429,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 giganewtons"
-msgstr ""
+msgstr "%1 გიგანიუტონი"
 
 #: force.cpp:79
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 giganewton"
 msgid_plural "%1 giganewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგანიუტონი"
+msgstr[1] "%1 გიგანიუტონი"
 
 #: force.cpp:84
 #, kde-format
 msgctxt "force unit symbol"
 msgid "MN"
-msgstr ""
+msgstr "მნ"
 
 #: force.cpp:85
 #, kde-format
 msgctxt "unit description in lists"
 msgid "meganewtons"
-msgstr ""
+msgstr "მეგანიუტონი"
 
 #: force.cpp:86
 #, kde-format
@@ -6461,27 +6461,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 meganewtons"
-msgstr ""
+msgstr "%1 მეგანიუტონი"
 
 #: force.cpp:89
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 meganewton"
 msgid_plural "%1 meganewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგანიუტონი"
+msgstr[1] "%1 მეგანიუტონი"
 
 #: force.cpp:94
 #, kde-format
 msgctxt "force unit symbol"
 msgid "kN"
-msgstr ""
+msgstr "კნ"
 
 #: force.cpp:95
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilonewtons"
-msgstr ""
+msgstr "კილონიუტონი"
 
 #: force.cpp:96
 #, kde-format
@@ -6493,27 +6493,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilonewtons"
-msgstr ""
+msgstr "%1 კილონიუტონი"
 
 #: force.cpp:99 mass.cpp:304
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilonewton"
 msgid_plural "%1 kilonewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილონიუტონი"
+msgstr[1] "%1 კილონიუტონი"
 
 #: force.cpp:104
 #, kde-format
 msgctxt "force unit symbol"
 msgid "hN"
-msgstr ""
+msgstr "ჰნ"
 
 #: force.cpp:105
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectonewtons"
-msgstr ""
+msgstr "ჰექტონიუტონი"
 
 #: force.cpp:106
 #, kde-format
@@ -6525,27 +6525,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectonewtons"
-msgstr ""
+msgstr "%1 ჰექტონიუტონი"
 
 #: force.cpp:109
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectonewton"
 msgid_plural "%1 hectonewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰექტონიუტონი"
+msgstr[1] "%1 ჰექტონიუტონი"
 
 #: force.cpp:114
 #, kde-format
 msgctxt "force unit symbol"
 msgid "daN"
-msgstr ""
+msgstr "დან"
 
 #: force.cpp:115
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decanewtons"
-msgstr ""
+msgstr "დეკანიუტონი"
 
 #: force.cpp:116
 #, kde-format
@@ -6557,15 +6557,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decanewtons"
-msgstr ""
+msgstr "%1 დეკანიუტონი"
 
 #: force.cpp:119
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decanewton"
 msgid_plural "%1 decanewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეკანიუტონი"
+msgstr[1] "%1 დეკანიუტონი"
 
 #: force.cpp:124
 #, kde-format
@@ -6577,7 +6577,7 @@ msgstr "N"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "newtons"
-msgstr ""
+msgstr "ნიუტონი"
 
 #: force.cpp:126 mass.cpp:290
 #, kde-format
@@ -6589,27 +6589,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 newtons"
-msgstr ""
+msgstr "%1 ნიუტონი"
 
 #: force.cpp:129 mass.cpp:293
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 newton"
 msgid_plural "%1 newtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნიუტონი"
+msgstr[1] "%1 ნიუტონი"
 
 #: force.cpp:134
 #, kde-format
 msgctxt "force unit symbol"
 msgid "dN"
-msgstr ""
+msgstr "დნ"
 
 #: force.cpp:135
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decinewtons"
-msgstr ""
+msgstr "დეცინიუტონი"
 
 #: force.cpp:136
 #, kde-format
@@ -6621,27 +6621,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decinewtons"
-msgstr ""
+msgstr "%1 დეცინიუტონი"
 
 #: force.cpp:139
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decinewton"
 msgid_plural "%1 decinewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეცინიუტონი"
+msgstr[1] "%1 დეცინიუტონი"
 
 #: force.cpp:144
 #, kde-format
 msgctxt "force unit symbol"
 msgid "cN"
-msgstr ""
+msgstr "ცნ"
 
 #: force.cpp:145
 #, kde-format
 msgctxt "unit description in lists"
 msgid "centinewtons"
-msgstr ""
+msgstr "ცენტინიუტონი"
 
 #: force.cpp:146
 #, kde-format
@@ -6653,27 +6653,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centinewtons"
-msgstr ""
+msgstr "%1 ცენტინიუტონი"
 
 #: force.cpp:149
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centinewton"
 msgid_plural "%1 centinewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ცენტინიუტონი"
+msgstr[1] "%1 ცენტინიუტონი"
 
 #: force.cpp:154
 #, kde-format
 msgctxt "force unit symbol"
 msgid "mN"
-msgstr ""
+msgstr "მნ"
 
 #: force.cpp:155
 #, kde-format
 msgctxt "unit description in lists"
 msgid "millinewtons"
-msgstr ""
+msgstr "მილინიუტონი"
 
 #: force.cpp:156
 #, kde-format
@@ -6685,27 +6685,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 millinewtons"
-msgstr ""
+msgstr "%1 მილინიუტონი"
 
 #: force.cpp:159
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 millinewton"
 msgid_plural "%1 millinewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მილინიუტონი"
+msgstr[1] "%1 მილინიუტონი"
 
 #: force.cpp:164
 #, kde-format
 msgctxt "force unit symbol"
 msgid "µN"
-msgstr ""
+msgstr "µნ"
 
 #: force.cpp:165
 #, kde-format
 msgctxt "unit description in lists"
 msgid "micronewtons"
-msgstr ""
+msgstr "მიკრონიუტონი"
 
 #: force.cpp:166
 #, kde-format
@@ -6717,15 +6717,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 micronewtons"
-msgstr ""
+msgstr "%1 მიკრონიუტონი"
 
 #: force.cpp:169
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 micronewton"
 msgid_plural "%1 micronewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მიკრონიუტონი"
+msgstr[1] "%1 მიკრონიუტონი"
 
 #: force.cpp:174
 #, kde-format
@@ -6737,7 +6737,7 @@ msgstr "nN"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "nanonewtons"
-msgstr ""
+msgstr "ნანონიუტონი"
 
 #: force.cpp:176
 #, kde-format
@@ -6749,27 +6749,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanonewtons"
-msgstr ""
+msgstr "%1 ნანონიუტონი"
 
 #: force.cpp:179
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanonewton"
 msgid_plural "%1 nanonewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნანონიუტონი"
+msgstr[1] "%1 ნანონიუტონი"
 
 #: force.cpp:184
 #, kde-format
 msgctxt "force unit symbol"
 msgid "pN"
-msgstr ""
+msgstr "პნ"
 
 #: force.cpp:185
 #, kde-format
 msgctxt "unit description in lists"
 msgid "piconewtons"
-msgstr ""
+msgstr "პიკონიუტონი"
 
 #: force.cpp:186
 #, kde-format
@@ -6781,27 +6781,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 piconewtons"
-msgstr ""
+msgstr "%1 პიკონიუტონი"
 
 #: force.cpp:189
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 piconewton"
 msgid_plural "%1 piconewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პიკონიუტონი"
+msgstr[1] "%1 პიკონიუტონი"
 
 #: force.cpp:194
 #, kde-format
 msgctxt "force unit symbol"
 msgid "fN"
-msgstr ""
+msgstr "ფნ"
 
 #: force.cpp:195
 #, kde-format
 msgctxt "unit description in lists"
 msgid "femtonewtons"
-msgstr ""
+msgstr "ფემტონიუტონი"
 
 #: force.cpp:196
 #, kde-format
@@ -6813,27 +6813,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtonewtons"
-msgstr ""
+msgstr "%1 ფემტონიუტონი"
 
 #: force.cpp:199
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtonewton"
 msgid_plural "%1 femtonewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფემტონიუტონი"
+msgstr[1] "%1 ფემტონიუტონი"
 
 #: force.cpp:204
 #, kde-format
 msgctxt "force unit symbol"
 msgid "aN"
-msgstr ""
+msgstr "ან"
 
 #: force.cpp:205
 #, kde-format
 msgctxt "unit description in lists"
 msgid "attonewtons"
-msgstr ""
+msgstr "ატონიუტონი"
 
 #: force.cpp:206
 #, kde-format
@@ -6845,27 +6845,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attonewtons"
-msgstr ""
+msgstr "%1 ატონიუტონი"
 
 #: force.cpp:209
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attonewton"
 msgid_plural "%1 attonewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ატონიუტონი"
+msgstr[1] "%1 ატონიუტონი"
 
 #: force.cpp:214
 #, kde-format
 msgctxt "force unit symbol"
 msgid "zN"
-msgstr ""
+msgstr "ზნ"
 
 #: force.cpp:215
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zeptonewtons"
-msgstr ""
+msgstr "ზეპტონიუტონი"
 
 #: force.cpp:216
 #, kde-format
@@ -6877,27 +6877,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptonewtons"
-msgstr ""
+msgstr "%1 ზეპტონიუტონი"
 
 #: force.cpp:219
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptonewton"
 msgid_plural "%1 zeptonewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეპტონიუტონი"
+msgstr[1] "%1 ზეპტონიუტონი"
 
 #: force.cpp:224
 #, kde-format
 msgctxt "force unit symbol"
 msgid "yN"
-msgstr ""
+msgstr "ინ"
 
 #: force.cpp:225
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yoctonewtons"
-msgstr ""
+msgstr "იოქტონიუტონი"
 
 #: force.cpp:226
 #, kde-format
@@ -6909,15 +6909,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctonewtons"
-msgstr ""
+msgstr "%1 იოქტონიუტონი"
 
 #: force.cpp:229
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctonewton"
 msgid_plural "%1 yoctonewtons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოქტონიუტონი"
+msgstr[1] "%1 იოქტონიუტონი"
 
 #: force.cpp:235
 #, kde-format
@@ -7056,19 +7056,19 @@ msgstr "სიხშირე"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (frequency"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: frequency.cpp:25
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "YHz"
-msgstr ""
+msgstr "იჰც"
 
 #: frequency.cpp:26
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yottahertzs"
-msgstr ""
+msgstr "იოტაჰერცი"
 
 #: frequency.cpp:27
 #, kde-format
@@ -7080,27 +7080,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottahertzs"
-msgstr ""
+msgstr "%1 იოტაჰერცი"
 
 #: frequency.cpp:30
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottahertz"
 msgid_plural "%1 yottahertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოტაჰერცი"
+msgstr[1] "%1 იოტაჰერცი"
 
 #: frequency.cpp:35
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "ZHz"
-msgstr ""
+msgstr "ზჰც"
 
 #: frequency.cpp:36
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettahertzs"
-msgstr ""
+msgstr "ზეტაჰერცი"
 
 #: frequency.cpp:37
 #, kde-format
@@ -7112,27 +7112,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettahertzs"
-msgstr ""
+msgstr "%1 ზეტაჰერცი"
 
 #: frequency.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettahertz"
 msgid_plural "%1 zettahertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტაჰერცი"
+msgstr[1] "%1 ზეტაჰერცი"
 
 #: frequency.cpp:45
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "EHz"
-msgstr ""
+msgstr "ეჰც"
 
 #: frequency.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exahertzs"
-msgstr ""
+msgstr "ექსაჰერცი"
 
 #: frequency.cpp:47
 #, kde-format
@@ -7144,27 +7144,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exahertzs"
-msgstr ""
+msgstr "%1 ექსაჰერცი"
 
 #: frequency.cpp:50
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exahertz"
 msgid_plural "%1 exahertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსაჰერცი"
+msgstr[1] "%1 ექსაჰერცი"
 
 #: frequency.cpp:55
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "PHz"
-msgstr ""
+msgstr "პჰც"
 
 #: frequency.cpp:56
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petahertzs"
-msgstr ""
+msgstr "პეტაჰერცი"
 
 #: frequency.cpp:57
 #, kde-format
@@ -7176,27 +7176,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petahertzs"
-msgstr ""
+msgstr "%1 პეტაჰერცი"
 
 #: frequency.cpp:60
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petahertz"
 msgid_plural "%1 petahertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტაჰერცი"
+msgstr[1] "%1 პეტაჰერცი"
 
 #: frequency.cpp:65
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "THz"
-msgstr ""
+msgstr "ტჰც"
 
 #: frequency.cpp:66
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terahertzs"
-msgstr ""
+msgstr "ტერაჰერცი"
 
 #: frequency.cpp:67
 #, kde-format
@@ -7208,15 +7208,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terahertzs"
-msgstr ""
+msgstr "%1 ტერაჰერცი"
 
 #: frequency.cpp:70
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terahertz"
 msgid_plural "%1 terahertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერაჰერცი"
+msgstr[1] "%1 ტერაჰერცი"
 
 #: frequency.cpp:75
 #, kde-format
@@ -7228,7 +7228,7 @@ msgstr "გჰც"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigahertzs"
-msgstr ""
+msgstr "გიგაჰერცი"
 
 #: frequency.cpp:77
 #, kde-format
@@ -7240,15 +7240,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigahertzs"
-msgstr ""
+msgstr "%1 გიგაჰერცი"
 
 #: frequency.cpp:80
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigahertz"
 msgid_plural "%1 gigahertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგაჰერცი"
+msgstr[1] "%1 გიგაჰერცი"
 
 #: frequency.cpp:85
 #, kde-format
@@ -7260,7 +7260,7 @@ msgstr "მჰც"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megahertzs"
-msgstr ""
+msgstr "მეგაჰერცი"
 
 #: frequency.cpp:87
 #, kde-format
@@ -7272,15 +7272,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megahertzs"
-msgstr ""
+msgstr "%1 მეგაჰერცი"
 
 #: frequency.cpp:90
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megahertz"
 msgid_plural "%1 megahertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგაჰერცი"
+msgstr[1] "%1 მეგაჰერცი"
 
 #: frequency.cpp:95
 #, kde-format
@@ -7292,7 +7292,7 @@ msgstr "კჰც"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilohertzs"
-msgstr ""
+msgstr "კილოჰერცი"
 
 #: frequency.cpp:97
 #, kde-format
@@ -7304,27 +7304,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilohertzs"
-msgstr ""
+msgstr "%1 კილოჰერცი"
 
 #: frequency.cpp:100
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilohertz"
 msgid_plural "%1 kilohertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოჰერცი"
+msgstr[1] "%1 კილოჰერცი"
 
 #: frequency.cpp:105
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "hHz"
-msgstr ""
+msgstr "ჰჰც"
 
 #: frequency.cpp:106
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectohertzs"
-msgstr ""
+msgstr "ჰექტოჰერცი"
 
 #: frequency.cpp:107
 #, kde-format
@@ -7336,27 +7336,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectohertzs"
-msgstr ""
+msgstr "%1 ჰექტოჰერცი"
 
 #: frequency.cpp:110
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectohertz"
 msgid_plural "%1 hectohertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰექტოჰერცი"
+msgstr[1] "%1 ჰექტოჰერცი"
 
 #: frequency.cpp:115
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "daHz"
-msgstr ""
+msgstr "დაჰც"
 
 #: frequency.cpp:116
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decahertzs"
-msgstr ""
+msgstr "დეკაჰერცი"
 
 #: frequency.cpp:117
 #, kde-format
@@ -7368,15 +7368,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decahertzs"
-msgstr ""
+msgstr "%1 დეკაჰერცი"
 
 #: frequency.cpp:120
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decahertz"
 msgid_plural "%1 decahertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეკაჰერცი"
+msgstr[1] "%1 დეკაჰერცი"
 
 #: frequency.cpp:125
 #, kde-format
@@ -7388,7 +7388,7 @@ msgstr "ჰც"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hertzs"
-msgstr ""
+msgstr "ჰერცი"
 
 #: frequency.cpp:127
 #, kde-format
@@ -7400,27 +7400,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hertzs"
-msgstr ""
+msgstr "%1 ჰერცი"
 
 #: frequency.cpp:130
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hertz"
 msgid_plural "%1 hertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰერცი"
+msgstr[1] "%1 ჰერცი"
 
 #: frequency.cpp:135
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "dHz"
-msgstr ""
+msgstr "დჰც"
 
 #: frequency.cpp:136
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decihertzs"
-msgstr ""
+msgstr "დეციჰერცი"
 
 #: frequency.cpp:137
 #, kde-format
@@ -7432,27 +7432,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decihertzs"
-msgstr ""
+msgstr "%1 დეციჰერცი"
 
 #: frequency.cpp:140
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decihertz"
 msgid_plural "%1 decihertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეციჰერცი"
+msgstr[1] "%1 დეციჰერცი"
 
 #: frequency.cpp:145
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "cHz"
-msgstr ""
+msgstr "ცჰც"
 
 #: frequency.cpp:146
 #, kde-format
 msgctxt "unit description in lists"
 msgid "centihertzs"
-msgstr ""
+msgstr "ცენტიჰერცი"
 
 #: frequency.cpp:147
 #, kde-format
@@ -7464,27 +7464,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centihertzs"
-msgstr ""
+msgstr "%1 ცენტიჰერცი"
 
 #: frequency.cpp:150
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centihertz"
 msgid_plural "%1 centihertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ცენტიჰერცი"
+msgstr[1] "%1 ცენტიჰერცი"
 
 #: frequency.cpp:155
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "mHz"
-msgstr ""
+msgstr "მილჰც"
 
 #: frequency.cpp:156
 #, kde-format
 msgctxt "unit description in lists"
 msgid "millihertzs"
-msgstr ""
+msgstr "მილიჰერცი"
 
 #: frequency.cpp:157
 #, kde-format
@@ -7496,27 +7496,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 millihertzs"
-msgstr ""
+msgstr "%1 მილიჰერცი"
 
 #: frequency.cpp:160
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 millihertz"
 msgid_plural "%1 millihertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მილიჰერცი"
+msgstr[1] "%1 მილიჰერცი"
 
 #: frequency.cpp:165
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "µHz"
-msgstr ""
+msgstr "µჰც"
 
 #: frequency.cpp:166
 #, kde-format
 msgctxt "unit description in lists"
 msgid "microhertzs"
-msgstr ""
+msgstr "მიკროჰერცი"
 
 #: frequency.cpp:167
 #, kde-format
@@ -7528,27 +7528,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 microhertzs"
-msgstr ""
+msgstr "%1 მიკროჰერცი"
 
 #: frequency.cpp:170
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microhertz"
 msgid_plural "%1 microhertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მიკროჰერცი"
+msgstr[1] "%1 მიკროჰერცი"
 
 #: frequency.cpp:175
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "nHz"
-msgstr ""
+msgstr "ნჰც"
 
 #: frequency.cpp:176
 #, kde-format
 msgctxt "unit description in lists"
 msgid "nanohertzs"
-msgstr ""
+msgstr "ნანოჰერცი"
 
 #: frequency.cpp:177
 #, kde-format
@@ -7560,27 +7560,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanohertzs"
-msgstr ""
+msgstr "%1 ნანოჰერცი"
 
 #: frequency.cpp:180
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanohertz"
 msgid_plural "%1 nanohertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნანოჰერცი"
+msgstr[1] "%1 ნანოჰერცი"
 
 #: frequency.cpp:185
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "pHz"
-msgstr ""
+msgstr "პჰც"
 
 #: frequency.cpp:186
 #, kde-format
 msgctxt "unit description in lists"
 msgid "picohertzs"
-msgstr ""
+msgstr "პიკოჰერცი"
 
 #: frequency.cpp:187
 #, kde-format
@@ -7592,27 +7592,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picohertzs"
-msgstr ""
+msgstr "%1 პიკოჰერცი"
 
 #: frequency.cpp:190
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picohertz"
 msgid_plural "%1 picohertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პიკოჰერცი"
+msgstr[1] "%1 პიკოჰერცი"
 
 #: frequency.cpp:195
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "fHz"
-msgstr ""
+msgstr "ფჰც"
 
 #: frequency.cpp:196
 #, kde-format
 msgctxt "unit description in lists"
 msgid "femtohertzs"
-msgstr ""
+msgstr "ფემტოჰერცი"
 
 #: frequency.cpp:197
 #, kde-format
@@ -7624,27 +7624,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtohertzs"
-msgstr ""
+msgstr "%1 ფემტოჰერცი"
 
 #: frequency.cpp:200
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtohertz"
 msgid_plural "%1 femtohertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფემტოჰერცი"
+msgstr[1] "%1 ფემტოჰერცი"
 
 #: frequency.cpp:205
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "aHz"
-msgstr ""
+msgstr "აჰც"
 
 #: frequency.cpp:206
 #, kde-format
 msgctxt "unit description in lists"
 msgid "attohertzs"
-msgstr ""
+msgstr "ატოჰერცი"
 
 #: frequency.cpp:207
 #, kde-format
@@ -7656,27 +7656,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attohertzs"
-msgstr ""
+msgstr "%1 ატოჰერცი"
 
 #: frequency.cpp:210
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attohertz"
 msgid_plural "%1 attohertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ატოჰერცი"
+msgstr[1] "%1 ატოჰერცი"
 
 #: frequency.cpp:215
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "zHz"
-msgstr ""
+msgstr "ზჰც"
 
 #: frequency.cpp:216
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zeptohertzs"
-msgstr ""
+msgstr "ზეპტოჰერცი"
 
 #: frequency.cpp:217
 #, kde-format
@@ -7688,27 +7688,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptohertzs"
-msgstr ""
+msgstr "%1 ზეპტოჰერცი"
 
 #: frequency.cpp:220
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptohertz"
 msgid_plural "%1 zeptohertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეპტოჰერცი"
+msgstr[1] "%1 ზეპტოჰერცი"
 
 #: frequency.cpp:225
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "yHz"
-msgstr ""
+msgstr "იჰც"
 
 #: frequency.cpp:226
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yoctohertzs"
-msgstr ""
+msgstr "იოქტოჰერცი"
 
 #: frequency.cpp:227
 #, kde-format
@@ -7720,15 +7720,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctohertzs"
-msgstr ""
+msgstr "%1 იოქტოჰერცი"
 
 #: frequency.cpp:230
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctohertz"
 msgid_plural "%1 yoctohertzs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოქტოჰერცი"
+msgstr[1] "%1 იოქტოჰერცი"
 
 #: frequency.cpp:235
 #, kde-format
@@ -7771,7 +7771,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (fuel efficiency)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: fuel_efficiency.cpp:65
 #, kde-format
@@ -7875,13 +7875,13 @@ msgstr[1] ""
 #, kde-format
 msgctxt "fuelefficiency unit symbol"
 msgid "kmpl"
-msgstr ""
+msgstr "კმ/ლ"
 
 #: fuel_efficiency.cpp:99
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilometers per liter"
-msgstr ""
+msgstr "კილომეტრი ლიტრში"
 
 #: fuel_efficiency.cpp:100
 #, kde-format
@@ -7893,15 +7893,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilometers per liter"
-msgstr ""
+msgstr "%1 კილომეტრი ლიტრში"
 
 #: fuel_efficiency.cpp:103
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilometer per liter"
 msgid_plural "%1 kilometers per liter"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილომეტრი ლიტრში"
+msgstr[1] "%1 კილომეტრი ლიტრში"
 
 #: length.cpp:18
 #, kde-format
@@ -7912,19 +7912,19 @@ msgstr "ხანგრძლივობა"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (length"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: length.cpp:25
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Ym"
-msgstr ""
+msgstr "იმ"
 
 #: length.cpp:26
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yottameters"
-msgstr ""
+msgstr "იოტამეტრი"
 
 #: length.cpp:27
 #, kde-format
@@ -7936,27 +7936,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottameters"
-msgstr ""
+msgstr "%1 იოტამეტრი"
 
 #: length.cpp:30
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottameter"
 msgid_plural "%1 yottameters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოტამეტრი"
+msgstr[1] "%1 იოტამეტრი"
 
 #: length.cpp:35
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Zm"
-msgstr ""
+msgstr "ზმ"
 
 #: length.cpp:36
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettameters"
-msgstr ""
+msgstr "ზეტამეტრი"
 
 #: length.cpp:37
 #, kde-format
@@ -7968,27 +7968,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettameters"
-msgstr ""
+msgstr "%1 ზეტამეტრი"
 
 #: length.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettameter"
 msgid_plural "%1 zettameters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტამეტრი"
+msgstr[1] "%1 ზეტამეტრი"
 
 #: length.cpp:45
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Em"
-msgstr ""
+msgstr "ემ"
 
 #: length.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exameters"
-msgstr ""
+msgstr "ექსამეტრი"
 
 #: length.cpp:47
 #, kde-format
@@ -8000,27 +8000,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exameters"
-msgstr ""
+msgstr "%1 ექსამეტრი"
 
 #: length.cpp:50
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exameter"
 msgid_plural "%1 exameters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსამეტრი"
+msgstr[1] "%1 ექსამეტრი"
 
 #: length.cpp:55
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Pm"
-msgstr ""
+msgstr "პმ"
 
 #: length.cpp:56
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petameters"
-msgstr ""
+msgstr "პეტამეტრი"
 
 #: length.cpp:57
 #, kde-format
@@ -8032,27 +8032,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petameters"
-msgstr ""
+msgstr "%1 პეტამეტრი"
 
 #: length.cpp:60
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petameter"
 msgid_plural "%1 petameters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტამეტრი"
+msgstr[1] "%1 პეტამეტრი"
 
 #: length.cpp:65
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Tm"
-msgstr ""
+msgstr "ტმ"
 
 #: length.cpp:66
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terameters"
-msgstr ""
+msgstr "ტერამეტრი"
 
 #: length.cpp:67
 #, kde-format
@@ -8064,27 +8064,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terameters"
-msgstr ""
+msgstr "%1 ტერამეტრი"
 
 #: length.cpp:70
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terameter"
 msgid_plural "%1 terameters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერამეტრი"
+msgstr[1] "%1 ტერამეტრი"
 
 #: length.cpp:75
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Gm"
-msgstr ""
+msgstr "გმ"
 
 #: length.cpp:76
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigameters"
-msgstr ""
+msgstr "გიგამეტრი"
 
 #: length.cpp:77
 #, kde-format
@@ -8096,27 +8096,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigameters"
-msgstr ""
+msgstr "%1 გიგამეტრი"
 
 #: length.cpp:80
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigameter"
 msgid_plural "%1 gigameters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგამეტრი"
+msgstr[1] "%1 გიგამეტრი"
 
 #: length.cpp:85
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Mm"
-msgstr ""
+msgstr "მმ"
 
 #: length.cpp:86
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megameters"
-msgstr ""
+msgstr "მეგამეტრ"
 
 #: length.cpp:87
 #, kde-format
@@ -8128,15 +8128,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megameters"
-msgstr ""
+msgstr "%1 მეგამეტრ"
 
 #: length.cpp:90
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megameter"
 msgid_plural "%1 megameters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგამეტრ"
+msgstr[1] "%1 მეგამეტრ"
 
 #: length.cpp:95
 #, kde-format
@@ -8148,7 +8148,7 @@ msgstr "კმ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilometers"
-msgstr ""
+msgstr "კილომეტრი"
 
 #: length.cpp:97
 #, kde-format
@@ -8160,27 +8160,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilometers"
-msgstr ""
+msgstr "%1 კილომეტრი"
 
 #: length.cpp:100
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilometer"
 msgid_plural "%1 kilometers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილომეტრი"
+msgstr[1] "%1 კილომეტრი"
 
 #: length.cpp:105
 #, kde-format
 msgctxt "length unit symbol"
 msgid "hm"
-msgstr ""
+msgstr "ჰმ"
 
 #: length.cpp:106
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectometers"
-msgstr ""
+msgstr "ჰექტომეტრი"
 
 #: length.cpp:107
 #, kde-format
@@ -8192,27 +8192,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectometers"
-msgstr ""
+msgstr "%1 ჰექტომეტრი"
 
 #: length.cpp:110
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectometer"
 msgid_plural "%1 hectometers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰექტომეტრი"
+msgstr[1] "%1 ჰექტომეტრი"
 
 #: length.cpp:115
 #, kde-format
 msgctxt "length unit symbol"
 msgid "dam"
-msgstr ""
+msgstr "კაშხალი"
 
 #: length.cpp:116
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decameters"
-msgstr ""
+msgstr "დეკამეტრი"
 
 #: length.cpp:117
 #, kde-format
@@ -8224,15 +8224,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decameters"
-msgstr ""
+msgstr "%1 დეკამეტრი"
 
 #: length.cpp:120
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decameter"
 msgid_plural "%1 decameters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეკამეტრი"
+msgstr[1] "%1 დეკამეტრი"
 
 #: length.cpp:125
 #, kde-format
@@ -8256,27 +8256,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 meters"
-msgstr ""
+msgstr "%1 მეტრი"
 
 #: length.cpp:130
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 meter"
 msgid_plural "%1 meters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეტრი"
+msgstr[1] "%1 მეტრი"
 
 #: length.cpp:135
 #, kde-format
 msgctxt "length unit symbol"
 msgid "dm"
-msgstr ""
+msgstr "დმ"
 
 #: length.cpp:136
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decimeters"
-msgstr ""
+msgstr "დეციმეტრი"
 
 #: length.cpp:137
 #, kde-format
@@ -8288,15 +8288,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decimeters"
-msgstr ""
+msgstr "%1 დეციმეტრი"
 
 #: length.cpp:140
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decimeter"
 msgid_plural "%1 decimeters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეციმეტრი"
+msgstr[1] "%1 დეციმეტრი"
 
 #: length.cpp:145
 #, kde-format
@@ -8308,7 +8308,7 @@ msgstr "სმ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "centimeters"
-msgstr ""
+msgstr "სანტიმეტრი"
 
 #: length.cpp:147
 #, kde-format
@@ -8320,15 +8320,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centimeters"
-msgstr ""
+msgstr "%1 სანტიმეტრი"
 
 #: length.cpp:150
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centimeter"
 msgid_plural "%1 centimeters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 სანტიმეტრი"
+msgstr[1] "%1 სანტიმეტრი"
 
 #: length.cpp:155
 #, kde-format
@@ -8352,15 +8352,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 millimeters"
-msgstr ""
+msgstr "%1 მილიმეტრი"
 
 #: length.cpp:160
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 millimeter"
 msgid_plural "%1 millimeters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მილიმეტრი"
+msgstr[1] "%1 მილიმეტრი"
 
 #: length.cpp:165
 #, kde-format
@@ -8372,7 +8372,7 @@ msgstr "მკმ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "micrometers"
-msgstr ""
+msgstr "მიკრომეტრი"
 
 #: length.cpp:167
 #, kde-format
@@ -8384,15 +8384,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 micrometers"
-msgstr ""
+msgstr "%1 მიკრომეტრი"
 
 #: length.cpp:170
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 micrometer"
 msgid_plural "%1 micrometers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მიკრომეტრი"
+msgstr[1] "%1 მიკრომეტრი"
 
 #: length.cpp:175
 #, kde-format
@@ -8404,7 +8404,7 @@ msgstr "ნმ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "nanometers"
-msgstr ""
+msgstr "ნანომეტრი"
 
 #: length.cpp:177
 #, kde-format
@@ -8455,7 +8455,7 @@ msgstr "pm"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "picometers"
-msgstr ""
+msgstr "პიკომეტრი"
 
 #: length.cpp:197
 #, kde-format
@@ -8467,27 +8467,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picometers"
-msgstr ""
+msgstr "%1 პიკომეტრი"
 
 #: length.cpp:200
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picometer"
 msgid_plural "%1 picometers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პიკომეტრი"
+msgstr[1] "%1 პიკომეტრი"
 
 #: length.cpp:205
 #, kde-format
 msgctxt "length unit symbol"
 msgid "fm"
-msgstr ""
+msgstr "ფმ"
 
 #: length.cpp:206
 #, kde-format
 msgctxt "unit description in lists"
 msgid "femtometers"
-msgstr ""
+msgstr "ფემტომეტრი"
 
 #: length.cpp:207
 #, kde-format
@@ -8499,15 +8499,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtometers"
-msgstr ""
+msgstr "%1 ფემტომეტრი"
 
 #: length.cpp:210
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtometer"
 msgid_plural "%1 femtometers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფემტომეტრი"
+msgstr[1] "%1 ფემტომეტრი"
 
 #: length.cpp:215
 #, kde-format
@@ -8519,7 +8519,7 @@ msgstr "am"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "attometers"
-msgstr ""
+msgstr "ატომეტრი"
 
 #: length.cpp:217
 #, kde-format
@@ -8531,27 +8531,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attometers"
-msgstr ""
+msgstr "%1 ატომეტრი"
 
 #: length.cpp:220
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attometer"
 msgid_plural "%1 attometers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ატომეტრი"
+msgstr[1] "%1 ატომეტრი"
 
 #: length.cpp:225
 #, kde-format
 msgctxt "length unit symbol"
 msgid "zm"
-msgstr ""
+msgstr "ზმ"
 
 #: length.cpp:226
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zeptometers"
-msgstr ""
+msgstr "ზეპტომეტრი"
 
 #: length.cpp:227
 #, kde-format
@@ -8563,27 +8563,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptometers"
-msgstr ""
+msgstr "%1 ზეპტომეტრი"
 
 #: length.cpp:230
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptometer"
 msgid_plural "%1 zeptometers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეპტომეტრი"
+msgstr[1] "%1 ზეპტომეტრი"
 
 #: length.cpp:235
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ym"
-msgstr ""
+msgstr "იმ"
 
 #: length.cpp:236
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yoctometers"
-msgstr ""
+msgstr "იოქტომეტრი"
 
 #: length.cpp:237
 #, kde-format
@@ -8595,21 +8595,21 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctometers"
-msgstr ""
+msgstr "%1 იოქტომეტრი"
 
 #: length.cpp:240
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctometer"
 msgid_plural "%1 yoctometers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოქტომეტრი"
+msgstr[1] "%1 იოქტომეტრი"
 
 #: length.cpp:245
 #, kde-format
 msgctxt "length unit symbol"
 msgid "in"
-msgstr ""
+msgstr "დუიმი"
 
 #: length.cpp:246
 #, kde-format
@@ -8627,15 +8627,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 inches"
-msgstr ""
+msgstr "%1 დუიმი"
 
 #: length.cpp:250
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 inch"
 msgid_plural "%1 inches"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დუიმი"
+msgstr[1] "%1 დუიმი"
 
 #: length.cpp:255
 #, kde-format
@@ -8691,15 +8691,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 feet"
-msgstr ""
+msgstr "%1 ფუტი"
 
 #: length.cpp:270
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 foot"
 msgid_plural "%1 feet"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფუტი"
+msgstr[1] "%1 ფუტი"
 
 #: length.cpp:275
 #, kde-format
@@ -8711,7 +8711,7 @@ msgstr "იარდ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yards"
-msgstr ""
+msgstr "იარდი"
 
 #: length.cpp:277
 #, kde-format
@@ -8723,15 +8723,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yards"
-msgstr ""
+msgstr "%1 იარდი"
 
 #: length.cpp:280
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yard"
 msgid_plural "%1 yards"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იარდი"
+msgstr[1] "%1 იარდი"
 
 #: length.cpp:285
 #, kde-format
@@ -8743,7 +8743,7 @@ msgstr "მი"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "miles"
-msgstr ""
+msgstr "მილი"
 
 #: length.cpp:287
 #, kde-format
@@ -8755,27 +8755,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 miles"
-msgstr ""
+msgstr "%1 მილი"
 
 #: length.cpp:290
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mile"
 msgid_plural "%1 miles"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მილი"
+msgstr[1] "%1 მილი"
 
 #: length.cpp:295
 #, kde-format
 msgctxt "length unit symbol"
 msgid "nmi"
-msgstr ""
+msgstr "სმ"
 
 #: length.cpp:296
 #, kde-format
 msgctxt "unit description in lists"
 msgid "nautical miles"
-msgstr ""
+msgstr "საზღვაო მილი"
 
 #: length.cpp:297
 #, kde-format
@@ -8787,15 +8787,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nautical miles"
-msgstr ""
+msgstr "%1 საზღვაო მილი"
 
 #: length.cpp:300
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nautical mile"
 msgid_plural "%1 nautical miles"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 საზღვაო მილი"
+msgstr[1] "%1 საზღვაო მილი"
 
 #: length.cpp:305
 #, kde-format
@@ -8807,7 +8807,7 @@ msgstr "სწ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "light-years"
-msgstr ""
+msgstr "სინათლის წელი"
 
 #: length.cpp:307
 #, kde-format
@@ -8819,15 +8819,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 light-years"
-msgstr ""
+msgstr "%1 სინათლის წელი"
 
 #: length.cpp:310
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 light-year"
 msgid_plural "%1 light-years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 სინათლის წელი"
+msgstr[1] "%1 სინათლის წელი"
 
 #: length.cpp:315
 #, kde-format
@@ -8839,7 +8839,7 @@ msgstr "pc"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "parsecs"
-msgstr ""
+msgstr "პარსეკი"
 
 #: length.cpp:317
 #, kde-format
@@ -8851,15 +8851,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 parsecs"
-msgstr ""
+msgstr "%1 პარსეკი"
 
 #: length.cpp:320
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 parsec"
 msgid_plural "%1 parsecs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პარსეკი"
+msgstr[1] "%1 პარსეკი"
 
 #: length.cpp:325
 #, kde-format
@@ -8871,7 +8871,7 @@ msgstr "აე"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "astronomical units"
-msgstr ""
+msgstr "ასტრონომიული ერთეული"
 
 #: length.cpp:327
 #, kde-format
@@ -8883,15 +8883,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 astronomical units"
-msgstr ""
+msgstr "%1 ასტრონომიული ერთეული"
 
 #: length.cpp:330
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 astronomical unit"
 msgid_plural "%1 astronomical units"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ასტრონომიული ერთეული"
+msgstr[1] "%1 ასტრონომიული ერთეული"
 
 #: mass.cpp:18
 #, kde-format
@@ -8902,19 +8902,19 @@ msgstr "მასა"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (mass)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: mass.cpp:25
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Yg"
-msgstr ""
+msgstr "იგ"
 
 #: mass.cpp:26
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yottagrams"
-msgstr ""
+msgstr "იოტაგრამი"
 
 #: mass.cpp:27
 #, kde-format
@@ -8926,27 +8926,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottagrams"
-msgstr ""
+msgstr "%1 იოტაგრამი"
 
 #: mass.cpp:30
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottagram"
 msgid_plural "%1 yottagrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოტაგრამი"
+msgstr[1] "%1 იოტაგრამი"
 
 #: mass.cpp:35
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Zg"
-msgstr ""
+msgstr "ზგ"
 
 #: mass.cpp:36
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettagrams"
-msgstr ""
+msgstr "ზეტაგრამი"
 
 #: mass.cpp:37
 #, kde-format
@@ -8958,27 +8958,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettagrams"
-msgstr ""
+msgstr "%1 ზეტაგრამი"
 
 #: mass.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettagram"
 msgid_plural "%1 zettagrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტაგრამი"
+msgstr[1] "%1 ზეტაგრამი"
 
 #: mass.cpp:45
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Eg"
-msgstr ""
+msgstr "ეგ"
 
 #: mass.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exagrams"
-msgstr ""
+msgstr "ექსაგრამი"
 
 #: mass.cpp:47
 #, kde-format
@@ -8990,27 +8990,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exagrams"
-msgstr ""
+msgstr "%1 ექსაგრამი"
 
 #: mass.cpp:50
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exagram"
 msgid_plural "%1 exagrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსაგრამი"
+msgstr[1] "%1 ექსაგრამი"
 
 #: mass.cpp:55
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Pg"
-msgstr ""
+msgstr "პგ"
 
 #: mass.cpp:56
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petagrams"
-msgstr ""
+msgstr "პეტაგრამი"
 
 #: mass.cpp:57
 #, kde-format
@@ -9022,27 +9022,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petagrams"
-msgstr ""
+msgstr "%1 პეტაგრამი"
 
 #: mass.cpp:60
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petagram"
 msgid_plural "%1 petagrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტაგრამი"
+msgstr[1] "%1 პეტაგრამი"
 
 #: mass.cpp:65
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Tg"
-msgstr ""
+msgstr "ტგ"
 
 #: mass.cpp:66
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teragrams"
-msgstr ""
+msgstr "ტერაგრამი"
 
 #: mass.cpp:67
 #, kde-format
@@ -9054,27 +9054,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teragrams"
-msgstr ""
+msgstr "%1 ტერაგრამი"
 
 #: mass.cpp:70
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teragram"
 msgid_plural "%1 teragrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერაგრამი"
+msgstr[1] "%1 ტერაგრამი"
 
 #: mass.cpp:75
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Gg"
-msgstr ""
+msgstr "გგ"
 
 #: mass.cpp:76
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigagrams"
-msgstr ""
+msgstr "გიგაგრამი"
 
 #: mass.cpp:77
 #, kde-format
@@ -9086,27 +9086,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigagrams"
-msgstr ""
+msgstr "%1 გიგაგრამი"
 
 #: mass.cpp:80
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigagram"
 msgid_plural "%1 gigagrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგაგრამი"
+msgstr[1] "%1 გიგაგრამი"
 
 #: mass.cpp:85
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Mg"
-msgstr ""
+msgstr "მგ"
 
 #: mass.cpp:86
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megagrams"
-msgstr ""
+msgstr "მეგაგრამი"
 
 #: mass.cpp:87
 #, kde-format
@@ -9118,15 +9118,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megagrams"
-msgstr ""
+msgstr "%1 მეგაგრამი"
 
 #: mass.cpp:90
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megagram"
 msgid_plural "%1 megagrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგაგრამი"
+msgstr[1] "%1 მეგაგრამი"
 
 #: mass.cpp:95
 #, kde-format
@@ -9138,7 +9138,7 @@ msgstr "კგ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilograms"
-msgstr ""
+msgstr "კილოგრამი"
 
 #: mass.cpp:97
 #, kde-format
@@ -9150,27 +9150,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilograms"
-msgstr ""
+msgstr "%1 კილოგრამი"
 
 #: mass.cpp:100
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilogram"
 msgid_plural "%1 kilograms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოგრამი"
+msgstr[1] "%1 კილოგრამი"
 
 #: mass.cpp:105
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "hg"
-msgstr ""
+msgstr "ჰგ"
 
 #: mass.cpp:106
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectograms"
-msgstr ""
+msgstr "ჰექტოგრამი"
 
 #: mass.cpp:107
 #, kde-format
@@ -9182,27 +9182,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectograms"
-msgstr ""
+msgstr "%1 ჰექტოგრამი"
 
 #: mass.cpp:110
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectogram"
 msgid_plural "%1 hectograms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰექტოგრამი"
+msgstr[1] "%1 ჰექტოგრამი"
 
 #: mass.cpp:115
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "dag"
-msgstr ""
+msgstr "დაგ"
 
 #: mass.cpp:116
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decagrams"
-msgstr ""
+msgstr "დეკაგრამი"
 
 #: mass.cpp:117
 #, kde-format
@@ -9214,15 +9214,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decagrams"
-msgstr ""
+msgstr "%1 დეკაგრამი"
 
 #: mass.cpp:120
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decagram"
 msgid_plural "%1 decagrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეკაგრამი"
+msgstr[1] "%1 დეკაგრამი"
 
 #: mass.cpp:125
 #, kde-format
@@ -9246,27 +9246,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams"
-msgstr ""
+msgstr "%1 გრამი"
 
 #: mass.cpp:130
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gram"
 msgid_plural "%1 grams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გრამი"
+msgstr[1] "%1 გრამი"
 
 #: mass.cpp:135
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "dg"
-msgstr ""
+msgstr "დგ"
 
 #: mass.cpp:136
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decigrams"
-msgstr ""
+msgstr "დეციგრამი"
 
 #: mass.cpp:137
 #, kde-format
@@ -9278,27 +9278,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decigrams"
-msgstr ""
+msgstr "%1 დეციგრამი"
 
 #: mass.cpp:140
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decigram"
 msgid_plural "%1 decigrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეციგრამი"
+msgstr[1] "%1 დეციგრამი"
 
 #: mass.cpp:145
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "cg"
-msgstr ""
+msgstr "ცგ"
 
 #: mass.cpp:146
 #, kde-format
 msgctxt "unit description in lists"
 msgid "centigrams"
-msgstr ""
+msgstr "ცენტიგრამი"
 
 #: mass.cpp:147
 #, kde-format
@@ -9310,27 +9310,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centigrams"
-msgstr ""
+msgstr "%1 ცენტიგრამი"
 
 #: mass.cpp:150
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centigram"
 msgid_plural "%1 centigrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ცენტიგრამი"
+msgstr[1] "%1 ცენტიგრამი"
 
 #: mass.cpp:155
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "mg"
-msgstr ""
+msgstr "მგ"
 
 #: mass.cpp:156
 #, kde-format
 msgctxt "unit description in lists"
 msgid "milligrams"
-msgstr ""
+msgstr "მილიგრამი"
 
 #: mass.cpp:157
 #, kde-format
@@ -9342,27 +9342,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 milligrams"
-msgstr ""
+msgstr "%1 მილიგრამი"
 
 #: mass.cpp:160
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 milligram"
 msgid_plural "%1 milligrams"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მილიგრამი"
+msgstr[1] "%1 მილიგრამი"
 
 #: mass.cpp:165
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "µg"
-msgstr ""
+msgstr "µგ"
 
 #: mass.cpp:166
 #, kde-format
 msgctxt "unit description in lists"
 msgid "micrograms"
-msgstr ""
+msgstr "მიკროგრამი"
 
 #: mass.cpp:167
 #, kde-format
@@ -9374,27 +9374,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 micrograms"
-msgstr ""
+msgstr "%1 მიკროგრამი"
 
 #: mass.cpp:170
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microgram"
 msgid_plural "%1 micrograms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მიკროგრამი"
+msgstr[1] "%1 მიკროგრამი"
 
 #: mass.cpp:175
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "ng"
-msgstr ""
+msgstr "ნგ"
 
 #: mass.cpp:176
 #, kde-format
 msgctxt "unit description in lists"
 msgid "nanograms"
-msgstr ""
+msgstr "ნანოგრამი"
 
 #: mass.cpp:177
 #, kde-format
@@ -9406,27 +9406,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanograms"
-msgstr ""
+msgstr "%1 ნანოგრამი"
 
 #: mass.cpp:180
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanogram"
 msgid_plural "%1 nanograms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნანოგრამი"
+msgstr[1] "%1 ნანოგრამი"
 
 #: mass.cpp:185
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "pg"
-msgstr ""
+msgstr "პგ"
 
 #: mass.cpp:186
 #, kde-format
 msgctxt "unit description in lists"
 msgid "picograms"
-msgstr ""
+msgstr "პიკოგრამი"
 
 #: mass.cpp:187
 #, kde-format
@@ -9438,27 +9438,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picograms"
-msgstr ""
+msgstr "%1 პიკოგრამი"
 
 #: mass.cpp:190
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picogram"
 msgid_plural "%1 picograms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პიკოგრამი"
+msgstr[1] "%1 პიკოგრამი"
 
 #: mass.cpp:195
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "fg"
-msgstr ""
+msgstr "ფგ"
 
 #: mass.cpp:196
 #, kde-format
 msgctxt "unit description in lists"
 msgid "femtograms"
-msgstr ""
+msgstr "ფემტოგრამი"
 
 #: mass.cpp:197
 #, kde-format
@@ -9470,27 +9470,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtograms"
-msgstr ""
+msgstr "%1 ფემტოგრამი"
 
 #: mass.cpp:200
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtogram"
 msgid_plural "%1 femtograms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფემტოგრამი"
+msgstr[1] "%1 ფემტოგრამი"
 
 #: mass.cpp:205
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "ag"
-msgstr ""
+msgstr "აგ"
 
 #: mass.cpp:206
 #, kde-format
 msgctxt "unit description in lists"
 msgid "attograms"
-msgstr ""
+msgstr "ატოგრამი"
 
 #: mass.cpp:207
 #, kde-format
@@ -9502,15 +9502,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attograms"
-msgstr ""
+msgstr "%1 ატოგრამი"
 
 #: mass.cpp:210
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attogram"
 msgid_plural "%1 attograms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ატოგრამი"
+msgstr[1] "%1 ატოგრამი"
 
 #: mass.cpp:215
 #, kde-format
@@ -9522,7 +9522,7 @@ msgstr "zg"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zeptograms"
-msgstr ""
+msgstr "ზეპტოგრამი"
 
 #: mass.cpp:217
 #, kde-format
@@ -9534,27 +9534,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptograms"
-msgstr ""
+msgstr "%1 ზეპტოგრამი"
 
 #: mass.cpp:220
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptogram"
 msgid_plural "%1 zeptograms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეპტოგრამი"
+msgstr[1] "%1 ზეპტოგრამი"
 
 #: mass.cpp:225
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "yg"
-msgstr ""
+msgstr "იგ"
 
 #: mass.cpp:226
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yoctograms"
-msgstr ""
+msgstr "იოქტოგრამი"
 
 #: mass.cpp:227
 #, kde-format
@@ -9566,15 +9566,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctograms"
-msgstr ""
+msgstr "%1 იოქტოგრამი"
 
 #: mass.cpp:230
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctogram"
 msgid_plural "%1 yoctograms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოქტოგრამი"
+msgstr[1] "%1 იოქტოგრამი"
 
 #: mass.cpp:235
 #, kde-format
@@ -9598,15 +9598,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tons"
-msgstr ""
+msgstr "%1 ტონა"
 
 #: mass.cpp:240
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ton"
 msgid_plural "%1 tons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტონა"
+msgstr[1] "%1 ტონა"
 
 #: mass.cpp:246
 #, kde-format
@@ -9630,21 +9630,21 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 carats"
-msgstr ""
+msgstr "%1 კარატი"
 
 #: mass.cpp:251
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 carat"
 msgid_plural "%1 carats"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კარატი"
+msgstr[1] "%1 კარატი"
 
 #: mass.cpp:257
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "lb"
-msgstr ""
+msgstr "ფუნტი"
 
 #: mass.cpp:258
 #, kde-format
@@ -9662,21 +9662,21 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pounds"
-msgstr ""
+msgstr "%1 ფუნტი"
 
 #: mass.cpp:262
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound"
 msgid_plural "%1 pounds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფუნტი"
+msgstr[1] "%1 ფუნტი"
 
 #: mass.cpp:268
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "oz"
-msgstr ""
+msgstr "უნცია"
 
 #: mass.cpp:269
 #, kde-format
@@ -9694,15 +9694,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces"
-msgstr ""
+msgstr "%1 უნცია"
 
 #: mass.cpp:273
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounce"
 msgid_plural "%1 ounces"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 უნცია"
+msgstr[1] "%1 უნცია"
 
 #: mass.cpp:278
 #, kde-format
@@ -9746,13 +9746,13 @@ msgstr "N"
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "kN"
-msgstr ""
+msgstr "კნ"
 
 #: mass.cpp:300
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilonewton"
-msgstr ""
+msgstr "კილონიუტონი"
 
 #: mass.cpp:301
 #, kde-format
@@ -9764,7 +9764,7 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilonewton"
-msgstr ""
+msgstr "%1 კილონიუტონი"
 
 #: mass.cpp:309
 #, kde-format
@@ -9776,7 +9776,7 @@ msgstr "st"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "stone"
-msgstr ""
+msgstr "ქვა"
 
 #: mass.cpp:311
 #, kde-format
@@ -9788,15 +9788,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 stone"
-msgstr ""
+msgstr "%1 სტოუნი"
 
 #: mass.cpp:314
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 stone"
 msgid_plural "%1 stone"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 სტოუნი"
+msgstr[1] "%1 სტოუნი"
 
 #: permeability.cpp:16
 #, kde-format
@@ -9807,7 +9807,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (permeability)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: permeability.cpp:23
 #, kde-format
@@ -9877,7 +9877,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "µm²"
-msgstr ""
+msgstr "მკმ²"
 
 #: permeability.cpp:44
 #, kde-format
@@ -9895,15 +9895,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 micrometers²"
-msgstr ""
+msgstr "%1 მიკრომეტრი²"
 
 #: permeability.cpp:48
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 micrometer²"
 msgid_plural "%1 micrometers²"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მიკრომეტრი²"
+msgstr[1] "%1 მიკრომეტრი²"
 
 #: power.cpp:49
 #, kde-format
@@ -9914,19 +9914,19 @@ msgstr "კვება"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (power)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: power.cpp:56
 #, kde-format
 msgctxt "power unit symbol"
 msgid "YW"
-msgstr ""
+msgstr "ივ"
 
 #: power.cpp:57
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yottawatts"
-msgstr ""
+msgstr "იოტავატი"
 
 #: power.cpp:58
 #, kde-format
@@ -9938,27 +9938,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottawatts"
-msgstr ""
+msgstr "%1 იოტავატი"
 
 #: power.cpp:61
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottawatt"
 msgid_plural "%1 yottawatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოტავატი"
+msgstr[1] "%1 იოტავატი"
 
 #: power.cpp:66
 #, kde-format
 msgctxt "power unit symbol"
 msgid "ZW"
-msgstr ""
+msgstr "ზვ"
 
 #: power.cpp:67
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zettawatts"
-msgstr ""
+msgstr "ზეტავატი"
 
 #: power.cpp:68
 #, kde-format
@@ -9970,27 +9970,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettawatts"
-msgstr ""
+msgstr "%1 ზეტავატი"
 
 #: power.cpp:71
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettawatt"
 msgid_plural "%1 zettawatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეტავატი"
+msgstr[1] "%1 ზეტავატი"
 
 #: power.cpp:76
 #, kde-format
 msgctxt "power unit symbol"
 msgid "EW"
-msgstr ""
+msgstr "ევ"
 
 #: power.cpp:77
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exawatts"
-msgstr ""
+msgstr "ექსავატი"
 
 #: power.cpp:78
 #, kde-format
@@ -10002,27 +10002,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exawatts"
-msgstr ""
+msgstr "%1 ექსავატი"
 
 #: power.cpp:81
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exawatt"
 msgid_plural "%1 exawatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ექსავატი"
+msgstr[1] "%1 ექსავატი"
 
 #: power.cpp:86
 #, kde-format
 msgctxt "power unit symbol"
 msgid "PW"
-msgstr ""
+msgstr "პვ"
 
 #: power.cpp:87
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petawatts"
-msgstr ""
+msgstr "პეტავატი"
 
 #: power.cpp:88
 #, kde-format
@@ -10034,27 +10034,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petawatts"
-msgstr ""
+msgstr "%1 პეტავატი"
 
 #: power.cpp:91
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petawatt"
 msgid_plural "%1 petawatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პეტავატი"
+msgstr[1] "%1 პეტავატი"
 
 #: power.cpp:96
 #, kde-format
 msgctxt "power unit symbol"
 msgid "TW"
-msgstr ""
+msgstr "ტვ"
 
 #: power.cpp:97
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terawatts"
-msgstr ""
+msgstr "ტერავატი"
 
 #: power.cpp:98
 #, kde-format
@@ -10066,27 +10066,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terawatts"
-msgstr ""
+msgstr "%1 ტერავატი"
 
 #: power.cpp:101
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terawatt"
 msgid_plural "%1 terawatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ტერავატი"
+msgstr[1] "%1 ტერავატი"
 
 #: power.cpp:106
 #, kde-format
 msgctxt "power unit symbol"
 msgid "GW"
-msgstr ""
+msgstr "გვ"
 
 #: power.cpp:107
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigawatts"
-msgstr ""
+msgstr "გიგავატი"
 
 #: power.cpp:108
 #, kde-format
@@ -10098,27 +10098,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigawatts"
-msgstr ""
+msgstr "%1 გიგავატი"
 
 #: power.cpp:111
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigawatt"
 msgid_plural "%1 gigawatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 გიგავატი"
+msgstr[1] "%1 გიგავატი"
 
 #: power.cpp:116
 #, kde-format
 msgctxt "power unit symbol"
 msgid "MW"
-msgstr ""
+msgstr "მვ"
 
 #: power.cpp:117
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megawatts"
-msgstr ""
+msgstr "მეგავატი"
 
 #: power.cpp:118
 #, kde-format
@@ -10130,27 +10130,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megawatts"
-msgstr ""
+msgstr "%1 მეგავატი"
 
 #: power.cpp:121
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megawatt"
 msgid_plural "%1 megawatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მეგავატი"
+msgstr[1] "%1 მეგავატი"
 
 #: power.cpp:126
 #, kde-format
 msgctxt "power unit symbol"
 msgid "kW"
-msgstr ""
+msgstr "კვ"
 
 #: power.cpp:127
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilowatts"
-msgstr ""
+msgstr "კილოვატი"
 
 #: power.cpp:128
 #, kde-format
@@ -10162,27 +10162,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilowatts"
-msgstr ""
+msgstr "%1 კილოვატი"
 
 #: power.cpp:131
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilowatt"
 msgid_plural "%1 kilowatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კილოვატი"
+msgstr[1] "%1 კილოვატი"
 
 #: power.cpp:136
 #, kde-format
 msgctxt "power unit symbol"
 msgid "hW"
-msgstr ""
+msgstr "ჰვ"
 
 #: power.cpp:137
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectowatts"
-msgstr ""
+msgstr "ჰექტოვატი"
 
 #: power.cpp:138
 #, kde-format
@@ -10194,27 +10194,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectowatts"
-msgstr ""
+msgstr "%1 ჰექტოვატი"
 
 #: power.cpp:141
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectowatt"
 msgid_plural "%1 hectowatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ჰექტოვატი"
+msgstr[1] "%1 ჰექტოვატი"
 
 #: power.cpp:146
 #, kde-format
 msgctxt "power unit symbol"
 msgid "daW"
-msgstr ""
+msgstr "დავ"
 
 #: power.cpp:147
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decawatts"
-msgstr ""
+msgstr "დეკავატი"
 
 #: power.cpp:148
 #, kde-format
@@ -10226,15 +10226,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decawatts"
-msgstr ""
+msgstr "%1 დეკავატი"
 
 #: power.cpp:151
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decawatt"
 msgid_plural "%1 decawatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეკავატი"
+msgstr[1] "%1 დეკავატი"
 
 #: power.cpp:156
 #, kde-format
@@ -10246,7 +10246,7 @@ msgstr "სიგ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "watts"
-msgstr ""
+msgstr "ვატი"
 
 #: power.cpp:158
 #, kde-format
@@ -10258,27 +10258,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watts"
-msgstr ""
+msgstr "%1 ვატი"
 
 #: power.cpp:161
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt"
 msgid_plural "%1 watts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ვატი"
+msgstr[1] "%1 ვატი"
 
 #: power.cpp:166
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dW"
-msgstr ""
+msgstr "დვ"
 
 #: power.cpp:167
 #, kde-format
 msgctxt "unit description in lists"
 msgid "deciwatts"
-msgstr ""
+msgstr "დეცივატი"
 
 #: power.cpp:168
 #, kde-format
@@ -10290,27 +10290,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 deciwatts"
-msgstr ""
+msgstr "%1 დეცივატი"
 
 #: power.cpp:171
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 deciwatt"
 msgid_plural "%1 deciwatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 დეცივატი"
+msgstr[1] "%1 დეცივატი"
 
 #: power.cpp:176
 #, kde-format
 msgctxt "power unit symbol"
 msgid "cW"
-msgstr ""
+msgstr "ცვ"
 
 #: power.cpp:177
 #, kde-format
 msgctxt "unit description in lists"
 msgid "centiwatts"
-msgstr ""
+msgstr "ცენტივატი"
 
 #: power.cpp:178
 #, kde-format
@@ -10322,15 +10322,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centiwatts"
-msgstr ""
+msgstr "%1 ცენტივატი"
 
 #: power.cpp:181
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centiwatt"
 msgid_plural "%1 centiwatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ცენტივატი"
+msgstr[1] "%1 ცენტივატი"
 
 #: power.cpp:186
 #, kde-format
@@ -10342,7 +10342,7 @@ msgstr "მვტ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "milliwatts"
-msgstr ""
+msgstr "მილივატი"
 
 #: power.cpp:188
 #, kde-format
@@ -10354,27 +10354,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 milliwatts"
-msgstr ""
+msgstr "%1 მილივატი"
 
 #: power.cpp:191
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 milliwatt"
 msgid_plural "%1 milliwatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მილივატი"
+msgstr[1] "%1 მილივატი"
 
 #: power.cpp:196
 #, kde-format
 msgctxt "power unit symbol"
 msgid "µW"
-msgstr ""
+msgstr "µვ"
 
 #: power.cpp:197
 #, kde-format
 msgctxt "unit description in lists"
 msgid "microwatts"
-msgstr ""
+msgstr "მიკროვატი"
 
 #: power.cpp:198
 #, kde-format
@@ -10386,27 +10386,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 microwatts"
-msgstr ""
+msgstr "%1 მიკროვატი"
 
 #: power.cpp:201
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microwatt"
 msgid_plural "%1 microwatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მიკროვატი"
+msgstr[1] "%1 მიკროვატი"
 
 #: power.cpp:206
 #, kde-format
 msgctxt "power unit symbol"
 msgid "nW"
-msgstr ""
+msgstr "ნვ"
 
 #: power.cpp:207
 #, kde-format
 msgctxt "unit description in lists"
 msgid "nanowatts"
-msgstr ""
+msgstr "ნანოვატი"
 
 #: power.cpp:208
 #, kde-format
@@ -10418,27 +10418,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanowatts"
-msgstr ""
+msgstr "%1 ნანოვატი"
 
 #: power.cpp:211
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanowatt"
 msgid_plural "%1 nanowatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ნანოვატი"
+msgstr[1] "%1 ნანოვატი"
 
 #: power.cpp:216
 #, kde-format
 msgctxt "power unit symbol"
 msgid "pW"
-msgstr ""
+msgstr "პვ"
 
 #: power.cpp:217
 #, kde-format
 msgctxt "unit description in lists"
 msgid "picowatts"
-msgstr ""
+msgstr "პიკოვატი"
 
 #: power.cpp:218
 #, kde-format
@@ -10450,27 +10450,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picowatts"
-msgstr ""
+msgstr "%1 პიკოვატი"
 
 #: power.cpp:221
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picowatt"
 msgid_plural "%1 picowatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 პიკოვატი"
+msgstr[1] "%1 პიკოვატი"
 
 #: power.cpp:226
 #, kde-format
 msgctxt "power unit symbol"
 msgid "fW"
-msgstr ""
+msgstr "ფვ"
 
 #: power.cpp:227
 #, kde-format
 msgctxt "unit description in lists"
 msgid "femtowatts"
-msgstr ""
+msgstr "ფემტოვატი"
 
 #: power.cpp:228
 #, kde-format
@@ -10482,27 +10482,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtowatts"
-msgstr ""
+msgstr "%1 ფემტოვატი"
 
 #: power.cpp:231
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtowatt"
 msgid_plural "%1 femtowatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ფემტოვატი"
+msgstr[1] "%1 ფემტოვატი"
 
 #: power.cpp:236
 #, kde-format
 msgctxt "power unit symbol"
 msgid "aW"
-msgstr ""
+msgstr "ავ"
 
 #: power.cpp:237
 #, kde-format
 msgctxt "unit description in lists"
 msgid "attowatts"
-msgstr ""
+msgstr "ატოვატი"
 
 #: power.cpp:238
 #, kde-format
@@ -10514,27 +10514,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attowatts"
-msgstr ""
+msgstr "%1 ატოვატი"
 
 #: power.cpp:241
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attowatt"
 msgid_plural "%1 attowatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ატოვატი"
+msgstr[1] "%1 ატოვატი"
 
 #: power.cpp:246
 #, kde-format
 msgctxt "power unit symbol"
 msgid "zW"
-msgstr ""
+msgstr "ზვ"
 
 #: power.cpp:247
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zeptowatts"
-msgstr ""
+msgstr "ზეპტოვატი"
 
 #: power.cpp:248
 #, kde-format
@@ -10546,27 +10546,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptowatts"
-msgstr ""
+msgstr "%1 ზეპტოვატი"
 
 #: power.cpp:251
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptowatt"
 msgid_plural "%1 zeptowatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ზეპტოვატი"
+msgstr[1] "%1 ზეპტოვატი"
 
 #: power.cpp:256
 #, kde-format
 msgctxt "power unit symbol"
 msgid "yW"
-msgstr ""
+msgstr "ივ"
 
 #: power.cpp:257
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yoctowatts"
-msgstr ""
+msgstr "იოქტოვატი"
 
 #: power.cpp:258
 #, kde-format
@@ -10578,27 +10578,27 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctowatts"
-msgstr ""
+msgstr "%1 იოქტოვატი"
 
 #: power.cpp:261
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctowatt"
 msgid_plural "%1 yoctowatts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 იოქტოვატი"
+msgstr[1] "%1 იოქტოვატი"
 
 #: power.cpp:266
 #, kde-format
 msgctxt "power unit symbol"
 msgid "hp"
-msgstr ""
+msgstr "ცხძ"
 
 #: power.cpp:267
 #, kde-format
 msgctxt "unit description in lists"
 msgid "horsepowers"
-msgstr ""
+msgstr "ცხენის ძალა"
 
 #: power.cpp:268
 #, kde-format
@@ -10610,15 +10610,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 horsepowers"
-msgstr ""
+msgstr "%1 ცხენის ძალა"
 
 #: power.cpp:271
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 horsepower"
 msgid_plural "%1 horsepowers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ცხენის ძალა"
+msgstr[1] "%1 ცხენის ძალა"
 
 #: power.cpp:278
 #, kde-format
@@ -10757,7 +10757,7 @@ msgstr "წნევა"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (pressure)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: pressure.cpp:24
 #, kde-format
@@ -11435,7 +11435,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "bar"
-msgstr ""
+msgstr "მართკუთხედი"
 
 #: pressure.cpp:235
 #, kde-format
@@ -11595,7 +11595,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "atm"
-msgstr ""
+msgstr "ატმ"
 
 #: pressure.cpp:285
 #, kde-format
@@ -11728,7 +11728,7 @@ msgstr "ტემპერატურა"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (temperature)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: temperature.cpp:186
 #, kde-format
@@ -11995,7 +11995,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal conductivity)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: thermal_conductivity.cpp:24
 #, kde-format
@@ -12107,7 +12107,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal flux density)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: thermal_flux.cpp:25
 #, kde-format
@@ -12183,7 +12183,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal generation)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: thermal_generation.cpp:24
 #, kde-format
@@ -12259,7 +12259,7 @@ msgstr "დრო"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (time)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: timeunit.cpp:24
 #, kde-format
@@ -12457,7 +12457,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "Ms"
-msgstr ""
+msgstr "ქალბატონი"
 
 #: timeunit.cpp:85
 #, kde-format
@@ -12713,7 +12713,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "µs"
-msgstr ""
+msgstr "მკწმ"
 
 #: timeunit.cpp:165
 #, kde-format
@@ -13051,15 +13051,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 weeks"
-msgstr ""
+msgstr "%1 კვირა"
 
 #: timeunit.cpp:269
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 week"
 msgid_plural "%1 weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 კვირა"
+msgstr[1] "%1 კვირა"
 
 #: timeunit.cpp:274
 #, kde-format
@@ -13166,7 +13166,7 @@ msgstr "სიჩქარე"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (velocity)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: velocity.cpp:53
 #, kde-format
@@ -13465,7 +13465,7 @@ msgstr "Ვოლტაჟი"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (voltage"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: voltage.cpp:25
 #, kde-format
@@ -14180,7 +14180,7 @@ msgstr "ტომი"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (volume)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: volume.cpp:25
 #, kde-format
