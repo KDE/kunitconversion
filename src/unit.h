@@ -772,35 +772,18 @@ public:
      **/
     Unit(const Unit &other);
 
-    // TODO KF6: remove virtual
-    virtual ~Unit();
+    ~Unit();
 
     /**
      * Assignment operator, assign @p other to this.
      **/
     Unit &operator=(const Unit &other);
 
-    // TODO KF6: de-inline
-#ifdef Q_COMPILER_RVALUE_REFS
     /**
      * Move-assigns @p other to this Unit instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
-    Unit &operator=(Unit &&other)
-    {
-        swap(other);
-        return *this;
-    }
-#endif
-
-    // TODO KF6: remove
-    /**
-     * Swaps this Unit with @p other. This function is very fast and never fails.
-     **/
-    void swap(Unit &other)
-    {
-        d.swap(other.d);
-    }
+    Unit &operator=(Unit &&other);
 
     /**
      * @return @c true if this Unit is equal to the @p other Unit.

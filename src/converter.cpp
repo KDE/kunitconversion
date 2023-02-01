@@ -107,6 +107,12 @@ Converter &Converter::operator=(const Converter &other)
     return *this;
 }
 
+Converter &Converter::operator=(Converter &&other)
+{
+    d.swap(other.d);
+    return *this;
+}
+
 Value Converter::convert(const Value &value, const QString &toUnit) const
 {
     if (d && value.unit().isValid()) {

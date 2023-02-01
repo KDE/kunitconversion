@@ -75,6 +75,12 @@ UnitCategory &UnitCategory::operator=(const UnitCategory &other)
     return *this;
 }
 
+UnitCategory &UnitCategory::operator=(UnitCategory &&other)
+{
+    d.swap(other.d);
+    return *this;
+}
+
 bool UnitCategory::operator==(const UnitCategory &other) const
 {
     if (d && other.d) {
@@ -138,7 +144,7 @@ bool UnitCategory::hasUnit(const QString &unit) const
     return false;
 }
 
-Value UnitCategory::convert(const Value &value, const QString &toUnit)
+Value UnitCategory::convert(const Value &value, const QString &toUnit) const
 {
     if (d && (toUnit.isEmpty() || d->m_unitMap.contains(toUnit)) && value.unit().isValid()) {
         Unit to = toUnit.isEmpty() ? defaultUnit() : d->m_unitMap[toUnit];
@@ -147,7 +153,7 @@ Value UnitCategory::convert(const Value &value, const QString &toUnit)
     return Value();
 }
 
-Value UnitCategory::convert(const Value &value, UnitId toUnit)
+Value UnitCategory::convert(const Value &value, UnitId toUnit) const
 {
     if (d && d->m_idMap.contains(toUnit) && value.unit().isValid()) {
         return convert(value, d->m_idMap[toUnit]);
@@ -155,7 +161,7 @@ Value UnitCategory::convert(const Value &value, UnitId toUnit)
     return Value();
 }
 
-Value UnitCategory::convert(const Value &value, const Unit &toUnit)
+Value UnitCategory::convert(const Value &value, const Unit &toUnit) const
 {
     if (d && !toUnit.isNull()) {
         return d->convert(value, toUnit);
@@ -203,37 +209,16 @@ QString UnitCategory::description() const
     return QString();
 }
 
-void UnitCategory::addDefaultUnit(const Unit &unit)
-{
-    if (d) {
-        d->addDefaultUnit(unit);
-    }
-}
-
 void UnitCategoryPrivate::addDefaultUnit(const Unit &unit)
 {
     addCommonUnit(unit);
     m_defaultUnit = unit;
 }
 
-void UnitCategory::addCommonUnit(const Unit &unit)
-{
-    if (d) {
-        d->addCommonUnit(unit);
-    }
-}
-
 void UnitCategoryPrivate::addCommonUnit(const Unit &unit)
 {
     addUnit(unit);
     m_mostCommonUnits.append(unit);
-}
-
-void UnitCategory::addUnit(const Unit &unit)
-{
-    if (d) {
-        d->addUnit(unit);
-    }
 }
 
 void UnitCategoryPrivate::addUnit(const Unit &unit)

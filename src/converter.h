@@ -53,27 +53,11 @@ public:
      **/
     Converter &operator=(const Converter &other);
 
-    // TODO KF6 de-inline
-#ifdef Q_COMPILER_RVALUE_REFS
     /**
      * Move-assigns @p other to this Converter instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
-    Converter &operator=(Converter &&other)
-    {
-        swap(other);
-        return *this;
-    }
-#endif
-
-    // TODO KF6 remove
-    /**
-     * Swaps this Converter with @p other. This function is very fast and never fails.
-     **/
-    void swap(Converter &other)
-    {
-        d.swap(other.d);
-    }
+    Converter &operator=(Converter &&other);
 
     /**
      * Convert value to another unit.

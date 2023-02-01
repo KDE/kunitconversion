@@ -105,6 +105,12 @@ Unit &Unit::operator=(const Unit &other)
     return *this;
 }
 
+Unit &Unit::operator=(Unit &&other)
+{
+    d.swap(other.d);
+    return *this;
+}
+
 bool Unit::operator==(const Unit &other) const
 {
     if (d && other.d) {

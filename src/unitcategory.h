@@ -44,35 +44,18 @@ public:
      **/
     UnitCategory(const UnitCategory &other);
 
-    // TODO KF6: remove virtual
-    virtual ~UnitCategory();
+    ~UnitCategory();
 
     /**
      * Assignment operator, assign @p other to this.
      **/
     UnitCategory &operator=(const UnitCategory &other);
 
-    // TODO KF6: de-inline
-#ifdef Q_COMPILER_RVALUE_REFS
     /**
      * Move-assigns @p other to this UnitCategory instance, transferring the
      * ownership of the managed pointer to this instance.
      **/
-    UnitCategory &operator=(UnitCategory &&other)
-    {
-        swap(other);
-        return *this;
-    }
-#endif
-
-    // TODO KF6: remove
-    /**
-     * Swaps this UnitCategory with @p other. This function is very fast and never fails.
-     **/
-    void swap(UnitCategory &other)
-    {
-        d.swap(other.d);
-    }
+    UnitCategory &operator=(UnitCategory &&other);
 
     /**
      * @return @c true if this UnitCategory is equal to the @p other UnitCategory.
@@ -155,7 +138,6 @@ public:
      **/
     QStringList allUnits() const;
 
-    // TODO KF6: make const
     /**
      * Convert value to another unit selected by string.
      *
@@ -163,9 +145,8 @@ public:
      * @param toUnit unit to convert to. If empty default unit is used.
      * @return converted value
      **/
-    Value convert(const Value &value, const QString &toUnit = QString());
+    Value convert(const Value &value, const QString &toUnit = QString()) const;
 
-    // TODO KF6: make const
     /**
      * Convert value to another unit selected by enum.
      *
@@ -173,9 +154,8 @@ public:
      * @param toUnit unit to convert to.
      * @return converted value
      **/
-    Value convert(const Value &value, UnitId toUnit);
+    Value convert(const Value &value, UnitId toUnit) const;
 
-    // TODO KF6: make const, remove virtual
     /**
      * Convert value to another unit.
      *
@@ -183,7 +163,7 @@ public:
      * @param toUnit unit to be used for conversion
      * @return converted value
      **/
-    virtual Value convert(const Value &value, const Unit &toUnit);
+    Value convert(const Value &value, const Unit &toUnit) const;
 
     /**
      * @return true if category has conversion table that needs to be updated via online access, otherwise false
@@ -198,12 +178,6 @@ public:
      * Those conversions yet block internally until the table is up-to-date.
      */
     void syncConversionTable(std::chrono::seconds updateSkipPeriod);
-
-protected:
-    // TODO KF6: remove those three
-    void addDefaultUnit(const Unit &unit);
-    void addCommonUnit(const Unit &unit);
-    void addUnit(const Unit &unit);
 
 private:
     friend class Unit;
