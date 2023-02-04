@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020.
+# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2020-05-18 20:55+0200\n"
+"PO-Revision-Date: 2023-01-31 13:04+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 20.04.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -578,7 +578,7 @@ msgstr "kilometry čtvereční"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
-msgstr ""
+msgstr "čtvereční kilometr;čtvereční kilometry;km²;km/-2;km^2;km2"
 
 #: area.cpp:116
 #, kde-format
@@ -678,7 +678,7 @@ msgstr "metry čtvereční"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
-msgstr ""
+msgstr "čtvereční metr;čtvereční metry;m²;m/-2;m^2;m2"
 
 #: area.cpp:146
 #, kde-format
@@ -744,7 +744,7 @@ msgstr "centimetry čtvereční"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
-msgstr ""
+msgstr "čtvereční centimetr;čtvereční centimetry;cm²;cm/-2;cm^2;cm2"
 
 #: area.cpp:166
 #, kde-format
@@ -777,7 +777,7 @@ msgstr "millimetry čtvereční"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
-msgstr ""
+msgstr "čtvereční milimetr;čtvereční milimetry;mm²;mm/-2;mm^2;mm2"
 
 #: area.cpp:176
 #, kde-format
@@ -16182,34 +16182,34 @@ msgstr[2] "%1 šálků"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr ""
+msgstr "kávová lžička"
 
 #: volume.cpp:496
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teaspoon"
-msgstr ""
+msgstr "kávová lžička"
 
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr ""
+msgstr "kávová lžička;kávové lžičky;kávová lžička;kávové lžičky"
 
 #: volume.cpp:499
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr ""
+msgstr "%1 kávové lžičky"
 
 #: volume.cpp:500
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teaspoon"
 msgid_plural "%1 teaspoons"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 kávová lžička"
+msgstr[1] "%1 kávové lžičky"
+msgstr[2] "%1 kávových lžiček"
 
 #: volume.cpp:505
 #, kde-format
@@ -16221,28 +16221,28 @@ msgstr ""
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tablespoon"
-msgstr ""
+msgstr "lžíce"
 
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr ""
+msgstr "lžíce;lžic;lžíce;lžic"
 
 #: volume.cpp:509
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tablespoons"
-msgstr ""
+msgstr "%1 lžic"
 
 #: volume.cpp:510
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tablespoon"
 msgid_plural "%1 tablespoons"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 lžíce"
+msgstr[1] "%1 lžíce"
+msgstr[2] "%1 lžic"
 
 #: volume.cpp:515
 #, kde-format
