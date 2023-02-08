@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2023-01-12 10:31\n"
+"PO-Revision-Date: 2023-02-07 11:02\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -9308,7 +9308,7 @@ msgstr "吨"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
-msgstr ""
+msgstr "ton;tons;t;tonne;tonnes;吨"
 
 #: mass.cpp:239
 #, kde-format
@@ -9339,7 +9339,7 @@ msgstr "克拉"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr ""
+msgstr "carat;carats;CD;ct;克拉"
 
 #: mass.cpp:250
 #, kde-format
@@ -9370,7 +9370,7 @@ msgstr "磅"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr ""
+msgstr "pound;pounds;lb;lbs;磅"
 
 #: mass.cpp:261
 #, kde-format
@@ -15255,7 +15255,7 @@ msgstr "茶匙"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr ""
+msgstr "teaspoon;teaspoons;tsp;tsps;茶匙"
 
 #: volume.cpp:499
 #, kde-format
@@ -15286,7 +15286,7 @@ msgstr "汤匙"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr ""
+msgstr "tablespoon;tablespoons;tbsp;tbsps;汤匙"
 
 #: volume.cpp:509
 #, kde-format
