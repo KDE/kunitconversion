@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the kunitconversion package.
 #
-# Xəyyam <xxmn77@gmail.com>, 2020, 2022.
+# Xəyyam <xxmn77@gmail.com>, 2020, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-06-08 00:17+0400\n"
+"PO-Revision-Date: 2023-02-18 19:11+0400\n"
 "Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
 "Language: az\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.04.1\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -9596,12 +9596,10 @@ msgid "tons"
 msgstr "ton"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
-msgstr "ton;t"
+msgstr "ton;tonnaj"
 
 #: mass.cpp:239
 #, kde-format
@@ -9630,12 +9628,10 @@ msgid "carats"
 msgstr "karat"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "karat;kar"
+msgstr "karat;karatlı"
 
 #: mass.cpp:250
 #, kde-format
@@ -9664,9 +9660,7 @@ msgid "pounds"
 msgstr "funt"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
 msgstr "funt;funt"
@@ -15727,12 +15721,10 @@ msgid "teaspoon"
 msgstr "çay qaşığı"
 
 #: volume.cpp:497
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teaspoon;teaspoons;tsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr "çay qaşığı;çay qaşıqları;ç.q."
+msgstr "çay qaşığı;çay qaşıqları"
 
 #: volume.cpp:499
 #, kde-format
@@ -15762,12 +15754,10 @@ msgid "tablespoon"
 msgstr "yemək qaşığı"
 
 #: volume.cpp:507
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "tablespoon;tablespoons;tbsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr "yemək qaşığı;yemək qaşıqları;y.q."
+msgstr "yemək qaşığı;yemək qaşıqları;y.q"
 
 #: volume.cpp:509
 #, kde-format
