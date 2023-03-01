@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-01 00:44+0000\n"
+"POT-Creation-Date: 2023-03-01 21:29+0000\n"
 "PO-Revision-Date: 2012-09-03 15:41+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: bosanski <bs@li.org>\n"
@@ -18772,6 +18772,103 @@ msgid_plural "%1 oil barrels"
 msgstr[0] "%1 bar"
 msgstr[1] "%1 bara"
 msgstr[2] "%1 bari"
+
+#: weight_per_area.cpp:19
+#, kde-format
+msgid "Weight per Area"
+msgstr ""
+
+#: weight_per_area.cpp:21
+#, fuzzy, kde-format
+#| msgctxt "%1 value, %2 unit symbol (acceleration)"
+#| msgid "%1 %2"
+msgctxt "%1 value, %2 unit symbol (weight per area)"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: weight_per_area.cpp:26
+#, kde-format
+msgctxt "area unit symbol"
+msgid "g/m²"
+msgstr ""
+
+#: weight_per_area.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 square meter"
+#| msgid_plural "%1 square meters"
+msgctxt "unit description in lists"
+msgid "grams per square meter"
+msgstr "%1 kvadratni metar"
+
+#: weight_per_area.cpp:28
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid ""
+"gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
+msgstr ""
+
+#: weight_per_area.cpp:30
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 square meter"
+#| msgid_plural "%1 square meters"
+msgctxt "amount in units (real)"
+msgid "%1 grams per square meter"
+msgstr "%1 kvadratni metar"
+
+#: weight_per_area.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 square meter"
+#| msgid_plural "%1 square meters"
+msgctxt "amount in units (integer)"
+msgid "%1 grams per square meter"
+msgid_plural "%1 grams per square meter"
+msgstr[0] "%1 kvadratni metar"
+msgstr[1] "%1 kvadratni metar"
+msgstr[2] "%1 kvadratni metar"
+
+#: weight_per_area.cpp:37
+#, kde-format
+msgctxt "area unit symbol"
+msgid "oz/yd²"
+msgstr ""
+
+#: weight_per_area.cpp:38
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "pounds per cubic yard"
+msgctxt "unit description in lists"
+msgid "ounces per square yard"
+msgstr "funta po kubnom jardu"
+
+#: weight_per_area.cpp:39
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid ""
+"ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
+"yard²"
+msgstr ""
+
+#: weight_per_area.cpp:41
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 pounds per cubic yard"
+msgctxt "amount in units (real)"
+msgid "%1 ounces per square yard"
+msgstr "%1 funti po kubnom jardu"
+
+#: weight_per_area.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 pounds per cubic yard"
+msgctxt "amount in units (integer)"
+msgid "%1 ounces per square yard"
+msgid_plural "%1 ounces per square yard"
+msgstr[0] "%1 funti po kubnom jardu"
+msgstr[1] "%1 funti po kubnom jardu"
+msgstr[2] "%1 funti po kubnom jardu"
 
 #~ msgid "Invalid"
 #~ msgstr "loša"

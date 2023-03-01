@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# g.sora <g.sora@tiscali.it>, 2010, 2011, 2014, 2016, 2017, 2019, 2020, 2022.
+# g.sora <g.sora@tiscali.it>, 2010, 2011, 2014, 2016, 2017, 2019, 2020, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-03-07 23:13+0100\n"
+"POT-Creation-Date: 2023-03-01 21:29+0000\n"
+"PO-Revision-Date: 2023-01-10 16:43+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -560,12 +560,10 @@ msgid "square kilometers"
 msgstr "kilometros quadrate"
 
 #: area.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square kilometer;square kilometers;km²;km/-2;km^2;km2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
-msgstr "kilometro quadrate;kilometros quadrate;km²;km/-2;km^2;km2"
+msgstr "kilometro quadrate;kilometros quadrate;sq km;km²;km/-2;km^2;km2"
 
 #: area.cpp:116
 #, kde-format
@@ -660,12 +658,10 @@ msgid "square meters"
 msgstr "metros quadrate"
 
 #: area.cpp:144
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
-msgstr "metro quadrate;metros quadrate;m²;m/-2;m^2;m2"
+msgstr "metro quadrate;metros quadrate;sq m;m²;m/-2;m^2;m2"
 
 #: area.cpp:146
 #, kde-format
@@ -726,12 +722,10 @@ msgid "square centimeters"
 msgstr "centimetros quadrate"
 
 #: area.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
-msgstr "centimetro quadrate;centimetros quadrate;cm²;cm/-2;cm^2;cm2"
+msgstr "centimetro quadrate;centimetros quadrate;sq cm;cm²;cm/-2;cm^2;cm2"
 
 #: area.cpp:166
 #, kde-format
@@ -760,12 +754,10 @@ msgid "square millimeters"
 msgstr "millimetros quadrate"
 
 #: area.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
-msgstr "millimetro quadrate;millimetros quadrate;mm²;mm/-2;mm^2;mm2"
+msgstr "millimetro quadrate;millimetros quadrate;sq mm;mm²;mm/-2;mm^2;mm2"
 
 #: area.cpp:176
 #, kde-format
@@ -9610,12 +9602,10 @@ msgid "tons"
 msgstr "tonnas"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
-msgstr "tonna;tonnas;t;tonnas"
+msgstr "ton;tonnas;t;tonna;tonnas"
 
 #: mass.cpp:239
 #, kde-format
@@ -9644,12 +9634,10 @@ msgid "carats"
 msgstr "carates"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "carat;carates;CD"
+msgstr "carat;carates;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9678,12 +9666,10 @@ msgid "pounds"
 msgstr "libras"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "libra;libras;lb"
+msgstr "libra;libras;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
@@ -15743,12 +15729,10 @@ msgid "teaspoon"
 msgstr "teaspoon"
 
 #: volume.cpp:497
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teaspoons;tsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr "teaspoons;tsps"
+msgstr "teaspoon;teaspoons;tsp;tsps"
 
 #: volume.cpp:499
 #, kde-format
@@ -15777,12 +15761,10 @@ msgid "tablespoon"
 msgstr "tablespoon"
 
 #: volume.cpp:507
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "tablespoons;tbsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr "tablespoons;tbsps"
+msgstr "tablespoon;tablespoons;tbsp;tbsps"
 
 #: volume.cpp:509
 #, kde-format
@@ -15962,6 +15944,98 @@ msgid "%1 oil barrel"
 msgid_plural "%1 oil barrels"
 msgstr[0] "%1 barril de petroleo"
 msgstr[1] "%1 barriles de petroleo"
+
+#: weight_per_area.cpp:19
+#, kde-format
+msgid "Weight per Area"
+msgstr ""
+
+#: weight_per_area.cpp:21
+#, fuzzy, kde-format
+#| msgctxt "%1 value, %2 unit symbol (acceleration)"
+#| msgid "%1 %2"
+msgctxt "%1 value, %2 unit symbol (weight per area)"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: weight_per_area.cpp:26
+#, kde-format
+msgctxt "area unit symbol"
+msgid "g/m²"
+msgstr ""
+
+#: weight_per_area.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "watt per square meter"
+msgctxt "unit description in lists"
+msgid "grams per square meter"
+msgstr "watt per metro quadrate"
+
+#: weight_per_area.cpp:28
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid ""
+"gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
+msgstr ""
+
+#: weight_per_area.cpp:30
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 watts per square meter"
+msgctxt "amount in units (real)"
+msgid "%1 grams per square meter"
+msgstr "%1 watts per metro quadrate"
+
+#: weight_per_area.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 watts per square meter"
+msgctxt "amount in units (integer)"
+msgid "%1 grams per square meter"
+msgid_plural "%1 grams per square meter"
+msgstr[0] "%1 watts per metro quadrate"
+msgstr[1] "%1 watts per metro quadrate"
+
+#: weight_per_area.cpp:37
+#, kde-format
+msgctxt "area unit symbol"
+msgid "oz/yd²"
+msgstr ""
+
+#: weight_per_area.cpp:38
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "pounds per cubic yard"
+msgctxt "unit description in lists"
+msgid "ounces per square yard"
+msgstr "libras per yard cubic"
+
+#: weight_per_area.cpp:39
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid ""
+"ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
+"yard²"
+msgstr ""
+
+#: weight_per_area.cpp:41
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 pounds per cubic yard"
+msgctxt "amount in units (real)"
+msgid "%1 ounces per square yard"
+msgstr "%1 libras per yard cubic"
+
+#: weight_per_area.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 pounds per cubic yard"
+msgctxt "amount in units (integer)"
+msgid "%1 ounces per square yard"
+msgid_plural "%1 ounces per square yard"
+msgstr[0] "%1 libras per yard cubic"
+msgstr[1] "%1 libras per yard cubic"
 
 #~ msgid "Invalid"
 #~ msgstr "Invalide"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-01 00:44+0000\n"
+"POT-Creation-Date: 2023-03-01 21:29+0000\n"
 "PO-Revision-Date: 2014-10-29 10:45+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -16291,6 +16291,86 @@ msgstr ""
 msgctxt "amount in units (integer)"
 msgid "%1 oil barrel"
 msgid_plural "%1 oil barrels"
+msgstr[0] ""
+msgstr[1] ""
+
+#: weight_per_area.cpp:19
+#, kde-format
+msgid "Weight per Area"
+msgstr ""
+
+#: weight_per_area.cpp:21
+#, fuzzy, kde-format
+#| msgctxt "%1 value, %2 unit symbol (acceleration)"
+#| msgid "%1 %2"
+msgctxt "%1 value, %2 unit symbol (weight per area)"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: weight_per_area.cpp:26
+#, kde-format
+msgctxt "area unit symbol"
+msgid "g/m²"
+msgstr ""
+
+#: weight_per_area.cpp:27
+#, kde-format
+msgctxt "unit description in lists"
+msgid "grams per square meter"
+msgstr ""
+
+#: weight_per_area.cpp:28
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid ""
+"gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
+msgstr ""
+
+#: weight_per_area.cpp:30
+#, kde-format
+msgctxt "amount in units (real)"
+msgid "%1 grams per square meter"
+msgstr ""
+
+#: weight_per_area.cpp:31
+#, kde-format
+msgctxt "amount in units (integer)"
+msgid "%1 grams per square meter"
+msgid_plural "%1 grams per square meter"
+msgstr[0] ""
+msgstr[1] ""
+
+#: weight_per_area.cpp:37
+#, kde-format
+msgctxt "area unit symbol"
+msgid "oz/yd²"
+msgstr ""
+
+#: weight_per_area.cpp:38
+#, kde-format
+msgctxt "unit description in lists"
+msgid "ounces per square yard"
+msgstr ""
+
+#: weight_per_area.cpp:39
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid ""
+"ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
+"yard²"
+msgstr ""
+
+#: weight_per_area.cpp:41
+#, kde-format
+msgctxt "amount in units (real)"
+msgid "%1 ounces per square yard"
+msgstr ""
+
+#: weight_per_area.cpp:42
+#, kde-format
+msgctxt "amount in units (integer)"
+msgid "%1 ounces per square yard"
+msgid_plural "%1 ounces per square yard"
 msgstr[0] ""
 msgstr[1] ""
 

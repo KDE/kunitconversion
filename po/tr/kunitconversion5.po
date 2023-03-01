@@ -6,13 +6,13 @@
 # Ozan Çağlayan <ozan@pardus.org.tr>, 2010, 2011.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2017.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-12-11 14:28+0300\n"
+"POT-Creation-Date: 2023-03-01 21:29+0000\n"
+"PO-Revision-Date: 2023-01-27 18:48+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2444,7 +2444,7 @@ msgstr "İrlanda Sterlini"
 #, kde-format
 msgctxt "IEP Irish Pound - unit synonyms for matching user input"
 msgid "Irish pound;Irish pounds"
-msgstr "İrlanda sterlini;İrlanda poundu"
+msgstr "İrlanda Sterlini;İrlanda Pound"
 
 #: currency.cpp:154
 #, kde-format
@@ -2458,7 +2458,7 @@ msgctxt "amount in units (integer)"
 msgid "%1 Irish pound"
 msgid_plural "%1 Irish pounds"
 msgstr[0] "%1 İrlanda Sterlini"
-msgstr[1] "%1 İrlanda poundu"
+msgstr[1] "%1 İrlanda Sterlini"
 
 #: currency.cpp:161 currency.cpp:163
 #, kde-format
@@ -2620,27 +2620,27 @@ msgstr[1] "%1 Tolar"
 #, kde-format
 msgctxt "currency name"
 msgid "Cypriot Pound"
-msgstr "Kıbrıs Poundu"
+msgstr "Kıbrıs Sterlini"
 
 #: currency.cpp:228
 #, kde-format
 msgctxt "CYP Cypriot Pound - unit synonyms for matching user input"
 msgid "Cypriot pound;Cypriot pounds"
-msgstr "Kıbrıs poundu;Kıbrıs poundu"
+msgstr "Kıbrıs Sterlini;Kıbrıs Pound"
 
 #: currency.cpp:231
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Cypriot pounds"
-msgstr "%1 Kıbrıs poundu"
+msgstr "%1 Kıbrıs Sterlini"
 
 #: currency.cpp:232
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Cypriot pound"
 msgid_plural "%1 Cypriot pounds"
-msgstr[0] "%1 Kıbrıs poundu"
-msgstr[1] "%1 Kıbrıs poundu"
+msgstr[0] "%1 Kıbrıs Sterlini"
+msgstr[1] "%1 Kıbrıs Sterlini"
 
 #: currency.cpp:238 currency.cpp:240
 #, kde-format
@@ -2860,21 +2860,21 @@ msgstr "İngiliz Sterlini"
 #, kde-format
 msgctxt "GBP British Pound - unit synonyms for matching user input"
 msgid "pound;pounds;pound sterling;pounds sterling"
-msgstr "pound;pound;pound sterling;pound sterling"
+msgstr "pound;pound;pound sterling;pound sterling;sterlin;"
 
 #: currency.cpp:333
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pounds sterling"
-msgstr "%1 pound sterlin"
+msgstr "%1 sterlin"
 
 #: currency.cpp:334
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound sterling"
 msgid_plural "%1 pounds sterling"
-msgstr[0] "%1 pound sterlin"
-msgstr[1] "%1 pound sterlin"
+msgstr[0] "%1 sterlin"
+msgstr[1] "%1 sterlin"
 
 #: currency.cpp:340 currency.cpp:342
 #, kde-format
@@ -3817,27 +3817,27 @@ msgstr "lb/in³"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pounds per cubic inch"
-msgstr "inç küpte pound"
+msgstr "libre bölü inç küp"
 
 #: density.cpp:88
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic inch;pounds per cubic inch;lb/in³"
-msgstr "inç küpte pound;inç küpte pound;lb/in³"
+msgstr "inç küpte libre;inç küpte pound;lb/in³"
 
 #: density.cpp:90
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pounds per cubic inch"
-msgstr "inç küpte %1 pound"
+msgstr "inç küpte %1 libre"
 
 #: density.cpp:91
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound per cubic inch"
 msgid_plural "%1 pounds per cubic inch"
-msgstr[0] "inç küpte %1 pound"
-msgstr[1] "inç küpte %1 pound"
+msgstr[0] "inç küpte %1 libre"
+msgstr[1] "inç küpte %1 libre"
 
 #: density.cpp:96
 #, kde-format
@@ -3849,27 +3849,27 @@ msgstr "lb/ft³"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pounds per cubic foot"
-msgstr "ayak küpte pound"
+msgstr "ayak küpte libre"
 
 #: density.cpp:98
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic foot;pounds per cubic foot;lb/ft³"
-msgstr "ayak küpte pound;ayak küpte pound;lb/ft³"
+msgstr "ayak küpte libre;ayak küpte pound;lb/ft³"
 
 #: density.cpp:100
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pounds per cubic foot"
-msgstr "ayak küpte %1 pound"
+msgstr "ayak küpte %1 libre"
 
 #: density.cpp:101
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound per cubic foot"
 msgid_plural "%1 pounds per cubic foot"
-msgstr[0] "ayak küpte %1 pound"
-msgstr[1] "ayak küpte %1 pound"
+msgstr[0] "ayak küpte %1 libre"
+msgstr[1] "ayak küpte %1 libre"
 
 #: density.cpp:106
 #, kde-format
@@ -3881,27 +3881,27 @@ msgstr "lb/yd³"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pounds per cubic yard"
-msgstr "yard küpte pound"
+msgstr "yard küpte libre"
 
 #: density.cpp:108
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic yard;pounds per cubic yard;lb/yd³"
-msgstr "yard küpte pound;yard küpte pound;lb/yd³"
+msgstr "yard küpte libre;yard küpte pound;lb/yd³"
 
 #: density.cpp:110
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pounds per cubic yard"
-msgstr "yard küpte %1 pound"
+msgstr "yard küpte %1 libre"
 
 #: density.cpp:111
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound per cubic yard"
 msgid_plural "%1 pounds per cubic yard"
-msgstr[0] "yard küpte %1 pound"
-msgstr[1] "yard küpte %1 pound"
+msgstr[0] "yard küpte %1 libre"
+msgstr[1] "yard küpte %1 libre"
 
 #: electrical_current.cpp:18
 #, kde-format
@@ -6999,27 +6999,27 @@ msgstr "lbf"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pound-force"
-msgstr "pound-kuvvet"
+msgstr "libre-kuvvet"
 
 #: force.cpp:257
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound-force;lbf"
-msgstr "pound-kuvvet;lbf"
+msgstr "libre-kuvvet;lbf"
 
 #: force.cpp:259
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pound-force"
-msgstr "%1 pound-kuvvet"
+msgstr "%1 libre-kuvvet"
 
 #: force.cpp:260
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound-force"
 msgid_plural "%1 pound-force"
-msgstr[0] "%1 pound-kuvvet"
-msgstr[1] "%1 pound-kuvvet"
+msgstr[0] "%1 libre-kuvvet"
+msgstr[1] "%1 libre-kuvvet"
 
 #: force.cpp:265
 #, kde-format
@@ -9659,27 +9659,27 @@ msgstr "lb"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pounds"
-msgstr "Pound"
+msgstr "libre"
 
 #: mass.cpp:259
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "pound;pound;lb"
+msgstr "libre;pound;lb"
 
 #: mass.cpp:261
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pounds"
-msgstr "%1 Pound"
+msgstr "%1 libre"
 
 #: mass.cpp:262
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound"
 msgid_plural "%1 pounds"
-msgstr[0] "%1 Pound"
-msgstr[1] "%1 Pound"
+msgstr[0] "%1 libre"
+msgstr[1] "%1 libre"
 
 #: mass.cpp:268
 #, kde-format
@@ -11644,27 +11644,27 @@ msgstr "psi"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pound-force per square inch"
-msgstr "inç karede pound kuvvet"
+msgstr "inç karede libre kuvvet"
 
 #: pressure.cpp:296
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound-force per square inch;pound-force per square inches;psi"
-msgstr "inç karede pound kuvvet;inç karede pound kuvvet;psi"
+msgstr "inç karede libre kuvvet;inç karede pound kuvvet;psi"
 
 #: pressure.cpp:298
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pound-force per square inches"
-msgstr "inç karede %1 pound kuvvet"
+msgstr "inç karede %1 libre kuvvet"
 
 #: pressure.cpp:299
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound-force per square inch"
 msgid_plural "%1 pound-force per square inch"
-msgstr[0] "inç karede %1 pound kuvvet"
-msgstr[1] "inç karede %1 pound kuvvet"
+msgstr[0] "inç karede %1 libre kuvvet"
+msgstr[1] "inç karede %1 libre kuvvet"
 
 #: pressure.cpp:305
 #, kde-format
@@ -15933,3 +15933,95 @@ msgid "%1 oil barrel"
 msgid_plural "%1 oil barrels"
 msgstr[0] "%1 petrol varili"
 msgstr[1] "%1 petrol varili"
+
+#: weight_per_area.cpp:19
+#, kde-format
+msgid "Weight per Area"
+msgstr ""
+
+#: weight_per_area.cpp:21
+#, fuzzy, kde-format
+#| msgctxt "%1 value, %2 unit symbol (acceleration)"
+#| msgid "%1 %2"
+msgctxt "%1 value, %2 unit symbol (weight per area)"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: weight_per_area.cpp:26
+#, kde-format
+msgctxt "area unit symbol"
+msgid "g/m²"
+msgstr ""
+
+#: weight_per_area.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "watt per square meter"
+msgctxt "unit description in lists"
+msgid "grams per square meter"
+msgstr "metrekareye watt"
+
+#: weight_per_area.cpp:28
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid ""
+"gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
+msgstr ""
+
+#: weight_per_area.cpp:30
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 watts per square meter"
+msgctxt "amount in units (real)"
+msgid "%1 grams per square meter"
+msgstr "metrekareye %1 watt"
+
+#: weight_per_area.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 watts per square meter"
+msgctxt "amount in units (integer)"
+msgid "%1 grams per square meter"
+msgid_plural "%1 grams per square meter"
+msgstr[0] "metrekareye %1 watt"
+msgstr[1] "metrekareye %1 watt"
+
+#: weight_per_area.cpp:37
+#, kde-format
+msgctxt "area unit symbol"
+msgid "oz/yd²"
+msgstr ""
+
+#: weight_per_area.cpp:38
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "pounds per cubic yard"
+msgctxt "unit description in lists"
+msgid "ounces per square yard"
+msgstr "yard küpte libre"
+
+#: weight_per_area.cpp:39
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid ""
+"ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
+"yard²"
+msgstr ""
+
+#: weight_per_area.cpp:41
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 pounds per cubic yard"
+msgctxt "amount in units (real)"
+msgid "%1 ounces per square yard"
+msgstr "yard küpte %1 libre"
+
+#: weight_per_area.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 pounds per cubic yard"
+msgctxt "amount in units (integer)"
+msgid "%1 ounces per square yard"
+msgid_plural "%1 ounces per square yard"
+msgstr[0] "yard küpte %1 libre"
+msgstr[1] "yard küpte %1 libre"
