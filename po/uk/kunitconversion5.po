@@ -3,13 +3,13 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2009, 2010, 2011, 2013, 2014, 2016, 2018, 2019, 2020, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2009, 2010, 2011, 2013, 2014, 2016, 2018, 2019, 2020, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-01 21:29+0000\n"
-"PO-Revision-Date: 2022-11-01 22:18+0200\n"
+"PO-Revision-Date: 2023-03-02 21:03+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -17171,12 +17171,10 @@ msgstr[3] "%1 барель"
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "Вага на площу"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -17185,15 +17183,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "г/м²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt per square meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "ват на квадратний метр"
+msgstr "грам на квадратний метр"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -17201,40 +17197,35 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
 msgstr ""
+"гквм;г/м;г/м2;гм2;грамів на метр;грамів на квадратний метр;грамів на метр²"
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 вата на квадратний метр"
+msgstr "%1 грамів на квадратний метр"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 вата на квадратний метр"
-msgstr[1] "%1 вата на квадратний метр"
-msgstr[2] "%1 вата на квадратний метр"
-msgstr[3] "%1 вата на квадратний метр"
+msgstr[0] "%1 грам на квадратний метр"
+msgstr[1] "%1 грами на квадратний метр"
+msgstr[2] "%1 грамів на квадратний метр"
+msgstr[3] "%1 грам на квадратний метр"
 
 #: weight_per_area.cpp:37
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "унції/ярд²"
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "фунти на кубічний ярд"
+msgstr "унції на квадратний ярд"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -17243,23 +17234,21 @@ msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
 "yard²"
 msgstr ""
+"унцярд;унцярд2;унції/ярд;унції/ярд2;унцій на ярд;унцій на квадратний ярд;"
+"унцій на ярд²"
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 фунта на кубічний ярд"
+msgstr "%1 унції на квадратний ярд"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 фунта на кубічний ярд"
-msgstr[1] "%1 фунта на кубічний ярд"
-msgstr[2] "%1 фунта на кубічний ярд"
-msgstr[3] "%1 фунта на кубічний ярд"
+msgstr[0] "%1 унція на квадратний ярд"
+msgstr[1] "%1 унції на квадратний ярд"
+msgstr[2] "%1 унцій на квадратний ярд"
+msgstr[3] "%1 унція на квадратний ярд"
