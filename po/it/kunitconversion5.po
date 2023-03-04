@@ -1,13 +1,13 @@
 # translation of libkunitconversion.po to Italian
 #
-# Vincenzo Reale <smart2128vr@gmail.com>, 2009, 2016, 2018, 2019, 2020, 2022.
+# Vincenzo Reale <smart2128vr@gmail.com>, 2009, 2016, 2018, 2019, 2020, 2022, 2023.
 # Federico Zenith <federico.zenith@member.fsf.org>, 2009, 2010, 2011, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-01 21:29+0000\n"
-"PO-Revision-Date: 2022-11-03 12:29+0100\n"
+"PO-Revision-Date: 2023-03-03 02:50+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -15937,12 +15937,10 @@ msgstr[1] "%1 barili di petrolio"
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "Peso per area"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15951,15 +15949,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "g/m²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt per square meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "watt per metro quadrato"
+msgstr "grammi per metro quadrato"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -15967,38 +15963,33 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
 msgstr ""
+"gsm;g/m;g/m2;gm2;grammi per metro;grammi per metro quadrato;grammi per metro²"
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 watt per metro quadrato"
+msgstr "%1 grammi per metro quadrato"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 watt per metro quadrato"
-msgstr[1] "%1 watt per metro quadrato"
+msgstr[0] "%1 grammo per metro quadrato"
+msgstr[1] "%1 grammi per metro quadrato"
 
 #: weight_per_area.cpp:37
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "oz/yd²"
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "libbre per iarda cuba"
+msgstr "once per iarda quadrata"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -16007,24 +15998,22 @@ msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
 "yard²"
 msgstr ""
+"ozyd;ozyd2;oz/yd;oz/yd2;once per iarda;once per iarda quadrata;once per "
+"iarda²"
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 libbre per iarda cuba"
+msgstr "%1 once per iarda quadrata"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 libbre per iarda cuba"
-msgstr[1] "%1 libbre per iarda cuba"
+msgstr[0] "%1 oncia per iarda quadrata"
+msgstr[1] "%1 once per iarda quadrata"
 
 #~ msgid "Invalid"
 #~ msgstr "Non valido"
