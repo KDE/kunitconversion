@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-01 21:29+0000\n"
-"PO-Revision-Date: 2023-02-12 06:55+0100\n"
+"PO-Revision-Date: 2023-03-04 13:42+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -15840,7 +15840,7 @@ msgstr "პინტა (იმპერიული)"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
-msgstr ""
+msgstr "პინტა (იმპერიული);პინტა (იმპერიული);პტ;პინტა;პინტა;პ"
 
 #: volume.cpp:540
 #, kde-format
@@ -15923,12 +15923,10 @@ msgstr[1] "%1 ნავთობის ბარელი"
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "წონა ფართზე"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15937,15 +15935,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "გ/მ²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt per square meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "ვატი კვადრატულ მეტრზე"
+msgstr "გრამი კვადრატულ მეტრზე"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -15955,36 +15951,30 @@ msgid ""
 msgstr ""
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 ვატი კვადრატულ მეტრზე"
+msgstr "%1 გრამი კვადრატულ მეტრზე"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 ვატი კვადრატულ მეტრზე"
-msgstr[1] "%1 ვატი კვადრატულ მეტრზე"
+msgstr[0] "%1 გრამი კვადრატულ მეტრზე"
+msgstr[1] "%1 გრამი კვადრატულ მეტრზე"
 
 #: weight_per_area.cpp:37
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "უნც/იარდ²"
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "ფუნტი კუბურ იარდში"
+msgstr "უნცია კვადრატულ იარდში"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -15995,19 +15985,15 @@ msgid ""
 msgstr ""
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 ფუნტი კუბურ იარდში"
+msgstr "%1 უნცია კვადრატულ იარდში"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 ფუნტი კუბურ იარდში"
-msgstr[1] "%1 ფუნტი კუბურ იარდში"
+msgstr[0] "%1 უნცია კვადრატულ იარდში"
+msgstr[1] "%1 უნცია კვადრატულ იარდში"
