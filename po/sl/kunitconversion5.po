@@ -4,23 +4,23 @@
 # Andrej Vernekar <andrej.vernekar@gmail.com>, 2009, 2010, 2012.
 # Jure Repinc <jlp@holodeck1.com>, 2012.
 # Andrej Mernik <andrejm@ubuntu.si>, 2014, 2016, 2017.
-# Matjaž Jeran <matjaz.jeran@amis.net>, 2019, 2020, 2022.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2019, 2020, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-01 21:29+0000\n"
-"PO-Revision-Date: 2022-11-02 07:56+0100\n"
+"PO-Revision-Date: 2023-03-04 10:10+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
 "Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -17244,12 +17244,10 @@ msgstr[3] "%1 sodčkov nafte"
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "Teža na površino"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -17258,15 +17256,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "g/m²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt per square meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "watt na kvadratni meter"
+msgstr "gramov na kvadratni meter"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -17274,40 +17270,35 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
 msgstr ""
+"gsm;g/m;g/m2;gm2;gramov na meter;gramov na kvadratni meter;gramov na meter²"
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 wattov na kvadratni meter"
+msgstr "%1 gramov na kvadratni meter"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 wattov na kvadratni meter"
-msgstr[1] "%1 wattov na kvadratni meter"
-msgstr[2] "%1 wattov na kvadratni meter"
-msgstr[3] "%1 wattov na kvadratni meter"
+msgstr[0] "%1 gram na kvadratni meter"
+msgstr[1] "%1 grama na kvadratni meter"
+msgstr[2] "%1 grame na kvadratni meter"
+msgstr[3] "%1 gramov na kvadratni meter"
 
 #: weight_per_area.cpp:37
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "oz/yd²"
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "funti na kubični jard"
+msgstr "unč na kvadratni jard"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -17315,27 +17306,23 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
 "yard²"
-msgstr ""
+msgstr "ozyd;ozyd2;oz/yd;oz/yd2;unč na yard;unč na kvadratni yard;unč na yard²"
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 funtov na kubični jard"
+msgstr "%1 unč na kvadratni jard"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 funtov na kubični jard"
-msgstr[1] "%1 funtov na kubični jard"
-msgstr[2] "%1 funtov na kubični jard"
-msgstr[3] "%1 funtov na kubični jard"
+msgstr[0] "%1 unča na kvadratni jard"
+msgstr[1] "%1 unči na kvadratni jard"
+msgstr[2] "%1 unče na kvadratni jard"
+msgstr[3] "%1 unč na kvadratni jard"
 
 #~ msgid "Invalid"
 #~ msgstr "Neveljavno"
