@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-01 21:29+0000\n"
-"PO-Revision-Date: 2023-01-31 13:04+0100\n"
+"PO-Revision-Date: 2023-03-02 18:22+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.12.1\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -16414,12 +16414,10 @@ msgstr[2] ""
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "Váha na oblast"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -16431,12 +16429,10 @@ msgid "g/m²"
 msgstr ""
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilograms per cubic meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "kilogramy na metr krychlový"
+msgstr "gramy na metr čtverečný"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -16446,23 +16442,19 @@ msgid ""
 msgstr ""
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilograms per cubic meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 kilogramy na metr krychlový"
+msgstr "%1 gramů na metr čtverečný"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilograms per cubic meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 kilogramy na metr krychlový"
-msgstr[1] "%1 kilogramy na metr krychlový"
-msgstr[2] "%1 kilogramy na metr krychlový"
+msgstr[0] "%1 gram na metr čtverečný"
+msgstr[1] "%1 gramy na metr čtverečný"
+msgstr[2] "%1 gramů na metr čtverečný"
 
 #: weight_per_area.cpp:37
 #, kde-format
@@ -16471,12 +16463,10 @@ msgid "oz/yd²"
 msgstr ""
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "liber na yard krychlový"
+msgstr "unce na yard čtverečný"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -16487,20 +16477,16 @@ msgid ""
 msgstr ""
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 liber na yard krychlový"
+msgstr "%1 uncí na yard čtverečný"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 liber na yard krychlový"
-msgstr[1] "%1 liber na yard krychlový"
-msgstr[2] "%1 liber na yard krychlový"
+msgstr[0] "%1 unce na yard čtverečný"
+msgstr[1] "%1 unce na yard čtverečný"
+msgstr[2] "%1 uncí na yard čtverečný"
