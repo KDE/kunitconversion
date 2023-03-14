@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-01 21:29+0000\n"
-"PO-Revision-Date: 2023-03-08 13:56+0100\n"
+"PO-Revision-Date: 2023-03-13 08:37+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -12092,6 +12092,9 @@ msgid ""
 "hour Fahrenheit per inch;btu per sq foot-hour-Fahrenheit per inch;Btu/ft^2-"
 "hr-F/in"
 msgstr ""
+"ბტუ კვადრატულ ფუტში საათში ფარენჰეიტში დიუიმზე;ბტუ კვადრატულ ფუტში საათში "
+"ფარენჰეიტში დიუიმზე;ბტუ კვადრატულ ფუტში საათში ფარენჰეიტში დიუიმზე;ბტუ "
+"კვადრატულ ფუტში საათში ფარენჰეიტში დიუიმზე;;ბტუ/ფტ^2-სთ-ფ/დიუიმზე"
 
 #: thermal_conductivity.cpp:51
 #, kde-format
@@ -12168,6 +12171,7 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
 msgstr ""
+"ბტუ საათში კვადრატულ ფუტზე;ბტუ/სთ/ფტ2;ბტუ/სთ/ფტ^2;ბტუ/ფტ^2/სთ;ბტუ/ფტ2/სთ"
 
 #: thermal_flux.cpp:39
 #, kde-format
@@ -12243,7 +12247,7 @@ msgstr "ბსე სთ-კუბურ ფუტში"
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
-msgstr ""
+msgstr "ბტუ საათში კუბურ ფუტზე;ბტუ/სთ/ფუტი3;ბტუ/სთ/ფტ^3;ბტუ/ფტ^3/სთ;ბტუ/ფტ3/სთ"
 
 #: thermal_generation.cpp:38
 #, kde-format
@@ -13449,7 +13453,7 @@ msgstr "ბიუფორტი"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Beaufort;Bft"
-msgstr ""
+msgstr "ბიუფორტი;ბფტ"
 
 #: velocity.cpp:139
 #, kde-format
@@ -15652,6 +15656,8 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "fluid ounce;fluid ounces;fl.oz.;oz.fl.;oz. fl.;fl. oz.;fl oz;fluid ounce"
 msgstr ""
+"სითხის უნცია;სითხის უნცია;სთხ უნც.;უნც.სითხ.;სითხ. უნც.;უნც. სითხ;სითხ უნც; "
+"უნც სითხ; სითხის უნცია"
 
 #: volume.cpp:479
 #, kde-format
@@ -15779,7 +15785,7 @@ msgstr "გალონი (აშშ სითხე)"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gallon (U.S. liquid);gallons (U.S. liquid);gal;gallon;gallons"
-msgstr ""
+msgstr "გალონი (აშშ სითხე);გალონი (აშშ სითხე);გალ;გალონი;გალონი"
 
 #: volume.cpp:519
 #, kde-format
@@ -15814,6 +15820,8 @@ msgid ""
 "gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
 "gal;imperial gallon;imperial gallons"
 msgstr ""
+"გალონი (იმპერიული);გალონი (იმპერიული);იმპ გალ;იმპ გალონი;იმპ გალონი;"
+"იმპერიული გალ;იმპერიულ გალონი;იმპერიული გალონი"
 
 #: volume.cpp:530
 #, kde-format
@@ -15877,7 +15885,7 @@ msgstr "პინტა (აშშ სითხე)"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
-msgstr ""
+msgstr "პინტა (აშშ სითხე);პინტა (აშშ სითხე);აშშ პინტ;აშშ პინტ;აშშ პინტ;აშშ პ"
 
 #: volume.cpp:550
 #, kde-format
@@ -15953,7 +15961,7 @@ msgstr "გრამი კვადრატულ მეტრზე"
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
-msgstr ""
+msgstr "გსმ;გ/მ;გ/მ2;გმ2;გრამი მეტრზე;გრამი კვადრატულ მეტრზე; გრამი მეტრზე²"
 
 #: weight_per_area.cpp:30
 #, kde-format
@@ -15988,6 +15996,8 @@ msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
 "yard²"
 msgstr ""
+"უნციარ;უნციარდ2;უნც/იარდ;უნც/იარდ2;უნცია უიარდზე;უნცია კვადრატულ იარდზე;"
+"უნცია იარდზე²"
 
 #: weight_per_area.cpp:41
 #, kde-format
