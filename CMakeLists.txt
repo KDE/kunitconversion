@@ -46,7 +46,7 @@ endif()
 
 # I18n
 find_package(KF6I18n ${KF_DEP_VERSION} REQUIRED)
-add_definitions(-DTRANSLATION_DOMAIN=\"kunitconversion5\")
+add_definitions(-DTRANSLATION_DOMAIN=\"kunitconversion6\")
 ki18n_install(po)
 
 ecm_set_disabled_deprecation_versions(
