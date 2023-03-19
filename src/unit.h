@@ -865,7 +865,8 @@ private:
     friend class CurrencyCategoryPrivate;
 
     KUNITCONVERSION_NO_EXPORT explicit Unit(UnitPrivate *dd);
-    void setUnitMultiplier(qreal multiplier);
+
+    KUNITCONVERSION_NO_EXPORT void setUnitMultiplier(qreal multiplier);
 
     QExplicitlySharedDataPointer<UnitPrivate> d;
 };
