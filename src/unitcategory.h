@@ -209,7 +209,7 @@ private:
     friend class Unit;
     friend class UnitCategoryPrivate;
 
-    UnitCategory(UnitCategoryPrivate *dd);
+    KUNITCONVERSION_NO_EXPORT explicit UnitCategory(UnitCategoryPrivate *dd);
 
 protected:
     QExplicitlySharedDataPointer<UnitCategoryPrivate> d;
