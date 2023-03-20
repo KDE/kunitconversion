@@ -1,4 +1,4 @@
-# Translation of kunitconversion5 to Norwegian Nynorsk
+# Translation of kunitconversion6 to Norwegian Nynorsk
 #
 # Eirik U. Birkeland <eirbir@gmail.com>, 2009, 2010.
 # Karl Ove Hufthammer <karl@huftis.org>, 2009, 2016, 2020.
