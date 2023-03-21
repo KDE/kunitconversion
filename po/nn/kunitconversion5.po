@@ -1,13 +1,13 @@
 # Translation of kunitconversion6 to Norwegian Nynorsk
 #
 # Eirik U. Birkeland <eirbir@gmail.com>, 2009, 2010.
-# Karl Ove Hufthammer <karl@huftis.org>, 2009, 2016, 2020.
+# Karl Ove Hufthammer <karl@huftis.org>, 2009, 2016, 2020, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2020-10-11 11:04+0200\n"
+"PO-Revision-Date: 2023-03-20 19:44+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 22.12.3\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -578,7 +578,7 @@ msgstr "kvadratkilometer"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
-msgstr ""
+msgstr "kvadratkilometer;km²;km/-2;km^2;km2"
 
 #: area.cpp:116
 #, kde-format
@@ -675,7 +675,7 @@ msgstr "kvadratmeter"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
-msgstr ""
+msgstr "kvadratmeter;kvadratmeter;m²;m/-2;m^2;m2"
 
 #: area.cpp:146
 #, kde-format
@@ -739,7 +739,7 @@ msgstr "kvadratcentimeter"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
-msgstr ""
+msgstr "kvadratcentimeter;cm²;cm/-2;cm^2;cm2"
 
 #: area.cpp:166
 #, kde-format
@@ -771,7 +771,7 @@ msgstr "kvadratmillimeter"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
-msgstr ""
+msgstr "kvadratmillimeter;mm²;mm/-2;mm^2;mm2"
 
 #: area.cpp:176
 #, kde-format
@@ -3762,7 +3762,7 @@ msgid_plural "%1 grams per milliliter"
 msgstr[0] "%1 gram per milliliter"
 msgstr[1] "%1 gram per milliliter"
 
-# Brukar forkortinga «oz» (står oppført i NAOB). Merk at «ounce» og «ounce» (ifølgje Nynorskordboka, ikkje NAOB) skal reknast som to forskjellige ord. «Unse» er ei gammal «norsk» vekteining og ikkje det same som den britiske «ounce».
+# Brukar forkortinga «oz» (står oppført i NAOB). Merk at «ounce» og «unse» (ifølgje Nynorskordboka, ikkje NAOB) skal reknast som to forskjellige ord. «Unse» er ei gammal «norsk» vekteining og ikkje det same som den britiske «ounce».
 #: density.cpp:66
 #, kde-format
 msgctxt "density unit symbol"
@@ -9653,7 +9653,7 @@ msgstr "amerikanske tonn"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
-msgstr ""
+msgstr "amerikansk tonn;amerikanske tonn;am. t; am. tonn;US-tonn"
 
 #: mass.cpp:239
 #, kde-format
@@ -9685,7 +9685,7 @@ msgstr "karatar"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr ""
+msgstr "karat;karatar;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9719,7 +9719,7 @@ msgstr "pund"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr ""
+msgstr "pund;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
@@ -13268,11 +13268,12 @@ msgctxt "unit description in lists"
 msgid "meters per second"
 msgstr "meter per sekund"
 
+# «ms» er opptatt av «matskei» på nynorsk, så kuttar ut denne.
 #: velocity.cpp:55
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "meter per second;meters per second;m/s;ms"
-msgstr "meter per sekund;meter i sekundet;m/s;ms"
+msgstr "meter per sekund;meter i sekundet;m/s"
 
 #: velocity.cpp:57
 #, kde-format
@@ -15805,65 +15806,66 @@ msgstr[1] "%1 koppar"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr ""
+msgstr "ts"
 
 #: volume.cpp:496
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teaspoon"
-msgstr ""
+msgstr "teskei"
 
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr ""
+msgstr "teskei;teskeier;ts"
 
 #: volume.cpp:499
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr ""
+msgstr "%1 teskeier"
 
 #: volume.cpp:500
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teaspoon"
 msgid_plural "%1 teaspoons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 teskei"
+msgstr[1] "%1 teskeier"
 
 #: volume.cpp:505
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr ""
+msgstr "ms"
 
 #: volume.cpp:506
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tablespoon"
-msgstr ""
+msgstr "matskei"
 
+# Heiter eigentleg ikkje spiseskei på nynorsk, men det finst mange andre ord med spise- som prefiks på nynorsk, og folk skriv gjerne spiseskei, så bør godtakast. «ss» er ei forkorting som ifølgje ordboka tyder «stor skei» på nynorsk. Er det same som matskei/spiseskei.
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr ""
+msgstr "matskei;matskeier;stor skei;store skeier;spiseskei;spiseskeier;ms;ss"
 
 #: volume.cpp:509
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tablespoons"
-msgstr ""
+msgstr "%1 matskeier"
 
 #: volume.cpp:510
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tablespoon"
 msgid_plural "%1 tablespoons"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 matskei"
+msgstr[1] "%1 matskeier"
 
 # unreviewed-context
 #: volume.cpp:515
