@@ -25,8 +25,8 @@ UnitCategory Volume::makeCategory()
                        i18nc("volume unit symbol", "Ym³"),
                        i18nc("unit description in lists", "cubic yottameters"),
                        i18nc("unit synonyms for matching user input", "cubic yottameter;cubic yottameters;Ym³;Ym/-3;Ym^3;Ym3"),
-                       ki18nc("amount in units (real)", "%1 cubic yottameters"),
                        symbolString,
+                       ki18nc("amount in units (real)", "%1 cubic yottameters"),
                        ki18ncp("amount in units (integer)", "%1 cubic yottameter", "%1 cubic yottameters")));
 
     d->addUnit(UnitPrivate::makeUnit(VolumeCategory,
