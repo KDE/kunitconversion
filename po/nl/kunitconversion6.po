@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-01 21:29+0000\n"
+"POT-Creation-Date: 2023-03-22 02:44+0000\n"
 "PO-Revision-Date: 2023-03-05 14:33+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -14222,7 +14222,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "cubic yottameter;cubic yottameters;Ym³;Ym/-3;Ym^3;Ym3"
 msgstr "kubieke yottameter;kubieke yottameters;Ym³;Ym/-3;Ym^3;Ym3"
 
-#: volume.cpp:28
+#: volume.cpp:29
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 cubic yottameters"

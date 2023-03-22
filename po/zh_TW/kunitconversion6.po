@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-01 21:29+0000\n"
+"POT-Creation-Date: 2023-03-22 02:44+0000\n"
 "PO-Revision-Date: 2020-05-14 23:34+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -13806,7 +13806,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "cubic yottameter;cubic yottameters;Ym³;Ym/-3;Ym^3;Ym3"
 msgstr "立方佑米;cubic yottameter;cubic yottameters;Ym³;Ym/-3;Ym^3;Ym3"
 
-#: volume.cpp:28
+#: volume.cpp:29
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 cubic yottameters"

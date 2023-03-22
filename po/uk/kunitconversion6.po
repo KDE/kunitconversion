@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-01 21:29+0000\n"
+"POT-Creation-Date: 2023-03-22 02:44+0000\n"
 "PO-Revision-Date: 2023-03-02 21:03+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -15291,7 +15291,7 @@ msgstr ""
 "кубічний йотаметр;кубічних йотаметра;кубічні йотаметри;кубічних йотаметрів;"
 "кубічних йотаметрах;Йм³;Йм^3;Йм3"
 
-#: volume.cpp:28
+#: volume.cpp:29
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 cubic yottameters"
