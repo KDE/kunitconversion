@@ -6227,13 +6227,13 @@ msgstr "nm"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "photon wavelength in nanometers"
-msgstr "llargària d'ona del fotó en nanòmetres"
+msgstr "longitud d'ona del fotó en nanòmetres"
 
 #: energy.cpp:343
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nm;photon wavelength"
-msgstr "nm;llargària d'ona del fotó"
+msgstr "nm;longitud d'ona del fotó"
 
 #: energy.cpp:345 length.cpp:179
 #, kde-format
