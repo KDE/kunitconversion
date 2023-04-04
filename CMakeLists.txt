@@ -25,8 +25,9 @@ find_package(Qt6 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Network)
 
 set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6UnitConversion")
 
+set(kunitconversion_version_header "${CMAKE_CURRENT_BINARY_DIR}/src/kunitconversion_version.h")
 ecm_setup_version(PROJECT VARIABLE_PREFIX KUNITCONVERSION
-                        VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/kunitconversion_version.h"
+                        VERSION_HEADER "${kunitconversion_version_header}"
                         PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6UnitConversionConfigVersion.cmake"
                         SOVERSION 6)
 
@@ -73,7 +74,7 @@ install(FILES
 )
 install(EXPORT KF6UnitConversionTargets DESTINATION "${CMAKECONFIG_INSTALL_DIR}" FILE KF6UnitConversionTargets.cmake NAMESPACE KF6:: )
 install(FILES
-    ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion_version.h
+    ${kunitconversion_version_header}
     DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion COMPONENT Devel
 )
 
