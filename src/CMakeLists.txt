@@ -1,6 +1,12 @@
 add_library(KF6UnitConversion)
 add_library(KF6::UnitConversion ALIAS KF6UnitConversion)
 
+set_target_properties(KF6UnitConversion PROPERTIES
+    VERSION     ${KUNITCONVERSION_VERSION}
+    SOVERSION   ${KUNITCONVERSION_SOVERSION}
+    EXPORT_NAME UnitConversion
+)
+
 ecm_qt_declare_logging_category(KF6UnitConversion
     HEADER kunitconversion_debug.h
     IDENTIFIER LOG_KUNITCONVERSION
@@ -64,11 +70,6 @@ target_include_directories(KF6UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KD
 target_link_libraries(KF6UnitConversion PUBLIC  Qt6::Core
                                         PRIVATE Qt6::Network
                                                 KF6::I18n
-)
-
-set_target_properties(KF6UnitConversion PROPERTIES VERSION   ${KUNITCONVERSION_VERSION}
-                                                   SOVERSION ${KUNITCONVERSION_SOVERSION}
-                                                   EXPORT_NAME UnitConversion
 )
 
 ecm_generate_headers(KUnitConversion_CamelCase_HEADERS
