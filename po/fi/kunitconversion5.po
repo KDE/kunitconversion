@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2023-02-23 19:45+0200\n"
+"PO-Revision-Date: 2023-03-14 22:05+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-POT-Import-Date: 2012-12-01 22:24:27+0000\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -9606,12 +9606,10 @@ msgid "tons"
 msgstr "tonnia"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
-msgstr "tonni;tonnia"
+msgstr "tonni;tonnia;t"
 
 #: mass.cpp:239
 #, kde-format
@@ -9640,12 +9638,10 @@ msgid "carats"
 msgstr "karaattia"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "karaatti;karaattia;CD"
+msgstr "karaatti;karaattia;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9674,12 +9670,10 @@ msgid "pounds"
 msgstr "paunaa"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "pauna;paunaa;lb"
+msgstr "pauna;paunaa;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
