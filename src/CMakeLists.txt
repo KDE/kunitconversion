@@ -53,11 +53,13 @@ if (WIN32)
     # when using MSVC if _USE_MATH_DEFINES is defined (this is needed for angle.cpp)
     target_compile_definitions(KF6UnitConversion PRIVATE _USE_MATH_DEFINES)
 endif()
+
 ecm_generate_export_header(KF6UnitConversion
     BASE_NAME KUnitConversion
     EXPORT_FILE_NAME ${CMAKE_CURRENT_BINARY_DIR}/kunitconversion/kunitconversion_export.h
     GROUP_BASE_NAME KF
     VERSION ${KF_VERSION}
+    USE_VERSION_HEADER
     DEPRECATED_BASE_VERSION 0
     DEPRECATION_VERSIONS
     EXCLUDE_DEPRECATED_BEFORE_AND_AT ${EXCLUDE_DEPRECATED_BEFORE_AND_AT}
