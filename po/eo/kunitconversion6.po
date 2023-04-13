@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-22 02:44+0000\n"
-"PO-Revision-Date: 2023-02-17 21:37+0100\n"
+"PO-Revision-Date: 2023-04-12 21:00+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -3940,13 +3940,11 @@ msgid "%1 yottaamperes"
 msgstr "%1 jotaamperoj"
 
 #: electrical_current.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottaamperes"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottaampere"
 msgid_plural "%1 yottaamperes"
-msgstr[0] "%1 jotaamperoj"
+msgstr[0] "%1 jotaampero"
 msgstr[1] "%1 jotaamperoj"
 
 #: electrical_current.cpp:35
@@ -10798,13 +10796,11 @@ msgid "%1 yottapascals"
 msgstr "%1 jotapaskaloj"
 
 #: pressure.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottapascals"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottapascal"
 msgid_plural "%1 yottapascals"
-msgstr[0] "%1 jotapaskaloj"
+msgstr[0] "%1 jotapaskalo"
 msgstr[1] "%1 jotapaskaloj"
 
 #: pressure.cpp:34
@@ -15949,9 +15945,7 @@ msgid "Weight per Area"
 msgstr ""
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15960,15 +15954,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "g/m²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt per square meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "vato por kvadrata metro"
+msgstr "gramoj por kvadrata metro"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -15978,22 +15970,18 @@ msgid ""
 msgstr ""
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 vatoj por kvadrata metro"
+msgstr "%1 gramoj por kvadrata metro"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 vatoj por kvadrata metro"
-msgstr[1] "%1 vatoj por kvadrata metro"
+msgstr[0] "%1 gramo por kvadrata metro"
+msgstr[1] "%1 gramoj por kvadrata metro"
 
 #: weight_per_area.cpp:37
 #, kde-format
@@ -16002,12 +15990,10 @@ msgid "oz/yd²"
 msgstr ""
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "funtoj po kuba jardo"
+msgstr "uncoj por kuba jardo"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -16018,19 +16004,15 @@ msgid ""
 msgstr ""
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 funtoj po kuba jardo"
+msgstr "%1 uncoj po kuba jardo"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 funtoj po kuba jardo"
+msgstr[0] "%1 funto po kuba jardo"
 msgstr[1] "%1 funtoj po kuba jardo"
