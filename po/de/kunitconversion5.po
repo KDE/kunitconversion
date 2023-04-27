@@ -1,5 +1,5 @@
 # Burkhard Lück <lueck@hube-lueck.de>, 2009, 2013, 2014, 2016, 2018, 2019, 2021.
-# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2016, 2020, 2022.
+# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2016, 2020, 2022, 2023.
 # Rolf Eike Beer <kde@opensource.sf-tec.de>, 2009, 2010.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2010.
 # Johannes Obermayr <johannesobermayr@gmx.de>, 2010.
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-01 00:44+0000\n"
-"PO-Revision-Date: 2022-03-13 10:22+0100\n"
+"PO-Revision-Date: 2023-04-26 21:24+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.07.70\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -562,9 +562,7 @@ msgid "square kilometers"
 msgstr "Quadratkilometer"
 
 #: area.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square kilometer;square kilometers;km²;km/-2;km^2;km2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
 msgstr "Quadratkilometer;km²;km^2;km2"
@@ -661,9 +659,7 @@ msgid "square meters"
 msgstr "Quadratmeter"
 
 #: area.cpp:144
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
 msgstr "Quadratmeter;m²;m^2;m2"
@@ -727,9 +723,7 @@ msgid "square centimeters"
 msgstr "Quadratzentimeter"
 
 #: area.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
 msgstr "Quadratzentimeter;cm²;cm^2;cm2"
@@ -761,9 +755,7 @@ msgid "square millimeters"
 msgstr "Quadratmillimeter"
 
 #: area.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
 msgstr "Quadratmillimeter;mm²;mm^2;mm2"
