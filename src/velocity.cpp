@@ -62,7 +62,7 @@ UnitCategory Velocity::makeCategory()
                              0.277778,
                              i18nc("velocity unit symbol", "km/h"),
                              i18nc("unit description in lists", "kilometers per hour"),
-                             i18nc("unit synonyms for matching user input", "kilometer per hour;kilometers per hour;km/h;kmh"),
+                             i18nc("unit synonyms for matching user input", "kilometer per hour;kilometers per hour;km/h;kmh;kph"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 kilometers per hour"),
                              ki18ncp("amount in units (integer)", "%1 kilometer per hour", "%1 kilometers per hour")));
