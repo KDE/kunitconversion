@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-01 00:44+0000\n"
+"POT-Creation-Date: 2023-04-29 00:45+0000\n"
 "PO-Revision-Date: 2022-12-31 15:38+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
@@ -13232,9 +13232,11 @@ msgid "kilometers per hour"
 msgstr "kilometres per hour"
 
 #: velocity.cpp:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
 msgctxt "unit synonyms for matching user input"
-msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
 msgstr "kilometre per hour;kilometres per hour;km/h;kmh"
 
 #: velocity.cpp:67

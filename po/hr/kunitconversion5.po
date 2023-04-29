@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-01 00:44+0000\n"
+"POT-Creation-Date: 2023-04-29 00:45+0000\n"
 "PO-Revision-Date: 2011-07-24 13:27+0200\n"
 "Last-Translator: Marko Dimjašević <marko@dimjasevic.net>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -14603,9 +14603,11 @@ msgid "kilometers per hour"
 msgstr "kilometara na sat"
 
 #: velocity.cpp:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
 msgctxt "unit synonyms for matching user input"
-msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
 msgstr "kilometar na sat;kilometara na sat;km/h;kmh"
 
 #: velocity.cpp:67

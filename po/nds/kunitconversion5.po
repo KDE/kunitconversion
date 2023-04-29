@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-01 00:44+0000\n"
+"POT-Creation-Date: 2023-04-29 00:45+0000\n"
 "PO-Revision-Date: 2014-03-02 20:26+0100\n"
 "Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -14064,9 +14064,11 @@ msgid "kilometers per hour"
 msgstr "Kilometers per Stünn"
 
 #: velocity.cpp:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
 msgctxt "unit synonyms for matching user input"
-msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
 msgstr "Kilometer per Stünn, Kilometers per Stünn, Stünnenkilometers, km/h"
 
 #: velocity.cpp:67
