@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-22 02:44+0000\n"
+"POT-Creation-Date: 2023-04-29 02:19+0000\n"
 "PO-Revision-Date: 2023-03-05 20:54+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque\n"
@@ -13275,9 +13275,11 @@ msgid "kilometers per hour"
 msgstr "kilometro orduko"
 
 #: velocity.cpp:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
 msgctxt "unit synonyms for matching user input"
-msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
 msgstr "kilometro orduko;kilometroak orduko;km/h;kmh"
 
 #: velocity.cpp:67
