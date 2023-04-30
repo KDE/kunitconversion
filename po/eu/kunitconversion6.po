@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-29 02:19+0000\n"
-"PO-Revision-Date: 2023-03-05 20:54+0100\n"
+"PO-Revision-Date: 2023-04-29 10:21+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
-"Language-Team: Basque\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.04.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -13275,12 +13275,10 @@ msgid "kilometers per hour"
 msgstr "kilometro orduko"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "kilometro orduko;kilometroak orduko;km/h;kmh"
+msgstr "kilometro orduko;kilometroak orduko;km/h;kmh;kph"
 
 #: velocity.cpp:67
 #, kde-format

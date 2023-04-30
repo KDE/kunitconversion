@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-29 02:19+0000\n"
-"PO-Revision-Date: 2023-04-10 11:05+0200\n"
+"PO-Revision-Date: 2023-04-29 10:33+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -13654,12 +13654,10 @@ msgid "kilometers per hour"
 msgstr "kilometry na godzinę"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "kilometr na godzinę;kilometry na godzinę;km/h;kmh"
+msgstr "kilometr na godzinę;kilometry na godzinę;km/h;kmh;kph"
 
 #: velocity.cpp:67
 #, kde-format
