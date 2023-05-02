@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-29 02:19+0000\n"
-"PO-Revision-Date: 2023-03-05 13:13+0100\n"
+"PO-Revision-Date: 2023-04-29 10:59+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -6227,13 +6227,13 @@ msgstr "nm"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "photon wavelength in nanometers"
-msgstr "llargària d'ona del fotó en nanòmetres"
+msgstr "longitud d'ona del fotó en nanòmetres"
 
 #: energy.cpp:343
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nm;photon wavelength"
-msgstr "nm;llargària d'ona del fotó"
+msgstr "nm;longitud d'ona del fotó"
 
 #: energy.cpp:345 length.cpp:179
 #, kde-format
@@ -13239,12 +13239,10 @@ msgid "kilometers per hour"
 msgstr "quilòmetres per hora"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "quilòmetre per hora;quilòmetres per hora;km/h;kmh"
+msgstr "quilòmetre per hora;quilòmetres per hora;km/h;kmh;kph"
 
 #: velocity.cpp:67
 #, kde-format
