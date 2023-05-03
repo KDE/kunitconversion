@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-29 00:45+0000\n"
-"PO-Revision-Date: 2022-11-02 14:03+0000\n"
+"PO-Revision-Date: 2023-05-02 11:01+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -189,7 +189,7 @@ msgstr ""
 "X-POFile-SpellExtra: YB yotabits gigabit KiB Tb Tib mebibyte zetabytes Yb\n"
 "X-POFile-SpellExtra: yotabit Kib TB TiB yobibits zebibits zetabyte exbibit\n"
 "X-POFile-SpellExtra: kb kibibyte gigabyte terabits Eib pebibyte pebibytes\n"
-"X-POFile-SpellExtra: dBk dBm dBmW dB dBuW dBkW dBW imp pit col lbs ct\n"
+"X-POFile-SpellExtra: dBk dBm dBmW dB dBuW dBkW dBW imp pit col lbs ct kph\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -13405,12 +13405,10 @@ msgid "kilometers per hour"
 msgstr "quilómetros por hora"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "quilómetro por hora;quilómetros por hora;km/h;kmh"
+msgstr "quilómetro por hora;quilómetros por hora;km/h;kmh;kph"
 
 #: velocity.cpp:67
 #, kde-format
