@@ -1,4 +1,4 @@
-# Translation of kunitconversion5 to Northern Sami
+# Translation of kunitconversion6 to Northern Sami
 #
 # Børre Gaup <boerre@skolelinux.no>, 2010, 2011.
 msgid ""
