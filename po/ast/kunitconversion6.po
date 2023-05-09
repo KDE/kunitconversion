@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-29 02:19+0000\n"
-"PO-Revision-Date: 2023-04-30 22:46+0200\n"
+"PO-Revision-Date: 2023-05-09 00:58+0200\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
 "Language: ast\n"
@@ -26,7 +26,7 @@ msgstr "Aceleración"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (acceleration)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: acceleration.cpp:24
 #, kde-format
@@ -96,7 +96,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "acceleration unit symbol"
 msgid "g"
-msgstr ""
+msgstr "g"
 
 #: acceleration.cpp:45
 #, kde-format
@@ -133,13 +133,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (angle)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: angle.cpp:52
 #, kde-format
 msgctxt "angle unit symbol"
 msgid "°"
-msgstr ""
+msgstr "°"
 
 #: angle.cpp:53
 #, kde-format
@@ -235,7 +235,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "angle unit symbol"
 msgid "'"
-msgstr ""
+msgstr "'"
 
 #: angle.cpp:83
 #, kde-format
@@ -267,7 +267,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "angle unit symbol"
 msgid "\""
-msgstr ""
+msgstr "\""
 
 #: angle.cpp:93
 #, kde-format
@@ -306,14 +306,14 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (area)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #. i18n: Used when unit symbol is needed.
 #: area.cpp:29
 #, kde-format
 msgctxt "area unit symbol"
 msgid "Ym²"
-msgstr ""
+msgstr "Ym²"
 
 #. i18n: unit as it will be shown to user wherever units are to
 #. be explicitly selected (listbox, radio buttons, checkboxes...).
@@ -358,7 +358,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "Zm²"
-msgstr ""
+msgstr "Zm²"
 
 #: area.cpp:53
 #, kde-format
@@ -390,7 +390,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "Em²"
-msgstr ""
+msgstr "Em²"
 
 #: area.cpp:63
 #, kde-format
@@ -422,7 +422,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "Pm²"
-msgstr ""
+msgstr "Pm²"
 
 #: area.cpp:73
 #, kde-format
@@ -454,7 +454,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "Tm²"
-msgstr ""
+msgstr "Tm²"
 
 #: area.cpp:83
 #, kde-format
@@ -486,7 +486,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "Gm²"
-msgstr ""
+msgstr "Gm²"
 
 #: area.cpp:93
 #, kde-format
@@ -518,7 +518,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "Mm²"
-msgstr ""
+msgstr "Mm²"
 
 #: area.cpp:103
 #, kde-format
@@ -550,7 +550,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "km²"
-msgstr ""
+msgstr "km²"
 
 #: area.cpp:113
 #, kde-format
@@ -582,7 +582,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "hm²"
-msgstr ""
+msgstr "hm²"
 
 #: area.cpp:123
 #, kde-format
@@ -615,7 +615,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "dam²"
-msgstr ""
+msgstr "dam²"
 
 #: area.cpp:133
 #, kde-format
@@ -647,7 +647,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "m²"
-msgstr ""
+msgstr "m²"
 
 #: area.cpp:143
 #, kde-format
@@ -679,7 +679,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "dm²"
-msgstr ""
+msgstr "dm²"
 
 #: area.cpp:153
 #, kde-format
@@ -711,7 +711,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "cm²"
-msgstr ""
+msgstr "cm²"
 
 #: area.cpp:163
 #, kde-format
@@ -743,7 +743,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "mm²"
-msgstr ""
+msgstr "mm²"
 
 #: area.cpp:173
 #, kde-format
@@ -775,7 +775,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "µm²"
-msgstr ""
+msgstr "µm²"
 
 #: area.cpp:183
 #, kde-format
@@ -807,7 +807,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "nm²"
-msgstr ""
+msgstr "nm²"
 
 #: area.cpp:193
 #, kde-format
@@ -839,7 +839,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "pm²"
-msgstr ""
+msgstr "pm²"
 
 #: area.cpp:203
 #, kde-format
@@ -871,7 +871,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "fm²"
-msgstr ""
+msgstr "fm²"
 
 #: area.cpp:213
 #, kde-format
@@ -903,7 +903,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "am²"
-msgstr ""
+msgstr "am²"
 
 #: area.cpp:223
 #, kde-format
@@ -935,7 +935,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "zm²"
-msgstr ""
+msgstr "zm²"
 
 #: area.cpp:233
 #, kde-format
@@ -967,7 +967,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "ym²"
-msgstr ""
+msgstr "ym²"
 
 #: area.cpp:243
 #, kde-format
@@ -999,7 +999,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "acre"
-msgstr ""
+msgstr "acre"
 
 #: area.cpp:253
 #, kde-format
@@ -1031,7 +1031,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "ft²"
-msgstr ""
+msgstr "ft²"
 
 #: area.cpp:263
 #, kde-format
@@ -1063,7 +1063,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "in²"
-msgstr ""
+msgstr "in²"
 
 #: area.cpp:273
 #, kde-format
@@ -1097,7 +1097,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "mi²"
-msgstr ""
+msgstr "mi²"
 
 #: area.cpp:283
 #, kde-format
@@ -1139,13 +1139,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (binary data)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: binary_data.cpp:51
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "YiB"
-msgstr ""
+msgstr "YiB "
 
 #: binary_data.cpp:52
 #, kde-format
@@ -1177,7 +1177,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Yib"
-msgstr ""
+msgstr "Yib"
 
 #: binary_data.cpp:62
 #, kde-format
@@ -1209,7 +1209,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "YB"
-msgstr ""
+msgstr "YB"
 
 #: binary_data.cpp:72
 #, kde-format
@@ -1241,7 +1241,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Yb"
-msgstr ""
+msgstr "Yb"
 
 #: binary_data.cpp:82
 #, kde-format
@@ -1273,7 +1273,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "ZiB"
-msgstr ""
+msgstr "ZiB"
 
 #: binary_data.cpp:92
 #, kde-format
@@ -1305,7 +1305,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zib"
-msgstr ""
+msgstr "Zib"
 
 #: binary_data.cpp:102
 #, kde-format
@@ -1337,7 +1337,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "ZB"
-msgstr ""
+msgstr "ZB"
 
 #: binary_data.cpp:112
 #, kde-format
@@ -1369,7 +1369,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zb"
-msgstr ""
+msgstr "Zb"
 
 #: binary_data.cpp:122
 #, kde-format
@@ -1401,7 +1401,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "EiB"
-msgstr ""
+msgstr "EiB"
 
 #: binary_data.cpp:132
 #, kde-format
@@ -1433,7 +1433,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Eib"
-msgstr ""
+msgstr "Eib"
 
 #: binary_data.cpp:142
 #, kde-format
@@ -1465,7 +1465,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "EB"
-msgstr ""
+msgstr "EB"
 
 #: binary_data.cpp:152
 #, kde-format
@@ -1497,7 +1497,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Eb"
-msgstr ""
+msgstr "Eb"
 
 #: binary_data.cpp:162
 #, kde-format
@@ -1529,7 +1529,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #: binary_data.cpp:172
 #, kde-format
@@ -1561,7 +1561,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Pib"
-msgstr ""
+msgstr "Pib"
 
 #: binary_data.cpp:182
 #, kde-format
@@ -1593,7 +1593,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PB"
-msgstr ""
+msgstr "PB"
 
 #: binary_data.cpp:192
 #, kde-format
@@ -1625,7 +1625,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Pb"
-msgstr ""
+msgstr "Pb"
 
 #: binary_data.cpp:202
 #, kde-format
@@ -1657,7 +1657,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #: binary_data.cpp:212
 #, kde-format
@@ -1689,7 +1689,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Tib"
-msgstr ""
+msgstr "Tib"
 
 #: binary_data.cpp:222
 #, kde-format
@@ -1721,7 +1721,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: binary_data.cpp:232
 #, kde-format
@@ -1753,7 +1753,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Tb"
-msgstr ""
+msgstr "Tb"
 
 #: binary_data.cpp:242
 #, kde-format
@@ -1785,7 +1785,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: binary_data.cpp:252
 #, kde-format
@@ -1817,7 +1817,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Gib"
-msgstr ""
+msgstr "Gib"
 
 #: binary_data.cpp:262
 #, kde-format
@@ -1849,7 +1849,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: binary_data.cpp:272
 #, kde-format
@@ -1881,7 +1881,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Gb"
-msgstr ""
+msgstr "Gb"
 
 #: binary_data.cpp:282
 #, kde-format
@@ -1913,7 +1913,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: binary_data.cpp:292
 #, kde-format
@@ -1945,7 +1945,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Mib"
-msgstr ""
+msgstr "Mib"
 
 #: binary_data.cpp:302
 #, kde-format
@@ -1977,7 +1977,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: binary_data.cpp:312
 #, kde-format
@@ -2009,7 +2009,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Mb"
-msgstr ""
+msgstr "Mb"
 
 #: binary_data.cpp:322
 #, kde-format
@@ -2041,7 +2041,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: binary_data.cpp:332
 #, kde-format
@@ -2073,7 +2073,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Kib"
-msgstr ""
+msgstr "Kib"
 
 #: binary_data.cpp:342
 #, kde-format
@@ -2105,7 +2105,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: binary_data.cpp:352
 #, kde-format
@@ -2137,7 +2137,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kb"
-msgstr ""
+msgstr "kb"
 
 #: binary_data.cpp:362
 #, kde-format
@@ -2169,7 +2169,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: binary_data.cpp:372
 #, kde-format
@@ -2201,7 +2201,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #: binary_data.cpp:382
 #, kde-format
@@ -2243,7 +2243,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (currency)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: currency.cpp:73 currency.cpp:75
 #, kde-format
@@ -3606,77 +3606,77 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (density)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: density.cpp:24
 #, kde-format
 msgctxt "density unit symbol"
 msgid "kg/m³"
-msgstr ""
+msgstr "kg/m³"
 
 #: density.cpp:25
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilograms per cubic meter"
-msgstr ""
+msgstr "quilogramos per metru cúbicu"
 
 #: density.cpp:26
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³"
-msgstr ""
+msgstr "quilogramu per metru cúbicu;quilogramos per metru cúbicu; kg/m³"
 
 #: density.cpp:28
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilograms per cubic meter"
-msgstr ""
+msgstr "%1 quilogramos per metru cúbicu"
 
 #: density.cpp:29
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilogram per cubic meter"
 msgid_plural "%1 kilograms per cubic meter"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 quilogramu per metru cúbicu"
+msgstr[1] "%1 quilogramos per metru cúbicu"
 
 #: density.cpp:35
 #, kde-format
 msgctxt "density unit symbol"
 msgid "kg/l"
-msgstr ""
+msgstr "kg/l"
 
 #: density.cpp:36
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilograms per liter"
-msgstr ""
+msgstr "quilogramos per llitru"
 
 #: density.cpp:37
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram per liter;kilograms per liter;kg/l"
-msgstr ""
+msgstr "quilogramu per llitru;quilogramos per llitru;kg/l"
 
 #: density.cpp:39
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilograms per liter"
-msgstr ""
+msgstr "%1 quilogramos per llitru"
 
 #: density.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilogram per liter"
 msgid_plural "%1 kilograms per liter"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 quilogramu per llitru"
+msgstr[1] "%1 quilogramos per llitru"
 
 #: density.cpp:45
 #, kde-format
 msgctxt "density unit symbol"
 msgid "g/l"
-msgstr ""
+msgstr "g/l"
 
 #: density.cpp:46
 #, kde-format
@@ -3708,7 +3708,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "density unit symbol"
 msgid "g/ml"
-msgstr ""
+msgstr "g/ml"
 
 #: density.cpp:56
 #, kde-format
@@ -3740,7 +3740,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "density unit symbol"
 msgid "oz/in³"
-msgstr ""
+msgstr "oz/in³"
 
 #: density.cpp:67
 #, kde-format
@@ -3772,7 +3772,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "density unit symbol"
 msgid "oz/ft³"
-msgstr ""
+msgstr "oz/ft³"
 
 #: density.cpp:77
 #, kde-format
@@ -3804,7 +3804,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "density unit symbol"
 msgid "lb/in³"
-msgstr ""
+msgstr "lb/in³"
 
 #: density.cpp:87
 #, kde-format
@@ -3836,7 +3836,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "density unit symbol"
 msgid "lb/ft³"
-msgstr ""
+msgstr "lb/ft³"
 
 #: density.cpp:97
 #, kde-format
@@ -3868,7 +3868,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "density unit symbol"
 msgid "lb/yd³"
-msgstr ""
+msgstr "lb/yd³"
 
 #: density.cpp:107
 #, kde-format
@@ -3905,13 +3905,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (electrical current"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: electrical_current.cpp:25
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "YA"
-msgstr ""
+msgstr "YA"
 
 #: electrical_current.cpp:26
 #, kde-format
@@ -3943,7 +3943,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "ZA"
-msgstr ""
+msgstr "ZA"
 
 #: electrical_current.cpp:36
 #, kde-format
@@ -3975,7 +3975,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "EA"
-msgstr ""
+msgstr "EA"
 
 #: electrical_current.cpp:46
 #, kde-format
@@ -4007,7 +4007,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "PA"
-msgstr ""
+msgstr "PA"
 
 #: electrical_current.cpp:56
 #, kde-format
@@ -4039,7 +4039,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "TA"
-msgstr ""
+msgstr "TA"
 
 #: electrical_current.cpp:66
 #, kde-format
@@ -4071,7 +4071,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "GA"
-msgstr ""
+msgstr "GA"
 
 #: electrical_current.cpp:76
 #, kde-format
@@ -4103,7 +4103,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "MA"
-msgstr ""
+msgstr "MA"
 
 #: electrical_current.cpp:86
 #, kde-format
@@ -4135,7 +4135,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "kA"
-msgstr ""
+msgstr "kA"
 
 #: electrical_current.cpp:96
 #, kde-format
@@ -4167,7 +4167,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "hA"
-msgstr ""
+msgstr "hA"
 
 #: electrical_current.cpp:106
 #, kde-format
@@ -4199,7 +4199,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "daA"
-msgstr ""
+msgstr "daA"
 
 #: electrical_current.cpp:116
 #, kde-format
@@ -4231,7 +4231,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: electrical_current.cpp:126
 #, kde-format
@@ -4263,7 +4263,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "dA"
-msgstr ""
+msgstr "dA"
 
 #: electrical_current.cpp:136
 #, kde-format
@@ -4295,7 +4295,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "cA"
-msgstr ""
+msgstr "cA"
 
 #: electrical_current.cpp:146
 #, kde-format
@@ -4327,7 +4327,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "mA"
-msgstr ""
+msgstr "mA"
 
 #: electrical_current.cpp:156
 #, kde-format
@@ -4359,7 +4359,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "µA"
-msgstr ""
+msgstr "µA"
 
 #: electrical_current.cpp:166
 #, kde-format
@@ -4391,7 +4391,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "nA"
-msgstr ""
+msgstr "nA"
 
 #: electrical_current.cpp:176
 #, kde-format
@@ -4423,7 +4423,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "pA"
-msgstr ""
+msgstr "pA"
 
 #: electrical_current.cpp:186
 #, kde-format
@@ -4455,7 +4455,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "fA"
-msgstr ""
+msgstr "fA"
 
 #: electrical_current.cpp:196
 #, kde-format
@@ -4487,7 +4487,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "aA"
-msgstr ""
+msgstr "aA"
 
 #: electrical_current.cpp:206
 #, kde-format
@@ -4519,7 +4519,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "zA"
-msgstr ""
+msgstr "zA"
 
 #: electrical_current.cpp:216
 #, kde-format
@@ -4551,7 +4551,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "yA"
-msgstr ""
+msgstr "yA"
 
 #: electrical_current.cpp:226
 #, kde-format
@@ -4588,13 +4588,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (electrical resistance"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: electrical_resistance.cpp:25
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "YΩ"
-msgstr ""
+msgstr "YΩ"
 
 #: electrical_resistance.cpp:26
 #, kde-format
@@ -4626,7 +4626,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "ZΩ"
-msgstr ""
+msgstr "ZΩ"
 
 #: electrical_resistance.cpp:36
 #, kde-format
@@ -4658,7 +4658,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "EΩ"
-msgstr ""
+msgstr "EΩ"
 
 #: electrical_resistance.cpp:46
 #, kde-format
@@ -4690,7 +4690,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "PΩ"
-msgstr ""
+msgstr "PΩ"
 
 #: electrical_resistance.cpp:56
 #, kde-format
@@ -4722,7 +4722,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "TΩ"
-msgstr ""
+msgstr "TΩ"
 
 #: electrical_resistance.cpp:66
 #, kde-format
@@ -4754,7 +4754,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "GΩ"
-msgstr ""
+msgstr "GΩ"
 
 #: electrical_resistance.cpp:76
 #, kde-format
@@ -4786,7 +4786,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "MΩ"
-msgstr ""
+msgstr "MΩ"
 
 #: electrical_resistance.cpp:86
 #, kde-format
@@ -4818,7 +4818,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "kΩ"
-msgstr ""
+msgstr "kΩ"
 
 #: electrical_resistance.cpp:96
 #, kde-format
@@ -4850,7 +4850,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "hΩ"
-msgstr ""
+msgstr "hΩ"
 
 #: electrical_resistance.cpp:106
 #, kde-format
@@ -4882,7 +4882,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "daΩ"
-msgstr ""
+msgstr "daΩ"
 
 #: electrical_resistance.cpp:116
 #, kde-format
@@ -4914,7 +4914,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "Ω"
-msgstr ""
+msgstr "Ω"
 
 #: electrical_resistance.cpp:126
 #, kde-format
@@ -4946,7 +4946,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "dΩ"
-msgstr ""
+msgstr "dΩ"
 
 #: electrical_resistance.cpp:136
 #, kde-format
@@ -4978,7 +4978,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "cΩ"
-msgstr ""
+msgstr "cΩ"
 
 #: electrical_resistance.cpp:146
 #, kde-format
@@ -5010,7 +5010,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "mΩ"
-msgstr ""
+msgstr "mΩ"
 
 #: electrical_resistance.cpp:156
 #, kde-format
@@ -5042,7 +5042,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "µΩ"
-msgstr ""
+msgstr "µΩ"
 
 #: electrical_resistance.cpp:166
 #, kde-format
@@ -5074,7 +5074,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "nΩ"
-msgstr ""
+msgstr "nΩ"
 
 #: electrical_resistance.cpp:176
 #, kde-format
@@ -5106,7 +5106,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "pΩ"
-msgstr ""
+msgstr "pΩ"
 
 #: electrical_resistance.cpp:186
 #, kde-format
@@ -5138,7 +5138,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "fΩ"
-msgstr ""
+msgstr "fΩ"
 
 #: electrical_resistance.cpp:196
 #, kde-format
@@ -5170,7 +5170,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "aΩ"
-msgstr ""
+msgstr "aΩ"
 
 #: electrical_resistance.cpp:206
 #, kde-format
@@ -5202,7 +5202,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "zΩ"
-msgstr ""
+msgstr "zΩ"
 
 #: electrical_resistance.cpp:216
 #, kde-format
@@ -5234,7 +5234,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "yΩ"
-msgstr ""
+msgstr "yΩ"
 
 #: electrical_resistance.cpp:226
 #, kde-format
@@ -5271,13 +5271,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (energy)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: energy.cpp:51
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "YJ"
-msgstr ""
+msgstr "YJ"
 
 #: energy.cpp:52
 #, kde-format
@@ -5309,7 +5309,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "ZJ"
-msgstr ""
+msgstr "ZJ"
 
 #: energy.cpp:62
 #, kde-format
@@ -5341,7 +5341,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "EJ"
-msgstr ""
+msgstr "EJ"
 
 #: energy.cpp:72
 #, kde-format
@@ -5373,7 +5373,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "PJ"
-msgstr ""
+msgstr "PJ"
 
 #: energy.cpp:82
 #, kde-format
@@ -5405,7 +5405,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "TJ"
-msgstr ""
+msgstr "TJ"
 
 #: energy.cpp:92
 #, kde-format
@@ -5437,7 +5437,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "GJ"
-msgstr ""
+msgstr "GJ"
 
 #: energy.cpp:102
 #, kde-format
@@ -5469,7 +5469,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "MJ"
-msgstr ""
+msgstr "MJ"
 
 #: energy.cpp:112
 #, kde-format
@@ -5501,7 +5501,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kJ"
-msgstr ""
+msgstr "kJ"
 
 #: energy.cpp:122
 #, kde-format
@@ -5533,7 +5533,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "hJ"
-msgstr ""
+msgstr "hJ"
 
 #: energy.cpp:132
 #, kde-format
@@ -5565,7 +5565,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "daJ"
-msgstr ""
+msgstr "daJ"
 
 #: energy.cpp:142
 #, kde-format
@@ -5597,7 +5597,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "J"
-msgstr ""
+msgstr "J"
 
 #: energy.cpp:152
 #, kde-format
@@ -5629,7 +5629,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "dJ"
-msgstr ""
+msgstr "dJ"
 
 #: energy.cpp:162
 #, kde-format
@@ -5661,7 +5661,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "cJ"
-msgstr ""
+msgstr "cJ"
 
 #: energy.cpp:172
 #, kde-format
@@ -5693,7 +5693,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "mJ"
-msgstr ""
+msgstr "mJ"
 
 #: energy.cpp:182
 #, kde-format
@@ -5725,7 +5725,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "µJ"
-msgstr ""
+msgstr "µJ"
 
 #: energy.cpp:192
 #, kde-format
@@ -5757,7 +5757,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "nJ"
-msgstr ""
+msgstr "nJ"
 
 #: energy.cpp:202
 #, kde-format
@@ -5789,7 +5789,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "pJ"
-msgstr ""
+msgstr "pJ"
 
 #: energy.cpp:212
 #, kde-format
@@ -5821,7 +5821,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "fJ"
-msgstr ""
+msgstr "fJ"
 
 #: energy.cpp:222
 #, kde-format
@@ -5853,7 +5853,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "aJ"
-msgstr ""
+msgstr "aJ"
 
 #: energy.cpp:232
 #, kde-format
@@ -5885,7 +5885,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "zJ"
-msgstr ""
+msgstr "zJ"
 
 #: energy.cpp:242
 #, kde-format
@@ -5917,7 +5917,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "yJ"
-msgstr ""
+msgstr "yJ"
 
 #: energy.cpp:252
 #, kde-format
@@ -5949,7 +5949,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "GDA"
-msgstr ""
+msgstr "GDA"
 
 #: energy.cpp:262
 #, kde-format
@@ -5981,7 +5981,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "eV"
-msgstr ""
+msgstr "eV"
 
 #: energy.cpp:272
 #, kde-format
@@ -6013,7 +6013,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "J/mol"
-msgstr ""
+msgstr "J/mol"
 
 #: energy.cpp:282
 #, kde-format
@@ -6045,7 +6045,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kJ/mol"
-msgstr ""
+msgstr "kJ/mol"
 
 #: energy.cpp:292
 #, kde-format
@@ -6079,7 +6079,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "Ry"
-msgstr ""
+msgstr "Ry"
 
 #: energy.cpp:302
 #, kde-format
@@ -6111,7 +6111,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kcal"
-msgstr ""
+msgstr "kcal"
 
 #: energy.cpp:312
 #, kde-format
@@ -6143,7 +6143,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "BTU"
-msgstr ""
+msgstr "BTU"
 
 #: energy.cpp:322
 #, kde-format
@@ -6175,7 +6175,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "Erg"
-msgstr ""
+msgstr "Erg"
 
 #: energy.cpp:332
 #, kde-format
@@ -6207,7 +6207,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "nm"
-msgstr ""
+msgstr "nm"
 
 #: energy.cpp:342
 #, kde-format
@@ -6244,13 +6244,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (force"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: force.cpp:24
 #, kde-format
 msgctxt "force unit symbol"
 msgid "YN"
-msgstr ""
+msgstr "YN"
 
 #: force.cpp:25
 #, kde-format
@@ -6282,7 +6282,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "ZN"
-msgstr ""
+msgstr "ZN"
 
 #: force.cpp:35
 #, kde-format
@@ -6314,7 +6314,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "EN"
-msgstr ""
+msgstr "EN"
 
 #: force.cpp:45
 #, kde-format
@@ -6346,7 +6346,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "PN"
-msgstr ""
+msgstr "PN"
 
 #: force.cpp:55
 #, kde-format
@@ -6378,7 +6378,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "TN"
-msgstr ""
+msgstr "TN"
 
 #: force.cpp:65
 #, kde-format
@@ -6410,7 +6410,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "GN"
-msgstr ""
+msgstr "GN"
 
 #: force.cpp:75
 #, kde-format
@@ -6442,7 +6442,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "MN"
-msgstr ""
+msgstr "MN"
 
 #: force.cpp:85
 #, kde-format
@@ -6474,7 +6474,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "kN"
-msgstr ""
+msgstr "kN"
 
 #: force.cpp:95
 #, kde-format
@@ -6506,7 +6506,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "hN"
-msgstr ""
+msgstr "hN"
 
 #: force.cpp:105
 #, kde-format
@@ -6538,7 +6538,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "daN"
-msgstr ""
+msgstr "daN"
 
 #: force.cpp:115
 #, kde-format
@@ -6570,7 +6570,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: force.cpp:125 mass.cpp:289
 #, kde-format
@@ -6602,7 +6602,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "dN"
-msgstr ""
+msgstr "dN"
 
 #: force.cpp:135
 #, kde-format
@@ -6634,7 +6634,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "cN"
-msgstr ""
+msgstr "cN"
 
 #: force.cpp:145
 #, kde-format
@@ -6666,7 +6666,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "mN"
-msgstr ""
+msgstr "mN"
 
 #: force.cpp:155
 #, kde-format
@@ -6698,7 +6698,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "µN"
-msgstr ""
+msgstr "µN"
 
 #: force.cpp:165
 #, kde-format
@@ -6730,7 +6730,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "nN"
-msgstr ""
+msgstr "nN"
 
 #: force.cpp:175
 #, kde-format
@@ -6762,7 +6762,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "pN"
-msgstr ""
+msgstr "pN"
 
 #: force.cpp:185
 #, kde-format
@@ -6794,7 +6794,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "fN"
-msgstr ""
+msgstr "fN"
 
 #: force.cpp:195
 #, kde-format
@@ -6826,7 +6826,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "aN"
-msgstr ""
+msgstr "aN"
 
 #: force.cpp:205
 #, kde-format
@@ -6858,7 +6858,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "zN"
-msgstr ""
+msgstr "zN"
 
 #: force.cpp:215
 #, kde-format
@@ -6890,7 +6890,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "yN"
-msgstr ""
+msgstr "yN"
 
 #: force.cpp:225
 #, kde-format
@@ -6922,7 +6922,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "dyn"
-msgstr ""
+msgstr "dyn"
 
 #: force.cpp:236
 #, kde-format
@@ -6954,7 +6954,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "kp"
-msgstr ""
+msgstr "kp"
 
 #: force.cpp:246
 #, kde-format
@@ -6986,7 +6986,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "lbf"
-msgstr ""
+msgstr "lbf"
 
 #: force.cpp:256
 #, kde-format
@@ -7018,7 +7018,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "force unit symbol"
 msgid "pdl"
-msgstr ""
+msgstr "pdl"
 
 #: force.cpp:266
 #, kde-format
@@ -7055,13 +7055,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (frequency"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: frequency.cpp:25
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "YHz"
-msgstr ""
+msgstr "YHz"
 
 #: frequency.cpp:26
 #, kde-format
@@ -7093,7 +7093,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "ZHz"
-msgstr ""
+msgstr "ZHz"
 
 #: frequency.cpp:36
 #, kde-format
@@ -7125,7 +7125,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "EHz"
-msgstr ""
+msgstr "EHz"
 
 #: frequency.cpp:46
 #, kde-format
@@ -7157,7 +7157,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "PHz"
-msgstr ""
+msgstr "PHz"
 
 #: frequency.cpp:56
 #, kde-format
@@ -7189,7 +7189,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "THz"
-msgstr ""
+msgstr "THz"
 
 #: frequency.cpp:66
 #, kde-format
@@ -7221,7 +7221,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "GHz"
-msgstr ""
+msgstr "GHz"
 
 #: frequency.cpp:76
 #, kde-format
@@ -7253,7 +7253,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "MHz"
-msgstr ""
+msgstr "MHz"
 
 #: frequency.cpp:86
 #, kde-format
@@ -7285,7 +7285,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "kHz"
-msgstr ""
+msgstr "kHz"
 
 #: frequency.cpp:96
 #, kde-format
@@ -7317,7 +7317,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "hHz"
-msgstr ""
+msgstr "hHz"
 
 #: frequency.cpp:106
 #, kde-format
@@ -7349,7 +7349,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "daHz"
-msgstr ""
+msgstr "daHz"
 
 #: frequency.cpp:116
 #, kde-format
@@ -7381,7 +7381,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "Hz"
-msgstr ""
+msgstr "Hz"
 
 #: frequency.cpp:126
 #, kde-format
@@ -7413,7 +7413,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "dHz"
-msgstr ""
+msgstr "dHz"
 
 #: frequency.cpp:136
 #, kde-format
@@ -7445,7 +7445,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "cHz"
-msgstr ""
+msgstr "cHz"
 
 #: frequency.cpp:146
 #, kde-format
@@ -7477,7 +7477,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "mHz"
-msgstr ""
+msgstr "mHz"
 
 #: frequency.cpp:156
 #, kde-format
@@ -7509,7 +7509,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "µHz"
-msgstr ""
+msgstr "µHz"
 
 #: frequency.cpp:166
 #, kde-format
@@ -7541,7 +7541,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "nHz"
-msgstr ""
+msgstr "nHz"
 
 #: frequency.cpp:176
 #, kde-format
@@ -7573,7 +7573,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "pHz"
-msgstr ""
+msgstr "pHz"
 
 #: frequency.cpp:186
 #, kde-format
@@ -7605,7 +7605,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "fHz"
-msgstr ""
+msgstr "fHz"
 
 #: frequency.cpp:196
 #, kde-format
@@ -7637,7 +7637,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "aHz"
-msgstr ""
+msgstr "aHz"
 
 #: frequency.cpp:206
 #, kde-format
@@ -7669,7 +7669,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "zHz"
-msgstr ""
+msgstr "zHz"
 
 #: frequency.cpp:216
 #, kde-format
@@ -7701,7 +7701,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "yHz"
-msgstr ""
+msgstr "yHz"
 
 #: frequency.cpp:226
 #, kde-format
@@ -7733,7 +7733,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "RPM"
-msgstr ""
+msgstr "RPM"
 
 #: frequency.cpp:236
 #, kde-format
@@ -7770,13 +7770,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (fuel efficiency)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: fuel_efficiency.cpp:65
 #, kde-format
 msgctxt "fuelefficiency unit symbol"
 msgid "l/100 km"
-msgstr ""
+msgstr "l/100 km"
 
 #: fuel_efficiency.cpp:66
 #, kde-format
@@ -7808,7 +7808,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "fuelefficiency unit symbol"
 msgid "mpg"
-msgstr ""
+msgstr "mpg"
 
 #: fuel_efficiency.cpp:76
 #, kde-format
@@ -7840,7 +7840,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "fuelefficiency unit symbol"
 msgid "mpg (imperial)"
-msgstr ""
+msgstr "mpg (imperial)"
 
 #: fuel_efficiency.cpp:88
 #, kde-format
@@ -7874,7 +7874,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "fuelefficiency unit symbol"
 msgid "kmpl"
-msgstr ""
+msgstr "kmpl"
 
 #: fuel_efficiency.cpp:99
 #, kde-format
@@ -7911,13 +7911,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (length"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: length.cpp:25
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Ym"
-msgstr ""
+msgstr "Ym"
 
 #: length.cpp:26
 #, kde-format
@@ -7949,7 +7949,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Zm"
-msgstr ""
+msgstr "Zm"
 
 #: length.cpp:36
 #, kde-format
@@ -7981,7 +7981,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Em"
-msgstr ""
+msgstr "Em"
 
 #: length.cpp:46
 #, kde-format
@@ -8013,7 +8013,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Pm"
-msgstr ""
+msgstr "Pm"
 
 #: length.cpp:56
 #, kde-format
@@ -8045,7 +8045,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Tm"
-msgstr ""
+msgstr "Tm"
 
 #: length.cpp:66
 #, kde-format
@@ -8077,7 +8077,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Gm"
-msgstr ""
+msgstr "Gm"
 
 #: length.cpp:76
 #, kde-format
@@ -8109,7 +8109,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Mm"
-msgstr ""
+msgstr "Mm"
 
 #: length.cpp:86
 #, kde-format
@@ -8141,7 +8141,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "km"
-msgstr ""
+msgstr "km"
 
 #: length.cpp:96
 #, kde-format
@@ -8173,7 +8173,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "hm"
-msgstr ""
+msgstr "hm"
 
 #: length.cpp:106
 #, kde-format
@@ -8205,7 +8205,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "dam"
-msgstr ""
+msgstr "dam"
 
 #: length.cpp:116
 #, kde-format
@@ -8237,7 +8237,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #: length.cpp:126
 #, kde-format
@@ -8269,7 +8269,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "dm"
-msgstr ""
+msgstr "dm"
 
 #: length.cpp:136
 #, kde-format
@@ -8301,7 +8301,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "cm"
-msgstr ""
+msgstr "cm"
 
 #: length.cpp:146
 #, kde-format
@@ -8333,7 +8333,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "mm"
-msgstr ""
+msgstr "mm"
 
 #: length.cpp:156
 #, kde-format
@@ -8365,7 +8365,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "µm"
-msgstr ""
+msgstr "µm"
 
 #: length.cpp:166
 #, kde-format
@@ -8397,7 +8397,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "nm"
-msgstr ""
+msgstr "nm"
 
 #: length.cpp:176
 #, kde-format
@@ -8415,7 +8415,7 @@ msgstr ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "Å"
-msgstr ""
+msgstr "Å"
 
 #: length.cpp:186
 #, kde-format
@@ -8448,7 +8448,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "pm"
-msgstr ""
+msgstr "pm"
 
 #: length.cpp:196
 #, kde-format
@@ -8480,7 +8480,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "fm"
-msgstr ""
+msgstr "fm"
 
 #: length.cpp:206
 #, kde-format
@@ -8512,7 +8512,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "am"
-msgstr ""
+msgstr "am"
 
 #: length.cpp:216
 #, kde-format
@@ -8544,7 +8544,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "zm"
-msgstr ""
+msgstr "zm"
 
 #: length.cpp:226
 #, kde-format
@@ -8576,7 +8576,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ym"
-msgstr ""
+msgstr "ym"
 
 #: length.cpp:236
 #, kde-format
@@ -8608,7 +8608,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "in"
-msgstr ""
+msgstr "in"
 
 #: length.cpp:246
 #, kde-format
@@ -8640,7 +8640,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "thou"
-msgstr ""
+msgstr "thou"
 
 #: length.cpp:256
 #, kde-format
@@ -8672,7 +8672,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ft"
-msgstr ""
+msgstr "ft"
 
 #: length.cpp:266
 #, kde-format
@@ -8704,7 +8704,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "yd"
-msgstr ""
+msgstr "yd"
 
 #: length.cpp:276
 #, kde-format
@@ -8736,7 +8736,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "mi"
-msgstr ""
+msgstr "mi"
 
 #: length.cpp:286
 #, kde-format
@@ -8768,7 +8768,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "nmi"
-msgstr ""
+msgstr "nmi"
 
 #: length.cpp:296
 #, kde-format
@@ -8800,7 +8800,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ly"
-msgstr ""
+msgstr "ly"
 
 #: length.cpp:306
 #, kde-format
@@ -8832,7 +8832,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "pc"
-msgstr ""
+msgstr "pc"
 
 #: length.cpp:316
 #, kde-format
@@ -8864,7 +8864,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "length unit symbol"
 msgid "au"
-msgstr ""
+msgstr "au"
 
 #: length.cpp:326
 #, kde-format
@@ -8901,13 +8901,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (mass)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: mass.cpp:25
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Yg"
-msgstr ""
+msgstr "Yg"
 
 #: mass.cpp:26
 #, kde-format
@@ -8939,7 +8939,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Zg"
-msgstr ""
+msgstr "Zg"
 
 #: mass.cpp:36
 #, kde-format
@@ -8971,7 +8971,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Eg"
-msgstr ""
+msgstr "Eg"
 
 #: mass.cpp:46
 #, kde-format
@@ -9003,7 +9003,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Pg"
-msgstr ""
+msgstr "Pg"
 
 #: mass.cpp:56
 #, kde-format
@@ -9035,7 +9035,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Tg"
-msgstr ""
+msgstr "Tg"
 
 #: mass.cpp:66
 #, kde-format
@@ -9067,7 +9067,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Gg"
-msgstr ""
+msgstr "Gg"
 
 #: mass.cpp:76
 #, kde-format
@@ -9099,7 +9099,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "Mg"
-msgstr ""
+msgstr "Mg"
 
 #: mass.cpp:86
 #, kde-format
@@ -9131,7 +9131,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "kg"
-msgstr ""
+msgstr "kg"
 
 #: mass.cpp:96
 #, kde-format
@@ -9163,7 +9163,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "hg"
-msgstr ""
+msgstr "hg"
 
 #: mass.cpp:106
 #, kde-format
@@ -9195,7 +9195,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "dag"
-msgstr ""
+msgstr "dag"
 
 #: mass.cpp:116
 #, kde-format
@@ -9227,7 +9227,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "g"
-msgstr ""
+msgstr "g"
 
 #: mass.cpp:126
 #, kde-format
@@ -9259,7 +9259,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "dg"
-msgstr ""
+msgstr "dg"
 
 #: mass.cpp:136
 #, kde-format
@@ -9291,7 +9291,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "cg"
-msgstr ""
+msgstr "cg"
 
 #: mass.cpp:146
 #, kde-format
@@ -9323,7 +9323,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "mg"
-msgstr ""
+msgstr "mg"
 
 #: mass.cpp:156
 #, kde-format
@@ -9355,7 +9355,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "µg"
-msgstr ""
+msgstr "µg"
 
 #: mass.cpp:166
 #, kde-format
@@ -9387,7 +9387,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "ng"
-msgstr ""
+msgstr "ng"
 
 #: mass.cpp:176
 #, kde-format
@@ -9419,7 +9419,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "pg"
-msgstr ""
+msgstr "pg"
 
 #: mass.cpp:186
 #, kde-format
@@ -9451,7 +9451,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "fg"
-msgstr ""
+msgstr "fg"
 
 #: mass.cpp:196
 #, kde-format
@@ -9483,7 +9483,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "ag"
-msgstr ""
+msgstr "ag"
 
 #: mass.cpp:206
 #, kde-format
@@ -9515,7 +9515,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "zg"
-msgstr ""
+msgstr "zg"
 
 #: mass.cpp:216
 #, kde-format
@@ -9547,7 +9547,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "yg"
-msgstr ""
+msgstr "yg"
 
 #: mass.cpp:226
 #, kde-format
@@ -9579,7 +9579,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #: mass.cpp:236
 #, kde-format
@@ -9611,7 +9611,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "CD"
-msgstr ""
+msgstr "CD"
 
 #: mass.cpp:247
 #, kde-format
@@ -9643,7 +9643,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "lb"
-msgstr ""
+msgstr "lb"
 
 #: mass.cpp:258
 #, kde-format
@@ -9675,7 +9675,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "oz"
-msgstr ""
+msgstr "oz"
 
 #: mass.cpp:269
 #, kde-format
@@ -9707,7 +9707,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "t oz"
-msgstr ""
+msgstr "t oz"
 
 #: mass.cpp:279
 #, kde-format
@@ -9739,13 +9739,13 @@ msgstr[1] ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: mass.cpp:299
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "kN"
-msgstr ""
+msgstr "kN"
 
 #: mass.cpp:300
 #, kde-format
@@ -9769,7 +9769,7 @@ msgstr ""
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "st"
-msgstr ""
+msgstr "st"
 
 #: mass.cpp:310
 #, kde-format
@@ -9806,13 +9806,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (permeability)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: permeability.cpp:23
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Darcy"
-msgstr ""
+msgstr "Darcy"
 
 #: permeability.cpp:24
 #, kde-format
@@ -9844,7 +9844,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "mDarcy"
-msgstr ""
+msgstr "mDarcy"
 
 #: permeability.cpp:34
 #, kde-format
@@ -9876,7 +9876,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "µm²"
-msgstr ""
+msgstr "µm²"
 
 #: permeability.cpp:44
 #, kde-format
@@ -9913,13 +9913,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (power)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: power.cpp:56
 #, kde-format
 msgctxt "power unit symbol"
 msgid "YW"
-msgstr ""
+msgstr "YW"
 
 #: power.cpp:57
 #, kde-format
@@ -9951,7 +9951,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "ZW"
-msgstr ""
+msgstr "ZW"
 
 #: power.cpp:67
 #, kde-format
@@ -9983,7 +9983,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "EW"
-msgstr ""
+msgstr "EW"
 
 #: power.cpp:77
 #, kde-format
@@ -10015,7 +10015,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "PW"
-msgstr ""
+msgstr "PW"
 
 #: power.cpp:87
 #, kde-format
@@ -10047,7 +10047,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "TW"
-msgstr ""
+msgstr "TW"
 
 #: power.cpp:97
 #, kde-format
@@ -10079,7 +10079,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "GW"
-msgstr ""
+msgstr "GW"
 
 #: power.cpp:107
 #, kde-format
@@ -10111,7 +10111,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "MW"
-msgstr ""
+msgstr "MW"
 
 #: power.cpp:117
 #, kde-format
@@ -10143,7 +10143,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "kW"
-msgstr ""
+msgstr "kW"
 
 #: power.cpp:127
 #, kde-format
@@ -10175,7 +10175,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "hW"
-msgstr ""
+msgstr "hW"
 
 #: power.cpp:137
 #, kde-format
@@ -10207,7 +10207,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "daW"
-msgstr ""
+msgstr "daW"
 
 #: power.cpp:147
 #, kde-format
@@ -10239,7 +10239,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: power.cpp:157
 #, kde-format
@@ -10271,7 +10271,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dW"
-msgstr ""
+msgstr "dW"
 
 #: power.cpp:167
 #, kde-format
@@ -10303,7 +10303,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "cW"
-msgstr ""
+msgstr "cW"
 
 #: power.cpp:177
 #, kde-format
@@ -10335,7 +10335,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "mW"
-msgstr ""
+msgstr "mW"
 
 #: power.cpp:187
 #, kde-format
@@ -10367,7 +10367,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "µW"
-msgstr ""
+msgstr "µW"
 
 #: power.cpp:197
 #, kde-format
@@ -10399,7 +10399,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "nW"
-msgstr ""
+msgstr "nW"
 
 #: power.cpp:207
 #, kde-format
@@ -10431,7 +10431,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "pW"
-msgstr ""
+msgstr "pW"
 
 #: power.cpp:217
 #, kde-format
@@ -10463,7 +10463,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "fW"
-msgstr ""
+msgstr "fW"
 
 #: power.cpp:227
 #, kde-format
@@ -10495,7 +10495,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "aW"
-msgstr ""
+msgstr "aW"
 
 #: power.cpp:237
 #, kde-format
@@ -10527,7 +10527,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "zW"
-msgstr ""
+msgstr "zW"
 
 #: power.cpp:247
 #, kde-format
@@ -10559,7 +10559,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "yW"
-msgstr ""
+msgstr "yW"
 
 #: power.cpp:257
 #, kde-format
@@ -10591,7 +10591,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "hp"
-msgstr ""
+msgstr "hp"
 
 #: power.cpp:267
 #, kde-format
@@ -10623,7 +10623,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBk"
-msgstr ""
+msgstr "dBk"
 
 #: power.cpp:279
 #, kde-format
@@ -10655,7 +10655,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBW"
-msgstr ""
+msgstr "dBW"
 
 #: power.cpp:289
 #, kde-format
@@ -10687,7 +10687,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBm"
-msgstr ""
+msgstr "dBm"
 
 #: power.cpp:299
 #, kde-format
@@ -10719,7 +10719,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBµW"
-msgstr ""
+msgstr "dBµW"
 
 #: power.cpp:309
 #, kde-format
@@ -10756,13 +10756,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (pressure)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: pressure.cpp:24
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "YPa"
-msgstr ""
+msgstr "YPa"
 
 #: pressure.cpp:25
 #, kde-format
@@ -10794,7 +10794,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "ZPa"
-msgstr ""
+msgstr "ZPa"
 
 #: pressure.cpp:35
 #, kde-format
@@ -10826,7 +10826,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "EPa"
-msgstr ""
+msgstr "EPa"
 
 #: pressure.cpp:45
 #, kde-format
@@ -10858,7 +10858,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "PPa"
-msgstr ""
+msgstr "PPa"
 
 #: pressure.cpp:55
 #, kde-format
@@ -10890,7 +10890,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "TPa"
-msgstr ""
+msgstr "TPa"
 
 #: pressure.cpp:65
 #, kde-format
@@ -10922,7 +10922,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "GPa"
-msgstr ""
+msgstr "GPa"
 
 #: pressure.cpp:75
 #, kde-format
@@ -10954,7 +10954,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "MPa"
-msgstr ""
+msgstr "MPa"
 
 #: pressure.cpp:85
 #, kde-format
@@ -10986,7 +10986,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "kPa"
-msgstr ""
+msgstr "kPa"
 
 #: pressure.cpp:95
 #, kde-format
@@ -11018,7 +11018,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "hPa"
-msgstr ""
+msgstr "hPa"
 
 #: pressure.cpp:105
 #, kde-format
@@ -11050,7 +11050,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "daPa"
-msgstr ""
+msgstr "daPa"
 
 #: pressure.cpp:115
 #, kde-format
@@ -11082,7 +11082,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "Pa"
-msgstr ""
+msgstr "Pa"
 
 #: pressure.cpp:125
 #, kde-format
@@ -11114,7 +11114,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "dPa"
-msgstr ""
+msgstr "dPa"
 
 #: pressure.cpp:135
 #, kde-format
@@ -11146,7 +11146,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "cPa"
-msgstr ""
+msgstr "cPa"
 
 #: pressure.cpp:145
 #, kde-format
@@ -11178,7 +11178,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "mPa"
-msgstr ""
+msgstr "mPa"
 
 #: pressure.cpp:155
 #, kde-format
@@ -11210,7 +11210,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "µPa"
-msgstr ""
+msgstr "µPa"
 
 #: pressure.cpp:165
 #, kde-format
@@ -11242,7 +11242,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "nPa"
-msgstr ""
+msgstr "nPa"
 
 #: pressure.cpp:175
 #, kde-format
@@ -11274,7 +11274,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "pPa"
-msgstr ""
+msgstr "pPa"
 
 #: pressure.cpp:185
 #, kde-format
@@ -11306,7 +11306,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "fPa"
-msgstr ""
+msgstr "fPa"
 
 #: pressure.cpp:195
 #, kde-format
@@ -11338,7 +11338,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "aPa"
-msgstr ""
+msgstr "aPa"
 
 #: pressure.cpp:205
 #, kde-format
@@ -11370,7 +11370,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "zPa"
-msgstr ""
+msgstr "zPa"
 
 #: pressure.cpp:215
 #, kde-format
@@ -11402,7 +11402,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "yPa"
-msgstr ""
+msgstr "yPa"
 
 #: pressure.cpp:225
 #, kde-format
@@ -11434,7 +11434,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "bar"
-msgstr ""
+msgstr "bar"
 
 #: pressure.cpp:235
 #, kde-format
@@ -11466,7 +11466,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "mbar"
-msgstr ""
+msgstr "mbar"
 
 #: pressure.cpp:245
 #, kde-format
@@ -11498,7 +11498,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "dbar"
-msgstr ""
+msgstr "dbar"
 
 #: pressure.cpp:255
 #, kde-format
@@ -11530,7 +11530,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "Torr"
-msgstr ""
+msgstr "Torr"
 
 #: pressure.cpp:265
 #, kde-format
@@ -11562,7 +11562,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "at"
-msgstr ""
+msgstr "at"
 
 #: pressure.cpp:275
 #, kde-format
@@ -11594,7 +11594,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "atm"
-msgstr ""
+msgstr "atm"
 
 #: pressure.cpp:285
 #, kde-format
@@ -11626,7 +11626,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "psi"
-msgstr ""
+msgstr "psi"
 
 #: pressure.cpp:295
 #, kde-format
@@ -11658,7 +11658,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "inHg"
-msgstr ""
+msgstr "inHg"
 
 #: pressure.cpp:306
 #, kde-format
@@ -11690,7 +11690,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "mmHg"
-msgstr ""
+msgstr "mmHg"
 
 #: pressure.cpp:317
 #, kde-format
@@ -11727,13 +11727,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (temperature)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: temperature.cpp:186
 #, kde-format
 msgctxt "temperature unit symbol"
 msgid "K"
-msgstr ""
+msgstr "K"
 
 #: temperature.cpp:187
 #, kde-format
@@ -11765,7 +11765,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "temperature unit symbol"
 msgid "°C"
-msgstr ""
+msgstr "°C"
 
 #: temperature.cpp:197
 #, kde-format
@@ -11797,7 +11797,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "temperature unit symbol"
 msgid "°F"
-msgstr ""
+msgstr "°F"
 
 #: temperature.cpp:207
 #, kde-format
@@ -11861,7 +11861,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "temperature unit symbol"
 msgid "°De"
-msgstr ""
+msgstr "°De"
 
 #: temperature.cpp:227
 #, kde-format
@@ -11893,7 +11893,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "temperature unit symbol"
 msgid "°N"
-msgstr ""
+msgstr "°N"
 
 #: temperature.cpp:237
 #, kde-format
@@ -11925,7 +11925,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "temperature unit symbol"
 msgid "°Ré"
-msgstr ""
+msgstr "°Ré"
 
 #: temperature.cpp:247
 #, kde-format
@@ -11957,7 +11957,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "temperature unit symbol"
 msgid "°Rø"
-msgstr ""
+msgstr "°Rø"
 
 #: temperature.cpp:257
 #, kde-format
@@ -11994,13 +11994,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal conductivity)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: thermal_conductivity.cpp:24
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "W/m·K"
-msgstr ""
+msgstr "W/m·K"
 
 #: thermal_conductivity.cpp:25
 #, kde-format
@@ -12032,7 +12032,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "Btu/ft·hr·°F"
-msgstr ""
+msgstr "Btu/ft·hr·°F"
 
 #: thermal_conductivity.cpp:35
 #, kde-format
@@ -12066,7 +12066,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "Btu/ft²·hr·°F/in"
-msgstr ""
+msgstr "Btu/ft²·hr·°F/in"
 
 #: thermal_conductivity.cpp:46
 #, kde-format
@@ -12106,13 +12106,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal flux density)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: thermal_flux.cpp:25
 #, kde-format
 msgctxt "thermal flux unit symbol"
 msgid "W/m²"
-msgstr ""
+msgstr "W/m²"
 
 #: thermal_flux.cpp:26
 #, kde-format
@@ -12144,7 +12144,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "thermal flux unit symbol"
 msgid "Btu/hr/ft²"
-msgstr ""
+msgstr "Btu/hr/ft²"
 
 #: thermal_flux.cpp:36
 #, kde-format
@@ -12182,13 +12182,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal generation)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: thermal_generation.cpp:24
 #, kde-format
 msgctxt "thermal generation unit symbol"
 msgid "W/m³"
-msgstr ""
+msgstr "W/m³"
 
 #: thermal_generation.cpp:25
 #, kde-format
@@ -12220,7 +12220,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "thermal generation unit symbol"
 msgid "Btu/hr/ft³"
-msgstr ""
+msgstr "Btu/hr/ft³"
 
 #: thermal_generation.cpp:35
 #, kde-format
@@ -12258,13 +12258,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (time)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: timeunit.cpp:24
 #, kde-format
 msgctxt "time unit symbol"
 msgid "Ys"
-msgstr ""
+msgstr "Ys"
 
 #: timeunit.cpp:25
 #, kde-format
@@ -12296,7 +12296,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "Zs"
-msgstr ""
+msgstr "Zs"
 
 #: timeunit.cpp:35
 #, kde-format
@@ -12328,7 +12328,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "Es"
-msgstr ""
+msgstr "Es"
 
 #: timeunit.cpp:45
 #, kde-format
@@ -12360,7 +12360,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "Ps"
-msgstr ""
+msgstr "Ps"
 
 #: timeunit.cpp:55
 #, kde-format
@@ -12392,7 +12392,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "Ts"
-msgstr ""
+msgstr "Ts"
 
 #: timeunit.cpp:65
 #, kde-format
@@ -12424,7 +12424,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "Gs"
-msgstr ""
+msgstr "Gs"
 
 #: timeunit.cpp:75
 #, kde-format
@@ -12456,7 +12456,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "Ms"
-msgstr ""
+msgstr "Ms"
 
 #: timeunit.cpp:85
 #, kde-format
@@ -12488,7 +12488,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "ks"
-msgstr ""
+msgstr "ks"
 
 #: timeunit.cpp:95
 #, kde-format
@@ -12520,7 +12520,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "hs"
-msgstr ""
+msgstr "hs"
 
 #: timeunit.cpp:105
 #, kde-format
@@ -12552,7 +12552,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "das"
-msgstr ""
+msgstr "das"
 
 #: timeunit.cpp:115
 #, kde-format
@@ -12584,7 +12584,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "s"
-msgstr ""
+msgstr "s"
 
 #: timeunit.cpp:125
 #, kde-format
@@ -12616,7 +12616,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "ds"
-msgstr ""
+msgstr "ds"
 
 #: timeunit.cpp:135
 #, kde-format
@@ -12648,7 +12648,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "cs"
-msgstr ""
+msgstr "cs"
 
 #: timeunit.cpp:145
 #, kde-format
@@ -12680,7 +12680,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "ms"
-msgstr ""
+msgstr "ms"
 
 #: timeunit.cpp:155
 #, kde-format
@@ -12712,7 +12712,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "µs"
-msgstr ""
+msgstr "µs"
 
 #: timeunit.cpp:165
 #, kde-format
@@ -12744,7 +12744,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "ns"
-msgstr ""
+msgstr "ns"
 
 #: timeunit.cpp:175
 #, kde-format
@@ -12776,7 +12776,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "ps"
-msgstr ""
+msgstr "ps"
 
 #: timeunit.cpp:185
 #, kde-format
@@ -12808,7 +12808,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "fs"
-msgstr ""
+msgstr "fs"
 
 #: timeunit.cpp:195
 #, kde-format
@@ -12840,7 +12840,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "as"
-msgstr ""
+msgstr "as"
 
 #: timeunit.cpp:205
 #, kde-format
@@ -12872,7 +12872,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "zs"
-msgstr ""
+msgstr "zs"
 
 #: timeunit.cpp:215
 #, kde-format
@@ -12904,7 +12904,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "ys"
-msgstr ""
+msgstr "ys"
 
 #: timeunit.cpp:225
 #, kde-format
@@ -12936,7 +12936,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "min"
-msgstr ""
+msgstr "min"
 
 #: timeunit.cpp:235
 #, kde-format
@@ -12968,7 +12968,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "h"
-msgstr ""
+msgstr "h"
 
 #: timeunit.cpp:245
 #, kde-format
@@ -13000,7 +13000,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "d"
-msgstr ""
+msgstr "d"
 
 #: timeunit.cpp:255
 #, kde-format
@@ -13032,7 +13032,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "w"
-msgstr ""
+msgstr "w"
 
 #: timeunit.cpp:265
 #, kde-format
@@ -13064,7 +13064,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 #: timeunit.cpp:275
 #, kde-format
@@ -13096,7 +13096,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "lpy"
-msgstr ""
+msgstr "lpy"
 
 #: timeunit.cpp:285
 #, kde-format
@@ -13128,7 +13128,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "time unit symbol"
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: timeunit.cpp:296
 #, kde-format
@@ -13165,13 +13165,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (velocity)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: velocity.cpp:53
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "m/s"
-msgstr ""
+msgstr "m/s"
 
 #: velocity.cpp:54
 #, kde-format
@@ -13203,7 +13203,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "km/h"
-msgstr ""
+msgstr "km/h"
 
 #: velocity.cpp:64
 #, kde-format
@@ -13235,7 +13235,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "mph"
-msgstr ""
+msgstr "mph"
 
 #: velocity.cpp:74
 #, kde-format
@@ -13267,7 +13267,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "ft/s"
-msgstr ""
+msgstr "ft/s"
 
 #: velocity.cpp:84
 #, kde-format
@@ -13299,7 +13299,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "in/s"
-msgstr ""
+msgstr "in/s"
 
 #: velocity.cpp:94
 #, kde-format
@@ -13331,7 +13331,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "kt"
-msgstr ""
+msgstr "kt"
 
 #: velocity.cpp:104
 #, kde-format
@@ -13363,7 +13363,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "Ma"
-msgstr ""
+msgstr "Ma"
 
 #: velocity.cpp:115
 #, kde-format
@@ -13395,7 +13395,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "c"
-msgstr ""
+msgstr "c"
 
 #: velocity.cpp:125
 #, kde-format
@@ -13427,7 +13427,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "velocity unit symbol"
 msgid "bft"
-msgstr ""
+msgstr "bft"
 
 #: velocity.cpp:136
 #, kde-format
@@ -13464,13 +13464,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (voltage"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: voltage.cpp:25
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "YV"
-msgstr ""
+msgstr "YV"
 
 #: voltage.cpp:26
 #, kde-format
@@ -13502,7 +13502,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "ZV"
-msgstr ""
+msgstr "ZV"
 
 #: voltage.cpp:36
 #, kde-format
@@ -13534,7 +13534,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "EV"
-msgstr ""
+msgstr "EV"
 
 #: voltage.cpp:46
 #, kde-format
@@ -13566,7 +13566,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "PV"
-msgstr ""
+msgstr "PV"
 
 #: voltage.cpp:56
 #, kde-format
@@ -13598,7 +13598,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 #: voltage.cpp:66
 #, kde-format
@@ -13630,7 +13630,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "GV"
-msgstr ""
+msgstr "GV"
 
 #: voltage.cpp:76
 #, kde-format
@@ -13662,7 +13662,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "MV"
-msgstr ""
+msgstr "MV"
 
 #: voltage.cpp:86
 #, kde-format
@@ -13694,7 +13694,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "kV"
-msgstr ""
+msgstr "kV"
 
 #: voltage.cpp:96
 #, kde-format
@@ -13726,7 +13726,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "hV"
-msgstr ""
+msgstr "hV"
 
 #: voltage.cpp:106
 #, kde-format
@@ -13758,7 +13758,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "daV"
-msgstr ""
+msgstr "daV"
 
 #: voltage.cpp:116
 #, kde-format
@@ -13790,7 +13790,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #: voltage.cpp:126
 #, kde-format
@@ -13822,7 +13822,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "dV"
-msgstr ""
+msgstr "dV"
 
 #: voltage.cpp:136
 #, kde-format
@@ -13854,7 +13854,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "cV"
-msgstr ""
+msgstr "cV"
 
 #: voltage.cpp:146
 #, kde-format
@@ -13886,7 +13886,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "mV"
-msgstr ""
+msgstr "mV"
 
 #: voltage.cpp:156
 #, kde-format
@@ -13918,7 +13918,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "µV"
-msgstr ""
+msgstr "µV"
 
 #: voltage.cpp:166
 #, kde-format
@@ -13950,7 +13950,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "nV"
-msgstr ""
+msgstr "nV"
 
 #: voltage.cpp:176
 #, kde-format
@@ -13982,7 +13982,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "pV"
-msgstr ""
+msgstr "pV"
 
 #: voltage.cpp:186
 #, kde-format
@@ -14014,7 +14014,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "fV"
-msgstr ""
+msgstr "fV"
 
 #: voltage.cpp:196
 #, kde-format
@@ -14046,7 +14046,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "aV"
-msgstr ""
+msgstr "aV"
 
 #: voltage.cpp:206
 #, kde-format
@@ -14078,7 +14078,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "zV"
-msgstr ""
+msgstr "zV"
 
 #: voltage.cpp:216
 #, kde-format
@@ -14110,7 +14110,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "yV"
-msgstr ""
+msgstr "yV"
 
 #: voltage.cpp:226
 #, kde-format
@@ -14142,7 +14142,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "stV"
-msgstr ""
+msgstr "stV"
 
 #: voltage.cpp:236
 #, kde-format
@@ -14179,13 +14179,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (volume)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: volume.cpp:25
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Ym³"
-msgstr ""
+msgstr "Ym³"
 
 #: volume.cpp:26
 #, kde-format
@@ -14217,7 +14217,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Zm³"
-msgstr ""
+msgstr "Zm³"
 
 #: volume.cpp:36
 #, kde-format
@@ -14249,7 +14249,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Em³"
-msgstr ""
+msgstr "Em³"
 
 #: volume.cpp:46
 #, kde-format
@@ -14281,7 +14281,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Pm³"
-msgstr ""
+msgstr "Pm³"
 
 #: volume.cpp:56
 #, kde-format
@@ -14313,7 +14313,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Tm³"
-msgstr ""
+msgstr "Tm³"
 
 #: volume.cpp:66
 #, kde-format
@@ -14345,7 +14345,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Gm³"
-msgstr ""
+msgstr "Gm³"
 
 #: volume.cpp:76
 #, kde-format
@@ -14377,7 +14377,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Mm³"
-msgstr ""
+msgstr "Mm³"
 
 #: volume.cpp:86
 #, kde-format
@@ -14409,7 +14409,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "km³"
-msgstr ""
+msgstr "km³"
 
 #: volume.cpp:96
 #, kde-format
@@ -14441,7 +14441,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "hm³"
-msgstr ""
+msgstr "hm³"
 
 #: volume.cpp:106
 #, kde-format
@@ -14473,7 +14473,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "dam³"
-msgstr ""
+msgstr "dam³"
 
 #: volume.cpp:116
 #, kde-format
@@ -14505,7 +14505,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "m³"
-msgstr ""
+msgstr "m³"
 
 #: volume.cpp:126
 #, kde-format
@@ -14537,7 +14537,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "dm³"
-msgstr ""
+msgstr "dm³"
 
 #: volume.cpp:136
 #, kde-format
@@ -14569,7 +14569,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "cm³"
-msgstr ""
+msgstr "cm³"
 
 #: volume.cpp:146
 #, kde-format
@@ -14601,7 +14601,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "mm³"
-msgstr ""
+msgstr "mm³"
 
 #: volume.cpp:156
 #, kde-format
@@ -14633,7 +14633,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "µm³"
-msgstr ""
+msgstr "µm³"
 
 #: volume.cpp:166
 #, kde-format
@@ -14665,7 +14665,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "nm³"
-msgstr ""
+msgstr "nm³"
 
 #: volume.cpp:176
 #, kde-format
@@ -14697,7 +14697,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "pm³"
-msgstr ""
+msgstr "pm³"
 
 #: volume.cpp:186
 #, kde-format
@@ -14729,7 +14729,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "fm³"
-msgstr ""
+msgstr "fm³"
 
 #: volume.cpp:196
 #, kde-format
@@ -14761,7 +14761,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "am³"
-msgstr ""
+msgstr "am³"
 
 #: volume.cpp:206
 #, kde-format
@@ -14793,7 +14793,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "zm³"
-msgstr ""
+msgstr "zm³"
 
 #: volume.cpp:216
 #, kde-format
@@ -14825,7 +14825,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "ym³"
-msgstr ""
+msgstr "ym³"
 
 #: volume.cpp:226
 #, kde-format
@@ -14857,7 +14857,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Yl"
-msgstr ""
+msgstr "Yl"
 
 #: volume.cpp:236
 #, kde-format
@@ -14889,7 +14889,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Zl"
-msgstr ""
+msgstr "Zl"
 
 #: volume.cpp:246
 #, kde-format
@@ -14921,7 +14921,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "El"
-msgstr ""
+msgstr "El"
 
 #: volume.cpp:256
 #, kde-format
@@ -14953,7 +14953,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Pl"
-msgstr ""
+msgstr "Pl"
 
 #: volume.cpp:266
 #, kde-format
@@ -14985,7 +14985,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Tl"
-msgstr ""
+msgstr "Tl"
 
 #: volume.cpp:276
 #, kde-format
@@ -15017,7 +15017,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Gl"
-msgstr ""
+msgstr "Gl"
 
 #: volume.cpp:286
 #, kde-format
@@ -15049,7 +15049,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Ml"
-msgstr ""
+msgstr "Ml"
 
 #: volume.cpp:296
 #, kde-format
@@ -15081,7 +15081,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "kl"
-msgstr ""
+msgstr "kl"
 
 #: volume.cpp:306
 #, kde-format
@@ -15113,7 +15113,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "hl"
-msgstr ""
+msgstr "hl"
 
 #: volume.cpp:316
 #, kde-format
@@ -15145,7 +15145,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "dal"
-msgstr ""
+msgstr "dal"
 
 #: volume.cpp:326
 #, kde-format
@@ -15177,7 +15177,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "l"
-msgstr ""
+msgstr "l"
 
 #: volume.cpp:336
 #, kde-format
@@ -15209,7 +15209,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "dl"
-msgstr ""
+msgstr "dl"
 
 #: volume.cpp:346
 #, kde-format
@@ -15241,7 +15241,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "cl"
-msgstr ""
+msgstr "cl"
 
 #: volume.cpp:356
 #, kde-format
@@ -15273,7 +15273,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "ml"
-msgstr ""
+msgstr "ml"
 
 #: volume.cpp:366
 #, kde-format
@@ -15305,7 +15305,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "µl"
-msgstr ""
+msgstr "µl"
 
 #: volume.cpp:376
 #, kde-format
@@ -15337,7 +15337,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "nl"
-msgstr ""
+msgstr "nl"
 
 #: volume.cpp:386
 #, kde-format
@@ -15369,7 +15369,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "pl"
-msgstr ""
+msgstr "pl"
 
 #: volume.cpp:396
 #, kde-format
@@ -15401,7 +15401,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "fl"
-msgstr ""
+msgstr "fl"
 
 #: volume.cpp:406
 #, kde-format
@@ -15433,7 +15433,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "al"
-msgstr ""
+msgstr "al"
 
 #: volume.cpp:416
 #, kde-format
@@ -15465,7 +15465,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "zl"
-msgstr ""
+msgstr "zl"
 
 #: volume.cpp:426
 #, kde-format
@@ -15497,7 +15497,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "yl"
-msgstr ""
+msgstr "yl"
 
 #: volume.cpp:436
 #, kde-format
@@ -15529,7 +15529,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "ft³"
-msgstr ""
+msgstr "ft³"
 
 #: volume.cpp:446
 #, kde-format
@@ -15561,7 +15561,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "in³"
-msgstr ""
+msgstr "in³"
 
 #: volume.cpp:456
 #, kde-format
@@ -15594,7 +15594,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "mi³"
-msgstr ""
+msgstr "mi³"
 
 #: volume.cpp:466
 #, kde-format
@@ -15627,7 +15627,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "fl.oz."
-msgstr ""
+msgstr "fl.oz."
 
 #: volume.cpp:476
 #, kde-format
@@ -15660,7 +15660,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "cp"
-msgstr ""
+msgstr "cp"
 
 #: volume.cpp:486
 #, kde-format
@@ -15692,7 +15692,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr ""
+msgstr "tsp"
 
 #: volume.cpp:496
 #, kde-format
@@ -15724,7 +15724,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr ""
+msgstr "tbsp"
 
 #: volume.cpp:506
 #, kde-format
@@ -15756,7 +15756,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "gal"
-msgstr ""
+msgstr "gal"
 
 #: volume.cpp:516
 #, kde-format
@@ -15788,7 +15788,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "imp gal"
-msgstr ""
+msgstr "imp gal"
 
 #: volume.cpp:526
 #, kde-format
@@ -15822,7 +15822,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "pt"
-msgstr ""
+msgstr "pt"
 
 #: volume.cpp:537
 #, kde-format
@@ -15886,7 +15886,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "bbl"
-msgstr ""
+msgstr "bbl"
 
 #: volume.cpp:557
 #, kde-format
@@ -15923,13 +15923,13 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: weight_per_area.cpp:26
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "g/m²"
 
 #: weight_per_area.cpp:27
 #, kde-format
@@ -15962,7 +15962,7 @@ msgstr[1] ""
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "oz/yd²"
 
 #: weight_per_area.cpp:38
 #, kde-format
