@@ -676,56 +676,54 @@ QDateTime Currency::lastConversionTableUpdate()
 
 void CurrencyCategoryPrivate::syncConversionTable(std::chrono::seconds updateSkipPeriod)
 {
-    // sync call is expected to be guarded as being called only once
-    auto updateCurrencyConversionTable = [this](const QString &cachePath) {
-        qCDebug(LOG_KUNITCONVERSION) << "currency conversion table sync started";
-        static QMutex mutex;
-        QMutexLocker locker(&mutex);
-        bool updateError{false};
-        if (isConnected()) {
-            // Bug 345750: QNetworkReply does not work without an event loop and doesn't implement waitForReadyRead()
-            QEventLoop loop;
-            QNetworkAccessManager manager;
-            auto *reply = manager.get(QNetworkRequest(QUrl(QString::fromLatin1(URL)))); // reply is owned by the network access manager
-            QObject::connect(reply, &QNetworkReply::finished, [&] {
-                if (!reply->error()) {
-                    QFileInfo info(cachePath);
-                    const QString cacheDir = info.absolutePath();
-                    if (!QFileInfo::exists(cacheDir)) {
-                        QDir().mkpath(cacheDir);
-                    }
-
-                    QSaveFile cacheFile(cachePath);
-                    if (cacheFile.open(QFile::WriteOnly)) {
-                        cacheFile.write(reply->readAll());
-                        if (!cacheFile.commit()) {
-                            updateError = true;
-                        } else {
-                            qCInfo(LOG_KUNITCONVERSION) << "currency conversion table data obtained via network";
-                        }
-                    }
-                } else {
-                    updateError = true;
-                    qCCritical(LOG_KUNITCONVERSION) << "currency conversion table network error" << reply->error();
-                }
-                loop.quit();
-            });
-            loop.exec(QEventLoop::ExcludeUserInputEvents);
-        } else {
-            qCInfo(LOG_KUNITCONVERSION) << "currency conversion table update has no network connection, abort update";
-        }
-
-        if (!updateError) {
-            updateError = readConversionTable(cachePath);
-        }
-        m_initialized = !updateError;
-        return !updateError;
-    };
-
     QFileInfo info(cacheLocation());
-    if (!info.exists() || info.lastModified().secsTo(QDateTime::currentDateTime()) > updateSkipPeriod.count()) {
-        updateCurrencyConversionTable(cacheLocation());
+    if (info.exists() && info.lastModified().secsTo(QDateTime::currentDateTime()) <= updateSkipPeriod.count()) {
+        return; // already present and up to date
     }
+    if (!isConnected()) {
+        qCInfo(LOG_KUNITCONVERSION) << "currency conversion table update has no network connection, abort update";
+        return;
+    }
+
+    // sync call is expected to be guarded as being called only once
+    qCDebug(LOG_KUNITCONVERSION) << "currency conversion table sync started";
+    const auto cachePath = cacheLocation();
+    static QMutex mutex;
+    QMutexLocker locker(&mutex);
+    bool updateError{false};
+    // Bug 345750: QNetworkReply does not work without an event loop and doesn't implement waitForReadyRead()
+    QEventLoop loop;
+    QNetworkAccessManager manager;
+    auto *reply = manager.get(QNetworkRequest(QUrl(QString::fromLatin1(URL)))); // reply is owned by the network access manager
+    QObject::connect(reply, &QNetworkReply::finished, [&] {
+        if (!reply->error()) {
+            QFileInfo info(cachePath);
+            const QString cacheDir = info.absolutePath();
+            if (!QFileInfo::exists(cacheDir)) {
+                QDir().mkpath(cacheDir);
+            }
+
+            QSaveFile cacheFile(cachePath);
+            if (cacheFile.open(QFile::WriteOnly)) {
+                cacheFile.write(reply->readAll());
+                if (!cacheFile.commit()) {
+                    updateError = true;
+                } else {
+                    qCInfo(LOG_KUNITCONVERSION) << "currency conversion table data obtained via network";
+                }
+            }
+        } else {
+            updateError = true;
+            qCCritical(LOG_KUNITCONVERSION) << "currency conversion table network error" << reply->error();
+        }
+        loop.quit();
+    });
+    loop.exec(QEventLoop::ExcludeUserInputEvents);
+
+    if (!updateError) {
+        updateError = readConversionTable(cachePath);
+    }
+    m_initialized = !updateError;
 }
 
 bool CurrencyCategoryPrivate::readConversionTable(const QString &cachePath)
