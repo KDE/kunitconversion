@@ -5,19 +5,20 @@
 # Jeff Huang <s8321414@gmail.com>, 2016.
 # pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2009, 2010.
+# Kisaragi Hiu <mail@kisaragi-hiu.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-05-16 02:14+0000\n"
-"PO-Revision-Date: 2020-05-14 23:34+0800\n"
-"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
-"Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
+"PO-Revision-Date: 2023-05-17 05:11+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 20.04.0\n"
+"X-Generator: Lokalize 23.04.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: acceleration.cpp:17
@@ -551,12 +552,10 @@ msgid "square kilometers"
 msgstr "平方公里"
 
 #: area.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square kilometer;square kilometers;km²;km/-2;km^2;km2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
-msgstr "平方公里;square kilometer;square kilometers;km²;km/-2;km^2;km2"
+msgstr "平方公里;square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
 
 #: area.cpp:116
 #, kde-format
@@ -649,12 +648,10 @@ msgid "square meters"
 msgstr "平方公尺"
 
 #: area.cpp:144
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
-msgstr "平方公尺;square meter;square meters;m²;m/-2;m^2;m2"
+msgstr "平方公尺;square meter;square meters;sq m;m²;m/-2;m^2;m2"
 
 #: area.cpp:146
 #, kde-format
@@ -713,12 +710,10 @@ msgid "square centimeters"
 msgstr "平方公分"
 
 #: area.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
-msgstr "平方公分;square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+msgstr "平方公分;square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
 
 #: area.cpp:166
 #, kde-format
@@ -746,12 +741,10 @@ msgid "square millimeters"
 msgstr "平方公釐"
 
 #: area.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
-msgstr "平方公釐;square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+msgstr "平方公釐;square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
 
 #: area.cpp:176
 #, kde-format
@@ -7626,16 +7619,14 @@ msgid "miles per imperial gallon"
 msgstr "英哩/特級加侖"
 
 #: fuel_efficiency.cpp:89
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "mile per imperial gallon;miles per imperial gallon;mpg (imperial)"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
 "mpg (imp)"
 msgstr ""
 "英哩/特級加侖;mile per imperial gallon;miles per imperial gallon;mpg "
-"(imperial)"
+"(imperial);imp mpg;mpg (imp)"
 
 #: fuel_efficiency.cpp:91
 #, kde-format
@@ -9318,12 +9309,10 @@ msgid "tons"
 msgstr "公噸"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
-msgstr "噸;公噸;ton;tons;t;tonne"
+msgstr "噸;公噸;ton;tons;t;tonne;tonnes"
 
 #: mass.cpp:239
 #, kde-format
@@ -9351,12 +9340,10 @@ msgid "carats"
 msgstr "克拉"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "克拉;carat;carats;CD"
+msgstr "克拉;carat;carats;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9384,12 +9371,10 @@ msgid "pounds"
 msgstr "英鎊（pounds）"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "英鎊;pound;pounds;lb"
+msgstr "英鎊;pound;pounds;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
@@ -11411,13 +11396,13 @@ msgstr "K"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kelvins"
-msgstr "絕對溫標"
+msgstr "克耳文"
 
 #: temperature.cpp:188
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kelvin;kelvins;K"
-msgstr "絕對溫標;kelvin;kelvins;K"
+msgstr "克耳文;kelvin;kelvins;K"
 
 #: temperature.cpp:190
 #, kde-format
@@ -11670,26 +11655,27 @@ msgstr "W/m·K"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "watt per meter kelvin"
-msgstr "瓦特每克爾文（W/m·K）"
+msgstr "瓦特每公尺克耳文（W/m·K）"
 
 #: thermal_conductivity.cpp:26
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per meter kelvin;watt per meter-kelvin;W/mK;W/m.K"
-msgstr "瓦特每克爾文;watt per meter kelvin;watt per meter-kelvin;W/mK;W/m.K"
+msgstr ""
+"瓦特每公尺克耳文;watt per meter kelvin;watt per meter-kelvin;W/mK;W/m.K"
 
 #: thermal_conductivity.cpp:28
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watts per meter kelvin"
-msgstr "%1 瓦特每克爾文"
+msgstr "%1 瓦特每公尺克耳文"
 
 #: thermal_conductivity.cpp:29
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt per meter kelvin"
 msgid_plural "%1 watts per meter kelvin"
-msgstr[0] "%1 瓦特每克爾文"
+msgstr[0] "%1 瓦特每公尺克耳文"
 
 #: thermal_conductivity.cpp:34
 #, kde-format
@@ -12849,12 +12835,10 @@ msgid "kilometers per hour"
 msgstr "公里/小時"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "時速;公里/小時;kilometer per hour;kilometers per hour;km/h;kmh"
+msgstr "時速;公里/小時;kilometer per hour;kilometers per hour;km/h;kmh;kph"
 
 #: velocity.cpp:67
 #, kde-format
@@ -15261,72 +15245,63 @@ msgstr[0] "%1 杯"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr ""
+msgstr "tsp"
 
 #: volume.cpp:496
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teaspoon"
-msgstr ""
+msgstr "茶匙"
 
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr ""
+msgstr "茶匙;teaspoon;teaspoons;tsp;tsps"
 
 #: volume.cpp:499
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr "%1 兆秒（Ts）"
+msgstr "%1 茶匙"
 
 #: volume.cpp:500
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terasecond"
-#| msgid_plural "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teaspoon"
 msgid_plural "%1 teaspoons"
-msgstr[0] "%1 兆秒（Ts）"
+msgstr[0] "%1 茶匙"
 
 #: volume.cpp:505
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr ""
+msgstr "tbsp"
 
 #: volume.cpp:506
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tablespoon"
-msgstr ""
+msgstr "餐匙"
 
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr ""
+msgstr "餐匙;tablespoon;tablespoons;tbsp;tbsps"
 
 #: volume.cpp:509
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 tons"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tablespoons"
-msgstr "%1 公噸"
+msgstr "%1 餐匙"
 
 #: volume.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terabytes"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tablespoon"
 msgid_plural "%1 tablespoons"
-msgstr[0] "%1 兆位元組 (TB)"
+msgstr[0] "%1 餐匙"
 
 #: volume.cpp:515
 #, kde-format
@@ -15363,7 +15338,7 @@ msgstr[0] "%1 （美式）加侖"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "imp gal"
-msgstr ""
+msgstr "imp gal"
 
 #: volume.cpp:526
 #, kde-format
@@ -15378,6 +15353,8 @@ msgid ""
 "gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
 "gal;imperial gallon;imperial gallons"
 msgstr ""
+"加侖（英制）;gallon (imperial);gallons (imperial);imp gal;imp gallon;imp "
+"gallons;imperial gal;imperial gallon;imperial gallons"
 
 #: volume.cpp:530
 #, kde-format
@@ -15427,7 +15404,7 @@ msgstr[0] "%1（英制）品脫"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "US pt"
-msgstr ""
+msgstr "US pt"
 
 #: volume.cpp:547
 #, kde-format
@@ -15436,30 +15413,23 @@ msgid "pints (U.S. liquid)"
 msgstr "品脫（美式液量單位）"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
-msgstr "品脫;pint (imperial);pints (imperial);pt;pint;pints;p"
+msgstr "品脫（美式液量單位）;pints (U.S. liquid);US pt;US pint;US pints;US p"
 
 #: volume.cpp:550
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pints (U.S. liquid)"
-msgstr "%1（美式）加侖"
+msgstr "%1 品脫（美式液量單位）"
 
 #: volume.cpp:551
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gallon (U.S. liquid)"
-#| msgid_plural "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pint (U.S. liquid)"
 msgid_plural "%1 pints (U.S. liquid)"
-msgstr[0] "%1（美式）加侖"
+msgstr[0] "%1 品脫（美式液量單位）"
 
 #: volume.cpp:556
 #, kde-format
@@ -15495,12 +15465,10 @@ msgstr[0] "%1 個油桶"
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "重量/面積"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15509,15 +15477,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "g/m²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt per square meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "瓦特每平方公尺（W/m²）"
+msgstr "公克每平方公尺"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -15525,37 +15491,33 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
 msgstr ""
+"公克每平方公尺;gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams "
+"per meter²"
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 瓦特每平方公尺（W/m²）"
+msgstr "%1 公克每平方公尺"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 瓦特每平方公尺（W/m²）"
+msgstr[0] "%1 公克每平方公尺"
 
 #: weight_per_area.cpp:37
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "oz/yd²"
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "磅/每立方碼"
+msgstr "盎司/每平方碼"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -15564,20 +15526,18 @@ msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
 "yard²"
 msgstr ""
+"盎司每平方碼;ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;"
+"ounces per yard²"
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 磅/每立方碼"
+msgstr "%1 盎司每平方碼"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 磅/每立方碼"
+msgstr[0] "%1 盎司每平方碼"
