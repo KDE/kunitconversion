@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-05-16 02:14+0000\n"
-"PO-Revision-Date: 2023-05-09 00:58+0200\n"
+"PO-Revision-Date: 2023-05-14 00:38+0200\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
 "Language: ast\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.0\n"
+"X-Generator: Lokalize 23.04.1\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -1407,27 +1407,27 @@ msgstr "EiB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exbibytes"
-msgstr ""
+msgstr "exbibytes"
 
 #: binary_data.cpp:133
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "EiB;exbibyte;exbibytes"
-msgstr ""
+msgstr "EiB;exbibyte;exbibytes"
 
 #: binary_data.cpp:135
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exbibytes"
-msgstr ""
+msgstr "%1 exbibytes"
 
 #: binary_data.cpp:136
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exbibyte"
 msgid_plural "%1 exbibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 exbibyte"
+msgstr[1] "%1 exbibytes"
 
 #: binary_data.cpp:141
 #, kde-format
@@ -1439,27 +1439,27 @@ msgstr "Eib"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exbibits"
-msgstr ""
+msgstr "exbibits"
 
 #: binary_data.cpp:143
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Eib;exbibit;exbibits"
-msgstr ""
+msgstr "Eib;exbibit;exbibits"
 
 #: binary_data.cpp:145
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exbibits"
-msgstr ""
+msgstr "%1 exbibits"
 
 #: binary_data.cpp:146
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exbibit"
 msgid_plural "%1 exbibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 exbibit"
+msgstr[1] "%1 exbibits"
 
 #: binary_data.cpp:151
 #, kde-format
@@ -1471,27 +1471,27 @@ msgstr "EB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exabytes"
-msgstr ""
+msgstr "exabytes"
 
 #: binary_data.cpp:153
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "EB;exabyte;exabytes"
-msgstr ""
+msgstr "EB;exabyte;exabytes"
 
 #: binary_data.cpp:155
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exabytes"
-msgstr ""
+msgstr "%1 exabytes"
 
 #: binary_data.cpp:156
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exabyte"
 msgid_plural "%1 exabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 exabyte"
+msgstr[1] "%1 exabytes"
 
 #: binary_data.cpp:161
 #, kde-format
@@ -1503,27 +1503,27 @@ msgstr "Eb"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exabits"
-msgstr ""
+msgstr "exabits"
 
 #: binary_data.cpp:163
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Eb;exabit;exabits"
-msgstr ""
+msgstr "Eb;exabit;exabits"
 
 #: binary_data.cpp:165
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exabits"
-msgstr ""
+msgstr "%1 exabits"
 
 #: binary_data.cpp:166
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exabit"
 msgid_plural "%1 exabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 exabit"
+msgstr[1] "%1 exabits"
 
 #: binary_data.cpp:171
 #, kde-format
@@ -1535,27 +1535,27 @@ msgstr "PiB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pebibytes"
-msgstr ""
+msgstr "pebibytes"
 
 #: binary_data.cpp:173
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "PiB;pebibyte;pebibytes"
-msgstr ""
+msgstr "PiB;pebibyte;pebibytes"
 
 #: binary_data.cpp:175
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pebibytes"
-msgstr ""
+msgstr "%1 pebibytes"
 
 #: binary_data.cpp:176
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pebibyte"
 msgid_plural "%1 pebibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 pebibyte"
+msgstr[1] "%1 pebibytes"
 
 #: binary_data.cpp:181
 #, kde-format
@@ -1567,27 +1567,27 @@ msgstr "Pib"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pebibits"
-msgstr ""
+msgstr "pebibits"
 
 #: binary_data.cpp:183
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Pib;pebibit;pebibits"
-msgstr ""
+msgstr "Pib;pebibit;pebibits"
 
 #: binary_data.cpp:185
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pebibits"
-msgstr ""
+msgstr "%1 pebibits"
 
 #: binary_data.cpp:186
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pebibit"
 msgid_plural "%1 pebibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 pebibit"
+msgstr[1] "%1 pebibits"
 
 #: binary_data.cpp:191
 #, kde-format
@@ -1599,27 +1599,27 @@ msgstr "PB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petabytes"
-msgstr ""
+msgstr "petabytes"
 
 #: binary_data.cpp:193
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "PB;petabyte;petabytes"
-msgstr ""
+msgstr "PB;petabyte;petabytes"
 
 #: binary_data.cpp:195
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petabytes"
-msgstr ""
+msgstr "%1 petabytes"
 
 #: binary_data.cpp:196
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petabyte"
 msgid_plural "%1 petabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 petabyte"
+msgstr[1] "%1 petabytes"
 
 #: binary_data.cpp:201
 #, kde-format
@@ -1631,27 +1631,27 @@ msgstr "Pb"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "petabits"
-msgstr ""
+msgstr "petabits"
 
 #: binary_data.cpp:203
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Pb;petabit;petabits"
-msgstr ""
+msgstr "Pb;petabit;petabits"
 
 #: binary_data.cpp:205
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petabits"
-msgstr ""
+msgstr "%1 petabits"
 
 #: binary_data.cpp:206
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petabit"
 msgid_plural "%1 petabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 petabit"
+msgstr[1] "%1 petabits"
 
 #: binary_data.cpp:211
 #, kde-format
@@ -1663,27 +1663,27 @@ msgstr "TiB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tebibytes"
-msgstr ""
+msgstr "tebibytes"
 
 #: binary_data.cpp:213
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "TiB;tebibyte;tebibytes"
-msgstr ""
+msgstr "TiB;tebibyte;tebibytes"
 
 #: binary_data.cpp:215
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tebibytes"
-msgstr ""
+msgstr "%1 tebibytes"
 
 #: binary_data.cpp:216
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tebibyte"
 msgid_plural "%1 tebibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 tebibyte"
+msgstr[1] "%1 tebibytes"
 
 #: binary_data.cpp:221
 #, kde-format
@@ -1695,27 +1695,27 @@ msgstr "Tib"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tebibits"
-msgstr ""
+msgstr "tebibits"
 
 #: binary_data.cpp:223
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Tib;tebibit;tebibits"
-msgstr ""
+msgstr "Tib;tebibit;tebibits"
 
 #: binary_data.cpp:225
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tebibits"
-msgstr ""
+msgstr "%1 tebibits"
 
 #: binary_data.cpp:226
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tebibit"
 msgid_plural "%1 tebibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 tebibit"
+msgstr[1] "%1 tebibits"
 
 #: binary_data.cpp:231
 #, kde-format
@@ -1727,27 +1727,27 @@ msgstr "TB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terabytes"
-msgstr ""
+msgstr "terabytes"
 
 #: binary_data.cpp:233
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "TB;terabyte;terabytes"
-msgstr ""
+msgstr "TB;terabyte;terabytes"
 
 #: binary_data.cpp:235
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terabytes"
-msgstr ""
+msgstr "%1 terabytes"
 
 #: binary_data.cpp:236
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terabyte"
 msgid_plural "%1 terabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 terabyte"
+msgstr[1] "%1 terabytes"
 
 #: binary_data.cpp:241
 #, kde-format
@@ -1759,27 +1759,27 @@ msgstr "Tb"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terabits"
-msgstr ""
+msgstr "terabits"
 
 #: binary_data.cpp:243
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Tb;terabit;terabits"
-msgstr ""
+msgstr "Tb;terabit;terabits"
 
 #: binary_data.cpp:245
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terabits"
-msgstr ""
+msgstr "%1 terabits"
 
 #: binary_data.cpp:246
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terabit"
 msgid_plural "%1 terabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 terabit"
+msgstr[1] "%1 terabits"
 
 #: binary_data.cpp:251
 #, kde-format
@@ -1791,27 +1791,27 @@ msgstr "GiB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gibibytes"
-msgstr ""
+msgstr "gibibytes"
 
 #: binary_data.cpp:253
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "GiB;gibibyte;gibibytes"
-msgstr ""
+msgstr "GiB;gibibyte;gibibytes"
 
 #: binary_data.cpp:255
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gibibytes"
-msgstr ""
+msgstr "%1 gibibytes"
 
 #: binary_data.cpp:256
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gibibyte"
 msgid_plural "%1 gibibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 gibibyte"
+msgstr[1] "%1 gibibytes"
 
 #: binary_data.cpp:261
 #, kde-format
@@ -1823,27 +1823,27 @@ msgstr "Gib"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gibibits"
-msgstr ""
+msgstr "gibibits"
 
 #: binary_data.cpp:263
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Gib;gibibit;gibibits"
-msgstr ""
+msgstr "Gib;gibibit;gibibits"
 
 #: binary_data.cpp:265
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gibibits"
-msgstr ""
+msgstr "%1 gibibits"
 
 #: binary_data.cpp:266
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gibibit"
 msgid_plural "%1 gibibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 gibibit"
+msgstr[1] "%1 gibibits"
 
 #: binary_data.cpp:271
 #, kde-format
@@ -1855,27 +1855,27 @@ msgstr "GB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigabytes"
-msgstr ""
+msgstr "gigabytes"
 
 #: binary_data.cpp:273
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "GB;gigabyte;gigabytes"
-msgstr ""
+msgstr "GB;gigabyte;gigabytes"
 
 #: binary_data.cpp:275
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigabytes"
-msgstr ""
+msgstr "%1 gigabytes"
 
 #: binary_data.cpp:276
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigabyte"
 msgid_plural "%1 gigabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 gigabyte"
+msgstr[1] "%1 gigabytes"
 
 #: binary_data.cpp:281
 #, kde-format
@@ -1887,27 +1887,27 @@ msgstr "Gb"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigabits"
-msgstr ""
+msgstr "gigabits"
 
 #: binary_data.cpp:283
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Gb;gigabit;gigabits"
-msgstr ""
+msgstr "Gb;gigabit;gigabits"
 
 #: binary_data.cpp:285
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigabits"
-msgstr ""
+msgstr "%1 gigabits"
 
 #: binary_data.cpp:286
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigabit"
 msgid_plural "%1 gigabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 gigabit"
+msgstr[1] "%1 gigabits"
 
 #: binary_data.cpp:291
 #, kde-format
@@ -1919,27 +1919,27 @@ msgstr "MiB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "mebibytes"
-msgstr ""
+msgstr "mebibytes"
 
 #: binary_data.cpp:293
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "MiB;mebibyte;mebibytes"
-msgstr ""
+msgstr "MiB;mebibyte;mebibytes"
 
 #: binary_data.cpp:295
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 mebibytes"
-msgstr ""
+msgstr "%1 mebibytes"
 
 #: binary_data.cpp:296
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mebibyte"
 msgid_plural "%1 mebibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 mebibyte"
+msgstr[1] "%1 mebibytes"
 
 #: binary_data.cpp:301
 #, kde-format
@@ -1951,27 +1951,27 @@ msgstr "Mib"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "mebibits"
-msgstr ""
+msgstr "mebibits"
 
 #: binary_data.cpp:303
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Mib;mebibit;mebibits"
-msgstr ""
+msgstr "Mib;mebibit;mebibits"
 
 #: binary_data.cpp:305
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 mebibits"
-msgstr ""
+msgstr "%1 mebibits"
 
 #: binary_data.cpp:306
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mebibit"
 msgid_plural "%1 mebibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 mebibit"
+msgstr[1] "%1 mebibits"
 
 #: binary_data.cpp:311
 #, kde-format
@@ -1983,27 +1983,27 @@ msgstr "MB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megabytes"
-msgstr ""
+msgstr "megabytes"
 
 #: binary_data.cpp:313
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "MB;megabyte;megabytes"
-msgstr ""
+msgstr "MB;megabyte;megabytes"
 
 #: binary_data.cpp:315
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megabytes"
-msgstr ""
+msgstr "%1 megabytes"
 
 #: binary_data.cpp:316
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megabyte"
 msgid_plural "%1 megabytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 megabyte"
+msgstr[1] "%1 megabytes"
 
 #: binary_data.cpp:321
 #, kde-format
@@ -2015,27 +2015,27 @@ msgstr "Mb"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megabits"
-msgstr ""
+msgstr "megabits"
 
 #: binary_data.cpp:323
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Mb;megabit;megabits"
-msgstr ""
+msgstr "Mb;megabit;megabits"
 
 #: binary_data.cpp:325
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megabits"
-msgstr ""
+msgstr "%1 megabits"
 
 #: binary_data.cpp:326
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megabit"
 msgid_plural "%1 megabits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 megabit"
+msgstr[1] "%1 megabits"
 
 #: binary_data.cpp:331
 #, kde-format
@@ -2047,27 +2047,27 @@ msgstr "KiB"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kibibytes"
-msgstr ""
+msgstr "kibibytes"
 
 #: binary_data.cpp:333
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kibibyte;kibibytes"
-msgstr ""
+msgstr "KiB;kibibyte;kibibytes"
 
 #: binary_data.cpp:335
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kibibytes"
-msgstr ""
+msgstr "%1 kibibytes"
 
 #: binary_data.cpp:336
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kibibyte"
 msgid_plural "%1 kibibytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 kibibyte"
+msgstr[1] "%1 kibibytes"
 
 #: binary_data.cpp:341
 #, kde-format
@@ -2079,91 +2079,91 @@ msgstr "Kib"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kibibits"
-msgstr ""
+msgstr "kibibits"
 
 #: binary_data.cpp:343
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kibibit;kibibits"
-msgstr ""
+msgstr "Kib;kibibit;kibibits"
 
 #: binary_data.cpp:345
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kibibits"
-msgstr ""
+msgstr "%1 kibibits"
 
 #: binary_data.cpp:346
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kibibit"
 msgid_plural "%1 kibibits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 kibibit"
+msgstr[1] "%1 kibibits"
 
 #: binary_data.cpp:351
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kB"
-msgstr "kB"
+msgstr "KB"
 
 #: binary_data.cpp:352
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilobytes"
-msgstr ""
+msgstr "kilobytes"
 
 #: binary_data.cpp:353
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;kilobyte;kilobytes"
-msgstr ""
+msgstr "kB;kilobyte;kilobytes"
 
 #: binary_data.cpp:355
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilobytes"
-msgstr ""
+msgstr "%1 kilobytes"
 
 #: binary_data.cpp:356
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilobyte"
 msgid_plural "%1 kilobytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 kilobyte"
+msgstr[1] "%1 kilobytes"
 
 #: binary_data.cpp:361
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kb"
-msgstr "kb"
+msgstr "Kb"
 
 #: binary_data.cpp:362
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilobits"
-msgstr ""
+msgstr "kilobits"
 
 #: binary_data.cpp:363
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;kilobit;kilobits"
-msgstr ""
+msgstr "kb;kilobit;kilobits"
 
 #: binary_data.cpp:365
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilobits"
-msgstr ""
+msgstr "%1 kilobits"
 
 #: binary_data.cpp:366
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilobit"
 msgid_plural "%1 kilobits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 kilobit"
+msgstr[1] "%1 kilobits"
 
 #: binary_data.cpp:371
 #, kde-format
@@ -2175,27 +2175,27 @@ msgstr "B"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "bytes"
-msgstr ""
+msgstr "bytes"
 
 #: binary_data.cpp:373
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "B;byte;bytes"
-msgstr ""
+msgstr "B;byte;bytes"
 
 #: binary_data.cpp:375
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 bytes"
-msgstr ""
+msgstr "%1 bytes"
 
 #: binary_data.cpp:376
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 byte"
+msgstr[1] "%1 bytes"
 
 #: binary_data.cpp:381
 #, kde-format
@@ -2207,27 +2207,27 @@ msgstr "b"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "bits"
-msgstr ""
+msgstr "bits"
 
 #: binary_data.cpp:383
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "b;bit;bits"
-msgstr ""
+msgstr "b;bit;bits"
 
 #: binary_data.cpp:385
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 bits"
-msgstr ""
+msgstr "%1 bits"
 
 #: binary_data.cpp:386
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 bit"
 msgid_plural "%1 bits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 bit"
+msgstr[1] "%1 bits"
 
 #: currency.cpp:65
 #, kde-format
@@ -2237,7 +2237,7 @@ msgstr ""
 #: currency.cpp:65
 #, kde-format
 msgid "From ECB"
-msgstr ""
+msgstr "Del BCE"
 
 #: currency.cpp:67
 #, kde-format
@@ -2483,27 +2483,27 @@ msgstr[1] "%1 llires italianes"
 #, kde-format
 msgctxt "currency name"
 msgid "Luxembourgish Franc"
-msgstr ""
+msgstr "Francu luxemburgués"
 
 #: currency.cpp:174
 #, kde-format
 msgctxt "LUF Luxembourgish Franc - unit synonyms for matching user input"
 msgid "franc;francs"
-msgstr ""
+msgstr "francu luxemburgués;francos luxemburgueses"
 
 #: currency.cpp:177
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Luxembourgish francs"
-msgstr ""
+msgstr "%1 francos luxemburgueses"
 
 #: currency.cpp:178
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Luxembourgish franc"
 msgid_plural "%1 Luxembourgish francs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 francu luxemburgués"
+msgstr[1] "%1 francos luxemburgueses"
 
 #: currency.cpp:184 currency.cpp:186
 #, kde-format
@@ -2561,27 +2561,27 @@ msgstr[1] ""
 #, kde-format
 msgctxt "currency name"
 msgid "Greek Drachma"
-msgstr ""
+msgstr "Dracma griegu"
 
 #: currency.cpp:207
 #, kde-format
 msgctxt "GRD Greek Drachma - unit synonyms for matching user input"
 msgid "drachma;drachmas"
-msgstr ""
+msgstr "dracma;dracmes"
 
 #: currency.cpp:210
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 drachmas"
-msgstr ""
+msgstr "%1 dracmes"
 
 #: currency.cpp:211
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 drachma"
 msgid_plural "%1 drachmas"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 dracma"
+msgstr[1] "%1 dracmes"
 
 #: currency.cpp:217 currency.cpp:219
 #, kde-format
@@ -2639,27 +2639,27 @@ msgstr[1] ""
 #, kde-format
 msgctxt "currency name"
 msgid "Maltese Lira"
-msgstr ""
+msgstr "Llira maltesa"
 
 #: currency.cpp:240
 #, kde-format
 msgctxt "MTL Maltese Lira - unit synonyms for matching user input"
 msgid "Maltese lira"
-msgstr ""
+msgstr "llira maltesa;llires malteses"
 
 #: currency.cpp:243
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Maltese lira"
-msgstr ""
+msgstr "%1 llires malteses"
 
 #: currency.cpp:244
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Maltese lira"
 msgid_plural "%1 Maltese lira"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 llira maltesa"
+msgstr[1] "%1 llires malteses"
 
 #: currency.cpp:250 currency.cpp:252
 #, kde-format
@@ -2717,27 +2717,27 @@ msgstr[1] ""
 #, kde-format
 msgctxt "currency name"
 msgid "Japanese Yen"
-msgstr ""
+msgstr "Yen xaponés"
 
 #: currency.cpp:274
 #, kde-format
 msgctxt "JPY Japanese Yen - unit synonyms for matching user input"
 msgid "yen"
-msgstr ""
+msgstr "yen;yenes"
 
 #: currency.cpp:277
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yen"
-msgstr ""
+msgstr "%1 yen"
 
 #: currency.cpp:278
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yen"
 msgid_plural "%1 yen"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 yen"
+msgstr[1] "%1 yenes"
 
 #: currency.cpp:284 currency.cpp:286
 #, kde-format
@@ -3055,27 +3055,27 @@ msgstr[1] ""
 #, kde-format
 msgctxt "currency name"
 msgid "Swiss Franc"
-msgstr ""
+msgstr "Francu suizu"
 
 #: currency.cpp:420
 #, kde-format
 msgctxt "CHF Swiss Franc - unit synonyms for matching user input"
 msgid "franc;francs"
-msgstr ""
+msgstr "francu suizu;francos suizos"
 
 #: currency.cpp:423
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Swiss francs"
-msgstr ""
+msgstr "%1 francos suizos"
 
 #: currency.cpp:424
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Swiss franc"
 msgid_plural "%1 Swiss francs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 francu suizu"
+msgstr[1] "%1 francos suizos"
 
 #: currency.cpp:430 currency.cpp:432
 #, kde-format
@@ -3159,53 +3159,53 @@ msgstr[1] ""
 #, kde-format
 msgctxt "currency name"
 msgid "Turkish Lira"
-msgstr ""
+msgstr "Llira turca"
 
 #: currency.cpp:464
 #, kde-format
 msgctxt "TRY Turkish Lira - unit synonyms for matching user input"
 msgid "lira"
-msgstr ""
+msgstr "llira turca;llires turques"
 
 #: currency.cpp:467
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Turkish lira"
-msgstr ""
+msgstr "%1 llira turca"
 
 #: currency.cpp:468
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Turkish lira"
 msgid_plural "%1 Turkish lira"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 llira turca"
+msgstr[1] "%1 llires turques"
 
 #: currency.cpp:474 currency.cpp:476
 #, kde-format
 msgctxt "currency name"
 msgid "Australian Dollar"
-msgstr ""
+msgstr "Dólar australianu"
 
 #: currency.cpp:475
 #, kde-format
 msgctxt "AUD Australian Dollar - unit synonyms for matching user input"
 msgid "Australian dollar;Australian dollars"
-msgstr ""
+msgstr "dólar australianu;dólares australianos"
 
 #: currency.cpp:478
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Australian dollars"
-msgstr ""
+msgstr "%1 dólares australianos"
 
 #: currency.cpp:479
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Australian dollar"
 msgid_plural "%1 Australian dollars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 dólar australianu"
+msgstr[1] "%1 dólares australianos"
 
 #: currency.cpp:485 currency.cpp:487
 #, kde-format
