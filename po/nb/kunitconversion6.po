@@ -13221,8 +13221,6 @@ msgstr "kilometer per time"
 
 #: velocity.cpp:65
 #, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
 msgstr "kilometer per time:kilometer per time;km/t;km/h"
@@ -15938,8 +15936,6 @@ msgstr ""
 
 #: weight_per_area.cpp:21
 #, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15952,8 +15948,6 @@ msgstr ""
 
 #: weight_per_area.cpp:27
 #, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilograms per cubic meter"
 msgctxt "unit description in lists"
 msgid "grams per square meter"
 msgstr "kilogram per kubikkmeter"
@@ -15967,16 +15961,12 @@ msgstr ""
 
 #: weight_per_area.cpp:30
 #, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilograms per cubic meter"
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
 msgstr "%1 kilogram per kubikkmeter"
 
 #: weight_per_area.cpp:31
 #, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilograms per cubic meter"
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
@@ -15991,8 +15981,6 @@ msgstr ""
 
 #: weight_per_area.cpp:38
 #, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
 msgstr "pund per kubikkyard"
@@ -16007,16 +15995,12 @@ msgstr ""
 
 #: weight_per_area.cpp:41
 #, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
 msgstr "%1 pund per kubikkyard"
 
 #: weight_per_area.cpp:42
 #, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"

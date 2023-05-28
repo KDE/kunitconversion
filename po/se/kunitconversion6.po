@@ -15927,8 +15927,6 @@ msgstr ""
 
 #: weight_per_area.cpp:21
 #, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15941,9 +15939,6 @@ msgstr ""
 
 #: weight_per_area.cpp:27
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 square meter"
-#| msgid_plural "%1 square meters"
 msgctxt "unit description in lists"
 msgid "grams per square meter"
 msgstr "%1 njealjehasmehter"
@@ -15957,18 +15952,12 @@ msgstr ""
 
 #: weight_per_area.cpp:30
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 square meter"
-#| msgid_plural "%1 square meters"
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
 msgstr "%1 njealjehasmehter"
 
 #: weight_per_area.cpp:31
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 square meter"
-#| msgid_plural "%1 square meters"
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
