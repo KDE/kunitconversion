@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-29 00:45+0000\n"
-"PO-Revision-Date: 2019-09-01 10:05+0200\n"
+"PO-Revision-Date: 2023-05-30 17:24+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.0\n"
+"X-Generator: Lokalize 23.04.1\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -565,9 +565,7 @@ msgid "square kilometers"
 msgstr "quilómetro cadrado"
 
 #: area.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square kilometer;square kilometers;km²;km/-2;km^2;km2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
 msgstr "quilómetro cadrado;quilómetros cadrados;km²;km/-2;km^2;km2"
@@ -665,9 +663,7 @@ msgid "square meters"
 msgstr "metros cadrados"
 
 #: area.cpp:144
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
 msgstr "metro cadrado;metros cadrados;m²;m/-2;m^2;m2"
@@ -731,9 +727,7 @@ msgid "square centimeters"
 msgstr "centímetros cadrados"
 
 #: area.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
 msgstr "centímetro cadrado;centímetros cadrados;cm²;cm/-2;cm^2;cm2"
@@ -765,9 +759,7 @@ msgid "square millimeters"
 msgstr "milímetros cadrados"
 
 #: area.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
 msgstr "milímetro cadrado;milímetros cadrados;mm/-2;mm^2;mm2"
@@ -3590,37 +3582,30 @@ msgstr[0] "%1 rand"
 msgstr[1] "%1 rands"
 
 #: currency.cpp:638 currency.cpp:640
-#, fuzzy, kde-format
-#| msgctxt "currency name"
-#| msgid "Swedish Krona"
+#, kde-format
 msgctxt "currency name"
 msgid "Icelandic Krona"
-msgstr "Coroa sueca"
+msgstr "Coroa islandesa"
 
 #: currency.cpp:639
 #, kde-format
 msgctxt "Icelandic Krona - unit synonyms for matching user input"
 msgid "Icelandic krona;Icelandic crown"
-msgstr ""
+msgstr "coroa islandesa"
 
 #: currency.cpp:642
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 Danish kroner"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronar"
-msgstr "%1 coroas dinamarquesas"
+msgstr "%1 coroas islandesas"
 
 #: currency.cpp:643
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Danish krone"
-#| msgid_plural "%1 Danish kroner"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronar"
-msgstr[0] "%1 coroa dinamarquesa"
-msgstr[1] "%1 coroas dinamarquesas"
+msgstr[0] "%1 coroa islandesa"
+msgstr[1] "%1 coroas islandesas"
 
 #: density.cpp:17
 #, kde-format
@@ -7874,14 +7859,12 @@ msgid "miles per imperial gallon"
 msgstr "millas por galón imperial"
 
 #: fuel_efficiency.cpp:89
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "mile per imperial gallon;miles per imperial gallon;mpg (imperial)"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
 "mpg (imp)"
-msgstr "millas por galón imperial; mpg (imperial)"
+msgstr "millas por galón imperial; mpg (imperial);imp mpg;mpg (imp)"
 
 #: fuel_efficiency.cpp:91
 #, kde-format
@@ -9616,9 +9599,7 @@ msgid "tons"
 msgstr "toneladas"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
 msgstr "tonelada;toneladas;t"
@@ -9650,12 +9631,10 @@ msgid "carats"
 msgstr "quilates"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "quilate;quilates;CD"
+msgstr "quilate;quilates;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9684,12 +9663,10 @@ msgid "pounds"
 msgstr "libras"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "libra;libras;lb"
+msgstr "libra;libras;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
@@ -13253,12 +13230,10 @@ msgid "kilometers per hour"
 msgstr "quilómetros por hora"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "quilómetro por hora;quilómetros por hora;km/h;kmh"
+msgstr "quilómetro por hora;quilómetros por hora;km/h;kmh;kph"
 
 #: velocity.cpp:67
 #, kde-format
@@ -15738,74 +15713,65 @@ msgstr[1] "%1 cuncas"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr ""
+msgstr "cullñ"
 
 #: volume.cpp:496
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teaspoon"
-msgstr ""
+msgstr "culleradiña"
 
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr ""
+msgstr "culleradiña;culleradiñas;cullñ;cullñs"
 
 #: volume.cpp:499
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr "%1 terasegundos"
+msgstr "%1 culleradiñas"
 
 #: volume.cpp:500
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terasecond"
-#| msgid_plural "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teaspoon"
 msgid_plural "%1 teaspoons"
-msgstr[0] "%1 terasegundo"
-msgstr[1] "%1 terasegundos"
+msgstr[0] "%1 culleradiña"
+msgstr[1] "%1 culleradiñas"
 
 #: volume.cpp:505
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr ""
+msgstr "cull"
 
 #: volume.cpp:506
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tablespoon"
-msgstr ""
+msgstr "cullerada"
 
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr ""
+msgstr "cullerada;culleradas;cull;culls"
 
 #: volume.cpp:509
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 tons"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tablespoons"
-msgstr "%1 toneladas"
+msgstr "%1 culleradas"
 
 #: volume.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terabytes"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tablespoon"
 msgid_plural "%1 tablespoons"
-msgstr[0] "%1 terabytes"
-msgstr[1] "%1 terabytes"
+msgstr[0] "%1 cullerada"
+msgstr[1] "%1 culleradas"
 
 #: volume.cpp:515
 #, kde-format
@@ -15843,15 +15809,13 @@ msgstr[1] "%1 galóns (líquidos EUA)"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "imp gal"
-msgstr ""
+msgstr "gal imp"
 
 #: volume.cpp:526
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pints (imperial)"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gallons (imperial)"
-msgstr "pintas (imperial)"
+msgstr "galóns imperiais"
 
 #: volume.cpp:528
 #, kde-format
@@ -15859,26 +15823,21 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
 "gal;imperial gallon;imperial gallons"
-msgstr ""
+msgstr "galón imperial;galóns imperiais;gal imp"
 
 #: volume.cpp:530
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pints (imperial)"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gallons (imperial)"
-msgstr "%1 pintas (imperial)"
+msgstr "%1 galóns imperiais"
 
 #: volume.cpp:531
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 pint (imperial)"
-#| msgid_plural "%1 pints (imperial)"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gallon (imperial)"
 msgid_plural "%1 gallons (imperial)"
-msgstr[0] "%1 pinta (imperial)"
-msgstr[1] "%1 pintas (imperial)"
+msgstr[0] "1 galón imperial"
+msgstr[1] "%1 galóns imperiais"
 
 #: volume.cpp:536
 #, kde-format
@@ -15916,42 +15875,33 @@ msgstr[1] "%1 pintas (imperial)"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "US pt"
-msgstr ""
+msgstr "pt US"
 
 #: volume.cpp:547
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gallons (U.S. liquid)"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "pints (U.S. liquid)"
-msgstr "galóns (líquidos EUA)"
+msgstr "pintas (líquidas EUA)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
-msgstr "pinta (imperial);pintas (imperiais);pt;pint;pints;p"
+msgstr "pinta líquida EUA;pintas líquidas EUA;pt EUA;pint EUA;pints EUA;p EUA"
 
 #: volume.cpp:550
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pints (U.S. liquid)"
-msgstr "%1 galóns (líquidos EUA)"
+msgstr "%1 pintas (líquidas EUA)"
 
 #: volume.cpp:551
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gallon (U.S. liquid)"
-#| msgid_plural "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pint (U.S. liquid)"
 msgid_plural "%1 pints (U.S. liquid)"
-msgstr[0] "%1 galón (líquido EUA)"
-msgstr[1] "%1 galóns (líquidos EUA)"
+msgstr[0] "%1 pinta (líquida EUA)"
+msgstr[1] "%1 pintas (líquidas EUA)"
 
 #: volume.cpp:556
 #, kde-format
