@@ -10,6 +10,7 @@
 #include <currency_p.h>
 #include <kunitconversion/unitcategory.h>
 #include <unitcategory_p.h>
+#include <QSignalSpy>
 
 using namespace KUnitConversion;
 using namespace std::chrono_literals;
@@ -67,12 +68,15 @@ void CategoryTest::testCurrencyTableUpdate()
     UnitCategory category = c.category(CurrencyCategory);
     QCOMPARE(category.hasOnlineConversionTable(), true);
     {
-        category.syncConversionTable(std::chrono::seconds::zero()); // no skip period = force update
+        auto job = category.syncConversionTable(std::chrono::seconds::zero()); // no skip period = force update
+        QSignalSpy finishedSpy(job, &UpdateJob::finished);
+        finishedSpy.wait();
+
         QVERIFY(!Currency::lastConversionTableUpdate().isNull());
         QDateTime lastUpdate = Currency::lastConversionTableUpdate();
         QVERIFY(lastUpdate.secsTo(QDateTime::currentDateTime()) < std::chrono::seconds(1h).count());
 
-        category.syncConversionTable(1h);
+        QCOMPARE(category.syncConversionTable(1h), nullptr);
         QVERIFY(!Currency::lastConversionTableUpdate().isNull());
         QDateTime newUpdate = Currency::lastConversionTableUpdate();
         QCOMPARE(newUpdate, lastUpdate);

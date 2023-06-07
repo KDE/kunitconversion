@@ -11,6 +11,11 @@
 
 #include <KLocalizedString>
 
+#include <QNetworkReply>
+
+#include <QNetworkAccessManager>
+#include <QStandardPaths>
+
 namespace KUnitConversion
 {
 UnitCategoryPrivate::UnitCategoryPrivate()
@@ -42,6 +47,18 @@ bool UnitCategoryPrivate::operator==(const UnitCategoryPrivate &other) const
 bool UnitCategoryPrivate::operator!=(const UnitCategoryPrivate &other) const
 {
     return !(*this == other);
+}
+
+QNetworkAccessManager *UnitCategoryPrivate::nam()
+{
+    static std::unique_ptr<QNetworkAccessManager> s_nam;
+    if (!s_nam) {
+        s_nam = std::make_unique<QNetworkAccessManager>();
+        s_nam->setRedirectPolicy(QNetworkRequest::NoLessSafeRedirectPolicy);
+        s_nam->setStrictTransportSecurityEnabled(true);
+        s_nam->enableStrictTransportSecurityStore(true, QStandardPaths::writableLocation(QStandardPaths::GenericCacheLocation) + QLatin1String("/org.kde.unitconversion/hsts/"));
+    }
+    return s_nam.get();
 }
 
 Value UnitCategoryPrivate::convert(const Value &value, const Unit &toUnit)
@@ -244,9 +261,19 @@ bool UnitCategory::hasOnlineConversionTable() const
     return d->hasOnlineConversionTable();
 }
 
-void UnitCategory::syncConversionTable(std::chrono::seconds updateSkipPeriod)
+UpdateJob* UnitCategory::syncConversionTable(std::chrono::seconds updateSkipPeriod)
 {
-    d->syncConversionTable(updateSkipPeriod);
+    return d->syncConversionTable(updateSkipPeriod);
 }
+
+
+UpdateJob::UpdateJob(QNetworkReply *reply)
+    : d(reply)
+{
+    connect(d, &QNetworkReply::finished, this, &UpdateJob::finished);
+    connect(d, &QNetworkReply::finished, this, &QObject::deleteLater);
+}
+
+UpdateJob::~UpdateJob() = default;
 
 }

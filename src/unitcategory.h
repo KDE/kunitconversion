@@ -11,14 +11,20 @@
 #include "kunitconversion/kunitconversion_export.h"
 #include "unit.h"
 #include "value.h"
+
 #include <QExplicitlySharedDataPointer>
+#include <QObject>
 #include <QString>
 #include <QStringList>
+
 #include <chrono>
+
+class QNetworkReply;
 
 namespace KUnitConversion
 {
 class UnitCategoryPrivate;
+class UpdateJob;
 
 /**
  * @short Class to define a category of units of measurement
@@ -167,17 +173,27 @@ public:
 
     /**
      * @return true if category has conversion table that needs to be updated via online access, otherwise false
+     * @see syncConversionTable()
      */
     bool hasOnlineConversionTable() const;
 
     /**
-     * Explicit request to sync conversion table when it is older than @p updateSkipPeriod.
+     * Request an update of the online conversion table when it is older than @p updateSkipPeriod.
      *
-     * This method is supposed to be called at a convenient time at application startup. Yet it is
-     * safe to already do unit conversions that require an up-to-date conversion table (like currency).
-     * Those conversions yet block internally until the table is up-to-date.
+     * Returned jobs are automatically deleted, ie. it is safe to ignore the return value if you
+     * do not care about being notified about the completion (or failure) of the update process.
+     * Calling this method while another update is already in progress will not trigger another update
+     * but instead allows you to watch the already ongoing update.
+     * Performing conversions before the update has completed will return results based on the old
+     * conversion table, if available.
+     *
+     * @note This method must be called from the main thread!
+     *
+     * @returns an UpdateJob if an update is necessary or already running, @c nullptr otherwise.
+     * @see UpdateJob
+     * @since 6.0
      */
-    void syncConversionTable(std::chrono::seconds updateSkipPeriod);
+    UpdateJob* syncConversionTable(std::chrono::seconds updateSkipPeriod = std::chrono::hours(24));
 
 private:
     friend class Unit;
@@ -187,6 +203,32 @@ private:
 
 protected:
     QExplicitlySharedDataPointer<UnitCategoryPrivate> d;
+};
+
+
+/**
+ * Dynamic conversion data update job.
+ * Created via the factory methods in KUnitConversion::Updater, useful for
+ * getting notified about an update having completed.
+ * Update jobs are automatically deleted on completion, but it is also save to delete
+ * instances manually.
+ *
+ * @see UnitCategory
+ * @since 6.0
+ */
+class KUNITCONVERSION_EXPORT UpdateJob : public QObject
+{
+    Q_OBJECT
+public:
+    ~UpdateJob();
+
+Q_SIGNALS:
+    void finished();
+
+private:
+    friend class UnitCategoryPrivate;
+    explicit UpdateJob(QNetworkReply *dd);
+    QNetworkReply *d;
 };
 
 } // KUnitConversion namespace

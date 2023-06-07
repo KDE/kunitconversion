@@ -14,6 +14,8 @@
 
 #include <QMap>
 
+class QNetworkAccessManager;
+
 namespace KUnitConversion
 {
 class UnitCategoryPrivate : public QSharedData
@@ -34,10 +36,10 @@ public:
         return false;
     }
 
-    virtual void syncConversionTable(std::chrono::seconds updateSkipPeriod)
+    virtual UpdateJob* syncConversionTable(std::chrono::seconds updateSkipPeriod)
     {
         Q_UNUSED(updateSkipPeriod)
-        return;
+        return nullptr;
     }
 
     void addDefaultUnit(const Unit &unit);
@@ -57,6 +59,16 @@ public:
     {
         return UnitCategory(dd);
     }
+
+    static inline UpdateJob* makeUpdateJob(QNetworkReply *reply)
+    {
+        return new UpdateJob(reply);
+    }
+
+    /** Network access manager to use for online updates.
+     *  @see syncConversionTable
+     */
+    static QNetworkAccessManager* nam();
 
     CategoryId m_id;
     QString m_name;

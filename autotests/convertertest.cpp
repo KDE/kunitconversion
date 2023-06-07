@@ -5,6 +5,7 @@
  */
 
 #include "convertertest.h"
+#include <QSignalSpy>
 #include <QStandardPaths>
 #include <QThread>
 #include <QVector>
@@ -98,6 +99,10 @@ public:
 void ConverterTest::testCurrency()
 {
     Converter c;
+    auto job = c.category(CurrencyCategory).syncConversionTable();
+    QSignalSpy finishedSpy(job, &UpdateJob::finished);
+    finishedSpy.wait();
+
     // 2 threads is enough for tsan to notice races, let's not hammer the website with more concurrent requests
     const int numThreads = 2;
     QVector<CurrencyTestThread *> threads;
@@ -113,20 +118,6 @@ void ConverterTest::testCurrency()
         QVERIFY(threads.at(i)->number > 100);
     }
     qDeleteAll(threads);
-}
-
-void ConverterTest::testCurrencyConversionTableUpdate()
-{
-    const QString cache = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/libkunitconversion/currency.xml");
-
-    // Missing conversion table must lead to update of table
-    // note that this is the same code path as for last modified updates
-    QFile::remove(cache);
-    QVERIFY(Currency::lastConversionTableUpdate().isNull());
-    Converter c;
-    Value input = Value(1000, Eur);
-    Value v = c.convert(input, QStringLiteral("$"));
-    QVERIFY(!Currency::lastConversionTableUpdate().isNull());
 }
 
 QTEST_MAIN(ConverterTest)
