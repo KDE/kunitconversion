@@ -31,3 +31,5 @@ void CurrencyTableInitTest::testCategoryInit()
 }
 
 QTEST_MAIN(CurrencyTableInitTest)
+
+#include "moc_currencytableinittest.cpp"
