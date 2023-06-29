@@ -121,3 +121,5 @@ void ConverterTest::testCurrency()
 }
 
 QTEST_MAIN(ConverterTest)
+
+#include "moc_convertertest.cpp"

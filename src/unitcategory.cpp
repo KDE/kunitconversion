@@ -277,3 +277,5 @@ UpdateJob::UpdateJob(QNetworkReply *reply)
 UpdateJob::~UpdateJob() = default;
 
 }
+
+#include "moc_unitcategory.cpp"

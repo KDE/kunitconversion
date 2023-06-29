@@ -84,3 +84,5 @@ void CategoryTest::testCurrencyTableUpdate()
 }
 
 QTEST_MAIN(CategoryTest)
+
+#include "moc_categorytest.cpp"

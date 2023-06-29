@@ -68,3 +68,5 @@ void ValueTest::testCurrencyNotDownloaded()
 }
 
 QTEST_MAIN(ValueTest)
+
+#include "moc_valuetest.cpp"
