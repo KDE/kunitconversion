@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Shinjo Park <kde@peremen.name>, 2011, 2014, 2017, 2019, 2020, 2022.
+# Shinjo Park <kde@peremen.name>, 2011, 2014, 2017, 2019, 2020, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-29 00:45+0000\n"
-"PO-Revision-Date: 2022-07-13 12:29+0200\n"
+"PO-Revision-Date: 2023-07-25 01:07+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -9341,9 +9341,7 @@ msgid "tons"
 msgstr "톤"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
 msgstr "ton;tons;t;tonne;톤"
@@ -9374,12 +9372,10 @@ msgid "carats"
 msgstr "캐럿"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "carat;carats;CD;캐럿"
+msgstr "carat;carats;CD;ct;캐럿"
 
 #: mass.cpp:250
 #, kde-format
@@ -9407,12 +9403,10 @@ msgid "pounds"
 msgstr "파운드"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "pound;pounds;lb;파운드"
+msgstr "pound;pounds;lb;lbs;파운드"
 
 #: mass.cpp:261
 #, kde-format
@@ -12874,12 +12868,10 @@ msgid "kilometers per hour"
 msgstr "시속 킬로미터"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "kilometer per hour;kilometers per hour;km/h;kmh;시속 킬로미터"
+msgstr "kilometer per hour;kilometers per hour;km/h;kmh;kph;시속 킬로미터"
 
 #: velocity.cpp:67
 #, kde-format
@@ -15296,12 +15288,10 @@ msgid "teaspoon"
 msgstr "티스푼"
 
 #: volume.cpp:497
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teaspoon;teaspoons;tsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr "teaspoon;teaspoons;tsps;티스푼"
+msgstr "teaspoon;teaspoons;tsp;tsps;티스푼"
 
 #: volume.cpp:499
 #, kde-format
@@ -15329,12 +15319,10 @@ msgid "tablespoon"
 msgstr "테이블스푼"
 
 #: volume.cpp:507
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "tablespoon;tablespoons;tbsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr "tablespoon;tablespoons;tbsps;테이블스푼"
+msgstr "tablespoon;tablespoons;tbsp;tbsps;테이블스푼"
 
 #: volume.cpp:509
 #, kde-format
