@@ -233,4 +233,6 @@ private:
 
 } // KUnitConversion namespace
 
+Q_DECLARE_TYPEINFO(KUnitConversion::UnitCategory, Q_RELOCATABLE_TYPE);
+
 #endif
