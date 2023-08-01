@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Stefan Asserhäll <stefan.asserhall@bredband.net>, 2009, 2010.
-# Stefan Asserhall <stefan.asserhall@bredband.net>, 2010, 2011, 2014, 2016, 2018, 2019, 2020, 2022.
+# Stefan Asserhall <stefan.asserhall@bredband.net>, 2010, 2011, 2014, 2016, 2018, 2019, 2020, 2022, 2023.
 # Arve Eriksson <031299870@telia.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-04-29 00:45+0000\n"
-"PO-Revision-Date: 2022-05-29 11:21+0200\n"
+"PO-Revision-Date: 2023-07-31 10:22+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -9598,9 +9598,7 @@ msgid "tons"
 msgstr "ton"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
 msgstr "ton;ton;t;ton"
@@ -9632,12 +9630,10 @@ msgid "carats"
 msgstr "karat"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "karat;karat;karat"
+msgstr "karat;karat;karat;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9666,12 +9662,10 @@ msgid "pounds"
 msgstr "pund"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "pund;pund;lb"
+msgstr "pund;pund;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
@@ -13232,9 +13226,7 @@ msgid "kilometers per hour"
 msgstr "kilometer per timme"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
 msgstr "kilometer per timme;kilometer per timme;km/t;km/t"
@@ -15727,9 +15719,7 @@ msgid "teaspoon"
 msgstr "tesked"
 
 #: volume.cpp:497
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teaspoon;teaspoons;tsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
 msgstr "tesked;teskedar:tsk"
@@ -15761,9 +15751,7 @@ msgid "tablespoon"
 msgstr "matsked"
 
 #: volume.cpp:507
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "tablespoon;tablespoons;tbsps"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
 msgstr "matsked;matskedar:msk"
