@@ -5,10 +5,10 @@
  */
 
 #include "convertertest.h"
+#include <QList>
 #include <QSignalSpy>
 #include <QStandardPaths>
 #include <QThread>
-#include <QVector>
 #include <currency_p.h>
 #include <kunitconversion/unitcategory.h>
 
@@ -105,7 +105,7 @@ void ConverterTest::testCurrency()
 
     // 2 threads is enough for tsan to notice races, let's not hammer the website with more concurrent requests
     const int numThreads = 2;
-    QVector<CurrencyTestThread *> threads;
+    QList<CurrencyTestThread *> threads;
     threads.resize(numThreads);
     for (int i = 0; i < numThreads; ++i) {
         threads[i] = new CurrencyTestThread(c);
