@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the kunitconversion package.
 #
-# Enol P. <enolp@softastur.org>, 2023.
+# SPDX-FileCopyrightText: 2023 Enol P. <enolp@softastur.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-12 02:34+0000\n"
-"PO-Revision-Date: 2023-05-14 00:38+0200\n"
+"PO-Revision-Date: 2023-10-29 21:30+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
 "Language: ast\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 23.08.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -157,15 +157,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 degrees"
-msgstr ""
+msgstr "%1 graos"
 
 #: angle.cpp:57
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 degree"
 msgid_plural "%1 degrees"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 grau"
+msgstr[1] "%1 graos"
 
 #: angle.cpp:62
 #, kde-format
@@ -4256,8 +4256,8 @@ msgstr ""
 msgctxt "amount in units (integer)"
 msgid "%1 ampere"
 msgid_plural "%1 amperes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 amperiu"
+msgstr[1] "%1 amperios"
 
 #: electrical_current.cpp:135
 #, kde-format
