@@ -7,19 +7,20 @@
 # Dimitrios Glentadakis <dglent@gmail.com>, 2011, 2012.
 # Antonis Geralis <capoiosct@gmail.com>, 2014.
 # Dimitris Kardarakos <dimkard@gmail.com>, 2016.
+# SPDX-FileCopyrightText: 2023 George Stefanakis <george.stefanakis@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-12 02:34+0000\n"
-"PO-Revision-Date: 2016-09-28 13:57+0200\n"
-"Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
-"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"PO-Revision-Date: 2023-10-25 00:15+0300\n"
+"Last-Translator: George Stefanakis <george.stefanakis@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-doc@kde.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 23.08.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: acceleration.cpp:17
@@ -568,9 +569,7 @@ msgid "square kilometers"
 msgstr "τετραγωνικά χιλιόμετρα"
 
 #: area.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square kilometer;square kilometers;km²;km/-2;km^2;km2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
 msgstr ""
@@ -671,9 +670,7 @@ msgid "square meters"
 msgstr "τετραγωνικά μέτρα"
 
 #: area.cpp:144
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
 msgstr "τετραγωνικό μέτρο;τετραγωνικά μέτρα;m²;m/-2;m^2;m2;μ²;μ/-2;μ^2;μ2"
@@ -739,9 +736,7 @@ msgid "square centimeters"
 msgstr "τετραγωνικά εκατοστόμετρα"
 
 #: area.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
 msgstr ""
@@ -775,9 +770,7 @@ msgid "square millimeters"
 msgstr "τετραγωνικά χιλιοστόμετρα"
 
 #: area.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
 msgstr ""
@@ -1155,17 +1148,15 @@ msgstr[1] "%1 τετραγωνικά μίλια"
 #: binary_data.cpp:44
 #, kde-format
 msgid "Binary Data"
-msgstr ""
+msgstr "Δυαδικά δεδομένα"
 
 #: binary_data.cpp:44
 #, kde-format
 msgid "Binary Data Size"
-msgstr ""
+msgstr "Μέγεθος δυαδικών δεδομένων"
 
 #: binary_data.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (binary data)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -1174,1319 +1165,1089 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "YiB"
-msgstr ""
+msgstr "YiB"
 
 #: binary_data.cpp:52
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yobibytes"
-msgstr ""
+msgstr "yobibytes"
 
 #: binary_data.cpp:53
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "YiB;yobibyte;yobibytes"
-msgstr ""
+msgstr "YiB;yobibyte;yobibytes"
 
 #: binary_data.cpp:55
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yobibytes"
-msgstr "%1 γιοττάλιτρα"
+msgstr "%1 yobibytes"
 
 #: binary_data.cpp:56
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottaliter"
-#| msgid_plural "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yobibyte"
 msgid_plural "%1 yobibytes"
-msgstr[0] "%1 γιοττάλιτρο"
-msgstr[1] "%1 γιοττάλιτρα"
+msgstr[0] "%1 yobibyte"
+msgstr[1] "%1 yobibytes"
 
 #: binary_data.cpp:61
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Yib"
-msgstr ""
+msgstr "Yib"
 
 #: binary_data.cpp:62
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yobibits"
-msgstr ""
+msgstr "yobibits"
 
 #: binary_data.cpp:63
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Yib;yobibit;yobibits"
-msgstr ""
+msgstr "Yib;yobibit;yobibits"
 
 #: binary_data.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yobibits"
-msgstr "%1 γιοττάλιτρα"
+msgstr "%1 yobibits"
 
 #: binary_data.cpp:66
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottaliter"
-#| msgid_plural "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yobibit"
 msgid_plural "%1 yobibits"
-msgstr[0] "%1 γιοττάλιτρο"
-msgstr[1] "%1 γιοττάλιτρα"
+msgstr[0] "%1 yobibit"
+msgstr[1] "%1 yobibits"
 
 #: binary_data.cpp:71
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "YB"
-msgstr ""
+msgstr "YB"
 
 #: binary_data.cpp:72
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yottameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yottabytes"
-msgstr "γιοττάμετρα"
+msgstr "yottabytes"
 
 #: binary_data.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yottameter;yottameters;Ym"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "YB;yottabyte;yottabytes"
-msgstr "γιοττάμετρο;γιοττάμετρα;Ym"
+msgstr "YB;yottabyte;yottabytes"
 
 #: binary_data.cpp:75
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottabytes"
-msgstr "%1 γιοττάμετρα"
+msgstr "%1 yottabytes"
 
 #: binary_data.cpp:76
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottameter"
-#| msgid_plural "%1 yottameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottabyte"
 msgid_plural "%1 yottabytes"
-msgstr[0] "%1 γιοττάμετρο"
-msgstr[1] "%1 γιοττάμετρα"
+msgstr[0] "%1 yottabyte"
+msgstr[1] "%1 yottabytes"
 
 #: binary_data.cpp:81
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Yb"
-msgstr ""
+msgstr "Yb"
 
 #: binary_data.cpp:82
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yottaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yottabits"
-msgstr "γιοττάλιτρα"
+msgstr "yottabits"
 
 #: binary_data.cpp:83
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yottaliter;yottaliters;Yl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Yb;yottabit;yottabits"
-msgstr "γιοττάλιτρο;γιοττάλιτρα;Yl"
+msgstr "Yb;yottabit;yottabits"
 
 #: binary_data.cpp:85
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottabits"
-msgstr "%1 γιοττάλιτρα"
+msgstr "%1 yottabits"
 
 #: binary_data.cpp:86
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottaliter"
-#| msgid_plural "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottabit"
 msgid_plural "%1 yottabits"
-msgstr[0] "%1 γιοττάλιτρο"
-msgstr[1] "%1 γιοττάλιτρα"
+msgstr[0] "%1 yottabit"
+msgstr[1] "%1 yottabits"
 
 #: binary_data.cpp:91
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "ZiB"
-msgstr ""
+msgstr "ZiB"
 
 #: binary_data.cpp:92
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zebibytes"
-msgstr ""
+msgstr "zebibytes"
 
 #: binary_data.cpp:93
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ZiB;zebibyte;zebibytes"
-msgstr ""
+msgstr "ZiB;zebibyte;zebibytes"
 
 #: binary_data.cpp:95
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zebibytes"
-msgstr "%1 ζεττάλιτρα"
+msgstr "%1 zebibytes"
 
 #: binary_data.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettaliter"
-#| msgid_plural "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zebibyte"
 msgid_plural "%1 zebibytes"
-msgstr[0] "%1 ζεττάλιτρο"
-msgstr[1] "%1 ζεττάλιτρα"
+msgstr[0] "%1 zebibyte"
+msgstr[1] "%1 zebibytes"
 
 #: binary_data.cpp:101
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zib"
-msgstr ""
+msgstr "Zib"
 
 #: binary_data.cpp:102
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zebibits"
-msgstr ""
+msgstr "zebibits"
 
 #: binary_data.cpp:103
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Zib;zebibit;zebibits"
-msgstr ""
+msgstr "Zib;zebibit;zebibits"
 
 #: binary_data.cpp:105
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zebibits"
-msgstr "%1 ζεττάλιτρα"
+msgstr "%1 zebibits"
 
 #: binary_data.cpp:106
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettaliter"
-#| msgid_plural "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zebibit"
 msgid_plural "%1 zebibits"
-msgstr[0] "%1 ζεττάλιτρο"
-msgstr[1] "%1 ζεττάλιτρα"
+msgstr[0] "%1 zebibit"
+msgstr[1] "%1 zebibits"
 
 #: binary_data.cpp:111
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "ZB"
-msgstr ""
+msgstr "ZB"
 
 #: binary_data.cpp:112
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zettameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zettabytes"
-msgstr "ζεττάμετρα"
+msgstr "zettabytes"
 
 #: binary_data.cpp:113
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zettameter;zettameters;Zm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ZB;zettabyte;zettabytes"
-msgstr "ζεττάμετρο;ζεττάμετρα;Zm"
+msgstr "ZB;zettabyte;zettabytes"
 
 #: binary_data.cpp:115
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettabytes"
-msgstr "%1 ζεττάμετρα"
+msgstr "%1 zettabytes"
 
 #: binary_data.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettameter"
-#| msgid_plural "%1 zettameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettabyte"
 msgid_plural "%1 zettabytes"
-msgstr[0] "%1 ζεττάμετρο"
-msgstr[1] "%1 ζεττάμετρα"
+msgstr[0] "%1 zettabyte"
+msgstr[1] "%1 zettabytes"
 
 #: binary_data.cpp:121
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zb"
-msgstr ""
+msgstr "Zb"
 
 #: binary_data.cpp:122
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zettaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zettabits"
-msgstr "ζεττάλιτρα"
+msgstr "zettabits"
 
 #: binary_data.cpp:123
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zettaliter;zettaliters;Zl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Zb;zettabit;zettabits"
-msgstr "ζεττάλιτρο;ζεττάλιτρα;Zl"
+msgstr "Zb;zettabit;zettabits"
 
 #: binary_data.cpp:125
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettabits"
-msgstr "%1 ζεττάλιτρα"
+msgstr "%1 zettabits"
 
 #: binary_data.cpp:126
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettaliter"
-#| msgid_plural "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettabit"
 msgid_plural "%1 zettabits"
-msgstr[0] "%1 ζεττάλιτρο"
-msgstr[1] "%1 ζεττάλιτρα"
+msgstr[0] "%1 zettabit"
+msgstr[1] "%1 zettabits"
 
 #: binary_data.cpp:131
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "EiB"
-msgstr ""
+msgstr "EiB"
 
 #: binary_data.cpp:132
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exbibytes"
-msgstr ""
+msgstr "exbibytes"
 
 #: binary_data.cpp:133
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "EiB;exbibyte;exbibytes"
-msgstr ""
+msgstr "EiB;exbibyte;exbibytes"
 
 #: binary_data.cpp:135
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exbibytes"
-msgstr "%1 εξάλιτρα"
+msgstr "%1 exbibytes"
 
 #: binary_data.cpp:136
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exaliter"
-#| msgid_plural "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exbibyte"
 msgid_plural "%1 exbibytes"
-msgstr[0] "%1 εξάλιτρο"
-msgstr[1] "%1 εξάλιτρα"
+msgstr[0] "%1 exbibyte"
+msgstr[1] "%1 exbibytes"
 
 #: binary_data.cpp:141
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Eib"
-msgstr ""
+msgstr "Eib"
 
 #: binary_data.cpp:142
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exbibits"
-msgstr ""
+msgstr "exbibits"
 
 #: binary_data.cpp:143
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Eib;exbibit;exbibits"
-msgstr ""
+msgstr "Eib;exbibit;exbibits"
 
 #: binary_data.cpp:145
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exbibits"
-msgstr "%1 εξάλιτρα"
+msgstr "%1 exbibits"
 
 #: binary_data.cpp:146
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exaliter"
-#| msgid_plural "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exbibit"
 msgid_plural "%1 exbibits"
-msgstr[0] "%1 εξάλιτρο"
-msgstr[1] "%1 εξάλιτρα"
+msgstr[0] "%1 exbibit"
+msgstr[1] "%1 exbibits"
 
 #: binary_data.cpp:151
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "EB"
-msgstr ""
+msgstr "EB"
 
 #: binary_data.cpp:152
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exabytes"
-msgstr ""
+msgstr "exabytes"
 
 #: binary_data.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "exameter;exameters;Em"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "EB;exabyte;exabytes"
-msgstr "εξάμετρο;εξάμετρα;Em"
+msgstr "EB;exabyte;exabytes"
 
 #: binary_data.cpp:155
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exabytes"
-msgstr "%1 εξάμετρα"
+msgstr "%1 exabytes"
 
 #: binary_data.cpp:156
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exameter"
-#| msgid_plural "%1 exameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exabyte"
 msgid_plural "%1 exabytes"
-msgstr[0] "%1 εξάμετρο"
-msgstr[1] "%1 εξάμετρα"
+msgstr[0] "%1 exabyte"
+msgstr[1] "%1 exabytes"
 
 #: binary_data.cpp:161
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Eb"
-msgstr ""
+msgstr "Eb"
 
 #: binary_data.cpp:162
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exabits"
-msgstr ""
+msgstr "exabits"
 
 #: binary_data.cpp:163
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "exaliter;exaliters;El"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Eb;exabit;exabits"
-msgstr "εξάλιτρο;εξάλιτρα;El"
+msgstr "Eb;exabit;exabits"
 
 #: binary_data.cpp:165
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exabits"
-msgstr "%1 εξάλιτρα"
+msgstr "%1 exabits"
 
 #: binary_data.cpp:166
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exaliter"
-#| msgid_plural "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exabit"
 msgid_plural "%1 exabits"
-msgstr[0] "%1 εξάλιτρο"
-msgstr[1] "%1 εξάλιτρα"
+msgstr[0] "%1 exabit"
+msgstr[1] "%1 exabits"
 
 #: binary_data.cpp:171
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #: binary_data.cpp:172
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pebibytes"
-msgstr ""
+msgstr "pebibytes"
 
 #: binary_data.cpp:173
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "PiB;pebibyte;pebibytes"
-msgstr ""
+msgstr "PiB;pebibyte;pebibytes"
 
 #: binary_data.cpp:175
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pebibytes"
-msgstr "%1 πετάλιτρα"
+msgstr "%1 pebibytes"
 
 #: binary_data.cpp:176
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petaliter"
-#| msgid_plural "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pebibyte"
 msgid_plural "%1 pebibytes"
-msgstr[0] "%1 πετάλιτρο"
-msgstr[1] "%1 πετάλιτρα"
+msgstr[0] "%1 pebibyte"
+msgstr[1] "%1 pebibytes"
 
 #: binary_data.cpp:181
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Pib"
-msgstr ""
+msgstr "Pib"
 
 #: binary_data.cpp:182
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pebibits"
-msgstr ""
+msgstr "pebibits"
 
 #: binary_data.cpp:183
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Pib;pebibit;pebibits"
-msgstr ""
+msgstr "Pib;pebibit;pebibits"
 
 #: binary_data.cpp:185
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pesetas"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pebibits"
-msgstr "%1 πεσέτες"
+msgstr "%1 pebibits"
 
 #: binary_data.cpp:186
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petaliter"
-#| msgid_plural "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pebibit"
 msgid_plural "%1 pebibits"
-msgstr[0] "%1 πετάλιτρο"
-msgstr[1] "%1 πετάλιτρα"
+msgstr[0] "%1 pebibit"
+msgstr[1] "%1 pebibits"
 
 #: binary_data.cpp:191
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PB"
-msgstr ""
+msgstr "PB"
 
 #: binary_data.cpp:192
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "petameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "petabytes"
-msgstr "πετάμετρα"
+msgstr "petabytes"
 
 #: binary_data.cpp:193
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "petameter;petameters;Pm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "PB;petabyte;petabytes"
-msgstr "πετάμετρο;πετάμετρα;Pm"
+msgstr "PB;petabyte;petabytes"
 
 #: binary_data.cpp:195
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 petameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petabytes"
-msgstr "%1 πετάμετρα"
+msgstr "%1 petabytes"
 
 #: binary_data.cpp:196
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petameter"
-#| msgid_plural "%1 petameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petabyte"
 msgid_plural "%1 petabytes"
-msgstr[0] "%1 πετάμετρο"
-msgstr[1] "%1 πετάμετρα"
+msgstr[0] "%1 petabyte"
+msgstr[1] "%1 petabytes"
 
 #: binary_data.cpp:201
-#, fuzzy, kde-format
-#| msgctxt "mass unit symbol"
-#| msgid "lb"
+#, kde-format
 msgctxt "binary data unit symbol"
 msgid "Pb"
-msgstr "lb"
+msgstr "Pb"
 
 #: binary_data.cpp:202
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "petaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "petabits"
-msgstr "πετάλιτρα"
+msgstr "petabits"
 
 #: binary_data.cpp:203
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "petaliter;petaliters;Pl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Pb;petabit;petabits"
-msgstr "πετάλιτρο;πετάλιτρα;Pl"
+msgstr "Pb;petabit;petabits"
 
 #: binary_data.cpp:205
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petabits"
-msgstr "%1 πετάλιτρα"
+msgstr "%1 petabits"
 
 #: binary_data.cpp:206
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petaliter"
-#| msgid_plural "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petabit"
 msgid_plural "%1 petabits"
-msgstr[0] "%1 πετάλιτρο"
-msgstr[1] "%1 πετάλιτρα"
+msgstr[0] "%1 petabit"
+msgstr[1] "%1 petabits"
 
 #: binary_data.cpp:211
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #: binary_data.cpp:212
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tebibytes"
-msgstr ""
+msgstr "tebibytes"
 
 #: binary_data.cpp:213
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "TiB;tebibyte;tebibytes"
-msgstr ""
+msgstr "TiB;tebibyte;tebibytes"
 
 #: binary_data.cpp:215
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tebibytes"
-msgstr "%1 τεράλιτρα"
+msgstr "%1 tebibytes"
 
 #: binary_data.cpp:216
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 teraliter"
-#| msgid_plural "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tebibyte"
 msgid_plural "%1 tebibytes"
-msgstr[0] "%1 τεράλιτρo"
-msgstr[1] "%1 τεράλιτρα"
+msgstr[0] "%1 tebibyte"
+msgstr[1] "%1 tebibytes"
 
 #: binary_data.cpp:221
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Tib"
-msgstr ""
+msgstr "Tib"
 
 #: binary_data.cpp:222
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tebibits"
-msgstr ""
+msgstr "tebibits"
 
 #: binary_data.cpp:223
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Tib;tebibit;tebibits"
-msgstr ""
+msgstr "Tib;tebibit;tebibits"
 
 #: binary_data.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tebibits"
-msgstr "%1 τεράλιτρα"
+msgstr "%1 tebibits"
 
 #: binary_data.cpp:226
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 teraliter"
-#| msgid_plural "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tebibit"
 msgid_plural "%1 tebibits"
-msgstr[0] "%1 τεράλιτρo"
-msgstr[1] "%1 τεράλιτρα"
+msgstr[0] "%1 tebibit"
+msgstr[1] "%1 tebibits"
 
 #: binary_data.cpp:231
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: binary_data.cpp:232
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "terameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "terabytes"
-msgstr "τεράμετρα"
+msgstr "terabytes"
 
 #: binary_data.cpp:233
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terameter;terameters;Tm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "TB;terabyte;terabytes"
-msgstr "τεράμετρο;τεράμετρα;Tm"
+msgstr "TB;terabyte;terabytes"
 
 #: binary_data.cpp:235
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terabytes"
-msgstr "%1 τεράμετρα"
+msgstr "%1 terabytes"
 
 #: binary_data.cpp:236
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terameter"
-#| msgid_plural "%1 terameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terabyte"
 msgid_plural "%1 terabytes"
-msgstr[0] "%1 τεράμετρο"
-msgstr[1] "%1 τεράμετρα"
+msgstr[0] "%1 terabyte"
+msgstr[1] "%1 terabytes"
 
 #: binary_data.cpp:241
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Tb"
-msgstr ""
+msgstr "Tb"
 
 #: binary_data.cpp:242
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "teraliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "terabits"
-msgstr "τεράλιτρα"
+msgstr "terabits"
 
 #: binary_data.cpp:243
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teraliter;teraliters;Tl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Tb;terabit;terabits"
-msgstr "τεράλιτρο;τεράλιτρα;Tl"
+msgstr "Tb;terabit;terabits"
 
 #: binary_data.cpp:245
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terabits"
-msgstr "%1 τεράλιτρα"
+msgstr "%1 terabits"
 
 #: binary_data.cpp:246
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 teraliter"
-#| msgid_plural "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terabit"
 msgid_plural "%1 terabits"
-msgstr[0] "%1 τεράλιτρo"
-msgstr[1] "%1 τεράλιτρα"
+msgstr[0] "%1 terabit"
+msgstr[1] "%1 terabits"
 
 #: binary_data.cpp:251
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: binary_data.cpp:252
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gibibytes"
-msgstr ""
+msgstr "gibibytes"
 
 #: binary_data.cpp:253
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "GiB;gibibyte;gibibytes"
-msgstr ""
+msgstr "GiB;gibibyte;gibibytes"
 
 #: binary_data.cpp:255
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gibibytes"
-msgstr "%1 γιγάλιτρα"
+msgstr "%1 gibibytes"
 
 #: binary_data.cpp:256
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigaliter"
-#| msgid_plural "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gibibyte"
 msgid_plural "%1 gibibytes"
-msgstr[0] "%1 γιγάλιτρο"
-msgstr[1] "%1 γιγάλιτρα"
+msgstr[0] "%1 gibibyte"
+msgstr[1] "%1 gibibytes"
 
 #: binary_data.cpp:261
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Gib"
-msgstr ""
+msgstr "Gib"
 
 #: binary_data.cpp:262
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gibibits"
-msgstr ""
+msgstr "gibibits"
 
 #: binary_data.cpp:263
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Gib;gibibit;gibibits"
-msgstr ""
+msgstr "Gib;gibibit;gibibits"
 
 #: binary_data.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gibibits"
-msgstr "%1 γιγάλιτρα"
+msgstr "%1 gibibits"
 
 #: binary_data.cpp:266
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigaliter"
-#| msgid_plural "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gibibit"
 msgid_plural "%1 gibibits"
-msgstr[0] "%1 γιγάλιτρο"
-msgstr[1] "%1 γιγάλιτρα"
+msgstr[0] "%1 gibibit"
+msgstr[1] "%1 gibibits"
 
 #: binary_data.cpp:271
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: binary_data.cpp:272
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigabytes"
-msgstr "γιγάμετρα"
+msgstr "gigabytes"
 
 #: binary_data.cpp:273
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigameter;gigameters;Gm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "GB;gigabyte;gigabytes"
-msgstr "γιγάμετρο;γιγάμετρα;Gm"
+msgstr "GB;gigabyte;gigabytes"
 
 #: binary_data.cpp:275
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigabytes"
-msgstr "%1 γιγάμετρα"
+msgstr "%1 gigabytes"
 
 #: binary_data.cpp:276
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigameter"
-#| msgid_plural "%1 gigameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigabyte"
 msgid_plural "%1 gigabytes"
-msgstr[0] "%1 γιγάμετρο"
-msgstr[1] "%1 γιγάμετρα"
+msgstr[0] "%1 gigabyte"
+msgstr[1] "%1 gigabytes"
 
 #: binary_data.cpp:281
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Gb"
-msgstr ""
+msgstr "Gb"
 
 #: binary_data.cpp:282
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigabits"
-msgstr "γιγάλιτρα"
+msgstr "gigabits"
 
 #: binary_data.cpp:283
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigaliter;gigaliters;Gl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Gb;gigabit;gigabits"
-msgstr "γιγάλιτρο;γιγάλιτρα;Gl"
+msgstr "Gb;gigabit;gigabits"
 
 #: binary_data.cpp:285
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigabits"
-msgstr "%1 γιγάλιτρα"
+msgstr "%1 gigabits"
 
 #: binary_data.cpp:286
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigaliter"
-#| msgid_plural "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigabit"
 msgid_plural "%1 gigabits"
-msgstr[0] "%1 γιγάλιτρο"
-msgstr[1] "%1 γιγάλιτρα"
+msgstr[0] "%1 gigabit"
+msgstr[1] "%1 gigabits"
 
 #: binary_data.cpp:291
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: binary_data.cpp:292
 #, kde-format
 msgctxt "unit description in lists"
 msgid "mebibytes"
-msgstr ""
+msgstr "mebibytes"
 
 #: binary_data.cpp:293
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "MiB;mebibyte;mebibytes"
-msgstr ""
+msgstr "MiB;mebibyte;mebibytes"
 
 #: binary_data.cpp:295
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 meters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 mebibytes"
-msgstr "%1 μέτρα"
+msgstr "%1 mebibytes"
 
 #: binary_data.cpp:296
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 meter"
-#| msgid_plural "%1 meters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mebibyte"
 msgid_plural "%1 mebibytes"
-msgstr[0] "%1 μέτρο"
-msgstr[1] "%1 μέτρα"
+msgstr[0] "%1 mebibyte"
+msgstr[1] "%1 mebibytes"
 
 #: binary_data.cpp:301
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Mib"
-msgstr ""
+msgstr "Mib"
 
 #: binary_data.cpp:302
 #, kde-format
 msgctxt "unit description in lists"
 msgid "mebibits"
-msgstr ""
+msgstr "mebibits"
 
 #: binary_data.cpp:303
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Mib;mebibit;mebibits"
-msgstr ""
+msgstr "Mib;mebibit;mebibits"
 
 #: binary_data.cpp:305
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 meters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 mebibits"
-msgstr "%1 μέτρα"
+msgstr "%1 mebibits"
 
 #: binary_data.cpp:306
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 meter"
-#| msgid_plural "%1 meters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mebibit"
 msgid_plural "%1 mebibits"
-msgstr[0] "%1 μέτρο"
-msgstr[1] "%1 μέτρα"
+msgstr[0] "%1 mebibit"
+msgstr[1] "%1 mebibits"
 
 #: binary_data.cpp:311
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: binary_data.cpp:312
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megabytes"
-msgstr "μεγάμετρα"
+msgstr "megabytes"
 
 #: binary_data.cpp:313
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megameter;megameters;Mm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "MB;megabyte;megabytes"
-msgstr "μεγάμετρο;μεγάμετρα;Mm"
+msgstr "MB;megabyte;megabytes"
 
 #: binary_data.cpp:315
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 megameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megabytes"
-msgstr "%1 μεγάμετρα"
+msgstr "%1 megabytes"
 
 #: binary_data.cpp:316
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megameter"
-#| msgid_plural "%1 megameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megabyte"
 msgid_plural "%1 megabytes"
-msgstr[0] "%1 μεγάμετρο"
-msgstr[1] "%1 μεγάμετρα"
+msgstr[0] "%1 megabyte"
+msgstr[1] "%1 megabytes"
 
 #: binary_data.cpp:321
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Mb"
-msgstr ""
+msgstr "Mb"
 
 #: binary_data.cpp:322
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megabits"
-msgstr "μεγάλιτρα"
+msgstr "megabits"
 
 #: binary_data.cpp:323
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megaliter;megaliters;Ml"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Mb;megabit;megabits"
-msgstr "μεγάλιτρο;μεγάλιτρα;Ml"
+msgstr "Mb;megabit;megabits"
 
 #: binary_data.cpp:325
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 megaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megabits"
-msgstr "%1 μεγάλιτρα"
+msgstr "%1 megabits"
 
 #: binary_data.cpp:326
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megaliter"
-#| msgid_plural "%1 megaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megabit"
 msgid_plural "%1 megabits"
-msgstr[0] "%1 μεγάλιτρο"
-msgstr[1] "%1 μεγάλιτρα"
+msgstr[0] "%1 megabit"
+msgstr[1] "%1 megabits"
 
 #: binary_data.cpp:331
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: binary_data.cpp:332
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kibibytes"
-msgstr ""
+msgstr "kibibytes"
 
 #: binary_data.cpp:333
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kibibyte;kibibytes"
-msgstr ""
+msgstr "KiB;kibibyte;kibibytes"
 
 #: binary_data.cpp:335
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kibibytes"
-msgstr "%1 χιλιόλιτρα"
+msgstr "%1 kibibytes"
 
 #: binary_data.cpp:336
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kiloliter"
-#| msgid_plural "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kibibyte"
 msgid_plural "%1 kibibytes"
-msgstr[0] "%1 χιλιόλιτρο"
-msgstr[1] "%1 χιλιόλιτρα"
+msgstr[0] "%1 kibibyte"
+msgstr[1] "%1 kibibytes"
 
 #: binary_data.cpp:341
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Kib"
-msgstr ""
+msgstr "Kib"
 
 #: binary_data.cpp:342
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kibibits"
-msgstr ""
+msgstr "kibibits"
 
 #: binary_data.cpp:343
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kibibit;kibibits"
-msgstr ""
+msgstr "Kib;kibibit;kibibits"
 
 #: binary_data.cpp:345
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kibibits"
-msgstr "%1 χιλιόλιτρα"
+msgstr "%1 kibibits"
 
 #: binary_data.cpp:346
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kiloliter"
-#| msgid_plural "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kibibit"
 msgid_plural "%1 kibibits"
-msgstr[0] "%1 χιλιόλιτρο"
-msgstr[1] "%1 χιλιόλιτρα"
+msgstr[0] "%1 kibibit"
+msgstr[1] "%1 kibibits"
 
 #: binary_data.cpp:351
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: binary_data.cpp:352
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kilobytes"
-msgstr "χιλιόμετρα"
+msgstr "kilobytes"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer;kilometers;km"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;kilobyte;kilobytes"
-msgstr "χιλιόμετρο;χιλιόμετρα;km;χλμ"
+msgstr "kB;kilobyte;kilobytes"
 
 #: binary_data.cpp:355
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilobytes"
-msgstr "%1 χιλιόμετρα"
+msgstr "%1 kilobytes"
 
 #: binary_data.cpp:356
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilometer"
-#| msgid_plural "%1 kilometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilobyte"
 msgid_plural "%1 kilobytes"
-msgstr[0] "%1 χιλιόμετρο"
-msgstr[1] "%1 χιλιόμετρα"
+msgstr[0] "%1 kilobyte"
+msgstr[1] "%1 kilobytes"
 
 #: binary_data.cpp:361
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kb"
-msgstr ""
+msgstr "kb"
 
 #: binary_data.cpp:362
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kiloliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kilobits"
-msgstr "χιλιόλιτρα"
+msgstr "kilobits"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kiloliter;kiloliters;kl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;kilobit;kilobits"
-msgstr "χιλιόλιτρο;χιλιόλιτρα;kl"
+msgstr "kb;kilobit;kilobits"
 
 #: binary_data.cpp:365
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilobits"
-msgstr "%1 χιλιόλιτρα"
+msgstr "%1 kilobits"
 
 #: binary_data.cpp:366
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kiloliter"
-#| msgid_plural "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilobit"
 msgid_plural "%1 kilobits"
-msgstr[0] "%1 χιλιόλιτρο"
-msgstr[1] "%1 χιλιόλιτρα"
+msgstr[0] "%1 kilobit"
+msgstr[1] "%1 kilobits"
 
 #: binary_data.cpp:371
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: binary_data.cpp:372
 #, kde-format
 msgctxt "unit description in lists"
 msgid "bytes"
-msgstr ""
+msgstr "bytes"
 
 #: binary_data.cpp:373
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "B;byte;bytes"
-msgstr ""
+msgstr "B;byte;bytes"
 
 #: binary_data.cpp:375
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 bytes"
-msgstr "μπαχτ"
+msgstr "%1 bytes"
 
 #: binary_data.cpp:376
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 baht"
-#| msgid_plural "%1 baht"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] "%1 μπαχτ"
-msgstr[1] "%1 μπαχτ"
+msgstr[0] "%1 byte"
+msgstr[1] "%1 bytes"
 
 #: binary_data.cpp:381
-#, fuzzy, kde-format
-#| msgctxt "mass unit symbol"
-#| msgid "lb"
+#, kde-format
 msgctxt "binary data unit symbol"
 msgid "b"
-msgstr "lb"
+msgstr "b"
 
 #: binary_data.cpp:382
 #, kde-format
 msgctxt "unit description in lists"
 msgid "bits"
-msgstr ""
+msgstr "bits"
 
 #: binary_data.cpp:383
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "b;bit;bits"
-msgstr ""
+msgstr "b;bit;bits"
 
 #: binary_data.cpp:385
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 bits"
-msgstr "μπαχτ"
+msgstr "%1 bits"
 
 #: binary_data.cpp:386
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 baht"
-#| msgid_plural "%1 baht"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 bit"
 msgid_plural "%1 bits"
-msgstr[0] "%1 μπαχτ"
-msgstr[1] "%1 μπαχτ"
+msgstr[0] "%1 bit"
+msgstr[1] "%1 bits"
 
 #: currency.cpp:64
 #, kde-format
@@ -3831,37 +3592,30 @@ msgstr[0] "%1 ραντ"
 msgstr[1] "%1 ραντ"
 
 #: currency.cpp:638 currency.cpp:640
-#, fuzzy, kde-format
-#| msgctxt "currency name"
-#| msgid "Swedish Krona"
+#, kde-format
 msgctxt "currency name"
 msgid "Icelandic Krona"
-msgstr "Κορόνα Σουηδίας"
+msgstr "Ισλανδική Κορόνα"
 
 #: currency.cpp:639
 #, kde-format
 msgctxt "Icelandic Krona - unit synonyms for matching user input"
 msgid "Icelandic krona;Icelandic crown"
-msgstr ""
+msgstr "Ισλανδική Κορόνα;Ισλανδική Κορόνα"
 
 #: currency.cpp:642
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 Danish kroner"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronar"
-msgstr "%1 Δανικές κορώνες"
+msgstr "%1 Ισλανδική Κορόνα"
 
 #: currency.cpp:643
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Danish krone"
-#| msgid_plural "%1 Danish kroner"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronar"
-msgstr[0] "%1 Δανική κορώνα"
-msgstr[1] "%1 Δανικές κορώνες"
+msgstr[0] "%1 Ισλανδική Κορόνα"
+msgstr[1] "%1 Ισλανδικές Κορόνες"
 
 #: density.cpp:17
 #, kde-format
@@ -4169,12 +3923,10 @@ msgstr[1] "%1 λίβρες ανά κυβική γιάρδα"
 #: electrical_current.cpp:18
 #, kde-format
 msgid "ElectricalCurrent"
-msgstr ""
+msgstr "ΗλεκτρικόΡεύμα"
 
 #: electrical_current.cpp:20
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (electrical current"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -4183,882 +3935,681 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "YA"
-msgstr ""
+msgstr "YA"
 
 #: electrical_current.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yottameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yottaamperes"
-msgstr "γιοττάμετρα"
+msgstr "yottaamperes"
 
 #: electrical_current.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yottameter;yottameters;Ym"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottaampere;yottaamperes;YA"
-msgstr "γιοττάμετρο;γιοττάμετρα;Ym"
+msgstr "yottaampere;yottaamperes;YA"
 
 #: electrical_current.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottaamperes"
-msgstr "%1 γιοττάμετρα"
+msgstr "%1 yottaamperes"
 
 #: electrical_current.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottameter"
-#| msgid_plural "%1 yottameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottaampere"
 msgid_plural "%1 yottaamperes"
-msgstr[0] "%1 γιοττάμετρο"
-msgstr[1] "%1 γιοττάμετρα"
+msgstr[0] "%1 yottaampere"
+msgstr[1] "%1 yottaamperes"
 
 #: electrical_current.cpp:35
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "ZA"
-msgstr ""
+msgstr "ZA"
 
 #: electrical_current.cpp:36
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zettameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zettaamperes"
-msgstr "ζεττάμετρα"
+msgstr "zettaamperes"
 
 #: electrical_current.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zettameter;zettameters;Zm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettaampere;zettaamperes;ZA"
-msgstr "ζεττάμετρο;ζεττάμετρα;Zm"
+msgstr "zettaampere;zettaamperes;ZA"
 
 #: electrical_current.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettaamperes"
-msgstr "%1 ζεττάμετρα"
+msgstr "%1 zettaamperes"
 
 #: electrical_current.cpp:40
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettameter"
-#| msgid_plural "%1 zettameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettaampere"
 msgid_plural "%1 zettaamperes"
-msgstr[0] "%1 ζεττάμετρο"
-msgstr[1] "%1 ζεττάμετρα"
+msgstr[0] "%1 zettaampere"
+msgstr[1] "%1 zettaamperes"
 
 #: electrical_current.cpp:45
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "EA"
-msgstr ""
+msgstr "EA"
 
 #: electrical_current.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "atmospheres"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "exaamperes"
-msgstr "ατμόσφαιρες"
+msgstr "exaamperes"
 
 #: electrical_current.cpp:47
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "exameter;exameters;Em"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exaampere;exaamperes;EA"
-msgstr "εξάμετρο;εξάμετρα;Em"
+msgstr "exaampere;exaamperes;EA"
 
 #: electrical_current.cpp:49
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exaamperes"
-msgstr "%1 εξάμετρα"
+msgstr "%1 exaamperes"
 
 #: electrical_current.cpp:50
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exameter"
-#| msgid_plural "%1 exameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exaampere"
 msgid_plural "%1 exaamperes"
-msgstr[0] "%1 εξάμετρο"
-msgstr[1] "%1 εξάμετρα"
+msgstr[0] "%1 exaampere"
+msgstr[1] "%1 exaamperes"
 
 #: electrical_current.cpp:55
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "PA"
-msgstr ""
+msgstr "PA"
 
 #: electrical_current.cpp:56
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "petameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "petaamperes"
-msgstr "πετάμετρα"
+msgstr "petaamperes"
 
 #: electrical_current.cpp:57
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "petameter;petameters;Pm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petaampere;petaamperes;PA"
-msgstr "πετάμετρο;πετάμετρα;Pm"
+msgstr "petaampere;petaamperes;PA"
 
 #: electrical_current.cpp:59
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 petameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petaamperes"
-msgstr "%1 πετάμετρα"
+msgstr "%1 petaamperes"
 
 #: electrical_current.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petameter"
-#| msgid_plural "%1 petameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petaampere"
 msgid_plural "%1 petaamperes"
-msgstr[0] "%1 πετάμετρο"
-msgstr[1] "%1 πετάμετρα"
+msgstr[0] "%1 petaampere"
+msgstr[1] "%1 petaamperes"
 
 #: electrical_current.cpp:65
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "TA"
-msgstr ""
+msgstr "TA"
 
 #: electrical_current.cpp:66
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "terameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "teraamperes"
-msgstr "τεράμετρα"
+msgstr "teraamperes"
 
 #: electrical_current.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terameter;terameters;Tm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teraampere;teraamperes;TA"
-msgstr "τεράμετρο;τεράμετρα;Tm"
+msgstr "teraampere;teraamperes;TA"
 
 #: electrical_current.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teraamperes"
-msgstr "%1 τεράμετρα"
+msgstr "%1 teraamperes"
 
 #: electrical_current.cpp:70
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terameter"
-#| msgid_plural "%1 terameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teraampere"
 msgid_plural "%1 teraamperes"
-msgstr[0] "%1 τεράμετρο"
-msgstr[1] "%1 τεράμετρα"
+msgstr[0] "%1 teraampere"
+msgstr[1] "%1 teraamperes"
 
 #: electrical_current.cpp:75
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "GDA"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "GA"
-msgstr "GDA"
+msgstr "GA"
 
 #: electrical_current.cpp:76
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigaamperes"
-msgstr "γιγάμετρα"
+msgstr "gigaamperes"
 
 #: electrical_current.cpp:77
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigameter;gigameters;Gm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigaampere;gigaamperes;GA"
-msgstr "γιγάμετρο;γιγάμετρα;Gm"
+msgstr "gigaampere;gigaamperes;GA"
 
 #: electrical_current.cpp:79
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigaamperes"
-msgstr "%1 γιγάμετρα"
+msgstr "%1 gigaamperes"
 
 #: electrical_current.cpp:80
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigameter"
-#| msgid_plural "%1 gigameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigaampere"
 msgid_plural "%1 gigaamperes"
-msgstr[0] "%1 γιγάμετρο"
-msgstr[1] "%1 γιγάμετρα"
+msgstr[0] "%1 gigaampere"
+msgstr[1] "%1 gigaamperes"
 
 #: electrical_current.cpp:85
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "MA"
-msgstr ""
+msgstr "MA"
 
 #: electrical_current.cpp:86
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megaamperes"
-msgstr "μεγάμετρα"
+msgstr "megaamperes"
 
 #: electrical_current.cpp:87
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megameter;megameters;Mm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megaampere;megaamperes;MA"
-msgstr "μεγάμετρο;μεγάμετρα;Mm"
+msgstr "megaampere;megaamperes;MA"
 
 #: electrical_current.cpp:89
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 megameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megaamperes"
-msgstr "%1 μεγάμετρα"
+msgstr "%1 megaamperes"
 
 #: electrical_current.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megameter"
-#| msgid_plural "%1 megameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megaampere"
 msgid_plural "%1 megaamperes"
-msgstr[0] "%1 μεγάμετρο"
-msgstr[1] "%1 μεγάμετρα"
+msgstr[0] "%1 megaampere"
+msgstr[1] "%1 megaamperes"
 
 #: electrical_current.cpp:95
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "kA"
-msgstr ""
+msgstr "kA"
 
 #: electrical_current.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kiloamperes"
-msgstr "χιλιόμετρα"
+msgstr "kiloamperes"
 
 #: electrical_current.cpp:97
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer;kilometers;km"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kiloampere;kiloamperes;kA"
-msgstr "χιλιόμετρο;χιλιόμετρα;km;χλμ"
+msgstr "kiloampere;kiloamperes;kA"
 
 #: electrical_current.cpp:99
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kiloamperes"
-msgstr "%1 χιλιόμετρα"
+msgstr "%1 kiloamperes"
 
 #: electrical_current.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilometer"
-#| msgid_plural "%1 kilometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kiloampere"
 msgid_plural "%1 kiloamperes"
-msgstr[0] "%1 χιλιόμετρο"
-msgstr[1] "%1 χιλιόμετρα"
+msgstr[0] "%1 kiloampere"
+msgstr[1] "%1 kiloamperes"
 
 #: electrical_current.cpp:105
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "h"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "hA"
-msgstr "h"
+msgstr "hA"
 
 #: electrical_current.cpp:106
-#, fuzzy, kde-format
-#| msgctxt "area unit"
-#| msgid "hectares"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "hectoamperes"
-msgstr "εκτάρια"
+msgstr "hectoamperes"
 
 #: electrical_current.cpp:107
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "hectometer;hectometers;hm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectoampere;hectoamperes;hA"
-msgstr "εκατόμετρο;εκατόμετρα;hm"
+msgstr "hectoampere;hectoamperes;hA"
 
 #: electrical_current.cpp:109
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 hectometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectoamperes"
-msgstr "%1 εκατόμετρα"
+msgstr "%1 hectoamperes"
 
 #: electrical_current.cpp:110
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 hectometer"
-#| msgid_plural "%1 hectometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectoampere"
 msgid_plural "%1 hectoamperes"
-msgstr[0] "%1 εκατόμετρο"
-msgstr[1] "%1 εκατόμετρα"
+msgstr[0] "%1 hectoampere"
+msgstr[1] "%1 hectoamperes"
 
 #: electrical_current.cpp:115
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "daJ"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "daA"
-msgstr "daJ"
+msgstr "daA"
 
 #: electrical_current.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "decameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decaamperes"
-msgstr "δεκάμετρα"
+msgstr "decaamperes"
 
 #: electrical_current.cpp:117
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "decameter;decameters;dam"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decaampere;decaamperes;daA"
-msgstr "δεκάμετρο;δεκάμετρα;dam"
+msgstr "decaampere;decaamperes;daA"
 
 #: electrical_current.cpp:119
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 decameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decaamperes"
-msgstr "%1 δεκάμετρα"
+msgstr "%1 decaamperes"
 
 #: electrical_current.cpp:120
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 decameter"
-#| msgid_plural "%1 decameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decaampere"
 msgid_plural "%1 decaamperes"
-msgstr[0] "%1 δεκάμετρο"
-msgstr[1] "%1 δεκάμετρα"
+msgstr[0] "%1 decaampere"
+msgstr[1] "%1 decaamperes"
 
 #: electrical_current.cpp:125
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: electrical_current.cpp:126
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "atmospheres"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "amperes"
-msgstr "ατμόσφαιρες"
+msgstr "amperes"
 
 #: electrical_current.cpp:127
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "atmosphere;atmospheres;atm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "amp;amps;ampere;amperes;A"
-msgstr "ατμόσφαιρα;ατμόσφαιρες;atm"
+msgstr "amp;amps;ampere;amperes;A"
 
 #: electrical_current.cpp:129
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 atmospheres"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 amperes"
-msgstr "%1 ατμόσφαιρες"
+msgstr "%1 amperes"
 
 #: electrical_current.cpp:130
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 atmosphere"
-#| msgid_plural "%1 atmospheres"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ampere"
 msgid_plural "%1 amperes"
-msgstr[0] "%1 ατμόσφαιρα"
-msgstr[1] "%1 ατμόσφαιρες"
+msgstr[0] "%1 ampere"
+msgstr[1] "%1 amperes"
 
 #: electrical_current.cpp:135
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "d"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "dA"
-msgstr "d"
+msgstr "dA"
 
 #: electrical_current.cpp:136
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "decimeters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "deciamperes"
-msgstr "δεκατόμετρα"
+msgstr "deciamperes"
 
 #: electrical_current.cpp:137
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "decimeter;decimeters;dm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "deciampere;deciamperes;dA"
-msgstr "δεκατόμετρο;δεκατόμετρα;dm;δεκ"
+msgstr "deciampere;deciamperes;dA"
 
 #: electrical_current.cpp:139
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 decimeters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 deciamperes"
-msgstr "%1 δεκατόμετρα"
+msgstr "%1 deciamperes"
 
 #: electrical_current.cpp:140
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 decimeter"
-#| msgid_plural "%1 decimeters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 deciampere"
 msgid_plural "%1 deciamperes"
-msgstr[0] "%1 δεκατόμετρο"
-msgstr[1] "%1 δεκατόμετρα"
+msgstr[0] "%1 deciampere"
+msgstr[1] "%1 deciamperes"
 
 #: electrical_current.cpp:145
-#, fuzzy, kde-format
-#| msgctxt "velocity unit symbol"
-#| msgid "c"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "cA"
-msgstr "c"
+msgstr "cA"
 
 #: electrical_current.cpp:146
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "centimeters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "centiamperes"
-msgstr "εκατοστόμετρα"
+msgstr "centiamperes"
 
 #: electrical_current.cpp:147
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "centimeter;centimeters;cm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centiampere;centiamperes;cA"
-msgstr "εκατοστόμετρο;εκατοστόμετρα;εκατοστό;εκατοστά;cm;εκ"
+msgstr "centiampere;centiamperes;cA"
 
 #: electrical_current.cpp:149
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 centimeters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centiamperes"
-msgstr "%1 εκατοστόμετρα"
+msgstr "%1 centiamperes"
 
 #: electrical_current.cpp:150
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 centimeter"
-#| msgid_plural "%1 centimeters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centiampere"
 msgid_plural "%1 centiamperes"
-msgstr[0] "%1 εκατοστόμετρο"
-msgstr[1] "%1 εκατοστόμετρα"
+msgstr[0] "%1 centiampere"
+msgstr[1] "%1 centiamperes"
 
 #: electrical_current.cpp:155
-#, fuzzy, kde-format
-#| msgctxt "length unit symbol"
-#| msgid "m"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "mA"
-msgstr "m"
+msgstr "mA"
 
 #: electrical_current.cpp:156
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "millimeters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "milliamperes"
-msgstr "χιλιοστόμετρα"
+msgstr "milliamperes"
 
 #: electrical_current.cpp:157
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "milliamp;milliamps;milliampere;milliamperes;mA"
-msgstr ""
+msgstr "milliamp;milliamps;milliampere;milliamperes;mA"
 
 #: electrical_current.cpp:159
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 millimeters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 milliamperes"
-msgstr "%1 χιλιοστόμετρα"
+msgstr "%1 milliamperes"
 
 #: electrical_current.cpp:160
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 millimeter"
-#| msgid_plural "%1 millimeters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 milliampere"
 msgid_plural "%1 milliamperes"
-msgstr[0] "%1 χιλιοστόμετρα"
-msgstr[1] "%1 χιλιοστόμετρα"
+msgstr[0] "%1 milliampere"
+msgstr[1] "%1 milliamperes"
 
 #: electrical_current.cpp:165
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "µJ"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "µA"
-msgstr "µJ"
+msgstr "µA"
 
 #: electrical_current.cpp:166
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "micrometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "microamperes"
-msgstr "μικρόμετρα"
+msgstr "microamperes"
 
 #: electrical_current.cpp:167
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "microamp;microamps;microampere;microamperes;µA;uA"
-msgstr ""
+msgstr "microamp;microamps;microampere;microamperes;µA;uA"
 
 #: electrical_current.cpp:169
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 micrometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 microamperes"
-msgstr "%1 μικρoμέτρα"
+msgstr "%1 microamperes"
 
 #: electrical_current.cpp:170
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 micrometer"
-#| msgid_plural "%1 micrometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microampere"
 msgid_plural "%1 microamperes"
-msgstr[0] "%1 μικρομέτρο"
-msgstr[1] "%1 μικρoμέτρα"
+msgstr[0] "%1 microampere"
+msgstr[1] "%1 microamperes"
 
 #: electrical_current.cpp:175
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "nA"
-msgstr ""
+msgstr "nA"
 
 #: electrical_current.cpp:176
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "nanometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "nanoamperes"
-msgstr "νανόμετρα"
+msgstr "nanoamperes"
 
 #: electrical_current.cpp:177
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanoamp;nanoamps;nanoampere;nanoamperes;nA"
-msgstr ""
+msgstr "nanoamp;nanoamps;nanoampere;nanoamperes;nA"
 
 #: electrical_current.cpp:179
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 nanometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanoamperes"
-msgstr "%1 νανόμετρα"
+msgstr "%1 nanoamperes"
 
 #: electrical_current.cpp:180
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 nanometer"
-#| msgid_plural "%1 nanometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanoampere"
 msgid_plural "%1 nanoamperes"
-msgstr[0] "%1 νανόμετρο"
-msgstr[1] "%1 νανόμετρα"
+msgstr[0] "%1 nanoampere"
+msgstr[1] "%1 nanoamperes"
 
 #: electrical_current.cpp:185
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "pA"
-msgstr ""
+msgstr "pA"
 
 #: electrical_current.cpp:186
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "picometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "picoamperes"
-msgstr "πικόμετρα"
+msgstr "picoamperes"
 
 #: electrical_current.cpp:187
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picoamp;picoamps;picoampere;picoamperes;pA"
-msgstr ""
+msgstr "picoamp;picoamps;picoampere;picoamperes;pA"
 
 #: electrical_current.cpp:189
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 picometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picoamperes"
-msgstr "%1 πικόμετρα"
+msgstr "%1 picoamperes"
 
 #: electrical_current.cpp:190
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 picometer"
-#| msgid_plural "%1 picometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picoampere"
 msgid_plural "%1 picoamperes"
-msgstr[0] "%1 πικόμετρο"
-msgstr[1] "%1 πικόμετρα"
+msgstr[0] "%1 picoampere"
+msgstr[1] "%1 picoamperes"
 
 #: electrical_current.cpp:195
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "fA"
-msgstr ""
+msgstr "fA"
 
 #: electrical_current.cpp:196
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "femtometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "femtoamperes"
-msgstr "φεμτόμετρα"
+msgstr "femtoamperes"
 
 #: electrical_current.cpp:197
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "femtometer;femtometers;fm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtoampere;femtoamperes;fA"
-msgstr "φεμτόμετρο;φεμτόμετρα;fm"
+msgstr "femtoampere;femtoamperes;fA"
 
 #: electrical_current.cpp:199
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 femtometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtoamperes"
-msgstr "%1 φεμτόμετρα"
+msgstr "%1 femtoamperes"
 
 #: electrical_current.cpp:200
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 femtometer"
-#| msgid_plural "%1 femtometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtoampere"
 msgid_plural "%1 femtoamperes"
-msgstr[0] "%1 φεμτόμετρο"
-msgstr[1] "%1 φεμτόμετρα"
+msgstr[0] "%1 femtoampere"
+msgstr[1] "%1 femtoamperes"
 
 #: electrical_current.cpp:205
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "a"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "aA"
-msgstr "a"
+msgstr "aA"
 
 #: electrical_current.cpp:206
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "attometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "attoamperes"
-msgstr "αττόμετρα"
+msgstr "attoamperes"
 
 #: electrical_current.cpp:207
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "attometer;attometers;am"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attoampere;attoamperes;aA"
-msgstr "αττόμετρο;αττόμετρα;am"
+msgstr "attoampere;attoamperes;aA"
 
 #: electrical_current.cpp:209
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 attometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attoamperes"
-msgstr "%1 αττόμετρα"
+msgstr "%1 attoamperes"
 
 #: electrical_current.cpp:210
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 attometer"
-#| msgid_plural "%1 attometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attoampere"
 msgid_plural "%1 attoamperes"
-msgstr[0] "%1 αττόμετρο"
-msgstr[1] "%1 αττόμετρα"
+msgstr[0] "%1 attoampere"
+msgstr[1] "%1 attoamperes"
 
 #: electrical_current.cpp:215
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "zA"
-msgstr ""
+msgstr "zA"
 
 #: electrical_current.cpp:216
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zeptometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zeptoamperes"
-msgstr "ζεπτόμετρα"
+msgstr "zeptoamperes"
 
 #: electrical_current.cpp:217
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zeptometer;zeptometers;zm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptoampere;zeptoamperes;zA"
-msgstr "ζεπτόμετρο;ζεπτόμετρα;zm"
+msgstr "zeptoampere;zeptoamperes;zA"
 
 #: electrical_current.cpp:219
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zeptometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptoamperes"
-msgstr "%1 ζεπτόμετρα"
+msgstr "%1 zeptoamperes"
 
 #: electrical_current.cpp:220
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zeptometer"
-#| msgid_plural "%1 zeptometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptoampere"
 msgid_plural "%1 zeptoamperes"
-msgstr[0] "%1 ζεπτόμετρο"
-msgstr[1] "%1 ζεπτόμετρα"
+msgstr[0] "%1 zeptoampere"
+msgstr[1] "%1 zeptoamperes"
 
 #: electrical_current.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "y"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "yA"
-msgstr "y"
+msgstr "yA"
 
 #: electrical_current.cpp:226
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yoctometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yoctoamperes"
-msgstr "γιοκτόμετρα"
+msgstr "yoctoamperes"
 
 #: electrical_current.cpp:227
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yoctometer;yoctometers;ym"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctoampere;yoctoamperes;yA"
-msgstr "γιοκτόμετρο;γιοκτόμετρα;ym"
+msgstr "yoctoampere;yoctoamperes;yA"
 
 #: electrical_current.cpp:229
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yoctometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctoamperes"
-msgstr "%1 γιοκτόμετρα"
+msgstr "%1 yoctoamperes"
 
 #: electrical_current.cpp:230
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yoctometer"
-#| msgid_plural "%1 yoctometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctoampere"
 msgid_plural "%1 yoctoamperes"
-msgstr[0] "%1 γιοκτόμετρο"
-msgstr[1] "%1 γιοκτόμετρα"
+msgstr[0] "%1 yoctoampere"
+msgstr[1] "%1 yoctoamperes"
 
 #: electrical_resistance.cpp:18
 #, kde-format
 msgid "Resistance"
-msgstr ""
+msgstr "Αντίσταση"
 
 #: electrical_resistance.cpp:20
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (electrical resistance"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -5067,853 +4618,673 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "YΩ"
-msgstr ""
+msgstr "YΩ"
 
 #: electrical_resistance.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yottagrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yottaohms"
-msgstr "γιοτταγραμμάρια"
+msgstr "yottaohms"
 
 #: electrical_resistance.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yottagram;yottagrams;Yg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottaohm;yottaohms;YΩ"
-msgstr "γιοτταγραμμάριο;γιοτταγραμμάρια;Yg"
+msgstr "yottaohm;yottaohms;YΩ"
 
 #: electrical_resistance.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottagrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottaohms"
-msgstr "%1 γιοτταγραμμάρια"
+msgstr "%1 yottaohms"
 
 #: electrical_resistance.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottagram"
-#| msgid_plural "%1 yottagrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottaohm"
 msgid_plural "%1 yottaohms"
-msgstr[0] "%1 γιοτταγραμμάριο"
-msgstr[1] "%1 γιοτταγραμμάρια"
+msgstr[0] "%1 yottaohm"
+msgstr[1] "%1 yottaohms"
 
 #: electrical_resistance.cpp:35
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "ZΩ"
-msgstr ""
+msgstr "ZΩ"
 
 #: electrical_resistance.cpp:36
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zettagrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zettaohms"
-msgstr "ζετταγραμμάρια"
+msgstr "zettaohms"
 
 #: electrical_resistance.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zettagram;zettagrams;Zg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettaohm;zettaohms;ZΩ"
-msgstr "ζετταγραμμάριο;ζετταγραμμάρια;Zg"
+msgstr "zettaohm;zettaohms;ZΩ"
 
 #: electrical_resistance.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettagrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettaohms"
-msgstr "%1 ζετταγραμμάρια"
+msgstr "%1 zettaohms"
 
 #: electrical_resistance.cpp:40
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettagram"
-#| msgid_plural "%1 zettagrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettaohm"
 msgid_plural "%1 zettaohms"
-msgstr[0] "%1 ζετταγραμμάριο"
-msgstr[1] "%1 ζετταγραμμάρια"
+msgstr[0] "%1 zettaohm"
+msgstr[1] "%1 zettaohms"
 
 #: electrical_resistance.cpp:45
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "EΩ"
-msgstr ""
+msgstr "EΩ"
 
 #: electrical_resistance.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exaohms"
-msgstr ""
+msgstr "exaohms"
 
 #: electrical_resistance.cpp:47
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "exagram;exagrams;Eg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exaohm;exaohms;EΩ"
-msgstr "εξαγραμμάριο;εξαγραμμάρια;Eg"
+msgstr "exaohm;exaohms;EΩ"
 
 #: electrical_resistance.cpp:49
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exagrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exaohms"
-msgstr "%1 εξαγραμμάρια"
+msgstr "%1 exaohms"
 
 #: electrical_resistance.cpp:50
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exagram"
-#| msgid_plural "%1 exagrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exaohm"
 msgid_plural "%1 exaohms"
-msgstr[0] "%1 εξαγραμμάριο"
-msgstr[1] "%1 εξαγραμμάρια"
+msgstr[0] "%1 exaohm"
+msgstr[1] "%1 exaohms"
 
 #: electrical_resistance.cpp:55
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "PΩ"
-msgstr ""
+msgstr "PΩ"
 
 #: electrical_resistance.cpp:56
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "petagrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "petaohms"
-msgstr "πεταγραμμάρια"
+msgstr "petaohms"
 
 #: electrical_resistance.cpp:57
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "petagram;petagrams;Pg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petaohm;petaohms;PΩ"
-msgstr "πεταγραμμάριο;πεταγραμμάρια;Pg"
+msgstr "petaohm;petaohms;PΩ"
 
 #: electrical_resistance.cpp:59
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 petagrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petaohms"
-msgstr "%1 πεταγραμμάρια"
+msgstr "%1 petaohms"
 
 #: electrical_resistance.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petagram"
-#| msgid_plural "%1 petagrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petaohm"
 msgid_plural "%1 petaohms"
-msgstr[0] "%1 πεταγραμμάριο"
-msgstr[1] "%1 πεταγραμμάρια"
+msgstr[0] "%1 petaohm"
+msgstr[1] "%1 petaohms"
 
 #: electrical_resistance.cpp:65
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "TΩ"
-msgstr ""
+msgstr "TΩ"
 
 #: electrical_resistance.cpp:66
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "teragrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "teraohms"
-msgstr "τεραγραμμάρια"
+msgstr "teraohms"
 
 #: electrical_resistance.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teragram;teragrams;Tg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teraohm;teraohms;TΩ"
-msgstr "τεραγραμμάριο;τεραγραμμάρια;Tg"
+msgstr "teraohm;teraohms;TΩ"
 
 #: electrical_resistance.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teragrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teraohms"
-msgstr "%1 τεραγραμμάρια"
+msgstr "%1 teraohms"
 
 #: electrical_resistance.cpp:70
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 teragram"
-#| msgid_plural "%1 teragrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teraohm"
 msgid_plural "%1 teraohms"
-msgstr[0] "%1 τεραγραμμάριο"
-msgstr[1] "%1 τεραγραμμάρια"
+msgstr[0] "%1 teraohm"
+msgstr[1] "%1 teraohms"
 
 #: electrical_resistance.cpp:75
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "GΩ"
-msgstr ""
+msgstr "GΩ"
 
 #: electrical_resistance.cpp:76
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigagrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigaohms"
-msgstr "γιγαγραμμάρια"
+msgstr "gigaohms"
 
 #: electrical_resistance.cpp:77
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigagram;gigagrams;Gg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigaohm;gigaohms;GΩ"
-msgstr "γιγαγραμμάριο;γιγαγραμμάρια;Gg"
+msgstr "gigaohm;gigaohms;GΩ"
 
 #: electrical_resistance.cpp:79
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigagrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigaohms"
-msgstr "%1 γιγαγραμμάρια"
+msgstr "%1 gigaohms"
 
 #: electrical_resistance.cpp:80
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigagram"
-#| msgid_plural "%1 gigagrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigaohm"
 msgid_plural "%1 gigaohms"
-msgstr[0] "%1 γιγαγραμμάριο"
-msgstr[1] "%1 γιγαγραμμάρια"
+msgstr[0] "%1 gigaohm"
+msgstr[1] "%1 gigaohms"
 
 #: electrical_resistance.cpp:85
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "MΩ"
-msgstr ""
+msgstr "MΩ"
 
 #: electrical_resistance.cpp:86
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megagrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megaohms"
-msgstr "μεγαγραμμάρια"
+msgstr "megaohms"
 
 #: electrical_resistance.cpp:87
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megagram;megagrams;Mg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megaohm;megaohms;MΩ"
-msgstr "μεγαγραμμάριο;μεγαγραμμάρια;Mg"
+msgstr "megaohm;megaohms;MΩ"
 
 #: electrical_resistance.cpp:89
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 megagrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megaohms"
-msgstr "%1 μεγαγραμμάρια"
+msgstr "%1 megaohms"
 
 #: electrical_resistance.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megagram"
-#| msgid_plural "%1 megagrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megaohm"
 msgid_plural "%1 megaohms"
-msgstr[0] "%1 μεγαγραμμάριο"
-msgstr[1] "%1 μεγαγραμμάρια"
+msgstr[0] "%1 megaohm"
+msgstr[1] "%1 megaohms"
 
 #: electrical_resistance.cpp:95
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "kΩ"
-msgstr ""
+msgstr "kΩ"
 
 #: electrical_resistance.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kiloponds"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kiloohms"
-msgstr "kiloponds"
+msgstr "kiloohms"
 
 #: electrical_resistance.cpp:97
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilogram;kilograms;kg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kiloohm;kiloohms;kΩ"
-msgstr "χιλιόγραμμο;χιλιόγραμμα;κιλό;κιλά;kg;χγρ"
+msgstr "kiloohm;kiloohms;kΩ"
 
 #: electrical_resistance.cpp:99
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kiloponds"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kiloohms"
-msgstr "%1 kiloponds"
+msgstr "%1 kiloohms"
 
 #: electrical_resistance.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilopond"
-#| msgid_plural "%1 kiloponds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kiloohm"
 msgid_plural "%1 kiloohms"
-msgstr[0] "%1 kilopond"
-msgstr[1] "%1 kiloponds"
+msgstr[0] "%1 kiloohm"
+msgstr[1] "%1 kiloohms"
 
 #: electrical_resistance.cpp:105
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "hΩ"
-msgstr ""
+msgstr "hΩ"
 
 #: electrical_resistance.cpp:106
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "hectograms"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "hectoohms"
-msgstr "εκατογραμμάρια"
+msgstr "hectoohms"
 
 #: electrical_resistance.cpp:107
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "hectogram;hectograms;hg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectoohm;hectoohms;hΩ"
-msgstr "εκατογραμμάριο;εκατογραμμάρια;hg"
+msgstr "hectoohm;hectoohms;hΩ"
 
 #: electrical_resistance.cpp:109
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 hectograms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectoohms"
-msgstr "%1 εκατογραμμάρια"
+msgstr "%1 hectoohms"
 
 #: electrical_resistance.cpp:110
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 hectogram"
-#| msgid_plural "%1 hectograms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectoohm"
 msgid_plural "%1 hectoohms"
-msgstr[0] "%1 εκατογραμμάριο"
-msgstr[1] "%1 εκατογραμμάρια"
+msgstr[0] "%1 hectoohm"
+msgstr[1] "%1 hectoohms"
 
 #: electrical_resistance.cpp:115
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "daΩ"
-msgstr ""
+msgstr "daΩ"
 
 #: electrical_resistance.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "decagrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decaohms"
-msgstr "δεκαγραμμάρια"
+msgstr "decaohms"
 
 #: electrical_resistance.cpp:117
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "decagram;decagrams;dag"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decaohm;decaohms;daΩ"
-msgstr "δεκαγραμμάριο;δεκαγραμμάρια;dag"
+msgstr "decaohm;decaohms;daΩ"
 
 #: electrical_resistance.cpp:119
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 decagrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decaohms"
-msgstr "%1 δεκαγραμμάρια"
+msgstr "%1 decaohms"
 
 #: electrical_resistance.cpp:120
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 decagram"
-#| msgid_plural "%1 decagrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decaohm"
 msgid_plural "%1 decaohms"
-msgstr[0] "%1 δεκαγραμμάριο"
-msgstr[1] "%1 δεκαγραμμάρια"
+msgstr[0] "%1 decaohm"
+msgstr[1] "%1 decaohms"
 
 #: electrical_resistance.cpp:125
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "Ω"
-msgstr ""
+msgstr "Ω"
 
 #: electrical_resistance.cpp:126
 #, kde-format
 msgctxt "unit description in lists"
 msgid "ohms"
-msgstr ""
+msgstr "ohms"
 
 #: electrical_resistance.cpp:127
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ohm;ohms;Ω"
-msgstr ""
+msgstr "ohm;ohms;Ω"
 
 #: electrical_resistance.cpp:129
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 ounces"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ohms"
-msgstr "%1 ουγγιές"
+msgstr "%1 ohms"
 
 #: electrical_resistance.cpp:130
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ohm"
 msgid_plural "%1 ohms"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ohm"
+msgstr[1] "%1 ohms"
 
 #: electrical_resistance.cpp:135
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "dΩ"
-msgstr ""
+msgstr "dΩ"
 
 #: electrical_resistance.cpp:136
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "decigrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "deciohms"
-msgstr "δεκατογραμμάρια"
+msgstr "deciohms"
 
 #: electrical_resistance.cpp:137
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "decigram;decigrams;dg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "deciohm;deciohms;dΩ"
-msgstr "δεκατογραμμάριο;δεκατογραμμάρια;dg"
+msgstr "deciohm;deciohms;dΩ"
 
 #: electrical_resistance.cpp:139
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 decigrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 deciohms"
-msgstr "%1 δεκατογραμμάρια"
+msgstr "%1 deciohms"
 
 #: electrical_resistance.cpp:140
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 decigram"
-#| msgid_plural "%1 decigrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 deciohm"
 msgid_plural "%1 deciohms"
-msgstr[0] "%1 δεκατογραμμάριο"
-msgstr[1] "%1 δεκατογραμμάρια"
+msgstr[0] "%1 deciohm"
+msgstr[1] "%1 deciohms"
 
 #: electrical_resistance.cpp:145
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "cΩ"
-msgstr ""
+msgstr "cΩ"
 
 #: electrical_resistance.cpp:146
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "centigrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "centiohms"
-msgstr "εκατοσταγραμμάρια"
+msgstr "centiohms"
 
 #: electrical_resistance.cpp:147
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "centigram;centigrams;cg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centiohm;centiohms;cΩ"
-msgstr "εκατοσταγραμμάριο;εκατοσταγραμμάρια;cg"
+msgstr "centiohm;centiohms;cΩ"
 
 #: electrical_resistance.cpp:149
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 centigrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centiohms"
-msgstr "%1 εκατοσταγραμμάρια"
+msgstr "%1 centiohms"
 
 #: electrical_resistance.cpp:150
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 centigram"
-#| msgid_plural "%1 centigrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centiohm"
 msgid_plural "%1 centiohms"
-msgstr[0] "%1 εκατοσταγραμμάριο"
-msgstr[1] "%1 εκατοσταγραμμάρια"
+msgstr[0] "%1 centiohm"
+msgstr[1] "%1 centiohms"
 
 #: electrical_resistance.cpp:155
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "mΩ"
-msgstr ""
+msgstr "mΩ"
 
 #: electrical_resistance.cpp:156
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "milligrams"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "milliohms"
-msgstr "χιλιοστογραμμάρια"
+msgstr "milliohms"
 
 #: electrical_resistance.cpp:157
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "milligram;milligrams;mg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "milliohm;milliohms;mΩ"
-msgstr "χιλιοστογραμμάριο;χιλιοστογραμμάρια;mg"
+msgstr "milliohm;milliohms;mΩ"
 
 #: electrical_resistance.cpp:159
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 milligrams"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 milliohms"
-msgstr "%1 χιλιοστογραμμάρια"
+msgstr "%1 milliohms"
 
 #: electrical_resistance.cpp:160
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 milligram"
-#| msgid_plural "%1 milligrams"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 milliohm"
 msgid_plural "%1 milliohms"
-msgstr[0] "%1 χιλιοστογραμμάριo"
-msgstr[1] "%1 χιλιοστογραμμάρια"
+msgstr[0] "%1 milliohm"
+msgstr[1] "%1 milliohms"
 
 #: electrical_resistance.cpp:165
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "µΩ"
-msgstr ""
+msgstr "µΩ"
 
 #: electrical_resistance.cpp:166
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "micrograms"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "microohms"
-msgstr "μικρογραμμάρια"
+msgstr "microohms"
 
 #: electrical_resistance.cpp:167
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "microgram;micrograms;µg;ug"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "microohm;microohms;µΩ;uΩ"
-msgstr "μικρογραμμάρια;μικρογραμμάρια;µg;ug"
+msgstr "microohm;microohms;µΩ;uΩ"
 
 #: electrical_resistance.cpp:169
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 micrograms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 microohms"
-msgstr "%1 μικρογραμμάρια"
+msgstr "%1 microohms"
 
 #: electrical_resistance.cpp:170
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 microgram"
-#| msgid_plural "%1 micrograms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microohm"
 msgid_plural "%1 microohms"
-msgstr[0] "%1 μικρογραμμάριο"
-msgstr[1] "%1 μικρογραμμάρια"
+msgstr[0] "%1 microohm"
+msgstr[1] "%1 microohms"
 
 #: electrical_resistance.cpp:175
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "nΩ"
-msgstr ""
+msgstr "nΩ"
 
 #: electrical_resistance.cpp:176
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "nanograms"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "nanoohms"
-msgstr "νανογραμμάρια"
+msgstr "nanoohms"
 
 #: electrical_resistance.cpp:177
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "nanogram;nanograms;ng"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanoohm;nanoohms;nΩ"
-msgstr "νανογραμμάριο;νανογραμμάρια;ng"
+msgstr "nanoohm;nanoohms;nΩ"
 
 #: electrical_resistance.cpp:179
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 nanograms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanoohms"
-msgstr "%1 νανογραμμάρια"
+msgstr "%1 nanoohms"
 
 #: electrical_resistance.cpp:180
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 nanogram"
-#| msgid_plural "%1 nanograms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanoohm"
 msgid_plural "%1 nanoohms"
-msgstr[0] "%1 νανογραμμάριο"
-msgstr[1] "%1 νανογραμμάρια"
+msgstr[0] "%1 nanoohm"
+msgstr[1] "%1 nanoohms"
 
 #: electrical_resistance.cpp:185
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "pΩ"
-msgstr ""
+msgstr "pΩ"
 
 #: electrical_resistance.cpp:186
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "picograms"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "picoohms"
-msgstr "πικογραμμάρια"
+msgstr "picoohms"
 
 #: electrical_resistance.cpp:187
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "picogram;picograms;pg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picoohm;picoohms;pΩ"
-msgstr "πικογραμμάριο;πικογραμμάρια;pg"
+msgstr "picoohm;picoohms;pΩ"
 
 #: electrical_resistance.cpp:189
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 picograms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picoohms"
-msgstr "%1 πικογραμμάρια"
+msgstr "%1 picoohms"
 
 #: electrical_resistance.cpp:190
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 picogram"
-#| msgid_plural "%1 picograms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picoohm"
 msgid_plural "%1 picoohms"
-msgstr[0] "%1 πικογραμμάριο"
-msgstr[1] "%1 πικογραμμάρια"
+msgstr[0] "%1 picoohm"
+msgstr[1] "%1 picoohms"
 
 #: electrical_resistance.cpp:195
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "fΩ"
-msgstr ""
+msgstr "fΩ"
 
 #: electrical_resistance.cpp:196
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "femtograms"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "femtoohms"
-msgstr "φεμτογραμμάρια"
+msgstr "femtoohms"
 
 #: electrical_resistance.cpp:197
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "femtogram;femtograms;fg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtoohm;femtoohms;fΩ"
-msgstr "φεμτογραμμάριο;φεμτογραμμάρια;fg"
+msgstr "femtoohm;femtoohms;fΩ"
 
 #: electrical_resistance.cpp:199
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 femtograms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtoohms"
-msgstr "%1 φεμτογραμμάρια"
+msgstr "%1 femtoohms"
 
 #: electrical_resistance.cpp:200
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 femtogram"
-#| msgid_plural "%1 femtograms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtoohm"
 msgid_plural "%1 femtoohms"
-msgstr[0] "%1 φεμτογραμμάριο"
-msgstr[1] "%1 φεμτογραμμάρια"
+msgstr[0] "%1 femtoohm"
+msgstr[1] "%1 femtoohms"
 
 #: electrical_resistance.cpp:205
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "aΩ"
-msgstr ""
+msgstr "aΩ"
 
 #: electrical_resistance.cpp:206
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "attograms"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "attoohms"
-msgstr "αττογραμμάρια"
+msgstr "attoohms"
 
 #: electrical_resistance.cpp:207
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "attogram;attograms;ag"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attoohm;attoohms;aΩ"
-msgstr "αττογραμμάριο;αττογραμμάρια;ag"
+msgstr "attoohm;attoohms;aΩ"
 
 #: electrical_resistance.cpp:209
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 attograms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attoohms"
-msgstr "%1 αττογραμμάρια"
+msgstr "%1 attoohms"
 
 #: electrical_resistance.cpp:210
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 attogram"
-#| msgid_plural "%1 attograms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attoohm"
 msgid_plural "%1 attoohms"
-msgstr[0] "%1 αττογραμμάριο"
-msgstr[1] "%1 αττογραμμάρια"
+msgstr[0] "%1 attoohm"
+msgstr[1] "%1 attoohms"
 
 #: electrical_resistance.cpp:215
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "zΩ"
-msgstr ""
+msgstr "zΩ"
 
 #: electrical_resistance.cpp:216
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zeptograms"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zeptoohms"
-msgstr "ζεπτογραμμάρια"
+msgstr "zeptoohms"
 
 #: electrical_resistance.cpp:217
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zeptogram;zeptograms;zg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptoohm;zeptoohms;zΩ"
-msgstr "ζεπτογραμμάριο;ζεπτογραμμάρια;zg"
+msgstr "zeptoohm;zeptoohms;zΩ"
 
 #: electrical_resistance.cpp:219
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zeptograms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptoohms"
-msgstr "%1 ζεπτογραμμάρια"
+msgstr "%1 zeptoohms"
 
 #: electrical_resistance.cpp:220
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zeptogram"
-#| msgid_plural "%1 zeptograms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptoohm"
 msgid_plural "%1 zeptoohms"
-msgstr[0] "%1 ζεπτογραμμάριο"
-msgstr[1] "%1 ζεπτογραμμάρια"
+msgstr[0] "%1 zeptoohm"
+msgstr[1] "%1 zeptoohms"
 
 #: electrical_resistance.cpp:225
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "yΩ"
-msgstr ""
+msgstr "yΩ"
 
 #: electrical_resistance.cpp:226
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yoctograms"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yoctoohms"
-msgstr "γιοκτογραμμάρια"
+msgstr "yoctoohms"
 
 #: electrical_resistance.cpp:227
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yoctogram;yoctograms;yg"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctoohm;yoctoohms;yΩ"
-msgstr "γιοκτογραμμάριο;γιοκτογραμμάρια;yg"
+msgstr "yoctoohm;yoctoohms;yΩ"
 
 #: electrical_resistance.cpp:229
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yoctograms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctoohms"
-msgstr "%1 γιοκτογραμμάρια"
+msgstr "%1 yoctoohms"
 
 #: electrical_resistance.cpp:230
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yoctogram"
-#| msgid_plural "%1 yoctograms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctoohm"
 msgid_plural "%1 yoctoohms"
-msgstr[0] "%1 γιοκτογραμμάριo"
-msgstr[1] "%1 γιοκτογραμμάρια"
+msgstr[0] "%1 yoctoohm"
+msgstr[1] "%1 yoctoohms"
 
 #: energy.cpp:44
 #, kde-format
@@ -6064,13 +5435,13 @@ msgstr "TJ"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terajoules"
-msgstr "τερατζάουλ"
+msgstr "terajoules"
 
 #: energy.cpp:93
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terajoule;terajoules;TJ"
-msgstr "τερατζάουλ;τερατζάουλ;TJ"
+msgstr "terajoule;terajoules;TJ"
 
 #: energy.cpp:95
 #, kde-format
@@ -6798,74 +6169,65 @@ msgstr[1] "%1 χιλιοθερμίδες"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "BTU"
-msgstr ""
+msgstr "BTU"
 
 #: energy.cpp:322
 #, kde-format
 msgctxt "unit description in lists"
 msgid "British Thermal Unit"
-msgstr ""
+msgstr "Βρετανική Μονάδα Θερμότητας (BTU)"
 
 #: energy.cpp:323
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Btu;BTU;Btus;BTUs"
-msgstr ""
+msgstr "Btu;BTU;Btus;BTUs"
 
 #: energy.cpp:325
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 BTU"
-msgstr ""
+msgstr "%1 BTU"
 
 #: energy.cpp:326
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 BTU"
 msgid_plural "%1 BTU"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 BTU"
+msgstr[1] "%1 BTU"
 
 #: energy.cpp:331
-#, fuzzy, kde-format
-#| msgctxt "mass unit symbol"
-#| msgid "Eg"
+#, kde-format
 msgctxt "energy unit symbol"
 msgid "Erg"
-msgstr "Eg"
+msgstr "Erg"
 
 #: energy.cpp:332
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "rydbergs"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ergs"
-msgstr "ράιντμπεργκ"
+msgstr "ergs"
 
 #: energy.cpp:333
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Erg;erg;Ergs;ergs"
-msgstr ""
+msgstr "Erg;erg;Ergs;ergs"
 
 #: energy.cpp:335
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 euros"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ergs"
-msgstr "%1 ευρώ"
+msgstr "%1 ergs"
 
 #: energy.cpp:336
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 euro"
-#| msgid_plural "%1 euros"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 erg"
 msgid_plural "%1 erg"
-msgstr[0] "%1 ευρώ"
-msgstr[1] "%1 ευρώ"
+msgstr[0] "%1 erg"
+msgstr[1] "%1 erg"
 
 #: energy.cpp:341
 #, kde-format
@@ -6911,7 +6273,7 @@ msgid "%1 %2"
 msgstr "%1 %2"
 
 #: force.cpp:24
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "force unit symbol"
 msgid "YN"
 msgstr "YN"
@@ -8386,7 +7748,7 @@ msgid "%1 yoctohertzs"
 msgstr "%1 yoctohertzs"
 
 #: frequency.cpp:230
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctohertz"
 msgid_plural "%1 yoctohertzs"
@@ -8516,15 +7878,12 @@ msgid "miles per imperial gallon"
 msgstr "μίλια ανά αυτοκρατορικό γαλόνι"
 
 #: fuel_efficiency.cpp:89
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "mile per imperial gallon;miles per imperial gallon;mpg (imperial)"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
 "mpg (imp)"
-msgstr ""
-"μίλι ανά αυτοκρατορικό γαλόνι;μίλια ανά αυτοκρατορικό γαλόνι;mpg (imperial)"
+msgstr "μίλια ανά γαλόνι;μίλια ανά γαλόνι;mpg(imperial);imp mpg; mpg (imp)"
 
 #: fuel_efficiency.cpp:91
 #, kde-format
@@ -8721,13 +8080,13 @@ msgstr "Tm"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terameters"
-msgstr "τεράμετρα"
+msgstr "terameters"
 
 #: length.cpp:67
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terameter;terameters;Tm"
-msgstr "τεράμετρο;τεράμετρα;Tm"
+msgstr "terameter;terameters;Tm"
 
 #: length.cpp:69
 #, kde-format
@@ -9322,7 +8681,7 @@ msgstr "χιλιοστά ίντσας"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "thou;mil;point;thousandth of an inch;thousandths of an inch"
-msgstr "thou;mil;point;χιλιοστό ίντσας;χιλιοστά ίντσας"
+msgstr "thou;mil;point;thousandth of an inch;thousandths of an inch"
 
 #: length.cpp:259
 #, kde-format
@@ -9711,13 +9070,13 @@ msgstr "Tg"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teragrams"
-msgstr "τεραγραμμάρια"
+msgstr "teragrams"
 
 #: mass.cpp:67
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teragram;teragrams;Tg"
-msgstr "τεραγραμμάριο;τεραγραμμάρια;Tg"
+msgstr "teragram;teragrams;Tg"
 
 #: mass.cpp:69
 #, kde-format
@@ -10258,12 +9617,10 @@ msgid "tons"
 msgstr "τόνοι"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
-msgstr "τόνος;τόνοι;t"
+msgstr "ton;tons;t;tonne;tonnes"
 
 #: mass.cpp:239
 #, kde-format
@@ -10292,12 +9649,10 @@ msgid "carats"
 msgstr "καράτια"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "καράτι;καράτια;CD"
+msgstr "carat;carats;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -10326,12 +9681,10 @@ msgid "pounds"
 msgstr "λίβρες"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "λίβρα;λίβρες;lb"
+msgstr "pound;pounds;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
@@ -10395,7 +9748,7 @@ msgstr "γαλλικές ουγγιές"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "troy ounce;troy ounces;t oz"
-msgstr "γαλλική ουγγιά;γαλλικές ουγγιές;oz"
+msgstr "ουγγιά troy;ουγγιές troy;t oz"
 
 #: mass.cpp:282
 #, kde-format
@@ -10442,55 +9795,44 @@ msgid "%1 kilonewton"
 msgstr "%1 κιλονιούτον"
 
 #: mass.cpp:309
-#, fuzzy, kde-format
-#| msgctxt "mass unit symbol"
-#| msgid "t"
+#, kde-format
 msgctxt "mass unit symbol"
 msgid "st"
-msgstr "t"
+msgstr "st"
 
 #: mass.cpp:310
-#, fuzzy, kde-format
-#| msgid "estonia"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "stone"
-msgstr "Εσθονία"
+msgstr "stone"
 
 #: mass.cpp:311
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "stone;st"
-msgstr ""
+msgstr "stone;st"
 
 #: mass.cpp:313
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 second"
-#| msgid_plural "%1 seconds"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 stone"
-msgstr "%1 δευτερόλεπτο"
+msgstr "%1 stone"
 
 #: mass.cpp:314
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 second"
-#| msgid_plural "%1 seconds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 stone"
 msgid_plural "%1 stone"
-msgstr[0] "%1 δευτερόλεπτο"
-msgstr[1] "%1 δευτερόλεπτα"
+msgstr[0] "%1 stone"
+msgstr[1] "%1 stone"
 
 #: permeability.cpp:16
 #, kde-format
 msgid "Permeability"
-msgstr ""
+msgstr "Διαπερατότητα"
 
 #: permeability.cpp:18
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (permeability)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -10499,114 +9841,97 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Darcy"
-msgstr ""
+msgstr "Darcy"
 
 #: permeability.cpp:24
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Darcy"
-msgstr ""
+msgstr "Darcy"
 
 #: permeability.cpp:25
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Darcy;Darcys;Dar;Darc"
-msgstr ""
+msgstr "Darcy;Darcys;Dar;Darc"
 
 #: permeability.cpp:27
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Darcy"
-msgstr ""
+msgstr "%1 Darcy"
 
 #: permeability.cpp:28
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Darcy"
 msgid_plural "%1 Darcys"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 Darcy"
+msgstr[1] "%1 Darcys"
 
 #: permeability.cpp:33
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "mDarcy"
-msgstr ""
+msgstr "mDarcy"
 
 #: permeability.cpp:34
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "millibars"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "Milli-Darcy"
-msgstr "χιλιοστομπάρ"
+msgstr "Milli-Darcy"
 
 #: permeability.cpp:35
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Milli-Darcy;MilliDarcy;MilliDar;mDarcy;mDar;mDarc"
-msgstr ""
+msgstr "Milli-Darcy;MilliDarcy;MilliDar;mDarcy;mDar;mDarc"
 
 #: permeability.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 millibar"
-#| msgid_plural "%1 millibars"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Milli-Darcy"
-msgstr "%1 χιλιοστομπάρ"
+msgstr "%1 Milli-Darcy"
 
 #: permeability.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 millibar"
-#| msgid_plural "%1 millibars"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Milli-Darcy"
 msgid_plural "%1 Milli-Darcys"
-msgstr[0] "%1 χιλιοστομπάρ"
-msgstr[1] "%1 χιλιοστομπάρ"
+msgstr[0] "%1 Milli-Darcy"
+msgstr[1] "%1 Milli-Darcys"
 
 #: permeability.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "area unit symbol"
-#| msgid "µm²"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "µm²"
 msgstr "µm²"
 
 #: permeability.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "square micrometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "squaremicrometers"
-msgstr "τετραγωνικά μικρόμετρα"
+msgstr "squaremicrometers"
 
 #: permeability.cpp:45
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Permeability;Pµm²;PSquare µm;squaremicrometers;Pµm^2"
-msgstr ""
+msgstr "Διαπερατότητα;Pµm²;PSquare µm;τετραγωνικά μικρόμετρα;Pµm^2"
 
 #: permeability.cpp:47
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 micrometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 micrometers²"
-msgstr "%1 μικρoμέτρα"
+msgstr "%1 micrometers²"
 
 #: permeability.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 micrometer"
-#| msgid_plural "%1 micrometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 micrometer²"
 msgid_plural "%1 micrometers²"
-msgstr[0] "%1 μικρομέτρο"
-msgstr[1] "%1 μικρoμέτρα"
+msgstr[0] "%1 micrometer²"
+msgstr[1] "%1 micrometers²"
 
 #: power.cpp:49
 #, kde-format
@@ -10757,13 +10082,13 @@ msgstr "TW"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terawatts"
-msgstr "τεραβάτ"
+msgstr "terawatts"
 
 #: power.cpp:98
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terawatt;terawatts;TW"
-msgstr "τεραβάτ;TW"
+msgstr "terawatt;terawatts;TW"
 
 #: power.cpp:100
 #, kde-format
@@ -11327,161 +10652,129 @@ msgstr[1] "%1 ίπποι"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBk"
-msgstr ""
+msgstr "dBk"
 
 #: power.cpp:279
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilowatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decibel kilowatts"
-msgstr "κιλοβάτ"
+msgstr "decibel kilowatts"
 
 #: power.cpp:280
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBk;dBkW;dB(kW)"
-msgstr ""
+msgstr "dBk;dBkW;dB(kW)"
 
 #: power.cpp:282
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decibel kilowatts"
-msgstr "%1 κιλοβάτ"
+msgstr "%1 decibel kilowatts"
 
 #: power.cpp:283
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilowatt"
-#| msgid_plural "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decibel kilowatt"
 msgid_plural "%1 decibel kilowatts"
-msgstr[0] "%1 κιλοβάτ"
-msgstr[1] "%1 κιλοβάτ"
+msgstr[0] "%1 decibel kilowatt"
+msgstr[1] "%1 decibel kilowatts"
 
 #: power.cpp:288
-#, fuzzy, kde-format
-#| msgctxt "power unit symbol"
-#| msgid "dW"
+#, kde-format
 msgctxt "power unit symbol"
 msgid "dBW"
-msgstr "dW"
+msgstr "dBW"
 
 #: power.cpp:289
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "deciwatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decibel watts"
-msgstr "δεκατοβάτ"
+msgstr "decibel watts"
 
 #: power.cpp:290
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBW;dB(W)"
-msgstr ""
+msgstr "dBW;dB(W)"
 
 #: power.cpp:292
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 deciwatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decibel watts"
-msgstr "%1 δεκατοβάτ"
+msgstr "%1 decibel watts"
 
 #: power.cpp:293
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 deciwatt"
-#| msgid_plural "%1 deciwatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decibel watt"
 msgid_plural "%1 decibel watts"
-msgstr[0] "%1 δεκατοβάτ"
-msgstr[1] "%1 δεκατοβάτ"
+msgstr[0] "%1 decibel watt"
+msgstr[1] "%1 decibel watts"
 
 #: power.cpp:298
-#, fuzzy, kde-format
-#| msgctxt "length unit symbol"
-#| msgid "dm"
+#, kde-format
 msgctxt "power unit symbol"
 msgid "dBm"
-msgstr "dm"
+msgstr "dBm"
 
 #: power.cpp:299
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "milliwatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decibel milliwatts"
-msgstr "χιλιοστοβάτ"
+msgstr "decibel milliwatts"
 
 #: power.cpp:300
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBm;dBmW;dB(mW)"
-msgstr ""
+msgstr "dBm;dBmW;dB(mW)"
 
 #: power.cpp:302
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 milliwatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decibel milliwatts"
-msgstr "%1 χιλιοστοβάτ"
+msgstr "%1 decibel milliwatts"
 
 #: power.cpp:303
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 milliwatt"
-#| msgid_plural "%1 milliwatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decibel milliwatt"
 msgid_plural "%1 decibel milliwatts"
-msgstr[0] "%1 χιλιοστοβάτ"
-msgstr[1] "%1 χιλιοστοβάτ"
+msgstr[0] "%1 decibel milliwatt"
+msgstr[1] "%1 decibel milliwatts"
 
 #: power.cpp:308
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBµW"
-msgstr ""
+msgstr "dBµW"
 
 #: power.cpp:309
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "microwatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decibel microwatts"
-msgstr "μικροβάτ"
+msgstr "decibel microwatts"
 
 #: power.cpp:310
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBuW;dBµW;dB(uW);dB(µW)"
-msgstr ""
+msgstr "dBuW;dBµW;dB(uW);dB(µW)"
 
 #: power.cpp:312
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 microwatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decibel microwatts"
-msgstr "%1 μικροβάτ"
+msgstr "%1 decibel microwatts"
 
 #: power.cpp:313
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 microwatt"
-#| msgid_plural "%1 microwatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decibel microwatt"
 msgid_plural "%1 decibel microwatts"
-msgstr[0] "%1 μικροβάτ"
-msgstr[1] "%1 μικροβάτ"
+msgstr[0] "%1 decibel microwatt"
+msgstr[1] "%1 decibel microwatts"
 
 #: pressure.cpp:17
 #, kde-format
@@ -11632,13 +10925,13 @@ msgstr "TPa"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terapascals"
-msgstr "τεραπασκάλ"
+msgstr "terapascals"
 
 #: pressure.cpp:66
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terapascal;terapascals;TPa"
-msgstr "τεραπασκάλ;TPa"
+msgstr "terapascal;terapascals;TPa"
 
 #: pressure.cpp:68
 #, kde-format
@@ -12728,12 +12021,10 @@ msgstr[1] "%1 βαθμοί ρόμερ"
 #: thermal_conductivity.cpp:17
 #, kde-format
 msgid "Thermal Conductivity"
-msgstr ""
+msgstr "Θερμική αγωγιμότητα"
 
 #: thermal_conductivity.cpp:19
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal conductivity)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -12742,53 +12033,45 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "W/m·K"
-msgstr ""
+msgstr "W/m·K"
 
 #: thermal_conductivity.cpp:25
 #, kde-format
 msgctxt "unit description in lists"
 msgid "watt per meter kelvin"
-msgstr ""
+msgstr "watt ανά μέτρο Kelvin"
 
 #: thermal_conductivity.cpp:26
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per meter kelvin;watt per meter-kelvin;W/mK;W/m.K"
-msgstr ""
+msgstr "watt ανά μέτρο Kelvin;watt ανά μέτρο-kelvin;W/mK;W/m.K"
 
 #: thermal_conductivity.cpp:28
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 grams per liter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watts per meter kelvin"
-msgstr "%1 γραμμάρια ανά λίτρο"
+msgstr "%1 watts per meter kelvin"
 
 #: thermal_conductivity.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terameter"
-#| msgid_plural "%1 terameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt per meter kelvin"
 msgid_plural "%1 watts per meter kelvin"
-msgstr[0] "%1 τεράμετρο"
-msgstr[1] "%1 τεράμετρα"
+msgstr[0] "%1 watt ανά μέτρο kelvin"
+msgstr[1] "%1 watts ανά μέτρο kelvin"
 
 #: thermal_conductivity.cpp:34
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "Btu/ft·hr·°F"
-msgstr ""
+msgstr "Btu/ft·hr·°F"
 
 #: thermal_conductivity.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 degree Fahrenheit"
-#| msgid_plural "%1 degrees Fahrenheit"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "btu per foot hour degree Fahrenheit"
-msgstr "%1 βαθμός φαρενάιτ"
+msgstr "btu per foot hour degree Fahrenheit"
 
 #: thermal_conductivity.cpp:37
 #, kde-format
@@ -12797,38 +12080,34 @@ msgid ""
 "btu per foot hour degree Fahrenheit;btu per foot hour Fahrenheit;btu per "
 "foot-hour-Fahrenheit;Btu/ft-hr-F"
 msgstr ""
+"btu ανά πόδι ώρα βαθμοί Fahrenheit;btu ανά πόδι ώρα Fahrenheit;btu ανά πόδι-"
+"ώρα-Fahrenheit;Btu/ft-hr-F"
 
 #: thermal_conductivity.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 degree Fahrenheit"
-#| msgid_plural "%1 degrees Fahrenheit"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per foot hour degree Fahrenheit"
-msgstr "%1 βαθμός φαρενάιτ"
+msgstr "%1 btu per foot hour degree Fahrenheit"
 
 #: thermal_conductivity.cpp:40
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 degree Fahrenheit"
-#| msgid_plural "%1 degrees Fahrenheit"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per foot hour degree Fahrenheit"
 msgid_plural "%1 btu per foot hour degree Fahrenheit"
-msgstr[0] "%1 βαθμός φαρενάιτ"
-msgstr[1] "%1 βαθμοί Φαρενάιτ"
+msgstr[0] "%1 btu ανά πόδι ώρα βαθμοί fahrenheit"
+msgstr[1] "%1 btu ανά πόδι ώρα βαθμοί Fahrenheit"
 
 #: thermal_conductivity.cpp:45
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "Btu/ft²·hr·°F/in"
-msgstr ""
+msgstr "Btu/ft²·hr·°F/in"
 
 #: thermal_conductivity.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per square foot hour degree Fahrenheit per inch"
-msgstr ""
+msgstr "btu ανά τετραγωνικό πόδι ώρα βαθμοί fahrenheit ανά ίντσα"
 
 #: thermal_conductivity.cpp:48
 #, kde-format
@@ -12838,30 +12117,31 @@ msgid ""
 "hour Fahrenheit per inch;btu per sq foot-hour-Fahrenheit per inch;Btu/ft^2-"
 "hr-F/in"
 msgstr ""
+"btu ανά τετραγωνικό πόδι ώρα βαθμοί Fahrenheit ανά ίντσα;btu ανά τετραγωνικό "
+"πόδι ώρα Fahrenheit ανά ίντσα;btu ανά τετραγωνικό πόδι-ώρα-Fahrenheit ανά "
+"ίντσα;Btu/ft^2-hr-F/in"
 
 #: thermal_conductivity.cpp:51
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr ""
+msgstr "%1 btu ανά τετραγωνικό πόδι ώρα βαθμοί Fahrenheit ανά ίντσα"
 
 #: thermal_conductivity.cpp:53
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
 msgid_plural "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 btu ανά τετραγωνικό πόδι ώρα βαθμοί Fahrenheit ανά ίντσα"
+msgstr[1] "%1 btu ανά τετραγωνικό πόδι ώρα βαθμοί Fahrenheit ανά ίντσα"
 
 #: thermal_flux.cpp:18
 #, kde-format
 msgid "Thermal Flux Density"
-msgstr ""
+msgstr "Πυκνότητα Θερμικής Ροής"
 
 #: thermal_flux.cpp:20
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal flux density)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -12870,56 +12150,45 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "thermal flux unit symbol"
 msgid "W/m²"
-msgstr ""
+msgstr "W/m²"
 
 #: thermal_flux.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 square meter"
-#| msgid_plural "%1 square meters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "watt per square meter"
-msgstr "%1 τετραγωνικό μέτρο"
+msgstr "watt ανά τετραγωνικό μέτρο"
 
 #: thermal_flux.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per square meter;W/m2;W/m^2"
-msgstr "τετραγωνικό μέτρο;τετραγωνικά μέτρα;m²;m/-2;m^2;m2;μ²;μ/-2;μ^2;μ2"
+msgstr "watt ανά τετραγωνικό μέτρο;W/m2;W/m^2"
 
 #: thermal_flux.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 square meter"
-#| msgid_plural "%1 square meters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watts per square meter"
-msgstr "%1 τετραγωνικό μέτρο"
+msgstr "%1 watts ανά τετραγωνικό μέτρο"
 
 #: thermal_flux.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 square meter"
-#| msgid_plural "%1 square meters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt per square meter"
 msgid_plural "%1 watts per square meter"
-msgstr[0] "%1 τετραγωνικό μέτρο"
-msgstr[1] "%1 τετραγωνικά μέτρα"
+msgstr[0] "%1 watt ανά τετραγωνικό μέτρο"
+msgstr[1] "%1 watts ανά τετραγωνικό μέτρο"
 
 #: thermal_flux.cpp:35
 #, kde-format
 msgctxt "thermal flux unit symbol"
 msgid "Btu/hr/ft²"
-msgstr ""
+msgstr "Btu/hr/ft²"
 
 #: thermal_flux.cpp:36
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per hour per square foot"
-msgstr ""
+msgstr "btu ανά ώρα ανά τετραγωνικό πόδι"
 
 #: thermal_flux.cpp:37
 #, kde-format
@@ -12927,37 +12196,30 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
 msgstr ""
+"btu ανά ώρα ανά τετραγωνικό πόδι;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/"
+"hr"
 
 #: thermal_flux.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 pound per cubic foot"
-#| msgid_plural "%1 pounds per cubic foot"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per hour per square foot"
-msgstr "%1 λίβρα ανά κυβικό πόδι"
+msgstr "%1 btu ανά ώρα ανά τετραγωνικό πόδι"
 
 #: thermal_flux.cpp:40
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 pound per cubic foot"
-#| msgid_plural "%1 pounds per cubic foot"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per hour per square foot"
 msgid_plural "%1 btu per hour per square foot"
-msgstr[0] "%1 λίβρα ανά κυβικό πόδι"
-msgstr[1] "%1 λίβρες ανά κυβικό πόδι"
+msgstr[0] "%1 btu ανά ώρα ανά τετραγωνικό πόδι"
+msgstr[1] "%1 btu ανά ώρα ανά τετραγωνικό πόδι"
 
 #: thermal_generation.cpp:17
-#, fuzzy, kde-format
-#| msgid "Acceleration"
+#, kde-format
 msgid "Thermal Generation"
-msgstr "Επιτάχυνση"
+msgstr "Θερμική Παραγωγή"
 
 #: thermal_generation.cpp:19
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal generation)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -12966,57 +12228,45 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "thermal generation unit symbol"
 msgid "W/m³"
-msgstr ""
+msgstr "W/m³"
 
 #: thermal_generation.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilograms per cubic meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "watt per cubic meter"
-msgstr "χιλιόγραμμα ανά κυβικό μέτρο"
+msgstr "watt ανά κυβικό μέτρο"
 
 #: thermal_generation.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilograms per cubic meter"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per cubic meter;W/m3;W/m^3"
-msgstr "χιλιόγραμμα ανά κυβικό μέτρο"
+msgstr "watt ανά κυβικό μέτρο;W/m3;W/m^3"
 
 #: thermal_generation.cpp:28
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilograms per cubic meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watts per cubic meter"
-msgstr "%1 χιλιόγραμμα ανά κυβικό μέτρο"
+msgstr "%1 watts ανά κυβικό μέτρο"
 
 #: thermal_generation.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilogram per cubic meter"
-#| msgid_plural "%1 kilograms per cubic meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt per cubic meter"
 msgid_plural "%1 watts per cubic meter"
-msgstr[0] "%1 χιλιόγραμμο ανά κυβικό μέτρο"
-msgstr[1] "%1 χιλιόγραμμα ανά κυβικό μέτρο"
+msgstr[0] "%1 watt ανά κυβικό μέτρο"
+msgstr[1] "%1 watts ανά κυβικό μέτρο"
 
 #: thermal_generation.cpp:34
 #, kde-format
 msgctxt "thermal generation unit symbol"
 msgid "Btu/hr/ft³"
-msgstr ""
+msgstr "Btu/hr/ft³"
 
 #: thermal_generation.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 pound per cubic foot"
-#| msgid_plural "%1 pounds per cubic foot"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "btu per hour per cubic foot"
-msgstr "%1 λίβρα ανά κυβικό πόδι"
+msgstr "btu ανά ώρα ανά κυβικό πόδι"
 
 #: thermal_generation.cpp:36
 #, kde-format
@@ -13024,26 +12274,21 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
 msgstr ""
+"btu ανά ώρα ανά κυβικό πόδι;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
 
 #: thermal_generation.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 pound per cubic foot"
-#| msgid_plural "%1 pounds per cubic foot"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per hour per cubic foot"
-msgstr "%1 λίβρα ανά κυβικό πόδι"
+msgstr "%1 btu ανά ώρα ανά κυβικό πόδι"
 
 #: thermal_generation.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 pound per cubic foot"
-#| msgid_plural "%1 pounds per cubic foot"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per hour per cubic foot"
 msgid_plural "%1 btu per hour per cubic foot"
-msgstr[0] "%1 λίβρα ανά κυβικό πόδι"
-msgstr[1] "%1 λίβρες ανά κυβικό πόδι"
+msgstr[0] "%1 btu ανά ώρα ανά κυβικό πόδι"
+msgstr[1] "%1 btu ανά ώρα ανά κυβικό πόδι"
 
 #: timeunit.cpp:17
 #, kde-format
@@ -13194,13 +12439,13 @@ msgstr "Ts"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teraseconds"
-msgstr "τεραδευτερόλεπτα"
+msgstr "teraseconds"
 
 #: timeunit.cpp:66
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terasecond;teraseconds;Ts"
-msgstr "τεραδευτερόλεπτο;τεραδευτερόλεπτα;Ts"
+msgstr "terasecond;teraseconds;Ts"
 
 #: timeunit.cpp:68
 #, kde-format
@@ -14008,12 +13253,10 @@ msgid "kilometers per hour"
 msgstr "χιλιόμετρα ανά ώρα"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "χιλιόμετρο ανά ώρα;χιλιόμετρα ανά ώρα;km/h;kmh;χλμ/ω;χλμω"
+msgstr "χιλιόμετρο ανά ώρα; χιλιόμετρα ανά ώρα;m/h;kmh;kph"
 
 #: velocity.cpp:67
 #, kde-format
@@ -14256,12 +13499,10 @@ msgstr[1] "%1 στην κλίμακα Μποφόρ"
 #: voltage.cpp:18
 #, kde-format
 msgid "Voltage"
-msgstr ""
+msgstr "Τάση"
 
 #: voltage.cpp:20
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (voltage"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -14270,913 +13511,705 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "YV"
-msgstr ""
+msgstr "YV"
 
 #: voltage.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yottajoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yottavolts"
-msgstr "γιόττατζαουολ"
+msgstr "yottavolts"
 
 #: voltage.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yottajoule;yottajoules;YJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottavolt;yottavolts;YV"
-msgstr "γιόττατζαουολ;γιόττατζαουολ;YJ"
+msgstr "yottavolt;yottavolts;YV"
 
 #: voltage.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottajoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottavolts"
-msgstr "%1 γιόττατζαουολ"
+msgstr "%1 yottavolts"
 
 #: voltage.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottajoule"
-#| msgid_plural "%1 yottajoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottavolt"
 msgid_plural "%1 yottavolts"
-msgstr[0] "%1 γιόττατζαουολ"
-msgstr[1] "%1 γιόττατζαουολ"
+msgstr[0] "%1 yottavolt"
+msgstr[1] "%1 yottavolts"
 
 #: voltage.cpp:35
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "ZV"
-msgstr ""
+msgstr "ZV"
 
 #: voltage.cpp:36
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zettajoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zettavolts"
-msgstr "ζεττατζάουλ"
+msgstr "zettavolts"
 
 #: voltage.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zettajoule;zettajoules;ZJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettavolt;zettavolts;ZV"
-msgstr "ζεττατζάουλ;ζεττατζάουλ;ZJ"
+msgstr "zettavolt;zettavolts;ZV"
 
 #: voltage.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettajoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettavolts"
-msgstr "%1 ζεττατζάουλ"
+msgstr "%1 zettavolts"
 
 #: voltage.cpp:40
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettajoule"
-#| msgid_plural "%1 zettajoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettavolt"
 msgid_plural "%1 zettavolts"
-msgstr[0] "%1 ζεττατζάουλ"
-msgstr[1] "%1 ζεττατζάουλ"
+msgstr[0] "%1 zettavolt"
+msgstr[1] "%1 zettavolts"
 
 #: voltage.cpp:45
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "EV"
-msgstr ""
+msgstr "EV"
 
 #: voltage.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exavolts"
-msgstr ""
+msgstr "exavolts"
 
 #: voltage.cpp:47
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "exajoule;exajoules;EJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exavolt;exavolts;EV"
-msgstr "εξατζάουλ;εξατζάουλ;EJ"
+msgstr "exavolt;exavolts;EV"
 
 #: voltage.cpp:49
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exajoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exavolts"
-msgstr "%1 εξατζάουλ"
+msgstr "%1 exavolts"
 
 #: voltage.cpp:50
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exajoule"
-#| msgid_plural "%1 exajoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exavolt"
 msgid_plural "%1 exavolts"
-msgstr[0] "%1 εξατζάουλ"
-msgstr[1] "%1 εξατζάουλ"
+msgstr[0] "%1 exavolt"
+msgstr[1] "%1 exavolts"
 
 #: voltage.cpp:55
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "PV"
-msgstr ""
+msgstr "PV"
 
 #: voltage.cpp:56
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "petajoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "petavolts"
-msgstr "πετατζάουλ"
+msgstr "petavolts"
 
 #: voltage.cpp:57
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "petajoule;petajoules;PJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petavolt;petavolts;PV"
-msgstr "πετατζάουλ;πετατζάουλ;PJ"
+msgstr "petavolt;petavolts;PV"
 
 #: voltage.cpp:59
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 petajoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petavolts"
-msgstr "%1 πετατζάουλ"
+msgstr "%1 petavolts"
 
 #: voltage.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petajoule"
-#| msgid_plural "%1 petajoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petavolt"
 msgid_plural "%1 petavolts"
-msgstr[0] "%1 πετατζάουλ"
-msgstr[1] "%1 πετατζάουλ"
+msgstr[0] "%1 petavolt"
+msgstr[1] "%1 petavolts"
 
 #: voltage.cpp:65
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 #: voltage.cpp:66
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "terajoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "teravolts"
-msgstr "τερατζάουλ"
+msgstr "teravolts"
 
 #: voltage.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terajoule;terajoules;TJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teravolt;teravolts;TV"
-msgstr "τερατζάουλ;τερατζάουλ;TJ"
+msgstr "teravolt;teravolts;TV"
 
 #: voltage.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terajoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teravolts"
-msgstr "%1 τερατζάουλ"
+msgstr "%1 teravolts"
 
 #: voltage.cpp:70
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terajoule"
-#| msgid_plural "%1 terajoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teravolt"
 msgid_plural "%1 teravolts"
-msgstr[0] "%1 τερατζάουλ"
-msgstr[1] "%1 τερατζάουλ"
+msgstr[0] "%1 teravolt"
+msgstr[1] "%1 teravolts"
 
 #: voltage.cpp:75
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "GV"
-msgstr ""
+msgstr "GV"
 
 #: voltage.cpp:76
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigajoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigavolts"
-msgstr "γιγατζάουλ"
+msgstr "gigavolts"
 
 #: voltage.cpp:77
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigajoule;gigajoules;GJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigavolt;gigavolts;GV"
-msgstr "γιγατζάουλ;γιγατζάουλ;GJ"
+msgstr "gigavolt;gigavolts;GV"
 
 #: voltage.cpp:79
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigajoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigavolts"
-msgstr "%1 γιγατζάουλ"
+msgstr "%1 gigavolts"
 
 #: voltage.cpp:80
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigajoule"
-#| msgid_plural "%1 gigajoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigavolt"
 msgid_plural "%1 gigavolts"
-msgstr[0] "%1 γιγατζάουλ"
-msgstr[1] "%1 γιγατζάουλ"
+msgstr[0] "%1 gigavolt"
+msgstr[1] "%1 gigavolts"
 
 #: voltage.cpp:85
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "MV"
-msgstr ""
+msgstr "MV"
 
 #: voltage.cpp:86
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megajoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megavolts"
-msgstr "μεγατζάουλ"
+msgstr "megavolts"
 
 #: voltage.cpp:87
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megajoule;megajoules;MJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megavolt;megavolts;MV"
-msgstr "μεγατζάουλ;μεγατζάουλ;MJ"
+msgstr "megavolt;megavolts;MV"
 
 #: voltage.cpp:89
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 megajoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megavolts"
-msgstr "%1 μεγατζάουλ"
+msgstr "%1 megavolts"
 
 #: voltage.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megajoule"
-#| msgid_plural "%1 megajoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megavolt"
 msgid_plural "%1 megavolts"
-msgstr[0] "%1 μεγατζάουλ"
-msgstr[1] "%1 μεγατζάουλ"
+msgstr[0] "%1 megavolt"
+msgstr[1] "%1 megavolts"
 
 #: voltage.cpp:95
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "kV"
-msgstr ""
+msgstr "kV"
 
 #: voltage.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilojoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kilovolts"
-msgstr "χιλιοτζάουλ"
+msgstr "kilovolts"
 
 #: voltage.cpp:97
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilojoule;kilojoules;kJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilovolt;kilovolts;kV"
-msgstr "χιλιοτζάουλ;χιλιοτζάουλ;kJ"
+msgstr "kilovolt;kilovolts;kV"
 
 #: voltage.cpp:99
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilojoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilovolts"
-msgstr "%1 χιλιοτζάουλ"
+msgstr "%1 kilovolts"
 
 #: voltage.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilojoule"
-#| msgid_plural "%1 kilojoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilovolt"
 msgid_plural "%1 kilovolts"
-msgstr[0] "%1 χιλιοτζάουλ"
-msgstr[1] "%1 χιλιοτζάουλ"
+msgstr[0] "%1 kilovolt"
+msgstr[1] "%1 kilovolts"
 
 #: voltage.cpp:105
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "h"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "hV"
-msgstr "h"
+msgstr "hV"
 
 #: voltage.cpp:106
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "electronvolts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "hectovolts"
-msgstr "ηλεκτρονιοβόλτ"
+msgstr "hectovolts"
 
 #: voltage.cpp:107
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "electronvolt;electronvolts;eV"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectovolt;hectovolts;hV"
-msgstr "ηλεκτρονιοβόλτ;eV"
+msgstr "hectovolt;hectovolts;hV"
 
 #: voltage.cpp:109
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 electronvolts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectovolts"
-msgstr "%1 ηλεκτρονιοβόλτ"
+msgstr "%1 hectovolts"
 
 #: voltage.cpp:110
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 electronvolt"
-#| msgid_plural "%1 electronvolts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectovolt"
 msgid_plural "%1 hectovolts"
-msgstr[0] "%1 ηλεκτρονιοβόλτ"
-msgstr[1] "%1 ηλεκτρονιοβόλτ"
+msgstr[0] "%1 hectovolt"
+msgstr[1] "%1 hectovolts"
 
 #: voltage.cpp:115
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "daJ"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "daV"
-msgstr "daJ"
+msgstr "daV"
 
 #: voltage.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "decajoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decavolts"
-msgstr "δεκατζάουλ"
+msgstr "decavolts"
 
 #: voltage.cpp:117
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "decajoule;decajoules;daJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decavolt;decavolts;daV"
-msgstr "δεκατζάουλ;δεκατζάουλ;daJ"
+msgstr "decavolt;decavolts;daV"
 
 #: voltage.cpp:119
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 decajoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decavolts"
-msgstr "%1 δεκατζάουλ"
+msgstr "%1 decavolts"
 
 #: voltage.cpp:120
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 decajoule"
-#| msgid_plural "%1 decajoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decavolt"
 msgid_plural "%1 decavolts"
-msgstr[0] "%1 δεκατζάουλ"
-msgstr[1] "%1 δεκατζάουλ"
+msgstr[0] "%1 decavolt"
+msgstr[1] "%1 decavolts"
 
 #: voltage.cpp:125
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "eV"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "V"
-msgstr "eV"
+msgstr "V"
 
 #: voltage.cpp:126
 #, kde-format
 msgctxt "unit description in lists"
 msgid "volts"
-msgstr ""
+msgstr "volts"
 
 #: voltage.cpp:127
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "volt;volts;V"
-msgstr ""
+msgstr "volt;volts;V"
 
 #: voltage.cpp:129
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 electronvolts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 volts"
-msgstr "%1 ηλεκτρονιοβόλτ"
+msgstr "%1 volts"
 
 #: voltage.cpp:130
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 electronvolt"
-#| msgid_plural "%1 electronvolts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 volt"
 msgid_plural "%1 volts"
-msgstr[0] "%1 ηλεκτρονιοβόλτ"
-msgstr[1] "%1 ηλεκτρονιοβόλτ"
+msgstr[0] "%1 volt"
+msgstr[1] "%1 volts"
 
 #: voltage.cpp:135
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "d"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "dV"
-msgstr "d"
+msgstr "dV"
 
 #: voltage.cpp:136
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "decijoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decivolts"
-msgstr "δεκατοτζάουλ"
+msgstr "decivolts"
 
 #: voltage.cpp:137
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "decijoule;decijoules;dJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decivolt;decivolts;dV"
-msgstr "δεκατοτζάουλ;δεκατοτζάουλ;dJ"
+msgstr "decivolt;decivolts;dV"
 
 #: voltage.cpp:139
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 decijoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decivolts"
-msgstr "%1 δεκατοτζάουλ"
+msgstr "%1 decivolts"
 
 #: voltage.cpp:140
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 decijoule"
-#| msgid_plural "%1 decijoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decivolt"
 msgid_plural "%1 decivolts"
-msgstr[0] "%1 δεκατοτζάουλ"
-msgstr[1] "%1 δεκατοτζάουλ"
+msgstr[0] "%1 decivolt"
+msgstr[1] "%1 decivolts"
 
 #: voltage.cpp:145
-#, fuzzy, kde-format
-#| msgctxt "velocity unit symbol"
-#| msgid "c"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "cV"
-msgstr "c"
+msgstr "cV"
 
 #: voltage.cpp:146
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "centijoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "centivolts"
-msgstr "εκατοστοτζάουλ"
+msgstr "centivolts"
 
 #: voltage.cpp:147
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "centijoule;centijoules;cJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centivolt;centivolts;cV"
-msgstr "εκατοστοτζάουλ;εκατοστοτζάουλ;cJ"
+msgstr "centivolt;centivolts;cV"
 
 #: voltage.cpp:149
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 centijoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 centivolts"
-msgstr "%1 εκατοστοτζάουλ"
+msgstr "%1 centivolts"
 
 #: voltage.cpp:150
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 centijoule"
-#| msgid_plural "%1 centijoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centivolt"
 msgid_plural "%1 centivolts"
-msgstr[0] "%1 εκατοστοζάουλ"
-msgstr[1] "%1 εκατοστοτζάουλ"
+msgstr[0] "%1 centivolt"
+msgstr[1] "%1 centivolts"
 
 #: voltage.cpp:155
-#, fuzzy, kde-format
-#| msgctxt "length unit symbol"
-#| msgid "m"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "mV"
-msgstr "m"
+msgstr "mV"
 
 #: voltage.cpp:156
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "millijoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "millivolts"
-msgstr "χιλιοτζάουλ"
+msgstr "millivolts"
 
 #: voltage.cpp:157
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "millijoule;millijoules;mJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "millivolt;millivolts;mV"
-msgstr "χιλιοτζάουλ;χιλιοτζάουλ;mJ"
+msgstr "millivolt;millivolts;mV"
 
 #: voltage.cpp:159
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 millijoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 millivolts"
-msgstr "%1 χιλιοτζάουλ"
+msgstr "%1 millivolts"
 
 #: voltage.cpp:160
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 millijoule"
-#| msgid_plural "%1 millijoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 millivolt"
 msgid_plural "%1 millivolts"
-msgstr[0] "%1 χιλιοτζάουλ"
-msgstr[1] "%1 χιλιοτζάουλ"
+msgstr[0] "%1 millivolt"
+msgstr[1] "%1 millivolts"
 
 #: voltage.cpp:165
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "µJ"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "µV"
-msgstr "µJ"
+msgstr "µV"
 
 #: voltage.cpp:166
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "microjoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "microvolts"
-msgstr "μικροτζάουλ"
+msgstr "microvolts"
 
 #: voltage.cpp:167
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "microjoule;microjoules;µJ;uJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "microvolt;microvolts;µV;uV"
-msgstr "μικροτζάουλ;μικροτζάουλ;µJ"
+msgstr "microvolt;microvolts;µV;uV"
 
 #: voltage.cpp:169
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 microjoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 microvolts"
-msgstr "%1 μικροτζάουλ"
+msgstr "%1 microvolts"
 
 #: voltage.cpp:170
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 microjoule"
-#| msgid_plural "%1 microjoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microvolt"
 msgid_plural "%1 microvolts"
-msgstr[0] "%1 μικροτζάουλ"
-msgstr[1] "%1 μικροτζάουλ"
+msgstr[0] "%1 microvolt"
+msgstr[1] "%1 microvolts"
 
 #: voltage.cpp:175
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "nV"
-msgstr ""
+msgstr "nV"
 
 #: voltage.cpp:176
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "nanojoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "nanovolts"
-msgstr "νανοτζάουλ"
+msgstr "nanovolts"
 
 #: voltage.cpp:177
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "nanojoule;nanojoules;nJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanovolt;nanovolts;nV"
-msgstr "νανοτζάουλ;νανοτζάουλ;nJ"
+msgstr "nanovolt;nanovolts;nV"
 
 #: voltage.cpp:179
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 nanojoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 nanovolts"
-msgstr "%1 νανοτζάουλ"
+msgstr "%1 nanovolts"
 
 #: voltage.cpp:180
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 nanojoule"
-#| msgid_plural "%1 nanojoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanovolt"
 msgid_plural "%1 nanovolts"
-msgstr[0] "%1 νανοτζάουλ"
-msgstr[1] "%1 νανοτζάουλ"
+msgstr[0] "%1 nanovolt"
+msgstr[1] "%1 nanovolts"
 
 #: voltage.cpp:185
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "pV"
-msgstr ""
+msgstr "pV"
 
 #: voltage.cpp:186
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "picojoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "picovolts"
-msgstr "πικοτζάουλ"
+msgstr "picovolts"
 
 #: voltage.cpp:187
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "picojoule;picojoules;pJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picovolt;picovolts;pV"
-msgstr "πικοτζάουλ;πικοτζάουλ;pJ"
+msgstr "picovolt;picovolts;pV"
 
 #: voltage.cpp:189
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 picojoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 picovolts"
-msgstr "%1 πικοτζάουλ"
+msgstr "%1 picovolts"
 
 #: voltage.cpp:190
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 picojoule"
-#| msgid_plural "%1 picojoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picovolt"
 msgid_plural "%1 picovolts"
-msgstr[0] "%1 πικοτζάουλ"
-msgstr[1] "%1 πικοτζάουλ"
+msgstr[0] "%1 picovolt"
+msgstr[1] "%1 picovolts"
 
 #: voltage.cpp:195
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "fV"
-msgstr ""
+msgstr "fV"
 
 #: voltage.cpp:196
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "femtojoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "femtovolts"
-msgstr "φεμτοτζάουλ"
+msgstr "femtovolts"
 
 #: voltage.cpp:197
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "femtojoule;femtojoules;fJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtovolt;femtovolts;fV"
-msgstr "φεμτοτζάουλ;φεμτοτζάουλ;fJ"
+msgstr "femtovolt;femtovolts;fV"
 
 #: voltage.cpp:199
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 femtojoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 femtovolts"
-msgstr "%1 φεμτοτζάουλ"
+msgstr "%1 femtovolts"
 
 #: voltage.cpp:200
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 femtojoule"
-#| msgid_plural "%1 femtojoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtovolt"
 msgid_plural "%1 femtovolts"
-msgstr[0] "%1 φεμτοτζάουλ"
-msgstr[1] "%1 φεμτοτζάουλ"
+msgstr[0] "%1 femtovolt"
+msgstr[1] "%1 femtovolts"
 
 #: voltage.cpp:205
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "a"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "aV"
-msgstr "a"
+msgstr "aV"
 
 #: voltage.cpp:206
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "attojoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "attovolts"
-msgstr "αττοτζάουλ"
+msgstr "attovolts"
 
 #: voltage.cpp:207
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "attojoule;attojoules;aJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attovolt;attovolts;aV"
-msgstr "αττοτζάουλ;αττοτζάουλ;aJ"
+msgstr "attovolt;attovolts;aV"
 
 #: voltage.cpp:209
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 attojoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attovolts"
-msgstr "%1 αττοτζάουλ"
+msgstr "%1 attovolts"
 
 #: voltage.cpp:210
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 attojoule"
-#| msgid_plural "%1 attojoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attovolt"
 msgid_plural "%1 attovolts"
-msgstr[0] "%1 αττοτζάουλ"
-msgstr[1] "%1 αττοτζάουλ"
+msgstr[0] "%1 attovolt"
+msgstr[1] "%1 attovolts"
 
 #: voltage.cpp:215
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "zV"
-msgstr ""
+msgstr "zV"
 
 #: voltage.cpp:216
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zeptojoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zeptovolts"
-msgstr "ζεπτοτζάουλ"
+msgstr "zeptovolts"
 
 #: voltage.cpp:217
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zeptojoule;zeptojoules;zJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptovolt;zeptovolts;zV"
-msgstr "ζεπτοτζάουλ;ζεπτοτζάουλ;zJ"
+msgstr "zeptovolt;zeptovolts;zV"
 
 #: voltage.cpp:219
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zeptojoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zeptovolts"
-msgstr "%1 ζεπτοτζάουλ"
+msgstr "%1 zeptovolts"
 
 #: voltage.cpp:220
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zeptojoule"
-#| msgid_plural "%1 zeptojoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptovolt"
 msgid_plural "%1 zeptovolts"
-msgstr[0] "%1 ζεπτοτζάουλ"
-msgstr[1] "%1 ζεπτοτζάουλ"
+msgstr[0] "%1 zeptovolt"
+msgstr[1] "%1 zeptovolts"
 
 #: voltage.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "y"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "yV"
-msgstr "y"
+msgstr "yV"
 
 #: voltage.cpp:226
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yoctojoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yoctovolts"
-msgstr "γιοκτοτζάουλ"
+msgstr "yoctovolts"
 
 #: voltage.cpp:227
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yoctojoule;yoctojoules;yJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctovolt;yoctovolts;yV"
-msgstr "γιοκτοτζάουλ;γιοκτοτζάουλ;yJ"
+msgstr "yoctovolt;yoctovolts;yV"
 
 #: voltage.cpp:229
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yoctojoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctovolts"
-msgstr "%1 γιοκτοτζάουλ"
+msgstr "%1 yoctovolts"
 
 #: voltage.cpp:230
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yoctojoule"
-#| msgid_plural "%1 yoctojoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctovolt"
 msgid_plural "%1 yoctovolts"
-msgstr[0] "%1 γιοκτοτζάουλ"
-msgstr[1] "%1 γιοκτοτζάουλ"
+msgstr[0] "%1 yoctovolt"
+msgstr[1] "%1 yoctovolts"
 
 #: voltage.cpp:235
-#, fuzzy, kde-format
-#| msgctxt "mass unit symbol"
-#| msgid "t"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "stV"
-msgstr "t"
+msgstr "stV"
 
 #: voltage.cpp:236
 #, kde-format
 msgctxt "unit description in lists"
 msgid "statvolts"
-msgstr ""
+msgstr "statvolts"
 
 #: voltage.cpp:237
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "statvolt;statvolts;stV"
-msgstr ""
+msgstr "statvolt;statvolts;stV"
 
 #: voltage.cpp:239
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 electronvolts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 statvolts"
-msgstr "%1 ηλεκτρονιοβόλτ"
+msgstr "%1 statvolts"
 
 #: voltage.cpp:240
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 second"
-#| msgid_plural "%1 seconds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 statvolt"
 msgid_plural "%1 statvolts"
-msgstr[0] "%1 δευτερόλεπτο"
-msgstr[1] "%1 δευτερόλεπτα"
+msgstr[0] "%1 statvolt"
+msgstr[1] "%1 statvolts"
 
 #: volume.cpp:18
 #, kde-format
@@ -16004,13 +15037,13 @@ msgstr "Tl"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teraliters"
-msgstr "τεράλιτρα"
+msgstr "teraliters"
 
 #: volume.cpp:277
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teraliter;teraliters;Tl"
-msgstr "τεράλιτρο;τεράλιτρα;Tl"
+msgstr "teraliter;teraliters;Tl"
 
 #: volume.cpp:279
 #, kde-format
@@ -16706,74 +15739,65 @@ msgstr[1] "%1 φλιτζάνια"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr ""
+msgstr "tsp"
 
 #: volume.cpp:496
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teaspoon"
-msgstr ""
+msgstr "κουταλάκι του γλυκού"
 
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr ""
+msgstr "κουταλάκι του γλυκού;κουταλάκια του γλυκού;κ.τ.γ.;κ.τ.γ."
 
 #: volume.cpp:499
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr "%1 τεραδευτερόλεπτα"
+msgstr "%1 κουταλάκια του γλυκού"
 
 #: volume.cpp:500
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terasecond"
-#| msgid_plural "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teaspoon"
 msgid_plural "%1 teaspoons"
-msgstr[0] "%1 τεραδευτερόλεπτο"
-msgstr[1] "%1 τεραδευτερόλεπτα"
+msgstr[0] "%1 κουταλάκι του γλυκού"
+msgstr[1] "%1 κουταλάκια του γλυκού"
 
 #: volume.cpp:505
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr ""
+msgstr "κ.τ.γ."
 
 #: volume.cpp:506
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tablespoon"
-msgstr ""
+msgstr "κουταλάκι του γλυκού"
 
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr ""
+msgstr "κουταλάκι του γλυκού;κουταλάκια του γλυκού;κ.τ.γ.;κ.τ.γ."
 
 #: volume.cpp:509
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 tons"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tablespoons"
-msgstr "%1 τόνοι"
+msgstr "%1 κουταλάκι του γλυκού"
 
 #: volume.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tablespoon"
 msgid_plural "%1 tablespoons"
-msgstr[0] "%1 τεράμετρα"
-msgstr[1] "%1 τεράμετρα"
+msgstr[0] "%1 κουταλάκι του γλυκού"
+msgstr[1] "%1 κουταλάκια του γλυκού"
 
 #: volume.cpp:515
 #, kde-format
@@ -16811,15 +15835,13 @@ msgstr[1] "%1 γαλόνια (υγρό Η.Π.Α.)"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "imp gal"
-msgstr ""
+msgstr "imp gal"
 
 #: volume.cpp:526
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pints (imperial)"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gallons (imperial)"
-msgstr "πάιντ (αυτοκρατορικό)"
+msgstr "gallons (imperial)"
 
 #: volume.cpp:528
 #, kde-format
@@ -16828,25 +15850,22 @@ msgid ""
 "gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
 "gal;imperial gallon;imperial gallons"
 msgstr ""
+"gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
+"gal;imperial gallon;imperial gallons"
 
 #: volume.cpp:530
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pints (imperial)"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gallons (imperial)"
-msgstr "%1 πάιντ (αυτοκρατορικό)"
+msgstr "%1 gallons (imperial)"
 
 #: volume.cpp:531
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 pint (imperial)"
-#| msgid_plural "%1 pints (imperial)"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gallon (imperial)"
 msgid_plural "%1 gallons (imperial)"
-msgstr[0] "%1 πάιντ (αυτοκρατορικό)"
-msgstr[1] "%1 πάιντ (αυτοκρατορικό)"
+msgstr[0] "%1 gallon (imperial)"
+msgstr[1] "%1 gallons (imperial)"
 
 #: volume.cpp:536
 #, kde-format
@@ -16884,89 +15903,73 @@ msgstr[1] "%1 πάιντ (αυτοκρατορικό)"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "US pt"
-msgstr ""
+msgstr "US pt"
 
 #: volume.cpp:547
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gallons (U.S. liquid)"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "pints (U.S. liquid)"
 msgstr "γαλόνια (υγρό Η.Π.Α.)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
-msgstr "πάιντ (αυτοκρατορικό);pt;πάιντ;p"
+msgstr "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
 
 #: volume.cpp:550
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pints (U.S. liquid)"
-msgstr "%1 γαλόνια (υγρό Η.Π.Α.)"
+msgstr "%1 pints (U.S. liquid)"
 
 #: volume.cpp:551
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gallon (U.S. liquid)"
-#| msgid_plural "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pint (U.S. liquid)"
 msgid_plural "%1 pints (U.S. liquid)"
-msgstr[0] "%1 γαλόνι (υγρό Η.Π.Α)"
-msgstr[1] "%1 γαλόνια (υγρό Η.Π.Α.)"
+msgstr[0] "%1 pint (U.S. liquid)"
+msgstr[1] "%1 pints (U.S. liquid)"
 
 #: volume.cpp:556
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "bbl"
-msgstr ""
+msgstr "bbl"
 
 #: volume.cpp:557
 #, kde-format
 msgctxt "unit description in lists"
 msgid "oil barrels"
-msgstr ""
+msgstr "Βαρέλια πετρελαίου"
 
 #: volume.cpp:558
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "oil barrels;oil barrel;bbl"
-msgstr ""
+msgstr "βαρέλια πετρελαίου;βαρέλι πετρελαίου;bbl"
 
 #: volume.cpp:560
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 bars"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 oil barrels"
-msgstr "%1 μπαρ"
+msgstr "%1 βαρέλια πετρελαίου"
 
 #: volume.cpp:561
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 bar"
-#| msgid_plural "%1 bars"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 oil barrel"
 msgid_plural "%1 oil barrels"
-msgstr[0] "%1 μπαρ"
-msgstr[1] "%1 μπαρ"
+msgstr[0] "%1 βαρέλι πετρελαίου"
+msgstr[1] "%1 βαρέλια πετρελαίου"
 
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "Βάρος ανά περιοχή"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -16975,16 +15978,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "g/m²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 square meter"
-#| msgid_plural "%1 square meters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "%1 τετραγωνικό μέτρο"
+msgstr "γραμμάρια ανά τετραγωνικό μέτρο"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -16992,40 +15992,34 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
 msgstr ""
+"gsm;g/m;g/m2;gm2;γραμμάρια ανά μέτρο;γραμμάρια ανά τετραγωνικό μέτρο;"
+"γραμμάρια ανά μέτρο²"
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 square meter"
-#| msgid_plural "%1 square meters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 τετραγωνικό μέτρο"
+msgstr "%1 γραμμάρια ανά τετραγωνικό μέτρο"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 square meter"
-#| msgid_plural "%1 square meters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 τετραγωνικό μέτρο"
-msgstr[1] "%1 τετραγωνικό μέτρο"
+msgstr[0] "%1 γραμμάρια ανά τετραγωνικό μέτρο"
+msgstr[1] "%1 γραμμάρια ανά τετραγωνικό μέτρο"
 
 #: weight_per_area.cpp:37
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "oz/yd²"
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "λίβρες ανά κυβική γιάρδα"
+msgstr "ουγγιές ανά τετραγωνική γιάρδα"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -17034,24 +16028,22 @@ msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
 "yard²"
 msgstr ""
+"ozyd;ozyd2;oz/yd;oz/yd2;ουγγιές ανά γιάρδα;ουγγιές ανά τετραγωνική γιάρδα;"
+"ουγγιές ανά γιάρδα²"
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 λίβρες ανά κυβική γιάρδα"
+msgstr "%1 ουγγιές ανά τετραγωνική γιάρδα"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 λίβρες ανά κυβική γιάρδα"
-msgstr[1] "%1 λίβρες ανά κυβική γιάρδα"
+msgstr[0] "%1 ουγγιές ανά τετραγωνική γιάρδα"
+msgstr[1] "%1 ουγγιές ανά τετραγωνική γιάρδα"
 
 #~ msgid "Invalid"
 #~ msgstr "Μη έγκυρο"
