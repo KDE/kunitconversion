@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-12 02:34+0000\n"
-"PO-Revision-Date: 2023-10-29 21:30+0100\n"
+"PO-Revision-Date: 2023-11-12 00:49+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
 "Language: ast\n"
@@ -11024,27 +11024,27 @@ msgstr "hPa"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectopascals"
-msgstr ""
+msgstr "hectopascales"
 
 #: pressure.cpp:106
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectopascal;hectopascals;hPa"
-msgstr ""
+msgstr "hectopascal;hectopascales;hPa"
 
 #: pressure.cpp:108
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectopascals"
-msgstr ""
+msgstr "%1 hectopascales"
 
 #: pressure.cpp:109
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectopascal"
 msgid_plural "%1 hectopascals"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 hectopascal"
+msgstr[1] "%1 hectopascales"
 
 #: pressure.cpp:114
 #, kde-format
@@ -11056,27 +11056,27 @@ msgstr "daPa"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decapascals"
-msgstr ""
+msgstr "decapascales"
 
 #: pressure.cpp:116
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decapascal;decapascals;daPa"
-msgstr ""
+msgstr "decapascal;decapascales;daPa"
 
 #: pressure.cpp:118
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decapascals"
-msgstr ""
+msgstr "%1 decapascales"
 
 #: pressure.cpp:119
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decapascal"
 msgid_plural "%1 decapascals"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 decapascal"
+msgstr[1] "%1 decapascals"
 
 #: pressure.cpp:124
 #, kde-format
