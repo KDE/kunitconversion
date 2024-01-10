@@ -4,21 +4,21 @@
 # Tamas Szanto <taszanto@gmail.com>, 2009.
 # Laszlo Papp <djszapi@archlinux.us>, 2010.
 # Kristóf Kiszel <ulysses@kubuntu.org>, 2010, 2011, 2014, 2019.
-# Kristof Kiszel <kiszel.kristof@gmail.com>, 2018, 2020.
+# SPDX-FileCopyrightText: 2018, 2020, 2024 Kristof Kiszel <kiszel.kristof@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-12 02:34+0000\n"
-"PO-Revision-Date: 2020-11-19 14:11+0100\n"
-"Last-Translator: Kristóf Kiszel <kiszel.kristof@gmail.com>\n"
+"PO-Revision-Date: 2024-01-09 11:14+0100\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 21.03.70\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -562,12 +562,10 @@ msgid "square kilometers"
 msgstr "kilométer négyzet"
 
 #: area.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square kilometer;square kilometers;km²;km/-2;km^2;km2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
-msgstr "négyzetkilométer;km²;km/-2;km^2;km2"
+msgstr "négyzetkilométern;nkm;km²;km/-2;km^2;km2"
 
 #: area.cpp:116
 #, kde-format
@@ -661,12 +659,10 @@ msgid "square meters"
 msgstr "négyzetméter"
 
 #: area.cpp:144
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
-msgstr "négyzetméter;négyzetméterek;Mm²;Mm/-2;Mm^2;Mm2"
+msgstr "négyzetméter;nm;m²;m/-2;m^2;m2"
 
 #: area.cpp:146
 #, kde-format
@@ -727,12 +723,10 @@ msgid "square centimeters"
 msgstr "négyzetcentiméter"
 
 #: area.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
-msgstr "négyzetcentiméter;négyzetcentiméterek;Mm²;Mm/-2;Mm^2;Mm2"
+msgstr "négyzetcentiméter;ncm;cm²;cm/-2;cm^2;cm2"
 
 #: area.cpp:166
 #, kde-format
@@ -761,12 +755,10 @@ msgid "square millimeters"
 msgstr "négyzetmilliméter"
 
 #: area.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
-msgstr "négyzetmilliméter;négyzetmilliméter;mm²;Mm/-2;mm^2;mm2"
+msgstr "négyzetmilliméter;nmm;mm²;Mm/-2;mm^2;mm2"
 
 #: area.cpp:176
 #, kde-format
@@ -9604,9 +9596,7 @@ msgid "tons"
 msgstr "tonna"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
 msgstr "tonna;t"
@@ -9638,9 +9628,7 @@ msgid "carats"
 msgstr "karát"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
 msgstr "karát;Kt"
@@ -9672,9 +9660,7 @@ msgid "pounds"
 msgstr "font"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
 msgstr "font;lb"
@@ -13240,12 +13226,10 @@ msgid "kilometers per hour"
 msgstr "kilométer per óra"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "kilométer per óra;km/h"
+msgstr "kilométer per óra;km/h;kph"
 
 #: velocity.cpp:67
 #, kde-format
@@ -15722,74 +15706,65 @@ msgstr[1] "%1 csésze"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr ""
+msgstr "csésze"
 
 #: volume.cpp:496
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teaspoon"
-msgstr ""
+msgstr "teáskanál"
 
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr ""
+msgstr "teáskanál;tk"
 
 #: volume.cpp:499
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr "%1 teraszekundum"
+msgstr "%1 teáskanál"
 
 #: volume.cpp:500
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terasecond"
-#| msgid_plural "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teaspoon"
 msgid_plural "%1 teaspoons"
-msgstr[0] "%1 teraszekundum"
-msgstr[1] "%1 teraszekundum"
+msgstr[0] "%1 teáskanál"
+msgstr[1] "%1 teáskanál"
 
 #: volume.cpp:505
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr ""
+msgstr "ek"
 
 #: volume.cpp:506
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tablespoon"
-msgstr ""
+msgstr "evőkanál"
 
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr ""
+msgstr "evőkanál;ek"
 
 #: volume.cpp:509
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 tons"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tablespoons"
-msgstr "%1 tonna"
+msgstr "%1 evőkanál"
 
 #: volume.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terabytes"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tablespoon"
 msgid_plural "%1 tablespoons"
-msgstr[0] "%1 terabájt"
-msgstr[1] "%1 terabájt"
+msgstr[0] "%1 evőkanál"
+msgstr[1] "%1 evőkanál"
 
 #: volume.cpp:515
 #, kde-format
@@ -15960,12 +15935,10 @@ msgstr[1] "%1 hordó"
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "Súly per terület"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15974,15 +15947,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "g/m²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt per square meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "watt per négyzetméter"
+msgstr "gramm per négyzetméter"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -15990,38 +15961,33 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
 msgstr ""
+"gnm;g/m;g/m2;gm2;gramm per méter;gramm per négyzetméter;gramm per méter²"
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 watt per négyzetméter"
+msgstr "%1 gramm per négyzetméter"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 watt per négyzetméter"
-msgstr[1] "%1 watt per négyzetméter"
+msgstr[0] "%1 gramm per négyzetméter"
+msgstr[1] "%1 gramm per négyzetméter"
 
 #: weight_per_area.cpp:37
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "oz/yd²"
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "font per köbyard"
+msgstr "uncia per négyzetyard"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -16030,24 +15996,21 @@ msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
 "yard²"
 msgstr ""
+"ozyd;ozyd2;oz/yd;oz/yd2;uncia per yard;uncia per négyzetyard;uncia per yard²"
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 font per köbyard"
+msgstr "%1 uncia per négyzetyard"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 font per köbyard"
-msgstr[1] "%1 font per köbyard"
+msgstr[0] "%1 uncia per négyzetyard"
+msgstr[1] "%1 uncia per négyzetyard"
 
 #~ msgid "Invalid"
 #~ msgstr "Érvénytelen"
