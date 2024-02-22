@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-06-12 02:34+0000\n"
-"PO-Revision-Date: 2024-02-20 18:51+0100\n"
+"PO-Revision-Date: 2024-02-21 01:20+0100\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -10578,10 +10578,10 @@ msgstr "%1 trojskih unč"
 msgctxt "amount in units (integer)"
 msgid "%1 troy ounce"
 msgid_plural "%1 troy ounces"
-msgstr[0] "%1 trojska unča"
-msgstr[1] "%1 trojski unči"
-msgstr[2] "%1 trojske unče"
-msgstr[3] "%1 trojskih unč"
+msgstr[0] "%1 trojskih unč"
+msgstr[1] "%1 trojska unča"
+msgstr[2] "%1 trojski unči"
+msgstr[3] "%1 trojske unče"
 
 #: mass.cpp:288
 #, kde-format
@@ -10625,29 +10625,29 @@ msgstr "st"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "stone"
-msgstr "stone"
+msgstr "kamen"
 
 #: mass.cpp:311
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "stone;st"
-msgstr "stone;st"
+msgstr "stone;st;kamen;kamni;kamna;kamnov"
 
 #: mass.cpp:313
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 stone"
-msgstr "%1 stone"
+msgstr "%1 kamen"
 
 #: mass.cpp:314
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 stone"
 msgid_plural "%1 stone"
-msgstr[0] "%1 stone"
-msgstr[1] "%1 stone-a"
-msgstr[2] "%1 stone-e"
-msgstr[3] "%1 stone-ov"
+msgstr[0] "%1 kamnov"
+msgstr[1] "%1 kamen"
+msgstr[2] "%1 kamna"
+msgstr[3] "%1 kamni"
 
 #: permeability.cpp:16
 #, kde-format
@@ -10664,13 +10664,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Darcy"
-msgstr "Darcy"
+msgstr "darcy"
 
 #: permeability.cpp:24
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Darcy"
-msgstr "Darcy"
+msgstr "darcy"
 
 #: permeability.cpp:25
 #, kde-format
@@ -10682,17 +10682,17 @@ msgstr "Darcy;Darcys;Dar;Darc"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Darcy"
-msgstr "%1 Darcy"
+msgstr "%1 darcy"
 
 #: permeability.cpp:28
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Darcy"
 msgid_plural "%1 Darcys"
-msgstr[0] "%1 Darcy"
-msgstr[1] "%1 Darcyja"
-msgstr[2] "%1 Darcyje"
-msgstr[3] "%1 Darcyjev"
+msgstr[0] "%1 darcyjev"
+msgstr[1] "%1 darcy"
+msgstr[2] "%1 darcyja"
+msgstr[3] "%1 darcyji"
 
 #: permeability.cpp:33
 #, kde-format
@@ -10704,29 +10704,31 @@ msgstr "mDarcy"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Milli-Darcy"
-msgstr "Milli-Darcy"
+msgstr "mili-darcy"
 
 #: permeability.cpp:35
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Milli-Darcy;MilliDarcy;MilliDar;mDarcy;mDar;mDarc"
-msgstr "Milli-Darcy;MilliDarcy;MilliDar;mDarcy;mDar;mDarc"
+msgstr ""
+"Milli-Darcy;MilliDarcy;MilliDar;mDarcy;mDar;mDarc;mili-darcy;milidarcy;"
+"milidar"
 
 #: permeability.cpp:37
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Milli-Darcy"
-msgstr "%1 Milli-Darcy"
+msgstr "%1 milli-darcy"
 
 #: permeability.cpp:38
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Milli-Darcy"
 msgid_plural "%1 Milli-Darcys"
-msgstr[0] "%1 Milli-Darcy"
-msgstr[1] "%1 Milli-Darcyja"
-msgstr[2] "%1 Milli-Darcyji"
-msgstr[3] "%1 Milli-Darcyjev"
+msgstr[0] "%1 milli-darcyjev"
+msgstr[1] "%1 milli-darcy"
+msgstr[2] "%1 milli-darcyja"
+msgstr[3] "%1 milli-darcyji"
 
 #: permeability.cpp:43
 #, kde-format
@@ -10757,10 +10759,10 @@ msgstr "%1 mikrometrov²"
 msgctxt "amount in units (integer)"
 msgid "%1 micrometer²"
 msgid_plural "%1 micrometers²"
-msgstr[0] "%1 mikrometer²"
-msgstr[1] "%1 mikrometra²"
-msgstr[2] "%1 mikrometri²"
-msgstr[3] "%1 mikrometrov²"
+msgstr[0] "%1 mikrometrov²"
+msgstr[1] "%1 mikrometer²"
+msgstr[2] "%1 mikrometra²"
+msgstr[3] "%1 mikrometri²"
 
 #: power.cpp:49
 #, kde-format
@@ -10802,10 +10804,10 @@ msgstr "%1 jotavatov"
 msgctxt "amount in units (integer)"
 msgid "%1 yottawatt"
 msgid_plural "%1 yottawatts"
-msgstr[0] "%1 jotavat"
-msgstr[1] "%1 jotavata"
-msgstr[2] "%1 jotavati"
-msgstr[3] "%1 jotavatov"
+msgstr[0] "%1 jotavatov"
+msgstr[1] "%1 jotavat"
+msgstr[2] "%1 jotavata"
+msgstr[3] "%1 jotavati"
 
 #: power.cpp:66
 #, kde-format
@@ -10836,10 +10838,10 @@ msgstr "%1 zetavatov"
 msgctxt "amount in units (integer)"
 msgid "%1 zettawatt"
 msgid_plural "%1 zettawatts"
-msgstr[0] "%1 zetavat"
-msgstr[1] "%1 zetavata"
-msgstr[2] "%1 zetavati"
-msgstr[3] "%1 zetavatov"
+msgstr[0] "%1 zetavatov"
+msgstr[1] "%1 zetavat"
+msgstr[2] "%1 zetavata"
+msgstr[3] "%1 zetavati"
 
 #: power.cpp:76
 #, kde-format
@@ -10870,10 +10872,10 @@ msgstr "%1 eksavatov"
 msgctxt "amount in units (integer)"
 msgid "%1 exawatt"
 msgid_plural "%1 exawatts"
-msgstr[0] "%1 eksavat"
-msgstr[1] "%1 eksavata"
-msgstr[2] "%1 eksavati"
-msgstr[3] "%1 eksavatov"
+msgstr[0] "%1 eksavatov"
+msgstr[1] "%1 eksavat"
+msgstr[2] "%1 eksavata"
+msgstr[3] "%1 eksavati"
 
 #: power.cpp:86
 #, kde-format
@@ -10904,10 +10906,10 @@ msgstr "%1 petavatov"
 msgctxt "amount in units (integer)"
 msgid "%1 petawatt"
 msgid_plural "%1 petawatts"
-msgstr[0] "%1 petavat"
-msgstr[1] "%1 petavata"
-msgstr[2] "%1 petavati"
-msgstr[3] "%1 petavatov"
+msgstr[0] "%1 petavatov"
+msgstr[1] "%1 petavat"
+msgstr[2] "%1 petavata"
+msgstr[3] "%1 petavati"
 
 #: power.cpp:96
 #, kde-format
@@ -10938,10 +10940,10 @@ msgstr "%1 teravatov"
 msgctxt "amount in units (integer)"
 msgid "%1 terawatt"
 msgid_plural "%1 terawatts"
-msgstr[0] "%1 teravat"
-msgstr[1] "%1 teravata"
-msgstr[2] "%1 teravati"
-msgstr[3] "%1 teravatov"
+msgstr[0] "%1 teravatov"
+msgstr[1] "%1 teravat"
+msgstr[2] "%1 teravata"
+msgstr[3] "%1 teravati"
 
 #: power.cpp:106
 #, kde-format
@@ -10972,10 +10974,10 @@ msgstr "%1 gigavatov"
 msgctxt "amount in units (integer)"
 msgid "%1 gigawatt"
 msgid_plural "%1 gigawatts"
-msgstr[0] "%1 gigavat"
-msgstr[1] "%1 gigavata"
-msgstr[2] "%1 gigavati"
-msgstr[3] "%1 gigavatov"
+msgstr[0] "%1 gigavatov"
+msgstr[1] "%1 gigavat"
+msgstr[2] "%1 gigavata"
+msgstr[3] "%1 gigavati"
 
 #: power.cpp:116
 #, kde-format
@@ -11006,10 +11008,10 @@ msgstr "%1 megavatov"
 msgctxt "amount in units (integer)"
 msgid "%1 megawatt"
 msgid_plural "%1 megawatts"
-msgstr[0] "%1 megavat"
-msgstr[1] "%1 megavata"
-msgstr[2] "%1 megavati"
-msgstr[3] "%1 megavatov"
+msgstr[0] "%1 megavatov"
+msgstr[1] "%1 megavat"
+msgstr[2] "%1 megavata"
+msgstr[3] "%1 megavati"
 
 #: power.cpp:126
 #, kde-format
@@ -11040,10 +11042,10 @@ msgstr "%1 kilovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 kilowatt"
 msgid_plural "%1 kilowatts"
-msgstr[0] "%1 kilovat"
-msgstr[1] "%1 kilovata"
-msgstr[2] "%1 kilovati"
-msgstr[3] "%1 kilovatov"
+msgstr[0] "%1 kilovatov"
+msgstr[1] "%1 kilovat"
+msgstr[2] "%1 kilovata"
+msgstr[3] "%1 kilovati"
 
 #: power.cpp:136
 #, kde-format
@@ -11074,10 +11076,10 @@ msgstr "%1 hektovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 hectowatt"
 msgid_plural "%1 hectowatts"
-msgstr[0] "%1 hektovat"
-msgstr[1] "%1 hektovata"
-msgstr[2] "%1 hektovati"
-msgstr[3] "%1 hektovatov"
+msgstr[0] "%1 hektovatov"
+msgstr[1] "%1 hektovat"
+msgstr[2] "%1 hektovata"
+msgstr[3] "%1 hektovati"
 
 #: power.cpp:146
 #, kde-format
@@ -11108,10 +11110,10 @@ msgstr "%1 dekavatov"
 msgctxt "amount in units (integer)"
 msgid "%1 decawatt"
 msgid_plural "%1 decawatts"
-msgstr[0] "%1 dekavat"
-msgstr[1] "%1 dekavata"
-msgstr[2] "%1 dekavati"
-msgstr[3] "%1 dekavatov"
+msgstr[0] "%1 dekavatov"
+msgstr[1] "%1 dekavat"
+msgstr[2] "%1 dekavata"
+msgstr[3] "%1 dekavati"
 
 #: power.cpp:156
 #, kde-format
@@ -11142,10 +11144,10 @@ msgstr "%1 vatov"
 msgctxt "amount in units (integer)"
 msgid "%1 watt"
 msgid_plural "%1 watts"
-msgstr[0] "%1 vat"
-msgstr[1] "%1 vata"
-msgstr[2] "%1 vati"
-msgstr[3] "%1 vatov"
+msgstr[0] "%1 vatov"
+msgstr[1] "%1 vat"
+msgstr[2] "%1 vata"
+msgstr[3] "%1 vati"
 
 #: power.cpp:166
 #, kde-format
@@ -11176,10 +11178,10 @@ msgstr "%1 decivatov"
 msgctxt "amount in units (integer)"
 msgid "%1 deciwatt"
 msgid_plural "%1 deciwatts"
-msgstr[0] "%1 decivat"
-msgstr[1] "%1 decivata"
-msgstr[2] "%1 decivati"
-msgstr[3] "%1 decivatov"
+msgstr[0] "%1 decivatov"
+msgstr[1] "%1 decivat"
+msgstr[2] "%1 decivata"
+msgstr[3] "%1 decivati"
 
 #: power.cpp:176
 #, kde-format
@@ -11210,10 +11212,10 @@ msgstr "%1 centivatov"
 msgctxt "amount in units (integer)"
 msgid "%1 centiwatt"
 msgid_plural "%1 centiwatts"
-msgstr[0] "%1 centivat"
-msgstr[1] "%1 centivata"
-msgstr[2] "%1 centivati"
-msgstr[3] "%1 centivatov"
+msgstr[0] "%1 centivatov"
+msgstr[1] "%1 centivat"
+msgstr[2] "%1 centivata"
+msgstr[3] "%1 centivati"
 
 #: power.cpp:186
 #, kde-format
@@ -11244,10 +11246,10 @@ msgstr "%1 milivatov"
 msgctxt "amount in units (integer)"
 msgid "%1 milliwatt"
 msgid_plural "%1 milliwatts"
-msgstr[0] "%1 milivat"
-msgstr[1] "%1 milivata"
-msgstr[2] "%1 milivati"
-msgstr[3] "%1 milivatov"
+msgstr[0] "%1 milivatov"
+msgstr[1] "%1 milivat"
+msgstr[2] "%1 milivata"
+msgstr[3] "%1 milivati"
 
 #: power.cpp:196
 #, kde-format
@@ -11278,10 +11280,10 @@ msgstr "%1 mikrovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 microwatt"
 msgid_plural "%1 microwatts"
-msgstr[0] "%1 mikrovat"
-msgstr[1] "%1 mikrovata"
-msgstr[2] "%1 mikrovati"
-msgstr[3] "%1 mikrovatov"
+msgstr[0] "%1 mikrovatov"
+msgstr[1] "%1 mikrovat"
+msgstr[2] "%1 mikrovata"
+msgstr[3] "%1 mikrovati"
 
 #: power.cpp:206
 #, kde-format
@@ -11312,10 +11314,10 @@ msgstr "%1 nanovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 nanowatt"
 msgid_plural "%1 nanowatts"
-msgstr[0] "%1 nanovat"
-msgstr[1] "%1 nanovata"
-msgstr[2] "%1 nanovati"
-msgstr[3] "%1 nanovatov"
+msgstr[0] "%1 nanovatov"
+msgstr[1] "%1 nanovat"
+msgstr[2] "%1 nanovata"
+msgstr[3] "%1 nanovati"
 
 #: power.cpp:216
 #, kde-format
@@ -11346,10 +11348,10 @@ msgstr "%1 pikovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 picowatt"
 msgid_plural "%1 picowatts"
-msgstr[0] "%1 pikovat"
-msgstr[1] "%1 pikovata"
-msgstr[2] "%1 pikovati"
-msgstr[3] "%1 pikovatov"
+msgstr[0] "%1 pikovatov"
+msgstr[1] "%1 pikovat"
+msgstr[2] "%1 pikovata"
+msgstr[3] "%1 pikovati"
 
 #: power.cpp:226
 #, kde-format
@@ -11380,10 +11382,10 @@ msgstr "%1 femtovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 femtowatt"
 msgid_plural "%1 femtowatts"
-msgstr[0] "%1 femtovat"
-msgstr[1] "%1 femtovata"
-msgstr[2] "%1 femtovati"
-msgstr[3] "%1 femtovatov"
+msgstr[0] "%1 femtovatov"
+msgstr[1] "%1 femtovat"
+msgstr[2] "%1 femtovata"
+msgstr[3] "%1 femtovati"
 
 #: power.cpp:236
 #, kde-format
@@ -11414,10 +11416,10 @@ msgstr "%1 atovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 attowatt"
 msgid_plural "%1 attowatts"
-msgstr[0] "%1 atovat"
-msgstr[1] "%1 atovata"
-msgstr[2] "%1 atovati"
-msgstr[3] "%1 atovatov"
+msgstr[0] "%1 atovatov"
+msgstr[1] "%1 atovat"
+msgstr[2] "%1 atovata"
+msgstr[3] "%1 atovati"
 
 #: power.cpp:246
 #, kde-format
@@ -11448,10 +11450,10 @@ msgstr "%1 zeptovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 zeptowatt"
 msgid_plural "%1 zeptowatts"
-msgstr[0] "%1 zeptovat"
-msgstr[1] "%1 zeptovata"
-msgstr[2] "%1 zeptovati"
-msgstr[3] "%1 zeptovatov"
+msgstr[0] "%1 zeptovatov"
+msgstr[1] "%1 zeptovat"
+msgstr[2] "%1 zeptovata"
+msgstr[3] "%1 zeptovati"
 
 #: power.cpp:256
 #, kde-format
@@ -11482,10 +11484,10 @@ msgstr "%1 joktovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 yoctowatt"
 msgid_plural "%1 yoctowatts"
-msgstr[0] "%1 joktovat"
-msgstr[1] "%1 joktovata"
-msgstr[2] "%1 joktovati"
-msgstr[3] "%1 joktovatov"
+msgstr[0] "%1 joktovatov"
+msgstr[1] "%1 joktovat"
+msgstr[2] "%1 joktovata"
+msgstr[3] "%1 joktovati"
 
 #: power.cpp:266
 #, kde-format
@@ -11516,10 +11518,10 @@ msgstr "%1 konjskih moči"
 msgctxt "amount in units (integer)"
 msgid "%1 horsepower"
 msgid_plural "%1 horsepowers"
-msgstr[0] "%1 konjska moč"
-msgstr[1] "%1 konjski moči"
-msgstr[2] "%1 konjske moči"
-msgstr[3] "%1 konjskih moči"
+msgstr[0] "%1 konjskih moči"
+msgstr[1] "%1 konjska moč"
+msgstr[2] "%1 konjski moči"
+msgstr[3] "%1 konjske moči"
 
 #: power.cpp:278
 #, kde-format
@@ -11550,10 +11552,10 @@ msgstr "%1 decibel kilovati"
 msgctxt "amount in units (integer)"
 msgid "%1 decibel kilowatt"
 msgid_plural "%1 decibel kilowatts"
-msgstr[0] "%1 decibel kilovat"
-msgstr[1] "%1 decibel kilovata"
-msgstr[2] "%1 decibel kilovati"
-msgstr[3] "%1 decibel kilovatov"
+msgstr[0] "%1 decibel kilovatov"
+msgstr[1] "%1 decibel kilovat"
+msgstr[2] "%1 decibel kilovata"
+msgstr[3] "%1 decibel kilovati"
 
 #: power.cpp:288
 #, kde-format
@@ -11584,10 +11586,10 @@ msgstr "%1 decibel vati"
 msgctxt "amount in units (integer)"
 msgid "%1 decibel watt"
 msgid_plural "%1 decibel watts"
-msgstr[0] "%1 decibel vat"
-msgstr[1] "%1 decibel vata"
-msgstr[2] "%1 decibel vati"
-msgstr[3] "%1 decibel vatov"
+msgstr[0] "%1 decibel vatov"
+msgstr[1] "%1 decibel vat"
+msgstr[2] "%1 decibel vata"
+msgstr[3] "%1 decibel vati"
 
 #: power.cpp:298
 #, kde-format
@@ -11618,10 +11620,10 @@ msgstr "%1 decibel milivatov"
 msgctxt "amount in units (integer)"
 msgid "%1 decibel milliwatt"
 msgid_plural "%1 decibel milliwatts"
-msgstr[0] "%1 decibel milivat"
-msgstr[1] "%1 decibel milivata"
-msgstr[2] "%1 decibel milivati"
-msgstr[3] "%1 decibel milivatov"
+msgstr[0] "%1 decibel milivatov"
+msgstr[1] "%1 decibel milivat"
+msgstr[2] "%1 decibel milivata"
+msgstr[3] "%1 decibel milivati"
 
 #: power.cpp:308
 #, kde-format
@@ -11652,10 +11654,10 @@ msgstr "%1 decibel mikrovatov"
 msgctxt "amount in units (integer)"
 msgid "%1 decibel microwatt"
 msgid_plural "%1 decibel microwatts"
-msgstr[0] "%1 decibel mikrovat"
-msgstr[1] "%1 decibel mikrovata"
-msgstr[2] "%1 decibel mikrovati"
-msgstr[3] "%1 decibel mikrovatov"
+msgstr[0] "%1 decibel mikrovatov"
+msgstr[1] "%1 decibel mikrovat"
+msgstr[2] "%1 decibel mikrovata"
+msgstr[3] "%1 decibel mikrovati"
 
 #: pressure.cpp:17
 #, kde-format
@@ -11697,10 +11699,10 @@ msgstr "%1 jotapaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 yottapascal"
 msgid_plural "%1 yottapascals"
-msgstr[0] "%1 jotapaskal"
-msgstr[1] "%1 jotapaskala"
-msgstr[2] "%1 jotapaskali"
-msgstr[3] "%1 jotapaskalov"
+msgstr[0] "%1 jotapaskalov"
+msgstr[1] "%1 jotapaskal"
+msgstr[2] "%1 jotapaskala"
+msgstr[3] "%1 jotapaskali"
 
 #: pressure.cpp:34
 #, kde-format
@@ -11731,10 +11733,10 @@ msgstr "%1 zetapaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 zettapascal"
 msgid_plural "%1 zettapascals"
-msgstr[0] "%1 zetapaskal"
-msgstr[1] "%1 zetapaskala"
-msgstr[2] "%1 zetapaskali"
-msgstr[3] "%1 zetapaskalov"
+msgstr[0] "%1 zetapaskalov"
+msgstr[1] "%1 zetapaskal"
+msgstr[2] "%1 zetapaskala"
+msgstr[3] "%1 zetapaskali"
 
 #: pressure.cpp:44
 #, kde-format
@@ -11765,10 +11767,10 @@ msgstr "%1 eksapaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 exapascal"
 msgid_plural "%1 exapascals"
-msgstr[0] "%1 eksapaskal"
-msgstr[1] "%1 eksapaskala"
-msgstr[2] "%1 eksapaskali"
-msgstr[3] "%1 eksapaskalov"
+msgstr[0] "%1 eksapaskalov"
+msgstr[1] "%1 eksapaskal"
+msgstr[2] "%1 eksapaskala"
+msgstr[3] "%1 eksapaskali"
 
 #: pressure.cpp:54
 #, kde-format
@@ -11799,10 +11801,10 @@ msgstr "%1 petapaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 petapascal"
 msgid_plural "%1 petapascals"
-msgstr[0] "%1 petapaskal"
-msgstr[1] "%1 petapaskala"
-msgstr[2] "%1 petapaskali"
-msgstr[3] "%1 petapaskalov"
+msgstr[0] "%1 petapaskalov"
+msgstr[1] "%1 petapaskal"
+msgstr[2] "%1 petapaskala"
+msgstr[3] "%1 petapaskali"
 
 #: pressure.cpp:64
 #, kde-format
@@ -11833,10 +11835,10 @@ msgstr "%1 terapaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 terapascal"
 msgid_plural "%1 terapascals"
-msgstr[0] "%1 terapaskal"
-msgstr[1] "%1 terapaskala"
-msgstr[2] "%1 terapaskali"
-msgstr[3] "%1 terapaskalov"
+msgstr[0] "%1 terapaskalov"
+msgstr[1] "%1 terapaskal"
+msgstr[2] "%1 terapaskala"
+msgstr[3] "%1 terapaskali"
 
 #: pressure.cpp:74
 #, kde-format
@@ -11867,10 +11869,10 @@ msgstr "%1 gigapaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 gigapascal"
 msgid_plural "%1 gigapascals"
-msgstr[0] "%1 gigapaskal"
-msgstr[1] "%1 gigapaskala"
-msgstr[2] "%1 gigapaskali"
-msgstr[3] "%1 gigapaskalov"
+msgstr[0] "%1 gigapaskalov"
+msgstr[1] "%1 gigapaskal"
+msgstr[2] "%1 gigapaskala"
+msgstr[3] "%1 gigapaskali"
 
 #: pressure.cpp:84
 #, kde-format
@@ -11901,10 +11903,10 @@ msgstr "%1 megapaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 megapascal"
 msgid_plural "%1 megapascals"
-msgstr[0] "%1 megapaskal"
-msgstr[1] "%1 megapaskala"
-msgstr[2] "%1 megapaskali"
-msgstr[3] "%1 megapaskalov"
+msgstr[0] "%1 megapaskalov"
+msgstr[1] "%1 megapaskal"
+msgstr[2] "%1 megapaskala"
+msgstr[3] "%1 megapaskali"
 
 #: pressure.cpp:94
 #, kde-format
@@ -11935,10 +11937,10 @@ msgstr "%1 kilopaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 kilopascal"
 msgid_plural "%1 kilopascals"
-msgstr[0] "%1 kilopaskal"
-msgstr[1] "%1 kilopaskala"
-msgstr[2] "%1 kilopaskali"
-msgstr[3] "%1 kilopaskalov"
+msgstr[0] "%1 kilopaskalov"
+msgstr[1] "%1 kilopaskal"
+msgstr[2] "%1 kilopaskala"
+msgstr[3] "%1 kilopaskali"
 
 #: pressure.cpp:104
 #, kde-format
@@ -11969,10 +11971,10 @@ msgstr "%1 hektopaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 hectopascal"
 msgid_plural "%1 hectopascals"
-msgstr[0] "%1 hektopaskal"
-msgstr[1] "%1 hektopaskala"
-msgstr[2] "%1 hektopaskali"
-msgstr[3] "%1 hektopaskalov"
+msgstr[0] "%1 hektopaskalov"
+msgstr[1] "%1 hektopaskal"
+msgstr[2] "%1 hektopaskala"
+msgstr[3] "%1 hektopaskali"
 
 #: pressure.cpp:114
 #, kde-format
@@ -12003,10 +12005,10 @@ msgstr "%1 dekapaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 decapascal"
 msgid_plural "%1 decapascals"
-msgstr[0] "%1 dekapaskal"
-msgstr[1] "%1 dekapaskala"
-msgstr[2] "%1 dekapaskali"
-msgstr[3] "%1 dekapaskalov"
+msgstr[0] "%1 dekapaskalov"
+msgstr[1] "%1 dekapaskal"
+msgstr[2] "%1 dekapaskala"
+msgstr[3] "%1 dekapaskali"
 
 #: pressure.cpp:124
 #, kde-format
@@ -12037,10 +12039,10 @@ msgstr "%1 paskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 pascal"
 msgid_plural "%1 pascals"
-msgstr[0] "%1 paskal"
-msgstr[1] "%1 paskala"
-msgstr[2] "%1 paskali"
-msgstr[3] "%1 paskalov"
+msgstr[0] "%1 paskalov"
+msgstr[1] "%1 paskal"
+msgstr[2] "%1 paskala"
+msgstr[3] "%1 paskali"
 
 #: pressure.cpp:134
 #, kde-format
@@ -12071,10 +12073,10 @@ msgstr "%1 decipaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 decipascal"
 msgid_plural "%1 decipascals"
-msgstr[0] "%1 decipaskal"
-msgstr[1] "%1 decipaskala"
-msgstr[2] "%1 decipaskali"
-msgstr[3] "%1 decipaskalov"
+msgstr[0] "%1 decipaskalov"
+msgstr[1] "%1 decipaskal"
+msgstr[2] "%1 decipaskala"
+msgstr[3] "%1 decipaskali"
 
 #: pressure.cpp:144
 #, kde-format
@@ -12105,10 +12107,10 @@ msgstr "%1 centipaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 centipascal"
 msgid_plural "%1 centipascals"
-msgstr[0] "%1 centipaskal"
-msgstr[1] "%1 centipaskala"
-msgstr[2] "%1 centipaskali"
-msgstr[3] "%1 centipaskalov"
+msgstr[0] "%1 centipaskalov"
+msgstr[1] "%1 centipaskal"
+msgstr[2] "%1 centipaskala"
+msgstr[3] "%1 centipaskali"
 
 #: pressure.cpp:154
 #, kde-format
@@ -12139,10 +12141,10 @@ msgstr "%1 milipaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 millipascal"
 msgid_plural "%1 millipascals"
-msgstr[0] "%1 milipaskal"
-msgstr[1] "%1 milipaskala"
-msgstr[2] "%1 milipaskali"
-msgstr[3] "%1 milipaskalov"
+msgstr[0] "%1 milipaskalov"
+msgstr[1] "%1 milipaskal"
+msgstr[2] "%1 milipaskala"
+msgstr[3] "%1 milipaskali"
 
 #: pressure.cpp:164
 #, kde-format
@@ -12173,10 +12175,10 @@ msgstr "%1 mikropaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 micropascal"
 msgid_plural "%1 micropascals"
-msgstr[0] "%1 mikropaskal"
-msgstr[1] "%1 mikropaskala"
-msgstr[2] "%1 mikropaskali"
-msgstr[3] "%1 mikropaskalov"
+msgstr[0] "%1 mikropaskalov"
+msgstr[1] "%1 mikropaskal"
+msgstr[2] "%1 mikropaskala"
+msgstr[3] "%1 mikropaskali"
 
 #: pressure.cpp:174
 #, kde-format
@@ -12207,10 +12209,10 @@ msgstr "%1 nanopaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 nanopascal"
 msgid_plural "%1 nanopascals"
-msgstr[0] "%1 nanopaskal"
-msgstr[1] "%1 nanopaskala"
-msgstr[2] "%1 nanopaskali"
-msgstr[3] "%1 nanopaskalov"
+msgstr[0] "%1 nanopaskalov"
+msgstr[1] "%1 nanopaskal"
+msgstr[2] "%1 nanopaskala"
+msgstr[3] "%1 nanopaskali"
 
 #: pressure.cpp:184
 #, kde-format
@@ -12241,10 +12243,10 @@ msgstr "%1 pikopaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 picopascal"
 msgid_plural "%1 picopascals"
-msgstr[0] "%1 pikopaskal"
-msgstr[1] "%1 pikopaskala"
-msgstr[2] "%1 pikopaskali"
-msgstr[3] "%1 pikopaskalov"
+msgstr[0] "%1 pikopaskalov"
+msgstr[1] "%1 pikopaskal"
+msgstr[2] "%1 pikopaskala"
+msgstr[3] "%1 pikopaskali"
 
 #: pressure.cpp:194
 #, kde-format
@@ -12275,10 +12277,10 @@ msgstr "%1 femtopaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 femtopascal"
 msgid_plural "%1 femtopascals"
-msgstr[0] "%1 femtopaskal"
-msgstr[1] "%1 femtopaskala"
-msgstr[2] "%1 femtopaskali"
-msgstr[3] "%1 femtopaskalov"
+msgstr[0] "%1 femtopaskalov"
+msgstr[1] "%1 femtopaskal"
+msgstr[2] "%1 femtopaskala"
+msgstr[3] "%1 femtopaskali"
 
 #: pressure.cpp:204
 #, kde-format
@@ -12309,10 +12311,10 @@ msgstr "%1 atopaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 attopascal"
 msgid_plural "%1 attopascals"
-msgstr[0] "%1 atopaskal"
-msgstr[1] "%1 atopaskala"
-msgstr[2] "%1 atopaskali"
-msgstr[3] "%1 atopaskalov"
+msgstr[0] "%1 atopaskalov"
+msgstr[1] "%1 atopaskal"
+msgstr[2] "%1 atopaskala"
+msgstr[3] "%1 atopaskali"
 
 #: pressure.cpp:214
 #, kde-format
@@ -12343,10 +12345,10 @@ msgstr "%1 zeptopaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 zeptopascal"
 msgid_plural "%1 zeptopascals"
-msgstr[0] "%1 zeptopaskal"
-msgstr[1] "%1 zeptopaskala"
-msgstr[2] "%1 zeptopaskali"
-msgstr[3] "%1 zeptopaskalov"
+msgstr[0] "%1 zeptopaskalov"
+msgstr[1] "%1 zeptopaskal"
+msgstr[2] "%1 zeptopaskala"
+msgstr[3] "%1 zeptopaskali"
 
 #: pressure.cpp:224
 #, kde-format
@@ -12377,10 +12379,10 @@ msgstr "%1 joktopaskalov"
 msgctxt "amount in units (integer)"
 msgid "%1 yoctopascal"
 msgid_plural "%1 yoctopascals"
-msgstr[0] "%1 joktopaskal"
-msgstr[1] "%1 joktopaskala"
-msgstr[2] "%1 joktopaskali"
-msgstr[3] "%1 joktopaskalov"
+msgstr[0] "%1 joktopaskalov"
+msgstr[1] "%1 joktopaskal"
+msgstr[2] "%1 joktopaskala"
+msgstr[3] "%1 joktopaskali"
 
 #: pressure.cpp:234
 #, kde-format
@@ -12411,10 +12413,10 @@ msgstr "%1 barov"
 msgctxt "amount in units (integer)"
 msgid "%1 bar"
 msgid_plural "%1 bars"
-msgstr[0] "%1 bar"
-msgstr[1] "%1 bara"
-msgstr[2] "%1 bari"
-msgstr[3] "%1 barov"
+msgstr[0] "%1 barov"
+msgstr[1] "%1 bar"
+msgstr[2] "%1 bara"
+msgstr[3] "%1 bari"
 
 #: pressure.cpp:244
 #, kde-format
@@ -12445,10 +12447,10 @@ msgstr "%1 milibarov"
 msgctxt "amount in units (integer)"
 msgid "%1 millibar"
 msgid_plural "%1 millibars"
-msgstr[0] "%1 milibar"
-msgstr[1] "%1 milibara"
-msgstr[2] "%1 milibari"
-msgstr[3] "%1 milibarov"
+msgstr[0] "%1 milibarov"
+msgstr[1] "%1 milibar"
+msgstr[2] "%1 milibara"
+msgstr[3] "%1 milibari"
 
 #: pressure.cpp:254
 #, kde-format
@@ -12479,10 +12481,10 @@ msgstr "%1 decibarov"
 msgctxt "amount in units (integer)"
 msgid "%1 decibar"
 msgid_plural "%1 decibars"
-msgstr[0] "%1 decibar"
-msgstr[1] "%1 decibara"
-msgstr[2] "%1 decibari"
-msgstr[3] "%1 decibarov"
+msgstr[0] "%1 decibarov"
+msgstr[1] "%1 decibar"
+msgstr[2] "%1 decibara"
+msgstr[3] "%1 decibari"
 
 #: pressure.cpp:264
 #, kde-format
@@ -12513,10 +12515,10 @@ msgstr "%1 torr"
 msgctxt "amount in units (integer)"
 msgid "%1 torr"
 msgid_plural "%1 torr"
-msgstr[0] "%1 torr"
+msgstr[0] "%1 torrov"
 msgstr[1] "%1 torr"
-msgstr[2] "%1 torr"
-msgstr[3] "%1 torr"
+msgstr[2] "%1 torra"
+msgstr[3] "%1 torri"
 
 #: pressure.cpp:274
 #, kde-format
@@ -12549,10 +12551,10 @@ msgstr "%1 tehničnih atmosfer"
 msgctxt "amount in units (integer)"
 msgid "%1 technical atmosphere"
 msgid_plural "%1 technical atmospheres"
-msgstr[0] "%1 tehnična atmosfera"
-msgstr[1] "%1 tehnični atmosferi"
-msgstr[2] "%1 tehnične atmosfere"
-msgstr[3] "%1 tehničnih atmosfer"
+msgstr[0] "%1 tehničnih atmosfer"
+msgstr[1] "%1 tehnična atmosfera"
+msgstr[2] "%1 tehnični atmosferi"
+msgstr[3] "%1 tehnične atmosfere"
 
 #: pressure.cpp:284
 #, kde-format
@@ -12619,10 +12621,10 @@ msgstr "%1 funtov na kvadratni palec"
 msgctxt "amount in units (integer)"
 msgid "%1 pound-force per square inch"
 msgid_plural "%1 pound-force per square inch"
-msgstr[0] "%1 funt na kvadratni palec"
-msgstr[1] "%1 funta na kvadratni palec"
-msgstr[2] "%1 funti na kvadratni palec"
-msgstr[3] "%1 funtov na kvadratni palec"
+msgstr[0] "%1 funtov na kvadratni palec"
+msgstr[1] "%1 funt na kvadratni palec"
+msgstr[2] "%1 funta na kvadratni palec"
+msgstr[3] "%1 funti na kvadratni palec"
 
 #: pressure.cpp:305
 #, kde-format
@@ -12655,10 +12657,10 @@ msgstr "%1 palcev živega srebra"
 msgctxt "amount in units (integer)"
 msgid "%1 inches of mercury"
 msgid_plural "%1 inches of mercury"
-msgstr[0] "%1 palec živega srebra"
-msgstr[1] "%1 palca živega srebra"
-msgstr[2] "%1 palci živega srebra"
-msgstr[3] "%1 palcev živega srebra"
+msgstr[0] "%1 palcev živega srebra"
+msgstr[1] "%1 palec živega srebra"
+msgstr[2] "%1 palca živega srebra"
+msgstr[3] "%1 palci živega srebra"
 
 #: pressure.cpp:316
 #, kde-format
@@ -12691,10 +12693,10 @@ msgstr "%1 milimetrov živega srebra"
 msgctxt "amount in units (integer)"
 msgid "%1 millimeters of mercury"
 msgid_plural "%1 millimeters of mercury"
-msgstr[0] "%1 milimeter živega srebra"
-msgstr[1] "%1 milimetra živega srebra"
-msgstr[2] "%1 milimetri živega srebra"
-msgstr[3] "%1 milimetrov živega srebra"
+msgstr[0] "%1 milimetrov živega srebra"
+msgstr[1] "%1 milimeter živega srebra"
+msgstr[2] "%1 milimetra živega srebra"
+msgstr[3] "%1 milimetri živega srebra"
 
 #: temperature.cpp:179
 #, kde-format
@@ -12736,10 +12738,10 @@ msgstr "%1 kelvinov"
 msgctxt "amount in units (integer)"
 msgid "%1 kelvin"
 msgid_plural "%1 kelvins"
-msgstr[0] "%1 kelvin"
-msgstr[1] "%1 kelvina"
-msgstr[2] "%1 kelvini"
-msgstr[3] "%1 kelvinov"
+msgstr[0] "%1 kelvinov"
+msgstr[1] "%1 kelvin"
+msgstr[2] "%1 kelvina"
+msgstr[3] "%1 kelvini"
 
 #: temperature.cpp:196
 #, kde-format
@@ -12772,10 +12774,10 @@ msgstr "%1 stopinj Celzija"
 msgctxt "amount in units (integer)"
 msgid "%1 degree Celsius"
 msgid_plural "%1 degrees Celsius"
-msgstr[0] "%1 stopinja Celzija"
-msgstr[1] "%1 stopinji Celzija"
-msgstr[2] "%1 stopinje Celzija"
-msgstr[3] "%1 stopinj Celzija"
+msgstr[0] "%1 stopinj Celzija"
+msgstr[1] "%1 stopinja Celzija"
+msgstr[2] "%1 stopinji Celzija"
+msgstr[3] "%1 stopinje Celzija"
 
 #: temperature.cpp:206
 #, kde-format
@@ -12808,10 +12810,10 @@ msgstr "%1 stopinj Fahrenheita"
 msgctxt "amount in units (integer)"
 msgid "%1 degree Fahrenheit"
 msgid_plural "%1 degrees Fahrenheit"
-msgstr[0] "%1 stopinja Fahrenheita"
-msgstr[1] "%1 stopinji Fahrenheita"
-msgstr[2] "%1 stopinje Fahrenheita"
-msgstr[3] "%1 stopinj Fahrenheita"
+msgstr[0] "%1 stopinj Fahrenheita"
+msgstr[1] "%1 stopinja Fahrenheita"
+msgstr[2] "%1 stopinji Fahrenheita"
+msgstr[3] "%1 stopinje Fahrenheita"
 
 #: temperature.cpp:216
 #, kde-format
@@ -12844,10 +12846,10 @@ msgstr "%1 stopinj Rankina"
 msgctxt "amount in units (integer)"
 msgid "%1 Rankine"
 msgid_plural "%1 Rankine"
-msgstr[0] "%1 stopinja Rankina"
-msgstr[1] "%1 stopinji Rankina"
-msgstr[2] "%1 stopinje Rankina"
-msgstr[3] "%1 stopinj Rankina"
+msgstr[0] "%1 stopinj Rankina"
+msgstr[1] "%1 stopinja Rankina"
+msgstr[2] "%1 stopinji Rankina"
+msgstr[3] "%1 stopinje Rankina"
 
 #: temperature.cpp:226
 #, kde-format
@@ -12880,10 +12882,10 @@ msgstr "%1 stopinj Delisleja"
 msgctxt "amount in units (integer)"
 msgid "%1 degree Delisle"
 msgid_plural "%1 degrees Delisle"
-msgstr[0] "%1 stopinja Delisleja"
-msgstr[1] "%1 stopinji Delisleja"
-msgstr[2] "%1 stopinje Delisleja"
-msgstr[3] "%1 stopinj Delisleja"
+msgstr[0] "%1 stopinj Delisleja"
+msgstr[1] "%1 stopinja Delisleja"
+msgstr[2] "%1 stopinji Delisleja"
+msgstr[3] "%1 stopinje Delisleja"
 
 #: temperature.cpp:236
 #, kde-format
@@ -12916,10 +12918,10 @@ msgstr "%1 stopinj Newtona"
 msgctxt "amount in units (integer)"
 msgid "%1 degree Newton"
 msgid_plural "%1 degrees Newton"
-msgstr[0] "%1 stopinja Newtona"
-msgstr[1] "%1 stopinji Newtona"
-msgstr[2] "%1 stopinje Newtona"
-msgstr[3] "%1 stopinj Newtona"
+msgstr[0] "%1 stopinj Newtona"
+msgstr[1] "%1 stopinja Newtona"
+msgstr[2] "%1 stopinji Newtona"
+msgstr[3] "%1 stopinje Newtona"
 
 #: temperature.cpp:246
 #, kde-format
@@ -12953,10 +12955,10 @@ msgstr "%1 stopinj Réaumurja"
 msgctxt "amount in units (integer)"
 msgid "%1 degree Réaumur"
 msgid_plural "%1 degrees Réaumur"
-msgstr[0] "%1 stopinja Réaumurja"
-msgstr[1] "%1 stopinji Réaumurja"
-msgstr[2] "%1 stopinje Réaumurja"
-msgstr[3] "%1 stopinj Réaumurja"
+msgstr[0] "%1 stopinj Réaumurja"
+msgstr[1] "%1 stopinja Réaumurja"
+msgstr[2] "%1 stopinji Réaumurja"
+msgstr[3] "%1 stopinje Réaumurja"
 
 #: temperature.cpp:256
 #, kde-format
@@ -12990,10 +12992,10 @@ msgstr "%1 stopinj Rømerja"
 msgctxt "amount in units (integer)"
 msgid "%1 degree Rømer"
 msgid_plural "%1 degrees Rømer"
-msgstr[0] "%1 stopinja Rømerja"
-msgstr[1] "%1 stopinji Rømerja"
-msgstr[2] "%1 stopinje Rømerja"
-msgstr[3] "%1 stopinj Rømerja"
+msgstr[0] "%1 stopinj Rømerja"
+msgstr[1] "%1 stopinja Rømerja"
+msgstr[2] "%1 stopinji Rømerja"
+msgstr[3] "%1 stopinje Rømerja"
 
 #: thermal_conductivity.cpp:17
 #, kde-format
@@ -13037,10 +13039,10 @@ msgstr "%1 wattov na meter kelvina"
 msgctxt "amount in units (integer)"
 msgid "%1 watt per meter kelvin"
 msgid_plural "%1 watts per meter kelvin"
-msgstr[0] "%1 watt na meter kelvina"
-msgstr[1] "%1 watta na meter kelvina"
-msgstr[2] "%1 watte na meter kelvina"
-msgstr[3] "%1 wattov na meter kelvina"
+msgstr[0] "%1 wattov na meter kelvina"
+msgstr[1] "%1 watt na meter kelvina"
+msgstr[2] "%1 watta na meter kelvina"
+msgstr[3] "%1 watti na meter kelvina"
 
 #: thermal_conductivity.cpp:34
 #, kde-format
@@ -13076,10 +13078,10 @@ msgstr "%1 btu-jev na čevelj ur stopinj Fahrenheita"
 msgctxt "amount in units (integer)"
 msgid "%1 btu per foot hour degree Fahrenheit"
 msgid_plural "%1 btu per foot hour degree Fahrenheit"
-msgstr[0] "%1 btu na čevelj ur stopinj Fahrenheita"
-msgstr[1] "%1 btu-ja na čevelj ur stopinj Fahrenheita"
-msgstr[2] "%1 btu-je na čevelj ur stopinj Fahrenheita"
-msgstr[3] "%1 btu-jev na čevelj ur stopinj Fahrenheita"
+msgstr[0] "%1 btu-jev na čevelj ur stopinj Fahrenheita"
+msgstr[1] "%1 btu na čevelj ur stopinj Fahrenheita"
+msgstr[2] "%1 btu-ja na čevelj ur stopinj Fahrenheita"
+msgstr[3] "%1 btu-je na čevelj ur stopinj Fahrenheita"
 
 #: thermal_conductivity.cpp:45
 #, kde-format
@@ -13117,10 +13119,10 @@ msgstr "%1 btu-jev na kvadratni čevelj ur stopinj Fahrenheita na palec"
 msgctxt "amount in units (integer)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
 msgid_plural "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr[0] "%1 btu na kvadratni čevelj ur stopinj Fahrenheita na palec"
-msgstr[1] "%1 btu-ja na kvadratni čevelj ur stopinj Fahrenheita na palec"
-msgstr[2] "%1 btu-ji na kvadratni čevelj ur stopinj Fahrenheita na palec"
-msgstr[3] "%1 btu-jev na kvadratni čevelj ur stopinj Fahrenheita na palec"
+msgstr[0] "%1 btu-jev na kvadratni čevelj ur stopinj Fahrenheita na palec"
+msgstr[1] "%1 btu na kvadratni čevelj ur stopinj Fahrenheita na palec"
+msgstr[2] "%1 btu-ja na kvadratni čevelj ur stopinj Fahrenheita na palec"
+msgstr[3] "%1 btu-ji na kvadratni čevelj ur stopinj Fahrenheita na palec"
 
 #: thermal_flux.cpp:18
 #, kde-format
@@ -13164,10 +13166,10 @@ msgstr "%1 wattov na kvadratni meter"
 msgctxt "amount in units (integer)"
 msgid "%1 watt per square meter"
 msgid_plural "%1 watts per square meter"
-msgstr[0] "%1 watt na kvadratni meter"
-msgstr[1] "%1 watta na kvadratni meter"
-msgstr[2] "%1 watti na kvadratni meter"
-msgstr[3] "%1 wattov na kvadratni meter"
+msgstr[0] "%1 wattov na kvadratni meter"
+msgstr[1] "%1 watt na kvadratni meter"
+msgstr[2] "%1 watta na kvadratni meter"
+msgstr[3] "%1 watti na kvadratni meter"
 
 #: thermal_flux.cpp:35
 #, kde-format
@@ -13202,10 +13204,10 @@ msgstr "%1 btu-jev na uro na kvadratni čevelj"
 msgctxt "amount in units (integer)"
 msgid "%1 btu per hour per square foot"
 msgid_plural "%1 btu per hour per square foot"
-msgstr[0] "%1 btu na uro na kvadratni čevelj"
-msgstr[1] "%1 btu-ja na uro na kvadratni čevelj"
-msgstr[2] "%1 btu-ji na uro na kvadratni čevelj"
-msgstr[3] "%1 btu-jev na uro na kvadratni čevelj"
+msgstr[0] "%1 btu-jev na uro na kvadratni čevelj"
+msgstr[1] "%1 btu na uro na kvadratni čevelj"
+msgstr[2] "%1 btu-ja na uro na kvadratni čevelj"
+msgstr[3] "%1 btu-ji na uro na kvadratni čevelj"
 
 #: thermal_generation.cpp:17
 #, kde-format
@@ -13249,10 +13251,10 @@ msgstr "%1 wattov na kubični meter"
 msgctxt "amount in units (integer)"
 msgid "%1 watt per cubic meter"
 msgid_plural "%1 watts per cubic meter"
-msgstr[0] "%1 watt na kubični meter"
-msgstr[1] "%1 watta na kubični meter"
-msgstr[2] "%1 watti na kubični meter"
-msgstr[3] "%1 wattov na kubični meter"
+msgstr[0] "%1 wattov na kubični meter"
+msgstr[1] "%1 watt na kubični meter"
+msgstr[2] "%1 watta na kubični meter"
+msgstr[3] "%1 watti na kubični meter"
 
 #: thermal_generation.cpp:34
 #, kde-format
@@ -13287,10 +13289,10 @@ msgstr "%1 btu-jev na uro na kubični čevelj"
 msgctxt "amount in units (integer)"
 msgid "%1 btu per hour per cubic foot"
 msgid_plural "%1 btu per hour per cubic foot"
-msgstr[0] "%1 btu na uro na kubični čevelj"
-msgstr[1] "%1 btu-ja na uro na kubični čevelj"
-msgstr[2] "%1 btu-ji na uro na kubični čevelj"
-msgstr[3] "%1 btu-jev na uro na kubični čevelj"
+msgstr[0] "%1 btu-jev na uro na kubični čevelj"
+msgstr[1] "%1 btu na uro na kubični čevelj"
+msgstr[2] "%1 btu-ja na uro na kubični čevelj"
+msgstr[3] "%1 btu-ji na uro na kubični čevelj"
 
 #: timeunit.cpp:17
 #, kde-format
@@ -13332,10 +13334,10 @@ msgstr "%1 jotasekund"
 msgctxt "amount in units (integer)"
 msgid "%1 yottasecond"
 msgid_plural "%1 yottaseconds"
-msgstr[0] "%1 jotasekunda"
-msgstr[1] "%1 jotasekundi"
-msgstr[2] "%1 jotasekunde"
-msgstr[3] "%1 jotasekund"
+msgstr[0] "%1 jotasekund"
+msgstr[1] "%1 jotasekunda"
+msgstr[2] "%1 jotasekundi"
+msgstr[3] "%1 jotasekunde"
 
 #: timeunit.cpp:34
 #, kde-format
@@ -13366,10 +13368,10 @@ msgstr "%1 zetasekund"
 msgctxt "amount in units (integer)"
 msgid "%1 zettasecond"
 msgid_plural "%1 zettaseconds"
-msgstr[0] "%1 zetasekunda"
-msgstr[1] "%1 zetasekundi"
-msgstr[2] "%1 zetasekunde"
-msgstr[3] "%1 zetasekund"
+msgstr[0] "%1 zetasekund"
+msgstr[1] "%1 zetasekunda"
+msgstr[2] "%1 zetasekundi"
+msgstr[3] "%1 zetasekunde"
 
 #: timeunit.cpp:44
 #, kde-format
@@ -13400,10 +13402,10 @@ msgstr "%1 eksasekund"
 msgctxt "amount in units (integer)"
 msgid "%1 exasecond"
 msgid_plural "%1 exaseconds"
-msgstr[0] "%1 eksasekunda"
-msgstr[1] "%1 eksasekundi"
-msgstr[2] "%1 eksasekunde"
-msgstr[3] "%1 eksasekund"
+msgstr[0] "%1 eksasekund"
+msgstr[1] "%1 eksasekunda"
+msgstr[2] "%1 eksasekundi"
+msgstr[3] "%1 eksasekunde"
 
 #: timeunit.cpp:54
 #, kde-format
@@ -13434,10 +13436,10 @@ msgstr "%1 petasekund"
 msgctxt "amount in units (integer)"
 msgid "%1 petasecond"
 msgid_plural "%1 petaseconds"
-msgstr[0] "%1 petasekunda"
-msgstr[1] "%1 petasekundi"
-msgstr[2] "%1 petasekunde"
-msgstr[3] "%1 petasekund"
+msgstr[0] "%1 petasekund"
+msgstr[1] "%1 petasekunda"
+msgstr[2] "%1 petasekundi"
+msgstr[3] "%1 petasekunde"
 
 #: timeunit.cpp:64
 #, kde-format
@@ -13468,10 +13470,10 @@ msgstr "%1 terasekund"
 msgctxt "amount in units (integer)"
 msgid "%1 terasecond"
 msgid_plural "%1 teraseconds"
-msgstr[0] "%1 terasekunda"
-msgstr[1] "%1 terasekundi"
-msgstr[2] "%1 terasekunde"
-msgstr[3] "%1 terasekund"
+msgstr[0] "%1 terasekund"
+msgstr[1] "%1 terasekunda"
+msgstr[2] "%1 terasekundi"
+msgstr[3] "%1 terasekunde"
 
 #: timeunit.cpp:74
 #, kde-format
@@ -13502,10 +13504,10 @@ msgstr "%1 gigasekund"
 msgctxt "amount in units (integer)"
 msgid "%1 gigasecond"
 msgid_plural "%1 gigaseconds"
-msgstr[0] "%1 gigasekunda"
-msgstr[1] "%1 gigasekundi"
-msgstr[2] "%1 gigasekunde"
-msgstr[3] "%1 gigasekund"
+msgstr[0] "%1 gigasekund"
+msgstr[1] "%1 gigasekunda"
+msgstr[2] "%1 gigasekundi"
+msgstr[3] "%1 gigasekunde"
 
 #: timeunit.cpp:84
 #, kde-format
@@ -13536,10 +13538,10 @@ msgstr "%1 megasekund"
 msgctxt "amount in units (integer)"
 msgid "%1 megasecond"
 msgid_plural "%1 megaseconds"
-msgstr[0] "%1 megasekunda"
-msgstr[1] "%1 megasekundi"
-msgstr[2] "%1 megasekunde"
-msgstr[3] "%1 megasekund"
+msgstr[0] "%1 megasekund"
+msgstr[1] "%1 megasekunda"
+msgstr[2] "%1 megasekundi"
+msgstr[3] "%1 megasekunde"
 
 #: timeunit.cpp:94
 #, kde-format
@@ -13570,10 +13572,10 @@ msgstr "%1 kilosekund"
 msgctxt "amount in units (integer)"
 msgid "%1 kilosecond"
 msgid_plural "%1 kiloseconds"
-msgstr[0] "%1 kilosekunda"
-msgstr[1] "%1 kilosekundi"
-msgstr[2] "%1 kilosekunde"
-msgstr[3] "%1 kilosekund"
+msgstr[0] "%1 kilosekund"
+msgstr[1] "%1 kilosekunda"
+msgstr[2] "%1 kilosekundi"
+msgstr[3] "%1 kilosekunde"
 
 #: timeunit.cpp:104
 #, kde-format
@@ -13604,10 +13606,10 @@ msgstr "%1 hektosekund"
 msgctxt "amount in units (integer)"
 msgid "%1 hectosecond"
 msgid_plural "%1 hectoseconds"
-msgstr[0] "%1 hektosekunda"
-msgstr[1] "%1 hektosekundi"
-msgstr[2] "%1 hektosekunde"
-msgstr[3] "%1 hektosekund"
+msgstr[0] "%1 hektosekund"
+msgstr[1] "%1 hektosekunda"
+msgstr[2] "%1 hektosekundi"
+msgstr[3] "%1 hektosekunde"
 
 #: timeunit.cpp:114
 #, kde-format
@@ -13638,10 +13640,10 @@ msgstr "%1 dekasekund"
 msgctxt "amount in units (integer)"
 msgid "%1 decasecond"
 msgid_plural "%1 decaseconds"
-msgstr[0] "%1 dekasekunda"
-msgstr[1] "%1 dekasekundi"
-msgstr[2] "%1 dekasekunde"
-msgstr[3] "%1 dekasekund"
+msgstr[0] "%1 dekasekund"
+msgstr[1] "%1 dekasekunda"
+msgstr[2] "%1 dekasekundi"
+msgstr[3] "%1 dekasekunde"
 
 #: timeunit.cpp:124
 #, kde-format
@@ -13672,10 +13674,10 @@ msgstr "%1 sekund"
 msgctxt "amount in units (integer)"
 msgid "%1 second"
 msgid_plural "%1 seconds"
-msgstr[0] "%1 sekunda"
-msgstr[1] "%1 sekundi"
-msgstr[2] "%1 sekunde"
-msgstr[3] "%1 sekund"
+msgstr[0] "%1 sekund"
+msgstr[1] "%1 sekunda"
+msgstr[2] "%1 sekundi"
+msgstr[3] "%1 sekunde"
 
 #: timeunit.cpp:134
 #, kde-format
@@ -13706,10 +13708,10 @@ msgstr "%1 decisekund"
 msgctxt "amount in units (integer)"
 msgid "%1 decisecond"
 msgid_plural "%1 deciseconds"
-msgstr[0] "%1 decisekunda"
-msgstr[1] "%1 decisekundi"
-msgstr[2] "%1 decisekunde"
-msgstr[3] "%1 decisekund"
+msgstr[0] "%1 decisekund"
+msgstr[1] "%1 decisekunda"
+msgstr[2] "%1 decisekundi"
+msgstr[3] "%1 decisekunde"
 
 #: timeunit.cpp:144
 #, kde-format
@@ -13740,10 +13742,10 @@ msgstr "%1 centisekund"
 msgctxt "amount in units (integer)"
 msgid "%1 centisecond"
 msgid_plural "%1 centiseconds"
-msgstr[0] "%1 centisekunda"
-msgstr[1] "%1 centisekundi"
-msgstr[2] "%1 centisekunde"
-msgstr[3] "%1 centisekund"
+msgstr[0] "%1 centisekund"
+msgstr[1] "%1 centisekunda"
+msgstr[2] "%1 centisekundi"
+msgstr[3] "%1 centisekunde"
 
 #: timeunit.cpp:154
 #, kde-format
@@ -13774,10 +13776,10 @@ msgstr "%1 milisekund"
 msgctxt "amount in units (integer)"
 msgid "%1 millisecond"
 msgid_plural "%1 milliseconds"
-msgstr[0] "%1 milisekunda"
-msgstr[1] "%1 milisekundi"
-msgstr[2] "%1 milisekunde"
-msgstr[3] "%1 milisekund"
+msgstr[0] "%1 milisekund"
+msgstr[1] "%1 milisekunda"
+msgstr[2] "%1 milisekundi"
+msgstr[3] "%1 milisekunde"
 
 #: timeunit.cpp:164
 #, kde-format
@@ -13808,10 +13810,10 @@ msgstr "%1 mikrosekund"
 msgctxt "amount in units (integer)"
 msgid "%1 microsecond"
 msgid_plural "%1 microseconds"
-msgstr[0] "%1 mikrosekunda"
-msgstr[1] "%1 mikrosekundi"
-msgstr[2] "%1 mikrosekunde"
-msgstr[3] "%1 mikrosekund"
+msgstr[0] "%1 mikrosekund"
+msgstr[1] "%1 mikrosekunda"
+msgstr[2] "%1 mikrosekundi"
+msgstr[3] "%1 mikrosekunde"
 
 #: timeunit.cpp:174
 #, kde-format
@@ -13842,10 +13844,10 @@ msgstr "%1 nanosekund"
 msgctxt "amount in units (integer)"
 msgid "%1 nanosecond"
 msgid_plural "%1 nanoseconds"
-msgstr[0] "%1 nanosekunda"
-msgstr[1] "%1 nanosekundi"
-msgstr[2] "%1 nanosekunde"
-msgstr[3] "%1 nanosekund"
+msgstr[0] "%1 nanosekund"
+msgstr[1] "%1 nanosekunda"
+msgstr[2] "%1 nanosekundi"
+msgstr[3] "%1 nanosekunde"
 
 #: timeunit.cpp:184
 #, kde-format
@@ -13876,10 +13878,10 @@ msgstr "%1 pikosekund"
 msgctxt "amount in units (integer)"
 msgid "%1 picosecond"
 msgid_plural "%1 picoseconds"
-msgstr[0] "%1 pikosekunda"
-msgstr[1] "%1 pikosekundi"
-msgstr[2] "%1 pikosekunde"
-msgstr[3] "%1 pikosekund"
+msgstr[0] "%1 pikosekund"
+msgstr[1] "%1 pikosekunda"
+msgstr[2] "%1 pikosekundi"
+msgstr[3] "%1 pikosekunde"
 
 #: timeunit.cpp:194
 #, kde-format
@@ -13910,10 +13912,10 @@ msgstr "%1 femtosekund"
 msgctxt "amount in units (integer)"
 msgid "%1 femtosecond"
 msgid_plural "%1 femtoseconds"
-msgstr[0] "%1 femtosekunda"
-msgstr[1] "%1 femtosekundi"
-msgstr[2] "%1 femtosekunde"
-msgstr[3] "%1 femtosekund"
+msgstr[0] "%1 femtosekund"
+msgstr[1] "%1 femtosekunda"
+msgstr[2] "%1 femtosekundi"
+msgstr[3] "%1 femtosekunde"
 
 #: timeunit.cpp:204
 #, kde-format
@@ -13944,10 +13946,10 @@ msgstr "%1 atosekund"
 msgctxt "amount in units (integer)"
 msgid "%1 attosecond"
 msgid_plural "%1 attoseconds"
-msgstr[0] "%1 atosekunda"
-msgstr[1] "%1 atosekundi"
+msgstr[0] "%1 atosekund"
+msgstr[1] "%1 atosekunda"
 msgstr[2] "%1 atosekundi"
-msgstr[3] "%1 atosekund"
+msgstr[3] "%1 atosekunde"
 
 #: timeunit.cpp:214
 #, kde-format
@@ -13978,10 +13980,10 @@ msgstr "%1 zeptosekund"
 msgctxt "amount in units (integer)"
 msgid "%1 zeptosecond"
 msgid_plural "%1 zeptoseconds"
-msgstr[0] "%1 zeptosekunda"
-msgstr[1] "%1 zeptosekundi"
-msgstr[2] "%1 zeptosekunde"
-msgstr[3] "%1 zeptosekund"
+msgstr[0] "%1 zeptosekund"
+msgstr[1] "%1 zeptosekunda"
+msgstr[2] "%1 zeptosekundi"
+msgstr[3] "%1 zeptosekunde"
 
 #: timeunit.cpp:224
 #, kde-format
@@ -14012,10 +14014,10 @@ msgstr "%1 joktosekund"
 msgctxt "amount in units (integer)"
 msgid "%1 yoctosecond"
 msgid_plural "%1 yoctoseconds"
-msgstr[0] "%1 joktosekunda"
-msgstr[1] "%1 joktosekundi"
-msgstr[2] "%1 joktosekunde"
-msgstr[3] "%1 joktosekund"
+msgstr[0] "%1 joktosekund"
+msgstr[1] "%1 joktosekunda"
+msgstr[2] "%1 joktosekundi"
+msgstr[3] "%1 joktosekunde"
 
 #: timeunit.cpp:234
 #, kde-format
@@ -14046,10 +14048,10 @@ msgstr "%1 minut"
 msgctxt "amount in units (integer)"
 msgid "%1 minute"
 msgid_plural "%1 minutes"
-msgstr[0] "%1 minuta"
-msgstr[1] "%1 minuti"
-msgstr[2] "%1 minute"
-msgstr[3] "%1 minut"
+msgstr[0] "%1 minut"
+msgstr[1] "%1 minuta"
+msgstr[2] "%1 minuti"
+msgstr[3] "%1 minute"
 
 #: timeunit.cpp:244
 #, kde-format
@@ -14080,10 +14082,10 @@ msgstr "%1 ur"
 msgctxt "amount in units (integer)"
 msgid "%1 hour"
 msgid_plural "%1 hours"
-msgstr[0] "%1 ura"
-msgstr[1] "%1 uri"
-msgstr[2] "%1 ure"
-msgstr[3] "%1 ur"
+msgstr[0] "%1 ur"
+msgstr[1] "%1 ura"
+msgstr[2] "%1 uri"
+msgstr[3] "%1 ure"
 
 #: timeunit.cpp:254
 #, kde-format
@@ -14114,10 +14116,10 @@ msgstr "%1 dni"
 msgctxt "amount in units (integer)"
 msgid "%1 day"
 msgid_plural "%1 days"
-msgstr[0] "%1 dan"
-msgstr[1] "%1 dneva"
-msgstr[2] "%1 dnevi"
-msgstr[3] "%1 dni"
+msgstr[0] "%1 dni"
+msgstr[1] "%1 dan"
+msgstr[2] "%1 dneva"
+msgstr[3] "%1 dnevi"
 
 #: timeunit.cpp:264
 #, kde-format
@@ -14148,10 +14150,10 @@ msgstr "%1 tednov"
 msgctxt "amount in units (integer)"
 msgid "%1 week"
 msgid_plural "%1 weeks"
-msgstr[0] "%1 teden"
-msgstr[1] "%1 tedna"
-msgstr[2] "%1 tedni"
-msgstr[3] "%1 tednov"
+msgstr[0] "%1 tednov"
+msgstr[1] "%1 teden"
+msgstr[2] "%1 tedna"
+msgstr[3] "%1 tedni"
 
 #: timeunit.cpp:274
 #, kde-format
@@ -14182,10 +14184,10 @@ msgstr "%1 julijanskih let"
 msgctxt "amount in units (integer)"
 msgid "%1 Julian year"
 msgid_plural "%1 Julian years"
-msgstr[0] "%1 julijansko leto"
-msgstr[1] "%1 julijanski leti"
-msgstr[2] "%1 julijanska leta"
-msgstr[3] "%1 julijanskih let"
+msgstr[0] "%1 julijanskih let"
+msgstr[1] "%1 julijansko leto"
+msgstr[2] "%1 julijanski leti"
+msgstr[3] "%1 julijanska leta"
 
 #: timeunit.cpp:284
 #, kde-format
@@ -14216,10 +14218,10 @@ msgstr "%1 prestopnih let"
 msgctxt "amount in units (integer)"
 msgid "%1 leap year"
 msgid_plural "%1 leap years"
-msgstr[0] "%1 prestopno leto"
-msgstr[1] "%1 prestopni leti"
-msgstr[2] "%1 prestopna leta"
-msgstr[3] "%1 prestopnih let"
+msgstr[0] "%1 prestopnih let"
+msgstr[1] "%1 prestopno leto"
+msgstr[2] "%1 prestopni leti"
+msgstr[3] "%1 prestopna leta"
 
 #: timeunit.cpp:295
 #, kde-format
@@ -14250,10 +14252,10 @@ msgstr "%1 let"
 msgctxt "amount in units (integer)"
 msgid "%1 year"
 msgid_plural "%1 years"
-msgstr[0] "%1 leta"
-msgstr[1] "%1 leti"
-msgstr[2] "%1 leta"
-msgstr[3] "%1 let"
+msgstr[0] "%1 let"
+msgstr[1] "%1 leto"
+msgstr[2] "%1 leti"
+msgstr[3] "%1 leta"
 
 #: velocity.cpp:46
 #, kde-format
@@ -14296,10 +14298,10 @@ msgstr "%1 metrov na sekundo"
 msgctxt "amount in units (integer)"
 msgid "%1 meter per second"
 msgid_plural "%1 meters per second"
-msgstr[0] "%1 meter na sekundo"
-msgstr[1] "%1 metra na sekundo"
-msgstr[2] "%1 metre na sekundo"
-msgstr[3] "%1 metrov na sekundo"
+msgstr[0] "%1 metrov na sekundo"
+msgstr[1] "%1 meter na sekundo"
+msgstr[2] "%1 metra na sekundo"
+msgstr[3] "%1 metri na sekundo"
 
 #: velocity.cpp:63
 #, kde-format
@@ -14330,10 +14332,10 @@ msgstr "%1 kilometrov na uro"
 msgctxt "amount in units (integer)"
 msgid "%1 kilometer per hour"
 msgid_plural "%1 kilometers per hour"
-msgstr[0] "%1 kilometer na uro"
-msgstr[1] "%1 kilometra na uro"
-msgstr[2] "%1 kilometre na uro"
-msgstr[3] "%1 kilometrov na uro"
+msgstr[0] "%1 kilometrov na uro"
+msgstr[1] "%1 kilometer na uro"
+msgstr[2] "%1 kilometra na uro"
+msgstr[3] "%1 kilometri na uro"
 
 #: velocity.cpp:73
 #, kde-format
@@ -14364,10 +14366,10 @@ msgstr "%1 milj na uro"
 msgctxt "amount in units (integer)"
 msgid "%1 mile per hour"
 msgid_plural "%1 miles per hour"
-msgstr[0] "%1 milja na uro"
-msgstr[1] "%1 milji na uro"
-msgstr[2] "%1 milje na uro"
-msgstr[3] "%1 milj na uro"
+msgstr[0] "%1 milj na uro"
+msgstr[1] "%1 milja na uro"
+msgstr[2] "%1 milji na uro"
+msgstr[3] "%1 milje na uro"
 
 #: velocity.cpp:83
 #, kde-format
@@ -14400,10 +14402,10 @@ msgstr "%1 čevljev na sekundo"
 msgctxt "amount in units (integer)"
 msgid "%1 foot per second"
 msgid_plural "%1 feet per second"
-msgstr[0] "%1 čevelj na sekundo"
-msgstr[1] "%1 čevlja na sekundo"
-msgstr[2] "%1 čevlje na sekundo"
-msgstr[3] "%1 čevljev na sekundo"
+msgstr[0] "%1 čevljev na sekundo"
+msgstr[1] "%1 čevelj na sekundo"
+msgstr[2] "%1 čevlja na sekundo"
+msgstr[3] "%1 čevlji na sekundo"
 
 #: velocity.cpp:93
 #, kde-format
@@ -14436,10 +14438,10 @@ msgstr "%1 palcev na sekundo"
 msgctxt "amount in units (integer)"
 msgid "%1 inch per second"
 msgid_plural "%1 inches per second"
-msgstr[0] "%1 palec na sekundo"
-msgstr[1] "%1 palca na sekundo"
-msgstr[2] "%1 palci na sekundo"
-msgstr[3] "%1 palcev na sekundo"
+msgstr[0] "%1 palcev na sekundo"
+msgstr[1] "%1 palec na sekundo"
+msgstr[2] "%1 palca na sekundo"
+msgstr[3] "%1 palci na sekundo"
 
 #: velocity.cpp:103
 #, kde-format
@@ -14472,10 +14474,10 @@ msgstr "%1 vozlov"
 msgctxt "amount in units (integer)"
 msgid "%1 knot"
 msgid_plural "%1 knots"
-msgstr[0] "%1 vozel"
-msgstr[1] "%1 vozla"
-msgstr[2] "%1 vozli"
-msgstr[3] "%1 vozlov"
+msgstr[0] "%1 vozlov"
+msgstr[1] "%1 vozel"
+msgstr[2] "%1 vozla"
+msgstr[3] "%1 vozli"
 
 #: velocity.cpp:114
 #, kde-format
@@ -14506,10 +14508,10 @@ msgstr "%1 Machov"
 msgctxt "amount in units (integer)"
 msgid "Mach %1"
 msgid_plural "Mach %1"
-msgstr[0] "%1 Mach"
-msgstr[1] "%1 Macha"
-msgstr[2] "%1 Machi"
-msgstr[3] "%1 Machov"
+msgstr[0] "%1 machov"
+msgstr[1] "%1 mach"
+msgstr[2] "%1 macha"
+msgstr[3] "%1 machi"
 
 #: velocity.cpp:124
 #, kde-format
@@ -14540,8 +14542,8 @@ msgstr "%1 hitrosti svetlobe"
 msgctxt "amount in units (integer)"
 msgid "%1 speed of light"
 msgid_plural "%1 speed of light"
-msgstr[0] "%1 hitrost svetlobe"
-msgstr[1] "%1 hitrosti svetlobe"
+msgstr[0] "%1 hitrosti svetlobe"
+msgstr[1] "%1 hitrost svetlobe"
 msgstr[2] "%1 hitrosti svetlobe"
 msgstr[3] "%1 hitrosti svetlobe"
 
@@ -14619,10 +14621,10 @@ msgstr "%1 jotavoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 yottavolt"
 msgid_plural "%1 yottavolts"
-msgstr[0] "%1 jotavolt"
-msgstr[1] "%1 jotavolta"
-msgstr[2] "%1 jotavolti"
-msgstr[3] "%1 jotavoltov"
+msgstr[0] "%1 jotavoltov"
+msgstr[1] "%1 jotavolt"
+msgstr[2] "%1 jotavolta"
+msgstr[3] "%1 jotavolti"
 
 #: voltage.cpp:35
 #, kde-format
@@ -14653,10 +14655,10 @@ msgstr "%1 zetavoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 zettavolt"
 msgid_plural "%1 zettavolts"
-msgstr[0] "%1 zetavolt"
-msgstr[1] "%1 zetavolta"
-msgstr[2] "%1 zetavolti"
-msgstr[3] "%1 zetavoltov"
+msgstr[0] "%1 zetavoltov"
+msgstr[1] "%1 zetavolt"
+msgstr[2] "%1 zetavolta"
+msgstr[3] "%1 zetavolti"
 
 #: voltage.cpp:45
 #, kde-format
@@ -14687,10 +14689,10 @@ msgstr "%1 eksavoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 exavolt"
 msgid_plural "%1 exavolts"
-msgstr[0] "%1 eksavolt"
-msgstr[1] "%1 eksavolta"
-msgstr[2] "%1 eksavolti"
-msgstr[3] "%1 eksavoltov"
+msgstr[0] "%1 eksavoltov"
+msgstr[1] "%1 eksavolt"
+msgstr[2] "%1 eksavolta"
+msgstr[3] "%1 eksavolti"
 
 #: voltage.cpp:55
 #, kde-format
@@ -14721,10 +14723,10 @@ msgstr "%1 petavoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 petavolt"
 msgid_plural "%1 petavolts"
-msgstr[0] "%1 petavolt"
-msgstr[1] "%1 petavolta"
-msgstr[2] "%1 petavolti"
-msgstr[3] "%1 petavoltov"
+msgstr[0] "%1 petavoltov"
+msgstr[1] "%1 petavolt"
+msgstr[2] "%1 petavolta"
+msgstr[3] "%1 petavolti"
 
 #: voltage.cpp:65
 #, kde-format
@@ -14755,10 +14757,10 @@ msgstr "%1 teravoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 teravolt"
 msgid_plural "%1 teravolts"
-msgstr[0] "%1 teravolt"
-msgstr[1] "%1 teravolta"
-msgstr[2] "%1 teravolti"
-msgstr[3] "%1 teravoltov"
+msgstr[0] "%1 teravoltov"
+msgstr[1] "%1 teravolt"
+msgstr[2] "%1 teravolta"
+msgstr[3] "%1 teravolti"
 
 #: voltage.cpp:75
 #, kde-format
@@ -14789,10 +14791,10 @@ msgstr "%1 gigavoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 gigavolt"
 msgid_plural "%1 gigavolts"
-msgstr[0] "%1 gigavolt"
-msgstr[1] "%1 gigavolta"
-msgstr[2] "%1 gigavolti"
-msgstr[3] "%1 gigavoltov"
+msgstr[0] "%1 gigavoltov"
+msgstr[1] "%1 gigavolt"
+msgstr[2] "%1 gigavolta"
+msgstr[3] "%1 gigavolti"
 
 #: voltage.cpp:85
 #, kde-format
@@ -14823,10 +14825,10 @@ msgstr "%1 megavoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 megavolt"
 msgid_plural "%1 megavolts"
-msgstr[0] "%1 megavolt"
-msgstr[1] "%1 megavolta"
-msgstr[2] "%1 megavolti"
-msgstr[3] "%1 megavoltov"
+msgstr[0] "%1 megavoltov"
+msgstr[1] "%1 megavolt"
+msgstr[2] "%1 megavolta"
+msgstr[3] "%1 megavolti"
 
 #: voltage.cpp:95
 #, kde-format
@@ -14857,10 +14859,10 @@ msgstr "%1 kilovoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 kilovolt"
 msgid_plural "%1 kilovolts"
-msgstr[0] "%1 kilovolt"
-msgstr[1] "%1 kilovolta"
-msgstr[2] "%1 kilovolti"
-msgstr[3] "%1 kilovoltov"
+msgstr[0] "%1 kilovoltov"
+msgstr[1] "%1 kilovolt"
+msgstr[2] "%1 kilovolta"
+msgstr[3] "%1 kilovolti"
 
 #: voltage.cpp:105
 #, kde-format
@@ -14891,10 +14893,10 @@ msgstr "%1 hektovoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 hectovolt"
 msgid_plural "%1 hectovolts"
-msgstr[0] "%1 hektovolt"
-msgstr[1] "%1 hektovolta"
-msgstr[2] "%1 hektovolti"
-msgstr[3] "%1 hektovoltov"
+msgstr[0] "%1 hektovoltov"
+msgstr[1] "%1 hektovolt"
+msgstr[2] "%1 hektovolta"
+msgstr[3] "%1 hektovolti"
 
 #: voltage.cpp:115
 #, kde-format
@@ -14925,10 +14927,10 @@ msgstr "%1 dekavoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 decavolt"
 msgid_plural "%1 decavolts"
-msgstr[0] "%1 dekavolt"
-msgstr[1] "%1 dekavolta"
-msgstr[2] "%1 dekavolti"
-msgstr[3] "%1 dekavoltov"
+msgstr[0] "%1 dekavoltov"
+msgstr[1] "%1 dekavolt"
+msgstr[2] "%1 dekavolta"
+msgstr[3] "%1 dekavolti"
 
 #: voltage.cpp:125
 #, kde-format
@@ -14959,10 +14961,10 @@ msgstr "%1 voltov"
 msgctxt "amount in units (integer)"
 msgid "%1 volt"
 msgid_plural "%1 volts"
-msgstr[0] "%1 volt"
-msgstr[1] "%1 volta"
-msgstr[2] "%1 volti"
-msgstr[3] "%1 voltov"
+msgstr[0] "%1 voltov"
+msgstr[1] "%1 volt"
+msgstr[2] "%1 volta"
+msgstr[3] "%1 volti"
 
 #: voltage.cpp:135
 #, kde-format
@@ -14993,10 +14995,10 @@ msgstr "%1 decivoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 decivolt"
 msgid_plural "%1 decivolts"
-msgstr[0] "%1 decivolt"
-msgstr[1] "%1 decivolta"
-msgstr[2] "%1 decivolti"
-msgstr[3] "%1 decivoltov"
+msgstr[0] "%1 decivoltov"
+msgstr[1] "%1 decivolt"
+msgstr[2] "%1 decivolta"
+msgstr[3] "%1 decivolti"
 
 #: voltage.cpp:145
 #, kde-format
@@ -15027,10 +15029,10 @@ msgstr "%1 centivoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 centivolt"
 msgid_plural "%1 centivolts"
-msgstr[0] "%1 centivolt"
-msgstr[1] "%1 centivolta"
-msgstr[2] "%1 centivolti"
-msgstr[3] "%1 centivoltov"
+msgstr[0] "%1 centivoltov"
+msgstr[1] "%1 centivolt"
+msgstr[2] "%1 centivolta"
+msgstr[3] "%1 centivolti"
 
 #: voltage.cpp:155
 #, kde-format
@@ -15061,10 +15063,10 @@ msgstr "%1 milivoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 millivolt"
 msgid_plural "%1 millivolts"
-msgstr[0] "%1 milivolt"
-msgstr[1] "%1 milivolta"
-msgstr[2] "%1 milivolti"
-msgstr[3] "%1 milivoltov"
+msgstr[0] "%1 milivoltov"
+msgstr[1] "%1 milivolt"
+msgstr[2] "%1 milivolta"
+msgstr[3] "%1 milivolti"
 
 #: voltage.cpp:165
 #, kde-format
@@ -15095,10 +15097,10 @@ msgstr "%1 mikrovoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 microvolt"
 msgid_plural "%1 microvolts"
-msgstr[0] "%1 mikrovolt"
-msgstr[1] "%1 mikrovolta"
-msgstr[2] "%1 mikrovolti"
-msgstr[3] "%1 mikrovoltov"
+msgstr[0] "%1 mikrovoltov"
+msgstr[1] "%1 mikrovolt"
+msgstr[2] "%1 mikrovolta"
+msgstr[3] "%1 mikrovolti"
 
 #: voltage.cpp:175
 #, kde-format
@@ -15129,10 +15131,10 @@ msgstr "%1 nanovoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 nanovolt"
 msgid_plural "%1 nanovolts"
-msgstr[0] "%1 nanovolt"
-msgstr[1] "%1 nanovolta"
-msgstr[2] "%1 nanovolti"
-msgstr[3] "%1 nanovoltov"
+msgstr[0] "%1 nanovoltov"
+msgstr[1] "%1 nanovolt"
+msgstr[2] "%1 nanovolta"
+msgstr[3] "%1 nanovolti"
 
 #: voltage.cpp:185
 #, kde-format
@@ -15163,10 +15165,10 @@ msgstr "%1 pikovoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 picovolt"
 msgid_plural "%1 picovolts"
-msgstr[0] "%1 pikovolt"
-msgstr[1] "%1 pikovolta"
-msgstr[2] "%1 pikovolti"
-msgstr[3] "%1 pikovoltov"
+msgstr[0] "%1 pikovoltov"
+msgstr[1] "%1 pikovolt"
+msgstr[2] "%1 pikovolta"
+msgstr[3] "%1 pikovolti"
 
 #: voltage.cpp:195
 #, kde-format
@@ -15197,10 +15199,10 @@ msgstr "%1 femtovoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 femtovolt"
 msgid_plural "%1 femtovolts"
-msgstr[0] "%1 femtovolt"
-msgstr[1] "%1 femtovolta"
-msgstr[2] "%1 femtovolti"
-msgstr[3] "%1 femtovoltov"
+msgstr[0] "%1 femtovoltov"
+msgstr[1] "%1 femtovolt"
+msgstr[2] "%1 femtovolta"
+msgstr[3] "%1 femtovolti"
 
 #: voltage.cpp:205
 #, kde-format
@@ -15231,10 +15233,10 @@ msgstr "%1 atovoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 attovolt"
 msgid_plural "%1 attovolts"
-msgstr[0] "%1 atovolt"
-msgstr[1] "%1 atovolta"
-msgstr[2] "%1 atovolti"
-msgstr[3] "%1 atovoltov"
+msgstr[0] "%1 atovoltov"
+msgstr[1] "%1 atovolt"
+msgstr[2] "%1 atovolta"
+msgstr[3] "%1 atovolti"
 
 #: voltage.cpp:215
 #, kde-format
@@ -15265,10 +15267,10 @@ msgstr "%1 zeptovoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 zeptovolt"
 msgid_plural "%1 zeptovolts"
-msgstr[0] "%1 zeptovolt"
-msgstr[1] "%1 zeptovolta"
-msgstr[2] "%1 zeptovolti"
-msgstr[3] "%1 zeptovoltov"
+msgstr[0] "%1 zeptovoltov"
+msgstr[1] "%1 zeptovolt"
+msgstr[2] "%1 zeptovolta"
+msgstr[3] "%1 zeptovolti"
 
 #: voltage.cpp:225
 #, kde-format
@@ -15299,10 +15301,10 @@ msgstr "%1 joktovoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 yoctovolt"
 msgid_plural "%1 yoctovolts"
-msgstr[0] "%1 joktovolt"
-msgstr[1] "%1 joktovolta"
-msgstr[2] "%1 joktovolti"
-msgstr[3] "%1 joktovoltov"
+msgstr[0] "%1 joktovoltov"
+msgstr[1] "%1 joktovolt"
+msgstr[2] "%1 joktovolta"
+msgstr[3] "%1 joktovolti"
 
 #: voltage.cpp:235
 #, kde-format
@@ -15333,10 +15335,10 @@ msgstr "%1 statvoltov"
 msgctxt "amount in units (integer)"
 msgid "%1 statvolt"
 msgid_plural "%1 statvolts"
-msgstr[0] "%1 statvolt"
-msgstr[1] "%1 statvolta"
-msgstr[2] "%1 statvolti"
-msgstr[3] "%1 statvoltov"
+msgstr[0] "%1 statvoltov"
+msgstr[1] "%1 statvolt"
+msgstr[2] "%1 statvolta"
+msgstr[3] "%1 statvolti"
 
 #: volume.cpp:18
 #, kde-format
@@ -15380,10 +15382,10 @@ msgstr "%1 kubičnih jotametrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic yottameter"
 msgid_plural "%1 cubic yottameters"
-msgstr[0] "%1 kubični jotameter"
-msgstr[1] "%1 kubična jotametra"
-msgstr[2] "%1 kubični jotametri"
-msgstr[3] "%1 kubičnih jotametrov"
+msgstr[0] "%1 kubičnih jotametrov"
+msgstr[1] "%1 kubični jotameter"
+msgstr[2] "%1 kubična jotametra"
+msgstr[3] "%1 kubični jotametri"
 
 #: volume.cpp:35
 #, kde-format
@@ -15416,10 +15418,10 @@ msgstr "%1 kubičnih zetametrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic zettameter"
 msgid_plural "%1 cubic zettameters"
-msgstr[0] "%1 kubični zetameter"
-msgstr[1] "%1 kubična zetametra"
-msgstr[2] "%1 kubični zetametri"
-msgstr[3] "%1 kubičnih zetametrov"
+msgstr[0] "%1 kubičnih zetametrov"
+msgstr[1] "%1 kubični zetameter"
+msgstr[2] "%1 kubična zetametra"
+msgstr[3] "%1 kubični zetametri"
 
 #: volume.cpp:45
 #, kde-format
@@ -15452,10 +15454,10 @@ msgstr "%1 kubičnih eksametrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic exameter"
 msgid_plural "%1 cubic exameters"
-msgstr[0] "%1 kubični eksameter"
-msgstr[1] "%1 kubična eksametra"
-msgstr[2] "%1 kubični eksametri"
-msgstr[3] "%1 kubičnih eksametrov"
+msgstr[0] "%1 kubičnih eksametrov"
+msgstr[1] "%1 kubični eksameter"
+msgstr[2] "%1 kubična eksametra"
+msgstr[3] "%1 kubični eksametri"
 
 #: volume.cpp:55
 #, kde-format
@@ -15488,10 +15490,10 @@ msgstr "%1 kubičnih petametrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic petameter"
 msgid_plural "%1 cubic petameters"
-msgstr[0] "%1 kubični petameter"
-msgstr[1] "%1 kubična petametra"
-msgstr[2] "%1 kubični petametri"
-msgstr[3] "%1 kubičnih petametrov"
+msgstr[0] "%1 kubičnih petametrov"
+msgstr[1] "%1 kubični petameter"
+msgstr[2] "%1 kubična petametra"
+msgstr[3] "%1 kubični petametri"
 
 #: volume.cpp:65
 #, kde-format
@@ -15524,10 +15526,10 @@ msgstr "%1 kubičnih terametrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic terameter"
 msgid_plural "%1 cubic terameters"
-msgstr[0] "%1 kubični terameter"
-msgstr[1] "%1 kubična terametra"
-msgstr[2] "%1 kubični terametri"
-msgstr[3] "%1 kubičnih terametrov"
+msgstr[0] "%1 kubičnih terametrov"
+msgstr[1] "%1 kubični terameter"
+msgstr[2] "%1 kubična terametra"
+msgstr[3] "%1 kubični terametri"
 
 #: volume.cpp:75
 #, kde-format
@@ -15560,10 +15562,10 @@ msgstr "%1 kubičnih gigametrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic gigameter"
 msgid_plural "%1 cubic gigameters"
-msgstr[0] "%1 kubični gigameter"
-msgstr[1] "%1 kubična gigametra"
-msgstr[2] "%1 kubični gigametri"
-msgstr[3] "%1 kubičnih gigametrov"
+msgstr[0] "%1 kubičnih gigametrov"
+msgstr[1] "%1 kubični gigameter"
+msgstr[2] "%1 kubična gigametra"
+msgstr[3] "%1 kubični gigametri"
 
 #: volume.cpp:85
 #, kde-format
@@ -15596,10 +15598,10 @@ msgstr "%1 kubičnih megametrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic megameter"
 msgid_plural "%1 cubic megameters"
-msgstr[0] "%1 kubični megameter"
-msgstr[1] "%1 kubična megametra"
-msgstr[2] "%1 kubični megametri"
-msgstr[3] "%1 kubičnih megametra"
+msgstr[0] "%1 kubičnih megametrov"
+msgstr[1] "%1 kubični megameter"
+msgstr[2] "%1 kubična megametra"
+msgstr[3] "%1 kubični megametri"
 
 #: volume.cpp:95
 #, kde-format
@@ -15632,10 +15634,10 @@ msgstr "%1 kubičnih kilometrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic kilometer"
 msgid_plural "%1 cubic kilometers"
-msgstr[0] "%1 kubični kilometer"
-msgstr[1] "%1 kubična kilometra"
-msgstr[2] "%1 kubični kilometri"
-msgstr[3] "%1 kubičnih kilometrov"
+msgstr[0] "%1 kubičnih kilometrov"
+msgstr[1] "%1 kubični kilometer"
+msgstr[2] "%1 kubična kilometra"
+msgstr[3] "%1 kubični kilometri"
 
 #: volume.cpp:105
 #, kde-format
@@ -15668,10 +15670,10 @@ msgstr "%1 kubičnih hektometrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic hectometer"
 msgid_plural "%1 cubic hectometers"
-msgstr[0] "%1 kubični hektometer"
-msgstr[1] "%1 kubična hektometra"
-msgstr[2] "%1 kubični hektometri"
-msgstr[3] "%1 kubičnih hektometrov"
+msgstr[0] "%1 kubičnih hektometrov"
+msgstr[1] "%1 kubični hektometer"
+msgstr[2] "%1 kubična hektometra"
+msgstr[3] "%1 kubični hektometri"
 
 #: volume.cpp:115
 #, kde-format
@@ -15704,10 +15706,10 @@ msgstr "%1 kubičnih dekametrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic decameter"
 msgid_plural "%1 cubic decameters"
-msgstr[0] "%1 kubični dekameter"
-msgstr[1] "%1 kubična dekametra"
-msgstr[2] "%1 kubični dekametri"
-msgstr[3] "%1 kubičnih dekametrov"
+msgstr[0] "%1 kubičnih dekametrov"
+msgstr[1] "%1 kubični dekameter"
+msgstr[2] "%1 kubična dekametra"
+msgstr[3] "%1 kubični dekametri"
 
 #: volume.cpp:125
 #, kde-format
@@ -15738,10 +15740,10 @@ msgstr "%1 kubičnih metrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic meter"
 msgid_plural "%1 cubic meters"
-msgstr[0] "%1 kubični meter"
-msgstr[1] "%1 kubična metra"
-msgstr[2] "%1 kubični metre"
-msgstr[3] "%1 kubičnih metrov"
+msgstr[0] "%1 kubičnih metrov"
+msgstr[1] "%1 kubični meter"
+msgstr[2] "%1 kubična metra"
+msgstr[3] "%1 kubični metri"
 
 #: volume.cpp:135
 #, kde-format
@@ -15774,10 +15776,10 @@ msgstr "%1 kubičnih decimetrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic decimeter"
 msgid_plural "%1 cubic decimeters"
-msgstr[0] "%1 kubični decimeter"
-msgstr[1] "%1 kubična decimetra"
-msgstr[2] "%1 kubični decimetri"
-msgstr[3] "%1 kubičnih decimetrov"
+msgstr[0] "%1 kubičnih decimetrov"
+msgstr[1] "%1 kubični decimeter"
+msgstr[2] "%1 kubična decimetra"
+msgstr[3] "%1 kubični decimetri"
 
 #: volume.cpp:145
 #, kde-format
@@ -15810,10 +15812,10 @@ msgstr "%1 kubičnih centimetrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic centimeter"
 msgid_plural "%1 cubic centimeters"
-msgstr[0] "%1 kubični centimeter"
-msgstr[1] "%1 kubična centimetra"
-msgstr[2] "%1 kubični centimetri"
-msgstr[3] "%1 kubičnih centimetrov"
+msgstr[0] "%1 kubičnih centimetrov"
+msgstr[1] "%1 kubični centimeter"
+msgstr[2] "%1 kubična centimetra"
+msgstr[3] "%1 kubični centimetri"
 
 #: volume.cpp:155
 #, kde-format
@@ -15846,10 +15848,10 @@ msgstr "%1 kubičnih milimetrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic millimeter"
 msgid_plural "%1 cubic millimeters"
-msgstr[0] "%1 kubični milimeter"
-msgstr[1] "%1 kubična milimetra"
-msgstr[2] "%1 kubični milimetri"
-msgstr[3] "%1 kubičnih milimetrov"
+msgstr[0] "%1 kubičnih milimetrov"
+msgstr[1] "%1 kubični milimeter"
+msgstr[2] "%1 kubična milimetra"
+msgstr[3] "%1 kubični milimetri"
 
 #: volume.cpp:165
 #, kde-format
@@ -15882,10 +15884,10 @@ msgstr "%1 kubičnih mikrometrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic micrometer"
 msgid_plural "%1 cubic micrometers"
-msgstr[0] "%1 kubični mikrometer"
-msgstr[1] "%1 kubična mikrometra"
-msgstr[2] "%1 kubični mikrometri"
-msgstr[3] "%1 kubičnih mikrometrov"
+msgstr[0] "%1 kubičnih mikrometrov"
+msgstr[1] "%1 kubični mikrometer"
+msgstr[2] "%1 kubična mikrometra"
+msgstr[3] "%1 kubični mikrometri"
 
 #: volume.cpp:175
 #, kde-format
@@ -15918,10 +15920,10 @@ msgstr "%1 kubičnih nanometrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic nanometer"
 msgid_plural "%1 cubic nanometers"
-msgstr[0] "%1 kubični nanometer"
-msgstr[1] "%1 kubična nanometra"
-msgstr[2] "%1 kubični nanometri"
-msgstr[3] "%1 kubičnih nanometrov"
+msgstr[0] "%1 kubičnih nanometrov"
+msgstr[1] "%1 kubični nanometer"
+msgstr[2] "%1 kubična nanometra"
+msgstr[3] "%1 kubični nanometri"
 
 #: volume.cpp:185
 #, kde-format
@@ -15954,10 +15956,10 @@ msgstr "%1 kubičnih pikometrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic picometer"
 msgid_plural "%1 cubic picometers"
-msgstr[0] "%1 kubični pikometer"
-msgstr[1] "%1 kubična pikometra"
-msgstr[2] "%1 kubični pikometri"
-msgstr[3] "%1 kubičnih pikometrov"
+msgstr[0] "%1 kubičnih pikometrov"
+msgstr[1] "%1 kubični pikometer"
+msgstr[2] "%1 kubična pikometra"
+msgstr[3] "%1 kubični pikometri"
 
 #: volume.cpp:195
 #, kde-format
@@ -15990,10 +15992,10 @@ msgstr "%1 kubičnih femtometrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic femtometer"
 msgid_plural "%1 cubic femtometers"
-msgstr[0] "%1 kubični femtometer"
-msgstr[1] "%1 kubična femtometra"
-msgstr[2] "%1 kubični femtometri"
-msgstr[3] "%1 kubičnih femtometrov"
+msgstr[0] "%1 kubičnih femtometrov"
+msgstr[1] "%1 kubični femtometer"
+msgstr[2] "%1 kubična femtometra"
+msgstr[3] "%1 kubični femtometri"
 
 #: volume.cpp:205
 #, kde-format
@@ -16026,10 +16028,10 @@ msgstr "%1 kubičnih atometrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic attometer"
 msgid_plural "%1 cubic attometers"
-msgstr[0] "%1 kubični atometer"
-msgstr[1] "%1 kubična atometra"
-msgstr[2] "%1 kubični atometri"
-msgstr[3] "%1 kubičnih atometrov"
+msgstr[0] "%1 kubičnih atometrov"
+msgstr[1] "%1 kubični atometer"
+msgstr[2] "%1 kubična atometra"
+msgstr[3] "%1 kubični atometri"
 
 #: volume.cpp:215
 #, kde-format
@@ -16062,10 +16064,10 @@ msgstr "%1 kubičnih zeptometrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic zeptometer"
 msgid_plural "%1 cubic zeptometers"
-msgstr[0] "%1 kubični zeptometer"
-msgstr[1] "%1 kubična zeptometra"
-msgstr[2] "%1 kubični zeptometri"
-msgstr[3] "%1 kubičnih zeptometrov"
+msgstr[0] "%1 kubičnih zeptometrov"
+msgstr[1] "%1 kubični zeptometer"
+msgstr[2] "%1 kubična zeptometra"
+msgstr[3] "%1 kubični zeptometri"
 
 #: volume.cpp:225
 #, kde-format
@@ -16098,10 +16100,10 @@ msgstr "%1 kubičnih joktometrov"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic yoctometer"
 msgid_plural "%1 cubic yoctometers"
-msgstr[0] "%1 kubični joktometer"
-msgstr[1] "%1 kubična joktometra"
-msgstr[2] "%1 kubični joktometri"
-msgstr[3] "%1 kubičnih joktometrov"
+msgstr[0] "%1 kubičnih joktometrov"
+msgstr[1] "%1 kubični joktometer"
+msgstr[2] "%1 kubična joktometra"
+msgstr[3] "%1 kubični joktometri"
 
 #: volume.cpp:235
 #, kde-format
@@ -16132,10 +16134,10 @@ msgstr "%1 jotalitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 yottaliter"
 msgid_plural "%1 yottaliters"
-msgstr[0] "%1 jotaliter"
-msgstr[1] "%1 jotalitra"
-msgstr[2] "%1 jotalitri"
-msgstr[3] "%1 jotalitrov"
+msgstr[0] "%1 jotalitrov"
+msgstr[1] "%1 jotaliter"
+msgstr[2] "%1 jotalitra"
+msgstr[3] "%1 jotalitri"
 
 #: volume.cpp:245
 #, kde-format
@@ -16166,10 +16168,10 @@ msgstr "%1 zetalitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 zettaliter"
 msgid_plural "%1 zettaliters"
-msgstr[0] "%1 zetaliter"
-msgstr[1] "%1 zetalitra"
-msgstr[2] "%1 zetalitri"
-msgstr[3] "%1 zetalitrov"
+msgstr[0] "%1 zetalitrov"
+msgstr[1] "%1 zetaliter"
+msgstr[2] "%1 zetalitra"
+msgstr[3] "%1 zetalitri"
 
 #: volume.cpp:255
 #, kde-format
@@ -16200,10 +16202,10 @@ msgstr "%1 eksalitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 exaliter"
 msgid_plural "%1 exaliters"
-msgstr[0] "%1 eksaliter"
-msgstr[1] "%1 eksalitra"
-msgstr[2] "%1 eksalitri"
-msgstr[3] "%1 eksalitrov"
+msgstr[0] "%1 eksalitrov"
+msgstr[1] "%1 eksaliter"
+msgstr[2] "%1 eksalitra"
+msgstr[3] "%1 eksalitri"
 
 #: volume.cpp:265
 #, kde-format
@@ -16234,10 +16236,10 @@ msgstr "%1 petalitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 petaliter"
 msgid_plural "%1 petaliters"
-msgstr[0] "%1 petaliter"
-msgstr[1] "%1 petalitra"
-msgstr[2] "%1 petalitri"
-msgstr[3] "%1 petalitrov"
+msgstr[0] "%1 petalitrov"
+msgstr[1] "%1 petaliter"
+msgstr[2] "%1 petalitra"
+msgstr[3] "%1 petalitri"
 
 #: volume.cpp:275
 #, kde-format
@@ -16268,10 +16270,10 @@ msgstr "%1 teralitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 teraliter"
 msgid_plural "%1 teraliters"
-msgstr[0] "%1 teraliter"
-msgstr[1] "%1 teralitra"
-msgstr[2] "%1 teralitri"
-msgstr[3] "%1 teralitrov"
+msgstr[0] "%1 teralitrov"
+msgstr[1] "%1 teraliter"
+msgstr[2] "%1 teralitra"
+msgstr[3] "%1 teralitri"
 
 #: volume.cpp:285
 #, kde-format
@@ -16302,10 +16304,10 @@ msgstr "%1 gigalitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 gigaliter"
 msgid_plural "%1 gigaliters"
-msgstr[0] "%1 gigaliter"
-msgstr[1] "%1 gigalitra"
-msgstr[2] "%1 gigalitri"
-msgstr[3] "%1 gigalitrov"
+msgstr[0] "%1 gigalitrov"
+msgstr[1] "%1 gigaliter"
+msgstr[2] "%1 gigalitra"
+msgstr[3] "%1 gigalitri"
 
 #: volume.cpp:295
 #, kde-format
@@ -16336,10 +16338,10 @@ msgstr "%1 megalitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 megaliter"
 msgid_plural "%1 megaliters"
-msgstr[0] "%1 megaliter"
-msgstr[1] "%1 megalitra"
-msgstr[2] "%1 megalitri"
-msgstr[3] "%1 megalitrov"
+msgstr[0] "%1 megalitrov"
+msgstr[1] "%1 megaliter"
+msgstr[2] "%1 megalitra"
+msgstr[3] "%1 megalitri"
 
 #: volume.cpp:305
 #, kde-format
@@ -16370,10 +16372,10 @@ msgstr "%1 kilolitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 kiloliter"
 msgid_plural "%1 kiloliters"
-msgstr[0] "%1 kiloliter"
-msgstr[1] "%1 kilolitra"
-msgstr[2] "%1 kilolitri"
-msgstr[3] "%1 kilolitrov"
+msgstr[0] "%1 kilolitrov"
+msgstr[1] "%1 kiloliter"
+msgstr[2] "%1 kilolitra"
+msgstr[3] "%1 kilolitri"
 
 #: volume.cpp:315
 #, kde-format
@@ -16404,10 +16406,10 @@ msgstr "%1 hektolitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 hectoliter"
 msgid_plural "%1 hectoliters"
-msgstr[0] "%1 hektoliter"
-msgstr[1] "%1 hektolitra"
-msgstr[2] "%1 hektolitri"
-msgstr[3] "%1 hektolitrov"
+msgstr[0] "%1 hektolitrov"
+msgstr[1] "%1 hektoliter"
+msgstr[2] "%1 hektolitra"
+msgstr[3] "%1 hektolitri"
 
 #: volume.cpp:325
 #, kde-format
@@ -16438,10 +16440,10 @@ msgstr "%1 dekalitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 decaliter"
 msgid_plural "%1 decaliters"
-msgstr[0] "%1 dekaliter"
-msgstr[1] "%1 dekalitra"
-msgstr[2] "%1 dekalitri"
-msgstr[3] "%1 dekalitrov"
+msgstr[0] "%1 dekalitrov"
+msgstr[1] "%1 dekaliter"
+msgstr[2] "%1 dekalitra"
+msgstr[3] "%1 dekalitri"
 
 #: volume.cpp:335
 #, kde-format
@@ -16472,10 +16474,10 @@ msgstr "%1 litrov"
 msgctxt "amount in units (integer)"
 msgid "%1 liter"
 msgid_plural "%1 liters"
-msgstr[0] "%1 liter"
-msgstr[1] "%1 litra"
-msgstr[2] "%1 litri"
-msgstr[3] "%1 litrov"
+msgstr[0] "%1 litrov"
+msgstr[1] "%1 liter"
+msgstr[2] "%1 litra"
+msgstr[3] "%1 litri"
 
 #: volume.cpp:345
 #, kde-format
@@ -16506,10 +16508,10 @@ msgstr "%1 decilitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 deciliter"
 msgid_plural "%1 deciliters"
-msgstr[0] "%1 deciliter"
-msgstr[1] "%1 decilitra"
-msgstr[2] "%1 decilitri"
-msgstr[3] "%1 decilitrov"
+msgstr[0] "%1 decilitrov"
+msgstr[1] "%1 deciliter"
+msgstr[2] "%1 decilitra"
+msgstr[3] "%1 decilitri"
 
 #: volume.cpp:355
 #, kde-format
@@ -16540,10 +16542,10 @@ msgstr "%1 centilitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 centiliter"
 msgid_plural "%1 centiliters"
-msgstr[0] "%1 centiliter"
-msgstr[1] "%1 centilitra"
-msgstr[2] "%1 centilitri"
-msgstr[3] "%1 centilitrov"
+msgstr[0] "%1 centilitrov"
+msgstr[1] "%1 centiliter"
+msgstr[2] "%1 centilitra"
+msgstr[3] "%1 centilitri"
 
 #: volume.cpp:365
 #, kde-format
@@ -16574,10 +16576,10 @@ msgstr "%1 mililitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 milliliter"
 msgid_plural "%1 milliliters"
-msgstr[0] "%1 mililiter"
-msgstr[1] "%1 mililitra"
-msgstr[2] "%1 mililitri"
-msgstr[3] "%1 mililitrov"
+msgstr[0] "%1 mililitrov"
+msgstr[1] "%1 mililiter"
+msgstr[2] "%1 mililitra"
+msgstr[3] "%1 mililitri"
 
 #: volume.cpp:375
 #, kde-format
@@ -16608,10 +16610,10 @@ msgstr "%1 mikrolitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 microliter"
 msgid_plural "%1 microliters"
-msgstr[0] "%1 mikroliter"
-msgstr[1] "%1 mikrolitra"
-msgstr[2] "%1 mikrolitri"
-msgstr[3] "%1 mikrolitrov"
+msgstr[0] "%1 mikrolitrov"
+msgstr[1] "%1 mikroliter"
+msgstr[2] "%1 mikrolitra"
+msgstr[3] "%1 mikrolitri"
 
 #: volume.cpp:385
 #, kde-format
@@ -16642,10 +16644,10 @@ msgstr "%1 nanolitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 nanoliter"
 msgid_plural "%1 nanoliters"
-msgstr[0] "%1 nanoliter"
-msgstr[1] "%1 nanolitra"
-msgstr[2] "%1 nanolitri"
-msgstr[3] "%1 nanolitrov"
+msgstr[0] "%1 nanolitrov"
+msgstr[1] "%1 nanoliter"
+msgstr[2] "%1 nanolitra"
+msgstr[3] "%1 nanolitri"
 
 #: volume.cpp:395
 #, kde-format
@@ -16676,10 +16678,10 @@ msgstr "%1 pikolitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 picoliter"
 msgid_plural "%1 picoliters"
-msgstr[0] "%1 pikoliter"
-msgstr[1] "%1 pikolitra"
-msgstr[2] "%1 pikolitri"
-msgstr[3] "%1 pikolitrov"
+msgstr[0] "%1 pikolitrov"
+msgstr[1] "%1 pikoliter"
+msgstr[2] "%1 pikolitra"
+msgstr[3] "%1 pikolitri"
 
 #: volume.cpp:405
 #, kde-format
@@ -16710,10 +16712,10 @@ msgstr "%1 femtolitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 femtoliter"
 msgid_plural "%1 femtoliters"
-msgstr[0] "%1 femtoliter"
-msgstr[1] "%1 femtolitra"
-msgstr[2] "%1 femtolitri"
-msgstr[3] "%1 femtolitrov"
+msgstr[0] "%1 femtolitrov"
+msgstr[1] "%1 femtoliter"
+msgstr[2] "%1 femtolitra"
+msgstr[3] "%1 femtolitri"
 
 #: volume.cpp:415
 #, kde-format
@@ -16744,10 +16746,10 @@ msgstr "%1 atolitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 attoliter"
 msgid_plural "%1 attoliters"
-msgstr[0] "%1 atoliter"
-msgstr[1] "%1 atolitra"
-msgstr[2] "%1 atolitri"
-msgstr[3] "%1 atolitrov"
+msgstr[0] "%1 atolitrov"
+msgstr[1] "%1 atoliter"
+msgstr[2] "%1 atolitra"
+msgstr[3] "%1 atolitri"
 
 #: volume.cpp:425
 #, kde-format
@@ -16778,10 +16780,10 @@ msgstr "%1 zeptolitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 zeptoliter"
 msgid_plural "%1 zeptoliters"
-msgstr[0] "%1 zeptoliter"
-msgstr[1] "%1 zeptolitra"
-msgstr[2] "%1 zeptolitri"
-msgstr[3] "%1 zeptolitrov"
+msgstr[0] "%1 zeptolitrov"
+msgstr[1] "%1 zeptoliter"
+msgstr[2] "%1 zeptolitra"
+msgstr[3] "%1 zeptolitri"
 
 #: volume.cpp:435
 #, kde-format
@@ -16812,10 +16814,10 @@ msgstr "%1 joktolitrov"
 msgctxt "amount in units (integer)"
 msgid "%1 yoctoliter"
 msgid_plural "%1 yoctoliters"
-msgstr[0] "%1 joktoliter"
-msgstr[1] "%1 joktolitra"
-msgstr[2] "%1 joktolitri"
-msgstr[3] "%1 joktolitrov"
+msgstr[0] "%1 joktolitrov"
+msgstr[1] "%1 joktoliter"
+msgstr[2] "%1 joktolitra"
+msgstr[3] "%1 joktolitri"
 
 #: volume.cpp:445
 #, kde-format
@@ -16847,10 +16849,10 @@ msgstr "%1 kubičnih čevljev"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic foot"
 msgid_plural "%1 cubic feet"
-msgstr[0] "%1 kubični čevelj"
-msgstr[1] "%1 kubična čevlja"
-msgstr[2] "%1 kubični čevlji"
-msgstr[3] "%1 kubičnih čevljev"
+msgstr[0] "%1 kubičnih čevljev"
+msgstr[1] "%1 kubični čevelj"
+msgstr[2] "%1 kubična čevlja"
+msgstr[3] "%1 kubični čevlji"
 
 #: volume.cpp:455
 #, kde-format
@@ -16882,10 +16884,10 @@ msgstr "%1 kubičnih palcev"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic inch"
 msgid_plural "%1 cubic inches"
-msgstr[0] "%1 kubični palec"
-msgstr[1] "%1 kubična palca"
-msgstr[2] "%1 kubični palci"
-msgstr[3] "%1 kubičnih palcev"
+msgstr[0] "%1 kubičnih palcev"
+msgstr[1] "%1 kubični palec"
+msgstr[2] "%1 kubična palca"
+msgstr[3] "%1 kubični palci"
 
 #: volume.cpp:465
 #, kde-format
@@ -16917,10 +16919,10 @@ msgstr "%1 kubičnih milj"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic mile"
 msgid_plural "%1 cubic miles"
-msgstr[0] "%1 kubična milja"
-msgstr[1] "%1 kubični milji"
-msgstr[2] "%1 kubične milje"
-msgstr[3] "%1 kubičnih milj"
+msgstr[0] "%1 kubičnih milj"
+msgstr[1] "%1 kubična milja"
+msgstr[2] "%1 kubični milji"
+msgstr[3] "%1 kubične milje"
 
 #: volume.cpp:475
 #, kde-format
@@ -16954,10 +16956,10 @@ msgstr "%1 tekočinskih unč"
 msgctxt "amount in units (integer)"
 msgid "%1 fluid ounce"
 msgid_plural "%1 fluid ounces"
-msgstr[0] "%1 tekočinska unča"
-msgstr[1] "%1 tekočinski unči"
-msgstr[2] "%1 tekočinske unče"
-msgstr[3] "%1 tekočinskih unč"
+msgstr[0] "%1 tekočinskih unč"
+msgstr[1] "%1 tekočinska unča"
+msgstr[2] "%1 tekočinski unči"
+msgstr[3] "%1 tekočinske unče"
 
 #: volume.cpp:485
 #, kde-format
@@ -16988,10 +16990,10 @@ msgstr "%1 skodelic"
 msgctxt "amount in units (integer)"
 msgid "%1 cup"
 msgid_plural "%1 cups"
-msgstr[0] "%1 skodelica"
-msgstr[1] "%1 skodelici"
-msgstr[2] "%1 skodelice"
-msgstr[3] "%1 skodelic"
+msgstr[0] "%1 skodelic"
+msgstr[1] "%1 skodelica"
+msgstr[2] "%1 skodelici"
+msgstr[3] "%1 skodelice"
 
 #: volume.cpp:495
 #, kde-format
@@ -17022,10 +17024,10 @@ msgstr "%1 čajna žlička"
 msgctxt "amount in units (integer)"
 msgid "%1 teaspoon"
 msgid_plural "%1 teaspoons"
-msgstr[0] "%1 čajna žlička"
-msgstr[1] "%1 čajni žlički"
-msgstr[2] "%1 čajne žličke"
-msgstr[3] "%1 čajnih žličk"
+msgstr[0] "%1 čajnih žličk"
+msgstr[1] "%1 čajna žlička"
+msgstr[2] "%1 čajni žlički"
+msgstr[3] "%1 čajne žličke"
 
 #: volume.cpp:505
 #, kde-format
@@ -17056,10 +17058,10 @@ msgstr "%1 žlica"
 msgctxt "amount in units (integer)"
 msgid "%1 tablespoon"
 msgid_plural "%1 tablespoons"
-msgstr[0] "%1 žlica"
-msgstr[1] "%1 žlici"
-msgstr[2] "%1 žlice"
-msgstr[3] "%1 žlic"
+msgstr[0] "%1 žlic"
+msgstr[1] "%1 žlica"
+msgstr[2] "%1 žlici"
+msgstr[3] "%1 žlice"
 
 #: volume.cpp:515
 #, kde-format
@@ -17092,10 +17094,10 @@ msgstr "%1 galon (ameriških tekočinskih)"
 msgctxt "amount in units (integer)"
 msgid "%1 gallon (U.S. liquid)"
 msgid_plural "%1 gallons (U.S. liquid)"
-msgstr[0] "%1 galona (ameriških tekočinska)"
-msgstr[1] "%1 galoni (ameriški tekočinski)"
-msgstr[2] "%1 galone (ameriške tekočinske)"
-msgstr[3] "%1 galon (ameriških tekočinskih)"
+msgstr[0] "%1 galon (ameriških tekočinskih)"
+msgstr[1] "%1 galona (ameriška tekočinska)"
+msgstr[2] "%1 galoni (ameriški tekočinski)"
+msgstr[3] "%1 galone (ameriške tekočinske)"
 
 #: volume.cpp:525
 #, kde-format
@@ -17130,10 +17132,10 @@ msgstr "%1 galon (imperialnih)"
 msgctxt "amount in units (integer)"
 msgid "%1 gallon (imperial)"
 msgid_plural "%1 gallons (imperial)"
-msgstr[0] "%1 galona (imperialna)"
-msgstr[1] "%1 galoni (imperialni)"
-msgstr[2] "%1 galone (imperialne)"
-msgstr[3] "%1 galon (imperialnih)"
+msgstr[0] "%1 galon (imperialnih)"
+msgstr[1] "%1 galona (imperialna)"
+msgstr[2] "%1 galoni (imperialni)"
+msgstr[3] "%1 galone (imperialne)"
 
 #: volume.cpp:536
 #, kde-format
@@ -17166,10 +17168,10 @@ msgstr "%1 pint (imperialnih)"
 msgctxt "amount in units (integer)"
 msgid "%1 pint (imperial)"
 msgid_plural "%1 pints (imperial)"
-msgstr[0] "%1 pinta (imperialna)"
-msgstr[1] "%1 pinti (imperialni)"
-msgstr[2] "%1 pinte (imperialne)"
-msgstr[3] "%1 pint (imperialnih)"
+msgstr[0] "%1 pint (imperialnih)"
+msgstr[1] "%1 pinta (imperialna)"
+msgstr[2] "%1 pinti (imperialni)"
+msgstr[3] "%1 pinte (imperialne)"
 
 #: volume.cpp:546
 #, kde-format
@@ -17201,10 +17203,10 @@ msgstr "%1 pint (ameriških tekočinskih)"
 msgctxt "amount in units (integer)"
 msgid "%1 pint (U.S. liquid)"
 msgid_plural "%1 pints (U.S. liquid)"
-msgstr[0] "%1 pinta (ameriških tekočinska)"
-msgstr[1] "%1 pinti (ameriški tekočinski)"
-msgstr[2] "%1 pinte (ameriške tekočinske)"
-msgstr[3] "%1 pint (ameriških tekočinskih)"
+msgstr[0] "%1 pint (ameriških tekočinskih)"
+msgstr[1] "%1 pinta (ameriška tekočinska)"
+msgstr[2] "%1 pinti (ameriški tekočinski)"
+msgstr[3] "%1 pinte (ameriške tekočinske)"
 
 #: volume.cpp:556
 #, kde-format
@@ -17235,10 +17237,10 @@ msgstr "%1 sodčkov nafte"
 msgctxt "amount in units (integer)"
 msgid "%1 oil barrel"
 msgid_plural "%1 oil barrels"
-msgstr[0] "%1 sodček nafte"
-msgstr[1] "%1 sodčka nafte"
-msgstr[2] "%1 sodčke nafte"
-msgstr[3] "%1 sodčkov nafte"
+msgstr[0] "%1 sodčkov nafte"
+msgstr[1] "%1 sodček nafte"
+msgstr[2] "%1 sodčka nafte"
+msgstr[3] "%1 sodčki nafte"
 
 #: weight_per_area.cpp:19
 #, kde-format
@@ -17282,10 +17284,10 @@ msgstr "%1 gramov na kvadratni meter"
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 gram na kvadratni meter"
-msgstr[1] "%1 grama na kvadratni meter"
-msgstr[2] "%1 grame na kvadratni meter"
-msgstr[3] "%1 gramov na kvadratni meter"
+msgstr[0] "%1 gramov na kvadratni meter"
+msgstr[1] "%1 gram na kvadratni meter"
+msgstr[2] "%1 grama na kvadratni meter"
+msgstr[3] "%1 grami na kvadratni meter"
 
 #: weight_per_area.cpp:37
 #, kde-format
@@ -17318,10 +17320,10 @@ msgstr "%1 unč na kvadratni jard"
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 unča na kvadratni jard"
-msgstr[1] "%1 unči na kvadratni jard"
-msgstr[2] "%1 unče na kvadratni jard"
-msgstr[3] "%1 unč na kvadratni jard"
+msgstr[0] "%1 unč na kvadratni jard"
+msgstr[1] "%1 unča na kvadratni jard"
+msgstr[2] "%1 unči na kvadratni jard"
+msgstr[3] "%1 unče na kvadratni jard"
 
 #~ msgid "Invalid"
 #~ msgstr "Neveljavno"
