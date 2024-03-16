@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:25+0000\n"
-"PO-Revision-Date: 2024-03-13 18:09+0100\n"
+"PO-Revision-Date: 2024-03-14 20:48+0100\n"
 "Last-Translator: xavier <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -6954,7 +6954,7 @@ msgstr "dynes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dyne;dynes;dyn"
-msgstr "dyne;dynes;dyn"
+msgstr "dyne ; dynes ; dyn"
 
 #: force.cpp:239
 #, kde-format
@@ -6986,7 +6986,7 @@ msgstr "kilogrammes-force"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram-force;kilopond;kiloponds;kp"
-msgstr "kilogramme-force;kilogrammes-force;kilopond;kiloponds;kp;kgf"
+msgstr "kilogramme-force ; kilogrammes-force ; kilopond ; kiloponds ; kp ; kgf"
 
 #: force.cpp:249
 #, kde-format
@@ -7018,7 +7018,7 @@ msgstr "livre-force"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound-force;lbf"
-msgstr "livre-force;lbf"
+msgstr "livre-force ; lbf"
 
 #: force.cpp:259
 #, kde-format
@@ -7050,7 +7050,7 @@ msgstr "poundals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "poundal;poundals;pdl"
-msgstr "poundal;poundals;pdl"
+msgstr "poundal ; poundals ; pdl"
 
 #: force.cpp:269
 #, kde-format
@@ -7093,7 +7093,7 @@ msgstr "yottahertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottahertz;yottahertzs;YHz"
-msgstr "yottahertz;yottahertzs;YHz"
+msgstr "yottahertz ; yottahertzs ; YHz"
 
 #: frequency.cpp:29
 #, kde-format
@@ -7125,7 +7125,7 @@ msgstr "zettahertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettahertz;zettahertzs;ZHz"
-msgstr "zettahertz;zettahertzs;ZHz"
+msgstr "zettahertz ; zettahertzs ; ZHz"
 
 #: frequency.cpp:39
 #, kde-format
@@ -7157,7 +7157,7 @@ msgstr "exahertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exahertz;exahertzs;EHz"
-msgstr "exahertz;exahertzs;EHz"
+msgstr "exahertz ; exahertzs ; EHz"
 
 #: frequency.cpp:49
 #, kde-format
@@ -7189,7 +7189,7 @@ msgstr "pétahertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petahertz;petahertzs;PHz"
-msgstr "pétahertz;pétahertzs;PHz"
+msgstr "pétahertz ; pétahertzs ; PHz"
 
 #: frequency.cpp:59
 #, kde-format
@@ -7221,7 +7221,7 @@ msgstr "térahertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terahertz;terahertzs;THz"
-msgstr "térahertz;térahertzs;THz"
+msgstr "térahertz ; térahertzs ; THz"
 
 #: frequency.cpp:69
 #, kde-format
@@ -7253,7 +7253,7 @@ msgstr "gigahertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigahertz;gigahertzs;GHz"
-msgstr "gigahertz;gigahertzs;GHz"
+msgstr "gigahertz ; gigahertzs ; GHz"
 
 #: frequency.cpp:79
 #, kde-format
@@ -7285,7 +7285,7 @@ msgstr "mégahertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megahertz;megahertzs;MHz"
-msgstr "mégahertz;mégahertzs;MHz"
+msgstr "mégahertz ; mégahertzs ; MHz"
 
 #: frequency.cpp:89
 #, kde-format
@@ -7317,7 +7317,7 @@ msgstr "kilohertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilohertz;kilohertzs;kHz"
-msgstr "kilohertz;kilo-hertz;kHz"
+msgstr "kilohertz ; kilo-hertz ; kHz"
 
 #: frequency.cpp:99
 #, kde-format
@@ -7349,7 +7349,7 @@ msgstr "hectohertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectohertz;hectohertzs;hHz"
-msgstr "hectohertz;hectohertzs;hHz"
+msgstr "hectohertz ; hectohertzs ; hHz"
 
 #: frequency.cpp:109
 #, kde-format
@@ -7381,7 +7381,7 @@ msgstr "décahertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decahertz;decahertzs;daHz"
-msgstr "décahertz;décahertzs;daHz"
+msgstr "décahertz ; décahertzs ; daHz"
 
 #: frequency.cpp:119
 #, kde-format
@@ -7413,7 +7413,7 @@ msgstr "hertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hertz;hertzs;Hz"
-msgstr "hertz;hertzs;Hz"
+msgstr "hertz ; hertzs ; Hz"
 
 #: frequency.cpp:129
 #, kde-format
@@ -7445,7 +7445,7 @@ msgstr "décihertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decihertz;decihertzs;dHz"
-msgstr "décihertz;décihertzs;dHz"
+msgstr "décihertz ; décihertzs ; dHz"
 
 #: frequency.cpp:139
 #, kde-format
@@ -7477,7 +7477,7 @@ msgstr "centihertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centihertz;centihertzs;cHz"
-msgstr "centihertz;centihertzs;cHz"
+msgstr "centihertz ; centihertzs ; cHz"
 
 #: frequency.cpp:149
 #, kde-format
@@ -7509,7 +7509,7 @@ msgstr "millihertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "millihertz;millihertzs;mHz"
-msgstr "millihertz;millihertzs;mHz"
+msgstr "millihertz ; millihertzs ; mHz"
 
 #: frequency.cpp:159
 #, kde-format
@@ -7541,7 +7541,7 @@ msgstr "microhertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "microhertz;microhertzs;µHz;uHz"
-msgstr "microhertz;microhertzs;µHz;uHz"
+msgstr "microhertz ; microhertzs ; µHz ; uHz"
 
 #: frequency.cpp:169
 #, kde-format
@@ -7573,7 +7573,7 @@ msgstr "nanohertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanohertz;nanohertzs;nHz"
-msgstr "nanohertz;nanohertzs;nHz"
+msgstr "nanohertz ; nanohertzs ; nHz"
 
 #: frequency.cpp:179
 #, kde-format
@@ -7605,7 +7605,7 @@ msgstr "picohertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picohertz;picohertzs;pHz"
-msgstr "picohertz;picohertzs;pHz"
+msgstr "picohertz ; picohertzs ; pHz"
 
 #: frequency.cpp:189
 #, kde-format
@@ -7637,7 +7637,7 @@ msgstr "femtohertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtohertz;femtohertzs;fHz"
-msgstr "femtohertz;femtohertzs;fHz"
+msgstr "femtohertz ; femtohertzs ; fHz"
 
 #: frequency.cpp:199
 #, kde-format
@@ -7669,7 +7669,7 @@ msgstr "attohertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attohertz;attohertzs;aHz"
-msgstr "attohertz;attohertzs;aHz"
+msgstr "attohertz ; attohertzs ; aHz"
 
 #: frequency.cpp:209
 #, kde-format
@@ -7701,7 +7701,7 @@ msgstr "zeptohertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptohertz;zeptohertzs;zHz"
-msgstr "zeptohertz;zeptohertzs;zHz"
+msgstr "zeptohertz ; zeptohertzs ; zHz"
 
 #: frequency.cpp:219
 #, kde-format
@@ -7733,7 +7733,7 @@ msgstr "yoctohertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctohertz;yoctohertzs;yHz"
-msgstr "yoctohertz;yoctohertzs;yHz"
+msgstr "yoctohertz ; yoctohertzs ; yHz"
 
 #: frequency.cpp:229
 #, kde-format
@@ -7765,7 +7765,7 @@ msgstr "tours par minute"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "revolutions per minute;revolution per minute;RPM"
-msgstr "tours par minute;tour par minute;RPM;tr/min"
+msgstr "tours par minute ; tour par minute ; RPM ; tr / min"
 
 #: frequency.cpp:239
 #, kde-format
@@ -7809,7 +7809,8 @@ msgstr "litres pour 100 kilomètres"
 msgctxt "unit synonyms for matching user input"
 msgid "liters per 100 kilometers;liters per 100 kilometers;l/100 km;L/100 km"
 msgstr ""
-"litres pour 100 kilomètres;litres pour 100 kilomètres;l/100 km;L/100 km"
+"litres pour 100 kilomètres ; litres pour 100 kilomètres ; l / 100 km ; L / "
+"100 km"
 
 #: fuel_efficiency.cpp:69
 #, kde-format
@@ -7842,8 +7843,8 @@ msgstr "milles par gallon américain"
 msgctxt "unit synonyms for matching user input"
 msgid "mile per US gallon;miles per US gallon;mpg"
 msgstr ""
-"mile par gallon américain;miles par gallon américain;mille par gallon "
-"américain;milles par gallon américain;mpg"
+"mile par gallon américain ; miles par gallon américain ; mille par gallon "
+"américain ; milles par gallon américain ; mpg"
 
 #: fuel_efficiency.cpp:79
 #, kde-format
@@ -7878,8 +7879,8 @@ msgid ""
 "mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
 "mpg (imp)"
 msgstr ""
-"mile par gallon impérial;miles par gallon impérial;mille par gallon impérial;"
-"milles par gallon impérial;mpg (impérial);imp mpg;mpg (imp)"
+"mile par gallon impérial ; miles par gallon impérial ; mille par gallon "
+"impérial ; milles par gallon impérial ; mpg (impérial) ; imp mpg ; mpg (imp)"
 
 #: fuel_efficiency.cpp:91
 #, kde-format
@@ -7911,7 +7912,7 @@ msgstr "kilomètres par litre"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per liter;kilometers per liter;kmpl;km/l"
-msgstr "kilomètre par litre;kilomètres par litre;kmpl;km/l"
+msgstr "kilomètre par litre ; kilomètres par litre ; kmpl ; km / l"
 
 #: fuel_efficiency.cpp:102
 #, kde-format
@@ -7954,7 +7955,7 @@ msgstr "yottamètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottameter;yottameters;Ym"
-msgstr "yottamètre;yottamètres;Ym"
+msgstr "yottamètre ; yottamètres ; Ym"
 
 #: length.cpp:29
 #, kde-format
@@ -7986,7 +7987,7 @@ msgstr "zettamètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettameter;zettameters;Zm"
-msgstr "zettamètre;zettamètres;Zm"
+msgstr "zettamètre ; zettamètres ; Zm"
 
 #: length.cpp:39
 #, kde-format
@@ -8018,7 +8019,7 @@ msgstr "examètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exameter;exameters;Em"
-msgstr "examètre;examètres;Em"
+msgstr "examètre ; examètres ; Em"
 
 #: length.cpp:49
 #, kde-format
@@ -8050,7 +8051,7 @@ msgstr "pétamètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petameter;petameters;Pm"
-msgstr "pétamètre;pétamètres;Pm"
+msgstr "pétamètre ; pétamètres ; Pm"
 
 #: length.cpp:59
 #, kde-format
@@ -8082,7 +8083,7 @@ msgstr "téramètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terameter;terameters;Tm"
-msgstr "téramètre;téramètres;Tm"
+msgstr "téramètre ; téramètres ; Tm"
 
 #: length.cpp:69
 #, kde-format
@@ -8114,7 +8115,7 @@ msgstr "gigamètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigameter;gigameters;Gm"
-msgstr "gigamètre;gigamètres;Gm"
+msgstr "gigamètre ; gigamètres ; Gm"
 
 #: length.cpp:79
 #, kde-format
@@ -8146,7 +8147,7 @@ msgstr "mégamètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megameter;megameters;Mm"
-msgstr "mégamètre;mégamètres;Mm"
+msgstr "mégamètre ; mégamètres ; Mm"
 
 #: length.cpp:89
 #, kde-format
@@ -8178,7 +8179,7 @@ msgstr "kilomètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer;kilometers;km"
-msgstr "kilomètre;kilomètres;km"
+msgstr "kilomètre ; kilomètres ; km"
 
 #: length.cpp:99
 #, kde-format
@@ -8210,7 +8211,7 @@ msgstr "hectomètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectometer;hectometers;hm"
-msgstr "hectomètre;hectomètres;hm"
+msgstr "hectomètre ; hectomètres ; hm"
 
 #: length.cpp:109
 #, kde-format
@@ -8242,7 +8243,7 @@ msgstr "décamètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decameter;decameters;dam"
-msgstr "décamètre;décamètres;dam"
+msgstr "décamètre ; décamètres ; dam"
 
 #: length.cpp:119
 #, kde-format
@@ -8274,7 +8275,7 @@ msgstr "mètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "meter;meters;m"
-msgstr "mètre;mètres;m"
+msgstr "mètre ; mètres ; m"
 
 #: length.cpp:129
 #, kde-format
@@ -8306,7 +8307,7 @@ msgstr "décimètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decimeter;decimeters;dm"
-msgstr "décimètre;décimètres;dm"
+msgstr "décimètre ; décimètres ; dm"
 
 #: length.cpp:139
 #, kde-format
@@ -8338,7 +8339,7 @@ msgstr "centimètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centimeter;centimeters;cm"
-msgstr "centimètre;centimètres;cm"
+msgstr "centimètre ; centimètres ; cm"
 
 #: length.cpp:149
 #, kde-format
@@ -8370,7 +8371,7 @@ msgstr "millimètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "millimeter;millimeters;mm"
-msgstr "millimètre;millimètres;mm"
+msgstr "millimètre ; millimètres ; mm"
 
 #: length.cpp:159
 #, kde-format
@@ -8402,7 +8403,7 @@ msgstr "micromètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "micrometer;micrometers;µm;um"
-msgstr "micromètre;micromètres;µm;um"
+msgstr "micromètre ; micromètres ; µm ; um"
 
 #: length.cpp:169
 #, kde-format
@@ -8434,7 +8435,7 @@ msgstr "nanomètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanometer;nanometers;nm"
-msgstr "nanomètre;nanomètres;nm"
+msgstr "nanomètre ; nanomètres ; nm"
 
 #: length.cpp:185
 #, kde-format
@@ -8454,7 +8455,8 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
 msgstr ""
-"Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
+"Ångström ; Ångstrom ; Angström  ; Angstrom ; Ångströms ; Ångstroms ; "
+"Angströms ; Angstroms ; Å"
 
 #: length.cpp:189
 #, kde-format
@@ -8486,7 +8488,7 @@ msgstr "picomètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picometer;picometers;pm"
-msgstr "picomètre;picomètres;pm"
+msgstr "picomètre ; picomètres ; pm"
 
 #: length.cpp:199
 #, kde-format
@@ -8518,7 +8520,7 @@ msgstr "femtomètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtometer;femtometers;fm"
-msgstr "femtomètre;femtomètres;fm"
+msgstr "femtomètre ; femtomètres ; fm"
 
 #: length.cpp:209
 #, kde-format
@@ -8550,7 +8552,7 @@ msgstr "attomètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attometer;attometers;am"
-msgstr "attomètre;attomètres;am"
+msgstr "attomètre ; attomètres ; am"
 
 #: length.cpp:219
 #, kde-format
@@ -8582,7 +8584,7 @@ msgstr "zeptomètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptometer;zeptometers;zm"
-msgstr "zeptomètre;zeptomètres;zm"
+msgstr "zeptomètre ; zeptomètres ; zm"
 
 #: length.cpp:229
 #, kde-format
@@ -8614,7 +8616,7 @@ msgstr "yoctomètres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctometer;yoctometers;ym"
-msgstr "yoctomètre;yoctomètres;ym"
+msgstr "yoctomètre ; yoctomètres ; ym"
 
 #: length.cpp:239
 #, kde-format
@@ -8646,7 +8648,7 @@ msgstr "pouces"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "inch;inches;in;\""
-msgstr "pouce;pouces;in;po;\""
+msgstr "pouce ; pouces ; in ; po ; \""
 
 #: length.cpp:249
 #, kde-format
@@ -8678,7 +8680,7 @@ msgstr "millièmes de pouce"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "thou;mil;point;thousandth of an inch;thousandths of an inch"
-msgstr "thou;mil;point;millième de pouce;millièmes de pouce"
+msgstr "thou ; mil ; point ;millième de pouce ; millièmes de pouce"
 
 #: length.cpp:259
 #, kde-format
@@ -8710,7 +8712,7 @@ msgstr "pieds"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "foot;feet;ft"
-msgstr "pied;pieds;ft;pi"
+msgstr "pied ; pieds ; ft ; pi"
 
 #: length.cpp:269
 #, kde-format
@@ -8742,7 +8744,7 @@ msgstr "yards"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yard;yards;yd"
-msgstr "yard;yards;verge;verges;yd;vg"
+msgstr "yard ; yards ; verge ; verges ; yd ; vg"
 
 #: length.cpp:279
 #, kde-format
@@ -8774,7 +8776,7 @@ msgstr "milles"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "mile;miles;mi"
-msgstr "mile;miles;mille;milles;mi"
+msgstr "mile ; miles ; mille ; milles ; mi"
 
 #: length.cpp:289
 #, kde-format
@@ -8806,7 +8808,7 @@ msgstr "milles marins"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nautical mile;nautical miles;nmi"
-msgstr "mile marin;miles marins;mille marin;milles marins;nmi"
+msgstr "mile marin ; miles marins ; mille marin ; milles marins ; nmi"
 
 #: length.cpp:299
 #, kde-format
@@ -8838,7 +8840,8 @@ msgstr "années-lumière"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "light-year;light-years;ly;lightyear;lightyears"
-msgstr "année-lumière;années-lumière;ly;al;année lumière;années lumière"
+msgstr ""
+"année-lumière ; années-lumière ; ly ; al ; année lumière ; années lumière"
 
 #: length.cpp:309
 #, kde-format
@@ -8870,7 +8873,7 @@ msgstr "parsecs"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "parsec;parsecs;pc"
-msgstr "parsec;parsecs;pc"
+msgstr "parsec ; parsecs ; pc"
 
 #: length.cpp:319
 #, kde-format
@@ -8902,7 +8905,7 @@ msgstr "unités astronomiques"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "astronomical unit;astronomical units;au"
-msgstr "unité astronomique;unités astronomiques;au;ua"
+msgstr "unité astronomique ; unités astronomiques ; au ; ua"
 
 #: length.cpp:329
 #, kde-format
@@ -8945,7 +8948,7 @@ msgstr "yottagrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottagram;yottagrams;Yg"
-msgstr "yottagramme;yottagrammes;Yg"
+msgstr "yottagramme ; yottagrammes ; Yg"
 
 #: mass.cpp:29
 #, kde-format
@@ -8977,7 +8980,7 @@ msgstr "zettagrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettagram;zettagrams;Zg"
-msgstr "zettagramme;zettagrammes;Zg"
+msgstr "zettagramme ; zettagrammes ; Zg"
 
 #: mass.cpp:39
 #, kde-format
@@ -9009,7 +9012,7 @@ msgstr "exagrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exagram;exagrams;Eg"
-msgstr "exagramme;exagrammes;Eg"
+msgstr "exagramme ; exagrammes ; Eg"
 
 #: mass.cpp:49
 #, kde-format
@@ -9041,7 +9044,7 @@ msgstr "pétagrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petagram;petagrams;Pg"
-msgstr "pétagramme;pétagrammes;Pg"
+msgstr "pétagramme ; pétagrammes ; Pg"
 
 #: mass.cpp:59
 #, kde-format
@@ -9073,7 +9076,7 @@ msgstr "téragrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teragram;teragrams;Tg"
-msgstr "téragramme;téragrammes;Tg"
+msgstr "téragramme ; téragrammes ; Tg"
 
 #: mass.cpp:69
 #, kde-format
@@ -9105,7 +9108,7 @@ msgstr "gigagrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigagram;gigagrams;Gg"
-msgstr "gigagramme;gigagrammes;Gg"
+msgstr "gigagramme ; gigagrammes ; Gg"
 
 #: mass.cpp:79
 #, kde-format
@@ -9137,7 +9140,7 @@ msgstr "mégagrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megagram;megagrams;Mg"
-msgstr "mégagramme;mégagrammes;Mg"
+msgstr "mégagramme ; mégagrammes ; Mg"
 
 #: mass.cpp:89
 #, kde-format
@@ -9169,7 +9172,7 @@ msgstr "kilogrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram;kilograms;kg"
-msgstr "kilogramme;kilogrammes;kg"
+msgstr "kilogramme ; kilogrammes ; kg"
 
 #: mass.cpp:99
 #, kde-format
@@ -9201,7 +9204,7 @@ msgstr "hectogrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectogram;hectograms;hg"
-msgstr "hectogramme;hectogrammes;hg"
+msgstr "hectogramme ; hectogrammes ; hg"
 
 #: mass.cpp:109
 #, kde-format
@@ -9233,7 +9236,7 @@ msgstr "décagrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decagram;decagrams;dag"
-msgstr "décagramme;décagrammes;dag"
+msgstr "décagramme ; décagrammes ; dag"
 
 #: mass.cpp:119
 #, kde-format
@@ -9265,7 +9268,7 @@ msgstr "grammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gram;grams;g"
-msgstr "gramme;grammes;g"
+msgstr "gramme ; grammes ; g"
 
 #: mass.cpp:129
 #, kde-format
@@ -9297,7 +9300,7 @@ msgstr "décigrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decigram;decigrams;dg"
-msgstr "décigramme;décigrammes;dg"
+msgstr "décigramme ; décigrammes ; dg"
 
 #: mass.cpp:139
 #, kde-format
@@ -9329,7 +9332,7 @@ msgstr "centigrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centigram;centigrams;cg"
-msgstr "centigramme;centigrammes;cg"
+msgstr "centigramme ; centigrammes ; cg"
 
 #: mass.cpp:149
 #, kde-format
@@ -9361,7 +9364,7 @@ msgstr "milligrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "milligram;milligrams;mg"
-msgstr "milligramme;milligrammes;mg"
+msgstr "milligramme ; milligrammes ; mg"
 
 #: mass.cpp:159
 #, kde-format
@@ -9393,7 +9396,7 @@ msgstr "microgrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "microgram;micrograms;µg;ug"
-msgstr "microgramme;microgrammes;µg;ug"
+msgstr "microgramme ; microgrammes ; µg ; ug"
 
 #: mass.cpp:169
 #, kde-format
@@ -9425,7 +9428,7 @@ msgstr "nanogrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanogram;nanograms;ng"
-msgstr "nanogramme;nanogrammes;ng"
+msgstr "nanogramme ; nanogrammes ; ng"
 
 #: mass.cpp:179
 #, kde-format
@@ -9457,7 +9460,7 @@ msgstr "picogrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picogram;picograms;pg"
-msgstr "picogramme;picogrammes;pg"
+msgstr "picogramme ; picogrammes ; pg"
 
 #: mass.cpp:189
 #, kde-format
@@ -9489,7 +9492,7 @@ msgstr "femtogrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtogram;femtograms;fg"
-msgstr "femtogramme;femtogrammes;fg"
+msgstr "femtogramme ; femtogrammes ; fg"
 
 #: mass.cpp:199
 #, kde-format
@@ -9521,7 +9524,7 @@ msgstr "attogrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attogram;attograms;ag"
-msgstr "attogramme;attogrammes;ag"
+msgstr "attogramme ; attogrammes ; ag"
 
 #: mass.cpp:209
 #, kde-format
@@ -9553,7 +9556,7 @@ msgstr "zeptogrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptogram;zeptograms;zg"
-msgstr "zeptogramme;zeptogrammes;zg"
+msgstr "zeptogramme ; zeptogrammes ; zg"
 
 #: mass.cpp:219
 #, kde-format
@@ -9585,7 +9588,7 @@ msgstr "yoctogrammes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctogram;yoctograms;yg"
-msgstr "yoctogramme;yoctogrammes;yg"
+msgstr "yoctogramme ; yoctogrammes ; yg"
 
 #: mass.cpp:229
 #, kde-format
@@ -9745,7 +9748,7 @@ msgstr "onces troy"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "troy ounce;troy ounces;t oz"
-msgstr "once troy;onces troy;t oz;ozt"
+msgstr "once troy ; onces troy ; t oz ; ozt"
 
 #: mass.cpp:282
 #, kde-format
@@ -9783,7 +9786,7 @@ msgstr "kilonewton"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilonewton;kilonewton;kN"
-msgstr "kilonewton;kilonewton;kN"
+msgstr "kilonewton ; kilonewton ; kN"
 
 #: mass.cpp:303
 #, kde-format
@@ -9807,7 +9810,7 @@ msgstr "stone"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "stone;st"
-msgstr "stone;st"
+msgstr "stone ; st"
 
 #: mass.cpp:313
 #, kde-format
@@ -9850,7 +9853,7 @@ msgstr "Darcy"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Darcy;Darcys;Dar;Darc"
-msgstr "Darcy;Darcys;Dar;Darc"
+msgstr "Darcy ; Darcys ; Dar ; Darc"
 
 #: permeability.cpp:27
 #, kde-format
@@ -9882,7 +9885,7 @@ msgstr "MilliDarcy"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Milli-Darcy;MilliDarcy;MilliDar;mDarcy;mDar;mDarc"
-msgstr "Milli-Darcy;MilliDarcy;MilliDar;mDarcy;mDar;mDarc"
+msgstr "Milli-Darcy ; MilliDarcy ; MilliDar ; mDarcy ; mDar ; mDarc"
 
 #: permeability.cpp:37
 #, kde-format
@@ -9914,7 +9917,7 @@ msgstr "micromètres carrés"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Permeability;Pµm²;PSquare µm;squaremicrometers;Pµm^2"
-msgstr "Perméabilité;Pµm²;Pµm carré;micromètres carrés;Pµm^2"
+msgstr "Perméabilité ; Pµm² ;Pµm carré ; micromètres carrés ; Pµm^2"
 
 #: permeability.cpp:47
 #, kde-format
@@ -9957,7 +9960,7 @@ msgstr "yottawatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottawatt;yottawatts;YW"
-msgstr "yottawatt;yottawatts;YW"
+msgstr "yottawatt ; yottawatts ; YW"
 
 #: power.cpp:60
 #, kde-format
@@ -9989,7 +9992,7 @@ msgstr "zettawatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettawatt;zettawatts;ZW"
-msgstr "zettawatt;zettawatts;ZW"
+msgstr "zettawatt ; zettawatts ; ZW"
 
 #: power.cpp:70
 #, kde-format
@@ -10021,7 +10024,7 @@ msgstr "exawatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exawatt;exawatts;EW"
-msgstr "exawatt;exawatts;EW"
+msgstr "exawatt ; exawatts ; EW"
 
 #: power.cpp:80
 #, kde-format
@@ -10053,7 +10056,7 @@ msgstr "pétawatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petawatt;petawatts;PW"
-msgstr "pétawatt;pétawatts;PW"
+msgstr "pétawatt ; pétawatts ; PW"
 
 #: power.cpp:90
 #, kde-format
@@ -10085,7 +10088,7 @@ msgstr "térawatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terawatt;terawatts;TW"
-msgstr "térawatt;térawatts;TW"
+msgstr "térawatt ; térawatts ; TW"
 
 #: power.cpp:100
 #, kde-format
@@ -10117,7 +10120,7 @@ msgstr "gigawatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigawatt;gigawatts;GW"
-msgstr "gigawatt;gigawatts;GW"
+msgstr "gigawatt ; gigawatts ; GW"
 
 #: power.cpp:110
 #, kde-format
@@ -10149,7 +10152,7 @@ msgstr "mégawatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megawatt;megawatts;MW"
-msgstr "mégawatt;mégawatts;MW"
+msgstr "mégawatt ; mégawatts ; MW"
 
 #: power.cpp:120
 #, kde-format
@@ -10181,7 +10184,7 @@ msgstr "kilowatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilowatt;kilowatts;kW"
-msgstr "kilowatt;kilowatts;kW"
+msgstr "kilowatt ; kilowatts ; kW"
 
 #: power.cpp:130
 #, kde-format
@@ -10213,7 +10216,7 @@ msgstr "hectowatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectowatt;hectowatts;hW"
-msgstr "hectowatt;hectowatts;hW"
+msgstr "hectowatt ; hectowatts ; hW"
 
 #: power.cpp:140
 #, kde-format
@@ -10245,7 +10248,7 @@ msgstr "décawatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decawatt;decawatts;daW"
-msgstr "décawatt;décawatts;daW"
+msgstr "décawatt ; décawatts ; daW"
 
 #: power.cpp:150
 #, kde-format
@@ -10277,7 +10280,7 @@ msgstr "watts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt;watts;W"
-msgstr "watt;watts;W"
+msgstr "watt ; watts ; W"
 
 #: power.cpp:160
 #, kde-format
@@ -10309,7 +10312,7 @@ msgstr "déciwatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "deciwatt;deciwatts;dW"
-msgstr "déciwatt;déciwatts;dW"
+msgstr "déciwatt ; déciwatts ; dW"
 
 #: power.cpp:170
 #, kde-format
@@ -10341,7 +10344,7 @@ msgstr "centiwatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centiwatt;centiwatts;cW"
-msgstr "centiwatt;centiwatts;cW"
+msgstr "centiwatt ; centiwatts ; cW"
 
 #: power.cpp:180
 #, kde-format
@@ -10373,7 +10376,7 @@ msgstr "milliwatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "milliwatt;milliwatts;mW"
-msgstr "milliwatt;milliwatts;mW"
+msgstr "milliwatt ; milliwatts ; mW"
 
 #: power.cpp:190
 #, kde-format
@@ -10405,7 +10408,7 @@ msgstr "microwatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "microwatt;microwatts;µW;uW"
-msgstr "microwatt;microwatts;µW;uW"
+msgstr "microwatt ; microwatts ; µW ; uW"
 
 #: power.cpp:200
 #, kde-format
@@ -10437,7 +10440,7 @@ msgstr "nanowatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanowatt;nanowatts;nW"
-msgstr "nanowatt;nanowatts;nW"
+msgstr "nanowatt ; nanowatts ; nW"
 
 #: power.cpp:210
 #, kde-format
@@ -10469,7 +10472,7 @@ msgstr "picowatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picowatt;picowatts;pW"
-msgstr "picowatt;picowatts;pW"
+msgstr "picowatt ; picowatts ; pW"
 
 #: power.cpp:220
 #, kde-format
@@ -10501,7 +10504,7 @@ msgstr "femtowatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtowatt;femtowatts;fW"
-msgstr "femtowatt;femtowatts;fW"
+msgstr "femtowatt ; femtowatts ; fW"
 
 #: power.cpp:230
 #, kde-format
@@ -10533,7 +10536,7 @@ msgstr "attowatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attowatt;attowatts;aW"
-msgstr "attowatt;attowatts;aW"
+msgstr "attowatt ; attowatts ; aW"
 
 #: power.cpp:240
 #, kde-format
@@ -10565,7 +10568,7 @@ msgstr "zeptowatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptowatt;zeptowatts;zW"
-msgstr "zeptowatt;zeptowatts;zW"
+msgstr "zeptowatt ; zeptowatts ; zW"
 
 #: power.cpp:250
 #, kde-format
@@ -10597,7 +10600,7 @@ msgstr "yoctowatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctowatt;yoctowatts;yW"
-msgstr "yoctowatt;yoctowatts;yW"
+msgstr "yoctowatt ; yoctowatts ; yW"
 
 #: power.cpp:260
 #, kde-format
@@ -10629,7 +10632,7 @@ msgstr "chevaux-vapeur"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "horsepower;horsepowers;hp"
-msgstr "cheval-vapeur;chevaux-vapeur;hp;ch"
+msgstr "cheval-vapeur ; chevaux-vapeur ; hp ; ch"
 
 #: power.cpp:270
 #, kde-format
@@ -10661,7 +10664,7 @@ msgstr "décibel kilowatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBk;dBkW;dB(kW)"
-msgstr "dBk;dBkW;dB(kW)"
+msgstr "dBk ; dBkW ; dB(kW)"
 
 #: power.cpp:282
 #, kde-format
@@ -10693,7 +10696,7 @@ msgstr "décibel watts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBW;dB(W)"
-msgstr "dBW;dB(W)"
+msgstr "dBW ; dB(W)"
 
 #: power.cpp:292
 #, kde-format
@@ -10725,7 +10728,7 @@ msgstr "décibel milliwatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBm;dBmW;dB(mW)"
-msgstr "dBm;dBmW;dB(mW)"
+msgstr "dBm ; dBmW ; dB(mW)"
 
 #: power.cpp:302
 #, kde-format
@@ -10757,7 +10760,7 @@ msgstr "décibel microwatts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBuW;dBµW;dB(uW);dB(µW)"
-msgstr "dBuW;dBµW;dB(uW);dB(µW)"
+msgstr "dBuW ; dBµW ; dB(uW) ; dB(µW)"
 
 #: power.cpp:312
 #, kde-format
@@ -10800,7 +10803,7 @@ msgstr "yottapascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottapascal;yottapascals;YPa"
-msgstr "yottapascal;yottapascals;YPa"
+msgstr "yottapascal ; yottapascals ; YPa"
 
 #: pressure.cpp:28
 #, kde-format
@@ -10832,7 +10835,7 @@ msgstr "zettapascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettapascal;zettapascals;ZPa"
-msgstr "zettapascal;zettapascals;ZPa"
+msgstr "zettapascal ; zettapascals ; ZPa"
 
 #: pressure.cpp:38
 #, kde-format
@@ -10864,7 +10867,7 @@ msgstr "exapascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exapascal;exapascals;EPa"
-msgstr "exapascal;exapascals;EPa"
+msgstr "exapascal ; exapascals ; EPa"
 
 #: pressure.cpp:48
 #, kde-format
@@ -10896,7 +10899,7 @@ msgstr "pétapascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petapascal;petapascals;PPa"
-msgstr "pétapascal;pétapascals;PPa"
+msgstr "pétapascal ; pétapascals ; PPa"
 
 #: pressure.cpp:58
 #, kde-format
@@ -10928,7 +10931,7 @@ msgstr "térapascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terapascal;terapascals;TPa"
-msgstr "térapascal;térapascals;TPa"
+msgstr "térapascal ; térapascals ; TPa"
 
 #: pressure.cpp:68
 #, kde-format
@@ -10960,7 +10963,7 @@ msgstr "gigapascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigapascal;gigapascals;GPa"
-msgstr "gigapascal;gigapascals;GPa"
+msgstr "gigapascal ; gigapascals ; GPa"
 
 #: pressure.cpp:78
 #, kde-format
@@ -10992,7 +10995,7 @@ msgstr "mégapascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megapascal;megapascals;MPa"
-msgstr "mégapascal;mégapascals;MPa"
+msgstr "mégapascal ; mégapascals ; MPa"
 
 #: pressure.cpp:88
 #, kde-format
@@ -11024,7 +11027,7 @@ msgstr "kilopascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilopascal;kilopascals;kPa"
-msgstr "kilopascal;kilopascals;kPa"
+msgstr "kilopascal ; kilopascals ; kPa"
 
 #: pressure.cpp:98
 #, kde-format
@@ -11056,7 +11059,7 @@ msgstr "hectopascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectopascal;hectopascals;hPa"
-msgstr "hectopascal;hectopascals;hPa"
+msgstr "hectopascal ; hectopascals ; hPa"
 
 #: pressure.cpp:108
 #, kde-format
@@ -11088,7 +11091,7 @@ msgstr "décapascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decapascal;decapascals;daPa"
-msgstr "décapascal;décapascals;daPa"
+msgstr "décapascal ; décapascals ; daPa"
 
 #: pressure.cpp:118
 #, kde-format
@@ -11120,7 +11123,7 @@ msgstr "pascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pascal;pascals;Pa"
-msgstr "pascal;pascals;Pa"
+msgstr "pascal ; pascals ; Pa"
 
 #: pressure.cpp:128
 #, kde-format
@@ -11152,7 +11155,7 @@ msgstr "décipascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decipascal;decipascals;dPa"
-msgstr "décipascal;décipascals;dPa"
+msgstr "décipascal ; décipascals ; dPa"
 
 #: pressure.cpp:138
 #, kde-format
@@ -11184,7 +11187,7 @@ msgstr "centipascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centipascal;centipascals;cPa"
-msgstr "centipascal;centipascals;cPa"
+msgstr "centipascal ; centipascals ; cPa"
 
 #: pressure.cpp:148
 #, kde-format
@@ -11216,7 +11219,7 @@ msgstr "millipascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "millipascal;millipascals;mPa"
-msgstr "millipascal;millipascals;mPa"
+msgstr "millipascal ; millipascals ; mPa"
 
 #: pressure.cpp:158
 #, kde-format
@@ -11248,7 +11251,7 @@ msgstr "micropascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "micropascal;micropascals;µPa;uPa"
-msgstr "micropascal;micropascals;µPa;uPa"
+msgstr "micropascal ; micropascals ; µPa ; uPa"
 
 #: pressure.cpp:168
 #, kde-format
@@ -11280,7 +11283,7 @@ msgstr "nanopascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanopascal;nanopascals;nPa"
-msgstr "nanopascal;nanopascals;nPa"
+msgstr "nanopascal ; nanopascals ; nPa"
 
 #: pressure.cpp:178
 #, kde-format
@@ -11312,7 +11315,7 @@ msgstr "picopascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picopascal;picopascals;pPa"
-msgstr "picopascal;picopascals;pPa"
+msgstr "picopascal ; picopascals ; pPa"
 
 #: pressure.cpp:188
 #, kde-format
@@ -11344,7 +11347,7 @@ msgstr "femtopascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtopascal;femtopascals;fPa"
-msgstr "femtopascal;femtopascals;fPa"
+msgstr "femtopascal ; femtopascals ; fPa"
 
 #: pressure.cpp:198
 #, kde-format
@@ -11376,7 +11379,7 @@ msgstr "attopascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attopascal;attopascals;aPa"
-msgstr "attopascal;attopascals;aPa"
+msgstr "attopascal ; attopascals ; aPa"
 
 #: pressure.cpp:208
 #, kde-format
@@ -11408,7 +11411,7 @@ msgstr "zeptopascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptopascal;zeptopascals;zPa"
-msgstr "zeptopascal;zeptopascals;zPa"
+msgstr "zeptopascal ; zeptopascals ; zPa"
 
 #: pressure.cpp:218
 #, kde-format
@@ -11440,7 +11443,7 @@ msgstr "yoctopascals"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctopascal;yoctopascals;yPa"
-msgstr "yoctopascal;yoctopascals;yPa"
+msgstr "yoctopascal ; yoctopascals ; yPa"
 
 #: pressure.cpp:228
 #, kde-format
@@ -11472,7 +11475,7 @@ msgstr "bars"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "bar;bars;bar"
-msgstr "bar;bars;bar"
+msgstr "bar ; bars ; bar"
 
 #: pressure.cpp:238
 #, kde-format
@@ -11504,7 +11507,7 @@ msgstr "millibars"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "millibar;millibars;mbar;mb"
-msgstr "millibar;millibars;mbar;mb"
+msgstr "millibar ; millibars ; mbar ; mb"
 
 #: pressure.cpp:248
 #, kde-format
@@ -11536,7 +11539,7 @@ msgstr "décibars"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decibar;decibars;dbar"
-msgstr "décibar;décibars;dbar"
+msgstr "décibar ; décibars ; dbar"
 
 #: pressure.cpp:258
 #, kde-format
@@ -11600,7 +11603,7 @@ msgstr "atmosphères techniques"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "technical atmosphere;technical atmospheres;at"
-msgstr "atmosphère technique;atmosphères techniques;at"
+msgstr "atmosphère technique ; atmosphères techniques ; at"
 
 #: pressure.cpp:278
 #, kde-format
@@ -11632,7 +11635,7 @@ msgstr "atmosphères"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "atmosphere;atmospheres;atm"
-msgstr "atmosphère;atmosphères;atm"
+msgstr "atmosphère ; atmosphères ; atm"
 
 #: pressure.cpp:288
 #, kde-format
@@ -11665,8 +11668,8 @@ msgstr "livres par pouce carré"
 msgctxt "unit synonyms for matching user input"
 msgid "pound-force per square inch;pound-force per square inches;psi"
 msgstr ""
-"livre par pouce carré;livres par pouce carré;livre-force par pouce carré;"
-"livre-force par pouces carrés;psi"
+"livre par pouce carré ; livres par pouce carré ; livre-force par pouce "
+"carré ; livre-force par pouces carrés ; psi"
 
 #: pressure.cpp:298
 #, kde-format
@@ -11698,7 +11701,7 @@ msgstr "pouces de mercure"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "inch of mercury;inches of mercury;inHg;in\""
-msgstr "pouce de mercure;pouces de mercure;inHg;poHg;in\";po\""
+msgstr "pouce de mercure ; pouces de mercure ; inHg ; poHg ; in\" ; in po\""
 
 #: pressure.cpp:309
 #, kde-format
@@ -11730,7 +11733,7 @@ msgstr "millimètres de mercure"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "millimeter of mercury;millimeters of mercury;mmHg"
-msgstr "millimètre de mercure;millimètres de mercure;mmHg"
+msgstr "millimètre de mercure ; millimètres de mercure ; mmHg"
 
 #: pressure.cpp:320
 #, kde-format
@@ -11773,7 +11776,7 @@ msgstr "kelvins"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kelvin;kelvins;K"
-msgstr "kelvin;kelvins;K"
+msgstr "kelvin ; kelvins ; K"
 
 #: temperature.cpp:190
 #, kde-format
@@ -11805,7 +11808,7 @@ msgstr "Celsius"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Celsius;°C;C"
-msgstr "Celsius;°C;C"
+msgstr "Celsius ; °C  ;C"
 
 #: temperature.cpp:200
 #, kde-format
@@ -11837,7 +11840,7 @@ msgstr "Fahrenheit"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Fahrenheit;°F;F"
-msgstr "Fahrenheit;°F;F"
+msgstr "Fahrenheit ; °F ; F"
 
 #: temperature.cpp:210
 #, kde-format
@@ -11869,7 +11872,7 @@ msgstr "Rankine"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Rankine;°R;R;Ra"
-msgstr "Rankine;°R;R;Ra"
+msgstr "Rankine ; °R ; R ; Ra"
 
 #: temperature.cpp:220
 #, kde-format
@@ -11901,7 +11904,7 @@ msgstr "Delisle"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Delisle;°De;De"
-msgstr "Delisle;°De;De"
+msgstr "Delisle ; °De ; De"
 
 #: temperature.cpp:230
 #, kde-format
@@ -11933,7 +11936,7 @@ msgstr "Newton"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Newton;°N;N"
-msgstr "Newton;°N;N"
+msgstr "Newton ; °N ; N"
 
 #: temperature.cpp:240
 #, kde-format
@@ -11965,7 +11968,7 @@ msgstr "Réaumur"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Réaumur;°Ré;Ré;Reaumur;°Re;Re"
-msgstr "Réaumur;°Ré;Ré;Reaumur;°Re;Re"
+msgstr "Réaumur ; °Ré ; Ré ; Reaumur ; °Re ; Re"
 
 #: temperature.cpp:250
 #, kde-format
@@ -11997,7 +12000,7 @@ msgstr "Rømer"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Rømer;°Rø;Rø;Romer;°Ro;Ro"
-msgstr "Rømer;°Rø;Rø;Romer;°Ro;Ro;Roemer"
+msgstr "Rømer ; °Rø ; Rø ; Romer ; °Ro ; Ro ; Roemer"
 
 #: temperature.cpp:260
 #, kde-format
@@ -12028,7 +12031,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "W/m·K"
-msgstr "W/m·K"
+msgstr "W / m·K"
 
 #: thermal_conductivity.cpp:25
 #, kde-format
@@ -12040,7 +12043,7 @@ msgstr "watt par mètre-kelvin"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per meter kelvin;watt per meter-kelvin;W/mK;W/m.K"
-msgstr "watt par mètre kelvin;watt par mètre-kelvin;W/mK;W/m.K"
+msgstr "watt par mètre kelvin ; watt par mètre-kelvin ; W / mK ; W / m.K"
 
 #: thermal_conductivity.cpp:28
 #, kde-format
@@ -12060,13 +12063,13 @@ msgstr[1] "%1 watts par mètre-kelvin"
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "Btu/ft·hr·°F"
-msgstr "Btu/ft·hr·°F"
+msgstr "Btu / ft·hr·°F"
 
 #: thermal_conductivity.cpp:35
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per foot hour degree Fahrenheit"
-msgstr "btu par pied heure degré Fahrenheit"
+msgstr "Btu par pied heure degré Fahrenheit"
 
 #: thermal_conductivity.cpp:37
 #, kde-format
@@ -12075,8 +12078,8 @@ msgid ""
 "btu per foot hour degree Fahrenheit;btu per foot hour Fahrenheit;btu per "
 "foot-hour-Fahrenheit;Btu/ft-hr-F"
 msgstr ""
-"btu par pied heure degré Fahrenheit;btu par pied heure Fahrenheit;btu par "
-"pied-heure-Fahrenheit;Btu/ft-hr-F"
+"Btu par pied heure degré Fahrenheit ; btu par pied heure Fahrenheit ; btu "
+"par pied-heure-Fahrenheit ; Btu / ft-hr-F"
 
 #: thermal_conductivity.cpp:39
 #, kde-format
@@ -12096,7 +12099,7 @@ msgstr[1] "%1 btu par pied heure degré Fahrenheit"
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "Btu/ft²·hr·°F/in"
-msgstr "Btu/ft²·hr·°F/in"
+msgstr "Btu / ft²·hr·°F / in"
 
 #: thermal_conductivity.cpp:46
 #, kde-format
@@ -12112,9 +12115,9 @@ msgid ""
 "hour Fahrenheit per inch;btu per sq foot-hour-Fahrenheit per inch;Btu/ft^2-"
 "hr-F/in"
 msgstr ""
-"btu par pied carré heure degré Fahrenheit par pouce;btu par pied carré heure "
-"Fahrenheit par pouce;btu par pied carré-heure-degré Fahrenheit par pouce;Btu/"
-"ft^2-hr-F/in"
+"btu par pied carré heure degré Fahrenheit par pouce ; btu par pied carré "
+"heure Fahrenheit par pouce ; btu par pied carré-heure-degré Fahrenheit par "
+"pouce ; Btu/ft^2-hr-F / in"
 
 #: thermal_conductivity.cpp:51
 #, kde-format
@@ -12145,7 +12148,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "thermal flux unit symbol"
 msgid "W/m²"
-msgstr "W/m²"
+msgstr "W / m²"
 
 #: thermal_flux.cpp:26
 #, kde-format
@@ -12157,7 +12160,7 @@ msgstr "watt par mètre carré"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per square meter;W/m2;W/m^2"
-msgstr "watt par mètre carré;W/m2;W/m^2"
+msgstr "watt par mètre carré ; W / m2 ; W / m^2"
 
 #: thermal_flux.cpp:29
 #, kde-format
@@ -12177,7 +12180,7 @@ msgstr[1] "%1 watts par mètre carré"
 #, kde-format
 msgctxt "thermal flux unit symbol"
 msgid "Btu/hr/ft²"
-msgstr "Btu/hr/ft²"
+msgstr "Btu / hr / ft²"
 
 #: thermal_flux.cpp:36
 #, kde-format
@@ -12191,7 +12194,8 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
 msgstr ""
-"btu par heure par pied carré;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
+"btu par heure par pied carré ; Btu / hr / ft2 ; Btu / hr / ft^2 ; Btu / "
+"ft^2 / hr ; Btu / ft2 / hr"
 
 #: thermal_flux.cpp:39
 #, kde-format
@@ -12222,7 +12226,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "thermal generation unit symbol"
 msgid "W/m³"
-msgstr "W/m³"
+msgstr "W / m³"
 
 #: thermal_generation.cpp:25
 #, kde-format
@@ -12234,7 +12238,7 @@ msgstr "watt par mètre cube"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per cubic meter;W/m3;W/m^3"
-msgstr "watt par mètre cube;W/m3;W/m^3"
+msgstr "watt par mètre cube ; W / m3 ; W / m^3"
 
 #: thermal_generation.cpp:28
 #, kde-format
@@ -12254,7 +12258,7 @@ msgstr[1] "%1 watts par mètre cube"
 #, kde-format
 msgctxt "thermal generation unit symbol"
 msgid "Btu/hr/ft³"
-msgstr "Btu/hr/ft³"
+msgstr "Btu / hr / ft³"
 
 #: thermal_generation.cpp:35
 #, kde-format
@@ -12268,7 +12272,8 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
 msgstr ""
-"btu par heure par pied cube;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
+"btu par heure par pied cube ; Btu / hr / ft3 ; Btu / hr / ft^3 ; Btu / "
+"ft^3 / hr ; Btu / ft3 / hr"
 
 #: thermal_generation.cpp:38
 #, kde-format
@@ -12311,7 +12316,7 @@ msgstr "yottasecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottasecond;yottaseconds;Ys"
-msgstr "yottaseconde;yottasecondes;Ys"
+msgstr "yottaseconde ; yottasecondes ; Ys"
 
 #: timeunit.cpp:28
 #, kde-format
@@ -12343,7 +12348,7 @@ msgstr "zettasecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettasecond;zettaseconds;Zs"
-msgstr "zettaseconde;zettasecondes;Zs"
+msgstr "zettaseconde ; zettasecondes ; Zs"
 
 #: timeunit.cpp:38
 #, kde-format
@@ -12375,7 +12380,7 @@ msgstr "exasecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exasecond;exaseconds;Es"
-msgstr "exaseconde;exasecondes;Es"
+msgstr "exaseconde ; exasecondes ; Es"
 
 #: timeunit.cpp:48
 #, kde-format
@@ -12407,7 +12412,7 @@ msgstr "pétasecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petasecond;petaseconds;Ps"
-msgstr "pétaseconde;pétasecondes;Ps"
+msgstr "pétaseconde ; pétasecondes ; Ps"
 
 #: timeunit.cpp:58
 #, kde-format
@@ -12439,7 +12444,7 @@ msgstr "térasecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terasecond;teraseconds;Ts"
-msgstr "téraseconde;térasecondes;Ts"
+msgstr "téraseconde ; térasecondes ; Ts"
 
 #: timeunit.cpp:68
 #, kde-format
@@ -12471,7 +12476,7 @@ msgstr "gigasecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigasecond;gigaseconds;Gs"
-msgstr "gigaseconde;gigasecondes;Gs"
+msgstr "gigaseconde ; gigasecondes ; Gs"
 
 #: timeunit.cpp:78
 #, kde-format
@@ -12503,7 +12508,7 @@ msgstr "mégasecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megasecond;megaseconds;Ms"
-msgstr "mégaseconde;mégasecondes;Ms"
+msgstr "mégaseconde ; mégasecondes ; Ms"
 
 #: timeunit.cpp:88
 #, kde-format
@@ -12535,7 +12540,7 @@ msgstr "kilosecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilosecond;kiloseconds;ks"
-msgstr "kiloseconde;kilosecondes;ks"
+msgstr "kiloseconde ; kilosecondes ; ks"
 
 #: timeunit.cpp:98
 #, kde-format
@@ -12567,7 +12572,7 @@ msgstr "hectosecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectosecond;hectoseconds;hs"
-msgstr "hectoseconde;hectosecondes;hs"
+msgstr "hectoseconde ; hectosecondes ; hs"
 
 #: timeunit.cpp:108
 #, kde-format
@@ -12599,7 +12604,7 @@ msgstr "décasecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decasecond;decaseconds;das"
-msgstr "décaseconde;décasecondes;das"
+msgstr "décaseconde ; décasecondes ; das"
 
 #: timeunit.cpp:118
 #, kde-format
@@ -12631,7 +12636,7 @@ msgstr "secondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "second;seconds;s"
-msgstr "seconde;secondes;s"
+msgstr "seconde ; secondes ; s"
 
 #: timeunit.cpp:128
 #, kde-format
@@ -12663,7 +12668,7 @@ msgstr "décisecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decisecond;deciseconds;ds"
-msgstr "déciseconde;décisecondes;ds"
+msgstr "déciseconde ; décisecondes ; ds"
 
 #: timeunit.cpp:138
 #, kde-format
@@ -12695,7 +12700,7 @@ msgstr "centisecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centisecond;centiseconds;cs"
-msgstr "centiseconde;centisecondes;cs"
+msgstr "centiseconde ; centisecondes ; cs"
 
 #: timeunit.cpp:148
 #, kde-format
@@ -12727,7 +12732,7 @@ msgstr "millisecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "millisecond;milliseconds;ms"
-msgstr "milliseconde;millisecondes;ms"
+msgstr "milliseconde ; millisecondes ; ms"
 
 #: timeunit.cpp:158
 #, kde-format
@@ -12759,7 +12764,7 @@ msgstr "microsecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "microsecond;microseconds;µs;us"
-msgstr "microseconde;microsecondes;µs;us"
+msgstr "microseconde ; microsecondes ; µs ; us"
 
 #: timeunit.cpp:168
 #, kde-format
@@ -12791,7 +12796,7 @@ msgstr "nanosecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanosecond;nanoseconds;ns"
-msgstr "nanoseconde;nanosecondes;ns"
+msgstr "nanoseconde ; nanosecondes ; ns"
 
 #: timeunit.cpp:178
 #, kde-format
@@ -12823,7 +12828,7 @@ msgstr "picosecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picosecond;picoseconds;ps"
-msgstr "picoseconde;picosecondes;ps"
+msgstr "picoseconde ; picosecondes ; ps"
 
 #: timeunit.cpp:188
 #, kde-format
@@ -12855,7 +12860,7 @@ msgstr "femtosecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtosecond;femtoseconds;fs"
-msgstr "femtoseconde;femtosecondes;fs"
+msgstr "femtoseconde ; femtosecondes ; fs"
 
 #: timeunit.cpp:198
 #, kde-format
@@ -12887,7 +12892,7 @@ msgstr "attosecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attosecond;attoseconds;as"
-msgstr "attoseconde;attosecondes;as"
+msgstr "attoseconde ; attosecondes ; as"
 
 #: timeunit.cpp:208
 #, kde-format
@@ -12919,7 +12924,7 @@ msgstr "zeptosecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptosecond;zeptoseconds;zs"
-msgstr "zeptoseconde;zeptosecondes;zs"
+msgstr "zeptoseconde ; zeptosecondes ; zs"
 
 #: timeunit.cpp:218
 #, kde-format
@@ -12951,7 +12956,7 @@ msgstr "yoctosecondes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctosecond;yoctoseconds;ys"
-msgstr "yoctoseconde;yoctosecondes;ys"
+msgstr "yoctoseconde ; yoctosecondes ; ys"
 
 #: timeunit.cpp:228
 #, kde-format
@@ -12983,7 +12988,7 @@ msgstr "minutes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "minute;minutes;min"
-msgstr "minute;minutes;min"
+msgstr "minute ; minutes ; min"
 
 #: timeunit.cpp:238
 #, kde-format
@@ -13015,7 +13020,7 @@ msgstr "heures"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hour;hours;h"
-msgstr "heure;heures;h"
+msgstr "heure ; heures ; h"
 
 #: timeunit.cpp:248
 #, kde-format
@@ -13047,7 +13052,7 @@ msgstr "jours"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "day;days;d"
-msgstr "jour;jours;j"
+msgstr "jour ; jours ; j"
 
 #: timeunit.cpp:258
 #, kde-format
@@ -13079,7 +13084,7 @@ msgstr "semaines"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "week;weeks"
-msgstr "semaine;semaines"
+msgstr "semaine ; semaines"
 
 #: timeunit.cpp:268
 #, kde-format
@@ -13111,7 +13116,7 @@ msgstr "années juliennes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Julian year;Julian years;a"
-msgstr "année julienne;années juliennes;a"
+msgstr "année julienne ; années juliennes ; a"
 
 #: timeunit.cpp:278
 #, kde-format
@@ -13143,7 +13148,7 @@ msgstr "années bissextiles"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "leap year;leap years"
-msgstr "année bissextile;années bissextiles"
+msgstr "année bissextile ; années bissextiles"
 
 #: timeunit.cpp:288
 #, kde-format
@@ -13175,7 +13180,7 @@ msgstr "année"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "year;years;y"
-msgstr "année;années;an"
+msgstr "année ; années ; an"
 
 #: timeunit.cpp:299
 #, kde-format
@@ -13218,7 +13223,7 @@ msgstr "mètres par seconde"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "meter per second;meters per second;m/s;ms"
-msgstr "mètre par seconde;mètres par seconde;m/s;ms"
+msgstr "mètre par seconde ; mètres par seconde ; m / s ; ms"
 
 #: velocity.cpp:57
 #, kde-format
@@ -13282,7 +13287,8 @@ msgstr "milles par heure"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "mile per hour;miles per hour;mph"
-msgstr "mile par heure;miles par heure;mille par heure;milles par heure;mph"
+msgstr ""
+"mile par heure ; miles par heure ; mille par heure ; milles par heure ; mph"
 
 #: velocity.cpp:77
 #, kde-format
@@ -13314,7 +13320,9 @@ msgstr "pieds par seconde"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "foot per second;feet per second;ft/s;ft/sec;fps"
-msgstr "pied par seconde;pieds par seconde;ft/s;pi/s;ft/sec;pi/sec;fps"
+msgstr ""
+"pied par seconde ; pieds par seconde ; ft / s ; pi / s ; ft / sec ; pi / "
+"sec ; fps"
 
 #: velocity.cpp:87
 #, kde-format
@@ -13346,7 +13354,9 @@ msgstr "pouces par seconde"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "inch per second;inches per second;in/s;in/sec;ips"
-msgstr "pouce par seconde;pouces par seconde;in/s;po/s;in/sec;po/sec;ips"
+msgstr ""
+"pouce par seconde ; pouces par seconde ; in / s ;po / s ;in / sec ;po / "
+"sec ; ips"
 
 #: velocity.cpp:97
 #, kde-format
@@ -13410,7 +13420,7 @@ msgstr "Mach"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "mach;machs;Ma;speed of sound"
-msgstr "mach;machs;Ma;vitesse du son"
+msgstr "mach ; machs ; Ma ; vitesse du son"
 
 #: velocity.cpp:118
 #, kde-format
@@ -13474,7 +13484,7 @@ msgstr "Beaufort"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Beaufort;Bft"
-msgstr "Beaufort;Bft"
+msgstr "Beaufort ; Bft"
 
 #: velocity.cpp:139
 #, kde-format
@@ -13517,7 +13527,7 @@ msgstr "yottavolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottavolt;yottavolts;YV"
-msgstr "yottavolt;yottavolts;YV"
+msgstr "yottavolt ; yottavolts ; YV"
 
 #: voltage.cpp:29
 #, kde-format
@@ -13549,7 +13559,7 @@ msgstr "zettavolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettavolt;zettavolts;ZV"
-msgstr "zettavolt;zettavolts;ZV"
+msgstr "zettavolt ; zettavolts ; ZV"
 
 #: voltage.cpp:39
 #, kde-format
@@ -13581,7 +13591,7 @@ msgstr "exavolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exavolt;exavolts;EV"
-msgstr "exavolt;exavolts;EV"
+msgstr "exavolt ; exavolts ; EV"
 
 #: voltage.cpp:49
 #, kde-format
@@ -13613,7 +13623,7 @@ msgstr "pétavolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petavolt;petavolts;PV"
-msgstr "pétavolt;pétavolts;PV"
+msgstr "pétavolt ; pétavolts ; PV"
 
 #: voltage.cpp:59
 #, kde-format
@@ -13645,7 +13655,7 @@ msgstr "téravolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teravolt;teravolts;TV"
-msgstr "téravolt;téravolts;TV"
+msgstr "téravolt ; téravolts ; TV"
 
 #: voltage.cpp:69
 #, kde-format
@@ -13677,7 +13687,7 @@ msgstr "gigavolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigavolt;gigavolts;GV"
-msgstr "gigavolt;gigavolts;GV"
+msgstr "gigavolt ; gigavolts ; GV"
 
 #: voltage.cpp:79
 #, kde-format
@@ -13709,7 +13719,7 @@ msgstr "mégavolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megavolt;megavolts;MV"
-msgstr "mégavolt;mégavolts;MV"
+msgstr "mégavolt ; mégavolts ; MV"
 
 #: voltage.cpp:89
 #, kde-format
@@ -13741,7 +13751,7 @@ msgstr "kilovolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilovolt;kilovolts;kV"
-msgstr "kilovolt;kilovolts;kV"
+msgstr "kilovolt ; kilovolts ; kV"
 
 #: voltage.cpp:99
 #, kde-format
@@ -13773,7 +13783,7 @@ msgstr "hectovolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectovolt;hectovolts;hV"
-msgstr "hectovolt;hectovolts;hV"
+msgstr "hectovolt ; hectovolts ; hV"
 
 #: voltage.cpp:109
 #, kde-format
@@ -13805,7 +13815,7 @@ msgstr "décavolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decavolt;decavolts;daV"
-msgstr "décavolt;décavolts;daV"
+msgstr "décavolt ; décavolts ; daV"
 
 #: voltage.cpp:119
 #, kde-format
@@ -13837,7 +13847,7 @@ msgstr "volts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "volt;volts;V"
-msgstr "volt;volts;V"
+msgstr "volt ; volts ; V"
 
 #: voltage.cpp:129
 #, kde-format
@@ -13869,7 +13879,7 @@ msgstr "décivolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decivolt;decivolts;dV"
-msgstr "décivolt;décivolts;dV"
+msgstr "décivolt ; décivolts ; dV"
 
 #: voltage.cpp:139
 #, kde-format
@@ -13901,7 +13911,7 @@ msgstr "centivolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centivolt;centivolts;cV"
-msgstr "centivolt;centivolts;cV"
+msgstr "centivolt ; centivolts ; cV"
 
 #: voltage.cpp:149
 #, kde-format
@@ -13933,7 +13943,7 @@ msgstr "millivolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "millivolt;millivolts;mV"
-msgstr "millivolt;millivolts;mV"
+msgstr "millivolt ; millivolts ; mV"
 
 #: voltage.cpp:159
 #, kde-format
@@ -13965,7 +13975,7 @@ msgstr "microvolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "microvolt;microvolts;µV;uV"
-msgstr "microvolt;microvolts;µV;uV"
+msgstr "microvolt ; microvolts ; µV ; uV"
 
 #: voltage.cpp:169
 #, kde-format
@@ -13997,7 +14007,7 @@ msgstr "nanovolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanovolt;nanovolts;nV"
-msgstr "nanovolt;nanovolts;nV"
+msgstr "nanovolt ; nanovolts ; nV"
 
 #: voltage.cpp:179
 #, kde-format
@@ -14029,7 +14039,7 @@ msgstr "picovolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picovolt;picovolts;pV"
-msgstr "picovolt;picovolts;pV"
+msgstr "picovolt ; picovolts ; pV"
 
 #: voltage.cpp:189
 #, kde-format
@@ -14061,7 +14071,7 @@ msgstr "femtovolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtovolt;femtovolts;fV"
-msgstr "femtovolt;femtovolts;fV"
+msgstr "femtovolt ; femtovolts ; fV"
 
 #: voltage.cpp:199
 #, kde-format
@@ -14093,7 +14103,7 @@ msgstr "attovolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attovolt;attovolts;aV"
-msgstr "attovolt;attovolts;aV"
+msgstr "attovolt ; attovolts ; aV"
 
 #: voltage.cpp:209
 #, kde-format
@@ -14125,7 +14135,7 @@ msgstr "zeptovolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptovolt;zeptovolts;zV"
-msgstr "zeptovolt;zeptovolts;zV"
+msgstr "zeptovolt ; zeptovolts ; zV"
 
 #: voltage.cpp:219
 #, kde-format
@@ -14157,7 +14167,7 @@ msgstr "yoctovolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctovolt;yoctovolts;yV"
-msgstr "yoctovolt;yoctovolts;yV"
+msgstr "yoctovolt ; yoctovolts ; yV"
 
 #: voltage.cpp:229
 #, kde-format
@@ -14189,7 +14199,7 @@ msgstr "statvolts"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "statvolt;statvolts;stV"
-msgstr "statvolt;statvolts;stV"
+msgstr "statvolt ; statvolts ; stV"
 
 #: voltage.cpp:239
 #, kde-format
@@ -14232,7 +14242,7 @@ msgstr "yottamètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic yottameter;cubic yottameters;Ym³;Ym/-3;Ym^3;Ym3"
-msgstr "yottamètre cube;yottamètres cubes;Ym³;Ym/-3;Ym^3;Ym3"
+msgstr "yottamètre cube ; yottamètres cubes ; Ym³ ; Ym / -3 ; Ym^3 ; Ym3"
 
 #: volume.cpp:28
 #, kde-format
@@ -14264,7 +14274,7 @@ msgstr "zettamètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic zettameter;cubic zettameters;Zm³;Zm/-3;Zm^3;Zm3"
-msgstr "zettamètre cube;zettamètres cubes;Zm³;Zm/-3;Zm^3;Zm3"
+msgstr "zettamètre cube ; zettamètres cubes ; Zm³ ; Zm / -3 ; Zm^3 ; Zm3"
 
 #: volume.cpp:39
 #, kde-format
@@ -14296,7 +14306,7 @@ msgstr "examètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic exameter;cubic exameters;Em³;Em/-3;Em^3;Em3"
-msgstr "examètre cube;examètres cubes;Em³;Em/-3;Em^3;Em3"
+msgstr "examètre cube ; examètres cubes ; Em³ ; Em / -3 ; Em^3 ; Em3"
 
 #: volume.cpp:49
 #, kde-format
@@ -14328,7 +14338,7 @@ msgstr "pétamètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic petameter;cubic petameters;Pm³;Pm/-3;Pm^3;Pm3"
-msgstr "pétamètre cube;pétamètres cubes;Pm³;Pm/-3;Pm^3;Pm3"
+msgstr "pétamètre cube ; pétamètres cubes ; Pm³ ; Pm / -3 ; Pm^3 ; Pm3"
 
 #: volume.cpp:59
 #, kde-format
@@ -14360,7 +14370,7 @@ msgstr "téramètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic terameter;cubic terameters;Tm³;Tm/-3;Tm^3;Tm3"
-msgstr "téramètre cube;téramètres cubes;Tm³;Tm/-3;Tm^3;Tm3"
+msgstr "téramètre cube ; téramètres cubes ; Tm³ ; Tm / -3 ; Tm^3 ; Tm3"
 
 #: volume.cpp:69
 #, kde-format
@@ -14392,7 +14402,7 @@ msgstr "gigamètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic gigameter;cubic gigameters;Gm³;Gm/-3;Gm^3;Gm3"
-msgstr "gigamètre cube;gigamètres cubes;Gm³;Gm/-3;Gm^3;Gm3"
+msgstr "gigamètre cube ; gigamètres cubes ; Gm³ ; Gm / -3 ; Gm^3 ; Gm3"
 
 #: volume.cpp:79
 #, kde-format
@@ -14424,7 +14434,7 @@ msgstr "mégamètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic megameter;cubic megameters;Mm³;Mm/-3;Mm^3;Mm3"
-msgstr "mégamètre cube;mégamètres cubes;Mm³;Mm/-3;Mm^3;Mm3"
+msgstr "mégamètre cube ; mégamètres cubes ; Mm³ ; Mm / -3 ; Mm^3 ; Mm3"
 
 #: volume.cpp:89
 #, kde-format
@@ -14456,7 +14466,7 @@ msgstr "kilomètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic kilometer;cubic kilometers;km³;km/-3;km^3;km3"
-msgstr "kilomètre cube;kilomètres cubes;km³;km/-3;km^3;km3"
+msgstr "kilomètre cube ; kilomètres cubes ; km³ ; km / -3 ; km^3 ; km3"
 
 #: volume.cpp:99
 #, kde-format
@@ -14488,7 +14498,7 @@ msgstr "hectomètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic hectometer;cubic hectometers;hm³;hm/-3;hm^3;hm3"
-msgstr "hectomètre cube;hectomètres cubes;hm³;hm/-3;hm^3;hm3"
+msgstr "hectomètre cube ; hectomètres cubes ; hm³ ; hm / -3 ; hm^3 ; hm3"
 
 #: volume.cpp:109
 #, kde-format
@@ -14520,7 +14530,7 @@ msgstr "décamètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic decameter;cubic decameters;dam³;dam/-3;dam^3;dam3"
-msgstr "décamètre cube;décamètres cubes;dam³;dam/-3;dam^3;dam3"
+msgstr "décamètre cube ; décamètres cubes ; dam³ ; dam / -3 ; dam^3 ; dam3"
 
 #: volume.cpp:119
 #, kde-format
@@ -14552,7 +14562,7 @@ msgstr "mètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic meter;cubic meters;m³;m/-3;m^3;m3"
-msgstr "mètre cube;mètres cubes;m³;m/-3;m^3;m3"
+msgstr "mètre cube ; mètres cubes ; m³ ; m / -3 ; m^3 ; m3"
 
 #: volume.cpp:129
 #, kde-format
@@ -14584,7 +14594,7 @@ msgstr "décimètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic decimeter;cubic decimeters;dm³;dm/-3;dm^3;dm3"
-msgstr "décimètre cube;décimètres cubes;dm³;dm/-3;dm^3;dm3"
+msgstr "décimètre cube ; décimètres cubes ; dm³ ; dm / -3 ; dm^3 ; dm3"
 
 #: volume.cpp:139
 #, kde-format
@@ -14616,7 +14626,7 @@ msgstr "centimètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic centimeter;cubic centimeters;cm³;cm/-3;cm^3;cm3"
-msgstr "centimètre cube;centimètres cubes;cm³;cm/-3;cm^3;cm3"
+msgstr "centimètre cube ; centimètres cubes ; cm³ ; cm / -3 ; cm^3 ; cm3"
 
 #: volume.cpp:149
 #, kde-format
@@ -14648,7 +14658,7 @@ msgstr "millimètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic millimeter;cubic millimeters;mm³;mm/-3;mm^3;mm3"
-msgstr "millimètre cube;millimètres cubes;mm³;mm/-3;mm^3;mm3"
+msgstr "millimètre cube ; millimètres cubes ; mm³ ; mm / -3 ; mm^3 ; mm3"
 
 #: volume.cpp:159
 #, kde-format
@@ -14680,7 +14690,7 @@ msgstr "micromètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3"
-msgstr "micromètre cube;micromètres cubes;µm³;um³;µm/-3;µm^3;µm3"
+msgstr "micromètre cube ; micromètres cubes ; µm³ ; um³ ; µm / -3 ; µm^3 ; µm3"
 
 #: volume.cpp:169
 #, kde-format
@@ -14712,7 +14722,7 @@ msgstr "nanomètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic nanometer;cubic nanometers;nm³;nm/-3;nm^3;nm3"
-msgstr "nanomètre cube;nanomètres cubes;nm³;nm/-3;nm^3;nm3"
+msgstr "nanomètre cube ; nanomètres cubes ; nm³ ; nm / -3 ; nm^3 ; nm3"
 
 #: volume.cpp:179
 #, kde-format
@@ -14744,7 +14754,7 @@ msgstr "picomètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic picometer;cubic picometers;pm³;pm/-3;pm^3;pm3"
-msgstr "picomètre cube;picomètres cubes;pm³;pm/-3;pm^3;pm3"
+msgstr "picomètre cube ; picomètres cubes ; pm³ ; pm / -3 ; pm^3 ; pm3"
 
 #: volume.cpp:189
 #, kde-format
@@ -14776,7 +14786,7 @@ msgstr "femtomètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic femtometer;cubic femtometers;fm³;fm/-3;fm^3;fm3"
-msgstr "femtomètre cube;femtomètres cubes;fm³;fm/-3;fm^3;fm3"
+msgstr "femtomètre cube ; femtomètres cubes ; fm³ ; fm / -3 ; fm^3 ; fm3"
 
 #: volume.cpp:199
 #, kde-format
@@ -14808,7 +14818,7 @@ msgstr "attomètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic attometer;cubic attometers;am³;am/-3;am^3;am3"
-msgstr "attomètre cube;attomètres cubes;am³;am/-3;am^3;am3"
+msgstr "attomètre cube ; attomètres cubes ; am³ ; am / -3 ; am^3 ; am3"
 
 #: volume.cpp:209
 #, kde-format
@@ -14840,7 +14850,7 @@ msgstr "zeptomètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic zeptometer;cubic zeptometers;zm³;zm/-3;zm^3;zm3"
-msgstr "zeptomètre cube;zeptomètres cubes;zm³;zm/-3;zm^3;zm3"
+msgstr "zeptomètre cube ; zeptomètres cubes ; zm³ ; zm / -3 ; zm^3 ; zm3"
 
 #: volume.cpp:219
 #, kde-format
@@ -14872,7 +14882,7 @@ msgstr "yoctomètres cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic yoctometer;cubic yoctometers;ym³;ym/-3;ym^3;ym3"
-msgstr "yoctomètre cube;yoctomètres cubes;ym³;ym/-3;ym^3;ym3"
+msgstr "yoctomètre cube ; yoctomètres cubes ; ym³ ; ym / -3 ; ym^3 ; ym3"
 
 #: volume.cpp:229
 #, kde-format
@@ -14904,7 +14914,7 @@ msgstr "yottalitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottaliter;yottaliters;Yl"
-msgstr "yottalitre;yottalitres;Yl"
+msgstr "yottalitre ; yottalitres ; Yl"
 
 #: volume.cpp:239
 #, kde-format
@@ -14936,7 +14946,7 @@ msgstr "zettalitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettaliter;zettaliters;Zl"
-msgstr "zettalitre;zettalitres;Zl"
+msgstr "zettalitre ; zettalitres ; Zl"
 
 #: volume.cpp:249
 #, kde-format
@@ -14968,7 +14978,7 @@ msgstr "exalitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "exaliter;exaliters;El"
-msgstr "exalitre;exalitres;El"
+msgstr "exalitre ; exalitres ; El"
 
 #: volume.cpp:259
 #, kde-format
@@ -15000,7 +15010,7 @@ msgstr "pétalitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "petaliter;petaliters;Pl"
-msgstr "pétalitre;pétalitres;Pl"
+msgstr "pétalitre ; pétalitres ; Pl"
 
 #: volume.cpp:269
 #, kde-format
@@ -15032,7 +15042,7 @@ msgstr "téralitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teraliter;teraliters;Tl"
-msgstr "téralitre;téralitres;Tl"
+msgstr "téralitre ; téralitres ; Tl"
 
 #: volume.cpp:279
 #, kde-format
@@ -15064,7 +15074,7 @@ msgstr "gigalitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigaliter;gigaliters;Gl"
-msgstr "gigalitre;gigalitres;Gl"
+msgstr "gigalitre ; gigalitres ; Gl"
 
 #: volume.cpp:289
 #, kde-format
@@ -15096,7 +15106,7 @@ msgstr "mégalitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megaliter;megaliters;Ml"
-msgstr "mégalitre;mégalitres;Ml"
+msgstr "mégalitre ; mégalitres ; Ml"
 
 #: volume.cpp:299
 #, kde-format
@@ -15128,7 +15138,7 @@ msgstr "kilolitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kiloliter;kiloliters;kl"
-msgstr "kilolitre;kilolitres;kl"
+msgstr "kilolitre ; kilolitres ; kl"
 
 #: volume.cpp:309
 #, kde-format
@@ -15160,7 +15170,7 @@ msgstr "hectolitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectoliter;hectoliters;hl"
-msgstr "hectolitre;hectolitres;hl"
+msgstr "hectolitre ; hectolitres ; hl"
 
 #: volume.cpp:319
 #, kde-format
@@ -15192,7 +15202,7 @@ msgstr "décalitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decaliter;decaliters;dal"
-msgstr "décalitre;décalitres;dal"
+msgstr "décalitre ; décalitres ; dal"
 
 #: volume.cpp:329
 #, kde-format
@@ -15224,7 +15234,7 @@ msgstr "litres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "liter;liters;l"
-msgstr "litre;litres;l"
+msgstr "litre ; litres ; l"
 
 #: volume.cpp:339
 #, kde-format
@@ -15256,7 +15266,7 @@ msgstr "décilitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "deciliter;deciliters;dl"
-msgstr "décilitre;décilitres;dl"
+msgstr "décilitre ; décilitres ; dl"
 
 #: volume.cpp:349
 #, kde-format
@@ -15288,7 +15298,7 @@ msgstr "centilitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centiliter;centiliters;cl"
-msgstr "centilitre;centilitres;cl"
+msgstr "centilitre ; centilitres ; cl"
 
 #: volume.cpp:359
 #, kde-format
@@ -15320,7 +15330,7 @@ msgstr "millilitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "milliliter;milliliters;ml"
-msgstr "millilitre;millilitres;ml"
+msgstr "millilitre ; millilitres ; ml"
 
 #: volume.cpp:369
 #, kde-format
@@ -15352,7 +15362,7 @@ msgstr "microlitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "microliter;microliters;µl;ul"
-msgstr "microlitre;microlitres;µl;ul"
+msgstr "microlitre ; microlitres ; µl ; ul"
 
 #: volume.cpp:379
 #, kde-format
@@ -15384,7 +15394,7 @@ msgstr "nanolitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "nanoliter;nanoliters;nl"
-msgstr "nanolitre;nanolitres;nl"
+msgstr "nanolitre ; nanolitres ; nl"
 
 #: volume.cpp:389
 #, kde-format
@@ -15416,7 +15426,7 @@ msgstr "picolitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "picoliter;picoliters;pl"
-msgstr "picolitre;picolitres;pl"
+msgstr "picolitre ; picolitres ; pl"
 
 #: volume.cpp:399
 #, kde-format
@@ -15448,7 +15458,7 @@ msgstr "femtolitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "femtoliter;femtoliters;fl"
-msgstr "femtolitre;femtolitres;fl"
+msgstr "femtolitre ; femtolitres ; fl"
 
 #: volume.cpp:409
 #, kde-format
@@ -15480,7 +15490,7 @@ msgstr "attolitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attoliter;attoliters;al"
-msgstr "attolitre;attolitres;al"
+msgstr "attolitre ; attolitres ; al"
 
 #: volume.cpp:419
 #, kde-format
@@ -15512,7 +15522,7 @@ msgstr "zeptolitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptoliter;zeptoliters;zl"
-msgstr "zeptolitre;zeptolitres;zl"
+msgstr "zeptolitre ; zeptolitres ; zl"
 
 #: volume.cpp:429
 #, kde-format
@@ -15544,7 +15554,7 @@ msgstr "yoctolitres"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctoliter;yoctoliters;yl"
-msgstr "yoctolitre;yoctolitres;yl"
+msgstr "yoctolitre ; yoctolitres ; yl"
 
 #: volume.cpp:439
 #, kde-format
@@ -15576,7 +15586,7 @@ msgstr "pieds cubes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"
-msgstr "pied cube;pieds cubes;ft³;pi³;pi cube;pi cubes;pieds³"
+msgstr "pied cube ; pieds cubes ; ft³ ; pi³ ; pi cube ; pi cubes ; pieds³"
 
 #: volume.cpp:449
 #, kde-format
@@ -15609,7 +15619,7 @@ msgstr "pouces cubes"
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;inch³"
-msgstr "pouce cube;pouces cubes;in³;po³;po cube;po cubes;pouce³"
+msgstr "pouce cube ; pouces cubes ; in³ ; po³ ; po cube ; po cubes ; pouce³"
 
 #: volume.cpp:459
 #, kde-format
@@ -15643,7 +15653,8 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"
 msgstr ""
-"mile cube;miles cubes;mille cube;milles cubes;mi³;mi cube;mi cubes;mille³"
+"mile cube ; miles cubes ; mille cube ; milles cubes ; mi³ ; mi cube ; mi "
+"cubes ; mille³"
 
 #: volume.cpp:469
 #, kde-format
@@ -15677,8 +15688,8 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "fluid ounce;fluid ounces;fl.oz.;oz.fl.;oz. fl.;fl. oz.;fl oz;fluid ounce"
 msgstr ""
-"once liquide;onces liquides;fl.oz.;oz.liq.;oz.fl.;oz. fl;oz. liq;fl. oz.;fl "
-"oz;oz liq"
+"once liquide ; onces liquides ; fl.oz. ; oz.liq. ; oz.fl. ; oz. fl ; oz. "
+"liq ; fl. oz. ; fl oz ; oz liq"
 
 #: volume.cpp:479
 #, kde-format
@@ -15710,7 +15721,7 @@ msgstr "tasses"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cup;cups;cp"
-msgstr "tasse;tasses;cp"
+msgstr "tasse ; tasses ; cp"
 
 #: volume.cpp:489
 #, kde-format
@@ -15748,7 +15759,7 @@ msgstr "cuillère à café ; cuillères à café ; cac ; "
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr "%1 %1 cuillères à café"
+msgstr "%1 cuillères à café"
 
 #: volume.cpp:500
 #, kde-format
@@ -15806,7 +15817,7 @@ msgstr "gallons (américain)"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gallon (U.S. liquid);gallons (U.S. liquid);gal;gallon;gallons"
-msgstr "gallon (américain);gallons (américain);gal;gallon;gallons"
+msgstr "gallon (américain) ; gallons (américain) ; gal ; gallon ; gallons"
 
 #: volume.cpp:519
 #, kde-format
@@ -15841,8 +15852,8 @@ msgid ""
 "gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
 "gal;imperial gallon;imperial gallons"
 msgstr ""
-"gallon (impérial);gallons (impériaux);gal imp;gallon imp;gallons imp;gal "
-"impérial;gallon impérial;gallons impériaux"
+"gallon (impérial) ; gallons (impériaux) ; gal imp ; gallon imp ; gallons "
+"imp ; gal impérial ; gallon impérial ; gallons impériaux"
 
 #: volume.cpp:530
 #, kde-format
@@ -15874,7 +15885,7 @@ msgstr "pintes (impériales)"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
-msgstr "pinte (impériale);pintes (impériales);pt;pinte;pintes;p"
+msgstr "pinte (impériale) ; pintes (impériales) ; pt ; pinte ; pintes ; p"
 
 #: volume.cpp:540
 #, kde-format
@@ -15907,8 +15918,8 @@ msgstr "pintes (américaines)"
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
 msgstr ""
-"pinte (américaine);pintes (américaines);pt américaine;pinte américaine;"
-"pintes américaines;p américaine"
+"pinte (américaine) ; pintes (américaines) ; pt américaine ; pinte "
+"américaine ; pintes américaines ; p américaine"
 
 #: volume.cpp:550
 #, kde-format
@@ -15940,7 +15951,7 @@ msgstr "barils de pétrole"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "oil barrels;oil barrel;bbl"
-msgstr "barils de pétrole;baril de pétrole;bbl;bl"
+msgstr "barils de pétrole ; baril de pétrole ; bbl ; bl"
 
 #: volume.cpp:560
 #, kde-format
