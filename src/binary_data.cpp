@@ -326,44 +326,44 @@ UnitCategory BinaryData::makeCategory()
                              ki18ncp("amount in units (integer)", "%1 megabit", "%1 megabits")));
 
     d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
-                             Kibibyte,
-                             8192,
-                             i18nc("binary data unit symbol", "KiB"),
-                             i18nc("unit description in lists", "kibibytes"),
-                             i18nc("unit synonyms for matching user input", "KiB;kibibyte;kibibytes"),
-                             symbolString,
-                             ki18nc("amount in units (real)", "%1 kibibytes"),
-                             ki18ncp("amount in units (integer)", "%1 kibibyte", "%1 kibibytes")));
+                                           Kibibyte,
+                                           8192,
+                                           i18nc("binary data unit symbol", "KiB"),
+                                           i18nc("unit description in lists", "kibibytes"),
+                                           i18nc("unit synonyms for matching user input", "KiB;kiB;kibibyte;kibibytes"),
+                                           symbolString,
+                                           ki18nc("amount in units (real)", "%1 kibibytes"),
+                                           ki18ncp("amount in units (integer)", "%1 kibibyte", "%1 kibibytes")));
 
     d->addUnit(UnitPrivate::makeUnit(BinaryDataCategory,
-                       Kibibit,
-                       1024,
-                       i18nc("binary data unit symbol", "Kib"),
-                       i18nc("unit description in lists", "kibibits"),
-                       i18nc("unit synonyms for matching user input", "Kib;kibibit;kibibits"),
-                       symbolString,
-                       ki18nc("amount in units (real)", "%1 kibibits"),
-                       ki18ncp("amount in units (integer)", "%1 kibibit", "%1 kibibits")));
+                                     Kibibit,
+                                     1024,
+                                     i18nc("binary data unit symbol", "Kib"),
+                                     i18nc("unit description in lists", "kibibits"),
+                                     i18nc("unit synonyms for matching user input", "Kib;kib;kibibit;kibibits"),
+                                     symbolString,
+                                     ki18nc("amount in units (real)", "%1 kibibits"),
+                                     ki18ncp("amount in units (integer)", "%1 kibibit", "%1 kibibits")));
 
     d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
-                             Kilobyte,
-                             8000,
-                             i18nc("binary data unit symbol", "kB"),
-                             i18nc("unit description in lists", "kilobytes"),
-                             i18nc("unit synonyms for matching user input", "kB;kilobyte;kilobytes"),
-                             symbolString,
-                             ki18nc("amount in units (real)", "%1 kilobytes"),
-                             ki18ncp("amount in units (integer)", "%1 kilobyte", "%1 kilobytes")));
+                                           Kilobyte,
+                                           8000,
+                                           i18nc("binary data unit symbol", "kB"),
+                                           i18nc("unit description in lists", "kilobytes"),
+                                           i18nc("unit synonyms for matching user input", "kB;KB;kilobyte;kilobytes"),
+                                           symbolString,
+                                           ki18nc("amount in units (real)", "%1 kilobytes"),
+                                           ki18ncp("amount in units (integer)", "%1 kilobyte", "%1 kilobytes")));
 
     d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
-                             Kilobit,
-                             1000,
-                             i18nc("binary data unit symbol", "kb"),
-                             i18nc("unit description in lists", "kilobits"),
-                             i18nc("unit synonyms for matching user input", "kb;kilobit;kilobits"),
-                             symbolString,
-                             ki18nc("amount in units (real)", "%1 kilobits"),
-                             ki18ncp("amount in units (integer)", "%1 kilobit", "%1 kilobits")));
+                                           Kilobit,
+                                           1000,
+                                           i18nc("binary data unit symbol", "kb"),
+                                           i18nc("unit description in lists", "kilobits"),
+                                           i18nc("unit synonyms for matching user input", "kb;Kb;kilobit;kilobits"),
+                                           symbolString,
+                                           ki18nc("amount in units (real)", "%1 kilobits"),
+                                           ki18ncp("amount in units (integer)", "%1 kilobit", "%1 kilobits")));
 
     d->addCommonUnit(UnitPrivate::makeUnit(BinaryDataCategory,
                              Byte,
