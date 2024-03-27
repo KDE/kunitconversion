@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-12 02:34+0000\n"
+"POT-Creation-Date: 2024-03-27 09:12+0000\n"
 "PO-Revision-Date: 2023-04-29 09:16+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -2236,9 +2236,11 @@ msgid "kibibytes"
 msgstr "кібібайти"
 
 #: binary_data.cpp:333
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "KiB;kibibyte;kibibytes"
 msgctxt "unit synonyms for matching user input"
-msgid "KiB;kibibyte;kibibytes"
+msgid "KiB;kiB;kibibyte;kibibytes"
 msgstr "КіБ;кібібайт;кібібайти;кібібайтів;кібібайтах"
 
 #: binary_data.cpp:335
@@ -2270,9 +2272,11 @@ msgid "kibibits"
 msgstr "кібібіти"
 
 #: binary_data.cpp:343
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "Kib;kibibit;kibibits"
 msgctxt "unit synonyms for matching user input"
-msgid "Kib;kibibit;kibibits"
+msgid "Kib;kib;kibibit;kibibits"
 msgstr "Кіб;Кібіт;кібібіт;кібібіти;кібібіта;кібібітів;кібібітах"
 
 #: binary_data.cpp:345
@@ -2304,9 +2308,11 @@ msgid "kilobytes"
 msgstr "кілобайти"
 
 #: binary_data.cpp:353
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kB;kilobyte;kilobytes"
 msgctxt "unit synonyms for matching user input"
-msgid "kB;kilobyte;kilobytes"
+msgid "kB;KB;kilobyte;kilobytes"
 msgstr "кБ;кілобайт;кілобайти;кілобайта;кілобайтів;кілобайтах"
 
 #: binary_data.cpp:355
@@ -2338,9 +2344,11 @@ msgid "kilobits"
 msgstr "кілобіти"
 
 #: binary_data.cpp:363
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kb;kilobit;kilobits"
 msgctxt "unit synonyms for matching user input"
-msgid "kb;kilobit;kilobits"
+msgid "kb;Kb;kilobit;kilobits"
 msgstr "кб;кбіт;кілобіт;кілобіта;кілобіти;кілобітів;кілобітах"
 
 #: binary_data.cpp:365

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion.po\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-12 02:34+0000\n"
+"POT-Creation-Date: 2024-03-27 09:12+0000\n"
 "PO-Revision-Date: 2009-01-28 10:19-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -2491,10 +2491,12 @@ msgid "kibibytes"
 msgstr ""
 
 #: binary_data.cpp:333
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilometer;kilometers;km"
 msgctxt "unit synonyms for matching user input"
-msgid "KiB;kibibyte;kibibytes"
-msgstr ""
+msgid "KiB;kiB;kibibyte;kibibytes"
+msgstr "ciliméadair;ciliméadar;kilometer;kilometers;km"
 
 #: binary_data.cpp:335
 #, fuzzy, kde-format
@@ -2531,10 +2533,12 @@ msgid "kibibits"
 msgstr ""
 
 #: binary_data.cpp:343
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kiloliter;kiloliters;kl"
 msgctxt "unit synonyms for matching user input"
-msgid "Kib;kibibit;kibibits"
-msgstr ""
+msgid "Kib;kib;kibibit;kibibits"
+msgstr "cililítir;cililítear;kiloliter;kiloliters;kl"
 
 #: binary_data.cpp:345
 #, fuzzy, kde-format
@@ -2577,7 +2581,7 @@ msgstr "ciliméadair"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "kilometer;kilometers;km"
 msgctxt "unit synonyms for matching user input"
-msgid "kB;kilobyte;kilobytes"
+msgid "kB;KB;kilobyte;kilobytes"
 msgstr "ciliméadair;ciliméadar;kilometer;kilometers;km"
 
 #: binary_data.cpp:355
@@ -2621,7 +2625,7 @@ msgstr "cililítir"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "kiloliter;kiloliters;kl"
 msgctxt "unit synonyms for matching user input"
-msgid "kb;kilobit;kilobits"
+msgid "kb;Kb;kilobit;kilobits"
 msgstr "cililítir;cililítear;kiloliter;kiloliters;kl"
 
 #: binary_data.cpp:365

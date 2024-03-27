@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-12 02:34+0000\n"
+"POT-Creation-Date: 2024-03-27 09:12+0000\n"
 "PO-Revision-Date: 2011-07-24 13:27+0200\n"
 "Last-Translator: Marko Dimjašević <marko@dimjasevic.net>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -2295,10 +2295,12 @@ msgid "kibibytes"
 msgstr ""
 
 #: binary_data.cpp:333
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilometer;kilometers;km"
 msgctxt "unit synonyms for matching user input"
-msgid "KiB;kibibyte;kibibytes"
-msgstr ""
+msgid "KiB;kiB;kibibyte;kibibytes"
+msgstr "kilometar;kilometara;km"
 
 #: binary_data.cpp:335
 #, fuzzy, kde-format
@@ -2332,10 +2334,12 @@ msgid "kibibits"
 msgstr ""
 
 #: binary_data.cpp:343
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilojoule;kilojoules;kJ"
 msgctxt "unit synonyms for matching user input"
-msgid "Kib;kibibit;kibibits"
-msgstr ""
+msgid "Kib;kib;kibibit;kibibits"
+msgstr "kilodžul;kilodžuli;kJ"
 
 #: binary_data.cpp:345
 #, fuzzy, kde-format
@@ -2375,7 +2379,7 @@ msgstr "kilometri"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "kilometer;kilometers;km"
 msgctxt "unit synonyms for matching user input"
-msgid "kB;kilobyte;kilobytes"
+msgid "kB;KB;kilobyte;kilobytes"
 msgstr "kilometar;kilometara;km"
 
 #: binary_data.cpp:355
@@ -2417,7 +2421,7 @@ msgstr "kilolitre"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "kilojoule;kilojoules;kJ"
 msgctxt "unit synonyms for matching user input"
-msgid "kb;kilobit;kilobits"
+msgid "kb;Kb;kilobit;kilobits"
 msgstr "kilodžul;kilodžuli;kJ"
 
 #: binary_data.cpp:365
