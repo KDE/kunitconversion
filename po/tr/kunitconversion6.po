@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2024-01-13 22:17+0300\n"
+"PO-Revision-Date: 2024-03-27 13:41+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.90\n"
+"X-Generator: Lokalize 24.02.1\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2057,12 +2057,10 @@ msgid "kibibytes"
 msgstr "kibibayt"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "KiB;kibibyte;kibibytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
-msgstr "KiB;kibibayt"
+msgstr "KiB;kiB;kibibyte;kibibayt"
 
 #: binary_data.cpp:335
 #, kde-format
@@ -2091,12 +2089,10 @@ msgid "kibibits"
 msgstr "kibibit"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Kib;kibibit;kibibits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
-msgstr "Kib;kibibit"
+msgstr "Kib;kib;kibibit"
 
 #: binary_data.cpp:345
 #, kde-format
@@ -2125,12 +2121,10 @@ msgid "kilobytes"
 msgstr "kilobayt"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kB;kilobyte;kilobytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr "kB;kilobayt;kilobayt"
+msgstr "kB;KB;kilobyte;kilobayt"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2159,12 +2153,10 @@ msgid "kilobits"
 msgstr "kilobit"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kb;kilobit;kilobits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr "kb;kilobit;kilobit"
+msgstr "kb;Kb;kilobit"
 
 #: binary_data.cpp:365
 #, kde-format
@@ -2252,7 +2244,7 @@ msgstr "Para Birimi"
 #: currency.cpp:64
 #, kde-format
 msgid "From ECB"
-msgstr "ECB'den"
+msgstr "ECB’den"
 
 #: currency.cpp:66
 #, kde-format
