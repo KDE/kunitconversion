@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2024-03-27 19:44\n"
+"PO-Revision-Date: 2024-03-28 19:16\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -2001,7 +2001,7 @@ msgstr "kibibytes"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
-msgstr ""
+msgstr "KiB;kiB;kibibyte;kibibytes"
 
 #: binary_data.cpp:335
 #, kde-format
@@ -2032,7 +2032,7 @@ msgstr "kibibits"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
-msgstr ""
+msgstr "Kib;kib;kibibit;kibibits"
 
 #: binary_data.cpp:345
 #, kde-format
@@ -2063,7 +2063,7 @@ msgstr "千字节"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr ""
+msgstr "kB;KB;kilobyte;kilobytes"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2094,7 +2094,7 @@ msgstr "千比特"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr ""
+msgstr "kb;Kb;kilobit;kilobits"
 
 #: binary_data.cpp:365
 #, kde-format
