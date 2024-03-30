@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2024-03-02 21:42+0100\n"
+"PO-Revision-Date: 2024-03-29 10:48+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.02.1\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2061,12 +2061,10 @@ msgid "kibibytes"
 msgstr "quibibytes"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "KiB;kibibyte;kibibytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
-msgstr "KiB;quibibyte;quibibytes"
+msgstr "KiB;kiB;kibibyte;quibibyte;kibibytes;quibibytes"
 
 #: binary_data.cpp:335
 #, kde-format
@@ -2095,12 +2093,10 @@ msgid "kibibits"
 msgstr "quibibits"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Kib;kibibit;kibibits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
-msgstr "Kib;quibibit;quibibits"
+msgstr "Kib;kib;kibibit;kibibits;quibibit;quibibits"
 
 #: binary_data.cpp:345
 #, kde-format
@@ -2129,12 +2125,10 @@ msgid "kilobytes"
 msgstr "quilobytes"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kB;kilobyte;kilobytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr "kB;quilobyte;quilobytes"
+msgstr "kB;KB;kilobyte;kilobytes;quilobyte;quilobytes"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2163,12 +2157,10 @@ msgid "kilobits"
 msgstr "quilobits"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kb;kilobit;kilobits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr "kb;quilobit;quilobits"
+msgstr "kb;Kb;kilobit;kilobits;quilobit;quilobits"
 
 #: binary_data.cpp:365
 #, kde-format

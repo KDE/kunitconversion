@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2024-03-14 20:48+0100\n"
-"Last-Translator: xavier <xavier.besnard@kde.org>\n"
+"PO-Revision-Date: 2024-03-28 09:13+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -2063,12 +2063,10 @@ msgid "kibibytes"
 msgstr "kibioctets"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "KiB;kibibyte;kibibytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
-msgstr "Kio;kibioctet;kibioctets"
+msgstr "KiO ; kiO ; kibioctet ; kibioctets"
 
 #: binary_data.cpp:335
 #, kde-format
@@ -2097,12 +2095,10 @@ msgid "kibibits"
 msgstr "kibibits"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Kib;kibibit;kibibits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
-msgstr "Kib;kibibit;kibibits"
+msgstr "Kib ; kib ; kibibit ; kibibits"
 
 #: binary_data.cpp:345
 #, kde-format
@@ -2131,12 +2127,10 @@ msgid "kilobytes"
 msgstr "kilooctets"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kB;kilobyte;kilobytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr "ko;kilooctet;kilooctets"
+msgstr "kO ; KO ; kilooctet ; kilooctets"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2165,12 +2159,10 @@ msgid "kilobits"
 msgstr "kilobits"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kb;kilobit;kilobits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr "kb;kilobit;kilobits"
+msgstr "kb ; Kb ; kilobit ; kilobits"
 
 #: binary_data.cpp:365
 #, kde-format
