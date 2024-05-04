@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2024-03-28 09:13+0100\n"
+"PO-Revision-Date: 2024-05-02 11:59+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -6175,7 +6175,7 @@ msgstr "British Thermal Unit"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Btu;BTU;Btus;BTUs"
-msgstr "Btu ; BTU"
+msgstr "BTU ; BTU"
 
 #: energy.cpp:325
 #, kde-format
@@ -12063,13 +12063,13 @@ msgstr[1] "%1 watts par mètre-kelvin"
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "Btu/ft·hr·°F"
-msgstr "Btu / ft·hr·°F"
+msgstr "BTU / ft·hr·°F"
 
 #: thermal_conductivity.cpp:35
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per foot hour degree Fahrenheit"
-msgstr "Btu par pied heure degré Fahrenheit"
+msgstr "BTU par pied heure degré Fahrenheit"
 
 #: thermal_conductivity.cpp:37
 #, kde-format
@@ -12078,34 +12078,34 @@ msgid ""
 "btu per foot hour degree Fahrenheit;btu per foot hour Fahrenheit;btu per "
 "foot-hour-Fahrenheit;Btu/ft-hr-F"
 msgstr ""
-"Btu par pied heure degré Fahrenheit ; btu par pied heure Fahrenheit ; btu "
-"par pied-heure-Fahrenheit ; Btu / ft-hr-F"
+"BTU par pied heure degré Fahrenheit ; BTU par pied heure Fahrenheit ; BTU "
+"par pied-heure-Fahrenheit ; BTU / ft-hr-F"
 
 #: thermal_conductivity.cpp:39
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per foot hour degree Fahrenheit"
-msgstr "%1 btu par pied heure degré Fahrenheit"
+msgstr "%1 BTU par pied heure degré Fahrenheit"
 
 #: thermal_conductivity.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per foot hour degree Fahrenheit"
 msgid_plural "%1 btu per foot hour degree Fahrenheit"
-msgstr[0] "%1 btu par pied heure degré Fahrenheit"
-msgstr[1] "%1 btu par pied heure degré Fahrenheit"
+msgstr[0] "%1 BTU par pied heure degré Fahrenheit"
+msgstr[1] "%1 BTU par pied heure degré Fahrenheit"
 
 #: thermal_conductivity.cpp:45
 #, kde-format
 msgctxt "thermal conductivity unit symbol"
 msgid "Btu/ft²·hr·°F/in"
-msgstr "Btu / ft²·hr·°F / in"
+msgstr "BTU / ft²·hr·°F / in"
 
 #: thermal_conductivity.cpp:46
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per square foot hour degree Fahrenheit per inch"
-msgstr "btu par pied carré heure degré Fahrenheit par pouce"
+msgstr "BTU par pied carré heure degré Fahrenheit par pouce"
 
 #: thermal_conductivity.cpp:48
 #, kde-format
@@ -12115,23 +12115,23 @@ msgid ""
 "hour Fahrenheit per inch;btu per sq foot-hour-Fahrenheit per inch;Btu/ft^2-"
 "hr-F/in"
 msgstr ""
-"btu par pied carré heure degré Fahrenheit par pouce ; btu par pied carré "
-"heure Fahrenheit par pouce ; btu par pied carré-heure-degré Fahrenheit par "
-"pouce ; Btu/ft^2-hr-F / in"
+"BTU par pied carré heure degré Fahrenheit par pouce ; BTU par pied carré "
+"heure Fahrenheit par pouce ; BTU par pied carré-heure-degré Fahrenheit par "
+"pouce ; BTU/ft^2-hr-F / in"
 
 #: thermal_conductivity.cpp:51
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr "%1 btu par pied carré heure degré Fahrenheit par pouce"
+msgstr "%1 BTU par pied carré heure degré Fahrenheit par pouce"
 
 #: thermal_conductivity.cpp:53
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
 msgid_plural "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr[0] "%1 btu par pied carré heure degré Fahrenheit par pouce"
-msgstr[1] "%1 btu par pied carré heure degré Fahrenheit par pouce"
+msgstr[0] "%1 BTU par pied carré heure degré Fahrenheit par pouce"
+msgstr[1] "%1 BTU par pied carré heure degré Fahrenheit par pouce"
 
 #: thermal_flux.cpp:18
 #, kde-format
@@ -12180,13 +12180,13 @@ msgstr[1] "%1 watts par mètre carré"
 #, kde-format
 msgctxt "thermal flux unit symbol"
 msgid "Btu/hr/ft²"
-msgstr "Btu / hr / ft²"
+msgstr "BTU / hr / ft²"
 
 #: thermal_flux.cpp:36
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per hour per square foot"
-msgstr "btu par heure par pied carré"
+msgstr "BTU par heure par pied carré"
 
 #: thermal_flux.cpp:37
 #, kde-format
@@ -12194,22 +12194,22 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
 msgstr ""
-"btu par heure par pied carré ; Btu / hr / ft2 ; Btu / hr / ft^2 ; Btu / "
-"ft^2 / hr ; Btu / ft2 / hr"
+"BTU par heure par pied carré ; BTU / hr / ft2 ; BTU / hr / ft^2 ; BTU / "
+"ft^2 / hr ; BTU / ft2 / hr"
 
 #: thermal_flux.cpp:39
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per hour per square foot"
-msgstr "%1 btu par heure par pied carré"
+msgstr "%1 BTU par heure par pied carré"
 
 #: thermal_flux.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per hour per square foot"
 msgid_plural "%1 btu per hour per square foot"
-msgstr[0] "%1 btu par heure par pied carré"
-msgstr[1] "%1 btu par heure par pied carré"
+msgstr[0] "%1 BTU par heure par pied carré"
+msgstr[1] "%1 BTU par heure par pied carré"
 
 #: thermal_generation.cpp:17
 #, kde-format
@@ -12258,13 +12258,13 @@ msgstr[1] "%1 watts par mètre cube"
 #, kde-format
 msgctxt "thermal generation unit symbol"
 msgid "Btu/hr/ft³"
-msgstr "Btu / hr / ft³"
+msgstr "BTU / hr / ft³"
 
 #: thermal_generation.cpp:35
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per hour per cubic foot"
-msgstr "btu par heure par pied cube"
+msgstr "BTU par heure par pied cube"
 
 #: thermal_generation.cpp:36
 #, kde-format
@@ -12272,22 +12272,22 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
 msgstr ""
-"btu par heure par pied cube ; Btu / hr / ft3 ; Btu / hr / ft^3 ; Btu / "
-"ft^3 / hr ; Btu / ft3 / hr"
+"BTU par heure par pied cube ; BTU / hr / ft3 ; BTU / hr / ft^3 ; BTU / "
+"ft^3 / hr ; BTU / ft3 / hr"
 
 #: thermal_generation.cpp:38
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per hour per cubic foot"
-msgstr "%1 btu par heure par pied cube"
+msgstr "%1 BTU par heure par pied cube"
 
 #: thermal_generation.cpp:39
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per hour per cubic foot"
 msgid_plural "%1 btu per hour per cubic foot"
-msgstr[0] "%1 btu par heure par pied cube"
-msgstr[1] "%1 btu par heure par pied cube"
+msgstr[0] "%1 BTU par heure par pied cube"
+msgstr[1] "%1 BTU par heure par pied cube"
 
 #: timeunit.cpp:17
 #, kde-format
