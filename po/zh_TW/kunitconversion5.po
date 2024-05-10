@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:25+0000\n"
-"PO-Revision-Date: 2024-02-27 06:14+0900\n"
+"PO-Revision-Date: 2024-05-09 16:52+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -552,12 +552,10 @@ msgid "square kilometers"
 msgstr "平方公里"
 
 #: area.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square kilometer;square kilometers;km²;km/-2;km^2;km2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
-msgstr "平方公里;square kilometer;square kilometers;km²;km/-2;km^2;km2"
+msgstr "平方公里;square kilometer;square kilometers;km²;km/-2;km^2;km2;sq km"
 
 #: area.cpp:116
 #, kde-format
@@ -650,12 +648,10 @@ msgid "square meters"
 msgstr "平方公尺"
 
 #: area.cpp:144
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
-msgstr "平方公尺;square meter;square meters;m²;m/-2;m^2;m2"
+msgstr "平方公尺;square meter;square meters;m²;m/-2;m^2;m2;sq m"
 
 #: area.cpp:146
 #, kde-format
@@ -714,12 +710,10 @@ msgid "square centimeters"
 msgstr "平方公分"
 
 #: area.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
-msgstr "平方公分;square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+msgstr "平方公分;square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2;sq cm"
 
 #: area.cpp:166
 #, kde-format
@@ -747,12 +741,10 @@ msgid "square millimeters"
 msgstr "平方公釐"
 
 #: area.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
-msgstr "平方公釐;square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+msgstr "平方公釐;square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2;sq mm"
 
 #: area.cpp:176
 #, kde-format
@@ -7627,16 +7619,14 @@ msgid "miles per imperial gallon"
 msgstr "英哩/特級加侖"
 
 #: fuel_efficiency.cpp:89
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "mile per imperial gallon;miles per imperial gallon;mpg (imperial)"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
 "mpg (imp)"
 msgstr ""
-"英哩/特級加侖;mile per imperial gallon;miles per imperial gallon;mpg "
-"(imperial)"
+"英哩/英制加侖;mile per imperial gallon;miles per imperial gallon;mpg "
+"(imperial);英哩/英式加侖"
 
 #: fuel_efficiency.cpp:91
 #, kde-format
@@ -9319,12 +9309,10 @@ msgid "tons"
 msgstr "公噸"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
-msgstr "噸;公噸;ton;tons;t;tonne"
+msgstr "噸;公噸;ton;tons;t;tonne;tonnes"
 
 #: mass.cpp:239
 #, kde-format
@@ -9352,12 +9340,10 @@ msgid "carats"
 msgstr "克拉"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "克拉;carat;carats;CD"
+msgstr "克拉;carat;carats;CD;ct"
 
 #: mass.cpp:250
 #, kde-format
@@ -9385,12 +9371,10 @@ msgid "pounds"
 msgstr "英鎊（pounds）"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "英鎊;pound;pounds;lb"
+msgstr "英鎊;pound;pounds;lb;lbs"
 
 #: mass.cpp:261
 #, kde-format
@@ -12850,12 +12834,10 @@ msgid "kilometers per hour"
 msgstr "公里/小時"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "時速;公里/小時;kilometer per hour;kilometers per hour;km/h;kmh"
+msgstr "時速;公里/小時;kilometer per hour;kilometers per hour;km/h;kmh;kph"
 
 #: velocity.cpp:67
 #, kde-format
@@ -15262,72 +15244,63 @@ msgstr[0] "%1 杯"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr ""
+msgstr "tsp"
 
 #: volume.cpp:496
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teaspoon"
-msgstr ""
+msgstr "茶匙"
 
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr ""
+msgstr "teaspoon;teaspoons;tsp;tsps;茶匙"
 
 #: volume.cpp:499
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr "%1 兆秒（Ts）"
+msgstr "%1 茶匙"
 
 #: volume.cpp:500
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terasecond"
-#| msgid_plural "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teaspoon"
 msgid_plural "%1 teaspoons"
-msgstr[0] "%1 兆秒（Ts）"
+msgstr[0] "%1 茶匙"
 
 #: volume.cpp:505
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr ""
+msgstr "tbsp"
 
 #: volume.cpp:506
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tablespoon"
-msgstr ""
+msgstr "大匙"
 
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr ""
+msgstr "tablespoon;tablespoons;tbsp;tbsps;大匙"
 
 #: volume.cpp:509
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 tons"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tablespoons"
-msgstr "%1 公噸"
+msgstr "%1 大匙"
 
 #: volume.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terabytes"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tablespoon"
 msgid_plural "%1 tablespoons"
-msgstr[0] "%1 兆位元組 (TB)"
+msgstr[0] "%1 大匙"
 
 #: volume.cpp:515
 #, kde-format
@@ -15364,7 +15337,7 @@ msgstr[0] "%1 （美式）加侖"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "imp gal"
-msgstr ""
+msgstr "英制加侖"
 
 #: volume.cpp:526
 #, kde-format
@@ -15379,6 +15352,8 @@ msgid ""
 "gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
 "gal;imperial gallon;imperial gallons"
 msgstr ""
+"gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
+"gal;imperial gallon;imperial gallons;英制加侖;加侖（英制）;英式加侖"
 
 #: volume.cpp:530
 #, kde-format
@@ -15428,7 +15403,7 @@ msgstr[0] "%1（英制）品脫"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "US pt"
-msgstr ""
+msgstr "（美式）品脫"
 
 #: volume.cpp:547
 #, kde-format
@@ -15437,30 +15412,25 @@ msgid "pints (U.S. liquid)"
 msgstr "品脫（美式液量單位）"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
-msgstr "品脫;pint (imperial);pints (imperial);pt;pint;pints;p"
+msgstr ""
+"pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p;美式品脫;"
+"品脫（美式）"
 
 #: volume.cpp:550
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pints (U.S. liquid)"
-msgstr "%1（美式）加侖"
+msgstr "%1 品脫（美式）"
 
 #: volume.cpp:551
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gallon (U.S. liquid)"
-#| msgid_plural "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pint (U.S. liquid)"
 msgid_plural "%1 pints (U.S. liquid)"
-msgstr[0] "%1（美式）加侖"
+msgstr[0] "%1 品脫（美式液量單位）"
 
 #: volume.cpp:556
 #, kde-format
