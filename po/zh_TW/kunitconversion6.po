@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2024-03-29 21:15+0900\n"
+"PO-Revision-Date: 2024-05-23 16:43+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -1091,7 +1091,8 @@ msgstr "平方英哩"
 msgctxt "unit synonyms for matching user input"
 msgid "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
 msgstr ""
-"平方英哩;square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
+"平方英里;平方英哩;square mile;square miles;mi²;square mi;sq miles;sq mile;sq "
+"mi;mile²"
 
 #: area.cpp:286
 #, kde-format
@@ -7625,8 +7626,8 @@ msgid ""
 "mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
 "mpg (imp)"
 msgstr ""
-"英哩/特級加侖;mile per imperial gallon;miles per imperial gallon;mpg "
-"(imperial);imp mpg;mpg (imp)"
+"英里/特級加侖;英哩/特級加侖;mile per imperial gallon;miles per imperial "
+"gallon;mpg (imperial);imp mpg;mpg (imp)"
 
 #: fuel_efficiency.cpp:91
 #, kde-format
@@ -8495,7 +8496,7 @@ msgstr "英哩"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "mile;miles;mi"
-msgstr "英哩;mile;miles;mi"
+msgstr "英哩;英里;mile;miles;mi"
 
 #: length.cpp:289
 #, kde-format
@@ -12869,7 +12870,7 @@ msgstr "英哩/小時"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "mile per hour;miles per hour;mph"
-msgstr "時速;英哩/小時;mile per hour;miles per hour;mph"
+msgstr "時速;英里/小時;英哩/小時;mile per hour;miles per hour;mph"
 
 #: velocity.cpp:77
 #, kde-format
@@ -15160,8 +15161,8 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"
 msgstr ""
-"立方英哩;cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu "
-"mi;mile³"
+"立方英里;立方英哩;cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu "
+"mile;cu mi;mile³"
 
 #: volume.cpp:469
 #, kde-format
