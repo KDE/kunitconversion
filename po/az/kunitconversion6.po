@@ -1,21 +1,24 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kunitconversion package.
 #
-# Xəyyam <xxmn77@gmail.com>, 2020, 2022, 2023.
+# SPDX-FileCopyrightText: 2024 X əyyam
+# SPDX-FileCopyrightText: 2024 X əyyam
+# SPDX-FileCopyrightText: 2024 X əyyam
+# SPDX-FileCopyrightText: 2024 X əyyam
 msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2023-02-18 19:11+0400\n"
-"Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
+"PO-Revision-Date: 2024-05-30 17:52+0400\n"
+"Last-Translator: Xəyyam Qocayev <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 24.05.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2055,12 +2058,10 @@ msgid "kibibytes"
 msgstr "kilobayt"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "KiB;kibibyte;kibibytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
-msgstr "KiB;kilobayt"
+msgstr "KiB;kiB;kibibayt;kibibaytlar"
 
 #: binary_data.cpp:335
 #, kde-format
@@ -2089,12 +2090,10 @@ msgid "kibibits"
 msgstr "kilibit"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Kib;kibibit;kibibits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
-msgstr "Kib;kilibit"
+msgstr "Kib;kib;kibibit"
 
 #: binary_data.cpp:345
 #, kde-format
@@ -2123,12 +2122,10 @@ msgid "kilobytes"
 msgstr "kilobayt"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kB;kilobyte;kilobytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr "kB;kilobayt"
+msgstr "kB;KB;kilobayt"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2157,12 +2154,10 @@ msgid "kilobits"
 msgstr "kilobit"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kb;kilobit;kilobits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr "kb;kilobit"
+msgstr "kb;Kb;kilobit"
 
 #: binary_data.cpp:365
 #, kde-format
@@ -13233,12 +13228,10 @@ msgid "kilometers per hour"
 msgstr "kilometr saat"
 
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
-msgstr "kilometr saat;km/saat"
+msgstr "saatda kilometr;km/s;kms"
 
 #: velocity.cpp:67
 #, kde-format
@@ -15948,12 +15941,10 @@ msgstr[1] "%1 neft barreli"
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "Hər sahəyə düşən ağırlıq"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15962,15 +15953,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "q/m²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt per square meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "vatt kvadrat metr"
+msgstr "hər kvadrat metrə düşən qram"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -15978,38 +15967,34 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
 msgstr ""
+"qsm;q/m;q/m2;gq2;hər metrə düşən qram;hər kvadrat metrə düşən qram;hər m² "
+"düşən qram"
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 vatt kvadrat metr"
+msgstr "hər kvadrat metrə %1 qram"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 vatt kvadrat metr"
-msgstr[1] "%1 vatt kvadrat metr"
+msgstr[0] "hər kvadrat metrə %1 qram"
+msgstr[1] "hər kvadrat metrə %1 qram"
 
 #: weight_per_area.cpp:37
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "unsiya/yard²"
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "kub yardda funt"
+msgstr "hər kvadrat yarda düşən unsiya"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -16018,21 +16003,18 @@ msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
 "yard²"
 msgstr ""
+"hər yarda düşən unsiya;hər kvadrat yarda düşən unsiya;hər yard² düşən unsiya"
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 kub yardda funt"
+msgstr "hər kvadrat yarda düşən %1 unsiya"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 kub yardda funt"
+msgstr[0] "hər kvadrat yarda düşən %1 unsiya"
 msgstr[1] "%1 kub yardda funt"
