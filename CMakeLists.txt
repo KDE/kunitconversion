@@ -55,6 +55,10 @@ ecm_set_disabled_deprecation_versions(
     KF 5.240
 )
 
+# Python Bindings
+option(BUILD_PYTHON_BINDINGS "Generate Python Bindings" OFF)
+add_feature_info(PYTHON_BINDINGS ${BUILD_PYTHON_BINDINGS} "Python bindings")
+
 add_subdirectory(src)
 if (BUILD_TESTING)
     add_subdirectory(autotests)
@@ -80,3 +84,8 @@ install(FILES
 
 include(ECMFeatureSummary)
 ecm_feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+if (BUILD_PYTHON_BINDINGS)
+    include(ECMGeneratePythonBindings)
+    add_subdirectory(python)
+endif()
