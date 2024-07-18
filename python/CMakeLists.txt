@@ -1,8 +1,7 @@
 # SPDX-FileCopyrightText: 2024 Manuel Alcaraz Zambrano <manuelalcarazzam@gmail.com>
 # SPDX-License-Identifier: BSD-2-Clause
 
-# find_package(KF6 6.3 REQUIRED COMPONENTS UnitConversion)
-find_package(Qt6 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Gui Widgets)
+find_package(KF6 6.3 REQUIRED COMPONENTS UnitConversion)
 
 set(bindings_library "KUnitConversion")
 
@@ -18,7 +17,7 @@ set(generated_sources
     ${CMAKE_CURRENT_BINARY_DIR}/KUnitConversion/kunitconversion_updatejob_wrapper.cpp
     ${CMAKE_CURRENT_BINARY_DIR}/KUnitConversion/kunitconversion_value_wrapper.cpp)
 
-set(dependencies Qt6::Core Qt::Gui Qt::Widgets)
+set(dependencies Qt6::Core)
 
 PythonBindings(
     TARGETNAME "KF6UnitConversion"
