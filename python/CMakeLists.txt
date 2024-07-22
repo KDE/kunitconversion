@@ -20,10 +20,11 @@ set(generated_sources
 set(dependencies Qt6::Core)
 
 PythonBindings(
-    TARGETNAME "KF6UnitConversion"
     PACKAGE_NAME ${bindings_library}
     WRAPPED_HEADER ${wrapped_header}
     TYPESYSTEM ${typesystem_file}
     GENERATED_SOURCES ${generated_sources}
     DEPENDENCIES ${dependencies}
     PYPROJECT "pyproject.toml")
+
+target_link_libraries(${bindings_library} PRIVATE KF6UnitConversion)
