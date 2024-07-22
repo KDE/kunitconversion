@@ -1,13 +1,12 @@
 # Translation of kunitconversion6 to Norwegian Nynorsk
 #
 # Eirik U. Birkeland <eirbir@gmail.com>, 2009, 2010.
-# Karl Ove Hufthammer <karl@huftis.org>, 2009, 2016, 2020, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2023-07-29 12:36+0200\n"
+"PO-Revision-Date: 2024-07-21 14:23+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -15,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 24.05.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -2067,12 +2066,10 @@ msgid "kibibytes"
 msgstr "kibibyte"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "KiB;kibibyte;kibibytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
-msgstr "KiB;kibibyte;kibibytar;kibibytes"
+msgstr "KiB;kiB;kibibyte;kibibytar;kibibytes"
 
 #: binary_data.cpp:335
 #, kde-format
@@ -2101,12 +2098,10 @@ msgid "kibibits"
 msgstr "kibibit"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Kib;kibibit;kibibits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
-msgstr "Kib;kibibit;kibibitar;kibibits"
+msgstr "Kib;kib;kibibit;kibibitar;kibibits"
 
 #: binary_data.cpp:345
 #, kde-format
@@ -2135,12 +2130,10 @@ msgid "kilobytes"
 msgstr "kilobyte"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kB;kilobyte;kilobytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr "kB;kilobyte;kilobytar;kilobytes"
+msgstr "kB;KB;kilobyte;kilobytar;kilobytes"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2169,12 +2162,10 @@ msgid "kilobits"
 msgstr "kilobit"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kb;kilobit;kilobits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr "kb;kilobit;kilobitar;kilobits"
+msgstr "kb;Kb;kilobit;kilobitar;kilobits"
 
 #: binary_data.cpp:365
 #, kde-format
