@@ -1,8 +1,6 @@
 # SPDX-FileCopyrightText: 2024 Manuel Alcaraz Zambrano <manuelalcarazzam@gmail.com>
 # SPDX-License-Identifier: BSD-2-Clause
 
-find_package(KF6 6.3 REQUIRED COMPONENTS UnitConversion)
-
 set(bindings_library "KUnitConversion")
 
 set(wrapped_header ${CMAKE_SOURCE_DIR}/python/bindings.h)
@@ -19,12 +17,13 @@ set(generated_sources
 
 set(dependencies Qt6::Core)
 
-PythonBindings(
+ecm_generate_python_bindings(
     PACKAGE_NAME ${bindings_library}
     WRAPPED_HEADER ${wrapped_header}
     TYPESYSTEM ${typesystem_file}
     GENERATED_SOURCES ${generated_sources}
     DEPENDENCIES ${dependencies}
-    PYPROJECT "pyproject.toml")
+    PYPROJECT "pyproject.toml"
+)
 
 target_link_libraries(${bindings_library} PRIVATE KF6UnitConversion)
