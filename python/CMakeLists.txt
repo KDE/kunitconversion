@@ -23,7 +23,7 @@ ecm_generate_python_bindings(
     TYPESYSTEM ${typesystem_file}
     GENERATED_SOURCES ${generated_sources}
     DEPENDENCIES ${dependencies}
-    PYPROJECT "pyproject.toml"
+    VERSION ${KF_VERSION}
 )
 
 target_link_libraries(${bindings_library} PRIVATE KF6UnitConversion)
