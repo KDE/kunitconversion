@@ -19,11 +19,11 @@ set(dependencies Qt6::Core)
 
 ecm_generate_python_bindings(
     PACKAGE_NAME ${bindings_library}
+    VERSION ${KF_VERSION}
     WRAPPED_HEADER ${wrapped_header}
     TYPESYSTEM ${typesystem_file}
     GENERATED_SOURCES ${generated_sources}
     DEPENDENCIES ${dependencies}
-    VERSION ${KF_VERSION}
 )
 
 target_link_libraries(${bindings_library} PRIVATE KF6UnitConversion)
