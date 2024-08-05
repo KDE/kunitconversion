@@ -15,7 +15,7 @@ set(generated_sources
     ${CMAKE_CURRENT_BINARY_DIR}/KUnitConversion/kunitconversion_updatejob_wrapper.cpp
     ${CMAKE_CURRENT_BINARY_DIR}/KUnitConversion/kunitconversion_value_wrapper.cpp)
 
-set(dependencies Qt6::Core)
+set(qt_libs Qt6::Core)
 
 ecm_generate_python_bindings(
     PACKAGE_NAME ${bindings_library}
@@ -23,7 +23,10 @@ ecm_generate_python_bindings(
     WRAPPED_HEADER ${wrapped_header}
     TYPESYSTEM ${typesystem_file}
     GENERATED_SOURCES ${generated_sources}
-    DEPENDENCIES ${dependencies}
+    QT_LIBS ${qt_libs}
+    QT_VERSION ${REQUIRED_QT_VERSION}
+    HOMEPAGE_URL "https://invent.kde.org/frameworks/kunitconversion"
+    ISSUES_URL "https://bugs.kde.org/describecomponents.cgi?product=frameworks-kunitconversion"
 )
 
 target_link_libraries(${bindings_library} PRIVATE KF6UnitConversion)
