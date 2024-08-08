@@ -23,6 +23,7 @@ ecm_generate_python_bindings(
     WRAPPED_HEADER ${wrapped_header}
     TYPESYSTEM ${typesystem_file}
     GENERATED_SOURCES ${generated_sources}
+    INCLUDE_DIRS ${CMAKE_INSTALL_PREFIX}/${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion
     QT_LIBS ${qt_libs}
     QT_VERSION ${REQUIRED_QT_VERSION}
     HOMEPAGE_URL "https://invent.kde.org/frameworks/kunitconversion"
@@ -30,3 +31,4 @@ ecm_generate_python_bindings(
 )
 
 target_link_libraries(${bindings_library} PRIVATE KF6UnitConversion)
+install(TARGETS ${bindings_library} LIBRARY DESTINATION "${KDE_INSTALL_LIBDIR}/python-kf6")
