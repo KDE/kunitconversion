@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Shinjo Park <kde@peremen.name>, 2011, 2014, 2017, 2019, 2020, 2022, 2023.
+# SPDX-FileCopyrightText: 2011, 2014, 2017, 2019, 2020, 2022, 2023, 2024 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2023-07-25 01:07+0200\n"
+"PO-Revision-Date: 2024-08-20 00:16+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2032,12 +2032,10 @@ msgid "kibibytes"
 msgstr "키비바이트"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "KiB;kibibyte;kibibytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
-msgstr "KiB;kibibyte;kibibytes;키비바이트"
+msgstr "KiB;kiB;kibibyte;kibibytes;키비바이트"
 
 #: binary_data.cpp:335
 #, kde-format
@@ -2065,12 +2063,10 @@ msgid "kibibits"
 msgstr "키비비트"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Kib;kibibit;kibibits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
-msgstr "Kib;kibibit;kibibits;키비비트"
+msgstr "Kib;kib;kibibit;kibibits;키비비트"
 
 #: binary_data.cpp:345
 #, kde-format
@@ -2098,12 +2094,10 @@ msgid "kilobytes"
 msgstr "킬로바이트"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kB;kilobyte;kilobytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr "kB;kilobyte;kilobytes;킬로바이트"
+msgstr "kB;KB;kilobyte;kilobytes;킬로바이트"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2131,12 +2125,10 @@ msgid "kilobits"
 msgstr "킬로비트"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kb;kilobit;kilobits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr "kb;kilobit;kilobits;킬로비트"
+msgstr "kb;Kb;kilobit;kilobits;킬로비트"
 
 #: binary_data.cpp:365
 #, kde-format
