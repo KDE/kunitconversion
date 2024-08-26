@@ -2153,8 +2153,6 @@ msgstr ""
 
 #: binary_data.cpp:363
 #, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kiloliter;kiloliters;kl"
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
 msgstr "kiloliter;kiloliter;kl"
