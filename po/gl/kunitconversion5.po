@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:25+0000\n"
-"PO-Revision-Date: 2024-03-02 21:42+0100\n"
+"PO-Revision-Date: 2024-08-29 21:24+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.1\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -329,7 +329,7 @@ msgstr "Ym²"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "square yottameters"
-msgstr "yottametros cadrados"
+msgstr "yottámetros cadrados"
 
 #. i18n: Messages such as this one provide synonyms for each unit,
 #. in order to guess the unit from the text that the user inputs.
@@ -341,7 +341,7 @@ msgstr "yottametros cadrados"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square yottameter;square yottameters;Ym²;Ym/-2;Ym^2;Ym2"
-msgstr "yottametro cadrado;yottametros cadrados;Ym²;Ym/-2;Ym^2;Ym2"
+msgstr "yottámetro cadrado;yottámetros cadrados;Ym²;Ym/-2;Ym^2;Ym2"
 
 #. i18n: This is used when a real-valued amount in units is given,
 #. such as "0.37 miles".
@@ -349,7 +349,7 @@ msgstr "yottametro cadrado;yottametros cadrados;Ym²;Ym/-2;Ym^2;Ym2"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 square yottameters"
-msgstr "%1 yottametros cadrados"
+msgstr "%1 yottámetros cadrados"
 
 #. i18n: This is used when a integer-valued amount in units is given,
 #. such as "1 mile" or "21 miles".
@@ -358,8 +358,8 @@ msgstr "%1 yottametros cadrados"
 msgctxt "amount in units (integer)"
 msgid "%1 square yottameter"
 msgid_plural "%1 square yottameters"
-msgstr[0] "%1 yottametro cadrado"
-msgstr[1] "%1 yottametros cadrados"
+msgstr[0] "%1 yottámetro cadrado"
+msgstr[1] "%1 yottámetros cadrados"
 
 #: area.cpp:52
 #, kde-format
@@ -377,7 +377,7 @@ msgstr "zettametros cadrados"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square zettameter;square zettameters;Zm²;Zm/-2;Zm^2;Zm2"
-msgstr "zettametro cadrado;zettametros cadrados;Zm²;Zm/-2;Zm^2;Zm2"
+msgstr "zettámetro cadrado;zettámetros cadrados;Zm²;Zm/-2;Zm^2;Zm2"
 
 #: area.cpp:56
 #, kde-format
@@ -390,8 +390,8 @@ msgstr "%1 zettametros cadrados"
 msgctxt "amount in units (integer)"
 msgid "%1 square zettameter"
 msgid_plural "%1 square zettameters"
-msgstr[0] "%1 zettametro cadrado"
-msgstr[1] "%1 zettametros cadrados"
+msgstr[0] "%1 zettámetro cadrado"
+msgstr[1] "%1 zettámetros cadrados"
 
 #: area.cpp:62
 #, kde-format
@@ -2238,7 +2238,7 @@ msgctxt "amount in units (integer)"
 msgid "%1 bit"
 msgid_plural "%1 bits"
 msgstr[0] "%1 bit"
-msgstr[1] "%1 bahts"
+msgstr[1] "%1 bits"
 
 #: currency.cpp:64
 #, kde-format
@@ -2286,7 +2286,7 @@ msgstr[1] "%1 euros"
 #, kde-format
 msgctxt "currency name"
 msgid "Austrian Schilling"
-msgstr "Xelín austríaco"
+msgstr "Xilin austríaco"
 
 #: currency.cpp:85
 #, kde-format
@@ -2383,8 +2383,8 @@ msgstr "%1 markkas"
 msgctxt "amount in units (integer)"
 msgid "%1 markka"
 msgid_plural "%1 markkas"
-msgstr[0] "%1 markka"
-msgstr[1] "%1 markkas"
+msgstr[0] "%1 marco"
+msgstr[1] "%1 marcos"
 
 #: currency.cpp:128 currency.cpp:130
 #, kde-format
@@ -2600,11 +2600,12 @@ msgctxt "currency name"
 msgid "Slovenian Tolar"
 msgstr "Tólar esloveno"
 
+# well-spelled: tolares
 #: currency.cpp:217
 #, kde-format
 msgctxt "SIT Slovenian Tolar - unit synonyms for matching user input"
 msgid "tolar;tolars;tolarjev"
-msgstr "tolar;tolares;tolars"
+msgstr "tolar;tolars;tolarjev;tólar;tólares;tolares"
 
 #: currency.cpp:220
 #, kde-format
@@ -2740,7 +2741,7 @@ msgstr "ien"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yen"
-msgstr "%1 ienes"
+msgstr "%1 iens"
 
 #: currency.cpp:277
 #, kde-format
@@ -2886,17 +2887,18 @@ msgctxt "currency name"
 msgid "Hungarian Forint"
 msgstr "Florín húngaro"
 
+# well-spelled: forints, forintes,florin,florins
 #: currency.cpp:341
 #, kde-format
 msgctxt "HUF hungarian Forint - unit synonyms for matching user input"
 msgid "forint"
-msgstr "forint;forintes"
+msgstr "forint;forints;forintes;florín;floríns;florin;florins"
 
 #: currency.cpp:344
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 forint"
-msgstr "%1 forints"
+msgstr "%1 forint"
 
 #: currency.cpp:345
 #, kde-format
@@ -2929,8 +2931,8 @@ msgstr "%1 shekels"
 msgctxt "amount in units (integer)"
 msgid "%1 shekel"
 msgid_plural "%1 shekels"
-msgstr[0] "%1 shekel"
-msgstr[1] "%1 shekels"
+msgstr[0] "%1 siclo"
+msgstr[1] "%1 siclos"
 
 #: currency.cpp:363 currency.cpp:365
 #, kde-format
@@ -2974,7 +2976,7 @@ msgstr "lats"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 lati"
-msgstr "%1 lats"
+msgstr "%1 lati"
 
 #: currency.cpp:379
 #, kde-format
@@ -3248,7 +3250,7 @@ msgstr[1] "%1 reais"
 #, kde-format
 msgctxt "currency name"
 msgid "Canadian Dollar"
-msgstr "Dólar canadiano"
+msgstr "Dólar canadense"
 
 #: currency.cpp:496
 #, kde-format
@@ -3274,7 +3276,7 @@ msgstr[1] "%1 dólares do Canadá"
 #, kde-format
 msgctxt "currency name"
 msgid "Chinese Yuan"
-msgstr "Iuán chinés"
+msgstr "Yuán chinés"
 
 #: currency.cpp:507
 #, kde-format
@@ -3380,6 +3382,7 @@ msgctxt "currency name"
 msgid "Korean Won"
 msgstr "Won coreano"
 
+# well-spelled: wons
 #: currency.cpp:551
 #, kde-format
 msgctxt "KRW Korean Won - unit synonyms for matching user input"
@@ -3390,7 +3393,7 @@ msgstr "won;wons"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 won"
-msgstr "%1 wons"
+msgstr "%1 won"
 
 #: currency.cpp:555
 #, kde-format
@@ -3398,7 +3401,7 @@ msgctxt "amount in units (integer)"
 msgid "%1 won"
 msgid_plural "%1 won"
 msgstr[0] "%1 won"
-msgstr[1] "%1 wons"
+msgstr[1] "%1 won"
 
 #: currency.cpp:561 currency.cpp:563
 #, kde-format
@@ -3442,8 +3445,9 @@ msgstr "ringgit;ringgits"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ringgit"
-msgstr "%1 ringgits"
+msgstr "%1 ringgit"
 
+# well-spelled: ringgits
 #: currency.cpp:577
 #, kde-format
 msgctxt "amount in units (integer)"
@@ -3536,6 +3540,7 @@ msgctxt "currency name"
 msgid "Thai Baht"
 msgstr "Baht tailandés"
 
+# well-spelled: bahts
 #: currency.cpp:618
 #, kde-format
 msgctxt "THB Thai Baht - unit synonyms for matching user input"
@@ -3554,7 +3559,7 @@ msgctxt "amount in units (integer)"
 msgid "%1 baht"
 msgid_plural "%1 baht"
 msgstr[0] "%1 baht"
-msgstr[1] "%1 bahts"
+msgstr[1] "%1 baht"
 
 #: currency.cpp:628 currency.cpp:630
 #, kde-format
@@ -5998,27 +6003,30 @@ msgstr "eV"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "electronvolts"
-msgstr "electrón-voltios"
+msgstr "electrón-volts"
 
+# well-spelled: voltio, voltios
 #: energy.cpp:273
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "electronvolt;electronvolts;eV"
-msgstr "electrón-voltio;electrón-voltios;eV"
+msgstr ""
+"electronvolt;electronvolts;eV;electrón-volt;electrón-volts;electrón-voltio;"
+"electrón-voltios"
 
 #: energy.cpp:275
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 electronvolts"
-msgstr "%1 electrón-voltios"
+msgstr "%1 electrón-volts"
 
 #: energy.cpp:276
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 electronvolt"
 msgid_plural "%1 electronvolts"
-msgstr[0] "%1 electrón-voltio"
-msgstr[1] "%1 electrón-voltios"
+msgstr[0] "%1 electrón-volt"
+msgstr[1] "%1 electrón-volts"
 
 #: energy.cpp:281
 #, kde-format
@@ -6064,6 +6072,7 @@ msgctxt "unit description in lists"
 msgid "kilojoule per mole"
 msgstr "quilojoules por mol"
 
+# well-spelled: quiloxuliomol
 #: energy.cpp:293
 #, kde-format
 msgctxt "unit synonyms for matching user input"
