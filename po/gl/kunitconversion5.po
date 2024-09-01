@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:25+0000\n"
-"PO-Revision-Date: 2024-08-29 21:24+0200\n"
+"PO-Revision-Date: 2024-08-31 15:36+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -10138,27 +10138,28 @@ msgstr "MW"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megawatts"
-msgstr "megavatios"
+msgstr "megawatts"
 
+# well-spelled: megavatio, megavatios
 #: power.cpp:118
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megawatt;megawatts;MW"
-msgstr "megavatio;megavatios;MW"
+msgstr "megawatt;megawatts;megavatio;megavatios;MW"
 
 #: power.cpp:120
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megawatts"
-msgstr "%1 megavatios"
+msgstr "%1 megawatts"
 
 #: power.cpp:121
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megawatt"
 msgid_plural "%1 megawatts"
-msgstr[0] "%1 megavatio"
-msgstr[1] "%1 megavatios"
+msgstr[0] "%1 megawatt"
+msgstr[1] "%1 megawatts"
 
 #: power.cpp:126
 #, kde-format
@@ -10170,27 +10171,28 @@ msgstr "kW"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilowatts"
-msgstr "quilovatios"
+msgstr "quilowatts"
 
+# well-spelled: quilovatio, quilovatios
 #: power.cpp:128
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilowatt;kilowatts;kW"
-msgstr "quilovatio;quilovatios;kW"
+msgstr "quilowatt;quilowatts;quilovatio;quilovatios;kW"
 
 #: power.cpp:130
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilowatts"
-msgstr "%1 quilovatios"
+msgstr "%1 quilowatts"
 
 #: power.cpp:131
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilowatt"
 msgid_plural "%1 kilowatts"
-msgstr[0] "%1 quilovatio"
-msgstr[1] "%1 quilovatios"
+msgstr[0] "%1 quilowatt"
+msgstr[1] "%1 quilowatts"
 
 #: power.cpp:136
 #, kde-format
@@ -10202,27 +10204,28 @@ msgstr "hW"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "hectowatts"
-msgstr "hectovatios"
+msgstr "hectowatts"
 
+# well-spelled: hectovatio, hectovatios
 #: power.cpp:138
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectowatt;hectowatts;hW"
-msgstr "hectovatio;hectovatios;hW"
+msgstr "hectowatt;hectowatts;hectovatio;hectovatios;hW"
 
 #: power.cpp:140
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 hectowatts"
-msgstr "%1 hectovatios"
+msgstr "%1 hectowatts"
 
 #: power.cpp:141
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectowatt"
 msgid_plural "%1 hectowatts"
-msgstr[0] "%1 hectovatio"
-msgstr[1] "%1 hectovatios"
+msgstr[0] "%1 hectowatt"
+msgstr[1] "%1 hectowatts"
 
 #: power.cpp:146
 #, kde-format
@@ -10362,27 +10365,28 @@ msgstr "mW"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "milliwatts"
-msgstr "milivatios"
+msgstr "miliwatts"
 
+# well-spelled: milivatio, milivatios
 #: power.cpp:188
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "milliwatt;milliwatts;mW"
-msgstr "milivatio;milivatios;mW"
+msgstr "miliwatt;miliwatts;milivatio;milivatios;mW"
 
 #: power.cpp:190
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 milliwatts"
-msgstr "%1 milivatios"
+msgstr "%1 miliwatts"
 
 #: power.cpp:191
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 milliwatt"
 msgid_plural "%1 milliwatts"
-msgstr[0] "%1 milivatio"
-msgstr[1] "%1 milivatios"
+msgstr[0] "%1 miliwatt"
+msgstr[1] "%1 miliwatts"
 
 #: power.cpp:196
 #, kde-format
@@ -10612,7 +10616,7 @@ msgstr[1] "%1 yoctovatios"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "hp"
-msgstr "cv"
+msgstr "CV"
 
 #: power.cpp:267
 #, kde-format
@@ -10624,7 +10628,7 @@ msgstr "cabalos de vapor"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "horsepower;horsepowers;hp"
-msgstr "cabalo de vapor;cabalos de vapor;hp;cv"
+msgstr "cabalo de vapor;cabalos de vapor;hp;CV"
 
 #: power.cpp:270
 #, kde-format
@@ -11805,15 +11809,15 @@ msgstr "Celsius;°C;C"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 degrees Celsius"
-msgstr "%1 graus Celsius"
+msgstr "%1 graos Celsius"
 
 #: temperature.cpp:201
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 degree Celsius"
 msgid_plural "%1 degrees Celsius"
-msgstr[0] "%1 grau Celsius"
-msgstr[1] "%1 graus Celsius"
+msgstr[0] "%1 grao Celsius"
+msgstr[1] "%1 graos Celsius"
 
 #: temperature.cpp:206
 #, kde-format
@@ -11837,15 +11841,15 @@ msgstr "Fahrenheit;°F;F"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 degrees Fahrenheit"
-msgstr "%1 graus Fahrenheit"
+msgstr "%1 graos Fahrenheit"
 
 #: temperature.cpp:211
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 degree Fahrenheit"
 msgid_plural "%1 degrees Fahrenheit"
-msgstr[0] "%1 grau Fahrenheit"
-msgstr[1] "%1 graus Fahrenheit"
+msgstr[0] "%1 grao Fahrenheit"
+msgstr[1] "%1 graos Fahrenheit"
 
 #: temperature.cpp:216
 #, kde-format
@@ -11863,7 +11867,7 @@ msgstr "Rankine"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Rankine;°R;R;Ra"
-msgstr "Rankine;Rankines;°R;R;Ra"
+msgstr "Rankine;°R;R;Ra"
 
 #: temperature.cpp:220
 #, kde-format
@@ -11895,21 +11899,21 @@ msgstr "Delisle"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Delisle;°De;De"
-msgstr "Delisle;delisles;°De;De"
+msgstr "Delisle;°De;De"
 
 #: temperature.cpp:230
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 degrees Delisle"
-msgstr "%1 graus Delisle"
+msgstr "%1 graos Delisle"
 
 #: temperature.cpp:231
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 degree Delisle"
 msgid_plural "%1 degrees Delisle"
-msgstr[0] "%1 grau Delisle"
-msgstr[1] "%1 graus Delisle"
+msgstr[0] "%1 grao Delisle"
+msgstr[1] "%1 graos Delisle"
 
 #: temperature.cpp:236
 #, kde-format
@@ -11933,15 +11937,15 @@ msgstr "Newton;Newtons;°N;N"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 degrees Newton"
-msgstr "%1 graus Newton"
+msgstr "%1 graos Newton"
 
 #: temperature.cpp:241
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 degree Newton"
 msgid_plural "%1 degrees Newton"
-msgstr[0] "%1 grau Newton"
-msgstr[1] "%1 graus Newton"
+msgstr[0] "%1 grao Newton"
+msgstr[1] "%1 graos Newton"
 
 #: temperature.cpp:246
 #, kde-format
@@ -11959,21 +11963,21 @@ msgstr "Réaumur"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Réaumur;°Ré;Ré;Reaumur;°Re;Re"
-msgstr "Réaumur;°Ré;Ré;Reaumurs"
+msgstr "Réaumur;°Ré;Ré;Reaumur;°Re;Re;Réaumur;°Ré;Ré"
 
 #: temperature.cpp:250
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 degrees Réaumur"
-msgstr "%1 graus Réaumur"
+msgstr "%1 graos Réaumur"
 
 #: temperature.cpp:251
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 degree Réaumur"
 msgid_plural "%1 degrees Réaumur"
-msgstr[0] "%1 grau Réaumur"
-msgstr[1] "%1 graus Réaumur"
+msgstr[0] "%1 grao Réaumur"
+msgstr[1] "%1 graos Réaumur"
 
 #: temperature.cpp:256
 #, kde-format
@@ -11997,20 +12001,20 @@ msgstr "Rømer;°Rø;Rø;Romer;°Ro;Ro"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 degrees Rømer"
-msgstr "%1 graus Rømer"
+msgstr "%1 graos Rømer"
 
 #: temperature.cpp:261
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 degree Rømer"
 msgid_plural "%1 degrees Rømer"
-msgstr[0] "%1 grau Rømer"
-msgstr[1] "%1 graus Rømer"
+msgstr[0] "%1 grao Rømer"
+msgstr[1] "%1 graos Rømer"
 
 #: thermal_conductivity.cpp:17
 #, kde-format
 msgid "Thermal Conductivity"
-msgstr "Conductividade térmica"
+msgstr "Condutividade térmica"
 
 #: thermal_conductivity.cpp:19
 #, kde-format
@@ -12074,15 +12078,15 @@ msgstr "btu por pé hora grao Fahrenheit;btu por pé hora Fahrenheit;Btu/ft-hr-F
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per foot hour degree Fahrenheit"
-msgstr "%1 btus por pé hora grao Fahrenheit"
+msgstr "%1 BTU por pé hora grao Fahrenheit"
 
 #: thermal_conductivity.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per foot hour degree Fahrenheit"
 msgid_plural "%1 btu per foot hour degree Fahrenheit"
-msgstr[0] "%1 btu por pé hora grao Fahrenheit"
-msgstr[1] "%1 btus por pé hora grao Fahrenheit"
+msgstr[0] "%1 BTU por pé hora grao Fahrenheit"
+msgstr[1] "%1 BTU por pé hora grao Fahrenheit"
 
 #: thermal_conductivity.cpp:45
 #, kde-format
@@ -12104,22 +12108,22 @@ msgid ""
 "hour Fahrenheit per inch;btu per sq foot-hour-Fahrenheit per inch;Btu/ft^2-"
 "hr-F/in"
 msgstr ""
-"btu por pé cadrado hora grao Fahrenheit por polgada;btu por pé cadrado hora "
-"Fahrenheit por polgad;Btu/ft^2-hr-F/in;Btu/ft²-hr-F/in"
+"BTU por pé cadrado hora grao Fahrenheit por polgada;BTU por pé cadrado hora "
+"Fahrenheit por polgada;BTU/ft^2-hr-F/in;BTU/ft²-hr-F/in"
 
 #: thermal_conductivity.cpp:51
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr "%1 btus por pé cadrado hora grao Fahrenheit por polgada"
+msgstr "%1 BTU por pé cadrado hora grao Fahrenheit por polgada"
 
 #: thermal_conductivity.cpp:53
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
 msgid_plural "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr[0] "%1 btu por pé cadrado hora grao Fahrenheit por polgada"
-msgstr[1] "%1 btus por pé cadrado hora grao Fahrenheit por polgada"
+msgstr[0] "%1 BTU por pé cadrado hora grao Fahrenheit por polgada"
+msgstr[1] "%1 BTU por pé cadrado hora grao Fahrenheit por polgada"
 
 #: thermal_flux.cpp:18
 #, kde-format
@@ -12174,7 +12178,7 @@ msgstr "Btu/hr/ft²"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per hour per square foot"
-msgstr "btus por hora por pé cadrado"
+msgstr "BTU por hora por pé cadrado"
 
 #: thermal_flux.cpp:37
 #, kde-format
@@ -12182,22 +12186,22 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
 msgstr ""
-"btus por hora por pé cadrado;Btu/hr/ft2;Btu/hr/ft^2;Btu/hr/ft²;Btu/ft^2/hr;"
-"Btu/ft²/hr;Btu/ft2/hr"
+"BTU por hora por pé cadrado;BTU/hr/ft2;BTU/hr/ft^2;BTU/hr/ft²;BTU/ft^2/hr;"
+"BTU/ft²/hr;BTU/ft2/hr"
 
 #: thermal_flux.cpp:39
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per hour per square foot"
-msgstr "%1 btus por hora por pé cadrado"
+msgstr "%1 BTU por hora por pé cadrado"
 
 #: thermal_flux.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per hour per square foot"
 msgid_plural "%1 btu per hour per square foot"
-msgstr[0] "%1 btu por hora por pé cadrado"
-msgstr[1] "%1 btus por hora por pé cadrado"
+msgstr[0] "%1 BTU por hora por pé cadrado"
+msgstr[1] "%1 BTU por hora por pé cadrado"
 
 #: thermal_generation.cpp:17
 #, kde-format
@@ -12252,7 +12256,7 @@ msgstr "Btu/hr/ft³"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per hour per cubic foot"
-msgstr "btus por hora por pé cúbico"
+msgstr "BTU por hora por pé cúbico"
 
 #: thermal_generation.cpp:36
 #, kde-format
@@ -12260,22 +12264,22 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
 msgstr ""
-"btu por hora por pé cúbico;btus por hora por pé cúbico;Btu/hr/ft3;Btu/hr/"
-"ft^3;Btu/hr/ft³;Btu/ft^3/hr;Btu/ft³/hr;Btu/ft3/hr"
+"BTU por hora por pé cúbico;BTU por hora por pé cúbico;BTU/hr/ft3;BTU/hr/ft^3;"
+"BTU/hr/ft³;BTU/ft^3/hr;BTU/ft³/hr;BTU/ft3/hr"
 
 #: thermal_generation.cpp:38
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per hour per cubic foot"
-msgstr "%1 btus por hora por pé cúbico"
+msgstr "%1 BTU por hora por pé cúbico"
 
 #: thermal_generation.cpp:39
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per hour per cubic foot"
 msgid_plural "%1 btu per hour per cubic foot"
-msgstr[0] "%1 btu por hora por pé cúbico"
-msgstr[1] "%1 btus por hora por pé cúbico"
+msgstr[0] "%1 BTU por hora por pé cúbico"
+msgstr[1] "%1 BTU por hora por pé cúbico"
 
 #: timeunit.cpp:17
 #, kde-format
@@ -13403,7 +13407,7 @@ msgstr "Mach"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "mach;machs;Ma;speed of sound"
-msgstr "mach;maches;Ma;velocidade do son"
+msgstr "mach;machs;mache;maches;Ma;velocidade do son"
 
 #: velocity.cpp:118
 #, kde-format
@@ -14195,8 +14199,8 @@ msgstr "%1 statvolts"
 msgctxt "amount in units (integer)"
 msgid "%1 statvolt"
 msgid_plural "%1 statvolts"
-msgstr[0] "%1 statvolt"
-msgstr[1] "%1 statvolts"
+msgstr[0] "%1 estatvolt"
+msgstr[1] "%1 estatvolts"
 
 #: volume.cpp:18
 #, kde-format
@@ -14219,27 +14223,27 @@ msgstr "Ym³"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "cubic yottameters"
-msgstr "yotámetros cúbicos"
+msgstr "yottámetros cúbicos"
 
 #: volume.cpp:27
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic yottameter;cubic yottameters;Ym³;Ym/-3;Ym^3;Ym3"
-msgstr "yotámetro cúbico;yotámetros cúbicos;Ym³;Ym/-3;Ym^3;Ym3"
+msgstr "yottámetro cúbico;yottámetros cúbicos;Ym³;Ym/-3;Ym^3;Ym3"
 
 #: volume.cpp:28
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 cubic yottameters"
-msgstr "%1 yotámetros cúbicos"
+msgstr "%1 yottámetros cúbicos"
 
 #: volume.cpp:30
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 cubic yottameter"
 msgid_plural "%1 cubic yottameters"
-msgstr[0] "%1 yotámetro cúbico"
-msgstr[1] "%1 yotámetros cúbicos"
+msgstr[0] "%1 yottámetro cúbico"
+msgstr[1] "%1 yottámetros cúbicos"
 
 #: volume.cpp:35
 #, kde-format
@@ -14251,27 +14255,27 @@ msgstr "Zm³"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "cubic zettameters"
-msgstr "zetámetros cúbicos"
+msgstr "zettámetros cúbicos"
 
 #: volume.cpp:37
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic zettameter;cubic zettameters;Zm³;Zm/-3;Zm^3;Zm3"
-msgstr "zetámetro cúbico;zetámetros cúbicos;Zm³;Zm/-3;Zm^3;Zm3"
+msgstr "zettámetro cúbico;zettámetros cúbicos;Zm³;Zm/-3;Zm^3;Zm3"
 
 #: volume.cpp:39
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 cubic zettameters"
-msgstr "%1 zetámetros cúbicos"
+msgstr "%1 zettámetros cúbicos"
 
 #: volume.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 cubic zettameter"
 msgid_plural "%1 cubic zettameters"
-msgstr[0] "%1 zetámetro cúbico"
-msgstr[1] "%1 zetámetros cúbicos"
+msgstr[0] "%1 zettámetro cúbico"
+msgstr[1] "%1 zettámetros cúbicos"
 
 #: volume.cpp:45
 #, kde-format
@@ -14475,27 +14479,27 @@ msgstr "hm³"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "cubic hectometers"
-msgstr "hectometros cúbicos"
+msgstr "hectómetros cúbicos"
 
 #: volume.cpp:107
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic hectometer;cubic hectometers;hm³;hm/-3;hm^3;hm3"
-msgstr "hectometro cúbico;hectometros cúbicos;hm³;hm/-3;hm^3;hm3"
+msgstr "hectómetro cúbico;hectómetros cúbicos;hm³;hm/-3;hm^3;hm3"
 
 #: volume.cpp:109
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 cubic hectometers"
-msgstr "%1 hectometros cúbicos"
+msgstr "%1 hectómetros cúbicos"
 
 #: volume.cpp:110
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 cubic hectometer"
 msgid_plural "%1 cubic hectometers"
-msgstr[0] "%1 hectometro cúbico"
-msgstr[1] "%1 hectometros cúbicos"
+msgstr[0] "%1 hectómetro cúbico"
+msgstr[1] "%1 hectómetros cúbicos"
 
 #: volume.cpp:115
 #, kde-format
@@ -14507,27 +14511,27 @@ msgstr "dam³"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "cubic decameters"
-msgstr "decametros cúbicos"
+msgstr "decámetros cúbicos"
 
 #: volume.cpp:117
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic decameter;cubic decameters;dam³;dam/-3;dam^3;dam3"
-msgstr "decametro cúbico;decametros cúbicos;dam³;dam/-3;dam^3;dam3"
+msgstr "decámetro cúbico;decámetros cúbicos;dam³;dam/-3;dam^3;dam3"
 
 #: volume.cpp:119
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 cubic decameters"
-msgstr "%1 decametros cúbicos"
+msgstr "%1 decámetros cúbicos"
 
 #: volume.cpp:120
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 cubic decameter"
 msgid_plural "%1 cubic decameters"
-msgstr[0] "%1 decametros cúbicos"
-msgstr[1] "%1 decametros cúbicos"
+msgstr[0] "%1 decámetros cúbicos"
+msgstr[1] "%1 decámetros cúbicos"
 
 #: volume.cpp:125
 #, kde-format
@@ -14834,7 +14838,7 @@ msgstr "zeptometros cúbicos"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic zeptometer;cubic zeptometers;zm³;zm/-3;zm^3;zm3"
-msgstr "zeptometro cúbico;zeptometros cúbicos;zm/-3;zm^3;zm3"
+msgstr "zeptómetro cúbico;zeptómetros cúbicos;zm/-3;zm^3;zm3"
 
 #: volume.cpp:219
 #, kde-format
@@ -14847,8 +14851,8 @@ msgstr "%1 zeptometros cúbicos"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic zeptometer"
 msgid_plural "%1 cubic zeptometers"
-msgstr[0] "%1 zeptometro cúbico"
-msgstr[1] "%1 zeptometros cúbicos"
+msgstr[0] "%1 zeptómetro cúbico"
+msgstr[1] "%1 zeptómetros cúbicos"
 
 #: volume.cpp:225
 #, kde-format
@@ -14866,7 +14870,7 @@ msgstr "yoctómetros cúbicos"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic yoctometer;cubic yoctometers;ym³;ym/-3;ym^3;ym3"
-msgstr "yoctometro cúbico;yoctometros cúbicos;ym/-3;ym^3;ym3"
+msgstr "yoctómetro cúbico;yoctómetros cúbicos;ym/-3;ym^3;ym3"
 
 #: volume.cpp:229
 #, kde-format
@@ -14879,7 +14883,7 @@ msgstr "%1 yoctómetros cúbicos"
 msgctxt "amount in units (integer)"
 msgid "%1 cubic yoctometer"
 msgid_plural "%1 cubic yoctometers"
-msgstr[0] "%1 yoctometro cúbico"
+msgstr[0] "%1 yoctómetro cúbico"
 msgstr[1] "%1 yoctómetros cúbicos"
 
 #: volume.cpp:235
@@ -15723,7 +15727,7 @@ msgstr[1] "%1 cuncas"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr "cullñ"
+msgstr "culleradiña"
 
 #: volume.cpp:496
 #, kde-format
@@ -15735,7 +15739,7 @@ msgstr "culleradiña"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr "culleradiña;culleradiñas;cullñ;cullñs"
+msgstr "culleradiña;culleradiñas;teaspoon;teaspoons;tsp;tsps"
 
 #: volume.cpp:499
 #, kde-format
@@ -15755,7 +15759,7 @@ msgstr[1] "%1 culleradiñas"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr "cull"
+msgstr "cullerada"
 
 #: volume.cpp:506
 #, kde-format
@@ -15767,7 +15771,7 @@ msgstr "cullerada"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr "cullerada;culleradas;cull;culls"
+msgstr "tablespoon;tablespoons;tbsp;tbsps;cullerada;culleradas"
 
 #: volume.cpp:509
 #, kde-format
