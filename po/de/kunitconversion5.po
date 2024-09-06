@@ -7,7 +7,7 @@
 # Torbjörn Klatt <torbjoern.k@googlemail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: libkunitconversion\n"
+"Project-Id-Version: kunitconversion6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:25+0000\n"
 "PO-Revision-Date: 2023-04-29 12:14+0200\n"
