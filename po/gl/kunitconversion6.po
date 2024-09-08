@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-27 09:12+0000\n"
-"PO-Revision-Date: 2024-08-31 15:36+0200\n"
+"PO-Revision-Date: 2024-09-07 11:32+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -2906,7 +2906,7 @@ msgctxt "amount in units (integer)"
 msgid "%1 forint"
 msgid_plural "%1 forint"
 msgstr[0] "%1 forint"
-msgstr[1] "%1 forints"
+msgstr[1] "%1 forint"
 
 #: currency.cpp:351 currency.cpp:354
 #, kde-format
@@ -6980,27 +6980,29 @@ msgstr "kp"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kiloponds"
-msgstr "quilopondios"
+msgstr "quilogramos forza"
 
 #: force.cpp:247
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram-force;kilopond;kiloponds;kp"
-msgstr "quilogramo-forza;quilopondio;quilopondios;kp"
+msgstr ""
+"quilogramo forza;quilogramos forza;kgf;quilopondio;quilopondios;kp;kilopond;"
+"kiloponds"
 
 #: force.cpp:249
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kiloponds"
-msgstr "%1 quilopondios"
+msgstr "%1 quilogramos forza"
 
 #: force.cpp:250
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilopond"
 msgid_plural "%1 kiloponds"
-msgstr[0] "%1 quilopondio"
-msgstr[1] "%1 quilopondios"
+msgstr[0] "%1 quilogramo forza"
+msgstr[1] "%1 quilogramos forza"
 
 #: force.cpp:255
 #, kde-format
@@ -7125,7 +7127,7 @@ msgstr "zettahertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettahertz;zettahertzs;ZHz"
-msgstr "zettahertz;zettahertzios;ZHz"
+msgstr "zettahertz;zettahertzs;zettahercio;zettahercios;ZHz"
 
 #: frequency.cpp:39
 #, kde-format
@@ -7509,7 +7511,7 @@ msgstr "milihertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "millihertz;millihertzs;mHz"
-msgstr "milihertz;milihertzs;mHz"
+msgstr "milihertz;milihertzs;milihercio;milihercios;mHz"
 
 #: frequency.cpp:159
 #, kde-format
@@ -7701,7 +7703,7 @@ msgstr "zeptohertz"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptohertz;zeptohertzs;zHz"
-msgstr "zeptohertz;zeptohertzios;zHz"
+msgstr "zeptohertz;zeptohertzs;zeptohercio;zeptohercios;zHz"
 
 #: frequency.cpp:219
 #, kde-format
@@ -7943,27 +7945,28 @@ msgstr "Ym"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yottameters"
-msgstr "yottametros"
+msgstr "yottámetros"
 
+# well-spelled: yottametro, yottametros
 #: length.cpp:27
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yottameter;yottameters;Ym"
-msgstr "yottametro;yottametros;Ym"
+msgstr "yottámetro;yottámetros;yottametro;yottametros;Ym"
 
 #: length.cpp:29
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottameters"
-msgstr "%1 yottametros"
+msgstr "%1 yottámetros"
 
 #: length.cpp:30
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottameter"
 msgid_plural "%1 yottameters"
-msgstr[0] "%1 yottametro"
-msgstr[1] "%1 yottametros"
+msgstr[0] "%1 yottámetro"
+msgstr[1] "%1 yottámetros"
 
 #: length.cpp:35
 #, kde-format
@@ -7977,11 +7980,12 @@ msgctxt "unit description in lists"
 msgid "zettameters"
 msgstr "zettametros"
 
+# well-spelled: zettametro, zettametros
 #: length.cpp:37
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zettameter;zettameters;Zm"
-msgstr "zettametro;zettametros;Zm"
+msgstr "zettámetro;zettámetros;zettametro;zettametros;Zm"
 
 #: length.cpp:39
 #, kde-format
@@ -7994,8 +7998,8 @@ msgstr "%1 zettametros"
 msgctxt "amount in units (integer)"
 msgid "%1 zettameter"
 msgid_plural "%1 zettameters"
-msgstr[0] "%1 zettametro"
-msgstr[1] "%1 zettametros"
+msgstr[0] "%1 zettámetro"
+msgstr[1] "%1 zettámetros"
 
 #: length.cpp:45
 #, kde-format
@@ -8449,7 +8453,7 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
 msgstr ""
-"Angstrom;Ångstrom;Angström;Angstrom;Angstroms;Ångstroms;Angströms;Angstrons;Å"
+"Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
 
 #: length.cpp:189
 #, kde-format
@@ -8457,6 +8461,7 @@ msgctxt "amount in units (real)"
 msgid "%1 Ångströms"
 msgstr "%1 Ångströms"
 
+# well-spelled: Ångströms
 #: length.cpp:190
 #, kde-format
 msgctxt "amount in units (integer)"
@@ -8573,11 +8578,12 @@ msgctxt "unit description in lists"
 msgid "zeptometers"
 msgstr "zeptometros"
 
+# well-spelled: zeptometro, zeptometros
 #: length.cpp:227
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "zeptometer;zeptometers;zm"
-msgstr "zeptometro;zeptometros;zm"
+msgstr "zeptómetro;zeptómetros;zeptometro;zeptometros;zm"
 
 #: length.cpp:229
 #, kde-format
@@ -8590,8 +8596,8 @@ msgstr "%1 zeptometros"
 msgctxt "amount in units (integer)"
 msgid "%1 zeptometer"
 msgid_plural "%1 zeptometers"
-msgstr[0] "%1 zeptometro"
-msgstr[1] "%1 zeptometros"
+msgstr[0] "%1 zeptómetro"
+msgstr[1] "%1 zeptómetros"
 
 #: length.cpp:235
 #, kde-format
@@ -8603,27 +8609,28 @@ msgstr "ym"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yoctometers"
-msgstr "yoctometros"
+msgstr "yoctómetros"
 
+# well-spelled: yoctometro, yoctometros
 #: length.cpp:237
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "yoctometer;yoctometers;ym"
-msgstr "yoctometro;yoctometros;ym"
+msgstr "yoctómetro;yoctómetros;yoctometro;yoctometros;ym"
 
 #: length.cpp:239
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctometers"
-msgstr "%1 yoctometros"
+msgstr "%1 yoctómetros"
 
 #: length.cpp:240
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctometer"
 msgid_plural "%1 yoctometers"
-msgstr[0] "%1 yoctometro"
-msgstr[1] "%1 yoctometros"
+msgstr[0] "%1 yoctómetro"
+msgstr[1] "%1 yoctómetros"
 
 #: length.cpp:245
 #, kde-format
@@ -8667,27 +8674,27 @@ msgstr "thou"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "thousandths of an inch"
-msgstr "milésimas de polegada"
+msgstr "milésimas de polgada"
 
 #: length.cpp:257
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "thou;mil;point;thousandth of an inch;thousandths of an inch"
-msgstr "thou;milésima de polegada;milésimas de polegada"
+msgstr "thou;milésima de polgada;milésimas de polgada"
 
 #: length.cpp:259
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 thousandths of an inch"
-msgstr "%1 milésimas de polegada"
+msgstr "%1 milésimas de polgada"
 
 #: length.cpp:260
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 thousandth of an inch"
 msgid_plural "%1 thousandths of an inch"
-msgstr[0] "%1 milésima de polegada"
-msgstr[1] "%1 milésimas de polegada"
+msgstr[0] "%1 milésima de polgada"
+msgstr[1] "%1 milésimas de polgada"
 
 #: length.cpp:265
 #, kde-format
@@ -9728,7 +9735,7 @@ msgstr[1] "%1 onzas"
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "t oz"
-msgstr "fl oz"
+msgstr "ozt"
 
 #: mass.cpp:279
 #, kde-format
@@ -9740,7 +9747,7 @@ msgstr "onzas troy"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "troy ounce;troy ounces;t oz"
-msgstr "onza troy;onzas troy;fl oz"
+msgstr "onza troy;onzas troy;ozt;troy ounce;troy ounces;t oz"
 
 #: mass.cpp:282
 #, kde-format
@@ -9858,8 +9865,8 @@ msgstr "%1 Darcy"
 msgctxt "amount in units (integer)"
 msgid "%1 Darcy"
 msgid_plural "%1 Darcys"
-msgstr[0] "%1 Darcy"
-msgstr[1] "%1 Darcys"
+msgstr[0] "%1 darcy"
+msgstr[1] "%1 darcys"
 
 #: permeability.cpp:33
 #, kde-format
@@ -9871,7 +9878,7 @@ msgstr "mDarcy"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Milli-Darcy"
-msgstr "miliDarcy"
+msgstr "milidarcy"
 
 #: permeability.cpp:35
 #, kde-format
@@ -9883,15 +9890,15 @@ msgstr "Mili-Darcy;MiliDarcy;MiliDar;mDarcy;mDar;mDarc"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Milli-Darcy"
-msgstr "%1 miliDarcy"
+msgstr "%1 milidarcy"
 
 #: permeability.cpp:38
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Milli-Darcy"
 msgid_plural "%1 Milli-Darcys"
-msgstr[0] "%1 miliDarcy"
-msgstr[1] "%1 Mili-Darcy"
+msgstr[0] "%1 milidarcy"
+msgstr[1] "%1 milidarcys"
 
 #: permeability.cpp:43
 #, kde-format
@@ -12500,7 +12507,7 @@ msgstr "megasegundos"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megasecond;megaseconds;Ms"
-msgstr "megasegundo;megasgundos;Ms"
+msgstr "megasegundo;megasegundos;megasecond;megaseconds;Ms"
 
 #: timeunit.cpp:88
 #, kde-format
