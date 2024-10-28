@@ -28,6 +28,7 @@ ecm_generate_python_bindings(
     QT_VERSION ${REQUIRED_QT_VERSION}
     HOMEPAGE_URL "https://invent.kde.org/frameworks/kunitconversion"
     ISSUES_URL "https://bugs.kde.org/describecomponents.cgi?product=frameworks-kunitconversion"
+    README ../README.md
 )
 
 target_link_libraries(${bindings_library} PRIVATE KF6UnitConversion)
