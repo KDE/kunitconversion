@@ -123,3 +123,5 @@ if(BUILD_QCH)
     )
 endif()
 
+ecm_generate_qdoc(KF6UnitConversion kunitconversion.qdocconf)
+

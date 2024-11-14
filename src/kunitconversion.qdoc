@@ -1,0 +1,10 @@
+/*!
+    \module KUnitConversion
+    \title KUnitConversion C++ Classes
+    \ingroup modules
+    \cmakepackage KF6
+    \cmakecomponent UnitConversion
+
+    \brief KUnitConversion provides functions to convert values in different physical units.
+*/
+
