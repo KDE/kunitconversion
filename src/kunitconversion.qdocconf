@@ -1,0 +1,28 @@
+include($KDE_DOCS/global/qt-module-defaults.qdocconf)
+
+project = KUnitConversion
+description = Convert values in different physical units
+
+documentationinheaders = true
+
+headerdirs += .
+sourcedirs += .
+
+outputformats = HTML
+
+depends += qtcore kde
+
+qhp.projects = KUnitConversion
+
+qhp.KUnitConversion.file = kunitconversion.qhp
+qhp.KUnitConversion.namespace = org.kde.kunitconversion.$QT_VERSION_TAG
+qhp.KUnitConversion.virtualFolder = kunitconversion
+qhp.KUnitConversion.indexTitle = KUnitConversion
+qhp.KUnitConversion.indexRoot =
+
+qhp.KUnitConversion.subprojects = classes
+qhp.KUnitConversion.subprojects.classes.title = C++ Classes
+qhp.KUnitConversion.subprojects.classes.indexTitle = KUnitConversion C++ Classes
+qhp.KUnitConversion.subprojects.classes.selectors = class fake:headerfile
+qhp.KUnitConversion.subprojects.classes.sortPages = true
+

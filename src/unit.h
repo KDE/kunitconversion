@@ -13,8 +13,42 @@
 #include <QExplicitlySharedDataPointer>
 #include <QString>
 
+/*!
+ * \namespace KUnitConversion
+ * \inmodule KUnitConversion
+ */
 namespace KUnitConversion
 {
+/*!
+ * \enum KUnitConversion::CategoryId
+ * \value InvalidCategory
+ * \value LengthCategory
+ * \value AreaCategory
+ * \value VolumeCategory
+ * \value TemperatureCategory
+ * \value VelocityCategory
+ * \value MassCategory
+ * \value PressureCategory
+ * \value EnergyCategory
+ * \value CurrencyCategory
+ * \value PowerCategory
+ * \value TimeCategory
+ * \value FuelEfficiencyCategory
+ * \value DensityCategory
+ * \value WeightPerAreaCategory
+ * \value AccelerationCategory
+ * \value AngleCategory
+ * \value FrequencyCategory
+ * \value ForceCategory
+ * \value [since 5.27] ThermalConductivityCategory
+ * \value [since 5.27] ThermalFluxCategory
+ * \value [since 5.27] ThermalGenerationCategory
+ * \value [since 5.27] VoltageCategory
+ * \value [since 5.27] ElectricalCurrentCategory
+ * \value [since 5.27] ElectricalResistanceCategory
+ * \value [since 5.53] PermeabilityCategory
+ * \value [since 5.61] BinaryDataCategory
+ */
 enum CategoryId {
     InvalidCategory = -1,
     LengthCategory,
@@ -35,24 +69,568 @@ enum CategoryId {
     AngleCategory,
     FrequencyCategory,
     ForceCategory,
-    /** @since 5.27 */
     ThermalConductivityCategory,
-    /** @since 5.27 */
     ThermalFluxCategory,
-    /** @since 5.27 */
     ThermalGenerationCategory,
-    /** @since 5.27 */
     VoltageCategory,
-    /** @since 5.27 */
     ElectricalCurrentCategory,
-    /** @since 5.27 */
     ElectricalResistanceCategory,
-    /** @since 5.53 */
     PermeabilityCategory,
-    /** @since 5.61 **/
     BinaryDataCategory
 };
 
+/*!
+ * \enum KUnitConversion::UnitId
+ * \value InvalidUnit
+ * \value NoUnit
+ * \value Percent
+ *
+ * \value SquareYottameter
+ * \value SquareZettameter
+ * \value SquareExameter
+ * \value SquarePetameter
+ * \value SquareTerameter
+ * \value SquareGigameter
+ * \value SquareMegameter
+ * \value SquareKilometer
+ * \value SquareHectometer
+ * \value SquareDecameter
+ * \value SquareMeter
+ * \value SquareDecimeter
+ * \value SquareCentimeter
+ * \value SquareMillimeter
+ * \value SquareMicrometer
+ * \value SquareNanometer
+ * \value SquarePicometer
+ * \value SquareFemtometer
+ * \value SquareAttometer
+ * \value SquareZeptometer
+ * \value SquareYoctometer
+ * \value Acre
+ * \value SquareFoot
+ * \value SquareInch
+ * \value SquareMile
+ *
+ * \value Yottameter
+ * \value Zettameter
+ * \value Exameter
+ * \value Petameter
+ * \value Terameter
+ * \value Gigameter
+ * \value Megameter
+ * \value Kilometer
+ * \value Hectometer
+ * \value Decameter
+ * \value Meter
+ * \value Decimeter
+ * \value Centimeter
+ * \value Millimeter
+ * \value Micrometer
+ * \value Nanometer
+ * \value Picometer
+ * \value Femtometer
+ * \value Attometer
+ * \value Zeptometer
+ * \value Yoctometer
+ * \value Inch
+ * \value Foot
+ * \value Yard
+ * \value Mile
+ * \value NauticalMile
+ * \value LightYear
+ * \value Parsec
+ * \value AstronomicalUnit
+ * \value Thou
+ * \value Angstrom
+ *
+ * \value CubicYottameter
+ * \value CubicZettameter
+ * \value CubicExameter
+ * \value CubicPetameter
+ * \value CubicTerameter
+ * \value CubicGigameter
+ * \value CubicMegameter
+ * \value CubicKilometer
+ * \value CubicHectometer
+ * \value CubicDecameter
+ * \value CubicMeter
+ * \value CubicDecimeter
+ * \value CubicCentimeter
+ * \value CubicMillimeter
+ * \value CubicMicrometer
+ * \value CubicNanometer
+ * \value CubicPicometer
+ * \value CubicFemtometer
+ * \value CubicAttometer
+ * \value CubicZeptometer
+ * \value CubicYoctometer
+ * \value Yottaliter
+ * \value Zettaliter
+ * \value Exaliter
+ * \value Petaliter
+ * \value Teraliter
+ * \value Gigaliter
+ * \value Megaliter
+ * \value Kiloliter
+ * \value Hectoliter
+ * \value Decaliter
+ * \value Liter
+ * \value Deciliter
+ * \value Centiliter
+ * \value Milliliter
+ * \value Microliter
+ * \value Nanoliter
+ * \value Picoliter
+ * \value Femtoliter
+ * \value Attoliter
+ * \value Zeptoliter
+ * \value Yoctoliter
+ * \value CubicFoot
+ * \value CubicInch
+ * \value CubicMile
+ * \value FluidOunce
+ * \value Cup
+ * \value Teaspoon
+ * \value Tablespoon
+ * \value GallonUS
+ * \value PintImperial
+ * \value [since 5.53] OilBarrel
+ * \value [since 5.70] GallonImperial
+ * \value [since 5.70] PintUS
+ *
+ * \value Yottagram
+ * \value Zettagram
+ * \value Exagram
+ * \value Petagram
+ * \value Teragram
+ * \value Gigagram
+ * \value Megagram
+ * \value Kilogram
+ * \value Hectogram
+ * \value Decagram
+ * \value Gram
+ * \value Decigram
+ * \value Centigram
+ * \value Milligram
+ * \value Microgram
+ * \value Nanogram
+ * \value Picogram
+ * \value Femtogram
+ * \value Attogram
+ * \value Zeptogram
+ * \value Yoctogram
+ * \value Ton
+ * \value Carat
+ * \value Pound
+ * \value Ounce
+ * \value TroyOunce
+ * \value MassNewton
+ * \value Kilonewton
+ *
+ * \value [since 5.26] Stone
+ *
+ * \value Yottapascal
+ * \value Zettapascal
+ * \value Exapascal
+ * \value Petapascal
+ * \value Terapascal
+ * \value Gigapascal
+ * \value Megapascal
+ * \value Kilopascal
+ * \value Hectopascal
+ * \value Decapascal
+ * \value Pascal
+ * \value Decipascal
+ * \value Centipascal
+ * \value Millipascal
+ * \value Micropascal
+ * \value Nanopascal
+ * \value Picopascal
+ * \value Femtopascal
+ * \value Attopascal
+ * \value Zeptopascal
+ * \value Yoctopascal
+ * \value Bar
+ * \value Millibar
+ * \value Decibar
+ * \value Torr
+ * \value TechnicalAtmosphere
+ * \value Atmosphere
+ * \value PoundForcePerSquareInch
+ * \value InchesOfMercury
+ * \value MillimetersOfMercury
+ *
+ * \value Kelvin
+ * \value Celsius
+ * \value Fahrenheit
+ * \value Rankine
+ * \value Delisle
+ * \value TemperatureNewton
+ * \value Reaumur
+ * \value Romer
+ *
+ * \value Yottajoule
+ * \value Zettajoule
+ * \value Exajoule
+ * \value Petajoule
+ * \value Terajoule
+ * \value Gigajoule
+ * \value Megajoule
+ * \value Kilojoule
+ * \value Hectojoule
+ * \value Decajoule
+ * \value Joule
+ * \value Decijoule
+ * \value Centijoule
+ * \value Millijoule
+ * \value Microjoule
+ * \value Nanojoule
+ * \value Picojoule
+ * \value Femtojoule
+ * \value Attojoule
+ * \value Zeptojoule
+ * \value Yoctojoule
+ * \value GuidelineDailyAmount
+ * \value Electronvolt
+ * \value Rydberg
+ * \value Kilocalorie
+ * \value PhotonWavelength
+ * \value KiloJoulePerMole
+ * \value JoulePerMole
+ * \value [since 5.27] Btu
+ * \value [since 5.27] Erg
+ *
+ * \value Eur
+ * \value Ats
+ * \value Bef
+ * \value Nlg
+ * \value Fim
+ * \value Frf
+ * \value Dem
+ * \value Iep
+ * \value Itl
+ * \value Luf
+ * \value Pte
+ * \value Esp
+ * \value Grd
+ * \value Sit
+ * \value Cyp
+ * \value Mtl
+ * \value Skk
+ * \value Usd
+ * \value Jpy
+ * \value Bgn
+ * \value Czk
+ * \value Dkk
+ * \value Eek
+ * \value Gbp
+ * \value Huf
+ * \value Ltl
+ * \value Lvl
+ * \value Pln
+ * \value Ron
+ * \value Sek
+ * \value Chf
+ * \value Nok
+ * \value Hrk
+ * \value Rub
+ * \value Try
+ * \value Aud
+ * \value Brl
+ * \value Cad
+ * \value Cny
+ * \value Hkd
+ * \value Idr
+ * \value Inr
+ * \value Krw
+ * \value Mxn
+ * \value Myr
+ * \value Nzd
+ * \value Php
+ * \value Sgd
+ * \value Thb
+ * \value Zar
+ * \value Ils
+ * \value Isk
+ *
+ * \value MeterPerSecond
+ * \value KilometerPerHour
+ * \value MilePerHour
+ * \value FootPerSecond
+ * \value InchPerSecond
+ * \value Knot
+ * \value Mach
+ * \value SpeedOfLight
+ * \value Beaufort
+ *
+ * \value Yottawatt
+ * \value Zettawatt
+ * \value Exawatt
+ * \value Petawatt
+ * \value Terawatt
+ * \value Gigawatt
+ * \value Megawatt
+ * \value Kilowatt
+ * \value Hectowatt
+ * \value Decawatt
+ * \value Watt
+ * \value Deciwatt
+ * \value Centiwatt
+ * \value Milliwatt
+ * \value Microwatt
+ * \value Nanowatt
+ * \value Picowatt
+ * \value Femtowatt
+ * \value Attowatt
+ * \value Zeptowatt
+ * \value Yoctowatt
+ * \value Horsepower
+ * \value [since 5.62] DecibelKilowatt
+ * \value [since 5.62] DecibelWatt
+ * \value [since 5.62] DecibelMilliwatt
+ * \value [since 5.62] DecibelMicrowatt
+ *
+ * \value Yottasecond
+ * \value Zettasecond
+ * \value Exasecond
+ * \value Petasecond
+ * \value Terasecond
+ * \value Gigasecond
+ * \value Megasecond
+ * \value Kilosecond
+ * \value Hectosecond
+ * \value Decasecond
+ * \value Second
+ * \value Decisecond
+ * \value Centisecond
+ * \value Millisecond
+ * \value Microsecond
+ * \value Nanosecond
+ * \value Picosecond
+ * \value Femtosecond
+ * \value Attosecond
+ * \value Zeptosecond
+ * \value Yoctosecond
+ * \value Minute
+ * \value Hour
+ * \value Day
+ * \value Week
+ * \value JulianYear
+ * \value LeapYear
+ * \value Year
+ *
+ * \value LitersPer100Kilometers
+ * \value MilePerUsGallon
+ * \value MilePerImperialGallon
+ * \value KilometrePerLitre
+ *
+ * \value YottakilogramsPerCubicMeter
+ * \value ZettakilogramPerCubicMeter
+ * \value ExakilogramPerCubicMeter
+ * \value PetakilogramPerCubicMeter
+ * \value TerakilogramPerCubicMeter
+ * \value GigakilogramPerCubicMeter
+ * \value MegakilogramPerCubicMeter
+ * \value KilokilogramPerCubicMeter
+ * \value HectokilogramsPerCubicMeter
+ * \value DecakilogramsPerCubicMeter
+ * \value KilogramsPerCubicMeter
+ * \value DecikilogramsPerCubicMeter
+ * \value CentikilogramsPerCubicMeter
+ * \value MillikilogramsPerCubicMeter
+ * \value MicrokilogramsPerCubicMeter
+ * \value NanokilogramsPerCubicMeter
+ * \value PicokilogramsPerCubicMeter
+ * \value FemtokilogramsPerCubicMeter
+ * \value AttokilogramsPerCubicMeter
+ * \value ZeptokilogramsPerCubicMeter
+ * \value YoctokilogramsPerCubicMeter
+ * \value KilogramPerLiter
+ * \value GramPerLiter
+ * \value GramPerMilliliter
+ * \value OuncePerCubicInch
+ * \value OuncePerCubicFoot
+ * \value OuncePerCubicYard
+ * \value PoundPerCubicInch
+ * \value PoundPerCubicFoot
+ * \value PoundPerCubicYard
+ *
+ * \value GramsPerSquareMeter
+ * \value OuncesPerSquareYard
+ *
+ * \value MetresPerSecondSquared
+ * \value FeetPerSecondSquared
+ * \value StandardGravity
+ *
+ * \value Yottanewton
+ * \value Zettanewton
+ * \value Exanewton
+ * \value Petanewton
+ * \value Teranewton
+ * \value Giganewton
+ * \value Meganewton
+ * \value KilonewtonForce
+ * \value Hectonewton
+ * \value Decanewton
+ * \value Newton
+ * \value Decinewton
+ * \value Centinewton
+ * \value Millinewton
+ * \value Micronewton
+ * \value Nanonewton
+ * \value Piconewton
+ * \value Femtonewton
+ * \value Attonewton
+ * \value Zeptonewton
+ * \value Yoctonewton
+ * \value Dyne
+ * \value Kilopond
+ * \value PoundForce
+ * \value Poundal
+ *
+ * \value Degree
+ * \value Radian
+ * \value Gradian
+ * \value ArcMinute
+ * \value ArcSecond
+ *
+ * \value Yottahertz
+ * \value Zettahertz
+ * \value Exahertz
+ * \value Petahertz
+ * \value Terahertz
+ * \value Gigahertz
+ * \value Megahertz
+ * \value Kilohertz
+ * \value Hectohertz
+ * \value Decahertz
+ * \value Hertz
+ * \value Decihertz
+ * \value Centihertz
+ * \value Millihertz
+ * \value Microhertz
+ * \value Nanohertz
+ * \value Picohertz
+ * \value Femtohertz
+ * \value Attohertz
+ * \value Zeptohertz
+ * \value Yoctohertz
+ * \value RPM
+ *
+ * \value [since 5.27] WattPerMeterKelvin
+ * \value [since 5.27] BtuPerFootHourFahrenheit
+ * \value [since 5.27] BtuPerSquareFootHourFahrenheitPerInch
+ *
+ * \value [since 5.27] WattPerSquareMeter
+ * \value [since 5.27] BtuPerHourPerSquareFoot
+ *
+ * \value [since 5.27] WattPerCubicMeter
+ * \value [since 5.27] BtuPerHourPerCubicFoot
+ *
+ * \value [since 5.27] Yottavolts
+ * \value [since 5.27] Zettavolts
+ * \value [since 5.27] Exavolts
+ * \value [since 5.27] Petavolts
+ * \value [since 5.27] Teravolts
+ * \value [since 5.27] Gigavolts
+ * \value [since 5.27] Megavolts
+ * \value [since 5.27] Kilovolts
+ * \value [since 5.27] Hectovolts
+ * \value [since 5.27] Decavolts
+ * \value [since 5.27] Volts
+ * \value [since 5.27] Decivolts
+ * \value [since 5.27] Centivolts
+ * \value [since 5.27] Millivolts
+ * \value [since 5.27] Microvolts
+ * \value [since 5.27] Nanovolts
+ * \value [since 5.27] Picovolts
+ * \value [since 5.27] Femtovolts
+ * \value [since 5.27] Attovolts
+ * \value [since 5.27] Zeptovolts
+ * \value [since 5.27] Yoctovolts
+ * \value [since 5.27] Statvolts
+ * \value [since 5.27] Yottaampere
+ * \value [since 5.27] Zettaampere
+ * \value [since 5.27] Exaampere
+ * \value [since 5.27] Petaampere
+ * \value [since 5.27] Teraampere
+ * \value [since 5.27] Gigaampere
+ * \value [since 5.27] Megaampere
+ * \value [since 5.27] Kiloampere
+ * \value [since 5.27] Hectoampere
+ * \value [since 5.27] Decaampere
+ * \value [since 5.27] Ampere
+ * \value [since 5.27] Deciampere
+ * \value [since 5.27] Centiampere
+ * \value [since 5.27] Milliampere
+ * \value [since 5.27] Microampere
+ * \value [since 5.27] Nanoampere
+ * \value [since 5.27] Picoampere
+ * \value [since 5.27] Femtoampere
+ * \value [since 5.27] Attoampere
+ * \value [since 5.27] Zeptoampere
+ * \value [since 5.27] Yoctoampere
+ * \value [since 5.27] Yottaohms
+ * \value [since 5.27] Zettaohms
+ * \value [since 5.27] Exaohms
+ * \value [since 5.27] Petaohms
+ * \value [since 5.27] Teraohms
+ * \value [since 5.27] Gigaohms
+ * \value [since 5.27] Megaohms
+ * \value [since 5.27] Kiloohms
+ * \value [since 5.27] Hectoohms
+ * \value [since 5.27] Decaohms
+ * \value [since 5.27] Ohms
+ * \value [since 5.27] Deciohms
+ * \value [since 5.27] Centiohms
+ * \value [since 5.27] Milliohms
+ * \value [since 5.27] Microohms
+ * \value [since 5.27] Nanoohms
+ * \value [since 5.27] Picoohms
+ * \value [since 5.27] Femtoohms
+ * \value [since 5.27] Attoohms
+ * \value [since 5.27] Zeptoohms
+ * \value [since 5.27] Yoctoohms
+ *
+ * \value [since 5.53] Darcy
+ * \value [since 5.53] MiliDarcy
+ * \value [since 5.53] PermeabilitySquareMicrometer
+ *
+ * \value [since 5.61] Yobibyte
+ * \value [since 5.61] Yobibit
+ * \value [since 5.61] Yottabyte
+ * \value [since 5.61] Yottabit
+ * \value [since 5.61] Zebibyte
+ * \value [since 5.61] Zebibit
+ * \value [since 5.61] Zettabyte
+ * \value [since 5.61] Zettabit
+ * \value [since 5.61] Exbibyte
+ * \value [since 5.61] Exbibit
+ * \value [since 5.61] Exabyte
+ * \value [since 5.61] Exabit
+ * \value [since 5.61] Pebibyte
+ * \value [since 5.61] Pebibit
+ * \value [since 5.61] Petabyte
+ * \value [since 5.61] Petabit
+ * \value [since 5.61] Tebibyte
+ * \value [since 5.61] Tebibit
+ * \value [since 5.61] Terabyte
+ * \value [since 5.61] Terabit
+ * \value [since 5.61] Gibibyte
+ * \value [since 5.61] Gibibit
+ * \value [since 5.61] Gigabyte
+ * \value [since 5.61] Gigabit
+ * \value [since 5.61] Mebibyte
+ * \value [since 5.61] Mebibit
+ * \value [since 5.61] Megabyte
+ * \value [since 5.61] Megabit
+ * \value [since 5.61] Kibibyte
+ * \value [since 5.61] Kibibit
+ * \value [since 5.61] Kilobyte
+ * \value [since 5.61] Kilobit
+ * \value [since 5.61] Byte
+ * \value [since 5.61] Bit
+ */
 enum UnitId {
     InvalidUnit = -1,
     NoUnit = 0,
@@ -171,9 +749,7 @@ enum UnitId {
     Tablespoon,
     GallonUS,
     PintImperial,
-    /** @since 5.53 */
     OilBarrel,
-    /** @since 5.70 */
     GallonImperial,
     PintUS,
 
@@ -207,7 +783,6 @@ enum UnitId {
     MassNewton,
     Kilonewton,
 
-    /** @since 5.26 */
     Stone,
 
     // Pressure
@@ -281,9 +856,7 @@ enum UnitId {
     PhotonWavelength,
     KiloJoulePerMole,
     JoulePerMole,
-    /** @since 5.27 */
     Btu,
-    /** @since 5.27 */
     Erg,
 
     // Currency
@@ -375,7 +948,6 @@ enum UnitId {
     Zeptowatt,
     Yoctowatt,
     Horsepower,
-    /** @since 5.62 */
     DecibelKilowatt,
     DecibelWatt,
     DecibelMilliwatt,
@@ -517,342 +1089,232 @@ enum UnitId {
     RPM,
 
     // Thermal Conductivity
-    /** @since 5.27 */
     WattPerMeterKelvin = 18000,
-    /** @since 5.27 */
     BtuPerFootHourFahrenheit,
-    /** @since 5.27 */
     BtuPerSquareFootHourFahrenheitPerInch,
 
     // Thermal Flux Density
-    /** @since 5.27 */
     WattPerSquareMeter = 19000,
-    /** @since 5.27 */
     BtuPerHourPerSquareFoot,
 
     // Thermal Generation per volume
-    /** @since 5.27 */
     WattPerCubicMeter = 20000,
-    /** @since 5.27 */
     BtuPerHourPerCubicFoot,
 
     // Voltage
-    /** @since 5.27 */
     Yottavolts = 30000,
-    /** @since 5.27 */
     Zettavolts,
-    /** @since 5.27 */
     Exavolts,
-    /** @since 5.27 */
     Petavolts,
-    /** @since 5.27 */
     Teravolts,
-    /** @since 5.27 */
     Gigavolts,
-    /** @since 5.27 */
     Megavolts,
-    /** @since 5.27 */
     Kilovolts,
-    /** @since 5.27 */
     Hectovolts,
-    /** @since 5.27 */
     Decavolts,
-    /** @since 5.27 */
     Volts,
-    /** @since 5.27 */
     Decivolts,
-    /** @since 5.27 */
     Centivolts,
-    /** @since 5.27 */
     Millivolts,
-    /** @since 5.27 */
     Microvolts,
-    /** @since 5.27 */
     Nanovolts,
-    /** @since 5.27 */
     Picovolts,
-    /** @since 5.27 */
     Femtovolts,
-    /** @since 5.27 */
     Attovolts,
-    /** @since 5.27 */
     Zeptovolts,
-    /** @since 5.27 */
     Yoctovolts,
-    /** @since 5.27 */
     Statvolts,
 
     // Electrical Current
-    /** @since 5.27 */
     Yottaampere = 31000,
-    /** @since 5.27 */
     Zettaampere,
-    /** @since 5.27 */
     Exaampere,
-    /** @since 5.27 */
     Petaampere,
-    /** @since 5.27 */
     Teraampere,
-    /** @since 5.27 */
     Gigaampere,
-    /** @since 5.27 */
     Megaampere,
-    /** @since 5.27 */
     Kiloampere,
-    /** @since 5.27 */
     Hectoampere,
-    /** @since 5.27 */
     Decaampere,
-    /** @since 5.27 */
     Ampere,
-    /** @since 5.27 */
     Deciampere,
-    /** @since 5.27 */
     Centiampere,
-    /** @since 5.27 */
     Milliampere,
-    /** @since 5.27 */
     Microampere,
-    /** @since 5.27 */
     Nanoampere,
-    /** @since 5.27 */
     Picoampere,
-    /** @since 5.27 */
     Femtoampere,
-    /** @since 5.27 */
     Attoampere,
-    /** @since 5.27 */
     Zeptoampere,
-    /** @since 5.27 */
     Yoctoampere,
 
     // Electrical Resistance
-    /** @since 5.27 */
     Yottaohms = 32000,
-    /** @since 5.27 */
     Zettaohms,
-    /** @since 5.27 */
     Exaohms,
-    /** @since 5.27 */
     Petaohms,
-    /** @since 5.27 */
     Teraohms,
-    /** @since 5.27 */
     Gigaohms,
-    /** @since 5.27 */
     Megaohms,
-    /** @since 5.27 */
     Kiloohms,
-    /** @since 5.27 */
     Hectoohms,
-    /** @since 5.27 */
     Decaohms,
-    /** @since 5.27 */
     Ohms,
-    /** @since 5.27 */
     Deciohms,
-    /** @since 5.27 */
     Centiohms,
-    /** @since 5.27 */
     Milliohms,
-    /** @since 5.27 */
     Microohms,
-    /** @since 5.27 */
     Nanoohms,
-    /** @since 5.27 */
     Picoohms,
-    /** @since 5.27 */
     Femtoohms,
-    /** @since 5.27 */
     Attoohms,
-    /** @since 5.27 */
     Zeptoohms,
-    /** @since 5.27 */
     Yoctoohms,
 
-    /** @since 5.53 */
     Darcy = 33000,
-    /** @since 5.53 */
     MiliDarcy,
-    /** @since 5.53 */
     PermeabilitySquareMicrometer,
 
-    /** @since 5.61 */
     Yobibyte = 34000,
-    /** @since 5.61 */
     Yobibit,
-    /** @since 5.61 */
     Yottabyte,
-    /** @since 5.61 */
     Yottabit,
-    /** @since 5.61 */
     Zebibyte,
-    /** @since 5.61 */
     Zebibit,
-    /** @since 5.61 */
     Zettabyte,
-    /** @since 5.61 */
     Zettabit,
-    /** @since 5.61 */
     Exbibyte,
-    /** @since 5.61 */
     Exbibit,
-    /** @since 5.61 */
     Exabyte,
-    /** @since 5.61 */
     Exabit,
-    /** @since 5.61 */
     Pebibyte,
-    /** @since 5.61 */
     Pebibit,
-    /** @since 5.61 */
     Petabyte,
-    /** @since 5.61 */
     Petabit,
-    /** @since 5.61 */
     Tebibyte,
-    /** @since 5.61 */
     Tebibit,
-    /** @since 5.61 */
     Terabyte,
-    /** @since 5.61 */
     Terabit,
-    /** @since 5.61 */
     Gibibyte,
-    /** @since 5.61 */
     Gibibit,
-    /** @since 5.61 */
     Gigabyte,
-    /** @since 5.61 */
     Gigabit,
-    /** @since 5.61 */
     Mebibyte,
-    /** @since 5.61 */
     Mebibit,
-    /** @since 5.61 */
     Megabyte,
-    /** @since 5.61 */
     Megabit,
-    /** @since 5.61 */
     Kibibyte,
-    /** @since 5.61 */
     Kibibit,
-    /** @since 5.61 */
     Kilobyte,
-    /** @since 5.61 */
     Kilobit,
-    /** @since 5.61 */
     Byte,
-    /** @since 5.61 */
     Bit
 };
 
 class UnitCategory;
 class UnitPrivate;
 
-/**
- * @short Class to define a unit of measurement
+/*!
+ * \class KUnitConversion::Unit
+ * \inmodule KUnitConversion
+ *
+ * \brief Class to define a unit of measurement.
  *
  * This is a class to define a unit of measurement.
  *
- * @see Converter, UnitCategory, Value
+ * \sa Converter, UnitCategory, Value
  *
- * @author Petri Damstén <damu@iki.fi>
- * @author John Layt <jlayt@kde.org>
  */
 
 class KUNITCONVERSION_EXPORT Unit
 {
 public:
-    /**
+    /*!
      * Null constructor
      **/
     Unit();
 
-    /**
-     * Copy constructor, copy @p other to this.
-     **/
     Unit(const Unit &other);
 
     ~Unit();
 
-    /**
-     * Assignment operator, assign @p other to this.
-     **/
     Unit &operator=(const Unit &other);
 
-    /**
-     * Move-assigns @p other to this Unit instance, transferring the
-     * ownership of the managed pointer to this instance.
-     **/
     Unit &operator=(Unit &&other);
 
-    /**
-     * @return @c true if this Unit is equal to the @p other Unit.
+    /*!
+     * Returns true if this Unit is equal to the \a other Unit.
      **/
     bool operator==(const Unit &other) const;
 
-    /**
-     * @return @c true if this Unit is not equal to the @p other Unit.
-     **/
     bool operator!=(const Unit &other) const;
 
-    /**
-     * @return returns true if this Unit is null
+    /*!
+     * Returns returns true if this Unit is null
      **/
     bool isNull() const;
 
-    /**
-     * @return if unit is valid.
+    /*!
+     * Returns if unit is valid.
      **/
     bool isValid() const;
 
-    /**
-     * @return unit id.
+    /*!
+     * Returns unit id.
      **/
     UnitId id() const;
 
-    /**
-     * @return category id.
+    /*!
+     * Returns category id.
      **/
     CategoryId categoryId() const;
 
-    /**
-     * @return unit category.
+    /*!
+     * Returns unit category.
      **/
     UnitCategory category() const;
 
-    /**
-     * @return translated name for unit.
+    /*!
+     * Returns translated name for unit.
      **/
     QString description() const;
 
-    /**
-     * @return symbol for the unit.
+    /*!
+     * Returns symbol for the unit.
      **/
     QString symbol() const;
 
-    /**
-     * @param value number value
-     * @param fieldWidth width of the formatted field, padded by spaces.
+    /*!
+     * \a value number value
+     *
+     * \a fieldWidth width of the formatted field, padded by spaces.
      *                   Positive value aligns right, negative aligns left
-     * @param format type of floating point formatting, like in QString::arg
-     * @param precision number of digits after the decimal separator
-     * @param fillChar the character used to fill up the empty places when
+     *
+     * \a format type of floating point formatting, like in \l QString::arg
+     *
+     * \a precision number of digits after the decimal separator
+     *
+     * \a fillChar the character used to fill up the empty places when
      *                 field width is greater than argument width
-     * @return value + unit string
+     *
+     * Returns value + unit string
      **/
     QString toString(qreal value, int fieldWidth = 0, char format = 'g', int precision = -1, const QChar &fillChar = QLatin1Char(' ')) const;
 
-    /**
-     * @param value number value
-     * @param fieldWidth width of the formatted field, padded by spaces.
+    /*!
+     * \a value number value
+     *
+     * \a fieldWidth width of the formatted field, padded by spaces.
      *                   Positive value aligns right, negative aligns left
-     * @param format type of floating point formatting, like in QString::arg
-     * @param precision number of digits after the decimal separator
-     * @param fillChar the character used to fill up the empty places when
+     *
+     * \a format type of floating point formatting, like in \l QString::arg
+     *
+     * \a precision number of digits after the decimal separator
+     *
+     * \a fillChar the character used to fill up the empty places when
      *                 field width is greater than argument width
-     * @return value + unit string
+     *
+     * Returns value + unit string
      **/
     QString toSymbolString(qreal value, int fieldWidth = 0, char format = 'g', int precision = -1, const QChar &fillChar = QLatin1Char(' ')) const;
 
