@@ -23,6 +23,7 @@ include(ECMGenerateHeaders)
 include(ECMQtDeclareLoggingCategory)
 include(ECMDeprecationSettings)
 include(CMakeDependentOption)
+include(ECMGenerateQDoc)
 
 set(EXCLUDE_DEPRECATED_BEFORE_AND_AT 0 CACHE STRING "Control the range of deprecated API excluded from the build [default=0].")
 
@@ -36,20 +37,6 @@ ecm_setup_version(PROJECT VARIABLE_PREFIX KUNITCONVERSION
                         VERSION_HEADER "${kunitconversion_version_header}"
                         PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6UnitConversionConfigVersion.cmake"
                         SOVERSION 6)
-
-# QCH
-include(ECMAddQch)
-option(BUILD_QCH "Build API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)" OFF)
-add_feature_info(QCH ${BUILD_QCH} "API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)")
-if (BUILD_QCH)
-    ecm_install_qch_export(
-        TARGETS KF6UnitConversion_QCH
-        FILE KF6UnitConversionQchTargets.cmake
-        DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
-        COMPONENT Devel
-    )
-    set(PACKAGE_INCLUDE_QCHTARGETS "include(\"\${CMAKE_CURRENT_LIST_DIR}/KF6UnitConversionQchTargets.cmake\")")
-endif()
 
 # I18n
 find_package(KF6I18n ${KF_DEP_VERSION} REQUIRED)

@@ -99,27 +99,5 @@ ecm_qt_install_logging_categories(
     DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
 )
 
-if(BUILD_QCH)
-    ecm_add_qch(
-        KF6UnitConversion_QCH
-        NAME KUnitConversion
-        BASE_NAME KF6UnitConversion
-        VERSION ${KF_VERSION}
-        ORG_DOMAIN org.kde
-        SOURCES # using only public headers, to cover only public API
-            ${KUnitConversion_HEADERS}
-        MD_MAINPAGE "${CMAKE_SOURCE_DIR}/README.md"
-        LINK_QCHS
-            Qt6Core_QCH
-        INCLUDE_DIRS
-            ${kunitconversion_BUILD_INCLUDE_DIRS}
-        BLANK_MACROS
-            KUNITCONVERSION_EXPORT
-            KUNITCONVERSION_DEPRECATED
-            KUNITCONVERSION_DEPRECATED_EXPORT
-        TAGFILE_INSTALL_DESTINATION ${KDE_INSTALL_QTQCHDIR}
-        QCH_INSTALL_DESTINATION ${KDE_INSTALL_QTQCHDIR}
-        COMPONENT Devel
-    )
-endif()
+ecm_generate_qdoc(KF6UnitConversion kunitconversion.qdocconf)
 
