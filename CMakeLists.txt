@@ -9,6 +9,11 @@ find_package(ECM 6.8.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
+# For the Python bindings
+find_package(Python3 3.10 COMPONENTS Interpreter Development)
+find_package(Shiboken6)
+find_package(PySide6)
+
 include(KDEInstallDirs)
 include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(KDECMakeSettings)
@@ -17,6 +22,7 @@ include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMQtDeclareLoggingCategory)
 include(ECMDeprecationSettings)
+include(CMakeDependentOption)
 
 set(EXCLUDE_DEPRECATED_BEFORE_AND_AT 0 CACHE STRING "Control the range of deprecated API excluded from the build [default=0].")
 
@@ -55,6 +61,16 @@ ecm_set_disabled_deprecation_versions(
     KF 5.240
 )
 
+# Python Bindings
+cmake_dependent_option(BUILD_PYTHON_BINDINGS "Generate Python Bindings" ON "TARGET Shiboken6::libshiboken AND TARGET PySide6::pyside6" OFF)
+
+# FreeBSD CI is missing required packages
+if (CMAKE_SYSTEM_NAME MATCHES FreeBSD)
+    set(BUILD_PYTHON_BINDINGS OFF)
+endif()
+
+add_feature_info(PYTHON_BINDINGS ${BUILD_PYTHON_BINDINGS} "Python bindings")
+
 add_subdirectory(src)
 if (BUILD_TESTING)
     add_subdirectory(autotests)
@@ -80,3 +96,8 @@ install(FILES
 
 include(ECMFeatureSummary)
 ecm_feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+if (BUILD_PYTHON_BINDINGS)
+    include(ECMGeneratePythonBindings)
+    add_subdirectory(python)
+endif()
