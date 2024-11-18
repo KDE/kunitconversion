@@ -303,6 +303,7 @@ enum UnitId {
     Cyp,
     Mtl,
     Skk,
+    Xpf,
     Usd,
     Jpy,
     Bgn,

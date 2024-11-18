@@ -253,6 +253,17 @@ UnitCategory Currency::makeCategory()
                        ki18nc("amount in units (real)", "%1 Slovak korunas"),
                        ki18ncp("amount in units (integer)", "%1 Slovak koruna", "%1 Slovak korunas"))); // Alt: koruny, korun
 
+    d->addDefaultUnit(UnitPrivate::makeUnit(CurrencyCategory,
+                              Xpf,
+                              0.00838,
+                              QStringLiteral("XPF"),
+                              i18nc("currency name", "CFP franc"),
+                              i18nc("XPF CFP franc - unit synonyms for matching user input", "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs") + QStringLiteral(";XPF;")
+                                  + QLocale::territoryToString(QLocale::FrenchPolynesia) + QLatin1Char(';') + i18nc("currency name", "CFP franc"),
+                              symbolString,
+                              ki18nc("amount in units (real)", "%1 CFP francs"),
+                              ki18ncp("amount in units (integer)", "%1 CFP franc", "%1 CFP francs")));
+
     // From ECB
     d->addCommonUnit(UnitPrivate::makeUnit(CurrencyCategory,
                              Usd,
