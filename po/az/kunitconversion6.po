@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-27 09:12+0000\n"
+"POT-Creation-Date: 2024-11-19 00:38+0000\n"
 "PO-Revision-Date: 2024-05-30 17:52+0400\n"
 "Last-Translator: Xəyyam Qocayev <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -2695,25 +2695,56 @@ msgid_plural "%1 Slovak korunas"
 msgstr[0] "%1 Slovak kronu"
 msgstr[1] "%1 Slovak kronu"
 
-#: currency.cpp:261 currency.cpp:263
+#: currency.cpp:260 currency.cpp:262
+#, kde-format
+msgctxt "currency name"
+msgid "CFP franc"
+msgstr ""
+
+#: currency.cpp:261
+#, kde-format
+msgctxt "XPF CFP franc - unit synonyms for matching user input"
+msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
+msgstr ""
+
+#: currency.cpp:264
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 French francs"
+msgctxt "amount in units (real)"
+msgid "%1 CFP francs"
+msgstr "%1 Fransa frankı"
+
+#: currency.cpp:265
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 French franc"
+#| msgid_plural "%1 French francs"
+msgctxt "amount in units (integer)"
+msgid "%1 CFP franc"
+msgid_plural "%1 CFP francs"
+msgstr[0] "%1 Fransa frankı"
+msgstr[1] "%1 Fransa frankı"
+
+#: currency.cpp:272 currency.cpp:274
 #, kde-format
 msgctxt "currency name"
 msgid "United States Dollar"
 msgstr "ABŞ Dolları"
 
-#: currency.cpp:262
+#: currency.cpp:273
 #, kde-format
 msgctxt "USD United States Dollar - unit synonyms for matching user input"
 msgid "dollar;dollars"
 msgstr "dollar"
 
-#: currency.cpp:265
+#: currency.cpp:276
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 United States dollars"
 msgstr "%1 ABŞ Dolları"
 
-#: currency.cpp:266
+#: currency.cpp:277
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 United States dollar"
@@ -2721,25 +2752,25 @@ msgid_plural "%1 United States dollars"
 msgstr[0] "%1 ABŞ Dolları"
 msgstr[1] "%1 ABŞ Dolları"
 
-#: currency.cpp:272 currency.cpp:274
+#: currency.cpp:283 currency.cpp:285
 #, kde-format
 msgctxt "currency name"
 msgid "Japanese Yen"
 msgstr "Yapon İeni"
 
-#: currency.cpp:273
+#: currency.cpp:284
 #, kde-format
 msgctxt "JPY Japanese Yen - unit synonyms for matching user input"
 msgid "yen"
 msgstr "yen"
 
-#: currency.cpp:276
+#: currency.cpp:287
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yen"
 msgstr "%1 Yapon İeni"
 
-#: currency.cpp:277
+#: currency.cpp:288
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yen"
@@ -2747,25 +2778,25 @@ msgid_plural "%1 yen"
 msgstr[0] "%1 Yapon İeni"
 msgstr[1] "%1 Yapon İeni"
 
-#: currency.cpp:283 currency.cpp:285
+#: currency.cpp:294 currency.cpp:296
 #, kde-format
 msgctxt "currency name"
 msgid "Bulgarian Lev"
 msgstr "Bolqarıstan Levi"
 
-#: currency.cpp:284
+#: currency.cpp:295
 #, kde-format
 msgctxt "BGN Bulgarian Lev - unit synonyms for matching user input"
 msgid "lev;leva"
 msgstr "lev"
 
-#: currency.cpp:287
+#: currency.cpp:298
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 leva"
 msgstr "%1 lev"
 
-#: currency.cpp:288
+#: currency.cpp:299
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 lev"
@@ -2773,25 +2804,25 @@ msgid_plural "%1 leva"
 msgstr[0] "%1 lev"
 msgstr[1] "%1 lev"
 
-#: currency.cpp:294 currency.cpp:296
+#: currency.cpp:305 currency.cpp:307
 #, kde-format
 msgctxt "currency name"
 msgid "Czech Koruna"
 msgstr "Çex Kronu"
 
-#: currency.cpp:295
+#: currency.cpp:306
 #, kde-format
 msgctxt "CZK Czech Koruna - unit synonyms for matching user input"
 msgid "koruna;korunas"
 msgstr "kron;krona"
 
-#: currency.cpp:298
+#: currency.cpp:309
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Czech korunas"
 msgstr "%1 Çex Kronu"
 
-#: currency.cpp:300
+#: currency.cpp:311
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Czech koruna"
@@ -2799,25 +2830,25 @@ msgid_plural "%1 Czech korunas"
 msgstr[0] "%1 Çex Kronu"
 msgstr[1] "%1 Çex Kronu"
 
-#: currency.cpp:306 currency.cpp:308
+#: currency.cpp:317 currency.cpp:319
 #, kde-format
 msgctxt "currency name"
 msgid "Danish Krone"
 msgstr "Danimarka Kronu"
 
-#: currency.cpp:307
+#: currency.cpp:318
 #, kde-format
 msgctxt "DKK Danish Krone - unit synonyms for matching user input"
 msgid "Danish krone;Danish kroner"
 msgstr "Danimarka Kronu"
 
-#: currency.cpp:310
+#: currency.cpp:321
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Danish kroner"
 msgstr "%1 Danimarka Kronu"
 
-#: currency.cpp:311
+#: currency.cpp:322
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Danish krone"
@@ -2825,25 +2856,25 @@ msgid_plural "%1 Danish kroner"
 msgstr[0] "%1 Danimarka Kronu"
 msgstr[1] "%1 Danimarka Kronu"
 
-#: currency.cpp:317 currency.cpp:319
+#: currency.cpp:328 currency.cpp:330
 #, kde-format
 msgctxt "currency name"
 msgid "Estonian Kroon"
 msgstr "Estonya Kronu"
 
-#: currency.cpp:318
+#: currency.cpp:329
 #, kde-format
 msgctxt "EEK Estonian Kroon - unit synonyms for matching user input"
 msgid "kroon;kroons;krooni"
 msgstr "kroon"
 
-#: currency.cpp:321
+#: currency.cpp:332
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kroons"
 msgstr "%1 kroon"
 
-#: currency.cpp:322
+#: currency.cpp:333
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kroon"
@@ -2851,25 +2882,25 @@ msgid_plural "%1 kroons"
 msgstr[0] "%1 kroon"
 msgstr[1] "%1 kroon"
 
-#: currency.cpp:328 currency.cpp:331
+#: currency.cpp:339 currency.cpp:342
 #, kde-format
 msgctxt "currency name"
 msgid "British Pound"
 msgstr "Britaniya Funt-Sterlinqi"
 
-#: currency.cpp:329
+#: currency.cpp:340
 #, kde-format
 msgctxt "GBP British Pound - unit synonyms for matching user input"
 msgid "pound;pounds;pound sterling;pounds sterling"
 msgstr "funt;funt sterlinq"
 
-#: currency.cpp:333
+#: currency.cpp:344
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pounds sterling"
 msgstr "%1 funt sterling"
 
-#: currency.cpp:334
+#: currency.cpp:345
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pound sterling"
@@ -2877,25 +2908,25 @@ msgid_plural "%1 pounds sterling"
 msgstr[0] "%1 funt sterling"
 msgstr[1] "%1 funt sterling"
 
-#: currency.cpp:340 currency.cpp:342
+#: currency.cpp:351 currency.cpp:353
 #, kde-format
 msgctxt "currency name"
 msgid "Hungarian Forint"
 msgstr "Macar Forinti"
 
-#: currency.cpp:341
+#: currency.cpp:352
 #, kde-format
 msgctxt "HUF hungarian Forint - unit synonyms for matching user input"
 msgid "forint"
 msgstr "forint"
 
-#: currency.cpp:344
+#: currency.cpp:355
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 forint"
 msgstr "%1 forint"
 
-#: currency.cpp:345
+#: currency.cpp:356
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 forint"
@@ -2903,25 +2934,25 @@ msgid_plural "%1 forint"
 msgstr[0] "%1 forint"
 msgstr[1] "%1 forint"
 
-#: currency.cpp:351 currency.cpp:354
+#: currency.cpp:362 currency.cpp:365
 #, kde-format
 msgctxt "currency name"
 msgid "Israeli New Shekel"
 msgstr "İsrael Yeni Şekeli"
 
-#: currency.cpp:352
+#: currency.cpp:363
 #, kde-format
 msgctxt "ILS Israeli New Shekel - unit synonyms for matching user input"
 msgid "shekel;shekels;sheqel;sheqels;sheqalim"
 msgstr "şekel;şeqel"
 
-#: currency.cpp:356
+#: currency.cpp:367
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 shekels"
 msgstr "%1 şekel"
 
-#: currency.cpp:357
+#: currency.cpp:368
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 shekel"
@@ -2929,25 +2960,25 @@ msgid_plural "%1 shekels"
 msgstr[0] "%1 şekel"
 msgstr[1] "%1 şekel"
 
-#: currency.cpp:363 currency.cpp:365
+#: currency.cpp:374 currency.cpp:376
 #, kde-format
 msgctxt "currency name"
 msgid "Lithuanian Litas"
 msgstr "Litva Lİtası"
 
-#: currency.cpp:364
+#: currency.cpp:375
 #, kde-format
 msgctxt "LTL Lithuanian Litas - unit synonyms for matching user input"
 msgid "litas;litai;litu"
 msgstr "litas;litay"
 
-#: currency.cpp:367
+#: currency.cpp:378
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 litas"
 msgstr "%1 litas"
 
-#: currency.cpp:368
+#: currency.cpp:379
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 litas"
@@ -2955,25 +2986,25 @@ msgid_plural "%1 litai"
 msgstr[0] "%1 litas"
 msgstr[1] "%1 litas"
 
-#: currency.cpp:374 currency.cpp:376
+#: currency.cpp:385 currency.cpp:387
 #, kde-format
 msgctxt "currency name"
 msgid "Latvian Lats"
 msgstr "Latvia Latsı"
 
-#: currency.cpp:375
+#: currency.cpp:386
 #, kde-format
 msgctxt "LVL Latvian Lats - unit synonyms for matching user input"
 msgid "lats;lati"
 msgstr "lats"
 
-#: currency.cpp:378
+#: currency.cpp:389
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 lati"
 msgstr "%1 lats"
 
-#: currency.cpp:379
+#: currency.cpp:390
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 lats"
@@ -2981,25 +3012,25 @@ msgid_plural "%1 lati"
 msgstr[0] "%1 lats"
 msgstr[1] "%1 lats"
 
-#: currency.cpp:385 currency.cpp:387
+#: currency.cpp:396 currency.cpp:398
 #, kde-format
 msgctxt "currency name"
 msgid "Polish Zloty"
 msgstr "Polşa Zlotu"
 
-#: currency.cpp:386
+#: currency.cpp:397
 #, kde-format
 msgctxt "PLN Polish Zloty - unit synonyms for matching user input"
 msgid "zloty;zlotys;zloties"
 msgstr "zlot;zlotis"
 
-#: currency.cpp:389
+#: currency.cpp:400
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zlotys"
 msgstr "%1 zlot"
 
-#: currency.cpp:390
+#: currency.cpp:401
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zloty"
@@ -3007,25 +3038,25 @@ msgid_plural "%1 zlotys"
 msgstr[0] "%1 zlot"
 msgstr[1] "%1 zlot"
 
-#: currency.cpp:396 currency.cpp:398
+#: currency.cpp:407 currency.cpp:409
 #, kde-format
 msgctxt "currency name"
 msgid "Romanian Leu"
 msgstr "Rumıniya Leusu"
 
-#: currency.cpp:397
+#: currency.cpp:408
 #, kde-format
 msgctxt "RON Romanian Leu - unit synonyms for matching user input"
 msgid "leu;lei"
 msgstr "leu;lei"
 
-#: currency.cpp:400
+#: currency.cpp:411
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 lei"
 msgstr "%1 ley"
 
-#: currency.cpp:401
+#: currency.cpp:412
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 leu"
@@ -3033,25 +3064,25 @@ msgid_plural "%1 lei"
 msgstr[0] "%1 ley"
 msgstr[1] "%1 ley"
 
-#: currency.cpp:407 currency.cpp:409
+#: currency.cpp:418 currency.cpp:420
 #, kde-format
 msgctxt "currency name"
 msgid "Swedish Krona"
 msgstr "İsveç Kronu"
 
-#: currency.cpp:408
+#: currency.cpp:419
 #, kde-format
 msgctxt "SEK Swedish Krona - unit synonyms for matching user input"
 msgid "krona;kronor"
 msgstr "kron"
 
-#: currency.cpp:411
+#: currency.cpp:422
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kronor"
 msgstr "%1 kron"
 
-#: currency.cpp:412
+#: currency.cpp:423
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 krona"
@@ -3059,25 +3090,25 @@ msgid_plural "%1 kronor"
 msgstr[0] "%1 kron"
 msgstr[1] "%1 kron"
 
-#: currency.cpp:418 currency.cpp:420
+#: currency.cpp:429 currency.cpp:431
 #, kde-format
 msgctxt "currency name"
 msgid "Swiss Franc"
 msgstr "İsveçrə Frankı"
 
-#: currency.cpp:419
+#: currency.cpp:430
 #, kde-format
 msgctxt "CHF Swiss Franc - unit synonyms for matching user input"
 msgid "franc;francs"
 msgstr "frank"
 
-#: currency.cpp:422
+#: currency.cpp:433
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Swiss francs"
 msgstr "%1 İsveçrə Frankı"
 
-#: currency.cpp:423
+#: currency.cpp:434
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Swiss franc"
@@ -3085,25 +3116,25 @@ msgid_plural "%1 Swiss francs"
 msgstr[0] "%1 İsveçrə Frankı"
 msgstr[1] "%1 İsveçrə Frankı"
 
-#: currency.cpp:429 currency.cpp:431
+#: currency.cpp:440 currency.cpp:442
 #, kde-format
 msgctxt "currency name"
 msgid "Norwegian Krone"
 msgstr "Norveç Kronu"
 
-#: currency.cpp:430
+#: currency.cpp:441
 #, kde-format
 msgctxt "Norwegian Krone - unit synonyms for matching user input"
 msgid "Norwegian krone;Norwegian kroner"
 msgstr "Norveç Kronu"
 
-#: currency.cpp:433
+#: currency.cpp:444
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Norwegian kroner"
 msgstr "%1 Norveç Kronu"
 
-#: currency.cpp:434
+#: currency.cpp:445
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Norwegian krone"
@@ -3111,25 +3142,25 @@ msgid_plural "%1 Norwegian kroner"
 msgstr[0] "%1 Norveç Kronu"
 msgstr[1] "%1 Norveç Kronu"
 
-#: currency.cpp:440 currency.cpp:442
+#: currency.cpp:451 currency.cpp:453
 #, kde-format
 msgctxt "currency name"
 msgid "Croatian Kuna"
 msgstr "Horvat Kunu"
 
-#: currency.cpp:441
+#: currency.cpp:452
 #, kde-format
 msgctxt "HRK Croatian Kuna - unit synonyms for matching user input"
 msgid "kuna;kune"
 msgstr "kuna"
 
-#: currency.cpp:444
+#: currency.cpp:455
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kune"
 msgstr "%1 kuna"
 
-#: currency.cpp:445
+#: currency.cpp:456
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kuna"
@@ -3137,25 +3168,25 @@ msgid_plural "%1 kune"
 msgstr[0] "%1 kuna"
 msgstr[1] "%1 kuna"
 
-#: currency.cpp:451 currency.cpp:453
+#: currency.cpp:462 currency.cpp:464
 #, kde-format
 msgctxt "currency name"
 msgid "Russian Ruble"
 msgstr "Rus Rublu"
 
-#: currency.cpp:452
+#: currency.cpp:463
 #, kde-format
 msgctxt "RUB Russian Ruble - unit synonyms for matching user input"
 msgid "ruble;rubles;rouble;roubles"
 msgstr "rubl"
 
-#: currency.cpp:455
+#: currency.cpp:466
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rubles"
 msgstr "%1 rubl"
 
-#: currency.cpp:456
+#: currency.cpp:467
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ruble"
@@ -3163,25 +3194,25 @@ msgid_plural "%1 rubles"
 msgstr[0] "%1 rubl"
 msgstr[1] "%1 rubl"
 
-#: currency.cpp:462 currency.cpp:464
+#: currency.cpp:473 currency.cpp:475
 #, kde-format
 msgctxt "currency name"
 msgid "Turkish Lira"
 msgstr "Türk Lirəsi"
 
-#: currency.cpp:463
+#: currency.cpp:474
 #, kde-format
 msgctxt "TRY Turkish Lira - unit synonyms for matching user input"
 msgid "lira"
 msgstr "lirə"
 
-#: currency.cpp:466
+#: currency.cpp:477
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Turkish lira"
 msgstr "%1 lirə"
 
-#: currency.cpp:467
+#: currency.cpp:478
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Turkish lira"
@@ -3189,25 +3220,25 @@ msgid_plural "%1 Turkish lira"
 msgstr[0] "%1 lirə"
 msgstr[1] "%1 lirə"
 
-#: currency.cpp:473 currency.cpp:475
+#: currency.cpp:484 currency.cpp:486
 #, kde-format
 msgctxt "currency name"
 msgid "Australian Dollar"
 msgstr "Avstraliya Dolları"
 
-#: currency.cpp:474
+#: currency.cpp:485
 #, kde-format
 msgctxt "AUD Australian Dollar - unit synonyms for matching user input"
 msgid "Australian dollar;Australian dollars"
 msgstr "Avstraliya Dolları"
 
-#: currency.cpp:477
+#: currency.cpp:488
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Australian dollars"
 msgstr "%1 Avstraliya Dolları"
 
-#: currency.cpp:478
+#: currency.cpp:489
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Australian dollar"
@@ -3215,25 +3246,25 @@ msgid_plural "%1 Australian dollars"
 msgstr[0] "%1 Avstraliya Dolları"
 msgstr[1] "%1 Avstraliya Dolları"
 
-#: currency.cpp:484 currency.cpp:486
+#: currency.cpp:495 currency.cpp:497
 #, kde-format
 msgctxt "currency name"
 msgid "Brazilian Real"
 msgstr "Braziliya Realı"
 
-#: currency.cpp:485
+#: currency.cpp:496
 #, kde-format
 msgctxt "BRL Brazilian Real - unit synonyms for matching user input"
 msgid "real;reais"
 msgstr "real"
 
-#: currency.cpp:488
+#: currency.cpp:499
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 reais"
 msgstr "%1 real"
 
-#: currency.cpp:489
+#: currency.cpp:500
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 real"
@@ -3241,25 +3272,25 @@ msgid_plural "%1 reais"
 msgstr[0] "%1 real"
 msgstr[1] "%1 real"
 
-#: currency.cpp:495 currency.cpp:497
+#: currency.cpp:506 currency.cpp:508
 #, kde-format
 msgctxt "currency name"
 msgid "Canadian Dollar"
 msgstr "Kanad Dolları"
 
-#: currency.cpp:496
+#: currency.cpp:507
 #, kde-format
 msgctxt "Canadian Dollar - unit synonyms for matching user input"
 msgid "Canadian dollar;Canadian dollars"
 msgstr "Kanad Dolları"
 
-#: currency.cpp:499
+#: currency.cpp:510
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Canadian dollars"
 msgstr "%1 Kanad Dolları"
 
-#: currency.cpp:500
+#: currency.cpp:511
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Canadian dollar"
@@ -3267,25 +3298,25 @@ msgid_plural "%1 Canadian dollars"
 msgstr[0] "%1 Kanad Dolları"
 msgstr[1] "%1 Kanad Dolları"
 
-#: currency.cpp:506 currency.cpp:508
+#: currency.cpp:517 currency.cpp:519
 #, kde-format
 msgctxt "currency name"
 msgid "Chinese Yuan"
 msgstr "Çin Yuanı"
 
-#: currency.cpp:507
+#: currency.cpp:518
 #, kde-format
 msgctxt "Chinese Yuan - unit synonyms for matching user input"
 msgid "yuan"
 msgstr "yuan"
 
-#: currency.cpp:510
+#: currency.cpp:521
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yuan"
 msgstr "%1 yuan"
 
-#: currency.cpp:511
+#: currency.cpp:522
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yuan"
@@ -3293,25 +3324,25 @@ msgid_plural "%1 yuan"
 msgstr[0] "%1 yuan"
 msgstr[1] "%1 yuan"
 
-#: currency.cpp:517 currency.cpp:519
+#: currency.cpp:528 currency.cpp:530
 #, kde-format
 msgctxt "currency name"
 msgid "Hong Kong Dollar"
 msgstr "Honk-Konq Dolları"
 
-#: currency.cpp:518
+#: currency.cpp:529
 #, kde-format
 msgctxt "Hong Kong Dollar - unit synonyms for matching user input"
 msgid "Hong Kong dollar;Hong Kong dollars"
 msgstr "Honk-Konq Dolları"
 
-#: currency.cpp:521
+#: currency.cpp:532
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Hong Kong dollars"
 msgstr "%1 Honk-Konq Dolları"
 
-#: currency.cpp:522
+#: currency.cpp:533
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Hong Kong dollar"
@@ -3319,25 +3350,25 @@ msgid_plural "%1 Hong Kong dollars"
 msgstr[0] "%1 Honk-Konq Dolları"
 msgstr[1] "%1 Honk-Konq Dolları"
 
-#: currency.cpp:528 currency.cpp:530
+#: currency.cpp:539 currency.cpp:541
 #, kde-format
 msgctxt "currency name"
 msgid "Indonesian Rupiah"
 msgstr "İndoneziya Rupisi"
 
-#: currency.cpp:529
+#: currency.cpp:540
 #, kde-format
 msgctxt "IDR Indonesian Rupiah - unit synonyms for matching user input"
 msgid "rupiah;rupiahs"
 msgstr "rupi"
 
-#: currency.cpp:532
+#: currency.cpp:543
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rupiahs"
 msgstr "%1 rupi"
 
-#: currency.cpp:533
+#: currency.cpp:544
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rupiah"
@@ -3345,25 +3376,25 @@ msgid_plural "%1 rupiahs"
 msgstr[0] "%1 rupi"
 msgstr[1] "%1 rupi"
 
-#: currency.cpp:539 currency.cpp:541
+#: currency.cpp:550 currency.cpp:552
 #, kde-format
 msgctxt "currency name"
 msgid "Indian Rupee"
 msgstr "Hind Rupisi"
 
-#: currency.cpp:540
+#: currency.cpp:551
 #, kde-format
 msgctxt "INR Indian Rupee - unit synonyms for matching user input"
 msgid "rupee;rupees"
 msgstr "rupi"
 
-#: currency.cpp:543
+#: currency.cpp:554
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rupees"
 msgstr "%1 rupi"
 
-#: currency.cpp:544
+#: currency.cpp:555
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rupee"
@@ -3371,25 +3402,25 @@ msgid_plural "%1 rupees"
 msgstr[0] "%1 rupi"
 msgstr[1] "%1 rupi"
 
-#: currency.cpp:550 currency.cpp:552
+#: currency.cpp:561 currency.cpp:563
 #, kde-format
 msgctxt "currency name"
 msgid "Korean Won"
 msgstr "Şimali Koraya Vonu"
 
-#: currency.cpp:551
+#: currency.cpp:562
 #, kde-format
 msgctxt "KRW Korean Won - unit synonyms for matching user input"
 msgid "won"
 msgstr "von"
 
-#: currency.cpp:554
+#: currency.cpp:565
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 won"
 msgstr "%1 von"
 
-#: currency.cpp:555
+#: currency.cpp:566
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 won"
@@ -3397,25 +3428,25 @@ msgid_plural "%1 won"
 msgstr[0] "%1 von"
 msgstr[1] "%1 von"
 
-#: currency.cpp:561 currency.cpp:563
+#: currency.cpp:572 currency.cpp:574
 #, kde-format
 msgctxt "currency name"
 msgid "Mexican Peso"
 msgstr "Meksika Pesosu"
 
-#: currency.cpp:562
+#: currency.cpp:573
 #, kde-format
 msgctxt "MXN Mexican Peso - unit synonyms for matching user input"
 msgid "Mexican peso;Mexican pesos"
 msgstr "Meksika Pesosu"
 
-#: currency.cpp:565
+#: currency.cpp:576
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Mexican pesos"
 msgstr "%1 Meksika Pesosu"
 
-#: currency.cpp:566
+#: currency.cpp:577
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Mexican peso"
@@ -3423,25 +3454,25 @@ msgid_plural "%1 Mexican pesos"
 msgstr[0] "%1 Meksika Pesosu"
 msgstr[1] "%1 Meksika Pesosu"
 
-#: currency.cpp:572 currency.cpp:574
+#: currency.cpp:583 currency.cpp:585
 #, kde-format
 msgctxt "currency name"
 msgid "Malaysian Ringgit"
 msgstr "Malayziya Rinqiti"
 
-#: currency.cpp:573
+#: currency.cpp:584
 #, kde-format
 msgctxt "MYR Malaysian Ringgit - unit synonyms for matching user input"
 msgid "ringgit;ringgits"
 msgstr "rinqit"
 
-#: currency.cpp:576
+#: currency.cpp:587
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ringgit"
 msgstr "%1 rinqit"
 
-#: currency.cpp:577
+#: currency.cpp:588
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ringgit"
@@ -3449,25 +3480,25 @@ msgid_plural "%1 ringgit"
 msgstr[0] "%1 rinqit"
 msgstr[1] "%1 rinqit"
 
-#: currency.cpp:583 currency.cpp:586
+#: currency.cpp:594 currency.cpp:597
 #, kde-format
 msgctxt "currency name"
 msgid "New Zealand Dollar"
 msgstr "Yeni Zelandiya Dolları"
 
-#: currency.cpp:584
+#: currency.cpp:595
 #, kde-format
 msgctxt "NZD New Zealand Dollar - unit synonyms for matching user input"
 msgid "New Zealand dollar;New Zealand dollars"
 msgstr "Yeni Zelandiya Dolları"
 
-#: currency.cpp:588
+#: currency.cpp:599
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 New Zealand dollars"
 msgstr "%1 Yeni Zelandiya"
 
-#: currency.cpp:589
+#: currency.cpp:600
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 New Zealand dollar"
@@ -3475,25 +3506,25 @@ msgid_plural "%1 New Zealand dollars"
 msgstr[0] "%1 Yeni Zelandiya Dolları"
 msgstr[1] "%1 Yeni Zelandiya"
 
-#: currency.cpp:595 currency.cpp:597
+#: currency.cpp:606 currency.cpp:608
 #, kde-format
 msgctxt "currency name"
 msgid "Philippine Peso"
 msgstr "Filippin Pesosu"
 
-#: currency.cpp:596
+#: currency.cpp:607
 #, kde-format
 msgctxt "PHP Philippine Peso - unit synonyms for matching user input"
 msgid "Philippine peso;Philippine pesos"
 msgstr "Filippin Pesosu"
 
-#: currency.cpp:599
+#: currency.cpp:610
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Philippine pesos"
 msgstr "%1 Filippin Pesosu"
 
-#: currency.cpp:600
+#: currency.cpp:611
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Philippine peso"
@@ -3501,25 +3532,25 @@ msgid_plural "%1 Philippine pesos"
 msgstr[0] "%1 Filippin Pesosu"
 msgstr[1] "%1 Filippin Pesosu"
 
-#: currency.cpp:606 currency.cpp:608
+#: currency.cpp:617 currency.cpp:619
 #, kde-format
 msgctxt "currency name"
 msgid "Singapore Dollar"
 msgstr "Sinqapur Dolları"
 
-#: currency.cpp:607
+#: currency.cpp:618
 #, kde-format
 msgctxt "SGD Singapore Dollar - unit synonyms for matching user input"
 msgid "Singapore dollar;Singapore dollars"
 msgstr "Sinqapur Dolları"
 
-#: currency.cpp:610
+#: currency.cpp:621
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Singapore dollars"
 msgstr "%1 Sinqapur Dolları"
 
-#: currency.cpp:611
+#: currency.cpp:622
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Singapore dollar"
@@ -3527,25 +3558,25 @@ msgid_plural "%1 Singapore dollars"
 msgstr[0] "%1 Sinqapur Dolları"
 msgstr[1] "%1 Sinqapur Dolları"
 
-#: currency.cpp:617 currency.cpp:619
+#: currency.cpp:628 currency.cpp:630
 #, kde-format
 msgctxt "currency name"
 msgid "Thai Baht"
 msgstr "Tailand Bahtı"
 
-#: currency.cpp:618
+#: currency.cpp:629
 #, kde-format
 msgctxt "THB Thai Baht - unit synonyms for matching user input"
 msgid "baht"
 msgstr "bahtı"
 
-#: currency.cpp:621
+#: currency.cpp:632
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 baht"
 msgstr "%1 bahtı"
 
-#: currency.cpp:622
+#: currency.cpp:633
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 baht"
@@ -3553,25 +3584,25 @@ msgid_plural "%1 baht"
 msgstr[0] "%1 bahtı"
 msgstr[1] "%1 bahtı"
 
-#: currency.cpp:628 currency.cpp:630
+#: currency.cpp:639 currency.cpp:641
 #, kde-format
 msgctxt "currency name"
 msgid "South African Rand"
 msgstr "Cənubi Afrika Randı"
 
-#: currency.cpp:629
+#: currency.cpp:640
 #, kde-format
 msgctxt "South African Rand - unit synonyms for matching user input"
 msgid "rand"
 msgstr "rand"
 
-#: currency.cpp:632
+#: currency.cpp:643
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rand"
 msgstr "%1 rand"
 
-#: currency.cpp:633
+#: currency.cpp:644
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rand"
@@ -3579,25 +3610,25 @@ msgid_plural "%1 rand"
 msgstr[0] "%1 rand"
 msgstr[1] "%1 rand"
 
-#: currency.cpp:638 currency.cpp:640
+#: currency.cpp:649 currency.cpp:651
 #, kde-format
 msgctxt "currency name"
 msgid "Icelandic Krona"
 msgstr "İslandiya Kronu"
 
-#: currency.cpp:639
+#: currency.cpp:650
 #, kde-format
 msgctxt "Icelandic Krona - unit synonyms for matching user input"
 msgid "Icelandic krona;Icelandic crown"
 msgstr "İslandiya Kronu"
 
-#: currency.cpp:642
+#: currency.cpp:653
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronar"
 msgstr "%1 İslandiya Kronu"
 
-#: currency.cpp:643
+#: currency.cpp:654
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
