@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-19 00:38+0000\n"
-"PO-Revision-Date: 2024-04-02 12:33+0200\n"
+"PO-Revision-Date: 2024-11-19 18:27+0100\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.1\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2702,32 +2702,29 @@ msgstr[1] "%1 словашки крони"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "CFP франк"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
 msgstr ""
+"CFP;CFP франк;CFP франка;френски полинезийски франк;френски полинезийски "
+"франк франкове"
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 френски франка"
+msgstr "%1 CFP франка"
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 френски франк"
-msgstr[1] "%1 френски франка"
+msgstr[0] "%1 CFP франк"
+msgstr[1] "%1 CFP франка"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format

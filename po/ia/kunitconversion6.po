@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# g.sora <g.sora@tiscali.it>, 2010, 2011, 2014, 2016, 2017, 2019, 2020, 2022, 2023, 2024.
+# SPDX-FileCopyrightText: 2010, 2011, 2014, 2016, 2017, 2019, 2020, 2022, 2023, 2024 g.sora <g.sora@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-19 00:38+0000\n"
-"PO-Revision-Date: 2024-03-28 15:33+0100\n"
+"PO-Revision-Date: 2024-11-19 10:55+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2699,32 +2699,27 @@ msgstr[1] "%1 coronas slovac"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "Franco CFP"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
-msgstr ""
+msgstr "CFP; franco CFP;francos CFP;frando de Pacific;francos de Pacific"
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 francos francese"
+msgstr "%1 francos CFP"
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 franco francese"
-msgstr[1] "%1 francos francese"
+msgstr[0] "%1 franco CFP"
+msgstr[1] "%1 francos CFP"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format

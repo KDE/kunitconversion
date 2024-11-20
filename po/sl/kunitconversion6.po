@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-19 00:38+0000\n"
-"PO-Revision-Date: 2024-03-28 08:03+0100\n"
+"PO-Revision-Date: 2024-11-19 07:30+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2923,34 +2923,29 @@ msgstr[3] "%1 slovaške krone"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "CFP frank"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
-msgstr ""
+msgstr "CFP;CFP frank;CFP frankov;tihomorski frank;tihomorski franki"
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 francoskih frankov"
+msgstr "%1 CFP frankov"
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 francoskih frankov"
-msgstr[1] "%1 francoski frank"
-msgstr[2] "%1 francoska franka"
-msgstr[3] "%1 francoski franki"
+msgstr[0] "%1 CFP frankov"
+msgstr[1] "%1 CFP frank"
+msgstr[2] "%1 CFP franka"
+msgstr[3] "%1 CFP franki"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
@@ -9703,7 +9698,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "astronomical unit;astronomical units;au"
 msgstr ""
 "astronomska enota;astronomski enoti;astronomske enote;astronomskih enot;a.e.;"
-"au;AU;a.u."
+"au;AU;ae"
 
 #: length.cpp:329
 #, kde-format
@@ -10697,13 +10692,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Darcy"
-msgstr "darcy"
+msgstr "Darcy"
 
 #: permeability.cpp:24
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Darcy"
-msgstr "darcy"
+msgstr "Darcy"
 
 #: permeability.cpp:25
 #, kde-format
@@ -10737,7 +10732,7 @@ msgstr "mDarcy"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Milli-Darcy"
-msgstr "mili-darcy"
+msgstr "Mili-darcy"
 
 #: permeability.cpp:35
 #, kde-format
@@ -12523,19 +12518,19 @@ msgstr[3] "%1 decibari"
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "Torr"
-msgstr "torr"
+msgstr "Torr"
 
 #: pressure.cpp:265
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Torr"
-msgstr "torr"
+msgstr "Torr"
 
 #: pressure.cpp:266
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Torr"
-msgstr "torr"
+msgstr "Torr"
 
 #: pressure.cpp:268
 #, kde-format
@@ -12822,7 +12817,7 @@ msgstr "°F"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Fahrenheit"
-msgstr "stopinje Fahrenheita"
+msgstr "stopinje Fahrenheit"
 
 #: temperature.cpp:208
 #, kde-format

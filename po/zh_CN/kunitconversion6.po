@@ -2625,22 +2625,17 @@ msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
 msgstr ""
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 法国法郎"
+msgstr ""
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 法国法郎"
+msgstr[0] ""
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
