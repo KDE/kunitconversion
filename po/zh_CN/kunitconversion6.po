@@ -2616,26 +2616,27 @@ msgstr[0] "%1 斯洛伐克克朗"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "太平洋法郎"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
 msgstr ""
+"CFP;CFP franc;CFP francs;Pacific franc;Pacific francs;太平洋;太平洋法郎"
 
 #: currency.cpp:264
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr ""
+msgstr "%1 太平洋法郎"
 
 #: currency.cpp:265
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] ""
+msgstr[0] "%1 太平洋法郎"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
