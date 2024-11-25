@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # amachu <amachu@amachu.com>, 2010.
-# Kishore G <kishore96@gmail.com>, 2021.
+# SPDX-FileCopyrightText: 2021, 2024 Kishore G <kishore96@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-19 00:38+0000\n"
-"PO-Revision-Date: 2021-01-17 11:30+0530\n"
+"PO-Revision-Date: 2024-11-24 16:49+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.12.1\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -30,31 +30,31 @@ msgid "%1 %2"
 msgstr "%1 %2"
 
 #: acceleration.cpp:24
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "acceleration unit symbol"
 msgid "m/s²"
 msgstr "m/s²"
 
 #: acceleration.cpp:25
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "unit description in lists"
 msgid "meters per second squared"
 msgstr "meters per second squared"
 
 #: acceleration.cpp:26
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "meter per second squared;meters per second squared;m/s²;m/s2;m/s^2"
 msgstr "meter per second squared;meters per second squared;m/s²;m/s2;m/s^2"
 
 #: acceleration.cpp:28
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 meters per second squared"
 msgstr "%1 meters per second squared"
 
 #: acceleration.cpp:29
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 meter per second squared"
 msgid_plural "%1 meters per second squared"
@@ -62,13 +62,13 @@ msgstr[0] "%1 meter per second squared"
 msgstr[1] "%1 meters per second squared"
 
 #: acceleration.cpp:34
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "acceleration unit symbol"
 msgid "ft/s²"
 msgstr "ft/s²"
 
 #: acceleration.cpp:35
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "unit description in lists"
 msgid "feet per second squared"
 msgstr "feet per second squared"
@@ -654,7 +654,7 @@ msgstr ""
 #, kde-format
 msgctxt "unit description in lists"
 msgid "square meters"
-msgstr ""
+msgstr "சதுர மீட்டர்"
 
 #: area.cpp:144
 #, kde-format
@@ -1070,7 +1070,7 @@ msgstr ""
 #, kde-format
 msgctxt "unit description in lists"
 msgid "square inches"
-msgstr ""
+msgstr "சதுர் அங்குலம்"
 
 #: area.cpp:274
 #, kde-format
@@ -1104,7 +1104,7 @@ msgstr ""
 #, kde-format
 msgctxt "unit description in lists"
 msgid "square miles"
-msgstr ""
+msgstr "சதுர மைல்"
 
 #: area.cpp:284
 #, kde-format
@@ -1137,9 +1137,7 @@ msgid "Binary Data Size"
 msgstr "இரும தரவின் அளவு"
 
 #: binary_data.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (binary data)"
 msgid "%1 %2"
 msgstr "%1 %2"
