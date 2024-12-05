@@ -338,7 +338,7 @@ enum UnitId {
     Zar,
     Ils,
     Isk,
-    Xpf,
+    Xpf, /// @since 6.9
 
     // Velocity
     MeterPerSecond = 9000,
