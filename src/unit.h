@@ -303,7 +303,6 @@ enum UnitId {
     Cyp,
     Mtl,
     Skk,
-    Xpf,
     Usd,
     Jpy,
     Bgn,
@@ -339,6 +338,7 @@ enum UnitId {
     Zar,
     Ils,
     Isk,
+    Xpf,
 
     // Velocity
     MeterPerSecond = 9000,
