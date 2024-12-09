@@ -1,6 +1,6 @@
 # Copyright © 2010, 2011 This_file_is_part_of_KDE
 # This file is distributed under the same license as the kdelibs package.
-# Tommi Nieminen <translator@legisign.org>, 2010, 2011, 2016, 2019, 2020, 2022, 2023.
+# SPDX-FileCopyrightText: 2010, 2011, 2016, 2019, 2020, 2022, 2023, 2024 Tommi Nieminen <translator@legisign.org>
 # Lasse Liehu <lasse.liehu@gmail.com>, 2010, 2011, 2012, 2014, 2016.
 #
 # KDE Finnish translation sprint participants:
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-19 00:38+0000\n"
-"PO-Revision-Date: 2023-11-30 15:26+0200\n"
+"PO-Revision-Date: 2024-12-07 18:18+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2053,9 +2054,7 @@ msgid "kibibytes"
 msgstr "kibitavua"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "KiB;kibibyte;kibibytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
 msgstr "KiB;kibitavu;kibitavua"
@@ -2087,9 +2086,7 @@ msgid "kibibits"
 msgstr "kibibittiä"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Kib;kibibit;kibibits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
 msgstr "KiB;kibibitti;kibibittiä"
@@ -2121,12 +2118,10 @@ msgid "kilobytes"
 msgstr "kilotavua"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kB;kilobyte;kilobytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr "kt;kB;kilotavu;kilotavua"
+msgstr "kt;KB;kB;kilotavu;kilotavua"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2155,12 +2150,10 @@ msgid "kilobits"
 msgstr "kilobittiä"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kb;kilobit;kilobits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr "kb;kilobitti;kilobittiä"
+msgstr "kb;Kb;kilobitti;kilobittiä"
 
 #: binary_data.cpp:365
 #, kde-format
@@ -2702,32 +2695,27 @@ msgstr[1] "%1 Slovakian korunaa"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "CFP-frangi"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
-msgstr ""
+msgstr "CFP;CFP-frangi;CFP-frangia;Tyynenmeren frangi;Tyynenmeren frangia"
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 Ranskan frangia"
+msgstr "%1 CFP-frangia"
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 Ranskan frangi"
-msgstr[1] "%1 Ranskan frangia"
+msgstr[0] "%1 CFP-frangi"
+msgstr[1] "%1 CFP-frangia"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
