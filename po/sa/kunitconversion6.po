@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-19 00:38+0000\n"
-"PO-Revision-Date: 2024-12-14 13:27+0530\n"
+"PO-Revision-Date: 2024-12-20 12:26+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -7868,7 +7868,7 @@ msgstr[1] "%1 माइल प्रति अमेरिकी गैलनम
 #, kde-format
 msgctxt "fuelefficiency unit symbol"
 msgid "mpg (imperial)"
-msgstr "mpg (शाही) २."
+msgstr "mpg (शाही)"
 
 #: fuel_efficiency.cpp:88
 #, kde-format
@@ -10697,7 +10697,7 @@ msgstr "डेसिबल वाट्"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBW;dB(W)"
-msgstr "dBW;dB(W) २."
+msgstr "dBW;dB(W)"
 
 #: power.cpp:292
 #, kde-format
@@ -15797,7 +15797,7 @@ msgstr "गल्"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gallons (U.S. liquid)"
-msgstr "गैलन (U.S. liquid) २."
+msgstr "गैलन (U.S. liquid)"
 
 #: volume.cpp:517
 #, kde-format
@@ -15809,15 +15809,15 @@ msgstr "गैलन (अमेरिकी द्रव);गैलन (अम�
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gallons (U.S. liquid)"
-msgstr "%1 गैलन (अमेरिकी द्रव) २."
+msgstr "%1 गैलन (अमेरिकी द्रव)"
 
 #: volume.cpp:520
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gallon (U.S. liquid)"
 msgid_plural "%1 gallons (U.S. liquid)"
-msgstr[0] "%1 गैलन (अमेरिकी द्रव) २."
-msgstr[1] "%1 गैलन (अमेरिकी द्रव) २."
+msgstr[0] "%1 गैलन (अमेरिकी द्रव)"
+msgstr[1] "%1 गैलन (अमेरिकी द्रव)"
 
 #: volume.cpp:525
 #, kde-format
@@ -15829,7 +15829,7 @@ msgstr "imp gal"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gallons (imperial)"
-msgstr "गैलन (शाही) २."
+msgstr "गैलन (शाही)"
 
 #: volume.cpp:528
 #, kde-format
@@ -15844,15 +15844,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gallons (imperial)"
-msgstr "%1 गैलन (शाही) २."
+msgstr "%1 गैलन (शाही)"
 
 #: volume.cpp:531
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gallon (imperial)"
 msgid_plural "%1 gallons (imperial)"
-msgstr[0] "%1 गैलन (शाही) २."
-msgstr[1] "%1 गैलन (शाही) २."
+msgstr[0] "%1 गैलन (शाही)"
+msgstr[1] "%1 गैलन (शाही)"
 
 #: volume.cpp:536
 #, kde-format
@@ -15864,7 +15864,7 @@ msgstr "pt"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pints (imperial)"
-msgstr "पिण्ट (शाही) २."
+msgstr "पिण्ट (शाही)"
 
 #: volume.cpp:538
 #, kde-format
@@ -15876,15 +15876,15 @@ msgstr "पिंट (शाही);पिंट (शाही);pt;पिंट;
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pints (imperial)"
-msgstr "%1 पिंट (शाही) २."
+msgstr "%1 पिंट (शाही)"
 
 #: volume.cpp:541
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pint (imperial)"
 msgid_plural "%1 pints (imperial)"
-msgstr[0] "%1 पिण्ट (शाही) २."
-msgstr[1] "%1 पिण्ट (शाही) २."
+msgstr[0] "%1 पिण्ट (शाही)"
+msgstr[1] "%1 पिण्ट (शाही)"
 
 #: volume.cpp:546
 #, kde-format
@@ -15896,7 +15896,7 @@ msgstr "अमेरिकी pt"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pints (U.S. liquid)"
-msgstr "पिण्ट् (U.S. liquid) २."
+msgstr "पिण्ट् (U.S. liquid)"
 
 #: volume.cpp:548
 #, kde-format
@@ -15909,15 +15909,15 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pints (U.S. liquid)"
-msgstr "%1 पिण्ट् (अमेरिकी द्रव) २."
+msgstr "%1 पिण्ट् (अमेरिकी द्रव)"
 
 #: volume.cpp:551
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pint (U.S. liquid)"
 msgid_plural "%1 pints (U.S. liquid)"
-msgstr[0] "%1 पिण्ट् (अमेरिकी द्रव) २."
-msgstr[1] "%1 पिण्ट् (अमेरिकी द्रव) २."
+msgstr[0] "%1 पिण्ट् (अमेरिकी द्रव)"
+msgstr[1] "%1 पिण्ट् (अमेरिकी द्रव)"
 
 #: volume.cpp:556
 #, kde-format
