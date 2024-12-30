@@ -117,6 +117,7 @@ enum UnitId {
     AstronomicalUnit,
     Thou,
     Angstrom,
+    RackUnit,
 
     // Volume
     CubicYottameter = 3000,

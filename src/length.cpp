@@ -329,6 +329,16 @@ UnitCategory Length::makeCategory()
                        ki18nc("amount in units (real)", "%1 astronomical units"),
                        ki18ncp("amount in units (integer)", "%1 astronomical unit", "%1 astronomical units")));
 
+    d->addUnit(UnitPrivate::makeUnit(LengthCategory,
+                       RackUnit,
+                       0.0445,
+                       i18nc("length unit symbol", "ru"),
+                       i18nc("unit description in lists", "rack units"),
+                       i18nc("unit synonyms for matching user input", "rack unit;rack units;U;RU"),
+                       symbolString,
+                       ki18nc("amount in units (real)", "%1 rack units"),
+                       ki18ncp("amount in units (integer)", "%1 rack unit", "%1 rack units")));
+
     return c;
 }
 
