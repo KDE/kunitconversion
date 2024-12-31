@@ -331,7 +331,7 @@ UnitCategory Length::makeCategory()
 
     d->addUnit(UnitPrivate::makeUnit(LengthCategory,
                        RackUnit,
-                       0.0445,
+                       0.04445,
                        i18nc("length unit symbol", "ru"),
                        i18nc("unit description in lists", "rack units"),
                        i18nc("unit synonyms for matching user input", "rack unit;rack units;U;RU"),
