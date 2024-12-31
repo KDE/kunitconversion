@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-19 00:38+0000\n"
+"POT-Creation-Date: 2024-12-31 00:38+0000\n"
 "PO-Revision-Date: 2019-07-19 02:58+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
@@ -8916,6 +8916,38 @@ msgstr ""
 msgctxt "amount in units (integer)"
 msgid "%1 astronomical unit"
 msgid_plural "%1 astronomical units"
+msgstr[0] ""
+msgstr[1] ""
+
+#: length.cpp:335
+#, kde-format
+msgctxt "length unit symbol"
+msgid "ru"
+msgstr ""
+
+#: length.cpp:336
+#, kde-format
+msgctxt "unit description in lists"
+msgid "rack units"
+msgstr ""
+
+#: length.cpp:337
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "rack unit;rack units;U;RU"
+msgstr ""
+
+#: length.cpp:339
+#, kde-format
+msgctxt "amount in units (real)"
+msgid "%1 rack units"
+msgstr ""
+
+#: length.cpp:340
+#, kde-format
+msgctxt "amount in units (integer)"
+msgid "%1 rack unit"
+msgid_plural "%1 rack units"
 msgstr[0] ""
 msgstr[1] ""
 

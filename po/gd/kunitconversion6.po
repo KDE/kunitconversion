@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-19 00:38+0000\n"
+"POT-Creation-Date: 2024-12-31 00:38+0000\n"
 "PO-Revision-Date: 2016-05-05 13:20+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -10128,6 +10128,45 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
+
+#: length.cpp:335
+#, kde-format
+msgctxt "length unit symbol"
+msgid "ru"
+msgstr ""
+
+#: length.cpp:336
+#, kde-format
+msgctxt "unit description in lists"
+msgid "rack units"
+msgstr ""
+
+#: length.cpp:337
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "rack unit;rack units;U;RU"
+msgstr ""
+
+#: length.cpp:339
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 reais"
+msgctxt "amount in units (real)"
+msgid "%1 rack units"
+msgstr "%1 real"
+
+#: length.cpp:340
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 ringgit"
+#| msgid_plural "%1 ringgit"
+msgctxt "amount in units (integer)"
+msgid "%1 rack unit"
+msgid_plural "%1 rack units"
+msgstr[0] "%1 ringgit"
+msgstr[1] "%1 ringgit"
+msgstr[2] "%1 ringgit"
+msgstr[3] "%1 ringgit"
 
 #: mass.cpp:18
 #, kde-format

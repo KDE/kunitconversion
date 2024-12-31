@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-19 00:38+0000\n"
+"POT-Creation-Date: 2024-12-31 00:38+0000\n"
 "PO-Revision-Date: 2023-04-29 12:14+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -8934,6 +8934,42 @@ msgid_plural "%1 astronomical units"
 msgstr[0] "%1 Astronomische Einheit"
 msgstr[1] "%1 Astronomische Einheiten"
 
+#: length.cpp:335
+#, kde-format
+msgctxt "length unit symbol"
+msgid "ru"
+msgstr ""
+
+#: length.cpp:336
+#, kde-format
+msgctxt "unit description in lists"
+msgid "rack units"
+msgstr ""
+
+#: length.cpp:337
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "rack unit;rack units;U;RU"
+msgstr ""
+
+#: length.cpp:339
+#, fuzzy, kde-format
+#| msgid "rands"
+msgctxt "amount in units (real)"
+msgid "%1 rack units"
+msgstr "Rand"
+
+#: length.cpp:340
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 ringgit"
+#| msgid_plural "%1 ringgit"
+msgctxt "amount in units (integer)"
+msgid "%1 rack unit"
+msgid_plural "%1 rack units"
+msgstr[0] "%1 Ringgit"
+msgstr[1] "%1 Ringgit"
+
 #: mass.cpp:18
 #, kde-format
 msgid "Mass"
@@ -16554,12 +16590,6 @@ msgstr[1] "%1 Pfund pro Kubikyard"
 #~ msgctxt "unit description in lists"
 #~ msgid "singapore dollars"
 #~ msgstr "Singapur-Dollar"
-
-#, fuzzy
-#~| msgid "rands"
-#~ msgctxt "amount in units (real)"
-#~ msgid "%1 rands"
-#~ msgstr "Rand"
 
 #~ msgctxt "unit description in lists"
 #~ msgid "torrs"

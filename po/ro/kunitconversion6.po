@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-19 00:38+0000\n"
+"POT-Creation-Date: 2024-12-31 00:38+0000\n"
 "PO-Revision-Date: 2020-10-03 22:50+0100\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian\n"
@@ -9926,6 +9926,44 @@ msgid_plural "%1 astronomical units"
 msgstr[0] "%1 unitate astronomică"
 msgstr[1] "%1 unități astronomice"
 msgstr[2] "%1 de unități astronomice"
+
+#: length.cpp:335
+#, kde-format
+msgctxt "length unit symbol"
+msgid "ru"
+msgstr ""
+
+#: length.cpp:336
+#, kde-format
+msgctxt "unit description in lists"
+msgid "rack units"
+msgstr ""
+
+#: length.cpp:337
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "rack unit;rack units;U;RU"
+msgstr ""
+
+#: length.cpp:339
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 reais"
+msgctxt "amount in units (real)"
+msgid "%1 rack units"
+msgstr "%1 reali brazilieni"
+
+#: length.cpp:340
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 ringgit"
+#| msgid_plural "%1 ringgit"
+msgctxt "amount in units (integer)"
+msgid "%1 rack unit"
+msgid_plural "%1 rack units"
+msgstr[0] "%1 ringgit"
+msgstr[1] "%1 ringgit"
+msgstr[2] "%1 de ringgit"
 
 #: mass.cpp:18
 #, kde-format

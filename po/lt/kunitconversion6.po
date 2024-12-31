@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-19 00:38+0000\n"
+"POT-Creation-Date: 2024-12-31 00:38+0000\n"
 "PO-Revision-Date: 2015-01-03 17:34+0300\n"
 "Last-Translator: Andrius Štikonas <andrius@stikonas.eu>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -10181,6 +10181,45 @@ msgstr "%1 astronominių vienetų"
 msgctxt "amount in units (integer)"
 msgid "%1 astronomical unit"
 msgid_plural "%1 astronomical units"
+msgstr[0] "%1 astronominis vienetas"
+msgstr[1] "%1 astronominiai vienetai"
+msgstr[2] "%1 astronominių vienetų"
+msgstr[3] "%1 astronominis vienetas"
+
+#: length.cpp:335
+#, kde-format
+msgctxt "length unit symbol"
+msgid "ru"
+msgstr ""
+
+#: length.cpp:336
+#, kde-format
+msgctxt "unit description in lists"
+msgid "rack units"
+msgstr ""
+
+#: length.cpp:337
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "rack unit;rack units;U;RU"
+msgstr ""
+
+#: length.cpp:339
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 astronomical units"
+msgctxt "amount in units (real)"
+msgid "%1 rack units"
+msgstr "%1 astronominių vienetų"
+
+#: length.cpp:340
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 astronomical unit"
+#| msgid_plural "%1 astronomical units"
+msgctxt "amount in units (integer)"
+msgid "%1 rack unit"
+msgid_plural "%1 rack units"
 msgstr[0] "%1 astronominis vienetas"
 msgstr[1] "%1 astronominiai vienetai"
 msgstr[2] "%1 astronominių vienetų"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-19 00:38+0000\n"
+"POT-Creation-Date: 2024-12-31 00:38+0000\n"
 "PO-Revision-Date: 2023-10-25 00:15+0300\n"
 "Last-Translator: George Stefanakis <george.stefanakis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-doc@kde.org>\n"
@@ -8961,6 +8961,41 @@ msgid_plural "%1 astronomical units"
 msgstr[0] "%1 αστρονομική μονάδα"
 msgstr[1] "%1 αστρονομικές μονάδες"
 
+#: length.cpp:335
+#, kde-format
+msgctxt "length unit symbol"
+msgid "ru"
+msgstr ""
+
+#: length.cpp:336
+#, kde-format
+msgctxt "unit description in lists"
+msgid "rack units"
+msgstr ""
+
+#: length.cpp:337
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "rack unit;rack units;U;RU"
+msgstr ""
+
+#: length.cpp:339
+#, fuzzy, kde-format
+msgctxt "amount in units (real)"
+msgid "%1 rack units"
+msgstr "ραντ"
+
+#: length.cpp:340
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 ringgit"
+#| msgid_plural "%1 ringgit"
+msgctxt "amount in units (integer)"
+msgid "%1 rack unit"
+msgid_plural "%1 rack units"
+msgstr[0] "%1 ρινγκίτ"
+msgstr[1] "%1 ρινγκίτ"
+
 #: mass.cpp:18
 #, kde-format
 msgid "Mass"
@@ -16293,11 +16328,6 @@ msgstr[1] "%1 ουγγιές ανά τετραγωνική γιάρδα"
 #~ msgctxt "unit description in lists"
 #~ msgid "singapore dollars"
 #~ msgstr "σιγκαπούρης δολάρια"
-
-#, fuzzy
-#~ msgctxt "amount in units (real)"
-#~ msgid "%1 rands"
-#~ msgstr "ραντ"
 
 #, fuzzy
 #~ msgctxt "unit description in lists"

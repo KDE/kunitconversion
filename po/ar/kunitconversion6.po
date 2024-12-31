@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-19 00:38+0000\n"
+"POT-Creation-Date: 2024-12-31 00:38+0000\n"
 "PO-Revision-Date: 2014-10-10 13:38+0300\n"
 "Last-Translator: os_ <osmakh@linuxmail.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -10570,6 +10570,47 @@ msgstr[2] "وحدتان فلكيتان"
 msgstr[3] "%1 وحدات فلكية"
 msgstr[4] "%1 وحدة فلكية"
 msgstr[5] "%1 وحدة فلكية"
+
+#: length.cpp:335
+#, kde-format
+msgctxt "length unit symbol"
+msgid "ru"
+msgstr ""
+
+#: length.cpp:336
+#, kde-format
+msgctxt "unit description in lists"
+msgid "rack units"
+msgstr ""
+
+#: length.cpp:337
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "rack unit;rack units;U;RU"
+msgstr ""
+
+#: length.cpp:339
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 reais"
+msgctxt "amount in units (real)"
+msgid "%1 rack units"
+msgstr "%1 ريال"
+
+#: length.cpp:340
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 ringgit"
+#| msgid_plural "%1 ringgit"
+msgctxt "amount in units (integer)"
+msgid "%1 rack unit"
+msgid_plural "%1 rack units"
+msgstr[0] "%1 رنجيت"
+msgstr[1] "رنجيت واحد"
+msgstr[2] "%1 رنجيت"
+msgstr[3] "%1 رنجيت"
+msgstr[4] "%1 رنجيتًا"
+msgstr[5] "%1 رنجيت"
 
 #: mass.cpp:18
 #, kde-format
