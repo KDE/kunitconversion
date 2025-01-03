@@ -8660,32 +8660,32 @@ msgstr[0] "%1 天文单位"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ru"
-msgstr ""
+msgstr "ru"
 
 #: length.cpp:336
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rack units"
-msgstr ""
+msgstr "机架单元"
 
 #: length.cpp:337
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rack unit;rack units;U;RU"
-msgstr ""
+msgstr "rack unit;rack units;U;RU;机架单元"
 
 #: length.cpp:339
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr ""
+msgstr "%1 个机架单元"
 
 #: length.cpp:340
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rack unit"
 msgid_plural "%1 rack units"
-msgstr[0] ""
+msgstr[0] "%1 个机架单元"
 
 #: mass.cpp:18
 #, kde-format
