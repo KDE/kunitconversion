@@ -2707,17 +2707,12 @@ msgstr ""
 
 #: currency.cpp:264
 #, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
 msgstr "%1 fránska franca"
 
 #: currency.cpp:265
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
@@ -8949,8 +8944,6 @@ msgstr ""
 
 #: length.cpp:339
 #, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 radians"
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
 msgstr "%1 radiána"
