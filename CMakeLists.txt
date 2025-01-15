@@ -64,11 +64,6 @@ ecm_set_disabled_deprecation_versions(
 # Python Bindings
 cmake_dependent_option(BUILD_PYTHON_BINDINGS "Generate Python Bindings" ON "TARGET Shiboken6::libshiboken AND TARGET PySide6::pyside6" OFF)
 
-# FreeBSD CI is missing required packages
-if (CMAKE_SYSTEM_NAME MATCHES FreeBSD)
-    set(BUILD_PYTHON_BINDINGS OFF)
-endif()
-
 add_feature_info(PYTHON_BINDINGS ${BUILD_PYTHON_BINDINGS} "Python bindings")
 
 add_subdirectory(src)
