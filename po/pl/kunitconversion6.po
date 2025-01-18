@@ -2,17 +2,17 @@
 # translation of libconversion.po to Polish
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Maciej Wikło <maciej.wiklo@wp.pl>, 2009, 2010.
 # Marta Rybczyńska <kde-i18n@rybczynska.net>, 2009, 2010, 2011.
 # Marcin Floryan <mfloryan@mm.waw.pl>, 2010.
-# SPDX-FileCopyrightText: 2011, 2014, 2016, 2018, 2019, 2021, 2022, 2023, 2024 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+# SPDX-FileCopyrightText: 2011, 2014, 2016, 2018, 2019, 2021, 2022, 2023, 2024, 2025 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-31 00:38+0000\n"
-"PO-Revision-Date: 2024-04-01 08:16+0200\n"
+"PO-Revision-Date: 2025-01-18 12:07+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -21,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2786,33 +2787,28 @@ msgstr[2] "%1 koron słowackich"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "Frank CFP"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
-msgstr ""
+msgstr "CFP;Frank CFP;Franki CFP;Frank pacyficzny;Franki pacyficzne"
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 franków francuskich"
+msgstr "%1 franków CFP"
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 frank francuski"
-msgstr[1] "%1 franki francuskie"
-msgstr[2] "%1 franków francuskich"
+msgstr[0] "%1 frank CFP"
+msgstr[1] "%1 franki CFP"
+msgstr[2] "%1 franków CFP"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
@@ -9224,39 +9220,34 @@ msgstr[2] "%1 jednostek astronomicznych"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ru"
-msgstr ""
+msgstr "ru"
 
 #: length.cpp:336
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rack units"
-msgstr ""
+msgstr "jednostki rack"
 
 #: length.cpp:337
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rack unit;rack units;U;RU"
-msgstr ""
+msgstr "jednostka rack;jednostki rack;U;RU"
 
 #: length.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 rands"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr "%1 randów"
+msgstr "%1 jednostek rack"
 
 #: length.cpp:340
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 ringgit"
-#| msgid_plural "%1 ringgit"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rack unit"
 msgid_plural "%1 rack units"
-msgstr[0] "%1 ringgit"
-msgstr[1] "%1 ringgity"
-msgstr[2] "%1 ringgitów"
+msgstr[0] "%1 jednostka rack"
+msgstr[1] "%1 jednostki rack"
+msgstr[2] "%1 jednostek rack"
 
 #: mass.cpp:18
 #, kde-format
