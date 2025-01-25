@@ -32,7 +32,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "acceleration unit symbol"
 msgid "m/s²"
-msgstr "米/秒²"
+msgstr "m/s²"
 
 #: acceleration.cpp:25
 #, kde-format
@@ -64,7 +64,7 @@ msgstr[0] "%1 米每秒方"
 #, kde-format
 msgctxt "acceleration unit symbol"
 msgid "ft/s²"
-msgstr "英尺每秒方"
+msgstr "ft/s²"
 
 #: acceleration.cpp:35
 #, kde-format
@@ -77,7 +77,7 @@ msgstr "英尺每秒方"
 msgctxt "unit synonyms for matching user input"
 msgid "foot per second squared;feet per second squared;ft/s²;ft/s2;ft/s^2"
 msgstr ""
-"米每秒方;foot per second squared;feet per second squared;ft/s²;ft/s2;ft/s^2"
+"英尺每秒方;foot per second squared;feet per second squared;ft/s²;ft/s2;ft/s^2"
 
 #: acceleration.cpp:38
 #, kde-format
@@ -169,7 +169,7 @@ msgstr[0] "%1 度"
 #, kde-format
 msgctxt "angle unit symbol"
 msgid "rad"
-msgstr "弧度"
+msgstr "rad"
 
 #: angle.cpp:63
 #, kde-format
@@ -200,7 +200,7 @@ msgstr[0] "%1 弧度"
 #, kde-format
 msgctxt "angle unit symbol"
 msgid "grad"
-msgstr "梯度"
+msgstr "grad"
 
 #: angle.cpp:73
 #, kde-format
@@ -6014,7 +6014,7 @@ msgstr[0] "%1 BTU"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "Erg"
-msgstr "尔格"
+msgstr "Erg"
 
 #: energy.cpp:332
 #, kde-format
@@ -7630,7 +7630,7 @@ msgstr[0] "%1 英里/美制加仑"
 #, kde-format
 msgctxt "fuelefficiency unit symbol"
 msgid "mpg (imperial)"
-msgstr "mpg(英制)"
+msgstr "mpg (imperial)"
 
 #: fuel_efficiency.cpp:88
 #, kde-format
@@ -9580,7 +9580,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Darcy"
-msgstr "达西"
+msgstr "Darcy"
 
 #: permeability.cpp:24
 #, kde-format
@@ -9611,7 +9611,7 @@ msgstr[0] "%1 Darcy达西"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "mDarcy"
-msgstr "毫达西"
+msgstr "mDarcy"
 
 #: permeability.cpp:34
 #, kde-format
@@ -11245,32 +11245,32 @@ msgstr[0] "%1 分巴"
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "Torr"
-msgstr "拖拉"
+msgstr "Torr"
 
 #: pressure.cpp:265
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Torr"
-msgstr "拖拉"
+msgstr "托"
 
 #: pressure.cpp:266
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Torr"
-msgstr "拖拉;torr"
+msgstr "托;torr"
 
 #: pressure.cpp:268
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 torr"
-msgstr "%1 拖拉"
+msgstr "%1 托"
 
 #: pressure.cpp:269
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 torr"
 msgid_plural "%1 torr"
-msgstr[0] "%1 拖拉"
+msgstr[0] "%1 托"
 
 #: pressure.cpp:274
 #, kde-format
@@ -11401,7 +11401,7 @@ msgstr[0] "%1 英寸汞柱"
 #, kde-format
 msgctxt "pressure unit symbol"
 msgid "mmHg"
-msgstr "毫米汞柱"
+msgstr "mmHg"
 
 #: pressure.cpp:317
 #, kde-format
@@ -15301,7 +15301,7 @@ msgstr[0] "%1 液体杯"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr "茶匙"
+msgstr "tsp"
 
 #: volume.cpp:496
 #, kde-format
@@ -15332,7 +15332,7 @@ msgstr[0] "%1 茶匙"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr "汤匙"
+msgstr "tbsp"
 
 #: volume.cpp:506
 #, kde-format
@@ -15396,7 +15396,7 @@ msgstr[0] "%1 加仑(美，液体)"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "imp gal"
-msgstr "英制加仑"
+msgstr "imp gal"
 
 #: volume.cpp:526
 #, kde-format
@@ -15462,7 +15462,7 @@ msgstr[0] "%1 品脱(英制)"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "US pt"
-msgstr "美国品脱"
+msgstr "US pt"
 
 #: volume.cpp:547
 #, kde-format
