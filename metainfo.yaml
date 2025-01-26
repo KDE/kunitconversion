@@ -11,7 +11,7 @@ portingAid: false
 deprecated: false
 release: true
 libraries:
- - cmake: "KF6::UnitConversion"
+    - cmake: "KF6::UnitConversion"
 cmakename: KF6UnitConversion
 
 public_lib: true

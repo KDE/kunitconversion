@@ -1,10 +1,10 @@
 Dependencies:
-- 'on': ['@all']
-  'require':
+ - 'on': ['@all']
+   'require':
     'frameworks/extra-cmake-modules': '@same'
-    'frameworks/ki18n' : '@same'
-    'frameworks/kconfig' : '@same'
+    'frameworks/ki18n': '@same'
+    'frameworks/kconfig': '@same'
 
 Options:
-  test-before-installing: True
-  require-passing-tests-on: [ 'Linux', 'FreeBSD', 'Windows' ]
+ test-before-installing: True
+ require-passing-tests-on: ['Linux', 'FreeBSD', 'Windows']
