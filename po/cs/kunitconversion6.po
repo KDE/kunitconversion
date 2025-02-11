@@ -2786,24 +2786,19 @@ msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
 msgstr ""
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 Francouzských franků"
+msgstr ""
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 Francouzský frank"
-msgstr[1] "%1 Francouzské franky"
-msgstr[2] "%1 Francouzských franků"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
@@ -9227,24 +9222,19 @@ msgid "rack unit;rack units;U;RU"
 msgstr ""
 
 #: length.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 astronomical units"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr "%1 astronomických jednotek"
+msgstr ""
 
 #: length.cpp:340
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 ringgit"
-#| msgid_plural "%1 ringgit"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rack unit"
 msgid_plural "%1 rack units"
-msgstr[0] "%1 ringgit"
-msgstr[1] "%1 ringgit"
-msgstr[2] "%1 ringgit"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: mass.cpp:18
 #, kde-format
