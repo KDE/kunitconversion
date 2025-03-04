@@ -659,7 +659,7 @@ UnitCategory Currency::makeCategory()
 static bool isConnected()
 {
     // don't download currencies in autotests
-    if (qEnvironmentVariableIsSet("KF5UNITCONVERT_NO_DOWNLOAD")) {
+    if (qEnvironmentVariableIsSet("KFUNITCONVERT_NO_DOWNLOAD")) {
         return false;
     }
     bool ret = false;

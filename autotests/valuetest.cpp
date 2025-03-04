@@ -12,7 +12,7 @@ using namespace KUnitConversion;
 
 void ValueTest::initTestCase()
 {
-    qputenv("KF5UNITCONVERT_NO_DOWNLOAD", "1");
+    qputenv("KFUNITCONVERT_NO_DOWNLOAD", "1");
     QStandardPaths::setTestModeEnabled(true);
     QLocale::setDefault(QLocale::c());
 
