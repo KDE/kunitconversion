@@ -6,13 +6,13 @@
 # Alexander Potashev <aspotashev@gmail.com>, 2010, 2011, 2014, 2016, 2017, 2018, 2019.
 # SPDX-FileCopyrightText: 2018, 2019, 2021, 2024 Alexander Yavorsky <kekcuha@gmail.com>
 # Мария Шикунова <translation-team@basealt.ru>, 2022.
-# SPDX-FileCopyrightText: 2024 Olesya Gerasimenko <translation-team@basealt.ru>
+# SPDX-FileCopyrightText: 2024, 2025 Olesya Gerasimenko <translation-team@basealt.ru>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-31 00:38+0000\n"
-"PO-Revision-Date: 2024-09-09 10:37+0300\n"
+"PO-Revision-Date: 2025-03-03 16:37+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
@@ -2947,34 +2947,32 @@ msgstr[3] "%1 словацкая крона"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "Франк КФП"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
 msgstr ""
+"КФП;франк КФП;франки КФП;франка КФП;франков КФП;франках КФП;тихоокеанский "
+"франк;тихоокеанские франки;тихоокеанских франка;тихоокеанских франков;"
+"тихоокеанских франках"
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 французских франков"
+msgstr "%1 франков КФП"
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 французский франк"
-msgstr[1] "%1 французских франка"
-msgstr[2] "%1 французских франков"
-msgstr[3] "%1 французский франк"
+msgstr[0] "%1 франк КФП"
+msgstr[1] "%1 франка КФП"
+msgstr[2] "%1 франков КФП"
+msgstr[3] "%1 франк КФП"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
@@ -9632,40 +9630,36 @@ msgstr[3] "%1 астрономическая единица"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ru"
-msgstr ""
+msgstr "ru"
 
 #: length.cpp:336
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rack units"
-msgstr ""
+msgstr "монтажные единицы"
 
 #: length.cpp:337
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rack unit;rack units;U;RU"
 msgstr ""
+"монтажная единица;монтажные единицы;монтажных единиц;монтажных единицах;U;RU"
 
 #: length.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 reais"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr "%1 реалов"
+msgstr "%1 монтажных единиц"
 
 #: length.cpp:340
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 ringgit"
-#| msgid_plural "%1 ringgit"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rack unit"
 msgid_plural "%1 rack units"
-msgstr[0] "%1 ринггит"
-msgstr[1] "%1 ринггита"
-msgstr[2] "%1 ринггитов"
-msgstr[3] "%1 ринггит"
+msgstr[0] "%1 монтажная единица"
+msgstr[1] "%1 монтажные единицы"
+msgstr[2] "%1 монтажных единиц"
+msgstr[3] "%1 монтажная единица"
 
 #: mass.cpp:18
 #, kde-format
