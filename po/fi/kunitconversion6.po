@@ -1,6 +1,6 @@
 # Copyright © 2010, 2011 This_file_is_part_of_KDE
 # This file is distributed under the same license as the kdelibs package.
-# SPDX-FileCopyrightText: 2010, 2011, 2016, 2019, 2020, 2022, 2023, 2024 Tommi Nieminen <translator@legisign.org>
+# SPDX-FileCopyrightText: 2010, 2011, 2016, 2019, 2020, 2022, 2023, 2024, 2025 Tommi Nieminen <translator@legisign.org>
 # Lasse Liehu <lasse.liehu@gmail.com>, 2010, 2011, 2012, 2014, 2016.
 #
 # KDE Finnish translation sprint participants:
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-31 00:38+0000\n"
-"PO-Revision-Date: 2024-12-07 18:18+0200\n"
+"PO-Revision-Date: 2025-02-20 17:27+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -8939,38 +8939,34 @@ msgstr[1] "%1 tähtitieteellistä yksikköä"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ru"
-msgstr ""
+msgstr "ru"
 
+# Tämä löytyy suomenkielisestä Wikipediasta… ;)
 #: length.cpp:336
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rack units"
-msgstr ""
+msgstr "räkkiyksikköä"
 
 #: length.cpp:337
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rack unit;rack units;U;RU"
-msgstr ""
+msgstr "räkkiyksikkö;räkkiyksikköä;U;RU;"
 
 #: length.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 reais"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr "%1 réalia"
+msgstr "%1 räkkiyksikköä"
 
 #: length.cpp:340
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 ringgit"
-#| msgid_plural "%1 ringgit"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rack unit"
 msgid_plural "%1 rack units"
-msgstr[0] "%1 ringgit"
-msgstr[1] "%1 ringgitiä"
+msgstr[0] "%1 räkkiyksikkö"
+msgstr[1] "%1 räkkiyksikköä"
 
 #: mass.cpp:18
 #, kde-format
@@ -12119,13 +12115,10 @@ msgid "Btu/ft·hr·°F"
 msgstr "Btu/ft·hr·°F"
 
 #: thermal_conductivity.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 degree Fahrenheit"
-#| msgid_plural "%1 degrees Fahrenheit"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "btu per foot hour degree Fahrenheit"
-msgstr "%1 aste Fahrenheitia"
+msgstr "BTU:ta/jalka × tunti × fahrenheit-aste"
 
 #: thermal_conductivity.cpp:37
 #, kde-format
@@ -12134,23 +12127,22 @@ msgid ""
 "btu per foot hour degree Fahrenheit;btu per foot hour Fahrenheit;btu per "
 "foot-hour-Fahrenheit;Btu/ft-hr-F"
 msgstr ""
+"BTU/jalka × tunti × fahrenheit-aste;BTU:ta/jalka tunti fahrenheit-aste;BTU "
+"per jalka tunti fahrenheit-aste;BTU/ft-h-F;"
 
 #: thermal_conductivity.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 degree Fahrenheit"
-#| msgid_plural "%1 degrees Fahrenheit"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per foot hour degree Fahrenheit"
-msgstr "%1 aste Fahrenheitia"
+msgstr "%1 BTU:ta/jalka × tunti × fahrenheit-aste"
 
 #: thermal_conductivity.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per foot hour degree Fahrenheit"
 msgid_plural "%1 btu per foot hour degree Fahrenheit"
-msgstr[0] ""
-msgstr[1] "%1 astetta Fahrenheitia"
+msgstr[0] "%1 BTU/jalka × tunti × fahrenheit-aste"
+msgstr[1] "%1 BTU:ta/jalka × tunti × fahrenheit-aste"
 
 #: thermal_conductivity.cpp:45
 #, kde-format
@@ -12162,7 +12154,7 @@ msgstr "BTU/ft²·hr·°F/in"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per square foot hour degree Fahrenheit per inch"
-msgstr ""
+msgstr "BTU:ta/neliöjalka × tunti × fahrenheit-aste/tuuma"
 
 #: thermal_conductivity.cpp:48
 #, kde-format
@@ -12172,20 +12164,22 @@ msgid ""
 "hour Fahrenheit per inch;btu per sq foot-hour-Fahrenheit per inch;Btu/ft^2-"
 "hr-F/in"
 msgstr ""
+"BTU:ta/neliöjalka × tunti × fahrenheit-aste/tuuma;BTU per neliöjalka tunti "
+"fahrenheit-aste per tuuma;BTU/ft²-h-F/in;"
 
 #: thermal_conductivity.cpp:51
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr ""
+msgstr "%1 BTU:ta/neliöjalka × tunti × fahrenheit-aste/tuuma"
 
 #: thermal_conductivity.cpp:53
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
 msgid_plural "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 BTU/neliöjalka × tunti × fahrenheit-aste/tuuma"
+msgstr[1] "%1 BTU:ta/neliöjalka × tunti × fahrenheit-aste/tuuma"
 
 # Suoraan Google Translatesta!
 #: thermal_flux.cpp:18
