@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# SPDX-FileCopyrightText: 2011, 2014, 2017, 2019, 2020, 2022, 2023, 2024 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2011, 2014, 2017, 2019, 2020, 2022, 2023, 2024, 2025 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-31 00:38+0000\n"
-"PO-Revision-Date: 2024-12-24 17:37+0100\n"
+"PO-Revision-Date: 2025-04-06 23:41+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -8695,37 +8695,32 @@ msgstr[0] "%1천문단위"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ru"
-msgstr ""
+msgstr "ru"
 
 #: length.cpp:336
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rack units"
-msgstr ""
+msgstr "랙 단위"
 
 #: length.cpp:337
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rack unit;rack units;U;RU"
-msgstr ""
+msgstr "rack unit;rack units;U;RU;랙 단위"
 
 #: length.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 reais"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr "%1헤알"
+msgstr "%1 랙 단위"
 
 #: length.cpp:340
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 ringgit"
-#| msgid_plural "%1 ringgit"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rack unit"
 msgid_plural "%1 rack units"
-msgstr[0] "%1링깃"
+msgstr[0] "%1 랙 단위"
 
 #: mass.cpp:18
 #, kde-format
