@@ -339,6 +339,55 @@ UnitCategory Length::makeCategory()
                        ki18nc("amount in units (real)", "%1 rack units"),
                        ki18ncp("amount in units (integer)", "%1 rack unit", "%1 rack units")));
 
+    d->addUnit(UnitPrivate::makeUnit(LengthCategory,
+                        Link,
+                        0.201168,
+                        i18nc("length unit symbol", "li"),
+                        i18nc("unit description in lists", "links"),
+                        i18nc("unit synonyms for matching user input", "link;links"),
+                        symbolString,
+                        ki18nc("amount in units (real)", "%1 links"),
+                        ki18ncp("amount in units (integer)", "%1 link", "%1 links")));
+
+    d->addUnit(UnitPrivate::makeUnit(LengthCategory,
+                        Chain,
+                        20.1168,
+                        i18nc("length unit symbol", "ch"),
+                        i18nc("unit description in lists", "chains"),
+                        i18nc("unit synonyms for matching user input", "chain;chains"),
+                        symbolString,
+                        ki18nc("amount in units (real)", "%1 chains"),
+                        ki18ncp("amount in units (integer)", "%1 chain", "%1 chains")));
+    d->addUnit(UnitPrivate::makeUnit(LengthCategory,
+                        Furlong,
+                        201.168,
+                        i18nc("length unit symbol", "fu"),
+                        i18nc("unit description in lists", "furlongs"),
+                        i18nc("unit synonyms for matching user input", "furlong;furlongs"),
+                        symbolString,
+                        ki18nc("amount in units (real)", "%1 furlongs"),
+                        ki18ncp("amount in units (integer)", "%1 furlong", "%1 furlongs")));
+
+    d->addUnit(UnitPrivate::makeUnit(LengthCategory,
+                        Fathom,
+                        1.8288,
+                        i18nc("length unit symbol", "fa"),
+                        i18nc("unit description in lists", "fathom"),
+                        i18nc("unit synonyms for matching user input", "fathom;fathoms"),
+                        symbolString,
+                        ki18nc("amount in units (real)", "%1 fathoms"),
+                        ki18ncp("amount in units (integer)", "%1 fathom", "%1 fathoms")));
+
+    d->addUnit(UnitPrivate::makeUnit(LengthCategory,
+                        RodPerchPole,
+                        5.0292,
+                        i18nc("length unit symbol", "r/p/p"),
+                        i18nc("unit description in lists", "rods/perches/poles"),
+                        i18nc("unit synonyms for matching user input", "rod;rods;perch;perches;pole;poles"),
+                        symbolString,
+                        ki18nc("amount in units (real)", "%1 rods/perches/poles"),
+                        ki18ncp("amount in units (integer)", "%1 rod/perch/pole", "%1 rods/perches/poles")));
+
     return c;
 }
 

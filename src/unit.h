@@ -118,6 +118,11 @@ enum UnitId {
     Thou,
     Angstrom,
     RackUnit,
+    Link,
+    Chain,
+    Furlong,
+    Fathom,
+    RodPerchPole,
 
     // Volume
     CubicYottameter = 3000,
