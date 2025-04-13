@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-31 00:38+0000\n"
+"POT-Creation-Date: 2025-04-13 00:38+0000\n"
 "PO-Revision-Date: 2025-03-03 16:37+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -9660,6 +9660,201 @@ msgstr[0] "%1 монтажная единица"
 msgstr[1] "%1 монтажные единицы"
 msgstr[2] "%1 монтажных единиц"
 msgstr[3] "%1 монтажная единица"
+
+#: length.cpp:345
+#, fuzzy, kde-format
+#| msgctxt "volume unit symbol"
+#| msgid "l"
+msgctxt "length unit symbol"
+msgid "li"
+msgstr "л"
+
+#: length.cpp:346
+#, kde-format
+msgctxt "unit description in lists"
+msgid "links"
+msgstr ""
+
+#: length.cpp:347
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "link;links"
+msgstr ""
+
+#: length.cpp:349
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 litas"
+msgctxt "amount in units (real)"
+msgid "%1 links"
+msgstr "%1 литов"
+
+#: length.cpp:350
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 lei"
+msgctxt "amount in units (integer)"
+msgid "%1 link"
+msgid_plural "%1 links"
+msgstr[0] "%1 лей"
+msgstr[1] "%1 лей"
+msgstr[2] "%1 лей"
+msgstr[3] "%1 лей"
+
+#: length.cpp:355
+#, fuzzy, kde-format
+#| msgctxt "time unit symbol"
+#| msgid "h"
+msgctxt "length unit symbol"
+msgid "ch"
+msgstr "г"
+
+#: length.cpp:356
+#, kde-format
+msgctxt "unit description in lists"
+msgid "chains"
+msgstr ""
+
+#: length.cpp:357
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "chain;chains"
+msgstr ""
+
+#: length.cpp:359
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 carats"
+msgctxt "amount in units (real)"
+msgid "%1 chains"
+msgstr "%1 каратов"
+
+#: length.cpp:360
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 carat"
+#| msgid_plural "%1 carats"
+msgctxt "amount in units (integer)"
+msgid "%1 chain"
+msgid_plural "%1 chains"
+msgstr[0] "%1 карат"
+msgstr[1] "%1 карата"
+msgstr[2] "%1 каратов"
+msgstr[3] "%1 карат"
+
+#: length.cpp:364
+#, kde-format
+msgctxt "length unit symbol"
+msgid "fu"
+msgstr ""
+
+#: length.cpp:365
+#, kde-format
+msgctxt "unit description in lists"
+msgid "furlongs"
+msgstr ""
+
+#: length.cpp:366
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "furlong;furlongs"
+msgstr ""
+
+#: length.cpp:368
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 fluid ounces"
+msgctxt "amount in units (real)"
+msgid "%1 furlongs"
+msgstr "%1 унций жидкости"
+
+#: length.cpp:369
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 forint"
+#| msgid_plural "%1 forint"
+msgctxt "amount in units (integer)"
+msgid "%1 furlong"
+msgid_plural "%1 furlongs"
+msgstr[0] "%1 форинт"
+msgstr[1] "%1 форинта"
+msgstr[2] "%1 форинтов"
+msgstr[3] "%1 форинт"
+
+#: length.cpp:374
+#, fuzzy, kde-format
+#| msgctxt "pressure unit symbol"
+#| msgid "fPa"
+msgctxt "length unit symbol"
+msgid "fa"
+msgstr "фПа"
+
+#: length.cpp:375
+#, kde-format
+msgctxt "unit description in lists"
+msgid "fathom"
+msgstr ""
+
+#: length.cpp:376
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "fathom;fathoms"
+msgstr ""
+
+#: length.cpp:378
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 femtoohms"
+msgctxt "amount in units (real)"
+msgid "%1 fathoms"
+msgstr "%1 фемтоома"
+
+#: length.cpp:379
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 femtoohm"
+#| msgid_plural "%1 femtoohms"
+msgctxt "amount in units (integer)"
+msgid "%1 fathom"
+msgid_plural "%1 fathoms"
+msgstr[0] "%1 фемтоом"
+msgstr[1] "%1 фемтоома"
+msgstr[2] "%1 фемтоом"
+msgstr[3] "%1 фемтоом"
+
+#: length.cpp:384
+#, kde-format
+msgctxt "length unit symbol"
+msgid "r/p/p"
+msgstr ""
+
+#: length.cpp:385
+#, kde-format
+msgctxt "unit description in lists"
+msgid "rods/perches/poles"
+msgstr ""
+
+#: length.cpp:386
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "rod;rods;perch;perches;pole;poles"
+msgstr ""
+
+#: length.cpp:388
+#, kde-format
+msgctxt "amount in units (real)"
+msgid "%1 rods/perches/poles"
+msgstr ""
+
+#: length.cpp:389
+#, kde-format
+msgctxt "amount in units (integer)"
+msgid "%1 rod/perch/pole"
+msgid_plural "%1 rods/perches/poles"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: mass.cpp:18
 #, kde-format
