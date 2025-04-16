@@ -8691,156 +8691,156 @@ msgstr[0] "%1 个机架单元"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "li"
-msgstr ""
+msgstr "li"
 
 #: length.cpp:346
 #, kde-format
 msgctxt "unit description in lists"
 msgid "links"
-msgstr ""
+msgstr "links/令"
 
 #: length.cpp:347
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "link;links"
-msgstr ""
+msgstr "link;links;令"
 
 #: length.cpp:349
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 links"
-msgstr ""
+msgstr "%1 links/令"
 
 #: length.cpp:350
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 link"
 msgid_plural "%1 links"
-msgstr[0] ""
+msgstr[0] "%1 links/令"
 
 #: length.cpp:355
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ch"
-msgstr ""
+msgstr "ch"
 
 #: length.cpp:356
 #, kde-format
 msgctxt "unit description in lists"
 msgid "chains"
-msgstr ""
+msgstr "chains/链"
 
 #: length.cpp:357
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "chain;chains"
-msgstr ""
+msgstr "chain;chains;链"
 
 #: length.cpp:359
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 chains"
-msgstr ""
+msgstr "%1 chains/链"
 
 #: length.cpp:360
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 chain"
 msgid_plural "%1 chains"
-msgstr[0] ""
+msgstr[0] "%1 chains/链"
 
 #: length.cpp:364
 #, kde-format
 msgctxt "length unit symbol"
 msgid "fu"
-msgstr ""
+msgstr "fu"
 
 #: length.cpp:365
 #, kde-format
 msgctxt "unit description in lists"
 msgid "furlongs"
-msgstr ""
+msgstr "furlongs/弗隆"
 
 #: length.cpp:366
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "furlong;furlongs"
-msgstr ""
+msgstr "furlong;furlongs;弗隆"
 
 #: length.cpp:368
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 furlongs"
-msgstr ""
+msgstr "%1 furlongs/弗隆"
 
 #: length.cpp:369
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 furlong"
 msgid_plural "%1 furlongs"
-msgstr[0] ""
+msgstr[0] "%1 furlongs/弗隆"
 
 #: length.cpp:374
 #, kde-format
 msgctxt "length unit symbol"
 msgid "fa"
-msgstr ""
+msgstr "fa"
 
 #: length.cpp:375
 #, kde-format
 msgctxt "unit description in lists"
 msgid "fathom"
-msgstr ""
+msgstr "fathom/英寻"
 
 #: length.cpp:376
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "fathom;fathoms"
-msgstr ""
+msgstr "fathom;fathoms;英寻"
 
 #: length.cpp:378
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 fathoms"
-msgstr ""
+msgstr "%1 fathoms/英寻"
 
 #: length.cpp:379
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 fathom"
 msgid_plural "%1 fathoms"
-msgstr[0] ""
+msgstr[0] "%1 fathoms/英寻"
 
 #: length.cpp:384
 #, kde-format
 msgctxt "length unit symbol"
 msgid "r/p/p"
-msgstr ""
+msgstr "r/p/p"
 
 #: length.cpp:385
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rods/perches/poles"
-msgstr ""
+msgstr "rods/perches/poles/杆"
 
 #: length.cpp:386
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rod;rods;perch;perches;pole;poles"
-msgstr ""
+msgstr "rod;rods;perch;perches;pole;poles;杆"
 
 #: length.cpp:388
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rods/perches/poles"
-msgstr ""
+msgstr "%1 rods/perches/poles/杆"
 
 #: length.cpp:389
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rod/perch/pole"
 msgid_plural "%1 rods/perches/poles"
-msgstr[0] ""
+msgstr[0] "%1 rods/perches/poles/杆"
 
 #: mass.cpp:18
 #, kde-format
