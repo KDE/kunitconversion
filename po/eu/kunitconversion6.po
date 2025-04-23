@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-13 00:38+0000\n"
-"PO-Revision-Date: 2025-04-21 22:33+0200\n"
+"PO-Revision-Date: 2025-04-21 22:43+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -13662,14 +13662,14 @@ msgstr "mach;Ma;M;soinuaren abiadura"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "Mach %1"
-msgstr "%1 Mach"
+msgstr "Mach %1"
 
 #: velocity.cpp:119
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "Mach %1"
 msgid_plural "Mach %1"
-msgstr[0] "%1 Mach"
+msgstr[0] "Mach %1"
 msgstr[1] "Mach %1"
 
 #: velocity.cpp:124
