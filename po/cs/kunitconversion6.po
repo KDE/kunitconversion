@@ -9237,12 +9237,10 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: length.cpp:345
-#, fuzzy, kde-format
-#| msgctxt "volume unit symbol"
-#| msgid "l"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "li"
-msgstr "l"
+msgstr ""
 
 #: length.cpp:346
 #, kde-format
@@ -9257,31 +9255,25 @@ msgid "link;links"
 msgstr ""
 
 #: length.cpp:349
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 lei"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 links"
-msgstr "%1 lei"
+msgstr ""
 
 #: length.cpp:350
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 lei"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 link"
 msgid_plural "%1 links"
-msgstr[0] "%1 lei"
-msgstr[1] "%1 lei"
-msgstr[2] "%1 lei"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: length.cpp:355
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "h"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "ch"
-msgstr "h"
+msgstr ""
 
 #: length.cpp:356
 #, kde-format
@@ -9296,24 +9288,19 @@ msgid "chain;chains"
 msgstr ""
 
 #: length.cpp:359
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 carats"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 chains"
-msgstr "%1 karáty"
+msgstr ""
 
 #: length.cpp:360
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 carat"
-#| msgid_plural "%1 carats"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 chain"
 msgid_plural "%1 chains"
-msgstr[0] "%1 karát"
-msgstr[1] "%1 karáty"
-msgstr[2] "%1 karátů"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: length.cpp:364
 #, kde-format
@@ -9334,32 +9321,25 @@ msgid "furlong;furlongs"
 msgstr ""
 
 #: length.cpp:368
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 fluid ounces"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 furlongs"
-msgstr "%1 tekuté unce"
+msgstr ""
 
 #: length.cpp:369
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 forint"
-#| msgid_plural "%1 forint"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 furlong"
 msgid_plural "%1 furlongs"
-msgstr[0] "%1 forint"
-msgstr[1] "%1 forinty"
-msgstr[2] "%1 forintů"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: length.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "pressure unit symbol"
-#| msgid "fPa"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "fa"
-msgstr "fPa"
+msgstr ""
 
 #: length.cpp:375
 #, kde-format
@@ -9374,24 +9354,19 @@ msgid "fathom;fathoms"
 msgstr ""
 
 #: length.cpp:378
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 femtometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 fathoms"
-msgstr "%1 femtometry"
+msgstr ""
 
 #: length.cpp:379
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 femtometer"
-#| msgid_plural "%1 femtometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 fathom"
 msgid_plural "%1 fathoms"
-msgstr[0] "%1 femtometr"
-msgstr[1] "%1 femtometry"
-msgstr[2] "%1 femtometrů"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: length.cpp:384
 #, kde-format
