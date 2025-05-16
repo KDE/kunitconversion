@@ -10,6 +10,8 @@ sourcedirs += .
 
 outputformats = HTML
 
+navigation.landingpage = "KUnitConversion"
+
 depends += qtcore kde
 
 qhp.projects = KUnitConversion
