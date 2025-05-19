@@ -1,12 +1,11 @@
 # Spanish translations for kunitconversion6.po package.
-# Copyright (C) 2007-2025 This_file_is_part_of_KDE
+# Copyright (C) 2007-2025 This file is copyright:
 # This file is distributed under the same license as the kunitconversion package.
 #
-# SPDX-FileCopyrightText: 2007 Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>
+# SPDX-FileCopyrightText: 2007, 2009 Enrique Matias Sanchez (Quique) <cronopios@gmail.com>
 # SPDX-FileCopyrightText: 2008 Ignacio Poggi <ignaciop.3@gmail.com>
 # SPDX-FileCopyrightText: 2008 Jaime Robles <jaime@kde.org>
 # SPDX-FileCopyrightText: 2008 Santi <santi@kde-es.org>
-# SPDX-FileCopyrightText: 2009 Enrique Matias Sanchez (Quique) <cronopios@gmail.com>
 # SPDX-FileCopyrightText: 2009, 2010, 2011, 2014, 2016, 2018, 2019, 2020, 2022, 2023, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 # SPDX-FileCopyrightText: 2013 Javier Viñal <fjvinal@gmail.com>
 msgid ""
@@ -14,7 +13,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion6\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-13 00:38+0000\n"
-"PO-Revision-Date: 2025-04-13 19:14+0100\n"
+"PO-Revision-Date: 2025-05-18 14:44+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
