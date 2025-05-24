@@ -28,3 +28,4 @@ qhp.KUnitConversion.subprojects.classes.indexTitle = KUnitConversion C++ Classes
 qhp.KUnitConversion.subprojects.classes.selectors = class fake:headerfile
 qhp.KUnitConversion.subprojects.classes.sortPages = true
 
+tagfile = kunitconversion.tags
