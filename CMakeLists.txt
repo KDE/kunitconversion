@@ -45,7 +45,7 @@ ki18n_install(po)
 
 ecm_set_disabled_deprecation_versions(
     QT 6.9.0
-    KF 6.13.0
+    KF 6.14.0
 )
 
 # Python Bindings
