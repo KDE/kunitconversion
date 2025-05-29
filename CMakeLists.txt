@@ -9,11 +9,6 @@ find_package(ECM 6.14.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
-# For the Python bindings
-find_package(Python3 3.9 COMPONENTS Interpreter Development)
-find_package(Shiboken6)
-find_package(PySide6)
-
 include(KDEInstallDirs)
 include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(KDECMakeSettings)
@@ -22,13 +17,27 @@ include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMQtDeclareLoggingCategory)
 include(ECMDeprecationSettings)
-include(CMakeDependentOption)
 include(ECMGenerateQDoc)
 
 set(EXCLUDE_DEPRECATED_BEFORE_AND_AT 0 CACHE STRING "Control the range of deprecated API excluded from the build [default=0].")
 
 set(REQUIRED_QT_VERSION 6.7.0)
 find_package(Qt6 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Network)
+
+option(BUILD_PYTHON_BINDINGS "Build Python bindings" ON)
+
+# Only Linux and FreeBSD CI has the relevant packages
+if (ANDROID OR APPLE OR WIN32 OR NOT BUILD_SHARED_LIBS)
+    set(BUILD_PYTHON_BINDINGS OFF)
+endif()
+
+if (BUILD_PYTHON_BINDINGS)
+    find_package(Python3 3.9 REQUIRED COMPONENTS Interpreter Development)
+    find_package(Shiboken6 REQUIRED)
+    find_package(PySide6 REQUIRED)
+endif()
+
+add_feature_info(PYTHON_BINDINGS ${BUILD_PYTHON_BINDINGS} "Python bindings")
 
 set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6UnitConversion")
 
@@ -47,11 +56,6 @@ ecm_set_disabled_deprecation_versions(
     QT 6.9.0
     KF 6.14.0
 )
-
-# Python Bindings
-cmake_dependent_option(BUILD_PYTHON_BINDINGS "Generate Python Bindings" ON "TARGET Shiboken6::libshiboken AND TARGET PySide6::pyside6" OFF)
-
-add_feature_info(PYTHON_BINDINGS ${BUILD_PYTHON_BINDINGS} "Python bindings")
 
 add_subdirectory(src)
 if (BUILD_TESTING)
