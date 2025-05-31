@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-13 00:38+0000\n"
-"PO-Revision-Date: 2025-02-20 17:27+0200\n"
+"PO-Revision-Date: 2025-05-29 19:10+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -8969,163 +8969,139 @@ msgstr[0] "%1 räkkiyksikkö"
 msgstr[1] "%1 räkkiyksikköä"
 
 #: length.cpp:345
-#, fuzzy, kde-format
-#| msgctxt "volume unit symbol"
-#| msgid "l"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "li"
-msgstr "l"
+msgstr "li"
 
 #: length.cpp:346
 #, kde-format
 msgctxt "unit description in lists"
 msgid "links"
-msgstr ""
+msgstr "linkkiä"
 
 #: length.cpp:347
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "link;links"
-msgstr ""
+msgstr "linkki;linkkiä"
 
 #: length.cpp:349
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 litas"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 links"
-msgstr "%1 litaa"
+msgstr "%1 linkkiä"
 
 #: length.cpp:350
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 lei"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 link"
 msgid_plural "%1 links"
-msgstr[0] "%1 leuta"
-msgstr[1] "%1 leuta"
+msgstr[0] "%1 linkki"
+msgstr[1] "%1 linkkiä"
 
 #: length.cpp:355
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "h"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "ch"
-msgstr "h"
+msgstr "ch"
 
 #: length.cpp:356
 #, kde-format
 msgctxt "unit description in lists"
 msgid "chains"
-msgstr ""
+msgstr "ketjua"
 
 #: length.cpp:357
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "chain;chains"
-msgstr ""
+msgstr "ketju;ketjua"
 
 #: length.cpp:359
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 carats"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 chains"
-msgstr "%1 karaattia"
+msgstr "%1 ketjua"
 
 #: length.cpp:360
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 carat"
-#| msgid_plural "%1 carats"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 chain"
 msgid_plural "%1 chains"
-msgstr[0] "%1 karaatti"
-msgstr[1] "%1 karaattia"
+msgstr[0] "%1 ketju"
+msgstr[1] "%1 ketjua"
 
 #: length.cpp:364
 #, kde-format
 msgctxt "length unit symbol"
 msgid "fu"
-msgstr ""
+msgstr "fu"
 
+# Wikipedian mukaan ;)
 #: length.cpp:365
 #, kde-format
 msgctxt "unit description in lists"
 msgid "furlongs"
-msgstr ""
+msgstr "vakomittaa"
 
 #: length.cpp:366
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "furlong;furlongs"
-msgstr ""
+msgstr "vakomitta;vakomittaa"
 
 #: length.cpp:368
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 fluid ounces"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 furlongs"
-msgstr "%1 nesteunssia"
+msgstr "%1 vakomittaa"
 
 #: length.cpp:369
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 forint"
-#| msgid_plural "%1 forint"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 furlong"
 msgid_plural "%1 furlongs"
-msgstr[0] "%1 forintti"
-msgstr[1] "%1 forinttia"
+msgstr[0] "%1 vakomitta"
+msgstr[1] "%1 vakomittaa"
 
 #: length.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "pressure unit symbol"
-#| msgid "fPa"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "fa"
-msgstr "fPa"
+msgstr "fa"
 
 #: length.cpp:375
 #, kde-format
 msgctxt "unit description in lists"
 msgid "fathom"
-msgstr ""
+msgstr "syli"
 
 #: length.cpp:376
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "fathom;fathoms"
-msgstr ""
+msgstr "syli;syltä"
 
 #: length.cpp:378
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 femtoohms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 fathoms"
-msgstr "%1 femto-ohmia"
+msgstr "%1 syltä"
 
 #: length.cpp:379
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 femtoohm"
-#| msgid_plural "%1 femtoohms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 fathom"
 msgid_plural "%1 fathoms"
-msgstr[0] "%1 femto-ohmi"
-msgstr[1] "%1 femto-ohmia"
+msgstr[0] "%1 syli"
+msgstr[1] "%1 syltä"
 
 #: length.cpp:384
 #, kde-format
 msgctxt "length unit symbol"
 msgid "r/p/p"
-msgstr ""
+msgstr "r/p/p"
 
 #: length.cpp:385
 #, kde-format
