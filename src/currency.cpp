@@ -650,8 +650,8 @@ UnitCategory Currency::makeCategory()
                        i18nc("Icelandic Krona - unit synonyms for matching user input", "Icelandic krona;Icelandic crown") + QStringLiteral(";ISK;")
                            + QLocale::territoryToString(QLocale::Iceland) + QLatin1Char(';') + i18nc("currency name", "Icelandic Krona"),
                        symbolString,
-                       ki18nc("amount in units (real)", "%1 Icelandic kronar"),
-                       ki18ncp("amount in units (integer)", "%1 Icelandic krona", "%1 Icelandic kronar")));
+                       ki18nc("amount in units (real)", "%1 Icelandic kronur"),
+                       ki18ncp("amount in units (integer)", "%1 Icelandic krona", "%1 Icelandic kronur")));
 
     return c;
 }
