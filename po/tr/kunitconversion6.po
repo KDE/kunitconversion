@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-13 00:38+0000\n"
+"POT-Creation-Date: 2025-06-28 00:39+0000\n"
 "PO-Revision-Date: 2025-02-17 19:39+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -3619,16 +3619,21 @@ msgid "Icelandic krona;Icelandic crown"
 msgstr "İzlanda kronu;İzlanda kronası"
 
 #: currency.cpp:653
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 Icelandic kronar"
 msgctxt "amount in units (real)"
-msgid "%1 Icelandic kronar"
+msgid "%1 Icelandic kronur"
 msgstr "%1 İzlanda Kronu"
 
 #: currency.cpp:654
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 Icelandic krona"
+#| msgid_plural "%1 Icelandic kronar"
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
-msgid_plural "%1 Icelandic kronar"
+msgid_plural "%1 Icelandic kronur"
 msgstr[0] "%1 İzlanda Kronu"
 msgstr[1] "%1 İzlanda Kronu"
 

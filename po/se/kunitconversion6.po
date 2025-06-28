@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-13 00:38+0000\n"
+"POT-Creation-Date: 2025-06-28 00:39+0000\n"
 "PO-Revision-Date: 2011-04-07 01:13+0200\n"
 "Last-Translator: Børre Gaup <boerre@skolelinux.no>\n"
 "Language-Team: Northern Sami <l10n-no@lister.huftis.org>\n"
@@ -3616,16 +3616,18 @@ msgid "Icelandic krona;Icelandic crown"
 msgstr ""
 
 #: currency.cpp:653
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 Danish kroner"
 msgctxt "amount in units (real)"
-msgid "%1 Icelandic kronar"
-msgstr ""
+msgid "%1 Icelandic kronur"
+msgstr "%1 dánskalaš ruvnnu"
 
 #: currency.cpp:654
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
-msgid_plural "%1 Icelandic kronar"
+msgid_plural "%1 Icelandic kronur"
 msgstr[0] ""
 msgstr[1] ""
 

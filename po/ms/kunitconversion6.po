@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-13 00:38+0000\n"
+"POT-Creation-Date: 2025-06-28 00:39+0000\n"
 "PO-Revision-Date: 2009-08-05 22:06+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
 "Language-Team: Malay <kedidiemas@yahoogroups.com>\n"
@@ -3614,14 +3614,14 @@ msgstr ""
 #: currency.cpp:653
 #, fuzzy, kde-format
 msgctxt "amount in units (real)"
-msgid "%1 Icelandic kronar"
+msgid "%1 Icelandic kronur"
 msgstr "%1 minit"
 
 #: currency.cpp:654
 #, fuzzy, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
-msgid_plural "%1 Icelandic kronar"
+msgid_plural "%1 Icelandic kronur"
 msgstr[0] "%1 minit"
 msgstr[1] "%1 minit"
 
