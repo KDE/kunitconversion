@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:25+0000\n"
-"PO-Revision-Date: 2023-04-30 11:02+0200\n"
+"PO-Revision-Date: 2025-06-28 20:49+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -3595,7 +3595,7 @@ msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronar"
 msgstr[0] "%1 corona islandese"
-msgstr[1] "%1 corone islandese"
+msgstr[1] "%1 corone islandesi"
 
 #: density.cpp:17
 #, kde-format
