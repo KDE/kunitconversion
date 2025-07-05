@@ -3504,7 +3504,7 @@ msgstr "Icelandic krona;Icelandic crown;冰岛克朗"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronur"
-msgstr ""
+msgstr "%1 冰岛克朗"
 
 #: currency.cpp:654
 #, kde-format
