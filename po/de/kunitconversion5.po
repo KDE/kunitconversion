@@ -3593,7 +3593,10 @@ msgid "%1 Icelandic kronar"
 msgstr "%1 Isländische Kronen"
 
 #: currency.cpp:643
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 Icelandic krona"
+#| msgid_plural "%1 Icelandic kronar"
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronar"
