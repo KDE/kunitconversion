@@ -54,7 +54,7 @@ ki18n_install(po)
 
 ecm_set_disabled_deprecation_versions(
     QT 6.10.0
-    KF 6.14.0
+    KF 6.16.0
 )
 
 add_subdirectory(src)
