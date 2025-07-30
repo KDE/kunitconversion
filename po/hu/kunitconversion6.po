@@ -4,13 +4,13 @@
 # Tamas Szanto <taszanto@gmail.com>, 2009.
 # Laszlo Papp <djszapi@archlinux.us>, 2010.
 # Kristóf Kiszel <ulysses@kubuntu.org>, 2010, 2011, 2014, 2019.
-# SPDX-FileCopyrightText: 2018, 2020, 2024 Kristof Kiszel <kiszel.kristof@gmail.com>
+# SPDX-FileCopyrightText: 2018, 2020, 2024, 2025 Kristof Kiszel <kiszel.kristof@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-28 00:39+0000\n"
-"PO-Revision-Date: 2024-05-29 09:42+0200\n"
+"PO-Revision-Date: 2025-07-29 22:06+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2698,32 +2698,27 @@ msgstr[1] "%1 szlovák korona"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "CFP frank"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
-msgstr ""
+msgstr "CFP;CFP frank;CFP frank;Csendes-óceáni frank;Csendes-óceáni frank"
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 francia frank"
+msgstr "%1 csendes-óceáni frank"
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 francia frank"
-msgstr[1] "%1 francia frank"
+msgstr[0] "%1 csendes-óceáni frank"
+msgstr[1] "%1 csendes-óceáni frank"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
@@ -3622,18 +3617,13 @@ msgid "Icelandic krona;Icelandic crown"
 msgstr "Izandi korona;Izlandi korona"
 
 #: currency.cpp:653
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 Icelandic kronar"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronur"
 msgstr "%1 izlandi korona"
 
 #: currency.cpp:654
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Icelandic krona"
-#| msgid_plural "%1 Icelandic kronar"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronur"
@@ -8940,223 +8930,193 @@ msgstr[1] "%1 csillagászati egység"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ru"
-msgstr ""
+msgstr "ru"
 
 #: length.cpp:336
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rack units"
-msgstr ""
+msgstr "rack egység"
 
 #: length.cpp:337
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rack unit;rack units;U;RU"
-msgstr ""
+msgstr "rack egység;rack egység;U;RU"
 
 #: length.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 reais"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr "%1 real"
+msgstr "%1 rack egység"
 
 #: length.cpp:340
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 ringgit"
-#| msgid_plural "%1 ringgit"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rack unit"
 msgid_plural "%1 rack units"
-msgstr[0] "%1 ringgit"
-msgstr[1] "%1 ringgit"
+msgstr[0] "%1 rack egység"
+msgstr[1] "%1 rack egység"
 
 #: length.cpp:345
-#, fuzzy, kde-format
-#| msgctxt "volume unit symbol"
-#| msgid "l"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "li"
-msgstr "l"
+msgstr "li"
 
 #: length.cpp:346
 #, kde-format
 msgctxt "unit description in lists"
 msgid "links"
-msgstr ""
+msgstr "link"
 
 #: length.cpp:347
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "link;links"
-msgstr ""
+msgstr "link;link"
 
 #: length.cpp:349
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 litas"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 links"
-msgstr "%1 litas"
+msgstr "%1 link"
 
 #: length.cpp:350
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 lei"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 link"
 msgid_plural "%1 links"
-msgstr[0] "%1 lej"
-msgstr[1] "%1 lej"
+msgstr[0] "%1 link"
+msgstr[1] "%1 link"
 
 #: length.cpp:355
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "h"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "ch"
-msgstr "h"
+msgstr "lánc"
 
 #: length.cpp:356
 #, kde-format
 msgctxt "unit description in lists"
 msgid "chains"
-msgstr ""
+msgstr "lánc"
 
 #: length.cpp:357
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "chain;chains"
-msgstr ""
+msgstr "lánc;lánc"
 
 #: length.cpp:359
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 carats"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 chains"
-msgstr "%1 karát"
+msgstr "%1 lánc"
 
 #: length.cpp:360
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 carat"
-#| msgid_plural "%1 carats"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 chain"
 msgid_plural "%1 chains"
-msgstr[0] "%1 karát"
-msgstr[1] "%1 karát"
+msgstr[0] "%1 lánc"
+msgstr[1] "%1 lánc"
 
 #: length.cpp:364
 #, kde-format
 msgctxt "length unit symbol"
 msgid "fu"
-msgstr ""
+msgstr "stad"
 
 #: length.cpp:365
 #, kde-format
 msgctxt "unit description in lists"
 msgid "furlongs"
-msgstr ""
+msgstr "stadion"
 
 #: length.cpp:366
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "furlong;furlongs"
-msgstr ""
+msgstr "stadion;stadion"
 
 #: length.cpp:368
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 fluid ounces"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 furlongs"
-msgstr "%1 folyadék uncia"
+msgstr "%1 stadion"
 
 #: length.cpp:369
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 forint"
-#| msgid_plural "%1 forint"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 furlong"
 msgid_plural "%1 furlongs"
-msgstr[0] "%1 forint"
-msgstr[1] "%1 forint"
+msgstr[0] "%1 stadion"
+msgstr[1] "%1 stadion"
 
 #: length.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "pressure unit symbol"
-#| msgid "fPa"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "fa"
-msgstr "fPa"
+msgstr "köt"
 
 #: length.cpp:375
 #, kde-format
 msgctxt "unit description in lists"
 msgid "fathom"
-msgstr ""
+msgstr "kötélhossz"
 
 #: length.cpp:376
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "fathom;fathoms"
-msgstr ""
+msgstr "kötélhossz;kötélhossz"
 
 #: length.cpp:378
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 femtoohms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 fathoms"
-msgstr "%1 femtoohm"
+msgstr "%1 kötélhossz"
 
 #: length.cpp:379
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 femtoohm"
-#| msgid_plural "%1 femtoohms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 fathom"
 msgid_plural "%1 fathoms"
-msgstr[0] "%1 femtoohm"
-msgstr[1] "%1 femtoohm"
+msgstr[0] "%1 kötélhossz"
+msgstr[1] "%1 kötélhossz"
 
 #: length.cpp:384
 #, kde-format
 msgctxt "length unit symbol"
 msgid "r/p/p"
-msgstr ""
+msgstr "r"
 
 #: length.cpp:385
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rods/perches/poles"
-msgstr ""
+msgstr "rúd"
 
 #: length.cpp:386
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rod;rods;perch;perches;pole;poles"
-msgstr ""
+msgstr "rúd;rúd;rúd;rúd;rúd;rúd"
 
 #: length.cpp:388
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rods/perches/poles"
-msgstr ""
+msgstr "%1 rúd"
 
 #: length.cpp:389
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rod/perch/pole"
 msgid_plural "%1 rods/perches/poles"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 rúd"
+msgstr[1] "%1 rúd"
 
 #: mass.cpp:18
 #, kde-format
