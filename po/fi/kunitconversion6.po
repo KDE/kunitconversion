@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-28 00:39+0000\n"
-"PO-Revision-Date: 2025-05-29 19:10+0300\n"
+"PO-Revision-Date: 2025-07-21 16:35+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -3615,18 +3615,13 @@ msgid "Icelandic krona;Icelandic crown"
 msgstr "Islannin krona; Islannin kruunu"
 
 #: currency.cpp:653
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 Icelandic kronar"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronur"
 msgstr "%1 Islannin kruunua"
 
 #: currency.cpp:654
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Icelandic krona"
-#| msgid_plural "%1 Icelandic kronar"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronur"
@@ -9112,27 +9107,27 @@ msgstr "r/p/p"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rods/perches/poles"
-msgstr ""
+msgstr "rodia"
 
 #: length.cpp:386
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rod;rods;perch;perches;pole;poles"
-msgstr ""
+msgstr "rod;rodia;keppi;keppiä;sauva;sauvaa"
 
 #: length.cpp:388
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rods/perches/poles"
-msgstr ""
+msgstr "%1 rodia"
 
 #: length.cpp:389
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rod/perch/pole"
 msgid_plural "%1 rods/perches/poles"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 rod"
+msgstr[1] "%1 rodia"
 
 #: mass.cpp:18
 #, kde-format
