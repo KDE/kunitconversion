@@ -65,8 +65,6 @@ ecm_generate_export_header(KF6UnitConversion
     EXCLUDE_DEPRECATED_BEFORE_AND_AT ${EXCLUDE_DEPRECATED_BEFORE_AND_AT}
 )
 
-set(kunitconversion_BUILD_INCLUDE_DIRS ${KUnitConversion_BINARY_DIR} ${CMAKE_CURRENT_BINARY_DIR})
-target_include_directories(KF6UnitConversion PUBLIC "$<BUILD_INTERFACE:${kunitconversion_BUILD_INCLUDE_DIRS}>")
 target_include_directories(KF6UnitConversion INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF}/KUnitConversion>")
 
 target_link_libraries(KF6UnitConversion PUBLIC  Qt6::Core
