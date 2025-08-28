@@ -3731,12 +3731,10 @@ msgid "Icelandic krona;Icelandic crown"
 msgstr ""
 
 #: currency.cpp:653
-#, fuzzy, kde-format
-#| msgctxt "currency name"
-#| msgid "Icelandic Krona"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronur"
-msgstr "Islandská koruna"
+msgstr ""
 
 #: currency.cpp:654
 #, kde-format
