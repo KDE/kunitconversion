@@ -4,20 +4,21 @@
 #
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2014, 2015, 2016, 2018, 2019.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2017, 2018, 2019, 2020, 2022, 2023.
+# SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-28 00:39+0000\n"
-"PO-Revision-Date: 2023-05-05 11:33-0300\n"
-"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"PO-Revision-Date: 2025-08-28 08:50-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -2055,12 +2056,10 @@ msgid "kibibytes"
 msgstr "kibibytes"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "KiB;kibibyte;kibibytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
-msgstr "KiB;kibibyte;kibibytes"
+msgstr "KiB;kiB;kibibyte;kibibytes"
 
 #: binary_data.cpp:335
 #, kde-format
@@ -2089,12 +2088,10 @@ msgid "kibibits"
 msgstr "kibibits"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Kib;kibibit;kibibits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
-msgstr "Kib;kibibit;kibibits"
+msgstr "Kib;kib;kibibit;kibibits"
 
 #: binary_data.cpp:345
 #, kde-format
@@ -2123,12 +2120,10 @@ msgid "kilobytes"
 msgstr "quilobytes"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kB;kilobyte;kilobytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr "kB;quilobyte;quilobytes"
+msgstr "kB;KB;kilobyte;kilobytes"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2157,12 +2152,10 @@ msgid "kilobits"
 msgstr "quilobits"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kb;kilobit;kilobits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr "kb;quilobit;quilobits"
+msgstr "kb;Kb;kilobit;kilobits"
 
 #: binary_data.cpp:365
 #, kde-format
@@ -2704,32 +2697,27 @@ msgstr[1] "%1 coroas eslovacas"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "Franco CFP"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
-msgstr ""
+msgstr "CFP;Franco CFP;Francos CFP;Franco Pacífico;Francos Pacíficos"
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 francos franceses"
+msgstr "%1 francos CFP"
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 franco francês"
-msgstr[1] "%1 francos franceses"
+msgstr[0] "%1 franco CFP"
+msgstr[1] "%1 francos CFP"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
@@ -3628,18 +3616,13 @@ msgid "Icelandic krona;Icelandic crown"
 msgstr "Coroa islandesa"
 
 #: currency.cpp:653
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 Icelandic kronar"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronur"
 msgstr "%1 coroa islandesa"
 
 #: currency.cpp:654
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Icelandic krona"
-#| msgid_plural "%1 Icelandic kronar"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronur"
@@ -8948,223 +8931,193 @@ msgstr[1] "%1 unidades astronômicas"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ru"
-msgstr ""
+msgstr "ur"
 
 #: length.cpp:336
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rack units"
-msgstr ""
+msgstr "unidades de rack"
 
 #: length.cpp:337
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rack unit;rack units;U;RU"
-msgstr ""
+msgstr "unidade de rack;unidades de rack;U; UR"
 
 #: length.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 reais"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr "%1 reais"
+msgstr "%1 unidades de rack"
 
 #: length.cpp:340
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 ringgit"
-#| msgid_plural "%1 ringgit"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rack unit"
 msgid_plural "%1 rack units"
-msgstr[0] "%1 ringgit"
-msgstr[1] "%1 ringgit"
+msgstr[0] "%1 unidade de rack"
+msgstr[1] "%1 unidades de rack"
 
 #: length.cpp:345
-#, fuzzy, kde-format
-#| msgctxt "volume unit symbol"
-#| msgid "l"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "li"
-msgstr "l"
+msgstr "li"
 
 #: length.cpp:346
 #, kde-format
 msgctxt "unit description in lists"
 msgid "links"
-msgstr ""
+msgstr "links"
 
 #: length.cpp:347
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "link;links"
-msgstr ""
+msgstr "link;links"
 
 #: length.cpp:349
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 litas"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 links"
-msgstr "%1 litas"
+msgstr "%1 links"
 
 #: length.cpp:350
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 lei"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 link"
 msgid_plural "%1 links"
-msgstr[0] "%1 lei"
-msgstr[1] "%1 lei"
+msgstr[0] "%1 link"
+msgstr[1] "%1 links"
 
 #: length.cpp:355
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "h"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "ch"
-msgstr "h"
+msgstr "co"
 
 #: length.cpp:356
 #, kde-format
 msgctxt "unit description in lists"
 msgid "chains"
-msgstr ""
+msgstr "correntes"
 
 #: length.cpp:357
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "chain;chains"
-msgstr ""
+msgstr "corrente;correntes"
 
 #: length.cpp:359
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 carats"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 chains"
-msgstr "%1 quilates"
+msgstr "%1 correntes"
 
 #: length.cpp:360
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 carat"
-#| msgid_plural "%1 carats"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 chain"
 msgid_plural "%1 chains"
-msgstr[0] "%1 quilate"
-msgstr[1] "%1 quilates"
+msgstr[0] "%1 corrente"
+msgstr[1] "%1 correntes"
 
 #: length.cpp:364
 #, kde-format
 msgctxt "length unit symbol"
 msgid "fu"
-msgstr ""
+msgstr "fu"
 
 #: length.cpp:365
 #, kde-format
 msgctxt "unit description in lists"
 msgid "furlongs"
-msgstr ""
+msgstr "furlongs"
 
 #: length.cpp:366
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "furlong;furlongs"
-msgstr ""
+msgstr "furlong;furlongs"
 
 #: length.cpp:368
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 fluid ounces"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 furlongs"
-msgstr "%1 onças líquidas"
+msgstr "%1 furlongs"
 
 #: length.cpp:369
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 forint"
-#| msgid_plural "%1 forint"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 furlong"
 msgid_plural "%1 furlongs"
-msgstr[0] "%1 florim"
-msgstr[1] "%1 florins"
+msgstr[0] "%1 furlong"
+msgstr[1] "%1 furlongs"
 
 #: length.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "pressure unit symbol"
-#| msgid "fPa"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "fa"
-msgstr "fPa"
+msgstr "fa"
 
 #: length.cpp:375
 #, kde-format
 msgctxt "unit description in lists"
 msgid "fathom"
-msgstr ""
+msgstr "fathom"
 
 #: length.cpp:376
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "fathom;fathoms"
-msgstr ""
+msgstr "fathom;fathoms"
 
 #: length.cpp:378
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 femtoohms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 fathoms"
-msgstr "%1 femtoohms"
+msgstr "%1 fathoms"
 
 #: length.cpp:379
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 femtoohm"
-#| msgid_plural "%1 femtoohms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 fathom"
 msgid_plural "%1 fathoms"
-msgstr[0] "%1 femtoohm"
-msgstr[1] "%1 femtoohms"
+msgstr[0] "%1 fathom"
+msgstr[1] "%1 fathoms"
 
 #: length.cpp:384
 #, kde-format
 msgctxt "length unit symbol"
 msgid "r/p/p"
-msgstr ""
+msgstr "r/p/p"
 
 #: length.cpp:385
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rods/perches/poles"
-msgstr ""
+msgstr "rods/perches/poles"
 
 #: length.cpp:386
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rod;rods;perch;perches;pole;poles"
-msgstr ""
+msgstr "rod;rods;perch;perches;pole;poles"
 
 #: length.cpp:388
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rods/perches/poles"
-msgstr ""
+msgstr "%1 rods/perches/poles"
 
 #: length.cpp:389
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rod/perch/pole"
 msgid_plural "%1 rods/perches/poles"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 rod/perch/pole"
+msgstr[1] "%1 rods/perches/poles"
 
 #: mass.cpp:18
 #, kde-format
