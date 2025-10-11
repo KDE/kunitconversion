@@ -1,10 +1,10 @@
-# Burkhard Lück <lueck@hube-lueck.de>, 2009, 2013, 2014, 2016, 2018, 2019, 2021.
-# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2016, 2020, 2022, 2023.
-# Rolf Eike Beer <kde@opensource.sf-tec.de>, 2009, 2010.
-# Thomas Reitelbach <tr@erdfunkstelle.de>, 2010.
-# Johannes Obermayr <johannesobermayr@gmx.de>, 2010.
-# Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
-# Torbjörn Klatt <torbjoern.k@googlemail.com>, 2011.
+# SPDX-FileCopyrightText: 2009, 2013, 2014, 2016, 2018, 2019, 2021 Burkhard Lück <lueck@hube-lueck.de>
+# SPDX-FileCopyrightText: 2009, 2010, 2011, 2016, 2020, 2022, 2023 Frederik Schwarzer <schwarzer@kde.org>
+# SPDX-FileCopyrightText: 2009, 2010 Rolf Eike Beer <kde@opensource.sf-tec.de>
+# SPDX-FileCopyrightText: 2010 Thomas Reitelbach <tr@erdfunkstelle.de>
+# SPDX-FileCopyrightText: 2010 Johannes Obermayr <johannesobermayr@gmx.de>
+# SPDX-FileCopyrightText: 2010 Panagiotis Papadopoulos <pano_90@gmx.net>
+# SPDX-FileCopyrightText: 2011 Torbjörn Klatt <torbjoern.k@googlemail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion6\n"
