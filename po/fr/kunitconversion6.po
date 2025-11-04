@@ -9021,19 +9021,19 @@ msgstr "ch"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "chains"
-msgstr "chaînes"
+msgstr "chaines"
 
 #: length.cpp:357
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "chain;chains"
-msgstr "chaîne ; chaînes"
+msgstr "chaine ; chaines"
 
 #: length.cpp:359
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 chains"
-msgstr "%1 chaînes"
+msgstr "%1 chaines"
 
 #: length.cpp:360
 #, kde-format
@@ -9041,7 +9041,7 @@ msgctxt "amount in units (integer)"
 msgid "%1 chain"
 msgid_plural "%1 chains"
 msgstr[0] "Chaîne %1"
-msgstr[1] "%1 chaînes"
+msgstr[1] "%1 chaines"
 
 #: length.cpp:364
 #, kde-format
