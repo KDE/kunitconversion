@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:25+0000\n"
+"POT-Creation-Date: 2025-11-17 09:00+0000\n"
 "PO-Revision-Date: 2011-04-07 01:13+0200\n"
 "Last-Translator: Børre Gaup <boerre@skolelinux.no>\n"
 "Language-Team: Northern Sami <l10n-no@lister.huftis.org>\n"
@@ -597,9 +597,7 @@ msgstr "njealjehashektomehtera"
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square hectometer;square hectometers;hm²;hm/-2;hm^2;hm2;hectare;hectares"
-msgstr ""
-"njealjehashektomehter;njealjehashektomehtera;hm²;hm/-2;hm^2;hm2;hectare;"
-"hectares"
+msgstr "njealjehashektomehter;njealjehashektomehtera;hm²;hm/-2;hm^2;hm2;hectare;hectares"
 
 #: area.cpp:126
 #, kde-format
@@ -1081,8 +1079,8 @@ msgstr "njealjehasdumá"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq in;"
-"inch²"
+"square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq "
+"in;inch²"
 msgstr "njealjehasdumá;;in²;inch²"
 
 #: area.cpp:276
@@ -7858,8 +7856,8 @@ msgstr ""
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
-"mpg (imp)"
+"mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp "
+"mpg;mpg (imp)"
 msgstr ""
 
 #: fuel_efficiency.cpp:91
@@ -8432,8 +8430,7 @@ msgstr ""
 #: length.cpp:187
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
+msgid "Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
 msgstr ""
 
 #: length.cpp:189

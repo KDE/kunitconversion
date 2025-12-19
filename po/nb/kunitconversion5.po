@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:25+0000\n"
+"POT-Creation-Date: 2025-11-17 09:00+0000\n"
 "PO-Revision-Date: 2014-03-16 10:59+0100\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
@@ -1077,11 +1077,11 @@ msgstr "kvadrattommer"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq in;"
-"inch²"
+"square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq "
+"in;inch²"
 msgstr ""
-"kvadrattomme;kvadrattommer;tomme/-er²;kvadrattomme;kvadrattommer;kv.tommer;"
-"kv.tomme;kv.tomme/-er;tomme/-er²"
+"kvadrattomme;kvadrattommer;tomme/-"
+"er²;kvadrattomme;kvadrattommer;kv.tommer;kv.tomme;kv.tomme/-er;tomme/-er²"
 
 #: area.cpp:276
 #, kde-format
@@ -1113,9 +1113,7 @@ msgstr "kvadratmiles"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
-msgstr ""
-"kvadratmile;kvadratmiles;mile(s)²;kvadratmile;kvadratmiles;kv.mile;kv."
-"mile(s);mile²"
+msgstr "kvadratmile;kvadratmiles;mile(s)²;kvadratmile;kvadratmiles;kv.mile;kv.mile(s);mile²"
 
 #: area.cpp:286
 #, kde-format
@@ -7859,8 +7857,8 @@ msgstr "miles per britiske gallon"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
-"mpg (imp)"
+"mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp "
+"mpg;mpg (imp)"
 msgstr ""
 
 #: fuel_efficiency.cpp:91
@@ -8433,10 +8431,8 @@ msgstr "Ångström"
 #: length.cpp:187
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
-msgstr ""
-"Ångström;Ångstrom;Angström;Angstrom;Ångström;Ångstrom;Angström;Angstrom;Å"
+msgid "Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
+msgstr "Ångström;Ångstrom;Angström;Angstrom;Ångström;Ångstrom;Angström;Angstrom;Å"
 
 #: length.cpp:189
 #, kde-format
@@ -15583,8 +15579,8 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;inch³"
 msgstr ""
-"kubikktomme;kubikktomme;tomme/-er³;kubikktomme;kubikktomme/-er;kubikktommer;"
-"kubikktomme/-er;kubikktomme/-er;inch³"
+"kubikktomme;kubikktomme;tomme/-er³;kubikktomme;kubikktomme/-"
+"er;kubikktommer;kubikktomme/-er;kubikktomme/-er;inch³"
 
 #: volume.cpp:459
 #, kde-format
@@ -15617,9 +15613,7 @@ msgstr "kubikkmiles"
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"
-msgstr ""
-"kubikkmile;kubikkmiles;mile(s)³;kubikkmile;kubikkmile(s);kubikkmiles;"
-"kubikkmile;kubikkmile(s);mile³"
+msgstr "kubikkmile;kubikkmiles;mile(s)³;kubikkmile;kubikkmile(s);kubikkmiles;kubikkmile;kubikkmile(s);mile³"
 
 #: volume.cpp:469
 #, kde-format
@@ -15782,8 +15776,8 @@ msgstr "USA-amerikansk liquid gallon"
 msgctxt "unit synonyms for matching user input"
 msgid "gallon (U.S. liquid);gallons (U.S. liquid);gal;gallon;gallons"
 msgstr ""
-"USA-amerikansk liquid gallon;USA-amerikanske liquid gallons;gallon(s);gallon;"
-"gallons"
+"USA-amerikansk liquid gallon;USA-amerikanske liquid "
+"gallons;gallon(s);gallon;gallons"
 
 #: volume.cpp:519
 #, kde-format

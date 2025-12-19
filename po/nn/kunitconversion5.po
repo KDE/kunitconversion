@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:25+0000\n"
+"POT-Creation-Date: 2025-11-17 09:00+0000\n"
 "PO-Revision-Date: 2024-07-21 14:23+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -1091,8 +1091,8 @@ msgstr "kvadrattommar"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq in;"
-"inch²"
+"square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq "
+"in;inch²"
 msgstr "kvadrattomme;kvadrattommar;in²;in^2;in2"
 
 #: area.cpp:276
@@ -3614,9 +3614,6 @@ msgstr "%1 islandske kroner"
 
 #: currency.cpp:643
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Icelandic krona"
-#| msgid_plural "%1 Icelandic kronar"
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronar"
@@ -3782,8 +3779,8 @@ msgstr "ouncar per kubikktomme"
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic inch;ounces per cubic inch;oz/in³"
 msgstr ""
-"ounce per kubikktomme;ouncar per kubikktomme;oz/tomme³;oz/tomme^3;oz/tomme;"
-"oz/in³;oz/in^3;oz/in3"
+"ounce per kubikktomme;ouncar per kubikktomme;oz/tomme³;oz/tomme^3;oz/"
+"tomme;oz/in³;oz/in^3;oz/in3"
 
 #: density.cpp:70
 #, kde-format
@@ -3848,8 +3845,8 @@ msgstr "pund per kubikktomme"
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic inch;pounds per cubic inch;lb/in³"
 msgstr ""
-"pund per kubikktomme;pund/tomme³;pund/tomme^3;pund/tomme3;pund/in³;pund/in^3;"
-"pund/in3"
+"pund per kubikktomme;pund/tomme³;pund/tomme^3;pund/tomme3;pund/in³;pund/"
+"in^3;pund/in3"
 
 #: density.cpp:90
 #, kde-format
@@ -7877,8 +7874,8 @@ msgstr "miles per amerikanske gallon"
 msgctxt "unit synonyms for matching user input"
 msgid "mile per US gallon;miles per US gallon;mpg"
 msgstr ""
-"mile per amerikanske gallon;miles per amerikanske gallon;mpg;mile per gallon;"
-"miles per gallon"
+"mile per amerikanske gallon;miles per amerikanske gallon;mpg;mile per "
+"gallon;miles per gallon"
 
 #: fuel_efficiency.cpp:79
 #, kde-format
@@ -7912,8 +7909,8 @@ msgstr "miles per britiske gallon"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
-"mpg (imp)"
+"mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp "
+"mpg;mpg (imp)"
 msgstr "mile per britiske gallon;miles per britiske gallon;britiske mpg"
 
 #: fuel_efficiency.cpp:91
@@ -8486,8 +8483,7 @@ msgstr "ångstrøm"
 #: length.cpp:187
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
+msgid "Ångström;Ångstrom;Angström;Angstrom;Ångströms;Ångstroms;Angströms;Angstroms;Å"
 msgstr "ångstrøm;ångström;ångstrom;angstrøm;angström;angstrom;Å"
 
 #: length.cpp:189
@@ -11748,8 +11744,8 @@ msgstr "tommar kvikksølv"
 msgctxt "unit synonyms for matching user input"
 msgid "inch of mercury;inches of mercury;inHg;in\""
 msgstr ""
-"tomme kvikksølv;tommar kvikksølv;tomme kvikksylv;tommar kvikksylv;inHg;Hg\";"
-"Hg″"
+"tomme kvikksølv;tommar kvikksølv;tomme kvikksylv;tommar "
+"kvikksylv;inHg;Hg\";Hg″"
 
 #: pressure.cpp:309
 #, kde-format
@@ -15717,8 +15713,7 @@ msgstr "kubikkmiles"
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"
-msgstr ""
-"kubikkmile;kubikkmiles;mi³;mi^3;mi3;mile³;mile^3;mile3;miles³;miles^3;miles3"
+msgstr "kubikkmile;kubikkmiles;mi³;mi^3;mi3;mile³;mile^3;mile3;miles³;miles^3;miles3"
 
 #: volume.cpp:469
 #, kde-format
