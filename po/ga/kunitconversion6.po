@@ -2,20 +2,22 @@
 # Copyright (C) 2009 This_file_is_part_of_KDE
 # This file is distributed under the same license as the libconversion package.
 # Kevin Scannell <kscanne@gmail.com>, 2009.
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion.po\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:49+0000\n"
-"PO-Revision-Date: 2009-01-28 10:19-0500\n"
-"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2025-12-24 10:27+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
 "3 : 4\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -1308,7 +1310,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "YiB"
-msgstr ""
+msgstr "YiB"
 
 #: binary_data.cpp:52
 #, kde-format
@@ -1348,7 +1350,7 @@ msgstr[4] "%1 yotailítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Yib"
-msgstr ""
+msgstr "Yib"
 
 #: binary_data.cpp:62
 #, kde-format
@@ -1388,7 +1390,7 @@ msgstr[4] "%1 yotailítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "YB"
-msgstr ""
+msgstr "YB"
 
 #: binary_data.cpp:72
 #, fuzzy, kde-format
@@ -1432,7 +1434,7 @@ msgstr[4] "%1 yotaiméadar"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Yb"
-msgstr ""
+msgstr "Yb"
 
 #: binary_data.cpp:82
 #, fuzzy, kde-format
@@ -1476,7 +1478,7 @@ msgstr[4] "%1 yotailítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "ZiB"
-msgstr ""
+msgstr "ZiB"
 
 #: binary_data.cpp:92
 #, kde-format
@@ -1516,7 +1518,7 @@ msgstr[4] "%1 zeitilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zib"
-msgstr ""
+msgstr "Zib"
 
 #: binary_data.cpp:102
 #, kde-format
@@ -1556,7 +1558,7 @@ msgstr[4] "%1 zeitilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "ZB"
-msgstr ""
+msgstr "ZB"
 
 #: binary_data.cpp:112
 #, fuzzy, kde-format
@@ -1600,7 +1602,7 @@ msgstr[4] "%1 zeitiméadar"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zb"
-msgstr ""
+msgstr "Zb"
 
 #: binary_data.cpp:122
 #, fuzzy, kde-format
@@ -1644,7 +1646,7 @@ msgstr[4] "%1 zeitilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "EiB"
-msgstr ""
+msgstr "EiB"
 
 #: binary_data.cpp:132
 #, kde-format
@@ -1684,7 +1686,7 @@ msgstr[4] "%1 eicsilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Eib"
-msgstr ""
+msgstr "Eib"
 
 #: binary_data.cpp:142
 #, kde-format
@@ -1724,7 +1726,7 @@ msgstr[4] "%1 eicsilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "EB"
-msgstr ""
+msgstr "EB"
 
 #: binary_data.cpp:152
 #, kde-format
@@ -1766,7 +1768,7 @@ msgstr[4] "%1 eicsiméadar"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Eb"
-msgstr ""
+msgstr "Eb"
 
 #: binary_data.cpp:162
 #, kde-format
@@ -1808,7 +1810,7 @@ msgstr[4] "%1 eicsilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #: binary_data.cpp:172
 #, kde-format
@@ -1848,7 +1850,7 @@ msgstr[4] "%1 peitilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Pib"
-msgstr ""
+msgstr "Pib"
 
 #: binary_data.cpp:182
 #, kde-format
@@ -1888,7 +1890,7 @@ msgstr[4] "%1 peitilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PB"
-msgstr ""
+msgstr "PB"
 
 #: binary_data.cpp:192
 #, fuzzy, kde-format
@@ -1929,12 +1931,10 @@ msgstr[3] "%1 bpeitiméadar"
 msgstr[4] "%1 peitiméadar"
 
 #: binary_data.cpp:201
-#, fuzzy, kde-format
-#| msgctxt "mass unit symbol"
-#| msgid "lb"
+#, kde-format
 msgctxt "binary data unit symbol"
 msgid "Pb"
-msgstr "pt"
+msgstr "Pb"
 
 #: binary_data.cpp:202
 #, fuzzy, kde-format
@@ -1978,7 +1978,7 @@ msgstr[4] "%1 peitilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #: binary_data.cpp:212
 #, kde-format
@@ -2018,7 +2018,7 @@ msgstr[4] "%1 teirlítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Tib"
-msgstr ""
+msgstr "Tib"
 
 #: binary_data.cpp:222
 #, kde-format
@@ -2058,7 +2058,7 @@ msgstr[4] "%1 teirlítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: binary_data.cpp:232
 #, fuzzy, kde-format
@@ -2102,7 +2102,7 @@ msgstr[4] "%1 teirméadar"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Tb"
-msgstr ""
+msgstr "Tb"
 
 #: binary_data.cpp:242
 #, fuzzy, kde-format
@@ -2146,7 +2146,7 @@ msgstr[4] "%1 teirlítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: binary_data.cpp:252
 #, kde-format
@@ -2186,7 +2186,7 @@ msgstr[4] "%1 gigilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Gib"
-msgstr ""
+msgstr "Gib"
 
 #: binary_data.cpp:262
 #, kde-format
@@ -2226,7 +2226,7 @@ msgstr[4] "%1 gigilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: binary_data.cpp:272
 #, fuzzy, kde-format
@@ -2270,7 +2270,7 @@ msgstr[4] "%1 gigiméadar"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Gb"
-msgstr ""
+msgstr "Gb"
 
 #: binary_data.cpp:282
 #, fuzzy, kde-format
@@ -2314,7 +2314,7 @@ msgstr[4] "%1 gigilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: binary_data.cpp:292
 #, kde-format
@@ -2354,7 +2354,7 @@ msgstr[4] "%1 méadar"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Mib"
-msgstr ""
+msgstr "Mib"
 
 #: binary_data.cpp:302
 #, kde-format
@@ -2394,7 +2394,7 @@ msgstr[4] "%1 méadar"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: binary_data.cpp:312
 #, fuzzy, kde-format
@@ -2438,7 +2438,7 @@ msgstr[4] "%1 meigiméadar"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Mb"
-msgstr ""
+msgstr "Mb"
 
 #: binary_data.cpp:322
 #, fuzzy, kde-format
@@ -2482,7 +2482,7 @@ msgstr[4] "%1 meigilítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: binary_data.cpp:332
 #, kde-format
@@ -2524,7 +2524,7 @@ msgstr[4] "%1 cililítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Kib"
-msgstr ""
+msgstr "Kib"
 
 #: binary_data.cpp:342
 #, kde-format
@@ -2566,7 +2566,7 @@ msgstr[4] "%1 cililítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: binary_data.cpp:352
 #, fuzzy, kde-format
@@ -2610,7 +2610,7 @@ msgstr[4] "%1 ciliméadar"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kb"
-msgstr ""
+msgstr "kb"
 
 #: binary_data.cpp:362
 #, fuzzy, kde-format
@@ -2654,7 +2654,7 @@ msgstr[4] "%1 cililítear"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: binary_data.cpp:372
 #, kde-format
@@ -2753,7 +2753,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "currency name"
 msgid "Euro"
-msgstr ""
+msgstr "Euro"
 
 #: currency.cpp:74
 #, kde-format
@@ -2808,13 +2808,10 @@ msgstr[3] "%1 scilling"
 msgstr[4] "%1 scilling"
 
 #: currency.cpp:95 currency.cpp:97
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Belgian franc"
-#| msgid_plural "%1 Belgian francs"
+#, kde-format
 msgctxt "currency name"
 msgid "Belgian Franc"
-msgstr "%1 fhranc na Beilge"
+msgstr "Franc na Beilge"
 
 #: currency.cpp:96
 #, kde-format
@@ -2899,13 +2896,10 @@ msgstr[3] "%1 markka"
 msgstr[4] "%1 markka"
 
 #: currency.cpp:128 currency.cpp:130
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "currency name"
 msgid "French Franc"
-msgstr "%1 fhranc na Fraince"
+msgstr "Franc na Fraince"
 
 #: currency.cpp:129
 #, kde-format
@@ -2960,13 +2954,10 @@ msgstr[3] "%1 marc"
 msgstr[4] "%1 marc"
 
 #: currency.cpp:150 currency.cpp:152
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Irish pound"
-#| msgid_plural "%1 Irish pounds"
+#, kde-format
 msgctxt "currency name"
 msgid "Irish Pound"
-msgstr "%1 phunt Éireannach"
+msgstr "Punt Éireannach"
 
 #: currency.cpp:151
 #, kde-format
@@ -2992,12 +2983,10 @@ msgstr[3] "%1 bpunt Éireannach"
 msgstr[4] "%1 punt Éireannach"
 
 #: currency.cpp:161 currency.cpp:163
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 Italian lira"
+#, kde-format
 msgctxt "currency name"
 msgid "Italian Lira"
-msgstr "%1 lira na hIodáile"
+msgstr "Lira na hIodáile"
 
 #: currency.cpp:162
 #, kde-format
@@ -3023,13 +3012,10 @@ msgstr[3] "%1 lira na hIodáile"
 msgstr[4] "%1 lira na hIodáile"
 
 #: currency.cpp:172 currency.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Luxembourgish franc"
-#| msgid_plural "%1 Luxembourgish francs"
+#, kde-format
 msgctxt "currency name"
 msgid "Luxembourgish Franc"
-msgstr "%1 fhranc Lucsamburg"
+msgstr "Franc Lucsamburg"
 
 #: currency.cpp:173
 #, kde-format
@@ -3179,13 +3165,10 @@ msgstr[3] "%1 dtolar"
 msgstr[4] "%1 tolar"
 
 #: currency.cpp:227 currency.cpp:229
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Cypriot pound"
-#| msgid_plural "%1 Cypriot pounds"
+#, kde-format
 msgctxt "currency name"
 msgid "Cypriot Pound"
-msgstr "%1 phunt na Cipire"
+msgstr "Punt na Cipire"
 
 #: currency.cpp:228
 #, kde-format
@@ -4740,9 +4723,7 @@ msgid "ElectricalCurrent"
 msgstr ""
 
 #: electrical_current.cpp:20
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (electrical current"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -4751,7 +4732,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "YA"
-msgstr ""
+msgstr "YA"
 
 #: electrical_current.cpp:26
 #, fuzzy, kde-format
@@ -4795,7 +4776,7 @@ msgstr[4] "%1 yotaiméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "ZA"
-msgstr ""
+msgstr "ZA"
 
 #: electrical_current.cpp:36
 #, fuzzy, kde-format
@@ -4839,7 +4820,7 @@ msgstr[4] "%1 zeitiméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "EA"
-msgstr ""
+msgstr "EA"
 
 #: electrical_current.cpp:46
 #, fuzzy, kde-format
@@ -4883,7 +4864,7 @@ msgstr[4] "%1 eicsiméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "PA"
-msgstr ""
+msgstr "PA"
 
 #: electrical_current.cpp:56
 #, fuzzy, kde-format
@@ -4927,7 +4908,7 @@ msgstr[4] "%1 peitiméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "TA"
-msgstr ""
+msgstr "TA"
 
 #: electrical_current.cpp:66
 #, fuzzy, kde-format
@@ -4968,12 +4949,10 @@ msgstr[3] "%1 dteirméadar"
 msgstr[4] "%1 teirméadar"
 
 #: electrical_current.cpp:75
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "GDA"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "GA"
-msgstr "MLT"
+msgstr "GA"
 
 #: electrical_current.cpp:76
 #, fuzzy, kde-format
@@ -5017,7 +4996,7 @@ msgstr[4] "%1 gigiméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "MA"
-msgstr ""
+msgstr "MA"
 
 #: electrical_current.cpp:86
 #, fuzzy, kde-format
@@ -5061,7 +5040,7 @@ msgstr[4] "%1 meigiméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "kA"
-msgstr ""
+msgstr "kA"
 
 #: electrical_current.cpp:96
 #, fuzzy, kde-format
@@ -5102,12 +5081,10 @@ msgstr[3] "%1 gciliméadar"
 msgstr[4] "%1 ciliméadar"
 
 #: electrical_current.cpp:105
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "h"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "hA"
-msgstr "u"
+msgstr "hA"
 
 #: electrical_current.cpp:106
 #, fuzzy, kde-format
@@ -5197,7 +5174,7 @@ msgstr[4] "%1 deacaiméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: electrical_current.cpp:126
 #, fuzzy, kde-format
@@ -5238,12 +5215,10 @@ msgstr[3] "%1 n-atmaisféar"
 msgstr[4] "%1 atmaisféar"
 
 #: electrical_current.cpp:135
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "d"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "dA"
-msgstr "l"
+msgstr "dA"
 
 #: electrical_current.cpp:136
 #, fuzzy, kde-format
@@ -5284,12 +5259,10 @@ msgstr[3] "%1 ndeiciméadar"
 msgstr[4] "%1 deiciméadar"
 
 #: electrical_current.cpp:145
-#, fuzzy, kde-format
-#| msgctxt "velocity unit symbol"
-#| msgid "c"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "cA"
-msgstr "c"
+msgstr "cA"
 
 #: electrical_current.cpp:146
 #, fuzzy, kde-format
@@ -5330,12 +5303,10 @@ msgstr[3] "%1 gceintiméadar"
 msgstr[4] "%1 ceintiméadar"
 
 #: electrical_current.cpp:155
-#, fuzzy, kde-format
-#| msgctxt "length unit symbol"
-#| msgid "m"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "mA"
-msgstr "m"
+msgstr "mA"
 
 #: electrical_current.cpp:156
 #, fuzzy, kde-format
@@ -5374,12 +5345,10 @@ msgstr[3] "%1 milliméadar"
 msgstr[4] "%1 milliméadar"
 
 #: electrical_current.cpp:165
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "µJ"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "µA"
-msgstr "µJ"
+msgstr "µA"
 
 #: electrical_current.cpp:166
 #, fuzzy, kde-format
@@ -5421,7 +5390,7 @@ msgstr[4] "%1 micriméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "nA"
-msgstr ""
+msgstr "nA"
 
 #: electrical_current.cpp:176
 #, fuzzy, kde-format
@@ -5463,7 +5432,7 @@ msgstr[4] "%1 nanaiméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "pA"
-msgstr ""
+msgstr "pA"
 
 #: electrical_current.cpp:186
 #, fuzzy, kde-format
@@ -5505,7 +5474,7 @@ msgstr[4] "%1 piciméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "fA"
-msgstr ""
+msgstr "fA"
 
 #: electrical_current.cpp:196
 #, fuzzy, kde-format
@@ -5546,12 +5515,10 @@ msgstr[3] "%1 bhfeimtiméadar"
 msgstr[4] "%1 feimtiméadar"
 
 #: electrical_current.cpp:205
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "a"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "aA"
-msgstr "a"
+msgstr "aA"
 
 #: electrical_current.cpp:206
 #, fuzzy, kde-format
@@ -5595,7 +5562,7 @@ msgstr[4] "%1 ataiméadar"
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "zA"
-msgstr ""
+msgstr "zA"
 
 #: electrical_current.cpp:216
 #, fuzzy, kde-format
@@ -5636,12 +5603,10 @@ msgstr[3] "%1 zeiptiméadar"
 msgstr[4] "%1 zeiptiméadar"
 
 #: electrical_current.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "y"
+#, kde-format
 msgctxt "electrical current unit symbol"
 msgid "yA"
-msgstr "b"
+msgstr "yA"
 
 #: electrical_current.cpp:226
 #, fuzzy, kde-format
@@ -5698,7 +5663,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "YΩ"
-msgstr ""
+msgstr "YΩ"
 
 #: electrical_resistance.cpp:26
 #, fuzzy, kde-format
@@ -5742,7 +5707,7 @@ msgstr[4] "%1 yotagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "ZΩ"
-msgstr ""
+msgstr "ZΩ"
 
 #: electrical_resistance.cpp:36
 #, fuzzy, kde-format
@@ -5786,7 +5751,7 @@ msgstr[4] "%1 zeiteagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "EΩ"
-msgstr ""
+msgstr "EΩ"
 
 #: electrical_resistance.cpp:46
 #, kde-format
@@ -5828,7 +5793,7 @@ msgstr[4] "%1 eicseagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "PΩ"
-msgstr ""
+msgstr "PΩ"
 
 #: electrical_resistance.cpp:56
 #, fuzzy, kde-format
@@ -5872,7 +5837,7 @@ msgstr[4] "%1 peiteagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "TΩ"
-msgstr ""
+msgstr "TΩ"
 
 #: electrical_resistance.cpp:66
 #, fuzzy, kde-format
@@ -5916,7 +5881,7 @@ msgstr[4] "%1 teargram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "GΩ"
-msgstr ""
+msgstr "GΩ"
 
 #: electrical_resistance.cpp:76
 #, fuzzy, kde-format
@@ -5960,7 +5925,7 @@ msgstr[4] "%1 gigeagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "MΩ"
-msgstr ""
+msgstr "MΩ"
 
 #: electrical_resistance.cpp:86
 #, fuzzy, kde-format
@@ -6004,7 +5969,7 @@ msgstr[4] "%1 meigeagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "kΩ"
-msgstr ""
+msgstr "kΩ"
 
 #: electrical_resistance.cpp:96
 #, fuzzy, kde-format
@@ -6048,7 +6013,7 @@ msgstr[4] "%1 cileapunt"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "hΩ"
-msgstr ""
+msgstr "hΩ"
 
 #: electrical_resistance.cpp:106
 #, fuzzy, kde-format
@@ -6092,7 +6057,7 @@ msgstr[4] "%1 heicteagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "daΩ"
-msgstr ""
+msgstr "daΩ"
 
 #: electrical_resistance.cpp:116
 #, fuzzy, kde-format
@@ -6136,7 +6101,7 @@ msgstr[4] "%1 deacagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "Ω"
-msgstr ""
+msgstr "Ω"
 
 #: electrical_resistance.cpp:126
 #, kde-format
@@ -6173,7 +6138,7 @@ msgstr[4] ""
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "dΩ"
-msgstr ""
+msgstr "dΩ"
 
 #: electrical_resistance.cpp:136
 #, fuzzy, kde-format
@@ -6217,7 +6182,7 @@ msgstr[4] "%1 deiceagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "cΩ"
-msgstr ""
+msgstr "cΩ"
 
 #: electrical_resistance.cpp:146
 #, fuzzy, kde-format
@@ -6261,7 +6226,7 @@ msgstr[4] "%1 ceinteagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "mΩ"
-msgstr ""
+msgstr "mΩ"
 
 #: electrical_resistance.cpp:156
 #, fuzzy, kde-format
@@ -6305,7 +6270,7 @@ msgstr[4] "%1 milleagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "µΩ"
-msgstr ""
+msgstr "µΩ"
 
 #: electrical_resistance.cpp:166
 #, fuzzy, kde-format
@@ -6349,7 +6314,7 @@ msgstr[4] "%1 micreagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "nΩ"
-msgstr ""
+msgstr "nΩ"
 
 #: electrical_resistance.cpp:176
 #, fuzzy, kde-format
@@ -6393,7 +6358,7 @@ msgstr[4] "%1 nanagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "pΩ"
-msgstr ""
+msgstr "pΩ"
 
 #: electrical_resistance.cpp:186
 #, fuzzy, kde-format
@@ -6437,7 +6402,7 @@ msgstr[4] "%1 piceagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "fΩ"
-msgstr ""
+msgstr "fΩ"
 
 #: electrical_resistance.cpp:196
 #, fuzzy, kde-format
@@ -6481,7 +6446,7 @@ msgstr[4] "%1 feimteagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "aΩ"
-msgstr ""
+msgstr "aΩ"
 
 #: electrical_resistance.cpp:206
 #, fuzzy, kde-format
@@ -6525,7 +6490,7 @@ msgstr[4] "%1 atagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "zΩ"
-msgstr ""
+msgstr "zΩ"
 
 #: electrical_resistance.cpp:216
 #, fuzzy, kde-format
@@ -6569,7 +6534,7 @@ msgstr[4] "%1 zeipteagram"
 #, kde-format
 msgctxt "electrical resistance unit symbol"
 msgid "yΩ"
-msgstr ""
+msgstr "yΩ"
 
 #: electrical_resistance.cpp:226
 #, fuzzy, kde-format
@@ -7575,7 +7540,7 @@ msgstr[4] "%1 cileacalra"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "BTU"
-msgstr ""
+msgstr "BTU"
 
 #: energy.cpp:322
 #, kde-format
@@ -7607,12 +7572,10 @@ msgstr[3] ""
 msgstr[4] ""
 
 #: energy.cpp:331
-#, fuzzy, kde-format
-#| msgctxt "mass unit symbol"
-#| msgid "Eg"
+#, kde-format
 msgctxt "energy unit symbol"
 msgid "Erg"
-msgstr "Eg"
+msgstr "Erg"
 
 #: energy.cpp:332
 #, fuzzy, kde-format
@@ -10761,12 +10724,10 @@ msgstr[3] "%1 bhforint"
 msgstr[4] "%1 forint"
 
 #: length.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "pressure unit symbol"
-#| msgid "fPa"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "fa"
-msgstr "fPa"
+msgstr "fa"
 
 #: length.cpp:375
 #, kde-format
@@ -12758,7 +12719,7 @@ msgstr[4] "%1 each-chumhacht"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBk"
-msgstr ""
+msgstr "dBk"
 
 #: power.cpp:279
 #, fuzzy, kde-format
@@ -12797,12 +12758,10 @@ msgstr[3] "%1 gcileavata"
 msgstr[4] "%1 cileavata"
 
 #: power.cpp:288
-#, fuzzy, kde-format
-#| msgctxt "power unit symbol"
-#| msgid "dW"
+#, kde-format
 msgctxt "power unit symbol"
 msgid "dBW"
-msgstr "dW"
+msgstr "dBW"
 
 #: power.cpp:289
 #, fuzzy, kde-format
@@ -14292,9 +14251,7 @@ msgid "Thermal Conductivity"
 msgstr ""
 
 #: thermal_conductivity.cpp:19
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal conductivity)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -14429,9 +14386,7 @@ msgid "Thermal Flux Density"
 msgstr ""
 
 #: thermal_flux.cpp:20
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal flux density)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -14532,9 +14487,7 @@ msgid "Thermal Generation"
 msgstr "Luasghéarú"
 
 #: thermal_generation.cpp:19
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal generation)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15958,9 +15911,7 @@ msgid "Voltage"
 msgstr ""
 
 #: voltage.cpp:20
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (voltage"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -15969,7 +15920,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "YV"
-msgstr ""
+msgstr "YV"
 
 #: voltage.cpp:26
 #, fuzzy, kde-format
@@ -16013,7 +15964,7 @@ msgstr[4] "%1 yotaigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "ZV"
-msgstr ""
+msgstr "ZV"
 
 #: voltage.cpp:36
 #, fuzzy, kde-format
@@ -16057,7 +16008,7 @@ msgstr[4] "%1 zeitigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "EV"
-msgstr ""
+msgstr "EV"
 
 #: voltage.cpp:46
 #, kde-format
@@ -16099,7 +16050,7 @@ msgstr[4] "%1 eicsigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "PV"
-msgstr ""
+msgstr "PV"
 
 #: voltage.cpp:56
 #, fuzzy, kde-format
@@ -16143,7 +16094,7 @@ msgstr[4] "%1 peitigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 #: voltage.cpp:66
 #, fuzzy, kde-format
@@ -16187,7 +16138,7 @@ msgstr[4] "%1 teirigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "GV"
-msgstr ""
+msgstr "GV"
 
 #: voltage.cpp:76
 #, fuzzy, kde-format
@@ -16231,7 +16182,7 @@ msgstr[4] "%1 gigigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "MV"
-msgstr ""
+msgstr "MV"
 
 #: voltage.cpp:86
 #, fuzzy, kde-format
@@ -16275,7 +16226,7 @@ msgstr[4] "%1 meigigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "kV"
-msgstr ""
+msgstr "kV"
 
 #: voltage.cpp:96
 #, fuzzy, kde-format
@@ -16316,12 +16267,10 @@ msgstr[3] "%1 gciligiúl"
 msgstr[4] "%1 ciligiúl"
 
 #: voltage.cpp:105
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "h"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "hV"
-msgstr "u"
+msgstr "hV"
 
 #: voltage.cpp:106
 #, fuzzy, kde-format
@@ -16362,12 +16311,10 @@ msgstr[3] "%1 leictreonvolta"
 msgstr[4] "%1 leictreonvolta"
 
 #: voltage.cpp:115
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "daJ"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "daV"
-msgstr "daJ"
+msgstr "daV"
 
 #: voltage.cpp:116
 #, fuzzy, kde-format
@@ -16408,12 +16355,10 @@ msgstr[3] "%1 ndeacaigiúl"
 msgstr[4] "%1 deacaigiúl"
 
 #: voltage.cpp:125
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "eV"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "V"
-msgstr "eV"
+msgstr "V"
 
 #: voltage.cpp:126
 #, kde-format
@@ -16450,20 +16395,16 @@ msgstr[3] "%1 leictreonvolta"
 msgstr[4] "%1 leictreonvolta"
 
 #: voltage.cpp:135
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "d"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "dV"
-msgstr "l"
+msgstr "dV"
 
 #: voltage.cpp:136
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "decijoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decivolts"
-msgstr "deicigiúil"
+msgstr "deicivoltanna"
 
 #: voltage.cpp:137
 #, fuzzy, kde-format
@@ -16474,50 +16415,39 @@ msgid "decivolt;decivolts;dV"
 msgstr "deicigiúil;deicigiúl;decijoule;decijoules;dJ"
 
 #: voltage.cpp:139
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 decijoules"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decivolts"
-msgstr "%1 deicigiúl"
+msgstr "%1 deicivolta"
 
 #: voltage.cpp:140
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 decijoule"
-#| msgid_plural "%1 decijoules"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decivolt"
 msgid_plural "%1 decivolts"
-msgstr[0] "%1 deicigiúl"
-msgstr[1] "%1 dheicigiúl"
-msgstr[2] "%1 dheicigiúl"
-msgstr[3] "%1 ndeicigiúl"
-msgstr[4] "%1 deicigiúl"
+msgstr[0] "%1 deicivolta"
+msgstr[1] "%1 dheicivolta"
+msgstr[2] "%1 dheicivolta"
+msgstr[3] "%1 ndeicivolta"
+msgstr[4] "%1 deicivolta"
 
 #: voltage.cpp:145
-#, fuzzy, kde-format
-#| msgctxt "velocity unit symbol"
-#| msgid "c"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "cV"
-msgstr "c"
+msgstr "cV"
 
 #: voltage.cpp:146
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "centijoules"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "centivolts"
-msgstr "ceintigiúil"
+msgstr "ceintivoltanna"
 
 #: voltage.cpp:147
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "centijoule;centijoules;cJ"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "centivolt;centivolts;cV"
-msgstr "ceintigiúil;ceintigiúl;centijoule;centijoules;cJ"
+msgstr "ceintivolta;centivoltanna;centivolt;centivolts;cV"
 
 #: voltage.cpp:149
 #, fuzzy, kde-format
@@ -16542,12 +16472,10 @@ msgstr[3] "%1 gceintigiúl"
 msgstr[4] "%1 ceintigiúl"
 
 #: voltage.cpp:155
-#, fuzzy, kde-format
-#| msgctxt "length unit symbol"
-#| msgid "m"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "mV"
-msgstr "m"
+msgstr "mV"
 
 #: voltage.cpp:156
 #, fuzzy, kde-format
@@ -16588,12 +16516,10 @@ msgstr[3] "%1 milligiúl"
 msgstr[4] "%1 milligiúl"
 
 #: voltage.cpp:165
-#, fuzzy, kde-format
-#| msgctxt "energy unit symbol"
-#| msgid "µJ"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "µV"
-msgstr "µJ"
+msgstr "µV"
 
 #: voltage.cpp:166
 #, fuzzy, kde-format
@@ -16637,7 +16563,7 @@ msgstr[4] "%1 micrigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "nV"
-msgstr ""
+msgstr "nV"
 
 #: voltage.cpp:176
 #, fuzzy, kde-format
@@ -16681,7 +16607,7 @@ msgstr[4] "%1 nanaigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "pV"
-msgstr ""
+msgstr "pV"
 
 #: voltage.cpp:186
 #, fuzzy, kde-format
@@ -16725,7 +16651,7 @@ msgstr[4] "%1 picigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "fV"
-msgstr ""
+msgstr "fV"
 
 #: voltage.cpp:196
 #, fuzzy, kde-format
@@ -16766,12 +16692,10 @@ msgstr[3] "%1 bhfeimtigiúl"
 msgstr[4] "%1 feimtigiúl"
 
 #: voltage.cpp:205
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "a"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "aV"
-msgstr "a"
+msgstr "aV"
 
 #: voltage.cpp:206
 #, fuzzy, kde-format
@@ -16815,7 +16739,7 @@ msgstr[4] "%1 ataigiúl"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "zV"
-msgstr ""
+msgstr "zV"
 
 #: voltage.cpp:216
 #, fuzzy, kde-format
@@ -16856,12 +16780,10 @@ msgstr[3] "%1 zeiptigiúl"
 msgstr[4] "%1 zeiptigiúl"
 
 #: voltage.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "y"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "yV"
-msgstr "b"
+msgstr "yV"
 
 #: voltage.cpp:226
 #, fuzzy, kde-format
@@ -16902,12 +16824,10 @@ msgstr[3] "%1 yoctaigiúl"
 msgstr[4] "%1 yoctaigiúl"
 
 #: voltage.cpp:235
-#, fuzzy, kde-format
-#| msgctxt "mass unit symbol"
-#| msgid "t"
+#, kde-format
 msgctxt "voltage unit symbol"
 msgid "stV"
-msgstr "t"
+msgstr "stV"
 
 #: voltage.cpp:236
 #, kde-format
@@ -18935,9 +18855,7 @@ msgid "Weight per Area"
 msgstr ""
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -18946,7 +18864,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "g/m²"
 
 #: weight_per_area.cpp:27
 #, fuzzy, kde-format
@@ -18991,7 +18909,7 @@ msgstr[4] "%1 mhéadar cearnach"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "oz/yd²"
 
 #: weight_per_area.cpp:38
 #, fuzzy, kde-format
