@@ -4,7 +4,7 @@
 # Sébastien Renard <renard@kde.org>, 2010, 2011.
 # Vincent Pinon <vpinon@kde.org>, 2016.
 # Simon Depiets <sdepiets@gmail.com>, 2017, 2019, 2020.
-# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024, 2025, 2026 Xavier Besnard <xavier.besnard@kde.org>
 # Xavier Besnard <xavier.besnard@kde.org>, 2023.
 #
 msgid ""
@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 09:00+0000\n"
-"PO-Revision-Date: 2025-06-29 09:30+0200\n"
+"PO-Revision-Date: 2026-02-22 07:56+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Accelerator-Marker: &\n"
 "X-Environment: kde\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 25.12.2\n"
 "X-Text-Markup: kde4\n"
 
 #: acceleration.cpp:17
@@ -2063,12 +2063,10 @@ msgid "kibibytes"
 msgstr "kibioctets"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "KiB;kibibyte;kibibytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kibibyte;kibibytes"
-msgstr "Kio;kibioctet;kibioctets"
+msgstr "KiO ; kibioctet ; kibioctets"
 
 #: binary_data.cpp:335
 #, kde-format
@@ -2097,12 +2095,10 @@ msgid "kibibits"
 msgstr "kibibits"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Kib;kibibit;kibibits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kibibit;kibibits"
-msgstr "Kib;kibibit;kibibits"
+msgstr "Kib ; kib ; kibibit ; kibibits"
 
 #: binary_data.cpp:345
 #, kde-format
@@ -2131,12 +2127,10 @@ msgid "kilobytes"
 msgstr "kilooctets"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kB;kilobyte;kilobytes"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;kilobyte;kilobytes"
-msgstr "ko;kilooctet;kilooctets"
+msgstr "kO ; kilooctet ; kilooctets"
 
 #: binary_data.cpp:355
 #, kde-format
@@ -2165,12 +2159,10 @@ msgid "kilobits"
 msgstr "kilobits"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kb;kilobit;kilobits"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;kilobit;kilobits"
-msgstr "kb;kilobit;kilobits"
+msgstr "kb ; Kb ; kilobit ; kilobits"
 
 #: binary_data.cpp:365
 #, kde-format
@@ -3607,18 +3599,13 @@ msgid "Icelandic krona;Icelandic crown"
 msgstr "Couronne islandaise;Krona islandaise"
 
 #: currency.cpp:642
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 Icelandic kronar"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronar"
 msgstr "%1 couronne islandaise"
 
 #: currency.cpp:643
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Icelandic krona"
-#| msgid_plural "%1 Icelandic kronar"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronar"
