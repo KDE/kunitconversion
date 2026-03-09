@@ -8653,7 +8653,7 @@ msgstr "أتوهيرتز"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attohertz;attohertzs;aHz"
-msgstr "أتّوهيرتز;أتّوهيرتزات;aHz"
+msgstr "أتوهيرتز;أتوهيرتزات;aHz"
 
 #: frequency.cpp:209
 #, kde-format
@@ -9634,7 +9634,7 @@ msgstr "أتومتر"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attometer;attometers;am"
-msgstr "أتّومتر;أتّومترات;أم"
+msgstr "أتومتر;أتومترات;أم"
 
 #: length.cpp:219
 #, kde-format
@@ -9647,12 +9647,12 @@ msgstr "%1 أتومتر"
 msgctxt "amount in units (integer)"
 msgid "%1 attometer"
 msgid_plural "%1 attometers"
-msgstr[0] "%1 أتّومتر"
-msgstr[1] "أتّومتر واحد"
-msgstr[2] "أتّومتران اثنان"
-msgstr[3] "%1 أتّومتر"
-msgstr[4] "%1 أتّومترًا"
-msgstr[5] "%1 أتّومتر"
+msgstr[0] "%1 أتومتر"
+msgstr[1] "أتومتر واحد"
+msgstr[2] "أتومتران اثنان"
+msgstr[3] "%1 أتومتر"
+msgstr[4] "%1 أتومترًا"
+msgstr[5] "%1 أتومتر"
 
 #: length.cpp:225
 #, kde-format
@@ -10941,7 +10941,7 @@ msgstr "أتوجرام"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attogram;attograms;ag"
-msgstr "أتّوغرام;أتّوغرامات;أغ"
+msgstr "أتغرام;أتغرامات;أغ"
 
 #: mass.cpp:209
 #, kde-format
@@ -12073,7 +12073,7 @@ msgstr "أتوواط"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attowatt;attowatts;aW"
-msgstr "أتّوواط;أتّوواطات;أ.و"
+msgstr "أتوواط;أتوواطات;أ.و"
 
 #: power.cpp:240
 #, kde-format
@@ -14711,7 +14711,7 @@ msgstr "أتوثانية"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attosecond;attoseconds;as"
-msgstr "أتّوثانية;أتّوثواني;ث أ ت"
+msgstr "أتوثانية;أتوثواني;ث أ ت"
 
 #: timeunit.cpp:208
 #, kde-format
@@ -16059,31 +16059,31 @@ msgstr "ف أ ت"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "attovolts"
-msgstr "أتّوڤولتات"
+msgstr "أتوڤولتات"
 
 #: voltage.cpp:207
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "attovolt;attovolts;aV"
-msgstr "أتّوڤولت;أتّوڤولتات;ف أ ت"
+msgstr "أتوڤولت;أتوڤولتات;ف أ ت"
 
 #: voltage.cpp:209
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 attovolts"
-msgstr "%1 أتّوڤولت"
+msgstr "%1 أتوڤولت"
 
 #: voltage.cpp:210
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attovolt"
 msgid_plural "%1 attovolts"
-msgstr[0] "%1 أتّوڤولت"
-msgstr[1] "%1 أتّوڤولت"
-msgstr[2] "%1 أتّوڤولت"
-msgstr[3] "%1 أتّوڤولت"
-msgstr[4] "%1 أتّوڤولت"
-msgstr[5] "%1 أتّوڤولت"
+msgstr[0] "%1 أتوڤولت"
+msgstr[1] "%1 أتوڤولت"
+msgstr[2] "%1 أتوڤولت"
+msgstr[3] "%1 أتوڤولت"
+msgstr[4] "%1 أتوڤولت"
+msgstr[5] "%1 أتوڤولت"
 
 #: voltage.cpp:215
 #, kde-format
