@@ -6,21 +6,21 @@
 # Ozan Çağlayan <ozan@pardus.org.tr>, 2010, 2011.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2017.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
-# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:49+0000\n"
-"PO-Revision-Date: 2025-06-29 09:09+0300\n"
-"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
+"PO-Revision-Date: 2026-03-09 21:21+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -240,7 +240,7 @@ msgstr[1] "%1 gradyan"
 #, kde-format
 msgctxt "angle unit symbol"
 msgid "'"
-msgstr "'"
+msgstr "’"
 
 #: angle.cpp:83
 #, kde-format
@@ -252,7 +252,7 @@ msgstr "yay dakika"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "minute of arc;MOA;arcminute;minute;'"
-msgstr "ark dakika;AD;arkdakika;dakika;yay dakika;yaydakika;'"
+msgstr "ark dakika;AD;arkdakika;dakika;yay dakika;yaydakika;';’"
 
 #: angle.cpp:86
 #, kde-format
@@ -272,7 +272,7 @@ msgstr[1] "%1 yay dakika"
 #, kde-format
 msgctxt "angle unit symbol"
 msgid "\""
-msgstr "\""
+msgstr "”"
 
 #: angle.cpp:93
 #, kde-format
@@ -284,7 +284,7 @@ msgstr "yay saniye"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "second of arc;arcsecond;second;\""
-msgstr "ark saniye;arksaniye;saniye;yay saniye;\""
+msgstr "ark saniye;arksaniye;saniye;yay saniye;\";”"
 
 #: angle.cpp:96
 #, kde-format
@@ -8658,7 +8658,7 @@ msgstr "inç"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "inch;inches;in;\""
-msgstr "inç; inç; in; \""
+msgstr "inç;inç;in;\";”"
 
 #: length.cpp:249
 #, kde-format
@@ -11902,7 +11902,7 @@ msgstr "inç civa"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "inch of mercury;inches of mercury;inHg;in\""
-msgstr "inç civa;inç civa;inHg;in\""
+msgstr "inç civa;inç civa;inHg;in”;in\""
 
 #: pressure.cpp:309
 #, kde-format
@@ -12270,7 +12270,7 @@ msgstr "Btu/ft·hr·°F"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per foot hour degree Fahrenheit"
-msgstr "foot'da btu saat derece Fahrenheit"
+msgstr "Ayak saat Fahrenheit derece başı BTU"
 
 #: thermal_conductivity.cpp:37
 #, kde-format
@@ -12279,22 +12279,22 @@ msgid ""
 "btu per foot hour degree Fahrenheit;btu per foot hour Fahrenheit;btu per "
 "foot-hour-Fahrenheit;Btu/ft-hr-F"
 msgstr ""
-"foot'da btu saat derece Fahrenheit;foot'da btu saat Fahrenheit; foot'da btu-"
-"saat-Fahrenheit;Btu/ft-hr-F"
+"Ayak saat Fahrenheit başı BTU;foot btu saat derece Fahrenheit;foot btu saat "
+"Fahrenheit; foot btu-saat-Fahrenheit;Btu/ft-hr-F"
 
 #: thermal_conductivity.cpp:39
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per foot hour degree Fahrenheit"
-msgstr "%1 foot'da btu saat derece Fahrenheit"
+msgstr "Ayak saat Fahrenheit başı %1 BTU"
 
 #: thermal_conductivity.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per foot hour degree Fahrenheit"
 msgid_plural "%1 btu per foot hour degree Fahrenheit"
-msgstr[0] "%1 foot'da btu saat derece Fahrenheit"
-msgstr[1] "%1 foot'da btu saat derece Fahrenheit"
+msgstr[0] "Ayak saat Fahrenheit başı %1 BTU"
+msgstr[1] "Ayak saat Fahrenheit başı %1 BTU"
 
 #: thermal_conductivity.cpp:45
 #, kde-format
@@ -12306,7 +12306,7 @@ msgstr "Btu/ft²·hr·°F/in"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "btu per square foot hour degree Fahrenheit per inch"
-msgstr "inş başına foot kare saat derece Fahrenheit'de btu"
+msgstr "İnç ayak kare saat Fahrenheit başı BTU"
 
 #: thermal_conductivity.cpp:48
 #, kde-format
@@ -12316,22 +12316,23 @@ msgid ""
 "hour Fahrenheit per inch;btu per sq foot-hour-Fahrenheit per inch;Btu/ft^2-"
 "hr-F/in"
 msgstr ""
-"inçte footkare saat derece Fahrenheit'de btu;inçte footkare saat "
-"Fahrenheit'de btu;inçde foot-kare-Fahrenheit'de btu;Btu/ft^2-hr-F/in"
+"inçte footkare saat derece Fahrenheit btu;inçte footkare saat Fahrenheit btu;"
+"inçde foot-kare-Fahrenheit btu;Btu/ft^2-hr-F/in;İnç ayak kare saat "
+"Fahrenheit başı BTU"
 
 #: thermal_conductivity.cpp:51
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr "inçde footkare saat derece Fahrenheit'de %1 btu"
+msgstr "İnç ayak kare saat Fahrenheit başı %1 BTU"
 
 #: thermal_conductivity.cpp:53
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 btu per square foot hour degree Fahrenheit per inch"
 msgid_plural "%1 btu per square foot hour degree Fahrenheit per inch"
-msgstr[0] "inçde footkare saat derece Fahrenheit'de %1 btu"
-msgstr[1] "inçde footkare saat derece Fahrenheit'de %1 btu"
+msgstr[0] "İnç ayak kare saat Fahrenheit başı %1 BTU"
+msgstr[1] "İnç ayak kare saat Fahrenheit başı %1 BTU"
 
 #: thermal_flux.cpp:18
 #, kde-format
