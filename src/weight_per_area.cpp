@@ -41,6 +41,16 @@ UnitCategory WeightPerArea::makeCategory()
                                            ki18nc("amount in units (real)", "%1 ounces per square yard"),
                                            ki18ncp("amount in units (integer)", "%1 ounces per square yard", "%1 ounces per square yard")));
 
+    // source: https://mayfairsilk.com/pages/what-is-momme
+    d->addUnit(UnitPrivate::makeUnit(AreaCategory,
+                                     Momme,
+                                     4.34,
+                                     i18nc("area unit symbol for silk fabric weight", "momme"),
+                                     i18nc("unit description for silk fabric weight in lists", "momme"),
+                                     i18nc("unit synonyms for silk fabric weight or matching user input", "momme"),
+                                     symbolString,
+                                     ki18nc("amount of silk fabric weight in units (real)", "%1 momme"),
+                                     ki18ncp("amount of silk fabric weight in units (integer)", "%1 momme", "%1 momme")));
     return c;
 }
 

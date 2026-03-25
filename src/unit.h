@@ -463,6 +463,7 @@ enum CategoryId {
  *
  * \value GramsPerSquareMeter
  * \value OuncesPerSquareYard
+ * \value Momme
  *
  * \value MetresPerSecondSquared
  * \value FeetPerSecondSquared
@@ -1035,6 +1036,7 @@ enum UnitId {
     // Weight per area
     GramsPerSquareMeter,
     OuncesPerSquareYard,
+    Momme,
 
     // Acceleration
     MetresPerSecondSquared = 14000,
