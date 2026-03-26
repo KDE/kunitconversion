@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:49+0000\n"
+"POT-Creation-Date: 2026-03-26 00:40+0000\n"
 "PO-Revision-Date: 2025-07-20 01:42+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -15788,3 +15788,40 @@ msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
 msgstr[0] "제곱야드당 %1온스"
+
+#: weight_per_area.cpp:48
+#, kde-format
+msgctxt "area unit symbol for silk fabric weight"
+msgid "momme"
+msgstr ""
+
+#: weight_per_area.cpp:49
+#, kde-format
+msgctxt "unit description for silk fabric weight in lists"
+msgid "momme"
+msgstr ""
+
+#: weight_per_area.cpp:50
+#, kde-format
+msgctxt "unit synonyms for silk fabric weight or matching user input"
+msgid "momme"
+msgstr ""
+
+#: weight_per_area.cpp:52
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 megaohm"
+#| msgid_plural "%1 megaohms"
+msgctxt "amount of silk fabric weight in units (real)"
+msgid "%1 momme"
+msgstr "%1메가옴"
+
+#: weight_per_area.cpp:53
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 megaohm"
+#| msgid_plural "%1 megaohms"
+msgctxt "amount of silk fabric weight in units (integer)"
+msgid "%1 momme"
+msgid_plural "%1 momme"
+msgstr[0] "%1메가옴"
