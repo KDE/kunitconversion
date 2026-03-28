@@ -15761,29 +15761,29 @@ msgstr[0] "%1 盎司每平方码"
 #, kde-format
 msgctxt "area unit symbol for silk fabric weight"
 msgid "momme"
-msgstr ""
+msgstr "momme"
 
 #: weight_per_area.cpp:49
 #, kde-format
 msgctxt "unit description for silk fabric weight in lists"
 msgid "momme"
-msgstr ""
+msgstr "姆米"
 
 #: weight_per_area.cpp:50
 #, kde-format
 msgctxt "unit synonyms for silk fabric weight or matching user input"
 msgid "momme"
-msgstr ""
+msgstr "momme;姆米"
 
 #: weight_per_area.cpp:52
 #, kde-format
 msgctxt "amount of silk fabric weight in units (real)"
 msgid "%1 momme"
-msgstr ""
+msgstr "%1 姆米"
 
 #: weight_per_area.cpp:53
 #, kde-format
 msgctxt "amount of silk fabric weight in units (integer)"
 msgid "%1 momme"
 msgid_plural "%1 momme"
-msgstr[0] ""
+msgstr[0] "%1 姆米"
