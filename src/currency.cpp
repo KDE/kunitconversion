@@ -253,7 +253,7 @@ UnitCategory Currency::makeCategory()
                        ki18nc("amount in units (real)", "%1 Slovak korunas"),
                        ki18ncp("amount in units (integer)", "%1 Slovak koruna", "%1 Slovak korunas"))); // Alt: koruny, korun
 
-    d->addDefaultUnit(UnitPrivate::makeUnit(CurrencyCategory,
+    d->addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                               Xpf,
                               0.00838,
                               QStringLiteral("XPF"),
