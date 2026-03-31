@@ -355,6 +355,7 @@ enum CategoryId {
  * \value Php
  * \value Sgd
  * \value Thb
+ * \value [since 6.25] Twd
  * \value Zar
  * \value Ils
  * \value Isk
@@ -921,6 +922,7 @@ enum UnitId {
     Php,
     Sgd,
     Thb,
+    Twd, /// @since 6.25
     Zar,
     Ils,
     Isk,

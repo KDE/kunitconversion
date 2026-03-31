@@ -12,8 +12,10 @@
 #include <KLocalizedString>
 #include <QDateTime>
 #include <QDir>
+#include <QEventLoop>
 #include <QFileInfo>
 #include <QLocale>
+#include <QMap>
 #include <QNetworkAccessManager>
 #include <QNetworkInterface>
 #include <QNetworkReply>
@@ -21,12 +23,132 @@
 #include <QSaveFile>
 #include <QStandardPaths>
 #include <QXmlStreamReader>
+#include <QXmlStreamWriter>
+#include <algorithm>
 
 using namespace std::chrono_literals;
 
 namespace KUnitConversion
 {
-static const char URL[] = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
+static const char ECB_URL[] = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
+static const char TWD_CSV_URL[] = "https://quality.data.gov.tw/dq_download_csv.php?nid=11339&md5_url=c27e986d791b4754f962dae762edf38c";
+
+using CurrencyRates = QMap<QString, double>;
+
+static bool parseRatesXml(QXmlStreamReader &xml, CurrencyRates &rates)
+{
+    while (!xml.atEnd()) {
+        xml.readNext();
+
+        if (xml.isStartElement() && xml.name() == QLatin1String("Cube")) {
+            const auto attributes = xml.attributes();
+            if (attributes.hasAttribute(QLatin1String("currency")) && attributes.hasAttribute(QLatin1String("rate"))) {
+                bool ok = false;
+                const double rate = QLocale::c().toDouble(attributes.value(QLatin1String("rate")).toString(), &ok);
+                if (ok && !qFuzzyIsNull(rate)) {
+                    rates.insert(attributes.value(QLatin1String("currency")).toString(), rate);
+                }
+            }
+        }
+    }
+
+    return !xml.hasError();
+}
+
+static bool parseRatesXml(const QByteArray &xmlData, CurrencyRates &rates)
+{
+    QXmlStreamReader xml(xmlData);
+    return parseRatesXml(xml, rates);
+}
+
+static bool conversionTableHasCurrency(const QString &cachePath, const QString &currencyCode)
+{
+    QFile file(cachePath);
+    if (!file.open(QIODevice::ReadOnly)) {
+        return false;
+    }
+
+    CurrencyRates rates;
+    return parseRatesXml(file.readAll(), rates) && rates.contains(currencyCode);
+}
+
+static bool parseTwdRateCsv(const QByteArray &csvData, double &eurToTwd)
+{
+    const QStringList lines = QString::fromUtf8(csvData).split(QLatin1Char('\n'), Qt::SkipEmptyParts);
+    if (lines.size() < 2) {
+        return false;
+    }
+
+    QStringList headers = lines.constFirst().trimmed().split(QLatin1Char(','), Qt::KeepEmptyParts);
+    for (QString &header : headers) {
+        header = header.trimmed();
+    }
+
+	// TWD CSV does not provide direct mapping between EUR-TWD, so we have to calculate EUR-USD-TWD
+    int usdToTwdColumn = headers.indexOf(QString::fromUtf8(u8"美元_新台幣(匯率)"));
+    int eurToUsdColumn = headers.indexOf(QString::fromUtf8(u8"歐元_美元(匯率)"));
+    if (usdToTwdColumn < 0 || eurToUsdColumn < 0) {
+        if (headers.size() <= 3) {
+            return false;
+        }
+        usdToTwdColumn = 1;
+        eurToUsdColumn = 3;
+    }
+
+    const int requiredColumn = std::max(usdToTwdColumn, eurToUsdColumn);
+    for (int row = lines.size() - 1; row >= 1; --row) {
+        const QStringList columns = lines.at(row).trimmed().split(QLatin1Char(','), Qt::KeepEmptyParts);
+        if (columns.size() <= requiredColumn) {
+            continue;
+        }
+
+        bool usdOk = false;
+        bool eurOk = false;
+        const double usdToTwd = QLocale::c().toDouble(columns.at(usdToTwdColumn).trimmed(), &usdOk);
+        const double eurToUsd = QLocale::c().toDouble(columns.at(eurToUsdColumn).trimmed(), &eurOk);
+        if (usdOk && eurOk && !qFuzzyIsNull(usdToTwd) && !qFuzzyIsNull(eurToUsd)) {
+            eurToTwd = eurToUsd * usdToTwd;
+            return true;
+        }
+    }
+
+    return false;
+}
+
+static bool writeConversionTable(const QString &cachePath, const CurrencyRates &rates)
+{
+    QFileInfo info(cachePath);
+    const QString cacheDir = info.absolutePath();
+    if (!QFileInfo::exists(cacheDir) && !QDir().mkpath(cacheDir)) {
+        qCCritical(LOG_KUNITCONVERSION) << "Failed to create currency cache directory:" << cacheDir;
+        return false;
+    }
+
+    QSaveFile cacheFile(cachePath);
+    if (!cacheFile.open(QFile::WriteOnly | QFile::Truncate)) {
+        qCCritical(LOG_KUNITCONVERSION) << cacheFile.errorString();
+        return false;
+    }
+
+    QXmlStreamWriter xml(&cacheFile);
+    xml.setAutoFormatting(true);
+    xml.writeStartDocument();
+    xml.writeStartElement(QStringLiteral("rates"));
+    for (auto it = rates.cbegin(); it != rates.cend(); ++it) {
+        xml.writeEmptyElement(QStringLiteral("Cube"));
+        xml.writeAttribute(QStringLiteral("currency"), it.key());
+        xml.writeAttribute(QStringLiteral("rate"), QLocale::c().toString(it.value(), 'f', 12));
+    }
+    xml.writeEndElement();
+    xml.writeEndDocument();
+
+    if (!cacheFile.commit()) {
+        qCCritical(LOG_KUNITCONVERSION) << cacheFile.errorString();
+        return false;
+    }
+
+    return true;
+}
 
 static QString cacheLocation()
 {
@@ -61,7 +183,7 @@ bool CurrencyCategoryPrivate::hasOnlineConversionTable() const
 
 UnitCategory Currency::makeCategory()
 {
-    auto c = UnitCategoryPrivate::makeCategory(new CurrencyCategoryPrivate(CurrencyCategory, i18n("Currency"), i18n("From ECB")));
+    auto c = UnitCategoryPrivate::makeCategory(new CurrencyCategoryPrivate(CurrencyCategory, i18n("Currency"), i18n("From ECB and Taiwan Government open data")));
     auto d = UnitCategoryPrivate::get(c);
     KLocalizedString symbolString = ki18nc("%1 value, %2 unit symbol (currency)", "%1 %2");
 
@@ -633,6 +755,19 @@ UnitCategory Currency::makeCategory()
                        ki18ncp("amount in units (integer)", "%1 baht", "%1 baht")));
 
     d->addUnit(UnitPrivate::makeUnit(CurrencyCategory,
+                       Twd,
+                       qSNaN(),
+                       QStringLiteral("TWD"),
+                       i18nc("currency name", "New Taiwan Dollar"),
+                       i18nc("TWD New Taiwan Dollar - unit synonyms for matching user input",
+                             "New Taiwan dollar;New Taiwan dollars;Taiwan dollar;Taiwan dollars")
+                           + QStringLiteral(";TWD;NTD;NT$;") + QLocale::territoryToString(QLocale::Taiwan) + QLatin1Char(';')
+                           + i18nc("currency name", "New Taiwan Dollar"),
+                       symbolString,
+                       ki18nc("amount in units (real)", "%1 New Taiwan dollars"),
+                       ki18ncp("amount in units (integer)", "%1 New Taiwan dollar", "%1 New Taiwan dollars")));
+
+    d->addUnit(UnitPrivate::makeUnit(CurrencyCategory,
                        Zar,
                        qSNaN(),
                        QStringLiteral("ZAR"),
@@ -687,7 +822,8 @@ QDateTime Currency::lastConversionTableUpdate()
 UpdateJob* CurrencyCategoryPrivate::syncConversionTable(std::chrono::seconds updateSkipPeriod)
 {
     QFileInfo info(cacheLocation());
-    if (info.exists() && info.lastModified().secsTo(QDateTime::currentDateTime()) <= updateSkipPeriod.count()) {
+    if (info.exists() && info.lastModified().secsTo(QDateTime::currentDateTime()) <= updateSkipPeriod.count()
+        && conversionTableHasCurrency(info.absoluteFilePath(), QStringLiteral("TWD"))) {
         return nullptr; // already present and up to date
     }
     if (!isConnected()) {
@@ -699,7 +835,7 @@ UpdateJob* CurrencyCategoryPrivate::syncConversionTable(std::chrono::seconds upd
     }
 
     qCDebug(LOG_KUNITCONVERSION) << "currency conversion table sync started";
-    m_currentReply = nam()->get(QNetworkRequest(QUrl(QString::fromLatin1(URL))));
+    m_currentReply = nam()->get(QNetworkRequest(QUrl(QString::fromLatin1(ECB_URL))));
     QObject::connect(m_currentReply, &QNetworkReply::finished, [this] {
         auto reply = m_currentReply;
         m_currentReply = nullptr;
@@ -708,21 +844,32 @@ UpdateJob* CurrencyCategoryPrivate::syncConversionTable(std::chrono::seconds upd
             qCWarning(LOG_KUNITCONVERSION) << "currency conversion table network error" << reply->errorString();
             return;
         }
-        const auto cachePath = cacheLocation();
-        QFileInfo info(cachePath);
-        const QString cacheDir = info.absolutePath();
-        if (!QFileInfo::exists(cacheDir)) {
-            QDir().mkpath(cacheDir);
-        }
 
-        QSaveFile cacheFile(cachePath);
-        if (!cacheFile.open(QFile::WriteOnly)) {
-            qCCritical(LOG_KUNITCONVERSION) << cacheFile.errorString();
+        CurrencyRates rates;
+        if (!parseRatesXml(reply->readAll(), rates)) {
+            qCCritical(LOG_KUNITCONVERSION) << "currency conversion fetch could not parse obtained XML, update aborted";
             return;
         }
-        cacheFile.write(reply->readAll());
-        if (!cacheFile.commit()) {
-            qCCritical(LOG_KUNITCONVERSION) << cacheFile.errorString();
+
+        QNetworkReply *twdReply = nam()->get(QNetworkRequest(QUrl(QString::fromLatin1(TWD_CSV_URL))));
+        QEventLoop twdWaitLoop;
+        QObject::connect(twdReply, &QNetworkReply::finished, &twdWaitLoop, &QEventLoop::quit);
+        twdWaitLoop.exec();
+
+        if (twdReply->error()) {
+            qCWarning(LOG_KUNITCONVERSION) << "TWD currency update failed:" << twdReply->errorString();
+        } else {
+            double twdRate = 0.0;
+            if (parseTwdRateCsv(twdReply->readAll(), twdRate)) {
+                rates.insert(QStringLiteral("TWD"), twdRate);
+            } else {
+                qCWarning(LOG_KUNITCONVERSION) << "TWD currency update could not parse CSV data";
+            }
+        }
+        twdReply->deleteLater();
+
+        const auto cachePath = cacheLocation();
+        if (!writeConversionTable(cachePath, rates)) {
             return;
         }
         qCInfo(LOG_KUNITCONVERSION) << "currency conversion table data obtained via network";
@@ -738,29 +885,21 @@ bool CurrencyCategoryPrivate::readConversionTable(const QString &cachePath)
     if (!file.open(QIODevice::ReadOnly)) {
         return false;
     }
-    QXmlStreamReader xml(&file);
-    while (!xml.atEnd()) {
-        xml.readNext();
 
-        if (xml.isStartElement() && xml.name() == QLatin1String("Cube")) {
-            const auto attributes = xml.attributes();
-            if (attributes.hasAttribute(QLatin1String("currency"))) {
-                Unit unit = m_unitMap.value(attributes.value(QLatin1String("currency")).toString());
-                if (unit.isValid()) {
-                    const auto multiplier = attributes.value(QLatin1String("rate")).toDouble();
-                    if (!qFuzzyIsNull(multiplier)) {
-                        unit.setUnitMultiplier(1.0 / multiplier);
-                        qCDebug(LOG_KUNITCONVERSION()) << "currency updated:" << unit.description() << multiplier;
-                    }
-                }
-            }
-        }
-    }
-
-    if (xml.hasError()) {
+    CurrencyRates rates;
+    if (!parseRatesXml(file.readAll(), rates)) {
         qCCritical(LOG_KUNITCONVERSION) << "currency conversion fetch could not parse obtained XML, update aborted";
         return false;
     }
+
+    for (auto it = rates.cbegin(); it != rates.cend(); ++it) {
+        Unit unit = m_unitMap.value(it.key());
+        if (unit.isValid()) {
+            unit.setUnitMultiplier(1.0 / it.value());
+            qCDebug(LOG_KUNITCONVERSION()) << "currency updated:" << unit.description() << it.value();
+        }
+    }
+
     return true;
 }
 

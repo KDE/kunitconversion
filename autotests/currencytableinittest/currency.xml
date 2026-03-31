@@ -37,6 +37,7 @@
 			<Cube currency='PHP' rate='58.783'/>
 			<Cube currency='SGD' rate='1.5918'/>
 			<Cube currency='THB' rate='38.595'/>
+			<Cube currency='TWD' rate='35.0000'/>
 			<Cube currency='ZAR' rate='17.6902'/>
 		</Cube>
 	</Cube>

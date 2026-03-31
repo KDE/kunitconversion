@@ -28,6 +28,12 @@ void CurrencyTableInitTest::testCategoryInit()
     qDebug() << "converted value to:" << v.number();
     QVERIFY(v.isValid());
     QVERIFY(!std::isnan(v.number()));
+
+    Value twd = c.convert(input, QStringLiteral("TWD"));
+    QVERIFY(twd.isValid());
+    QVERIFY(!std::isnan(twd.number()));
+    QCOMPARE(twd.unit().symbol(), QStringLiteral("TWD"));
+    QVERIFY(std::abs(twd.number() - 35000.0) < 0.0001);
 }
 
 QTEST_MAIN(CurrencyTableInitTest)

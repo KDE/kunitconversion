@@ -38,6 +38,8 @@ void ConverterTest::testUnits()
     Converter c;
     QCOMPARE(c.unit(QStringLiteral("km")).symbol(), QStringLiteral("km"));
     QCOMPARE(c.unit(Kilogram).symbol(), QStringLiteral("kg"));
+    QCOMPARE(c.unit(QStringLiteral("TWD")).symbol(), QStringLiteral("TWD"));
+    QCOMPARE(c.unit(QStringLiteral("NT$")).symbol(), QStringLiteral("TWD"));
 }
 
 void ConverterTest::testConvert()
