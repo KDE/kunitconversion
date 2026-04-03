@@ -463,7 +463,7 @@ enum CategoryId {
  *
  * \value GramsPerSquareMeter
  * \value OuncesPerSquareYard
- * \value Momme
+ * \value[since 6.25] Momme
  *
  * \value MetresPerSecondSquared
  * \value FeetPerSecondSquared
