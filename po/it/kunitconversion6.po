@@ -1,13 +1,13 @@
 # translation of libkunitconversion.po to Italian
 #
-# SPDX-FileCopyrightText: 2009, 2016, 2018, 2019, 2020, 2022, 2023, 2024, 2025 Vincenzo Reale <smart2128vr@gmail.com>
+# SPDX-FileCopyrightText: 2009, 2016, 2018, 2019, 2020, 2022, 2023, 2024, 2025, 2026 Vincenzo Reale <smart2128vr@gmail.com>
 # Federico Zenith <federico.zenith@member.fsf.org>, 2009, 2010, 2011, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-26 00:40+0000\n"
-"PO-Revision-Date: 2025-06-28 20:49+0200\n"
+"PO-Revision-Date: 2026-03-26 11:22+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -16237,39 +16237,33 @@ msgstr[1] "%1 once per iarda quadrata"
 #, kde-format
 msgctxt "area unit symbol for silk fabric weight"
 msgid "momme"
-msgstr ""
+msgstr "momme"
 
 #: weight_per_area.cpp:49
 #, kde-format
 msgctxt "unit description for silk fabric weight in lists"
 msgid "momme"
-msgstr ""
+msgstr "momme"
 
 #: weight_per_area.cpp:50
 #, kde-format
 msgctxt "unit synonyms for silk fabric weight or matching user input"
 msgid "momme"
-msgstr ""
+msgstr "momme"
 
 #: weight_per_area.cpp:52
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megaohm"
-#| msgid_plural "%1 megaohms"
+#, kde-format
 msgctxt "amount of silk fabric weight in units (real)"
 msgid "%1 momme"
-msgstr "%1 megaohm"
+msgstr "%1 momme"
 
 #: weight_per_area.cpp:53
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megaohm"
-#| msgid_plural "%1 megaohms"
+#, kde-format
 msgctxt "amount of silk fabric weight in units (integer)"
 msgid "%1 momme"
 msgid_plural "%1 momme"
-msgstr[0] "%1 megaohm"
-msgstr[1] "%1 megaohm"
+msgstr[0] "%1 momme"
+msgstr[1] "%1 momme"
 
 #~ msgid "Invalid"
 #~ msgstr "Non valido"
