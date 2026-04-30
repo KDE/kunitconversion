@@ -2793,7 +2793,7 @@ msgstr "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 francúzskych frankov"
+msgstr "%1 CFP frankov"
 
 #: currency.cpp:265
 #, kde-format
@@ -2955,7 +2955,7 @@ msgstr "kroon;kroons;krooni"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kroons"
-msgstr "%1 korún"
+msgstr "%1 krúnov"
 
 #: currency.cpp:333
 #, kde-format
@@ -3468,7 +3468,7 @@ msgstr "rupia;rupie"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rupiahs"
-msgstr "%1 rupií"
+msgstr "%1 rupiahov"
 
 #: currency.cpp:544
 #, kde-format
@@ -4750,7 +4750,7 @@ msgstr "yoctoampér;yoctoampére;yA"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yoctoamperes"
-msgstr "%1 yoctoohmov"
+msgstr "%1 yoctoampérov"
 
 #: electrical_current.cpp:230
 #, kde-format
@@ -9232,7 +9232,7 @@ msgstr "rack unit;rack units;U;RU"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr "%1 realov"
+msgstr "%1 jednotiek racku"
 
 #: length.cpp:340
 #, kde-format
@@ -9298,7 +9298,7 @@ msgstr "chain;chains"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 chains"
-msgstr "%1 karáty"
+msgstr "%1 reťazcov"
 
 #: length.cpp:360
 #, kde-format
@@ -9331,7 +9331,7 @@ msgstr "furlong;furlongs"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 furlongs"
-msgstr "%1 dutých uncí"
+msgstr "%1 furlongov"
 
 #: length.cpp:369
 #, kde-format
@@ -9364,7 +9364,7 @@ msgstr "fathom;fathoms"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 fathoms"
-msgstr "%1 femtoohmov"
+msgstr "%1 siah"
 
 #: length.cpp:379
 #, kde-format
@@ -10453,7 +10453,7 @@ msgstr[2] "%1 mikrometrov  štvorcových"
 #: power.cpp:49
 #, kde-format
 msgid "Power"
-msgstr "Energia"
+msgstr "Výkon"
 
 #: power.cpp:51
 #, kde-format
@@ -15930,7 +15930,7 @@ msgstr "dl"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "deciliters"
-msgstr "dekalitre"
+msgstr "decilitre"
 
 #: volume.cpp:347
 #, kde-format
@@ -16446,7 +16446,7 @@ msgstr "teaspoon;teaspoons;tsp;tsps"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr "%1 terasekundy"
+msgstr "%1 čajových lyžičiek"
 
 #: volume.cpp:500
 #, kde-format
@@ -16479,7 +16479,7 @@ msgstr "tablespoon;tablespoons;tbsp;tbsps"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tablespoons"
-msgstr "%1 tony"
+msgstr "%1 polievkových lyžíc"
 
 #: volume.cpp:510
 #, kde-format
@@ -16681,7 +16681,7 @@ msgstr "g/m²"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "watt na štvorcový meter"
+msgstr "gramy na štvorcový meter"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -16695,7 +16695,7 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 wattov na štvorcový meter"
+msgstr "%1 gramov na štvorcový meter"
 
 #: weight_per_area.cpp:31
 #, kde-format
@@ -16716,7 +16716,7 @@ msgstr "oz/yd²"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "libry na kubický ýard"
+msgstr "unce na štvorcový yard"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -16732,7 +16732,7 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 libier na kubický yard"
+msgstr "%1 uncí na štvorcový yard"
 
 #: weight_per_area.cpp:42
 #, kde-format
