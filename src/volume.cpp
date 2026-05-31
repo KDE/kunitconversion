@@ -530,22 +530,22 @@ UnitCategory Volume::makeCategory()
                        ki18nc("amount in units (real)", "%1 gallons (imperial)"),
                        ki18ncp("amount in units (integer)", "%1 gallon (imperial)", "%1 gallons (imperial)")));
 
-    d->addCommonUnit(UnitPrivate::makeUnit(VolumeCategory,
+    d->addUnit(UnitPrivate::makeUnit(VolumeCategory,
                              PintImperial,
                              0.000568261,
-                             i18nc("volume unit symbol", "pt"),
+                             i18nc("volume unit symbol", "imperial pt"),
                              i18nc("unit description in lists", "pints (imperial)"),
-                             i18nc("unit synonyms for matching user input", "pint (imperial);pints (imperial);pt;pint;pints;p"),
+                             i18nc("unit synonyms for matching user input", "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;imperial p"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 pints (imperial)"),
                              ki18ncp("amount in units (integer)", "%1 pint (imperial)", "%1 pints (imperial)")));
 
-    d->addUnit(UnitPrivate::makeUnit(VolumeCategory,
+    d->addCommonUnit(UnitPrivate::makeUnit(VolumeCategory,
                        PintUS,
                        0.000473176,
-                       i18nc("volume unit symbol", "US pt"),
+                       i18nc("volume unit symbol", "pt"),
                        i18nc("unit description in lists", "pints (U.S. liquid)"),
-                       i18nc("unit synonyms for matching user input", "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"),
+                       i18nc("unit synonyms for matching user input", "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 pints (U.S. liquid)"),
                        ki18ncp("amount in units (integer)", "%1 pint (U.S. liquid)", "%1 pints (U.S. liquid)")));
