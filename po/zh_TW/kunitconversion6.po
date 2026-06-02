@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 00:40+0000\n"
+"POT-Creation-Date: 2026-06-02 00:39+0000\n"
 "PO-Revision-Date: 2026-04-08 23:08+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -15583,10 +15583,12 @@ msgid_plural "%1 gallons (imperial)"
 msgstr[0] "%1（英制）加侖"
 
 #: volume.cpp:536
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "fuelefficiency unit symbol"
+#| msgid "mpg (imperial)"
 msgctxt "volume unit symbol"
-msgid "pt"
-msgstr "pt"
+msgid "imperial pt"
+msgstr "英哩/特級加侖"
 
 #: volume.cpp:537
 #, kde-format
@@ -15595,9 +15597,13 @@ msgid "pints (imperial)"
 msgstr "品脫（英制）"
 
 #: volume.cpp:538
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+msgid ""
+"pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
+"imperial p"
 msgstr "品脫;pint (imperial);pints (imperial);pt;pint;pints;p"
 
 #: volume.cpp:540
@@ -15616,8 +15622,8 @@ msgstr[0] "%1（英制）品脫"
 #: volume.cpp:546
 #, kde-format
 msgctxt "volume unit symbol"
-msgid "US pt"
-msgstr "US pt"
+msgid "pt"
+msgstr "pt"
 
 #: volume.cpp:547
 #, kde-format
@@ -15626,9 +15632,11 @@ msgid "pints (U.S. liquid)"
 msgstr "品脫（美式液量單位）"
 
 #: volume.cpp:548
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr "品脫（美式液量單位）;pints (U.S. liquid);US pt;US pint;US pints;US p"
 
 #: volume.cpp:550
@@ -15787,3 +15795,7 @@ msgctxt "amount of silk fabric weight in units (integer)"
 msgid "%1 momme"
 msgid_plural "%1 momme"
 msgstr[0] "%1 匁"
+
+#~ msgctxt "volume unit symbol"
+#~ msgid "US pt"
+#~ msgstr "US pt"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 00:40+0000\n"
+"POT-Creation-Date: 2026-06-02 00:39+0000\n"
 "PO-Revision-Date: 2026-03-26 13:00+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -17298,10 +17298,12 @@ msgstr[2] "%1 галонів (імперських)"
 msgstr[3] "%1 галон (імперська)"
 
 #: volume.cpp:536
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "fuelefficiency unit symbol"
+#| msgid "mpg (imperial)"
 msgctxt "volume unit symbol"
-msgid "pt"
-msgstr "пінта"
+msgid "imperial pt"
+msgstr "милі на галон (імперський)"
 
 #: volume.cpp:537
 #, kde-format
@@ -17310,9 +17312,13 @@ msgid "pints (imperial)"
 msgstr "пінти (імперські)"
 
 #: volume.cpp:538
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+msgid ""
+"pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
+"imperial p"
 msgstr ""
 "пінта (імперська);пінти (імперських);пінти (імперські);пінт (імперських);"
 "пінтах (імперських);пінта;пінти;пінт;пінтах"
@@ -17336,8 +17342,8 @@ msgstr[3] "%1 пінта (імперська)"
 #: volume.cpp:546
 #, kde-format
 msgctxt "volume unit symbol"
-msgid "US pt"
-msgstr "пінта (США)"
+msgid "pt"
+msgstr "пінта"
 
 #: volume.cpp:547
 #, kde-format
@@ -17346,9 +17352,11 @@ msgid "pints (U.S. liquid)"
 msgstr "пінти (рідини у США)"
 
 #: volume.cpp:548
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr ""
 "пінта (рідини у США);пінти (рідини у США);пінти (рідини у США);пінт (рідини "
 "у США);пінтах (рідини у США);пінта (США);пінти (США);пінт (США);пінтах (США)"
@@ -17521,3 +17529,7 @@ msgstr[0] "%1 момме"
 msgstr[1] "%1 момме"
 msgstr[2] "%1 момме"
 msgstr[3] "%1 момме"
+
+#~ msgctxt "volume unit symbol"
+#~ msgid "US pt"
+#~ msgstr "пінта (США)"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 00:40+0000\n"
+"POT-Creation-Date: 2026-06-02 00:39+0000\n"
 "PO-Revision-Date: 2020-01-30 19:52+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -16475,10 +16475,12 @@ msgstr[0] "%1 pint (britisk)"
 msgstr[1] "%1 pint (britisk)"
 
 #: volume.cpp:536
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "fuelefficiency unit symbol"
+#| msgid "mpg (imperial)"
 msgctxt "volume unit symbol"
-msgid "pt"
-msgstr "pt"
+msgid "imperial pt"
+msgstr "mpg (britisk)"
 
 #: volume.cpp:537
 #, kde-format
@@ -16487,9 +16489,13 @@ msgid "pints (imperial)"
 msgstr "pint (britisk)"
 
 #: volume.cpp:538
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+msgid ""
+"pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
+"imperial p"
 msgstr "pint (britisk);pints (britisk);pt;pint;pints;p"
 
 #: volume.cpp:540
@@ -16509,8 +16515,8 @@ msgstr[1] "%1 pint (britisk)"
 #: volume.cpp:546
 #, kde-format
 msgctxt "volume unit symbol"
-msgid "US pt"
-msgstr ""
+msgid "pt"
+msgstr "pt"
 
 #: volume.cpp:547
 #, fuzzy, kde-format
@@ -16525,7 +16531,7 @@ msgstr "gallon (US, flydende)"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr "pint (britisk);pints (britisk);pt;pint;pints;p"
 
 #: volume.cpp:550

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 00:40+0000\n"
+"POT-Creation-Date: 2026-06-02 00:39+0000\n"
 "PO-Revision-Date: 2024-11-23 12:10+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -16097,10 +16097,12 @@ msgstr[0] "%1 gallon (imperial)"
 msgstr[1] "%1 gallons (imperial)"
 
 #: volume.cpp:536
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "fuelefficiency unit symbol"
+#| msgid "mpg (imperial)"
 msgctxt "volume unit symbol"
-msgid "pt"
-msgstr "pt"
+msgid "imperial pt"
+msgstr "mpg (imperial)"
 
 #: volume.cpp:537
 #, kde-format
@@ -16109,9 +16111,13 @@ msgid "pints (imperial)"
 msgstr "pints (imperial)"
 
 #: volume.cpp:538
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+msgid ""
+"pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
+"imperial p"
 msgstr "pint (imperial);pints (imperial);pt;pint;pints;p"
 
 #: volume.cpp:540
@@ -16131,8 +16137,8 @@ msgstr[1] "%1 pints (imperial)"
 #: volume.cpp:546
 #, kde-format
 msgctxt "volume unit symbol"
-msgid "US pt"
-msgstr "US pt"
+msgid "pt"
+msgstr "pt"
 
 #: volume.cpp:547
 #, kde-format
@@ -16141,9 +16147,11 @@ msgid "pints (U.S. liquid)"
 msgstr "pints (U.S. liquid)"
 
 #: volume.cpp:548
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
 
 #: volume.cpp:550
@@ -16310,6 +16318,10 @@ msgid "%1 momme"
 msgid_plural "%1 momme"
 msgstr[0] "%1 megaohm"
 msgstr[1] "%1 megaohms"
+
+#~ msgctxt "volume unit symbol"
+#~ msgid "US pt"
+#~ msgstr "US pt"
 
 #~ msgid "Invalid"
 #~ msgstr "Invalid"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 00:40+0000\n"
+"POT-Creation-Date: 2026-06-02 00:39+0000\n"
 "PO-Revision-Date: 2016-11-28 01:32+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -17816,10 +17816,12 @@ msgstr[2] "%1 pinti (imperijalnih)"
 msgstr[3] "%1 pinta (imperijalna)"
 
 #: volume.cpp:536
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "fuelefficiency unit symbol"
+#| msgid "mpg (imperial)"
 msgctxt "volume unit symbol"
-msgid "pt"
-msgstr "pt"
+msgid "imperial pt"
+msgstr "mi/gal (imperijalni)"
 
 #: volume.cpp:537
 #, kde-format
@@ -17828,9 +17830,13 @@ msgid "pints (imperial)"
 msgstr "pinta (imperijalna)"
 
 #: volume.cpp:538
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+msgid ""
+"pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
+"imperial p"
 msgstr ""
 "pt;p;pinta;pinte;pinti;pintama;pinta imperijalna;pinte imperijalne;pinta "
 "imperijalnih;pintama imperijalnim"
@@ -17854,8 +17860,8 @@ msgstr[3] "%1 pinta (imperijalna)"
 #: volume.cpp:546
 #, kde-format
 msgctxt "volume unit symbol"
-msgid "US pt"
-msgstr ""
+msgid "pt"
+msgstr "pt"
 
 #: volume.cpp:547
 #, fuzzy, kde-format
@@ -17870,7 +17876,7 @@ msgstr "galon (SAD tečni)"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr ""
 "pt;p;pinta;pinte;pinti;pintama;pinta imperijalna;pinte imperijalne;pinta "
 "imperijalnih;pintama imperijalnim"

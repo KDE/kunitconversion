@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 00:40+0000\n"
+"POT-Creation-Date: 2026-06-02 00:39+0000\n"
 "PO-Revision-Date: 2024-12-20 12:26+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -16082,10 +16082,12 @@ msgstr[0] "%1 गैलन (शाही)"
 msgstr[1] "%1 गैलन (शाही)"
 
 #: volume.cpp:536
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "fuelefficiency unit symbol"
+#| msgid "mpg (imperial)"
 msgctxt "volume unit symbol"
-msgid "pt"
-msgstr "pt"
+msgid "imperial pt"
+msgstr "mpg (शाही)"
 
 #: volume.cpp:537
 #, kde-format
@@ -16094,9 +16096,13 @@ msgid "pints (imperial)"
 msgstr "पिण्ट (शाही)"
 
 #: volume.cpp:538
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+msgid ""
+"pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
+"imperial p"
 msgstr "पिंट (शाही);पिंट (शाही);pt;पिंट;पिंट;पृ"
 
 #: volume.cpp:540
@@ -16116,8 +16122,8 @@ msgstr[1] "%1 पिण्ट (शाही)"
 #: volume.cpp:546
 #, kde-format
 msgctxt "volume unit symbol"
-msgid "US pt"
-msgstr "अमेरिकी pt"
+msgid "pt"
+msgstr "pt"
 
 #: volume.cpp:547
 #, kde-format
@@ -16126,9 +16132,11 @@ msgid "pints (U.S. liquid)"
 msgstr "पिण्ट् (U.S. liquid)"
 
 #: volume.cpp:548
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr ""
 "पिंट (अमेरिकी द्रव);पिंट (अमेरिकी द्रव);अमेरिका pt;अमेरिकी पिंट;अमेरिकी पिंट;अमेरिका पृ"
 
@@ -16293,3 +16301,7 @@ msgid "%1 momme"
 msgid_plural "%1 momme"
 msgstr[0] "%1 मेगाओम्"
 msgstr[1] "%1 मेगाओम्स्"
+
+#~ msgctxt "volume unit symbol"
+#~ msgid "US pt"
+#~ msgstr "अमेरिकी pt"

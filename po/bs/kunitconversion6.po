@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-26 00:40+0000\n"
+"POT-Creation-Date: 2026-06-02 00:39+0000\n"
 "PO-Revision-Date: 2012-09-03 15:41+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: bosanski <bs@li.org>\n"
@@ -18927,10 +18927,12 @@ msgstr[1] "%1 pinte (imperijalne)"
 msgstr[2] "%1 pinti (imperijalnih)"
 
 #: volume.cpp:536
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "fuelefficiency unit symbol"
+#| msgid "mpg (imperial)"
 msgctxt "volume unit symbol"
-msgid "pt"
-msgstr "pt"
+msgid "imperial pt"
+msgstr "mi/gal (imperijalni)"
 
 #: volume.cpp:537
 #, kde-format
@@ -18939,9 +18941,13 @@ msgid "pints (imperial)"
 msgstr "pinta (imperijalna)"
 
 #: volume.cpp:538
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+msgid ""
+"pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
+"imperial p"
 msgstr ""
 "p;pinta;pinta imperijalna;pinta imperijalnih;pintama;pintama imperijalnim;"
 "pinte;pinte imperijalne;pinti;pt;pinta;pinta imperijalna;pinta imperijalnih;"
@@ -18965,8 +18971,8 @@ msgstr[2] "%1 pinti (imperijalnih)"
 #: volume.cpp:546
 #, kde-format
 msgctxt "volume unit symbol"
-msgid "US pt"
-msgstr ""
+msgid "pt"
+msgstr "pt"
 
 #: volume.cpp:547
 #, fuzzy, kde-format
@@ -18981,7 +18987,7 @@ msgstr "galon (SAD tečni)"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
 msgctxt "unit synonyms for matching user input"
-msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr ""
 "p;pinta;pinta imperijalna;pinta imperijalnih;pintama;pintama imperijalnim;"
 "pinte;pinte imperijalne;pinti;pt;pinta;pinta imperijalna;pinta imperijalnih;"
