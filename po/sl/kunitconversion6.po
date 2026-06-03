@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-02 00:39+0000\n"
-"PO-Revision-Date: 2026-03-26 06:36+0100\n"
+"PO-Revision-Date: 2026-06-02 06:56+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -17370,12 +17370,10 @@ msgstr[2] "%1 galoni (imperialni)"
 msgstr[3] "%1 galone (imperialne)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "mpg (imperialno)"
+msgstr "imperialna pt"
 
 #: volume.cpp:537
 #, kde-format
@@ -17384,16 +17382,14 @@ msgid "pints (imperial)"
 msgstr "pinte (imperialne)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
 msgstr ""
-"pinta (imperialna);pinti (imperialni);pinte (imperialne);pint (imperialnih);"
-"pt;p"
+"pint (imperialna);pinte (imperialne);imperial pt;imperialna pinta;imperialne "
+"pinte;imperial p"
 
 #: volume.cpp:540
 #, kde-format
@@ -17424,13 +17420,10 @@ msgid "pints (U.S. liquid)"
 msgstr "pinte (ameriške tekočinske)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
-msgstr ""
-"pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p;pinta ZDA"
+msgstr "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 
 #: volume.cpp:550
 #, kde-format

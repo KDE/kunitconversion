@@ -6,13 +6,13 @@
 # Ozan Çağlayan <ozan@pardus.org.tr>, 2010, 2011.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2017.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
-# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022-2026 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-02 00:39+0000\n"
-"PO-Revision-Date: 2026-03-27 00:53+0300\n"
+"PO-Revision-Date: 2026-06-02 13:07+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.04.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -16058,12 +16058,10 @@ msgstr[0] "%1 galon (emperyal)"
 msgstr[1] "%1 galon (emperyal)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "İngiliz galonunda mil"
+msgstr "imparatorluk pt"
 
 #: volume.cpp:537
 #, kde-format
@@ -16072,14 +16070,14 @@ msgid "pints (imperial)"
 msgstr "pint (İngiliz)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
-msgstr "pint (İngiliz);pint(İngiliz);pt;pint;pint;p"
+msgstr ""
+"pint (imparatorluk);pint(imparatorluk);pt;pint;pint;p;imparatorlut pt;"
+"imparatorluk p"
 
 #: volume.cpp:540
 #, kde-format
@@ -16108,14 +16106,10 @@ msgid "pints (U.S. liquid)"
 msgstr "pint (Amerikan sıvı)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
-msgstr ""
-"pint (Amerikan sıvı);US pt;US pint;US pints;US p;Amerikan pt;Amerikan pint;"
-"Amerikan pints;ABD p"
+msgstr "pint (Amerikan sıvı);US pt;US pint;US pints;US p;pt;pint;pints;p"
 
 #: volume.cpp:550
 #, kde-format

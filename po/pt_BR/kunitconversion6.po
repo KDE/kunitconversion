@@ -4,13 +4,13 @@
 #
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2014, 2015, 2016, 2018, 2019.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2017, 2018, 2019, 2020, 2022, 2023.
-# SPDX-FileCopyrightText: 2025, 2026 Marcus Gama <marcus.gama@gmail.com>
+# SPDX-FileCopyrightText: 2025-2026 Marcus Gama <marcus.gama@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-02 00:39+0000\n"
-"PO-Revision-Date: 2026-03-26 07:51-0300\n"
+"PO-Revision-Date: 2026-06-02 07:33-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -16058,42 +16058,40 @@ msgstr[0] "%1 galão (imperial)"
 msgstr[1] "%1 galões (imperial)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "mpg (imperial)"
+msgstr "Pinta imperial"
 
 #: volume.cpp:537
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pints (imperial)"
-msgstr "pints (imperial)"
+msgstr "pintas (imperial)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
-msgstr "pint (imperial);pints (imperial);pt;pint;pints;p"
+msgstr ""
+"pinta (imperial); pintas (imperial); pt imperial; pinta imperial; pintas "
+"imperiais;p imperial"
 
 #: volume.cpp:540
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pints (imperial)"
-msgstr "%1 pints (imperial)"
+msgstr "%1 pintas (imperial)"
 
 #: volume.cpp:541
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pint (imperial)"
 msgid_plural "%1 pints (imperial)"
-msgstr[0] "%1 pint (imperial)"
-msgstr[1] "%1 pints (imperial)"
+msgstr[0] "%1 pinta (imperial)"
+msgstr[1] "%1 pintas (imperial)"
 
 #: volume.cpp:546
 #, kde-format
@@ -16105,17 +16103,13 @@ msgstr "pt"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pints (U.S. liquid)"
-msgstr "pints (líquidos EUA)"
+msgstr "pintas (líquidos EUA)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
-msgstr ""
-"pint (líquido EUA);pints (líquido EUA);US pt;US pint;US pints;US p;pt EUA;"
-"pint EUA;pints EUA;"
+msgstr "pinta (líquido EUA);pintas (líquido EUA);pt;pinta;pintas;p"
 
 #: volume.cpp:550
 #, kde-format

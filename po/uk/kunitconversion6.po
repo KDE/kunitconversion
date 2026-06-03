@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-02 00:39+0000\n"
-"PO-Revision-Date: 2026-03-26 13:00+0200\n"
+"PO-Revision-Date: 2026-06-02 08:41+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -17298,12 +17298,10 @@ msgstr[2] "%1 галонів (імперських)"
 msgstr[3] "%1 галон (імперська)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "милі на галон (імперський)"
+msgstr "імперська пінта"
 
 #: volume.cpp:537
 #, kde-format
@@ -17312,16 +17310,15 @@ msgid "pints (imperial)"
 msgstr "пінти (імперські)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
 msgstr ""
 "пінта (імперська);пінти (імперських);пінти (імперські);пінт (імперських);"
-"пінтах (імперських);пінта;пінти;пінт;пінтах"
+"пінтах (імперських);пінта;пінти;пінт;пінтах;імперська пінта;імперські пінти;"
+"імперських пінт;імперські п"
 
 #: volume.cpp:540
 #, kde-format
@@ -17352,14 +17349,12 @@ msgid "pints (U.S. liquid)"
 msgstr "пінти (рідини у США)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr ""
 "пінта (рідини у США);пінти (рідини у США);пінти (рідини у США);пінт (рідини "
-"у США);пінтах (рідини у США);пінта (США);пінти (США);пінт (США);пінтах (США)"
+"у США);пінтах (рідини у США);пінта;пінти;пінт;пінтах"
 
 #: volume.cpp:550
 #, kde-format

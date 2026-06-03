@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: kunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-02 00:39+0000\n"
-"PO-Revision-Date: 2026-03-26 11:42+0100\n"
+"PO-Revision-Date: 2026-06-02 08:49+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -16080,12 +16080,10 @@ msgstr[0] "%1 galó (imperial)"
 msgstr[1] "%1 galons (imperial)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "mpg (imperial)"
+msgstr "pinta imperial"
 
 #: volume.cpp:537
 #, kde-format
@@ -16094,14 +16092,14 @@ msgid "pints (imperial)"
 msgstr "pintes (imperials)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
-msgstr "pinta (imperial);pintes (imperials);pt;pinta;pintes;p"
+msgstr ""
+"pinta (imperial);pintes (imperials);pt imperial;pinta imperial;pintes "
+"imperials;p imperial"
 
 #: volume.cpp:540
 #, kde-format
@@ -16130,14 +16128,10 @@ msgid "pints (U.S. liquid)"
 msgstr "pintes (líquid EUA)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
-msgstr ""
-"pinta (líquid EUA);pintes (líquid EUA);pt EUA;pinta EUA;pintes EUA;p EUA;US "
-"pt;US pint;US pints;US p"
+msgstr "pinta (líquid EUA);pintes (líquid EUA);pt;pinta;pintes;p"
 
 #: volume.cpp:550
 #, kde-format
@@ -16297,7 +16291,3 @@ msgid "%1 momme"
 msgid_plural "%1 momme"
 msgstr[0] "%1 momme"
 msgstr[1] "%1 mommes"
-
-#~ msgctxt "volume unit symbol"
-#~ msgid "US pt"
-#~ msgstr "pt EUA"
