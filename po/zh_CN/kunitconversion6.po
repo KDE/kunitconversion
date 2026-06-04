@@ -15583,12 +15583,10 @@ msgid_plural "%1 gallons (imperial)"
 msgstr[0] "%1 加仑 (英制)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "mpg (imperial)"
+msgstr ""
 
 #: volume.cpp:537
 #, kde-format
@@ -15597,14 +15595,12 @@ msgid "pints (imperial)"
 msgstr "品脱(英制)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
-msgstr "品脱;品脱(英制);pint (imperial);pints (imperial);pt;pint;pints;p"
+msgstr ""
 
 #: volume.cpp:540
 #, kde-format
@@ -15632,14 +15628,10 @@ msgid "pints (U.S. liquid)"
 msgstr "品脱 (美国液体)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr ""
-"pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p;品脱 (美国"
-"液体)"
 
 #: volume.cpp:550
 #, kde-format
@@ -15795,7 +15787,3 @@ msgctxt "amount of silk fabric weight in units (integer)"
 msgid "%1 momme"
 msgid_plural "%1 momme"
 msgstr[0] "%1 姆米"
-
-#~ msgctxt "volume unit symbol"
-#~ msgid "US pt"
-#~ msgstr "US pt"
