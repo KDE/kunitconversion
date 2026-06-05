@@ -4,7 +4,7 @@
 # Sébastien Renard <renard@kde.org>, 2010, 2011.
 # Vincent Pinon <vpinon@kde.org>, 2016.
 # Simon Depiets <sdepiets@gmail.com>, 2017, 2019, 2020.
-# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024, 2025, 2026 Xavier Besnard <xavier.besnard@kde.org>
+# SPDX-FileCopyrightText: 2021-2026 Xavier Besnard <xavier.besnard@kde.org>
 # Xavier Besnard <xavier.besnard@kde.org>, 2023.
 #
 msgid ""
@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-02 00:39+0000\n"
-"PO-Revision-Date: 2026-03-27 10:20+0100\n"
+"PO-Revision-Date: 2026-06-03 21:42+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: \n"
+"Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Accelerator-Marker: &\n"
 "X-Environment: kde\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.1\n"
 "X-Text-Markup: kde4\n"
 
 #: acceleration.cpp:17
@@ -16077,12 +16077,10 @@ msgstr[0] "%1 gallon (impérial)"
 msgstr[1] "%1 gallons (impériaux)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "mpg (impérial)"
+msgstr "pt impérial"
 
 #: volume.cpp:537
 #, kde-format
@@ -16091,14 +16089,14 @@ msgid "pints (imperial)"
 msgstr "pintes (impériales)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
-msgstr "pinte (impériale);pintes (impériales);pt;pinte;pintes;p"
+msgstr ""
+"pinte (Impériale) ; pintes (Impériales) ; pt impériale ; pinte impériale ; "
+"pintes impériales ; p impériale"
 
 #: volume.cpp:540
 #, kde-format
@@ -16127,14 +16125,12 @@ msgid "pints (U.S. liquid)"
 msgstr "pintes (américaines)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr ""
-"pinte (américaine);pintes (américaines);pt américaine;pinte américaine;"
-"pintes américaines;p américaine"
+"pinte (Américaine) ; pintes (Américaines) ; pt américaine ; pinte "
+"américaine ; pintes américaines ; p américaine"
 
 #: volume.cpp:550
 #, kde-format

@@ -15586,13 +15586,13 @@ msgstr[0] "%1 加仑 (英制)"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr ""
+msgstr "imperial pt"
 
 #: volume.cpp:537
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pints (imperial)"
-msgstr "品脱(英制)"
+msgstr "品脱 (英制)"
 
 #: volume.cpp:538
 #, kde-format
@@ -15601,19 +15601,21 @@ msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
 msgstr ""
+"pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
+"imperial p;品脱;品脱英制;英制品脱"
 
 #: volume.cpp:540
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pints (imperial)"
-msgstr "%1 品脱(英制)"
+msgstr "%1 品脱 (英制)"
 
 #: volume.cpp:541
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pint (imperial)"
 msgid_plural "%1 pints (imperial)"
-msgstr[0] "%1 品脱(英制)"
+msgstr[0] "%1 品脱 (英制)"
 
 #: volume.cpp:546
 #, kde-format
@@ -15632,6 +15634,7 @@ msgstr "品脱 (美国液体)"
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr ""
+"pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p;品脱;品脱英制;英制品脱"
 
 #: volume.cpp:550
 #, kde-format
