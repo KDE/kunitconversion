@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-02 00:39+0000\n"
-"PO-Revision-Date: 2026-04-01 18:24+0400\n"
+"PO-Revision-Date: 2026-06-05 13:58+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -18051,12 +18051,10 @@ msgstr[4] "%1 جالونًا (إمبراطوريًا)"
 msgstr[5] "%1 جالونًا (إمبراطوريًا)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "ميل/جالون (إمبراطوري)"
+msgstr "بينت إمبراطوريّ"
 
 #: volume.cpp:537
 #, kde-format
@@ -18065,14 +18063,14 @@ msgid "pints (imperial)"
 msgstr "باينت (امبراطوري)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
-msgstr "باينت (إمبراطوري);باينتات (إمبراطورية);pt;pint;pints;p"
+msgstr ""
+" (إمبراطوري)؛ بينتات (إمبراطورية)؛ بت إمبراطوري؛ بينت إمبراطوري؛ بينتات "
+"إمبراطورية؛ ب إمبراطوري"
 
 #: volume.cpp:540
 #, kde-format
@@ -18105,13 +18103,10 @@ msgid "pints (U.S. liquid)"
 msgstr "باينتات (سائلة أمريكية)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
-msgstr ""
-"باينت (سائل أمريكي);باينتات (سائلة أمريكية);US pt;US pint;US pints;US p"
+msgstr "بينت (سائل أمريكي)؛بينتات (سائل أمريكي)؛بت؛بينت؛بينتات؛ب"
 
 #: volume.cpp:550
 #, kde-format
