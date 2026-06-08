@@ -16561,12 +16561,10 @@ msgstr[1] "%1 galóny (imperiálne)"
 msgstr[2] "%1 galónov (imperiálnych)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "mpg (imperiálna)"
+msgstr "imperiálny pt"
 
 #: volume.cpp:537
 #, kde-format
@@ -16575,14 +16573,14 @@ msgid "pints (imperial)"
 msgstr "pinty (imperiálne)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
-msgstr "pinta (imperiálna);pinty (imperiálne);pt;pinta;pinty;p"
+msgstr ""
+"pinta (imperiálna);pinty (imperiálne);imperiálny pt;imperiálna pinta;"
+"imperiálne pinty;imperiálny p"
 
 #: volume.cpp:540
 #, kde-format
@@ -16612,13 +16610,10 @@ msgid "pints (U.S. liquid)"
 msgstr "pinty (U.S. kvapalina)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
-msgstr ""
-"pinta (U.S. kvapalina);pinty (U.S. kvapalina);US pt;US pinta;pinty;US p"
+msgstr "pinta (U.S. kvapalina);pinty (U.S. kvapalina);pt;pinta;pinty;p"
 
 #: volume.cpp:550
 #, kde-format
