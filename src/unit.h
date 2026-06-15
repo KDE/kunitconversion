@@ -305,6 +305,11 @@ enum CategoryId {
  * \value JoulePerMole
  * \value [since 5.27] Btu
  * \value [since 5.27] Erg
+ * \value [since 6.28] TeraWattHour,
+ * \value [since 6.28] GigaWattHour,
+ * \value [since 6.28] MegawattHour
+ * \value [since 6.28] KilowattHour
+ * \value [since 6.28] WattHour
  *
  * \value Eur
  * \value Ats
@@ -870,6 +875,11 @@ enum UnitId {
     JoulePerMole,
     Btu,
     Erg,
+    TeraWattHour, /// @since 6.28
+    GigaWattHour, /// @since 6.28
+    MegaWattHour, /// @since 6.28
+    KiloWattHour, /// @since 6.28
+    WattHour, /// @since 6.28
 
     // Currency
     Eur = 8000,

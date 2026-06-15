@@ -44,6 +44,16 @@ void ValueTest::testConvert()
     QCOMPARE(v1.number(), 3140.0);
 }
 
+void ValueTest::testConvertEnergy()
+{
+    Value jToKwh = Value(10800, Joule);
+    jToKwh = jToKwh.convertTo(WattHour);
+    QCOMPARE(jToKwh.number(), 3.0);
+    Value KwhToKj = Value(2, KiloWattHour);
+    KwhToKj = KwhToKj.convertTo(Kilojoule);
+    QCOMPARE(KwhToKj.number(), 7200.0);
+}
+
 void ValueTest::testInvalid()
 {
     v1 = v1.convertTo(UnitId(99999));

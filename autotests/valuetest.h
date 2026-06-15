@@ -21,6 +21,7 @@ private Q_SLOTS:
     void testStrings();
     void testRound();
     void testConvert();
+    void testConvertEnergy();
     void testInvalid();
     void testCurrencyNotDownloaded();
 
