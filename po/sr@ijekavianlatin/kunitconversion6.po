@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-02 00:39+0000\n"
+"POT-Creation-Date: 2026-06-16 00:40+0000\n"
 "PO-Revision-Date: 2016-11-28 01:32+0100\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -7127,6 +7127,222 @@ msgstr[0] "%1 nanometar"
 msgstr[1] "%1 nanometra"
 msgstr[2] "%1 nanometara"
 msgstr[3] "%1 nanometar"
+
+#: energy.cpp:352
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "TW⋅h"
+msgstr ""
+
+#: energy.cpp:353
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "terawatts"
+msgctxt "unit description in lists"
+msgid "terawatt-hour"
+msgstr "teravat"
+
+#: energy.cpp:354
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "terawatt;terawatts;TW"
+msgctxt "unit synonyms for matching user input"
+msgid "terawattHour;terawatt Hour;TWh;Twh;TW⋅h"
+msgstr "TW;teravat;teravati;teravata;teravate;teravatima"
+
+#: energy.cpp:356
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 terawatt"
+#| msgid_plural "%1 terawatts"
+msgctxt "amount in units (real)"
+msgid "%1 terawatt-hour"
+msgstr "%1 teravat"
+
+#: energy.cpp:357
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 terawatt"
+#| msgid_plural "%1 terawatts"
+msgctxt "amount in units (integer)"
+msgid "%1 terawatt-hour"
+msgid_plural "%1 terawatt-hours"
+msgstr[0] "%1 teravat"
+msgstr[1] "%1 teravata"
+msgstr[2] "%1 teravati"
+msgstr[3] "%1 teravat"
+
+#: energy.cpp:362
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "GW⋅h"
+msgstr ""
+
+#: energy.cpp:363
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "gigawatts"
+msgctxt "unit description in lists"
+msgid "gigawatt-hour"
+msgstr "gigavat"
+
+#: energy.cpp:364
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "gigawatt;gigawatts;GW"
+msgctxt "unit synonyms for matching user input"
+msgid "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h"
+msgstr "GW;gigavat;gigavati;gigavata;gigavate;gigavatima"
+
+#: energy.cpp:366
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 gigawatt"
+#| msgid_plural "%1 gigawatts"
+msgctxt "amount in units (real)"
+msgid "%1 gigawatt-hour"
+msgstr "%1 gigavat"
+
+#: energy.cpp:367
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 gigawatt"
+#| msgid_plural "%1 gigawatts"
+msgctxt "amount in units (integer)"
+msgid "%1 gigawatt-hour"
+msgid_plural "%1 gigawatt-hours"
+msgstr[0] "%1 gigavat"
+msgstr[1] "%1 gigavata"
+msgstr[2] "%1 gigavati"
+msgstr[3] "%1 gigavat"
+
+#: energy.cpp:372
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "MW⋅h"
+msgstr ""
+
+#: energy.cpp:373
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "megawatts"
+msgctxt "unit description in lists"
+msgid "megawatt-hour"
+msgstr "megavat"
+
+#: energy.cpp:374
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "megawatt;megawatts;MW"
+msgctxt "unit synonyms for matching user input"
+msgid "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h"
+msgstr "MW;megavat;megavati;megavata;megavate;megavatima"
+
+#: energy.cpp:376
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 megawatt"
+#| msgid_plural "%1 megawatts"
+msgctxt "amount in units (real)"
+msgid "%1 megawatt-hour"
+msgstr "%1 megavat"
+
+#: energy.cpp:377
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 megawatt"
+#| msgid_plural "%1 megawatts"
+msgctxt "amount in units (integer)"
+msgid "%1 megawatt-hour"
+msgid_plural "%1 megawatt-hours"
+msgstr[0] "%1 megavat"
+msgstr[1] "%1 megavata"
+msgstr[2] "%1 megavati"
+msgstr[3] "%1 megavat"
+
+#: energy.cpp:382
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "kW⋅h"
+msgstr ""
+
+#: energy.cpp:383
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "kilowatts"
+msgctxt "unit description in lists"
+msgid "kilowatt-hour"
+msgstr "kilovat"
+
+#: energy.cpp:384
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilowatt;kilowatts;kW"
+msgctxt "unit synonyms for matching user input"
+msgid "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h"
+msgstr "kW;kv;kilovat;kilovati;kilovata;kilovate;kilovatima"
+
+#: energy.cpp:386
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 kilowatt"
+#| msgid_plural "%1 kilowatts"
+msgctxt "amount in units (real)"
+msgid "%1 kilowatt-hour"
+msgstr "%1 kilovat"
+
+#: energy.cpp:387
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 kilowatt"
+#| msgid_plural "%1 kilowatts"
+msgctxt "amount in units (integer)"
+msgid "%1 kilowatt-hour"
+msgid_plural "%1 kilowatt-hours"
+msgstr[0] "%1 kilovat"
+msgstr[1] "%1 kilovata"
+msgstr[2] "%1 kilovati"
+msgstr[3] "%1 kilovat"
+
+#: energy.cpp:392
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "W⋅h"
+msgstr ""
+
+#: energy.cpp:393
+#, kde-format
+msgctxt "unit description in lists"
+msgid "watt-hour"
+msgstr ""
+
+#: energy.cpp:394
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "wattHour;watt Hour;Wh;wh;W⋅h"
+msgstr ""
+
+#: energy.cpp:396
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 watt"
+#| msgid_plural "%1 watts"
+msgctxt "amount in units (real)"
+msgid "%1 watt-hour"
+msgstr "%1 vat"
+
+#: energy.cpp:397
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 watt"
+#| msgid_plural "%1 watts"
+msgctxt "amount in units (integer)"
+msgid "%1 watt-hour"
+msgid_plural "%1 watt-hours"
+msgstr[0] "%1 vat"
+msgstr[1] "%1 vata"
+msgstr[2] "%1 vati"
+msgstr[3] "%1 vat"
 
 # skip-rule: t-force
 #: force.cpp:17

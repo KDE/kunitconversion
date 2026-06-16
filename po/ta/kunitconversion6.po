@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-02 00:39+0000\n"
+"POT-Creation-Date: 2026-06-16 00:40+0000\n"
 "PO-Revision-Date: 2024-11-24 16:49+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -6265,6 +6265,196 @@ msgid "%1 nanometer"
 msgid_plural "%1 nanometers"
 msgstr[0] ""
 msgstr[1] ""
+
+#: energy.cpp:352
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "TW⋅h"
+msgstr ""
+
+#: energy.cpp:353
+#, kde-format
+msgctxt "unit description in lists"
+msgid "terawatt-hour"
+msgstr ""
+
+#: energy.cpp:354
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "terawattHour;terawatt Hour;TWh;Twh;TW⋅h"
+msgstr ""
+
+#: energy.cpp:356
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (real)"
+msgid "%1 terawatt-hour"
+msgstr "%1 மணிநேரம்"
+
+#: energy.cpp:357
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (integer)"
+msgid "%1 terawatt-hour"
+msgid_plural "%1 terawatt-hours"
+msgstr[0] "%1 மணிநேரம்"
+msgstr[1] "%1 மணிநேரம்"
+
+#: energy.cpp:362
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "GW⋅h"
+msgstr ""
+
+#: energy.cpp:363
+#, kde-format
+msgctxt "unit description in lists"
+msgid "gigawatt-hour"
+msgstr ""
+
+#: energy.cpp:364
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h"
+msgstr ""
+
+#: energy.cpp:366
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (real)"
+msgid "%1 gigawatt-hour"
+msgstr "%1 மணிநேரம்"
+
+#: energy.cpp:367
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (integer)"
+msgid "%1 gigawatt-hour"
+msgid_plural "%1 gigawatt-hours"
+msgstr[0] "%1 மணிநேரம்"
+msgstr[1] "%1 மணிநேரம்"
+
+#: energy.cpp:372
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "MW⋅h"
+msgstr ""
+
+#: energy.cpp:373
+#, kde-format
+msgctxt "unit description in lists"
+msgid "megawatt-hour"
+msgstr ""
+
+#: energy.cpp:374
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h"
+msgstr ""
+
+#: energy.cpp:376
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (real)"
+msgid "%1 megawatt-hour"
+msgstr "%1 மணிநேரம்"
+
+#: energy.cpp:377
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (integer)"
+msgid "%1 megawatt-hour"
+msgid_plural "%1 megawatt-hours"
+msgstr[0] "%1 மணிநேரம்"
+msgstr[1] "%1 மணிநேரம்"
+
+#: energy.cpp:382
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "kW⋅h"
+msgstr ""
+
+#: energy.cpp:383
+#, kde-format
+msgctxt "unit description in lists"
+msgid "kilowatt-hour"
+msgstr ""
+
+#: energy.cpp:384
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h"
+msgstr ""
+
+#: energy.cpp:386
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (real)"
+msgid "%1 kilowatt-hour"
+msgstr "%1 மணிநேரம்"
+
+#: energy.cpp:387
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (integer)"
+msgid "%1 kilowatt-hour"
+msgid_plural "%1 kilowatt-hours"
+msgstr[0] "%1 மணிநேரம்"
+msgstr[1] "%1 மணிநேரம்"
+
+#: energy.cpp:392
+#, kde-format
+msgctxt "energy unit symbol"
+msgid "W⋅h"
+msgstr ""
+
+#: energy.cpp:393
+#, kde-format
+msgctxt "unit description in lists"
+msgid "watt-hour"
+msgstr ""
+
+#: energy.cpp:394
+#, kde-format
+msgctxt "unit synonyms for matching user input"
+msgid "wattHour;watt Hour;Wh;wh;W⋅h"
+msgstr ""
+
+#: energy.cpp:396
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (real)"
+msgid "%1 watt-hour"
+msgstr "%1 மணிநேரம்"
+
+#: energy.cpp:397
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgctxt "amount in units (integer)"
+msgid "%1 watt-hour"
+msgid_plural "%1 watt-hours"
+msgstr[0] "%1 மணிநேரம்"
+msgstr[1] "%1 மணிநேரம்"
 
 #: force.cpp:17
 #, kde-format
