@@ -6076,156 +6076,156 @@ msgstr[0] "%1 纳米"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "TW⋅h"
-msgstr ""
+msgstr "TW⋅h"
 
 #: energy.cpp:353
 #, kde-format
 msgctxt "unit description in lists"
 msgid "terawatt-hour"
-msgstr ""
+msgstr "太瓦时"
 
 #: energy.cpp:354
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terawattHour;terawatt Hour;TWh;Twh;TW⋅h"
-msgstr ""
+msgstr "terawattHour;terawatt Hour;TWh;Twh;TW⋅h;taiwashhi;太瓦时"
 
 #: energy.cpp:356
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terawatt-hour"
-msgstr ""
+msgstr "%1 太瓦时"
 
 #: energy.cpp:357
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terawatt-hour"
 msgid_plural "%1 terawatt-hours"
-msgstr[0] ""
+msgstr[0] "%1 太瓦时"
 
 #: energy.cpp:362
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "GW⋅h"
-msgstr ""
+msgstr "GW⋅h"
 
 #: energy.cpp:363
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gigawatt-hour"
-msgstr ""
+msgstr "吉瓦时"
 
 #: energy.cpp:364
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h"
-msgstr ""
+msgstr "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h;jiwashi;吉瓦时"
 
 #: energy.cpp:366
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigawatt-hour"
-msgstr ""
+msgstr "%1 吉瓦时"
 
 #: energy.cpp:367
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigawatt-hour"
 msgid_plural "%1 gigawatt-hours"
-msgstr[0] ""
+msgstr[0] "%1 吉瓦时"
 
 #: energy.cpp:372
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "MW⋅h"
-msgstr ""
+msgstr "MW⋅h"
 
 #: energy.cpp:373
 #, kde-format
 msgctxt "unit description in lists"
 msgid "megawatt-hour"
-msgstr ""
+msgstr "兆瓦时"
 
 #: energy.cpp:374
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h"
-msgstr ""
+msgstr "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h;zhaowashi;兆瓦时"
 
 #: energy.cpp:376
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megawatt-hour"
-msgstr ""
+msgstr "%1 兆瓦时"
 
 #: energy.cpp:377
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megawatt-hour"
 msgid_plural "%1 megawatt-hours"
-msgstr[0] ""
+msgstr[0] "%1 兆瓦时"
 
 #: energy.cpp:382
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kW⋅h"
-msgstr ""
+msgstr "kW⋅h"
 
 #: energy.cpp:383
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilowatt-hour"
-msgstr ""
+msgstr "千瓦时"
 
 #: energy.cpp:384
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h"
-msgstr ""
+msgstr "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h;qianwashi;千瓦时"
 
 #: energy.cpp:386
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilowatt-hour"
-msgstr ""
+msgstr "%1 千瓦时"
 
 #: energy.cpp:387
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilowatt-hour"
 msgid_plural "%1 kilowatt-hours"
-msgstr[0] ""
+msgstr[0] "%1 千瓦时"
 
 #: energy.cpp:392
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "W⋅h"
-msgstr ""
+msgstr "W⋅h"
 
 #: energy.cpp:393
 #, kde-format
 msgctxt "unit description in lists"
 msgid "watt-hour"
-msgstr ""
+msgstr "瓦时"
 
 #: energy.cpp:394
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "wattHour;watt Hour;Wh;wh;W⋅h"
-msgstr ""
+msgstr "wattHour;watt Hour;Wh;wh;W⋅h;washi;瓦时"
 
 #: energy.cpp:396
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watt-hour"
-msgstr ""
+msgstr "%1 瓦时"
 
 #: energy.cpp:397
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt-hour"
 msgid_plural "%1 watt-hours"
-msgstr[0] ""
+msgstr[0] "%1 瓦时"
 
 #: force.cpp:17
 #, kde-format

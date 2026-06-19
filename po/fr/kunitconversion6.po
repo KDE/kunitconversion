@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-16 00:40+0000\n"
-"PO-Revision-Date: 2026-06-03 21:42+0200\n"
+"PO-Revision-Date: 2026-06-17 18:02+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -6284,206 +6284,160 @@ msgstr[1] "%1 nanomètres"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "TW⋅h"
-msgstr ""
+msgstr "TW⋅h"
 
 #: energy.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "terawatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "terawatt-hour"
-msgstr "térawatts"
+msgstr "térawatts-heure"
 
 #: energy.cpp:354
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terawatt;terawatts;TW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terawattHour;terawatt Hour;TWh;Twh;TW⋅h"
-msgstr "térawatt;térawatts;TW"
+msgstr "térawatt heure ; térawatts heure ; TW⋅h"
 
 #: energy.cpp:356
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terawatt"
-#| msgid_plural "%1 terawatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terawatt-hour"
-msgstr "%1 térawatt"
+msgstr "%1 térawatt-heure"
 
 #: energy.cpp:357
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terawatt"
-#| msgid_plural "%1 terawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terawatt-hour"
 msgid_plural "%1 terawatt-hours"
-msgstr[0] "%1 térawatt"
-msgstr[1] "%1 térawatts"
+msgstr[0] "%1 térawatt-heures"
+msgstr[1] "%1 térawatts-heures"
 
 #: energy.cpp:362
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "GW⋅h"
-msgstr ""
+msgstr "GW⋅h"
 
 #: energy.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigawatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigawatt-hour"
-msgstr "gigawatts"
+msgstr "gigawatts-heure"
 
 #: energy.cpp:364
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigawatt;gigawatts;GW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h"
-msgstr "gigawatt;gigawatts;GW"
+msgstr "gigawatt-heure ; gigawatts-heure ; GWh ; Gwh ; GW⋅h"
 
 #: energy.cpp:366
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigawatt"
-#| msgid_plural "%1 gigawatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigawatt-hour"
-msgstr "%1 gigawatt"
+msgstr "%1 gigawatt-heure"
 
 #: energy.cpp:367
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigawatt"
-#| msgid_plural "%1 gigawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigawatt-hour"
 msgid_plural "%1 gigawatt-hours"
-msgstr[0] "%1 gigawatt"
-msgstr[1] "%1 gigawatts"
+msgstr[0] "%1 gigawatt-heure"
+msgstr[1] "%1 gigawatt-heures"
 
 #: energy.cpp:372
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "MW⋅h"
-msgstr ""
+msgstr "MW⋅h"
 
 #: energy.cpp:373
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megawatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megawatt-hour"
-msgstr "mégawatts"
+msgstr "mégawatt-heure"
 
 #: energy.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megawatt;megawatts;MW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h"
-msgstr "mégawatt;mégawatts;MW"
+msgstr "mégawatt-heure ; mégawatt heure ; MWh ; Mwh ; MW⋅h"
 
 #: energy.cpp:376
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megawatt"
-#| msgid_plural "%1 megawatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megawatt-hour"
-msgstr "%1 mégawatt"
+msgstr "%1 mégawatt-heure"
 
 #: energy.cpp:377
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megawatt"
-#| msgid_plural "%1 megawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megawatt-hour"
 msgid_plural "%1 megawatt-hours"
-msgstr[0] "%1 mégawatt"
-msgstr[1] "%1 megawatts"
+msgstr[0] "%1 mégawatt-heure"
+msgstr[1] "%1 megawatt-heure"
 
 #: energy.cpp:382
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kW⋅h"
-msgstr ""
+msgstr "kW⋅h"
 
 #: energy.cpp:383
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilowatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kilowatt-hour"
-msgstr "kilowatts"
+msgstr "kilowatt-heure"
 
 #: energy.cpp:384
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilowatt;kilowatts;kW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h"
-msgstr "kilowatt;kilowatts;kW"
+msgstr "kilowatt-heure ; kilowatts heure ; kWh ; kwh ; kW⋅h"
 
 #: energy.cpp:386
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilowatt"
-#| msgid_plural "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilowatt-hour"
-msgstr "%1 kilowatt"
+msgstr "%1 kilowatt-heure"
 
 #: energy.cpp:387
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilowatt"
-#| msgid_plural "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilowatt-hour"
 msgid_plural "%1 kilowatt-hours"
-msgstr[0] "%1 kilowatt"
-msgstr[1] "%1 kilowatts"
+msgstr[0] "%1 kilowatt-heure"
+msgstr[1] "%1 kilowatt-heures"
 
 #: energy.cpp:392
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "W⋅h"
-msgstr ""
+msgstr "W⋅h"
 
 #: energy.cpp:393
 #, kde-format
 msgctxt "unit description in lists"
 msgid "watt-hour"
-msgstr ""
+msgstr "watt-heure"
 
 #: energy.cpp:394
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "wattHour;watt Hour;Wh;wh;W⋅h"
-msgstr ""
+msgstr "watt-heure ; wattheure ; Wh ; wh ; W⋅h"
 
 #: energy.cpp:396
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 watt"
-#| msgid_plural "%1 watts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watt-hour"
-msgstr "%1 watt"
+msgstr "%1 watt-heure"
 
 #: energy.cpp:397
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 watt"
-#| msgid_plural "%1 watts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt-hour"
 msgid_plural "%1 watt-hours"
-msgstr[0] "%1 watt"
+msgstr[0] "%1 watt-heure"
 msgstr[1] "%1 watts"
 
 #: force.cpp:17
