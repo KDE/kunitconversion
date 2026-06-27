@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 09:00+0000\n"
-"PO-Revision-Date: 2025-06-28 20:49+0200\n"
+"PO-Revision-Date: 2026-06-17 12:11+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.04.1\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -10157,27 +10157,27 @@ msgstr "kW"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kilowatts"
-msgstr "chilowatt"
+msgstr "kilowatt"
 
 #: power.cpp:128
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilowatt;kilowatts;kW"
-msgstr "chilowatt;kilowatt;kW"
+msgstr "kilowatt;kilowatt;kW"
 
 #: power.cpp:130
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilowatts"
-msgstr "%1 chilowatt"
+msgstr "%1 kilowatt"
 
 #: power.cpp:131
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilowatt"
 msgid_plural "%1 kilowatts"
-msgstr[0] "%1 chilowatt"
-msgstr[1] "%1 chilowatt"
+msgstr[0] "%1 kilowatt"
+msgstr[1] "%1 kilowatt"
 
 #: power.cpp:136
 #, kde-format
@@ -10637,7 +10637,7 @@ msgstr "dBk"
 #, kde-format
 msgctxt "unit description in lists"
 msgid "decibel kilowatts"
-msgstr "decibel chilowatt"
+msgstr "decibel kilowatt"
 
 #: power.cpp:280
 #, kde-format
@@ -10649,15 +10649,15 @@ msgstr "dBk;dBkW;dB(kW)"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decibel kilowatts"
-msgstr "%1 decibel chilowatt"
+msgstr "%1 decibel kilowatt"
 
 #: power.cpp:283
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decibel kilowatt"
 msgid_plural "%1 decibel kilowatts"
-msgstr[0] "%1 decibel chilowatt"
-msgstr[1] "%1 decibel chilowatt"
+msgstr[0] "%1 decibel kilowatt"
+msgstr[1] "%1 decibel kilowatt"
 
 #: power.cpp:288
 #, kde-format
