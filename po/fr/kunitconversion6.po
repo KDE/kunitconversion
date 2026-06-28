@@ -12076,7 +12076,7 @@ msgstr "pouces de mercure"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "inch of mercury;inches of mercury;inHg;in\""
-msgstr "pouce de mercure;pouces de mercure;inHg;poHg;in\";inpo\""
+msgstr "pouce de mercure;pouces de mercure;inHg;poHg;in;inpo"
 
 #: pressure.cpp:309
 #, kde-format
