@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 09:00+0000\n"
-"PO-Revision-Date: 2026-02-22 07:56+0100\n"
+"PO-Revision-Date: 2026-06-17 18:02+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -11698,7 +11698,7 @@ msgstr "pouces de mercure"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "inch of mercury;inches of mercury;inHg;in\""
-msgstr "pouce de mercure;pouces de mercure;inHg;poHg;in\";inpo\""
+msgstr "pouce de mercure;pouces de mercure;inHg;poHg;in;inpo"
 
 #: pressure.cpp:309
 #, kde-format
