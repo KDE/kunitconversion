@@ -1,5 +1,6 @@
 # Translation of kunitconversion6 to Norwegian Nynorsk
 #
+# Karl Ove Hufthammer <karl@huftis.org>, 2009, 2016, 2020, 2023, 2024, 2026.
 # Eirik U. Birkeland <eirbir@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
