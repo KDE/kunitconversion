@@ -180,7 +180,7 @@ Value UnitCategory::convert(const Value &value, UnitId toUnit) const
 
 Value UnitCategory::convert(const Value &value, const Unit &toUnit) const
 {
-    if (d && !toUnit.isNull()) {
+    if (d && d->m_units.contains(toUnit)) {
         return d->convert(value, toUnit);
     }
     return Value();

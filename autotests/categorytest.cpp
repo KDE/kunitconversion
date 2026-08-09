@@ -48,6 +48,8 @@ void CategoryTest::testConvert()
     QCOMPARE(v.number(), 314000.0);
     v = cg.convert(v, cg.defaultUnit());
     QCOMPARE(v.number(), 3140.0);
+    v = cg.convert(v, c.category(MassCategory).defaultUnit());
+    QVERIFY2(!v.isValid(), "converting to a unit in a different category should return an invalid Value");
 }
 
 void CategoryTest::testInvalid()
