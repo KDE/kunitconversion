@@ -6473,7 +6473,7 @@ msgstr[2] "%1 nanometrov"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "TW⋅h"
-msgstr ""
+msgstr "TW⋅h"
 
 #: energy.cpp:353
 #, kde-format
@@ -6506,7 +6506,7 @@ msgstr[2] "%1 terawatthodín"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "GW⋅h"
-msgstr ""
+msgstr "GW⋅h"
 
 #: energy.cpp:363
 #, kde-format
@@ -6539,7 +6539,7 @@ msgstr[2] "%1 gigawatthodín"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "MW⋅h"
-msgstr ""
+msgstr "MW⋅h"
 
 #: energy.cpp:373
 #, kde-format
@@ -6572,7 +6572,7 @@ msgstr[2] "%1 megawatthodín"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kW⋅h"
-msgstr ""
+msgstr "kW⋅h"
 
 #: energy.cpp:383
 #, kde-format
@@ -6605,19 +6605,19 @@ msgstr[2] "%1 kilowatthodín"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "W⋅h"
-msgstr ""
+msgstr "W⋅h"
 
 #: energy.cpp:393
 #, kde-format
 msgctxt "unit description in lists"
 msgid "watt-hour"
-msgstr ""
+msgstr "watthodina"
 
 #: energy.cpp:394
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "wattHour;watt Hour;Wh;wh;W⋅h"
-msgstr ""
+msgstr "watthodina;watthodiny;Wh;wh;W⋅h"
 
 #: energy.cpp:396
 #, kde-format
