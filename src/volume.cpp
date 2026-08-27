@@ -164,7 +164,7 @@ UnitCategory Volume::makeCategory()
                        1e-18,
                        i18nc("volume unit symbol", "µm³"),
                        i18nc("unit description in lists", "cubic micrometers"),
-                       i18nc("unit synonyms for matching user input", "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3"),
+                       i18nc("unit synonyms for matching user input", "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;um^3;µm3;um3"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 cubic micrometers"),
                        ki18ncp("amount in units (integer)", "%1 cubic micrometer", "%1 cubic micrometers")));
@@ -444,7 +444,7 @@ UnitCategory Volume::makeCategory()
                        0.0283168,
                        i18nc("volume unit symbol", "ft³"),
                        i18nc("unit description in lists", "cubic feet"),
-                       i18nc("unit synonyms for matching user input", "cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"),
+                       i18nc("unit synonyms for matching user input", "cubic foot;cubic feet;ft³;ft3;ft^3;cubic ft;cu foot;cu ft;cu feet;feet³;feet3;feet^3"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 cubic feet"),
                        ki18ncp("amount in units (integer)", "%1 cubic foot", "%1 cubic feet")));
@@ -454,7 +454,7 @@ UnitCategory Volume::makeCategory()
                        1.63871e-05,
                        i18nc("volume unit symbol", "in³"),
                        i18nc("unit description in lists", "cubic inches"),
-                       i18nc("unit synonyms for matching user input", "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;inch³"),
+                       i18nc("unit synonyms for matching user input", "cubic inch;cubic inches;in³;in3;in^3;cubic inch;cubic in;cu inches;cu inch;cu in;inch³;inch3;inch^3"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 cubic inches"),
                        ki18ncp("amount in units (integer)", "%1 cubic inch", "%1 cubic inches")));
@@ -464,7 +464,7 @@ UnitCategory Volume::makeCategory()
                        4.16818e+09,
                        i18nc("volume unit symbol", "mi³"),
                        i18nc("unit description in lists", "cubic miles"),
-                       i18nc("unit synonyms for matching user input", "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"),
+                             i18nc("unit synonyms for matching user input", "cubic mile;cubic miles;mi³;mi3;mi^3;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³;mile3;mile^3"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 cubic miles"),
                        ki18ncp("amount in units (integer)", "%1 cubic mile", "%1 cubic miles")));

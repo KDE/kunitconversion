@@ -42,7 +42,7 @@ UnitCategory Permeability::makeCategory()
                              0.9869233,
                              i18nc("volume unit symbol", "µm²"),
                              i18nc("unit description in lists", "squaremicrometers"),
-                             i18nc("unit synonyms for matching user input", "Permeability;Pµm²;PSquare µm;squaremicrometers;Pµm^2"),
+                             i18nc("unit synonyms for matching user input", "Permeability;Pµm²;Pµm^2;Pµm2;PSquare µm;squaremicrometers"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 micrometers²"),
                              ki18ncp("amount in units (integer)", "%1 micrometer²", "%1 micrometers²")));

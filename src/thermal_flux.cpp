@@ -24,7 +24,7 @@ UnitCategory ThermalFlux::makeCategory()
                               1,
                               i18nc("thermal flux unit symbol", "W/m²"),
                               i18nc("unit description in lists", "watt per square meter"),
-                              i18nc("unit synonyms for matching user input", "watt per square meter;W/m2;W/m^2"),
+                              i18nc("unit synonyms for matching user input", "watt per square meter;W/m²;W/m2;W/m^2"),
                               symbolString,
                               ki18nc("amount in units (real)", "%1 watts per square meter"),
                               ki18ncp("amount in units (integer)", "%1 watt per square meter", "%1 watts per square meter")));
@@ -34,7 +34,7 @@ UnitCategory ThermalFlux::makeCategory()
                              0.3169986,
                              i18nc("thermal flux unit symbol", "Btu/hr/ft²"),
                              i18nc("unit description in lists", "btu per hour per square foot"),
-                             i18nc("unit synonyms for matching user input", "btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"),
+                             i18nc("unit synonyms for matching user input", "btu per hour per square foot;Btu/hr/ft²;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft²/hr;Btu/ft^2/hr;Btu/ft2/hr"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 btu per hour per square foot"),
                              ki18ncp("amount in units (integer)", "%1 btu per hour per square foot", "%1 btu per hour per square foot")));

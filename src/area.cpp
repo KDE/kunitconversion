@@ -181,7 +181,7 @@ UnitCategory Area::makeCategory()
                        1e-12,
                        i18nc("area unit symbol", "µm²"),
                        i18nc("unit description in lists", "square micrometers"),
-                       i18nc("unit synonyms for matching user input", "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"),
+                       i18nc("unit synonyms for matching user input", "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 square micrometers"),
                        ki18ncp("amount in units (integer)", "%1 square micrometer", "%1 square micrometers")));
@@ -261,7 +261,7 @@ UnitCategory Area::makeCategory()
                              0.092903,
                              i18nc("area unit symbol", "ft²"),
                              i18nc("unit description in lists", "square feet"),
-                             i18nc("unit synonyms for matching user input", "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"),
+                             i18nc("unit synonyms for matching user input", "square foot;square feet;ft²;ft2;ft^2;square ft;sq foot;sq ft;sq feet;feet²;feet2;feet^2"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 square feet"),
                              ki18ncp("amount in units (integer)", "%1 square foot", "%1 square feet")));
@@ -271,7 +271,7 @@ UnitCategory Area::makeCategory()
                        0.00064516,
                        i18nc("area unit symbol", "in²"),
                        i18nc("unit description in lists", "square inches"),
-                       i18nc("unit synonyms for matching user input", "square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq in;inch²"),
+                       i18nc("unit synonyms for matching user input", "square inch;square inches;in²;in2;in^2;square inch;square in;sq inches;sq inch;sq in;inch²;inch2;inch^2"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 square inches"),
                        ki18ncp("amount in units (integer)", "%1 square inch", "%1 square inches")));
@@ -281,7 +281,7 @@ UnitCategory Area::makeCategory()
                              2.58999e+06,
                              i18nc("area unit symbol", "mi²"),
                              i18nc("unit description in lists", "square miles"),
-                             i18nc("unit synonyms for matching user input", "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"),
+                             i18nc("unit synonyms for matching user input", "square mile;square miles;mi²;mi2;mi^2;square mi;sq miles;sq mile;sq mi;mile²;mile2;mile^2"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 square miles"),
                              ki18ncp("amount in units (integer)", "%1 square mile", "%1 square miles")));

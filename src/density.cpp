@@ -23,7 +23,7 @@ UnitCategory Density::makeCategory()
                               1,
                               i18nc("density unit symbol", "kg/m³"),
                               i18nc("unit description in lists", "kilograms per cubic meter"),
-                              i18nc("unit synonyms for matching user input", "kilogram per cubic meter;kilograms per cubic meter;kg/m³"),
+                              i18nc("unit synonyms for matching user input", "kilogram per cubic meter;kilograms per cubic meter;kg/m³;kg/m3;kg/m^3"),
                               symbolString,
                               ki18nc("amount in units (real)", "%1 kilograms per cubic meter"),
                               ki18ncp("amount in units (integer)", "%1 kilogram per cubic meter", "%1 kilograms per cubic meter")));
@@ -65,7 +65,7 @@ UnitCategory Density::makeCategory()
                        1729.99404,
                        i18nc("density unit symbol", "oz/in³"),
                        i18nc("unit description in lists", "ounces per cubic inch"),
-                       i18nc("unit synonyms for matching user input", "ounce per cubic inch;ounces per cubic inch;oz/in³"),
+                       i18nc("unit synonyms for matching user input", "ounce per cubic inch;ounces per cubic inch;oz/in³;oz/in3;oz/in^3"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 ounces per cubic inch"),
                        ki18ncp("amount in units (integer)", "%1 ounce per cubic inch", "%1 ounces per cubic inch")));
@@ -75,7 +75,7 @@ UnitCategory Density::makeCategory()
                              1.00115396,
                              i18nc("density unit symbol", "oz/ft³"),
                              i18nc("unit description in lists", "ounces per cubic foot"),
-                             i18nc("unit synonyms for matching user input", "ounce per cubic foot;ounces per cubic foot;oz/ft³"),
+                             i18nc("unit synonyms for matching user input", "ounce per cubic foot;ounces per cubic foot;oz/ft³;oz/ft3;oz/ft^3"),
                              symbolString,
                              ki18nc("amount in units (real)", "%1 ounces per cubic foot"),
                              ki18ncp("amount in units (integer)", "%1 ounce per cubic foot", "%1 ounces per cubic foot")));
@@ -85,7 +85,7 @@ UnitCategory Density::makeCategory()
                        27679.9047,
                        i18nc("density unit symbol", "lb/in³"),
                        i18nc("unit description in lists", "pounds per cubic inch"),
-                       i18nc("unit synonyms for matching user input", "pound per cubic inch;pounds per cubic inch;lb/in³"),
+                       i18nc("unit synonyms for matching user input", "pound per cubic inch;pounds per cubic inch;lb/in³;lb/in3;lb/in^3"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 pounds per cubic inch"),
                        ki18ncp("amount in units (integer)", "%1 pound per cubic inch", "%1 pounds per cubic inch")));
@@ -95,7 +95,7 @@ UnitCategory Density::makeCategory()
                        16.0184634,
                        i18nc("density unit symbol", "lb/ft³"),
                        i18nc("unit description in lists", "pounds per cubic foot"),
-                       i18nc("unit synonyms for matching user input", "pound per cubic foot;pounds per cubic foot;lb/ft³"),
+                       i18nc("unit synonyms for matching user input", "pound per cubic foot;pounds per cubic foot;lb/ft³;lb/ft3;lb/ft^3"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 pounds per cubic foot"),
                        ki18ncp("amount in units (integer)", "%1 pound per cubic foot", "%1 pounds per cubic foot")));
@@ -105,7 +105,7 @@ UnitCategory Density::makeCategory()
                        0.593276421,
                        i18nc("density unit symbol", "lb/yd³"),
                        i18nc("unit description in lists", "pounds per cubic yard"),
-                       i18nc("unit synonyms for matching user input", "pound per cubic yard;pounds per cubic yard;lb/yd³"),
+                       i18nc("unit synonyms for matching user input", "pound per cubic yard;pounds per cubic yard;lb/yd³;lb/yd3;lb/yd^3"),
                        symbolString,
                        ki18nc("amount in units (real)", "%1 pounds per cubic yard"),
                        ki18ncp("amount in units (integer)", "%1 pound per cubic yard", "%1 pounds per cubic yard")));

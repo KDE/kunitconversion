@@ -25,7 +25,7 @@ UnitCategory WeightPerArea::makeCategory()
                                      1,
                                      i18nc("area unit symbol", "g/m²"),
                                      i18nc("unit description in lists", "grams per square meter"),
-                                     i18nc("unit synonyms for matching user input", "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"),
+                                     i18nc("unit synonyms for matching user input", "gsm;g/m;g/m²;g/m2;g/m^2;gm2;grams per meter;grams per square meter;grams per meter²;grams per meter^2"),
                                      symbolString,
                                      ki18nc("amount in units (real)", "%1 grams per square meter"),
                                      ki18ncp("amount in units (integer)", "%1 grams per square meter", "%1 grams per square meter")));
@@ -36,7 +36,7 @@ UnitCategory WeightPerArea::makeCategory()
                                            33.906,
                                            i18nc("area unit symbol", "oz/yd²"),
                                            i18nc("unit description in lists", "ounces per square yard"),
-                                           i18nc("unit synonyms for matching user input", "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per yard²"),
+                                           i18nc("unit synonyms for matching user input", "ozyd;ozyd2;oz/yd;oz/yd²;oz/yd2;oz/yd^2;ounces per yard;ounces per square yard;ounces per yard²;ounces per yard^2"),
                                            symbolString,
                                            ki18nc("amount in units (real)", "%1 ounces per square yard"),
                                            ki18ncp("amount in units (integer)", "%1 ounces per square yard", "%1 ounces per square yard")));
