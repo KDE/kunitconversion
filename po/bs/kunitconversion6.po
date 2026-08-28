@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-16 00:40+0000\n"
+"POT-Creation-Date: 2026-08-28 00:42+0000\n"
 "PO-Revision-Date: 2012-09-03 15:41+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: bosanski <bs@li.org>\n"
@@ -947,9 +947,11 @@ msgid "square micrometers"
 msgstr "mikrometar kvadratni"
 
 #: area.cpp:184
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"
 msgctxt "unit synonyms for matching user input"
-msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"
+msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
 msgstr ""
 "kvadratne mikrometre;kvadratni mikrometar;kvadratni mikrometri;kvadratnih "
 "mikrometara;kvadratnim mikrometrima;mikrometar kvadratni;mikrometara "
@@ -1257,9 +1259,13 @@ msgid "square feet"
 msgstr "stopa kvadratna"
 
 #: area.cpp:264
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"
 msgctxt "unit synonyms for matching user input"
-msgid "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"
+msgid ""
+"square foot;square feet;ft²;ft2;ft^2;square ft;sq foot;sq ft;sq feet;feet²;"
+"feet2;feet^2"
 msgstr ""
 "ft/-2;ft2;ft^2;ft²;kvadratna stopa;kvadratne stope;kvadratnih stopa;"
 "kvadratnim stopama;stopa kvadratna;stopa kvadratnih;stopama kvadratnim;stope "
@@ -1294,11 +1300,15 @@ msgid "square inches"
 msgstr "inč kvadratni"
 
 #: area.cpp:274
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid ""
+#| "square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq "
+#| "in;inch²"
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq in;"
-"inch²"
+"square inch;square inches;in²;in2;in^2;square inch;square in;sq inches;sq "
+"inch;sq in;inch²;inch2;inch^2"
 msgstr ""
 "in/-2;in2;in^2;inc kvadratni;inca kvadratnih;ince kvadratne;inci kvadratni;"
 "incima kvadratnim;in²;inč kvadratni;inča kvadratnih;inče kvadratne;inči "
@@ -1336,9 +1346,13 @@ msgid "square miles"
 msgstr "milja kvadratna"
 
 #: area.cpp:284
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
 msgctxt "unit synonyms for matching user input"
-msgid "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
+msgid ""
+"square mile;square miles;mi²;mi2;mi^2;square mi;sq miles;sq mile;sq mi;mile²;"
+"mile2;mile^2"
 msgstr ""
 "kvadratna milja;kvadratne milje;kvadratnih milja;kvadratnim miljama;mi/-2;"
 "mi2;mi^2;milja kvadratna;milja kvadratnih;miljama kvadratnim;milje kvadratne;"
@@ -4454,9 +4468,11 @@ msgid "kilograms per cubic meter"
 msgstr "kilogram po kubnom metru"
 
 #: density.cpp:26
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³"
 msgctxt "unit synonyms for matching user input"
-msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³"
+msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³;kg/m3;kg/m^3"
 msgstr ""
 "kg/m3;kg/m^3;kg/m³;kilogram po kubnom metru;kilogram po metru kubnom;"
 "kilograma po kubnom metru;kilograma po metru kubnom;kilograme po kubnom "
@@ -4603,9 +4619,11 @@ msgid "ounces per cubic inch"
 msgstr "unca po kubnom inču"
 
 #: density.cpp:68
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "ounce per cubic inch;ounces per cubic inch;oz/in³"
 msgctxt "unit synonyms for matching user input"
-msgid "ounce per cubic inch;ounces per cubic inch;oz/in³"
+msgid "ounce per cubic inch;ounces per cubic inch;oz/in³;oz/in3;oz/in^3"
 msgstr ""
 "oz/in3;oz/in^3;oz/in³;unca po incu kubnom;unca po inču kubnom;unca po kubnom "
 "incu;unca po kubnom inču;uncama po incu kubnom;uncama po inču kubnom;uncama "
@@ -4643,9 +4661,11 @@ msgid "ounces per cubic foot"
 msgstr "unca po kubnoj stopi"
 
 #: density.cpp:78
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³"
 msgctxt "unit synonyms for matching user input"
-msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³"
+msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³;oz/ft3;oz/ft^3"
 msgstr ""
 "oz/ft3;oz/ft^3;oz/ft³;unca po kubnoj stopi;unca po stopi kubnoj;uncama po "
 "kubnoj stopi;uncama po stopi kubnoj;unce po kubnoj stopi;unce po stopi "
@@ -4681,9 +4701,11 @@ msgid "pounds per cubic inch"
 msgstr "funta po kubnom inču"
 
 #: density.cpp:88
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pound per cubic inch;pounds per cubic inch;lb/in³"
 msgctxt "unit synonyms for matching user input"
-msgid "pound per cubic inch;pounds per cubic inch;lb/in³"
+msgid "pound per cubic inch;pounds per cubic inch;lb/in³;lb/in3;lb/in^3"
 msgstr ""
 "funta po incu kubnom;funta po inču kubnom;funta po kubnom incu;funta po "
 "kubnom inču;funtama po incu kubnom;funtama po inču kubnom;funtama po kubnom "
@@ -4722,9 +4744,11 @@ msgid "pounds per cubic foot"
 msgstr "funta po kubnoj stopi"
 
 #: density.cpp:98
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pound per cubic foot;pounds per cubic foot;lb/ft³"
 msgctxt "unit synonyms for matching user input"
-msgid "pound per cubic foot;pounds per cubic foot;lb/ft³"
+msgid "pound per cubic foot;pounds per cubic foot;lb/ft³;lb/ft3;lb/ft^3"
 msgstr ""
 "funta po kubnoj stopi;funta po stopi kubnoj;funtama po kubnoj stopi;funtama "
 "po stopi kubnoj;funte po kubnoj stopi;funte po stopi kubnoj;funti po kubnoj "
@@ -4761,9 +4785,11 @@ msgid "pounds per cubic yard"
 msgstr "funta po kubnom jardu"
 
 #: density.cpp:108
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "pound per cubic yard;pounds per cubic yard;lb/yd³"
 msgctxt "unit synonyms for matching user input"
-msgid "pound per cubic yard;pounds per cubic yard;lb/yd³"
+msgid "pound per cubic yard;pounds per cubic yard;lb/yd³;lb/yd3;lb/yd^3"
 msgstr ""
 "funta po jardu kubnom;funta po kubnom jardu;funtama po jardu kubnom;funtama "
 "po kubnom jardu;funte po jardu kubnom;funte po kubnom jardu;funti po jardu "
@@ -12212,7 +12238,7 @@ msgstr "mikrometar kvadratni"
 #: permeability.cpp:45
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "Permeability;Pµm²;PSquare µm;squaremicrometers;Pµm^2"
+msgid "Permeability;Pµm²;Pµm^2;Pµm2;PSquare µm;squaremicrometers"
 msgstr ""
 
 #: permeability.cpp:47
@@ -14726,7 +14752,7 @@ msgstr "%1 kvadratni metar"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "square meter;square meters;m²;m/-2;m^2;m2"
 msgctxt "unit synonyms for matching user input"
-msgid "watt per square meter;W/m2;W/m^2"
+msgid "watt per square meter;W/m²;W/m2;W/m^2"
 msgstr ""
 "kvadratne metre;kvadratni metar;kvadratni metri;kvadratnih metara;kvadratnim "
 "metrima;kvm;m/-2;m2;m^2;metar kvadratni;metara kvadratnih;metre kvadratne;"
@@ -14771,7 +14797,8 @@ msgstr ""
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
+"btu per hour per square foot;Btu/hr/ft²;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft²/hr;"
+"Btu/ft^2/hr;Btu/ft2/hr"
 msgstr ""
 
 #: thermal_flux.cpp:39
@@ -14828,7 +14855,7 @@ msgstr "kilogram po kubnom metru"
 #| msgctxt "unit description in lists"
 #| msgid "kilograms per cubic meter"
 msgctxt "unit synonyms for matching user input"
-msgid "watt per cubic meter;W/m3;W/m^3"
+msgid "watt per cubic meter;W/m³;W/m3;W/m^3"
 msgstr "kilogram po kubnom metru"
 
 #: thermal_generation.cpp:28
@@ -14870,7 +14897,8 @@ msgstr "%1 funta po kubnoj stopi"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
+"btu per hour per cubic foot;Btu/hr/ft³;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft³/hr;Btu/"
+"ft^3/hr;Btu/ft3/hr"
 msgstr ""
 
 #: thermal_generation.cpp:38
@@ -17816,9 +17844,11 @@ msgid "cubic micrometers"
 msgstr "mikrometar kubni"
 
 #: volume.cpp:167
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3"
 msgctxt "unit synonyms for matching user input"
-msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3"
+msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;um^3;µm3;um3"
 msgstr ""
 "km/-2;km2;km^2;km²;kubne mikrometre;kubni mikrometar;kubni mikrometri;kubnih "
 "mikrometara;kubnim mikrometrima;mikrometar kubni;mikrometara kubnih;"
@@ -18820,9 +18850,13 @@ msgid "cubic feet"
 msgstr "stopa kubna"
 
 #: volume.cpp:447
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"
 msgctxt "unit synonyms for matching user input"
-msgid "cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"
+msgid ""
+"cubic foot;cubic feet;ft³;ft3;ft^3;cubic ft;cu foot;cu ft;cu feet;feet³;"
+"feet3;feet^3"
 msgstr ""
 "ft/-3;ft3;ft^3;ft³;kubna stopa;kubne stope;kubnih stopa;kubnim stopama;stopa "
 "kubna;stopa kubnih;stopama kubnim;stope kubne;kubna stopa;kubne stope;kubnim "
@@ -18856,10 +18890,15 @@ msgid "cubic inches"
 msgstr "inč kubni"
 
 #: volume.cpp:457
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid ""
+#| "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;"
+#| "inch³"
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;inch³"
+"cubic inch;cubic inches;in³;in3;in^3;cubic inch;cubic in;cu inches;cu inch;"
+"cu in;inch³;inch3;inch^3"
 msgstr ""
 "in/-3;in3;in^3;inc kubni;inca kubnih;ince kubne;inci kubni;incima kubnim;in³;"
 "inč kubni;inča kubnih;inče kubne;inči kubni;inčima kubnim;kubne ince;kubne "
@@ -18895,10 +18934,15 @@ msgid "cubic miles"
 msgstr "milja kubna"
 
 #: volume.cpp:467
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid ""
+#| "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;"
+#| "mile³"
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"
+"cubic mile;cubic miles;mi³;mi3;mi^3;cubic mile;cubic mi;cu miles;cu mile;cu "
+"mi;mile³;mile3;mile^3"
 msgstr ""
 "kubna milja;kubne milje;kubnih milja;kubnim miljama;mi/-3;mi3;mi^3;milja "
 "kubna;milja kubnih;miljama kubnim;milje kubne;mi³;kubna milja;kubne milje;"
@@ -19302,7 +19346,8 @@ msgstr "%1 kvadratni metar"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
+"gsm;g/m;g/m²;g/m2;g/m^2;gm2;grams per meter;grams per square meter;grams per "
+"meter²;grams per meter^2"
 msgstr ""
 
 #: weight_per_area.cpp:30
@@ -19344,8 +19389,8 @@ msgstr "funta po kubnom jardu"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
-"ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
-"yard²"
+"ozyd;ozyd2;oz/yd;oz/yd²;oz/yd2;oz/yd^2;ounces per yard;ounces per square "
+"yard;ounces per yard²;ounces per yard^2"
 msgstr ""
 
 #: weight_per_area.cpp:41
