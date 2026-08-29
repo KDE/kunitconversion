@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-08-28 00:42+0000\n"
-"PO-Revision-Date: 2026-06-16 19:30+0300\n"
+"PO-Revision-Date: 2026-08-28 20:11+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -791,12 +791,10 @@ msgid "square micrometers"
 msgstr "mikrometrekare"
 
 #: area.cpp:184
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
-msgstr "mikrometrekare;mikrometrekare;µm²;um²;µm/-2;um/-2;µm^2;um^2;µm2;um2"
+msgstr "mikrometrekare;mikrometrekare;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
 
 #: area.cpp:186
 #, kde-format
@@ -1049,14 +1047,14 @@ msgid "square feet"
 msgstr "ayak kare"
 
 #: area.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square foot;square feet;ft²;ft2;ft^2;square ft;sq foot;sq ft;sq feet;feet²;"
 "feet2;feet^2"
-msgstr "ayak kare;ayak kare;ft²;feet²"
+msgstr ""
+"ayak kare;ayak kare;ft²;feet²;ft²;ft2;ft^2;square ft;sq foot;sq ft;sq feet;"
+"feet²;feet2;feet^2"
 
 #: area.cpp:266
 #, kde-format
@@ -1085,16 +1083,14 @@ msgid "square inches"
 msgstr "inç kare"
 
 #: area.cpp:274
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq "
-#| "in;inch²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square inch;square inches;in²;in2;in^2;square inch;square in;sq inches;sq "
 "inch;sq in;inch²;inch2;inch^2"
-msgstr "inç kare;inç kare;in²;inç²"
+msgstr ""
+"inç kare;inç kare;in²;inç²;in²;in2;in^2;square inch;square in;sq inches;sq "
+"inch;sq in;inch²;inch2;inch^2"
 
 #: area.cpp:276
 #, kde-format
@@ -1123,14 +1119,14 @@ msgid "square miles"
 msgstr "mil kare"
 
 #: area.cpp:284
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square mile;square miles;mi²;mi2;mi^2;square mi;sq miles;sq mile;sq mi;mile²;"
 "mile2;mile^2"
-msgstr "mil kare;mil kare;mi²;mil²"
+msgstr ""
+"mil kare;mil kare;mi²;mil²;mi²;mi2;mi^2;square mi;sq miles;sq mile;sq mi;"
+"mile²;mile2;mile^2"
 
 #: area.cpp:286
 #, kde-format
@@ -3670,12 +3666,10 @@ msgid "kilograms per cubic meter"
 msgstr "metreküpte kilogram"
 
 #: density.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³;kg/m3;kg/m^3"
-msgstr "metreküpte kilogram;metreküpte kilogram;kg/m³"
+msgstr "metreküpte kilogram;metreküpte kilogram;kg/m³;kg/m3;kg/m^3"
 
 #: density.cpp:28
 #, kde-format
