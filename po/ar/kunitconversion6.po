@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-08-28 00:42+0000\n"
-"PO-Revision-Date: 2026-06-30 22:13+0400\n"
+"PO-Revision-Date: 2026-08-29 18:05+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -873,12 +873,10 @@ msgid "square micrometers"
 msgstr "مايكرومتر مربّع"
 
 #: area.cpp:184
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
-msgstr "ميكرومتر مربع;ميكرومترات مربعة;µm²;um²;µm/-2;µm^2;µm2"
+msgstr "ميكرومتر مربع;ميكرومترات مربعة;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
 
 #: area.cpp:186
 #, kde-format
@@ -1163,14 +1161,14 @@ msgid "square feet"
 msgstr "قدم مربّع"
 
 #: area.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square foot;square feet;ft²;ft2;ft^2;square ft;sq foot;sq ft;sq feet;feet²;"
 "feet2;feet^2"
-msgstr "قدم مربع;أقدام مربعة;ft²;قدم مربع;sq foot;sq ft;sq feet;feet²"
+msgstr ""
+"قدم مربع;أقدام مربعة;ft²;ft2;ft^2;قدم مربع;قدم مربع;قدم مربع;أقدام مربعة;"
+"feet²;feet2;feet^2"
 
 #: area.cpp:266
 #, kde-format
@@ -1203,17 +1201,14 @@ msgid "square inches"
 msgstr "بوصة مربّعة"
 
 #: area.cpp:274
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq "
-#| "in;inch²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square inch;square inches;in²;in2;in^2;square inch;square in;sq inches;sq "
 "inch;sq in;inch²;inch2;inch^2"
 msgstr ""
-"بوصة مربعة;بوصات مربعة;in²;بوصة مربعة;sq in;sq inches;sq inch;sq in;inch²"
+"بوصة مربعة;بوصات مربعة;in²;in2;in^2;بوصة مربعة;بوصة مربعة;بوصات مربعة;بوصة "
+"مربعة;بوصة مربعة;inch²;inch2;inch^2"
 
 #: area.cpp:276
 #, kde-format
@@ -1246,14 +1241,14 @@ msgid "square miles"
 msgstr "ميل مربّع"
 
 #: area.cpp:284
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square mile;square miles;mi²;mi2;mi^2;square mi;sq miles;sq mile;sq mi;mile²;"
 "mile2;mile^2"
-msgstr "ميل مربع;أميال مربعة;mi²;sq mi;sq miles;sq mile;sq mi;mile²"
+msgstr ""
+"ميل مربع;أميال مربعة;mi²;mi2;mi^2;ميل مربع;أميال مربعة;ميل مربع;ميل مربع;"
+"mile²;mile2;mile^2"
 
 #: area.cpp:286
 #, kde-format
@@ -4143,12 +4138,10 @@ msgid "kilograms per cubic meter"
 msgstr "كيلوجرام على متر مكعّب"
 
 #: density.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³;kg/m3;kg/m^3"
-msgstr "كيلوجرام على متر مكعب;كيلوجرام على متر مكعب;كجم/م³"
+msgstr "كيلوغرام لكل متر مكعب;كيلوغرامات لكل متر مكعب;kg/m³;kg/m3;kg/m^3"
 
 #: density.cpp:28
 #, kde-format
@@ -4289,12 +4282,10 @@ msgid "ounces per cubic inch"
 msgstr "أوقية على بوصة مكعّبة"
 
 #: density.cpp:68
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ounce per cubic inch;ounces per cubic inch;oz/in³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic inch;ounces per cubic inch;oz/in³;oz/in3;oz/in^3"
-msgstr "أونصة لكل بوصة مكعبة;أونصات لكل بوصة مكعبة;oz/in³"
+msgstr "أوقية لكل بوصة مكعبة;أوقيات لكل بوصة مكعبة;oz/in³;oz/in3;oz/in^3"
 
 #: density.cpp:70
 #, kde-format
@@ -4327,12 +4318,10 @@ msgid "ounces per cubic foot"
 msgstr "أوقية على قدم مكعّب"
 
 #: density.cpp:78
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³;oz/ft3;oz/ft^3"
-msgstr "أونصة لكل قدم مكعبة;أونصات لكل قدم مكعبة;oz/ft³"
+msgstr "أوقية لكل قدم مكعب;أوقيات لكل قدم مكعب;oz/ft³;oz/ft3;oz/ft^3"
 
 #: density.cpp:80
 #, kde-format
@@ -4365,12 +4354,10 @@ msgid "pounds per cubic inch"
 msgstr "رطل على بوصة مكعّبة"
 
 #: density.cpp:88
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound per cubic inch;pounds per cubic inch;lb/in³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic inch;pounds per cubic inch;lb/in³;lb/in3;lb/in^3"
-msgstr "رطل على بوصة مكعبة;رطل على بوصة مكعبة;رطل/بوصة³"
+msgstr "رطل لكل بوصة مكعبة;أرطال لكل بوصة مكعبة;lb/in³;lb/in3;lb/in^3"
 
 #: density.cpp:90
 #, kde-format
@@ -4403,12 +4390,10 @@ msgid "pounds per cubic foot"
 msgstr "رطل على قدم مكعّب"
 
 #: density.cpp:98
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound per cubic foot;pounds per cubic foot;lb/ft³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic foot;pounds per cubic foot;lb/ft³;lb/ft3;lb/ft^3"
-msgstr "رطل على قدم مكعب;رطل على قدم مكعب;رطل/قدم³"
+msgstr "رطل لكل قدم مكعب;أرطال لكل قدم مكعب;lb/ft³;lb/ft3;lb/ft^3"
 
 #: density.cpp:100
 #, kde-format
@@ -4441,12 +4426,10 @@ msgid "pounds per cubic yard"
 msgstr "رطل على ياردة مكعّبة"
 
 #: density.cpp:108
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound per cubic yard;pounds per cubic yard;lb/yd³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic yard;pounds per cubic yard;lb/yd³;lb/yd3;lb/yd^3"
-msgstr "رطل لكل ياردة مكعبة;أرطال لكل ياردة مكعبة;lb/yd³"
+msgstr "رطل لكل ياردة مكعبة;أرطال لكل ياردة مكعبة;lb/yd³;lb/yd3;lb/yd^3"
 
 #: density.cpp:110
 #, kde-format
@@ -11581,12 +11564,10 @@ msgid "squaremicrometers"
 msgstr "ميكرومترات مربعة"
 
 #: permeability.cpp:45
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "Permeability;Pµm²;PSquare µm;squaremicrometers;Pµm^2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Permeability;Pµm²;Pµm^2;Pµm2;PSquare µm;squaremicrometers"
-msgstr "نفاذية;Pµm²;P ميكرومتر مربع;ميكرومترات مربّعة;Pµm^2"
+msgstr "نفاذية;Pµm²;Pµm^2;Pµm2;PSquare µm;ميكرومترات مربعة"
 
 #: permeability.cpp:47
 #, kde-format
@@ -14096,12 +14077,10 @@ msgid "watt per square meter"
 msgstr "واط لكل متر مربع"
 
 #: thermal_flux.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "watt per square meter;W/m2;W/m^2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per square meter;W/m²;W/m2;W/m^2"
-msgstr "واط لكل متر مربع;و/م2;و/م^2"
+msgstr "واط لكل متر مربع;W/m²;W/m2;W/m^2"
 
 #: thermal_flux.cpp:29
 #, kde-format
@@ -14134,17 +14113,14 @@ msgid "btu per hour per square foot"
 msgstr "وحدة حرارية بريطانية لكل ساعة لكل قدم مربع"
 
 #: thermal_flux.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per square foot;Btu/hr/ft²;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft²/hr;"
 "Btu/ft^2/hr;Btu/ft2/hr"
 msgstr ""
-"وحدة حرارية بريطانية لكل ساعة لكل قدم مربع;و ح ب/س ع/قد2;و ح ب/س ع/قد^2;و ح "
-"ب/قد^2/س ع;و ح ب/قد2/س ع"
+"وحدة حرارية بريطانية لكل ساعة لكل قدم مربع;Btu/hr/ft²;Btu/hr/ft2;Btu/hr/ft^2;"
+"Btu/ft²/hr;Btu/ft^2/hr;Btu/ft2/hr"
 
 #: thermal_flux.cpp:39
 #, kde-format
@@ -14188,12 +14164,10 @@ msgid "watt per cubic meter"
 msgstr "واط لكل متر مكعب"
 
 #: thermal_generation.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "watt per cubic meter;W/m3;W/m^3"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per cubic meter;W/m³;W/m3;W/m^3"
-msgstr "واط لكل متر مكعب;و/م3;و/م^3"
+msgstr "واط لكل متر مكعب;W/m³;W/m3;W/m^3"
 
 #: thermal_generation.cpp:28
 #, kde-format
@@ -14226,17 +14200,14 @@ msgid "btu per hour per cubic foot"
 msgstr "وحدة حرارية بريطانية لكل ساعة لكل قدم مكعب"
 
 #: thermal_generation.cpp:36
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per cubic foot;Btu/hr/ft³;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft³/hr;Btu/"
 "ft^3/hr;Btu/ft3/hr"
 msgstr ""
-"وحدة حرارية بريطانية لكل ساعة لكل قدم مكعب;و ح ب/س ع/قد3;و ح ب/س ع/قد^3;و ح "
-"ب/قد^3/س ع;و ح ب/قد3/س ع"
+"وحدة حرارية بريطانية لكل ساعة لكل قدم مكعب;Btu/hr/ft³;Btu/hr/ft3;Btu/hr/ft^3;"
+"Btu/ft³/hr;Btu/ft^3/hr;Btu/ft3/hr"
 
 #: thermal_generation.cpp:38
 #, kde-format
@@ -16941,12 +16912,10 @@ msgid "cubic micrometers"
 msgstr "مايكرومتر مكعب"
 
 #: volume.cpp:167
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;um^3;µm3;um3"
-msgstr "ميكرومتر مكعب;ميكرومترات مكعبة;µm³;um³;µm/-3;µm^3;µm3"
+msgstr "ميكرومتر مكعب;ميكرومترات مكعبة;µm³;um³;µm/-3;µm^3;um^3;µm3;um3"
 
 #: volume.cpp:169
 #, kde-format
@@ -17951,14 +17920,14 @@ msgid "cubic feet"
 msgstr "قدم مكعبة"
 
 #: volume.cpp:447
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic foot;cubic feet;ft³;ft3;ft^3;cubic ft;cu foot;cu ft;cu feet;feet³;"
 "feet3;feet^3"
-msgstr "قدم مكعب;أقدام مكعبة;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"
+msgstr ""
+"قدم مكعب;أقدام مكعبة;ft³;ft3;ft^3;قدم مكعب;قدم مكعب;قدم مكعب;أقدام مكعبة;"
+"feet³;feet3;feet^3"
 
 #: volume.cpp:449
 #, kde-format
@@ -17991,17 +17960,14 @@ msgid "cubic inches"
 msgstr "بوصة مكعبة"
 
 #: volume.cpp:457
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;"
-#| "inch³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic inch;cubic inches;in³;in3;in^3;cubic inch;cubic in;cu inches;cu inch;"
 "cu in;inch³;inch3;inch^3"
 msgstr ""
-"بوصة مكعبة;بوصات مكعبة;in³;cubic inch;cubic in;cu inches;cu inch;cu in;inch³"
+"بوصة مكعبة;بوصات مكعبة;in³;in3;in^3;بوصة مكعبة;بوصة مكعبة;بوصات مكعبة;بوصة "
+"مكعبة;بوصة مكعبة;inch³;inch3;inch^3"
 
 #: volume.cpp:459
 #, kde-format
@@ -18034,17 +18000,14 @@ msgid "cubic miles"
 msgstr "ميل مكعب"
 
 #: volume.cpp:467
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;"
-#| "mile³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic mile;cubic miles;mi³;mi3;mi^3;cubic mile;cubic mi;cu miles;cu mile;cu "
 "mi;mile³;mile3;mile^3"
 msgstr ""
-"ميل مكعب;أميال مكعبة;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"
+"ميل مكعب;أميال مكعبة;mi³;mi3;mi^3;ميل مكعب;ميل مكعب;أميال مكعبة;ميل مكعب;ميل "
+"مكعب;mile³;mile3;mile^3"
 
 #: volume.cpp:469
 #, kde-format
@@ -18422,15 +18385,14 @@ msgid "grams per square meter"
 msgstr "جرامات لكل متر مربع"
 
 #: weight_per_area.cpp:28
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "gsm;g/m;g/m2;gm2;grams per meter;grams per square meter;grams per meter²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "gsm;g/m;g/m²;g/m2;g/m^2;gm2;grams per meter;grams per square meter;grams per "
 "meter²;grams per meter^2"
-msgstr "gsm;g/m;g/m2;gm2;جرامات لكل متر;جرامات لكل متر مربع;جرامات لكل متر²"
+msgstr ""
+"غسم;غ/م;غ/م²;غ/م2;غ/م^2;غ/م2;غرامات لكل متر;غرامات لكل متر مربع;غرامات لكل "
+"متر²;غرامات لكل متر^2"
 
 #: weight_per_area.cpp:30
 #, kde-format
@@ -18463,18 +18425,15 @@ msgid "ounces per square yard"
 msgstr "أونصات لكل ياردة مربعة"
 
 #: weight_per_area.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "ozyd;ozyd2;oz/yd;oz/yd2;ounces per yard;ounces per square yard;ounces per "
-#| "yard²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd²;oz/yd2;oz/yd^2;ounces per yard;ounces per square "
 "yard;ounces per yard²;ounces per yard^2"
 msgstr ""
-"ozyd;ozyd2;oz/yd;oz/yd2;أونصات لكل ياردة;أونصات لكل ياردة مربعة;أونصات لكل "
-"ياردة²"
+"أوقية لكل ياردة;أوقية لكل ياردة مربعة;أوقية/ياردة;أوقية/ياردة²;أوقية/ياردة2;"
+"أوقية/ياردة^2;أوقيات لكل ياردة;أوقيات لكل ياردة مربعة;أوقيات لكل ياردة²;"
+"أوقيات لكل ياردة^2"
 
 #: weight_per_area.cpp:41
 #, kde-format
