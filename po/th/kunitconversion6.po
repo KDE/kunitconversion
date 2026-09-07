@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-28 00:42+0000\n"
+"POT-Creation-Date: 2026-09-07 00:40+0000\n"
 "PO-Revision-Date: 2010-12-17 00:21+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -6846,7 +6846,7 @@ msgstr ""
 #| msgctxt "unit description in lists"
 #| msgid "terawatts"
 msgctxt "unit description in lists"
-msgid "terawatt-hour"
+msgid "terawatt-hours"
 msgstr "เทระวัตต์"
 
 #: energy.cpp:354
@@ -6854,7 +6854,7 @@ msgstr "เทระวัตต์"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "terawatt;terawatts;TW"
 msgctxt "unit synonyms for matching user input"
-msgid "terawattHour;terawatt Hour;TWh;Twh;TW⋅h"
+msgid "terawattHours;terawatt Hours;TWh;Twh;TW⋅h"
 msgstr "เทระวัตต์;เทระวัตต์;TW"
 
 #: energy.cpp:356
@@ -6863,7 +6863,7 @@ msgstr "เทระวัตต์;เทระวัตต์;TW"
 #| msgid "%1 terawatt"
 #| msgid_plural "%1 terawatts"
 msgctxt "amount in units (real)"
-msgid "%1 terawatt-hour"
+msgid "%1 terawatt-hours"
 msgstr "%1 เทระวัตต์"
 
 #: energy.cpp:357
@@ -6887,7 +6887,7 @@ msgstr ""
 #| msgctxt "unit description in lists"
 #| msgid "gigawatts"
 msgctxt "unit description in lists"
-msgid "gigawatt-hour"
+msgid "gigawatt-hours"
 msgstr "กิกะวัตต์"
 
 #: energy.cpp:364
@@ -6895,7 +6895,7 @@ msgstr "กิกะวัตต์"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "gigawatt;gigawatts;GW"
 msgctxt "unit synonyms for matching user input"
-msgid "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h"
+msgid "gigawattHours;gigawatt Hours;GWh;Gwh;GW⋅h"
 msgstr "กิกะวัตต์;กิกะวัตต์;GW"
 
 #: energy.cpp:366
@@ -6904,7 +6904,7 @@ msgstr "กิกะวัตต์;กิกะวัตต์;GW"
 #| msgid "%1 gigawatt"
 #| msgid_plural "%1 gigawatts"
 msgctxt "amount in units (real)"
-msgid "%1 gigawatt-hour"
+msgid "%1 gigawatt-hours"
 msgstr "%1 กิกะวัตต์"
 
 #: energy.cpp:367
@@ -6928,7 +6928,7 @@ msgstr ""
 #| msgctxt "unit description in lists"
 #| msgid "megawatts"
 msgctxt "unit description in lists"
-msgid "megawatt-hour"
+msgid "megawatt-hours"
 msgstr "เมกะวัตต์"
 
 #: energy.cpp:374
@@ -6936,7 +6936,7 @@ msgstr "เมกะวัตต์"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "megawatt;megawatts;MW"
 msgctxt "unit synonyms for matching user input"
-msgid "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h"
+msgid "megawattHours;megawatt Hours;MWh;Mwh;MW⋅h"
 msgstr "เมกะวัตต์;เมกะวัตต์;MW"
 
 #: energy.cpp:376
@@ -6945,7 +6945,7 @@ msgstr "เมกะวัตต์;เมกะวัตต์;MW"
 #| msgid "%1 megawatt"
 #| msgid_plural "%1 megawatts"
 msgctxt "amount in units (real)"
-msgid "%1 megawatt-hour"
+msgid "%1 megawatt-hours"
 msgstr "%1 เมกะวัตต์"
 
 #: energy.cpp:377
@@ -6969,7 +6969,7 @@ msgstr ""
 #| msgctxt "unit description in lists"
 #| msgid "kilowatts"
 msgctxt "unit description in lists"
-msgid "kilowatt-hour"
+msgid "kilowatt-hours"
 msgstr "กิโลวัตต์"
 
 #: energy.cpp:384
@@ -6977,7 +6977,7 @@ msgstr "กิโลวัตต์"
 #| msgctxt "unit synonyms for matching user input"
 #| msgid "kilowatt;kilowatts;kW"
 msgctxt "unit synonyms for matching user input"
-msgid "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h"
+msgid "kilowattHours;kilowatt Hours;kWh;kwh;kW⋅h"
 msgstr "กิโลวัตต์;กิโลวัตต์;kW"
 
 #: energy.cpp:386
@@ -6986,7 +6986,7 @@ msgstr "กิโลวัตต์;กิโลวัตต์;kW"
 #| msgid "%1 kilowatt"
 #| msgid_plural "%1 kilowatts"
 msgctxt "amount in units (real)"
-msgid "%1 kilowatt-hour"
+msgid "%1 kilowatt-hours"
 msgstr "%1 กิโลวัตต์"
 
 #: energy.cpp:387
@@ -7006,16 +7006,21 @@ msgid "W⋅h"
 msgstr ""
 
 #: energy.cpp:393
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 watt"
+#| msgid_plural "%1 watts"
 msgctxt "unit description in lists"
-msgid "watt-hour"
-msgstr ""
+msgid "watt-hours"
+msgstr "%1 วัตต์"
 
 #: energy.cpp:394
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "terawatt;terawatts;TW"
 msgctxt "unit synonyms for matching user input"
-msgid "wattHour;watt Hour;Wh;wh;W⋅h"
-msgstr ""
+msgid "wattHours;watt Hours;Wh;wh;W⋅h"
+msgstr "เทระวัตต์;เทระวัตต์;TW"
 
 #: energy.cpp:396
 #, fuzzy, kde-format
@@ -7023,7 +7028,7 @@ msgstr ""
 #| msgid "%1 watt"
 #| msgid_plural "%1 watts"
 msgctxt "amount in units (real)"
-msgid "%1 watt-hour"
+msgid "%1 watt-hours"
 msgstr "%1 วัตต์"
 
 #: energy.cpp:397

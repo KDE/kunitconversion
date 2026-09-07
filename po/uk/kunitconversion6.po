@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-28 00:42+0000\n"
+"POT-Creation-Date: 2026-09-07 00:40+0000\n"
 "PO-Revision-Date: 2026-08-28 09:00+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -6803,23 +6803,29 @@ msgid "TW⋅h"
 msgstr "ТВт⋅год"
 
 #: energy.cpp:353
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "terawatt-hour"
 msgctxt "unit description in lists"
-msgid "terawatt-hour"
+msgid "terawatt-hours"
 msgstr "терават-година"
 
 #: energy.cpp:354
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "terawattHour;terawatt Hour;TWh;Twh;TW⋅h"
 msgctxt "unit synonyms for matching user input"
-msgid "terawattHour;terawatt Hour;TWh;Twh;TW⋅h"
+msgid "terawattHours;terawatt Hours;TWh;Twh;TW⋅h"
 msgstr ""
 "терават-година;терават-годин;терават-години;терават-годинах;ТВтгод;твтгод;"
 "ТВт⋅год"
 
 #: energy.cpp:356
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 terawatt-hour"
 msgctxt "amount in units (real)"
-msgid "%1 terawatt-hour"
+msgid "%1 terawatt-hours"
 msgstr "%1 терават-годин"
 
 #: energy.cpp:357
@@ -6839,23 +6845,29 @@ msgid "GW⋅h"
 msgstr "ГВт⋅год"
 
 #: energy.cpp:363
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "gigawatt-hour"
 msgctxt "unit description in lists"
-msgid "gigawatt-hour"
+msgid "gigawatt-hours"
 msgstr "гігават-година"
 
 #: energy.cpp:364
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h"
 msgctxt "unit synonyms for matching user input"
-msgid "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h"
+msgid "gigawattHours;gigawatt Hours;GWh;Gwh;GW⋅h"
 msgstr ""
 "гігават-година;гігават-години;гігават-годин;гігават-годинах;ГВт-год;гвтгод;"
 "ГВт⋅год"
 
 #: energy.cpp:366
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 gigawatt-hour"
 msgctxt "amount in units (real)"
-msgid "%1 gigawatt-hour"
+msgid "%1 gigawatt-hours"
 msgstr "%1 гігават-годин"
 
 #: energy.cpp:367
@@ -6875,23 +6887,29 @@ msgid "MW⋅h"
 msgstr "МВт⋅год"
 
 #: energy.cpp:373
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "megawatt-hour"
 msgctxt "unit description in lists"
-msgid "megawatt-hour"
+msgid "megawatt-hours"
 msgstr "мегават-година"
 
 #: energy.cpp:374
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h"
 msgctxt "unit synonyms for matching user input"
-msgid "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h"
+msgid "megawattHours;megawatt Hours;MWh;Mwh;MW⋅h"
 msgstr ""
 "мегават-година;мегават-години;мегават-годин;мегават-годинах;МВт-год;мвтгод;"
 "МВт⋅год"
 
 #: energy.cpp:376
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 megawatt-hour"
 msgctxt "amount in units (real)"
-msgid "%1 megawatt-hour"
+msgid "%1 megawatt-hours"
 msgstr "%1 мегават-годин"
 
 #: energy.cpp:377
@@ -6911,23 +6929,29 @@ msgid "kW⋅h"
 msgstr "кВт⋅год"
 
 #: energy.cpp:383
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "kilowatt-hour"
 msgctxt "unit description in lists"
-msgid "kilowatt-hour"
+msgid "kilowatt-hours"
 msgstr "кіловат-година"
 
 #: energy.cpp:384
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h"
 msgctxt "unit synonyms for matching user input"
-msgid "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h"
+msgid "kilowattHours;kilowatt Hours;kWh;kwh;kW⋅h"
 msgstr ""
 "кіловат-година;кіловат-години;кіловат-годин;кіловат-годинах;кВтгод;квтгод;"
 "квт⋅год"
 
 #: energy.cpp:386
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 kilowatt-hour"
 msgctxt "amount in units (real)"
-msgid "%1 kilowatt-hour"
+msgid "%1 kilowatt-hours"
 msgstr "%1 кіловат-годин"
 
 #: energy.cpp:387
@@ -6947,22 +6971,28 @@ msgid "W⋅h"
 msgstr "Вт⋅год"
 
 #: energy.cpp:393
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "watt-hour"
 msgctxt "unit description in lists"
-msgid "watt-hour"
+msgid "watt-hours"
 msgstr "ват-година"
 
 #: energy.cpp:394
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit synonyms for matching user input"
+#| msgid "wattHour;watt Hour;Wh;wh;W⋅h"
 msgctxt "unit synonyms for matching user input"
-msgid "wattHour;watt Hour;Wh;wh;W⋅h"
+msgid "wattHours;watt Hours;Wh;wh;W⋅h"
 msgstr ""
 "ват-година;ват-годин;ват-години;ватгодина;ват-годинах;Втгод;втгод;Вт⋅год"
 
 #: energy.cpp:396
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 watt-hour"
 msgctxt "amount in units (real)"
-msgid "%1 watt-hour"
+msgid "%1 watt-hours"
 msgstr "%1 ват-годин"
 
 #: energy.cpp:397
