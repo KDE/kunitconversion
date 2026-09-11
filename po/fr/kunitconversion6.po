@@ -9233,7 +9233,7 @@ msgstr "%1 chaines"
 msgctxt "amount in units (integer)"
 msgid "%1 chain"
 msgid_plural "%1 chains"
-msgstr[0] "Chaîne %1"
+msgstr[0] "Chaine %1"
 msgstr[1] "%1 chaines"
 
 #: length.cpp:364

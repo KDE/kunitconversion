@@ -6098,25 +6098,19 @@ msgid "TW⋅h"
 msgstr "TW⋅h"
 
 #: energy.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "terawatt-hour"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "terawatt-hours"
 msgstr "太瓦时"
 
 #: energy.cpp:354
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terawattHour;terawatt Hour;TWh;Twh;TW⋅h"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terawattHours;terawatt Hours;TWh;Twh;TW⋅h"
-msgstr "terawattHour;terawatt Hour;TWh;Twh;TW⋅h;taiwashhi;太瓦时"
+msgstr "terawattHours;terawatt Hours;TWh;Twh;TW⋅h;太瓦时"
 
 #: energy.cpp:356
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terawatt-hour"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terawatt-hours"
 msgstr "%1 太瓦时"
@@ -6135,25 +6129,19 @@ msgid "GW⋅h"
 msgstr "GW⋅h"
 
 #: energy.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigawatt-hour"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigawatt-hours"
 msgstr "吉瓦时"
 
 #: energy.cpp:364
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigawattHours;gigawatt Hours;GWh;Gwh;GW⋅h"
-msgstr "gigawattHour;gegawatt Hour;GWh;Gwh;GW⋅h;jiwashi;吉瓦时"
+msgstr "gigawattHours;gigawatt Hours;GWh;Gwh;GW⋅h;吉瓦时"
 
 #: energy.cpp:366
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigawatt-hour"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigawatt-hours"
 msgstr "%1 吉瓦时"
@@ -6172,25 +6160,19 @@ msgid "MW⋅h"
 msgstr "MW⋅h"
 
 #: energy.cpp:373
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megawatt-hour"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megawatt-hours"
 msgstr "兆瓦时"
 
 #: energy.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megawattHours;megawatt Hours;MWh;Mwh;MW⋅h"
-msgstr "megawattHour;megawatt Hour;MWh;Mwh;MW⋅h;zhaowashi;兆瓦时"
+msgstr "megawattHours;megawatt Hours;MWh;Mwh;MW⋅h;兆瓦时"
 
 #: energy.cpp:376
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 megawatt-hour"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megawatt-hours"
 msgstr "%1 兆瓦时"
@@ -6209,25 +6191,19 @@ msgid "kW⋅h"
 msgstr "kW⋅h"
 
 #: energy.cpp:383
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilowatt-hour"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kilowatt-hours"
 msgstr "千瓦时"
 
 #: energy.cpp:384
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilowattHours;kilowatt Hours;kWh;kwh;kW⋅h"
-msgstr "kilowattHour;kilowatt Hour;kWh;kwh;kW⋅h;qianwashi;千瓦时"
+msgstr "kilowattHours;kilowatt Hours;kWh;kwh;kW⋅h;千瓦时"
 
 #: energy.cpp:386
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilowatt-hour"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilowatt-hours"
 msgstr "%1 千瓦时"
@@ -6246,25 +6222,19 @@ msgid "W⋅h"
 msgstr "W⋅h"
 
 #: energy.cpp:393
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt-hour"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "watt-hours"
 msgstr "瓦时"
 
 #: energy.cpp:394
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "wattHour;watt Hour;Wh;wh;W⋅h"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "wattHours;watt Hours;Wh;wh;W⋅h"
-msgstr "wattHour;watt Hour;Wh;wh;W⋅h;washi;瓦时"
+msgstr "wattHours;watt Hours;Wh;wh;W⋅h;瓦时"
 
 #: energy.cpp:396
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watt-hour"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watt-hours"
 msgstr "%1 瓦时"
