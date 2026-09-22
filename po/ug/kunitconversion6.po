@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-07 00:40+0000\n"
-"PO-Revision-Date: 2026-05-31 19:56-0400\n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
-"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgstr "تېزلەت"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (acceleration)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: acceleration.cpp:24
 #, kde-format
@@ -131,13 +131,13 @@ msgstr "بۇلۇڭ"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (angle)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: angle.cpp:52
 #, kde-format
 msgctxt "angle unit symbol"
 msgid "°"
-msgstr "°"
+msgstr ""
 
 #: angle.cpp:53
 #, kde-format
@@ -299,7 +299,7 @@ msgstr "دائىرە"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (area)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #. i18n: Used when unit symbol is needed.
 #: area.cpp:29
@@ -764,12 +764,10 @@ msgid "square micrometers"
 msgstr "كۋادرات مىكرومېتىر"
 
 #: area.cpp:184
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
-msgstr "كۋادرات مىكرومېتىر;كۋادرات مىكرومېتىر ;µm²;um²;µm/-2;µm^2;µm2"
+msgstr ""
 
 #: area.cpp:186
 #, kde-format
@@ -1014,16 +1012,12 @@ msgid "square feet"
 msgstr "كۋادرات ئىنگلىز چىسى"
 
 #: area.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square foot;square feet;ft²;ft2;ft^2;square ft;sq foot;sq ft;sq feet;feet²;"
 "feet2;feet^2"
 msgstr ""
-"كۋادرات ئىنگلىز چىسى;كۋادرات ئىنگلىز چىسى;ft²;square ft;sq foot;sq ft;sq "
-"feet;feet²"
 
 #: area.cpp:266
 #, kde-format
@@ -1051,16 +1045,12 @@ msgid "square inches"
 msgstr "كۋادرات دىيۇيم"
 
 #: area.cpp:274
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq "
-#| "in;inch²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square inch;square inches;in²;in2;in^2;square inch;square in;sq inches;sq "
 "inch;sq in;inch²;inch2;inch^2"
-msgstr "كۋادرات دىيۇيم;كۋادرات دىيۇيم;in²;inch²"
+msgstr ""
 
 #: area.cpp:276
 #, kde-format
@@ -1088,14 +1078,12 @@ msgid "square miles"
 msgstr "كۋادرات ئىنگلىز مىلى"
 
 #: area.cpp:284
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square mile;square miles;mi²;mi2;mi^2;square mi;sq miles;sq mile;sq mi;mile²;"
 "mile2;mile^2"
-msgstr "كۋادرات ئىنگلىز مىلى; كۋادرات ئىنگلىز مىلى;mi²;mile²"
+msgstr ""
 
 #: area.cpp:286
 #, kde-format
@@ -1124,7 +1112,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (binary data)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: binary_data.cpp:51
 #, kde-format
@@ -1378,7 +1366,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "EiB"
-msgstr "EiB"
+msgstr ""
 
 #: binary_data.cpp:132
 #, kde-format
@@ -1502,7 +1490,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PiB"
-msgstr "PiB"
+msgstr ""
 
 #: binary_data.cpp:172
 #, kde-format
@@ -1564,7 +1552,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PB"
-msgstr "PB"
+msgstr ""
 
 #: binary_data.cpp:192
 #, kde-format
@@ -1626,7 +1614,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TiB"
-msgstr "TiB"
+msgstr ""
 
 #: binary_data.cpp:212
 #, kde-format
@@ -1688,7 +1676,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TB"
-msgstr "TB"
+msgstr ""
 
 #: binary_data.cpp:232
 #, kde-format
@@ -1750,7 +1738,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GiB"
-msgstr "GiB"
+msgstr ""
 
 #: binary_data.cpp:252
 #, kde-format
@@ -1812,7 +1800,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GB"
-msgstr "GB"
+msgstr ""
 
 #: binary_data.cpp:272
 #, kde-format
@@ -1874,7 +1862,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MiB"
-msgstr "MiB"
+msgstr ""
 
 #: binary_data.cpp:292
 #, kde-format
@@ -1936,7 +1924,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MB"
-msgstr "MB"
+msgstr ""
 
 #: binary_data.cpp:312
 #, kde-format
@@ -1998,7 +1986,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "KiB"
-msgstr "KiB"
+msgstr ""
 
 #: binary_data.cpp:332
 #, kde-format
@@ -2060,7 +2048,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kB"
-msgstr "kB"
+msgstr ""
 
 #: binary_data.cpp:352
 #, kde-format
@@ -2122,7 +2110,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "B"
-msgstr "B"
+msgstr ""
 
 #: binary_data.cpp:372
 #, kde-format
@@ -2147,7 +2135,7 @@ msgstr "%1 بايت"
 msgctxt "amount in units (integer)"
 msgid "%1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] ""
+msgstr[0] "%1 بايت"
 
 #: binary_data.cpp:381
 #, kde-format
@@ -2171,14 +2159,14 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 bits"
-msgstr ""
+msgstr "%1 بىت"
 
 #: binary_data.cpp:386
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 bit"
 msgid_plural "%1 bits"
-msgstr[0] ""
+msgstr[0] "%1 بىت"
 
 #: currency.cpp:64
 #, kde-format
@@ -2194,7 +2182,7 @@ msgstr "ECB دىن"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (currency)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: currency.cpp:73 currency.cpp:75
 #, kde-format
@@ -3530,7 +3518,7 @@ msgstr "زىچلىق"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (density)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: density.cpp:24
 #, kde-format
@@ -3545,12 +3533,10 @@ msgid "kilograms per cubic meter"
 msgstr "ھەر كۇپمېتىردا كىلوگرام"
 
 #: density.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³;kg/m3;kg/m^3"
-msgstr "كىلوگرام ھەر كۇپمېتىر ; كىلوگرام ھەر كۇپمېتىر  ;kg/m³"
+msgstr ""
 
 #: density.cpp:28
 #, kde-format
@@ -3671,12 +3657,10 @@ msgid "ounces per cubic inch"
 msgstr "ھەر كۈپ دىيۇيمدا ئۇنسىيە"
 
 #: density.cpp:68
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ounce per cubic inch;ounces per cubic inch;oz/in³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic inch;ounces per cubic inch;oz/in³;oz/in3;oz/in^3"
-msgstr "ئۈنسىيە ھەر كۇب دىيۇيم;ئۈنسىيە ھەر كۇب دىيۇيم ;oz/in³"
+msgstr ""
 
 #: density.cpp:70
 #, kde-format
@@ -3704,12 +3688,10 @@ msgid "ounces per cubic foot"
 msgstr "ئۇنسىيە ھەر كۇب ئىنگلىز چىسى"
 
 #: density.cpp:78
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³;oz/ft3;oz/ft^3"
-msgstr "ئۈنسىيە ھەر كۇب ئىنگلىز چىسى ;ئۈنسىيە ھەر كۇب ئىنگلىز چىسى;oz/ft³"
+msgstr ""
 
 #: density.cpp:80
 #, kde-format
@@ -3737,12 +3719,10 @@ msgid "pounds per cubic inch"
 msgstr "قاداق ھەر كۇب دىيۇيم"
 
 #: density.cpp:88
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound per cubic inch;pounds per cubic inch;lb/in³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic inch;pounds per cubic inch;lb/in³;lb/in3;lb/in^3"
-msgstr "قاداق ھەر كۇب دىيۇيم;قاداق ھەر كۇب دىيۇيم;lb/in³"
+msgstr ""
 
 #: density.cpp:90
 #, kde-format
@@ -3770,12 +3750,10 @@ msgid "pounds per cubic foot"
 msgstr "قاداق ھەر كۇب ئىنگلىز چىسى"
 
 #: density.cpp:98
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound per cubic foot;pounds per cubic foot;lb/ft³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic foot;pounds per cubic foot;lb/ft³;lb/ft3;lb/ft^3"
-msgstr "قاداق ھەر كۇب ئىنگلىز چىسى; قاداق ھەر كۇب ئىنگلىز چىسى;lb/ft³"
+msgstr ""
 
 #: density.cpp:100
 #, kde-format
@@ -3803,12 +3781,10 @@ msgid "pounds per cubic yard"
 msgstr "قاداق ھەر كۇب يارد"
 
 #: density.cpp:108
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound per cubic yard;pounds per cubic yard;lb/yd³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic yard;pounds per cubic yard;lb/yd³;lb/yd3;lb/yd^3"
-msgstr "قاداق ھەر كۇب يارد; قاداق ھەر كۇب يارد;lb/yd³"
+msgstr ""
 
 #: density.cpp:110
 #, kde-format
@@ -3832,7 +3808,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (electrical current"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: electrical_current.cpp:25
 #, kde-format
@@ -3931,7 +3907,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "PA"
-msgstr "PA"
+msgstr ""
 
 #: electrical_current.cpp:56
 #, kde-format
@@ -3962,7 +3938,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "TA"
-msgstr "TA"
+msgstr ""
 
 #: electrical_current.cpp:66
 #, kde-format
@@ -3993,7 +3969,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "GA"
-msgstr "GA"
+msgstr ""
 
 #: electrical_current.cpp:76
 #, kde-format
@@ -4024,7 +4000,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "MA"
-msgstr "MA"
+msgstr ""
 
 #: electrical_current.cpp:86
 #, kde-format
@@ -4055,7 +4031,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "kA"
-msgstr "kA"
+msgstr ""
 
 #: electrical_current.cpp:96
 #, kde-format
@@ -4148,7 +4124,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "electrical current unit symbol"
 msgid "A"
-msgstr "A"
+msgstr "قوشۇمچە ئاتنىڭ بىرىنچى ھەرپى"
 
 #: electrical_current.cpp:126
 #, kde-format
@@ -4494,7 +4470,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (electrical resistance"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: electrical_resistance.cpp:25
 #, kde-format
@@ -5156,7 +5132,7 @@ msgstr "قۇۋۋىتى"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (energy)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: energy.cpp:51
 #, kde-format
@@ -6101,39 +6077,29 @@ msgid "TW⋅h"
 msgstr ""
 
 #: energy.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "terawatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "terawatt-hours"
-msgstr "تېراۋات"
+msgstr ""
 
 #: energy.cpp:354
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terawatt;terawatts;TW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terawattHours;terawatt Hours;TWh;Twh;TW⋅h"
-msgstr "تېراۋات;تېراۋات;TW"
+msgstr ""
 
 #: energy.cpp:356
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terawatt"
-#| msgid_plural "%1 terawatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terawatt-hours"
-msgstr "%1 تېراۋات"
+msgstr ""
 
 #: energy.cpp:357
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terawatt"
-#| msgid_plural "%1 terawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terawatt-hour"
 msgid_plural "%1 terawatt-hours"
-msgstr[0] "%1 تېراۋات"
+msgstr[0] ""
 
 #: energy.cpp:362
 #, kde-format
@@ -6142,39 +6108,29 @@ msgid "GW⋅h"
 msgstr ""
 
 #: energy.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigawatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigawatt-hours"
-msgstr "گىگاۋات"
+msgstr ""
 
 #: energy.cpp:364
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigawatt;gigawatts;GW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigawattHours;gigawatt Hours;GWh;Gwh;GW⋅h"
-msgstr "گىگاۋات;گىگاۋات;GW"
+msgstr ""
 
 #: energy.cpp:366
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigawatt"
-#| msgid_plural "%1 gigawatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigawatt-hours"
-msgstr "%1 گىگاۋات"
+msgstr ""
 
 #: energy.cpp:367
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigawatt"
-#| msgid_plural "%1 gigawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigawatt-hour"
 msgid_plural "%1 gigawatt-hours"
-msgstr[0] "%1 گىگاۋات"
+msgstr[0] ""
 
 #: energy.cpp:372
 #, kde-format
@@ -6183,39 +6139,29 @@ msgid "MW⋅h"
 msgstr ""
 
 #: energy.cpp:373
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megawatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megawatt-hours"
-msgstr "مېگاۋات"
+msgstr ""
 
 #: energy.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megawatt;megawatts;MW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megawattHours;megawatt Hours;MWh;Mwh;MW⋅h"
-msgstr "مېگاۋات;مېگاۋات;MW"
+msgstr ""
 
 #: energy.cpp:376
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megawatt"
-#| msgid_plural "%1 megawatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megawatt-hours"
-msgstr "%1 مېگاۋات"
+msgstr ""
 
 #: energy.cpp:377
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megawatt"
-#| msgid_plural "%1 megawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megawatt-hour"
 msgid_plural "%1 megawatt-hours"
-msgstr[0] "%1 مېگاۋات"
+msgstr[0] ""
 
 #: energy.cpp:382
 #, kde-format
@@ -6224,39 +6170,29 @@ msgid "kW⋅h"
 msgstr ""
 
 #: energy.cpp:383
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilowatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kilowatt-hours"
-msgstr "كىلوۋات"
+msgstr ""
 
 #: energy.cpp:384
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilowatt;kilowatts;kW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilowattHours;kilowatt Hours;kWh;kwh;kW⋅h"
-msgstr "كىلوۋات;كىلوۋات;kW"
+msgstr ""
 
 #: energy.cpp:386
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilowatt"
-#| msgid_plural "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilowatt-hours"
-msgstr "%1 كىلوۋات"
+msgstr ""
 
 #: energy.cpp:387
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilowatt"
-#| msgid_plural "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilowatt-hour"
 msgid_plural "%1 kilowatt-hours"
-msgstr[0] "%1 كىلوۋات"
+msgstr[0] ""
 
 #: energy.cpp:392
 #, kde-format
@@ -6265,40 +6201,29 @@ msgid "W⋅h"
 msgstr ""
 
 #: energy.cpp:393
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 watt"
-#| msgid_plural "%1 watts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "watt-hours"
-msgstr "%1 ۋات"
+msgstr ""
 
 #: energy.cpp:394
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terawatt;terawatts;TW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "wattHours;watt Hours;Wh;wh;W⋅h"
-msgstr "تېراۋات;تېراۋات;TW"
+msgstr ""
 
 #: energy.cpp:396
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 watt"
-#| msgid_plural "%1 watts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watt-hours"
-msgstr "%1 ۋات"
+msgstr ""
 
 #: energy.cpp:397
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 watt"
-#| msgid_plural "%1 watts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt-hour"
 msgid_plural "%1 watt-hours"
-msgstr[0] "%1 ۋات"
+msgstr[0] ""
 
 #: force.cpp:17
 #, kde-format
@@ -6309,7 +6234,7 @@ msgstr "مەجبۇرىي"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (force"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: force.cpp:24
 #, kde-format
@@ -7095,7 +7020,7 @@ msgstr "چاستوتا"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (frequency"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: frequency.cpp:25
 #, kde-format
@@ -7194,7 +7119,7 @@ msgstr[0] "%1 ئېكساگېرتس"
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "PHz"
-msgstr "PHz"
+msgstr ""
 
 #: frequency.cpp:56
 #, kde-format
@@ -7225,7 +7150,7 @@ msgstr[0] "%1 پېتاگېرتس"
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "THz"
-msgstr "THz"
+msgstr ""
 
 #: frequency.cpp:66
 #, kde-format
@@ -7256,7 +7181,7 @@ msgstr[0] "%1 تېراگېرتس"
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "GHz"
-msgstr "GHz"
+msgstr ""
 
 #: frequency.cpp:76
 #, kde-format
@@ -7287,7 +7212,7 @@ msgstr[0] "%1 گىگاگېرتس"
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "MHz"
-msgstr "MHz"
+msgstr ""
 
 #: frequency.cpp:86
 #, kde-format
@@ -7318,7 +7243,7 @@ msgstr[0] "%1 مېگاگېرتس"
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "kHz"
-msgstr "kHz"
+msgstr ""
 
 #: frequency.cpp:96
 #, kde-format
@@ -7411,7 +7336,7 @@ msgstr[0] "%1 دېكاگېرتس"
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "Hz"
-msgstr "Hz"
+msgstr ""
 
 #: frequency.cpp:126
 #, kde-format
@@ -7752,7 +7677,7 @@ msgstr[0] "%1 يوكتوگېرتس"
 #, kde-format
 msgctxt "frequency unit symbol"
 msgid "RPM"
-msgstr "RPM"
+msgstr ""
 
 #: frequency.cpp:236
 #, kde-format
@@ -7788,7 +7713,7 @@ msgstr "يېقىلغۇ ئۈنۈمى"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (fuel efficiency)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: fuel_efficiency.cpp:65
 #, kde-format
@@ -7926,7 +7851,7 @@ msgstr "ئۇزۇنلۇقى"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (length"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: length.cpp:25
 #, kde-format
@@ -8242,7 +8167,7 @@ msgstr[0] "%1 دېكامېتىر"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "m"
-msgstr "m"
+msgstr ""
 
 #: length.cpp:126
 #, kde-format
@@ -9074,7 +8999,7 @@ msgstr "ماسسا"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (mass)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: mass.cpp:25
 #, kde-format
@@ -9762,7 +9687,7 @@ msgstr[0] "%1 توننا"
 #, kde-format
 msgctxt "mass unit symbol"
 msgid "CD"
-msgstr "CD"
+msgstr ""
 
 #: mass.cpp:247
 #, kde-format
@@ -9952,7 +9877,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (permeability)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: permeability.cpp:23
 #, kde-format
@@ -10056,7 +9981,7 @@ msgstr "توك مەنبە"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (power)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: power.cpp:56
 #, kde-format
@@ -10155,7 +10080,7 @@ msgstr[0] "%1 ئېكسابايت"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "PW"
-msgstr "PW"
+msgstr ""
 
 #: power.cpp:87
 #, kde-format
@@ -10186,7 +10111,7 @@ msgstr[0] "%1 پېتاۋات"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "TW"
-msgstr "TW"
+msgstr ""
 
 #: power.cpp:97
 #, kde-format
@@ -10217,7 +10142,7 @@ msgstr[0] "%1 تېراۋات"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "GW"
-msgstr "GW"
+msgstr ""
 
 #: power.cpp:107
 #, kde-format
@@ -10248,7 +10173,7 @@ msgstr[0] "%1 گىگاۋات"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "MW"
-msgstr "MW"
+msgstr ""
 
 #: power.cpp:117
 #, kde-format
@@ -10279,7 +10204,7 @@ msgstr[0] "%1 مېگاۋات"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "kW"
-msgstr "kW"
+msgstr ""
 
 #: power.cpp:127
 #, kde-format
@@ -10372,7 +10297,7 @@ msgstr[0] "%1 دېكاۋات"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "W"
-msgstr "W"
+msgstr ""
 
 #: power.cpp:157
 #, kde-format
@@ -10806,7 +10731,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBm"
-msgstr "dBm"
+msgstr ""
 
 #: power.cpp:299
 #, kde-format
@@ -10873,7 +10798,7 @@ msgstr "بېسىم"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (pressure)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: pressure.cpp:24
 #, kde-format
@@ -11814,7 +11739,7 @@ msgstr "تېمپېراتۇرا"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (temperature)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: temperature.cpp:186
 #, kde-format
@@ -11851,7 +11776,7 @@ msgstr[0] "%1 كېلۋىن"
 #, kde-format
 msgctxt "temperature unit symbol"
 msgid "°C"
-msgstr "°C"
+msgstr ""
 
 #: temperature.cpp:197
 #, kde-format
@@ -12073,7 +11998,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal conductivity)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: thermal_conductivity.cpp:24
 #, kde-format
@@ -12182,7 +12107,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal flux density)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: thermal_flux.cpp:25
 #, kde-format
@@ -12197,12 +12122,10 @@ msgid "watt per square meter"
 msgstr ""
 
 #: thermal_flux.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square petameter;square petameters;Pm²;Pm/-2;Pm^2;Pm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per square meter;W/m²;W/m2;W/m^2"
-msgstr "كۋادرات پېتامېتىر;كۋادرات پېتامېتىر;Pm²;Pm/-2;Pm^2;Pm2"
+msgstr ""
 
 #: thermal_flux.cpp:29
 #, kde-format
@@ -12259,7 +12182,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (thermal generation)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: thermal_generation.cpp:24
 #, kde-format
@@ -12274,12 +12197,10 @@ msgid "watt per cubic meter"
 msgstr ""
 
 #: thermal_generation.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "cubic meter;cubic meters;m³;m/-3;m^3;m3"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per cubic meter;W/m³;W/m3;W/m^3"
-msgstr "كۇب مېتىر;كۇب مېتىر;m³;m/-3;m^3;m3"
+msgstr ""
 
 #: thermal_generation.cpp:28
 #, kde-format
@@ -12336,7 +12257,7 @@ msgstr "ۋاقىت"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (time)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: timeunit.cpp:24
 #, kde-format
@@ -12652,7 +12573,7 @@ msgstr[0] "%1 دېكاسېكۇنت"
 #, kde-format
 msgctxt "time unit symbol"
 msgid "s"
-msgstr "s"
+msgstr ""
 
 #: timeunit.cpp:125
 #, kde-format
@@ -12745,7 +12666,7 @@ msgstr[0] "%1 سانتىسېكۇنت"
 #, kde-format
 msgctxt "time unit symbol"
 msgid "ms"
-msgstr "ms"
+msgstr ""
 
 #: timeunit.cpp:155
 #, kde-format
@@ -13086,7 +13007,7 @@ msgstr[0] "%1 كۈن"
 #, kde-format
 msgctxt "time unit symbol"
 msgid "w"
-msgstr "w"
+msgstr ""
 
 #: timeunit.cpp:265
 #, kde-format
@@ -13117,7 +13038,7 @@ msgstr[0] "%1 ھەپتە"
 #, kde-format
 msgctxt "time unit symbol"
 msgid "a"
-msgstr "a"
+msgstr ""
 
 #: timeunit.cpp:275
 #, kde-format
@@ -13179,7 +13100,7 @@ msgstr[0] "%1 كەبىسە يىلى"
 #, kde-format
 msgctxt "time unit symbol"
 msgid "y"
-msgstr "y"
+msgstr ""
 
 #: timeunit.cpp:296
 #, kde-format
@@ -13215,7 +13136,7 @@ msgstr "سۈرئىتى"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (velocity)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: velocity.cpp:53
 #, kde-format
@@ -13505,7 +13426,7 @@ msgstr "توك بېسىمى"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (voltage"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: voltage.cpp:25
 #, kde-format
@@ -13604,7 +13525,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "PV"
-msgstr "PV"
+msgstr ""
 
 #: voltage.cpp:56
 #, kde-format
@@ -13635,7 +13556,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "TV"
-msgstr "TV"
+msgstr ""
 
 #: voltage.cpp:66
 #, kde-format
@@ -13666,7 +13587,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "GV"
-msgstr "GV"
+msgstr ""
 
 #: voltage.cpp:76
 #, kde-format
@@ -13697,7 +13618,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "MV"
-msgstr "MV"
+msgstr ""
 
 #: voltage.cpp:86
 #, kde-format
@@ -13728,7 +13649,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "kV"
-msgstr "kV"
+msgstr ""
 
 #: voltage.cpp:96
 #, kde-format
@@ -13821,7 +13742,7 @@ msgstr[0] ""
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "V"
-msgstr "V"
+msgstr ""
 
 #: voltage.cpp:126
 #, kde-format
@@ -14198,7 +14119,7 @@ msgstr "ئاۋاز مىقدارى"
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (volume)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: volume.cpp:25
 #, kde-format
@@ -14647,12 +14568,10 @@ msgid "cubic micrometers"
 msgstr "كۇب مىكرومېتىر"
 
 #: volume.cpp:167
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;um^3;µm3;um3"
-msgstr "كۇب مىكرومېتىر;كۇب مىكرومېتىر;µm³;um³;µm/-3;µm^3;µm3"
+msgstr ""
 
 #: volume.cpp:169
 #, kde-format
@@ -15517,14 +15436,12 @@ msgid "cubic feet"
 msgstr "كۈپ فۇت"
 
 #: volume.cpp:447
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic foot;cubic feet;ft³;ft3;ft^3;cubic ft;cu foot;cu ft;cu feet;feet³;"
 "feet3;feet^3"
-msgstr "كۇب فۇت;كۇب فۇت;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"
+msgstr ""
 
 #: volume.cpp:449
 #, kde-format
@@ -15552,18 +15469,12 @@ msgid "cubic inches"
 msgstr "كۈپ ئىنگلىز چىسى"
 
 #: volume.cpp:457
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;"
-#| "inch³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic inch;cubic inches;in³;in3;in^3;cubic inch;cubic in;cu inches;cu inch;"
 "cu in;inch³;inch3;inch^3"
 msgstr ""
-"كۇب ئىنگلىز چىسى;كۇب ئىنگلىز چىسى;in³;كۇب ئىنگلىز چىسى;كۇب ئىنگلىز چىسى;كۇب "
-"ئىنگلىز چىسى;كۇب ئىنگلىز چىسى;كۇب ئىنگلىز چىسى;inch³"
 
 #: volume.cpp:459
 #, kde-format
@@ -15591,18 +15502,12 @@ msgid "cubic miles"
 msgstr "كۇب ئىنگلىز مىلى"
 
 #: volume.cpp:467
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;"
-#| "mile³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic mile;cubic miles;mi³;mi3;mi^3;cubic mile;cubic mi;cu miles;cu mile;cu "
 "mi;mile³;mile3;mile^3"
 msgstr ""
-"كۇب ئىنگلىز مىلى;كۇب ئىنگلىز مىلى;mi³;كۇب ئىنگلىز مىلى;كۇب ئىنگلىز مىلى;كۇب "
-"ئىنگلىز مىلى;كۇب ئىنگلىز مىلى;كۇب ئىنگلىز مىلى;mile³"
 
 #: volume.cpp:469
 #, kde-format
@@ -15635,8 +15540,6 @@ msgctxt "unit synonyms for matching user input"
 msgid ""
 "fluid ounce;fluid ounces;fl.oz.;oz.fl.;oz. fl.;fl. oz.;fl oz;fluid ounce"
 msgstr ""
-"سۇيۇقلۇق ئۈنسىيە;سۇيۇقلۇق ئۈنسىيە;fl.oz.;oz.fl.;oz. fl.;fl. oz.;fl oz;"
-"سۇيۇقلۇق ئۈنسىيە"
 
 #: volume.cpp:479
 #, kde-format
@@ -15754,27 +15657,26 @@ msgstr ""
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gallons (U.S. liquid)"
-msgstr "گاللون(ئامېرىكا، سۇيۇقلۇق)"
+msgstr ""
 
 #: volume.cpp:517
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gallon (U.S. liquid);gallons (U.S. liquid);gal;gallon;gallons"
 msgstr ""
-"گاللون(ئامېرىكا، سۇيۇقلۇق);گاللون(ئامېرىكا، سۇيۇقلۇق);gal;gallon;gallons"
 
 #: volume.cpp:519
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gallons (U.S. liquid)"
-msgstr "%1 گاللون(ئامېرىكا، سۇيۇقلۇق)"
+msgstr ""
 
 #: volume.cpp:520
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gallon (U.S. liquid)"
 msgid_plural "%1 gallons (U.S. liquid)"
-msgstr[0] "%1 گاللون(ئامېرىكا، سۇيۇقلۇق)"
+msgstr[0] ""
 
 #: volume.cpp:525
 #, kde-format
@@ -15810,12 +15712,10 @@ msgid_plural "%1 gallons (imperial)"
 msgstr[0] ""
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "mpg (ئەنگلىيە)"
+msgstr ""
 
 #: volume.cpp:537
 #, kde-format
@@ -15824,14 +15724,12 @@ msgid "pints (imperial)"
 msgstr "پىنت(ئەنگلىيە)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
-msgstr "پىنت(ئەنگلىيە);پىنت(ئەنگلىيە);pt;pint;pints;p"
+msgstr ""
 
 #: volume.cpp:540
 #, kde-format
@@ -15859,12 +15757,10 @@ msgid "pints (U.S. liquid)"
 msgstr ""
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
-msgstr "پىنت(ئەنگلىيە);پىنت(ئەنگلىيە);pt;pint;pints;p"
+msgstr ""
 
 #: volume.cpp:550
 #, kde-format
@@ -15919,7 +15815,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
-msgstr "%1 %2"
+msgstr ""
 
 #: weight_per_area.cpp:26
 #, kde-format
