@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-07 00:40+0000\n"
-"PO-Revision-Date: 2026-09-14 17:26+0200\n"
+"PO-Revision-Date: 2026-09-21 14:59+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -786,12 +786,11 @@ msgid "square micrometers"
 msgstr "micrometros quadrate"
 
 #: area.cpp:184
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
-msgstr "micrometro quadrate;micrometros quadrate;µm²;um²;µm/-2;µm^2;µm2"
+msgstr ""
+"micrometro quadrate;micrometros quadrate;;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
 
 #: area.cpp:186
 #, kde-format
@@ -1044,16 +1043,14 @@ msgid "square feet"
 msgstr "pedes quadrate"
 
 #: area.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square foot;square feet;ft²;ft2;ft^2;square ft;sq foot;sq ft;sq feet;feet²;"
 "feet2;feet^2"
 msgstr ""
-"pede quadrate;pedes quadrate;ft²;pd. quadrate;pede quadr.;pd. quadr.;pedes "
-"quadr.;pedes²"
+"pede quadrate;pedes quadrate;ft²;ft2;ft^2; pd. quadrate;pede quadr.;pd. "
+"quadr.;pedes quadr.;pedes²;pee2;pede^2"
 
 #: area.cpp:266
 #, kde-format
