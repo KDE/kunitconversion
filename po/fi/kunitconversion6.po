@@ -1,6 +1,6 @@
 # Copyright © 2010, 2011 This_file_is_part_of_KDE
 # This file is distributed under the same license as the kdelibs package.
-# SPDX-FileCopyrightText: 2010, 2011, 2016, 2019, 2020, 2022, 2023, 2024, 2025 Tommi Nieminen <translator@legisign.org>
+# SPDX-FileCopyrightText: 2010, 2011, 2016, 2019, 2020, 2022, 2023, 2024, 2025, 2026 Tommi Nieminen <translator@legisign.org>
 # Lasse Liehu <lasse.liehu@gmail.com>, 2010, 2011, 2012, 2014, 2016.
 #
 # KDE Finnish translation sprint participants:
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: libkunitconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-07 00:40+0000\n"
-"PO-Revision-Date: 2025-07-21 16:35+0300\n"
+"PO-Revision-Date: 2026-10-02 20:32+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: acceleration.cpp:17
 #, kde-format
@@ -6300,7 +6300,7 @@ msgstr[1] "%1 nanometriä"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "TW⋅h"
-msgstr ""
+msgstr "TW⋅h"
 
 #: energy.cpp:353
 #, fuzzy, kde-format
@@ -6328,21 +6328,18 @@ msgid "%1 terawatt-hours"
 msgstr "%1 terawatti"
 
 #: energy.cpp:357
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terawatt"
-#| msgid_plural "%1 terawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terawatt-hour"
 msgid_plural "%1 terawatt-hours"
-msgstr[0] "%1 terawatti"
-msgstr[1] "%1 terawattia"
+msgstr[0] "%1 terawattitunti"
+msgstr[1] "%1 terawattituntia"
 
 #: energy.cpp:362
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "GW⋅h"
-msgstr ""
+msgstr "GW⋅h"
 
 #: energy.cpp:363
 #, fuzzy, kde-format
@@ -6370,21 +6367,18 @@ msgid "%1 gigawatt-hours"
 msgstr "%1 gigawatti"
 
 #: energy.cpp:367
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigawatt"
-#| msgid_plural "%1 gigawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigawatt-hour"
 msgid_plural "%1 gigawatt-hours"
-msgstr[0] "%1 gigawatti"
-msgstr[1] "%1 gigawattia"
+msgstr[0] "%1 gigawattitunti"
+msgstr[1] "%1 gigawattituntia"
 
 #: energy.cpp:372
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "MW⋅h"
-msgstr ""
+msgstr "MW⋅h"
 
 #: energy.cpp:373
 #, fuzzy, kde-format
@@ -6412,21 +6406,18 @@ msgid "%1 megawatt-hours"
 msgstr "%1 megawatti"
 
 #: energy.cpp:377
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megawatt"
-#| msgid_plural "%1 megawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megawatt-hour"
 msgid_plural "%1 megawatt-hours"
-msgstr[0] "%1 megawatti"
-msgstr[1] "%1 megawattia"
+msgstr[0] "%1 megawattitunti"
+msgstr[1] "%1 megawattituntia"
 
 #: energy.cpp:382
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kW⋅h"
-msgstr ""
+msgstr "kW⋅h"
 
 #: energy.cpp:383
 #, fuzzy, kde-format
@@ -6454,21 +6445,18 @@ msgid "%1 kilowatt-hours"
 msgstr "%1 kilowatti"
 
 #: energy.cpp:387
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilowatt"
-#| msgid_plural "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilowatt-hour"
 msgid_plural "%1 kilowatt-hours"
-msgstr[0] "%1 kilowatti"
-msgstr[1] "%1 kilowattia"
+msgstr[0] "%1 kilowattitunti"
+msgstr[1] "%1 kilowattituntia"
 
 #: energy.cpp:392
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "W⋅h"
-msgstr ""
+msgstr "W⋅h"
 
 #: energy.cpp:393
 #, fuzzy, kde-format
@@ -6497,15 +6485,12 @@ msgid "%1 watt-hours"
 msgstr "%1 watti"
 
 #: energy.cpp:397
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 watt"
-#| msgid_plural "%1 watts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt-hour"
 msgid_plural "%1 watt-hours"
-msgstr[0] "%1 watti"
-msgstr[1] "%1 wattia"
+msgstr[0] "%1 wattitunti"
+msgstr[1] "%1 wattituntia"
 
 #: force.cpp:17
 #, kde-format
@@ -16334,12 +16319,10 @@ msgstr[0] "%1 gallona (UK)"
 msgstr[1] "%1 gallonaa (UK)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "mpg (UK)"
+msgstr "UK pt"
 
 #: volume.cpp:537
 #, kde-format
@@ -16348,14 +16331,12 @@ msgid "pints (imperial)"
 msgstr "pinttiä (UK)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
-msgstr "pintti (UK);pinttiä (UK);pt;pint;pints;p"
+msgstr "pintti (UK);pinttiä (UK);pt;pint;pints;p;UK-pintti"
 
 #: volume.cpp:540
 #, kde-format
@@ -16384,12 +16365,10 @@ msgid "pints (U.S. liquid)"
 msgstr "pinttiä (US, neste)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (U.S. liquid);pints (U.S. liquid);US pt;US pint;US pints;US p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
-msgstr "pintti (US, neste);pinttiä (US, neste);US pt;US pint;US pinttiä;US p"
+msgstr "pintti (US, neste);pinttiä (US, neste);pt;pint;pinttiä;p"
 
 #: volume.cpp:550
 #, kde-format
@@ -16530,39 +16509,33 @@ msgstr[1] "%1 paunaa kuutiojaardilla"
 #, kde-format
 msgctxt "area unit symbol for silk fabric weight"
 msgid "momme"
-msgstr ""
+msgstr "mommea"
 
 #: weight_per_area.cpp:49
 #, kde-format
 msgctxt "unit description for silk fabric weight in lists"
 msgid "momme"
-msgstr ""
+msgstr "momme"
 
 #: weight_per_area.cpp:50
 #, kde-format
 msgctxt "unit synonyms for silk fabric weight or matching user input"
 msgid "momme"
-msgstr ""
+msgstr "momme"
 
 #: weight_per_area.cpp:52
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megaohm"
-#| msgid_plural "%1 megaohms"
+#, kde-format
 msgctxt "amount of silk fabric weight in units (real)"
 msgid "%1 momme"
-msgstr "%1 megaohmi"
+msgstr "%1 mommea"
 
 #: weight_per_area.cpp:53
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megaohm"
-#| msgid_plural "%1 megaohms"
+#, kde-format
 msgctxt "amount of silk fabric weight in units (integer)"
 msgid "%1 momme"
 msgid_plural "%1 momme"
-msgstr[0] "%1 megaohmi"
-msgstr[1] "%1 megaohmia"
+msgstr[0] "%1 momme"
+msgstr[1] "%1 mommea"
 
 #~ msgctxt "volume unit symbol"
 #~ msgid "US pt"
