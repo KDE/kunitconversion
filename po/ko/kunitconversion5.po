@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 09:00+0000\n"
-"PO-Revision-Date: 2023-07-25 01:07+0200\n"
+"PO-Revision-Date: 2026-10-03 20:26+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -46,7 +46,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "meter per second squared;meters per second squared;m/s²;m/s2;m/s^2"
 msgstr ""
 "meter per second squared;meters per second squared;m/s²;m/s2;m/s^2;초당 제곱"
-"미터"
+"미터;초당 평방미터"
 
 #: acceleration.cpp:28
 #, kde-format
@@ -79,7 +79,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "foot per second squared;feet per second squared;ft/s²;ft/s2;ft/s^2"
 msgstr ""
 "foot per second squared;feet per second squared;ft/s²;ft/s2;ft/s^2;초당 제곱"
-"피트"
+"피트;초당 평방피트"
 
 #: acceleration.cpp:38
 #, kde-format
@@ -332,7 +332,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square yottameter;square yottameters;Ym²;Ym/-2;Ym^2;Ym2"
 msgstr ""
 "square yottameter;square yottameters;Ym²;Ym/-2;Ym^2;Ym2;제곱 요타미터;제곱요"
-"타미터"
+"타미터;평방 요타미터;평방요타미터"
 
 #. i18n: This is used when a real-valued amount in units is given,
 #. such as "0.37 miles".
@@ -369,7 +369,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square zettameter;square zettameters;Zm²;Zm/-2;Zm^2;Zm2"
 msgstr ""
 "square zettameter;square zettameters;Zm²;Zm/-2;Zm^2;Zm2;제곱 제타미터;제곱제"
-"타미터"
+"타미터;평방 제타미터;평방제타미터"
 
 #: area.cpp:56
 #, kde-format
@@ -402,7 +402,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square exameter;square exameters;Em²;Em/-2;Em^2;Em2"
 msgstr ""
 "square exameter;square exameters;Em²;Em/-2;Em^2;Em2;제곱엑사미터;제곱 엑사미"
-"터"
+"터;평방엑사미터;평방 엑사미터"
 
 #: area.cpp:66
 #, kde-format
@@ -435,7 +435,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square petameter;square petameters;Pm²;Pm/-2;Pm^2;Pm2"
 msgstr ""
 "square petameter;square petameters;Pm²;Pm/-2;Pm^2;Pm2;제곱 페타미터;제곱페타"
-"미터"
+"미터;평방 페타미터;평방페타미터"
 
 #: area.cpp:76
 #, kde-format
@@ -468,7 +468,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square terameter;square terameters;Tm²;Tm/-2;Tm^2;Tm2"
 msgstr ""
 "square terameter;square terameters;Tm²;Tm/-2;Tm^2;Tm2;제곱 테라미터;제곱테라"
-"미터"
+"미터;평방 테라미터;평방테라미터"
 
 #: area.cpp:86
 #, kde-format
@@ -501,7 +501,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square gigameter;square gigameters;Gm²;Gm/-2;Gm^2;Gm2"
 msgstr ""
 "square gigameter;square gigameters;Gm²;Gm/-2;Gm^2;Gm2;제곱기가미터;제곱 기가"
-"미터"
+"미터;평방기가미터;평방 기가미터"
 
 #: area.cpp:96
 #, kde-format
@@ -534,7 +534,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square megameter;square megameters;Mm²;Mm/-2;Mm^2;Mm2"
 msgstr ""
 "square megameter;square megameters;Mm²;Mm/-2;Mm^2;Mm2;제곱 메가미터;제곱메가"
-"미터"
+"미터;평방 메가미터;평방메가미터"
 
 #: area.cpp:106
 #, kde-format
@@ -567,7 +567,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
 msgstr ""
 "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2;제곱킬로미터;제"
-"곱 킬로미터;평방킬로미터"
+"곱 킬로미터;평방킬로미터;평방 킬로미터"
 
 #: area.cpp:116
 #, kde-format
@@ -601,7 +601,7 @@ msgid ""
 "square hectometer;square hectometers;hm²;hm/-2;hm^2;hm2;hectare;hectares"
 msgstr ""
 "square hectometer;square hectometers;hm²;hm/-2;hm^2;hm2;hectare;hectares;제"
-"곱 헥토미터;제곱헥토미터;헥타르;평방헥토미터"
+"곱 헥토미터;제곱헥토미터;헥타르;평방헥토미터;평방 헥토미터"
 
 #: area.cpp:126
 #, kde-format
@@ -634,7 +634,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square decameter;square decameters;dam²;dam/-2;dam^2;dam2"
 msgstr ""
 "square decameter;square decameters;dam²;dam/-2;dam^2;dam2;제곱 데카미터;제곱"
-"데카미터;평방데카미터"
+"데카미터;평방 데카미터;평방데카미터"
 
 #: area.cpp:136
 #, kde-format
@@ -666,7 +666,8 @@ msgstr "제곱미터"
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
 msgstr ""
-"square meter;square meters;sq m;m²;m/-2;m^2;m2;제곱미터;제곱 미터;평방미터"
+"square meter;square meters;sq m;m²;m/-2;m^2;m2;제곱미터;제곱 미터;평방미터;평"
+"방 미터"
 
 #: area.cpp:146
 #, kde-format
@@ -699,7 +700,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square decimeter;square decimeters;dm²;dm/-2;dm^2;dm2"
 msgstr ""
 "square decimeter;square decimeters;dm²;dm/-2;dm^2;dm2;제곱 데시미터;제곱데시"
-"미터"
+"미터;평방 데시미터;평방데시미터"
 
 #: area.cpp:156
 #, kde-format
@@ -732,7 +733,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
 msgstr ""
 "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2;제곱센티미터;제"
-"곱 센티미터;평방센티미터"
+"곱 센티미터;평방센티미터;평방 센티미터"
 
 #: area.cpp:166
 #, kde-format
@@ -765,7 +766,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
 msgstr ""
 "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2;제곱 밀리미터;"
-"제곱밀리미터;평방밀리미터"
+"제곱밀리미터;평방 밀리미터;평방밀리미터"
 
 #: area.cpp:176
 #, kde-format
@@ -798,7 +799,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"
 msgstr ""
 "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2;제곱 마이크로미"
-"터;제곱마이크로미터"
+"터;제곱마이크로미터;평방 마이크로미터;평방마이크로미터"
 
 #: area.cpp:186
 #, kde-format
@@ -831,7 +832,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square nanometer;square nanometers;nm²;nm/-2;nm^2;nm2"
 msgstr ""
 "square nanometer;square nanometers;nm²;nm/-2;nm^2;nm2;제곱나노미터;제곱 나노"
-"미터"
+"미터;평방나노미터;평방 나노미터"
 
 #: area.cpp:196
 #, kde-format
@@ -863,8 +864,8 @@ msgstr "제곱피코미터"
 msgctxt "unit synonyms for matching user input"
 msgid "square picometer;square picometers;pm²;pm/-2;pm^2;pm2"
 msgstr ""
-"square picometer;square picometers;pm²;pm/-2;pm^2;pm2;제곱 피코미터;제곱 피코"
-"미터"
+"square picometer;square picometers;pm²;pm/-2;pm^2;pm2;제곱피코미터;제곱 피코"
+"미터;평방피코미터;평방 피코미터"
 
 #: area.cpp:206
 #, kde-format
@@ -897,7 +898,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "square femtometer;square femtometers;fm²;fm/-2;fm^2;fm2"
 msgstr ""
 "square femtometer;square femtometers;fm²;fm/-2;fm^2;fm2;제곱 펨토미터;제곱펨"
-"토미터"
+"토미터;평방 펨토미터;평방펨토미터"
 
 #: area.cpp:216
 #, kde-format
@@ -928,7 +929,9 @@ msgstr "제곱아토미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square attometer;square attometers;am²;am/-2;am^2;am2"
-msgstr "square attometer;square attometers;am²;am/-2;am^2;am2;제곱아토미터"
+msgstr ""
+"square attometer;square attometers;am²;am/-2;am^2;am2;제곱아토미터;제곱 아토"
+"미터;평방아토미터;평방 아토미터"
 
 #: area.cpp:226
 #, kde-format
@@ -959,7 +962,9 @@ msgstr "제곱젭토미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square zeptometer;square zeptometers;zm²;zm/-2;zm^2;zm2"
-msgstr "square zeptometer;square zeptometers;zm²;zm/-2;zm^2;zm2;제곱젭토미터"
+msgstr ""
+"square zeptometer;square zeptometers;zm²;zm/-2;zm^2;zm2;제곱젭토미터;제곱 젭"
+"토미터;평방젭토미터;평방 젭토미터"
 
 #: area.cpp:236
 #, kde-format
@@ -990,7 +995,9 @@ msgstr "제곱욕토미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square yoctometer;square yoctometers;ym²;ym/-2;ym^2;ym2"
-msgstr "square yoctometer;square yoctometers;ym²;ym/-2;ym^2;ym2;제곱욕토미터"
+msgstr ""
+"square yoctometer;square yoctometers;ym²;ym/-2;ym^2;ym2;제곱욕토미터;제곱 욕"
+"토미터;평방욕토미터;평방 욕토미터"
 
 #: area.cpp:246
 #, kde-format
@@ -1088,7 +1095,7 @@ msgid ""
 "inch²"
 msgstr ""
 "square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq in;"
-"inch²;제곱인치"
+"inch²;제곱 인치;제곱인치;평방 인치;평방인치"
 
 #: area.cpp:276
 #, kde-format
@@ -1120,7 +1127,8 @@ msgstr "제곱마일"
 msgctxt "unit synonyms for matching user input"
 msgid "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
 msgstr ""
-"square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²;제곱마일"
+"square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²;제곱마일;"
+"제곱 마일;평방마일;평방 마일"
 
 #: area.cpp:286
 #, kde-format
@@ -3550,7 +3558,7 @@ msgctxt "unit synonyms for matching user input"
 msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³"
 msgstr ""
 "kilogram per cubic meter;kilograms per cubic meter;kg/m³;세제곱미터당 킬로그"
-"램"
+"램;입방미터당 킬로그램"
 
 #: density.cpp:28
 #, kde-format
@@ -3674,7 +3682,9 @@ msgstr "세제곱인치당 온스"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic inch;ounces per cubic inch;oz/in³"
-msgstr "ounce per cubic inch;ounces per cubic inch;oz/in³;세제곱인치당 온스"
+msgstr ""
+"ounce per cubic inch;ounces per cubic inch;oz/in³;세제곱인치당 온스;입방인치"
+"당 온스"
 
 #: density.cpp:70
 #, kde-format
@@ -3705,7 +3715,9 @@ msgstr "세제곱피트당 온스"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³"
-msgstr "ounce per cubic foot;ounces per cubic foot;oz/ft³;세제곱피트당 온스"
+msgstr ""
+"ounce per cubic foot;ounces per cubic foot;oz/ft³;세제곱피트당 온스;입방피트"
+"당 온스"
 
 #: density.cpp:80
 #, kde-format
@@ -3736,7 +3748,9 @@ msgstr "세제곱인치당 파운드"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic inch;pounds per cubic inch;lb/in³"
-msgstr "pound per cubic inch;pounds per cubic inch;lb/in³;세제곱인치당 파운드"
+msgstr ""
+"pound per cubic inch;pounds per cubic inch;lb/in³;세제곱인치당 파운드;입방인"
+"치당 파운드"
 
 #: density.cpp:90
 #, kde-format
@@ -3767,7 +3781,9 @@ msgstr "세제곱피트당 파운드"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic foot;pounds per cubic foot;lb/ft³"
-msgstr "pound per cubic foot;pounds per cubic foot;lb/ft³;세제곱피트당 파운드"
+msgstr ""
+"pound per cubic foot;pounds per cubic foot;lb/ft³;세제곱피트당 파운드;입방피"
+"트당 파운드"
 
 #: density.cpp:100
 #, kde-format
@@ -3798,7 +3814,9 @@ msgstr "세제곱야드당 파운드"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic yard;pounds per cubic yard;lb/yd³"
-msgstr "pound per cubic yard;pounds per cubic yard;lb/yd³;세제곱야드당 파운드"
+msgstr ""
+"pound per cubic yard;pounds per cubic yard;lb/yd³;세제곱야드당 파운드;입방야"
+"드당 파운드"
 
 #: density.cpp:110
 #, kde-format
@@ -11886,7 +11904,7 @@ msgstr "세제곱미터당 와트"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per cubic meter;W/m3;W/m^3"
-msgstr "watt per cubic meter;W/m3;W/m^3;세제곱미터당 와트"
+msgstr "watt per cubic meter;W/m3;W/m^3;세제곱미터당 와트;입방미터당 와트"
 
 #: thermal_generation.cpp:28
 #, kde-format
@@ -13823,7 +13841,9 @@ msgstr "세제곱요타미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic yottameter;cubic yottameters;Ym³;Ym/-3;Ym^3;Ym3"
-msgstr "cubic yottameter;cubic yottameters;Ym³;Ym/-3;Ym^3;Ym3;세제곱요타미터"
+msgstr ""
+"cubic yottameter;cubic yottameters;Ym³;Ym/-3;Ym^3;Ym3;세제곱요타미터;입방요타"
+"미터"
 
 #: volume.cpp:28
 #, kde-format
@@ -13854,7 +13874,9 @@ msgstr "세제곱제타미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic zettameter;cubic zettameters;Zm³;Zm/-3;Zm^3;Zm3"
-msgstr "cubic zettameter;cubic zettameters;Zm³;Zm/-3;Zm^3;Zm3;세제곱제타미터"
+msgstr ""
+"cubic zettameter;cubic zettameters;Zm³;Zm/-3;Zm^3;Zm3;세제곱제타미터;입방제타"
+"미터"
 
 #: volume.cpp:39
 #, kde-format
@@ -13885,7 +13907,8 @@ msgstr "세제곱엑사미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic exameter;cubic exameters;Em³;Em/-3;Em^3;Em3"
-msgstr "cubic exameter;cubic exameters;Em³;Em/-3;Em^3;Em3;세제곱엑사미터"
+msgstr ""
+"cubic exameter;cubic exameters;Em³;Em/-3;Em^3;Em3;세제곱엑사미터;입방엑사미터"
 
 #: volume.cpp:49
 #, kde-format
@@ -13916,7 +13939,9 @@ msgstr "세제곱페타미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic petameter;cubic petameters;Pm³;Pm/-3;Pm^3;Pm3"
-msgstr "cubic petameter;cubic petameters;Pm³;Pm/-3;Pm^3;Pm3;세제곱페타미터"
+msgstr ""
+"cubic petameter;cubic petameters;Pm³;Pm/-3;Pm^3;Pm3;세제곱페타미터;입방페타미"
+"터"
 
 #: volume.cpp:59
 #, kde-format
@@ -13947,7 +13972,9 @@ msgstr "세제곱테라미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic terameter;cubic terameters;Tm³;Tm/-3;Tm^3;Tm3"
-msgstr "cubic terameter;cubic terameters;Tm³;Tm/-3;Tm^3;Tm3;세제곱테라미터"
+msgstr ""
+"cubic terameter;cubic terameters;Tm³;Tm/-3;Tm^3;Tm3;세제곱테라미터;입방테라미"
+"터"
 
 #: volume.cpp:69
 #, kde-format
@@ -13978,7 +14005,9 @@ msgstr "세제곱기가미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic gigameter;cubic gigameters;Gm³;Gm/-3;Gm^3;Gm3"
-msgstr "cubic gigameter;cubic gigameters;Gm³;Gm/-3;Gm^3;Gm3;세제곱기가미터"
+msgstr ""
+"cubic gigameter;cubic gigameters;Gm³;Gm/-3;Gm^3;Gm3;세제곱기가미터;입방기가미"
+"터"
 
 #: volume.cpp:79
 #, kde-format
@@ -14009,7 +14038,9 @@ msgstr "세제곱메가미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic megameter;cubic megameters;Mm³;Mm/-3;Mm^3;Mm3"
-msgstr "cubic megameter;cubic megameters;Mm³;Mm/-3;Mm^3;Mm3;세제곱메가미터"
+msgstr ""
+"cubic megameter;cubic megameters;Mm³;Mm/-3;Mm^3;Mm3;세제곱메가미터;입방메가미"
+"터"
 
 #: volume.cpp:89
 #, kde-format
@@ -14040,7 +14071,9 @@ msgstr "세제곱킬로미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic kilometer;cubic kilometers;km³;km/-3;km^3;km3"
-msgstr "cubic kilometer;cubic kilometers;km³;km/-3;km^3;km3;세제곱킬로미터"
+msgstr ""
+"cubic kilometer;cubic kilometers;km³;km/-3;km^3;km3;세제곱킬로미터;입방킬로미"
+"터"
 
 #: volume.cpp:99
 #, kde-format
@@ -14071,7 +14104,9 @@ msgstr "세제곱헥토미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic hectometer;cubic hectometers;hm³;hm/-3;hm^3;hm3"
-msgstr "cubic hectometer;cubic hectometers;hm³;hm/-3;hm^3;hm3;세제곱헥토미터"
+msgstr ""
+"cubic hectometer;cubic hectometers;hm³;hm/-3;hm^3;hm3;세제곱헥토미터;입방헥토"
+"미터"
 
 #: volume.cpp:109
 #, kde-format
@@ -14102,7 +14137,9 @@ msgstr "세제곱데카미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic decameter;cubic decameters;dam³;dam/-3;dam^3;dam3"
-msgstr "cubic decameter;cubic decameters;dam³;dam/-3;dam^3;dam3;세제곱데카미터"
+msgstr ""
+"cubic decameter;cubic decameters;dam³;dam/-3;dam^3;dam3;세제곱데카미터;입방데"
+"카미터"
 
 #: volume.cpp:119
 #, kde-format
@@ -14133,7 +14170,7 @@ msgstr "세제곱미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic meter;cubic meters;m³;m/-3;m^3;m3"
-msgstr "cubic meter;cubic meters;m³;m/-3;m^3;m3;세제곱미터"
+msgstr "cubic meter;cubic meters;m³;m/-3;m^3;m3;세제곱미터;입방미터"
 
 #: volume.cpp:129
 #, kde-format
@@ -14164,7 +14201,9 @@ msgstr "세제곱데시미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic decimeter;cubic decimeters;dm³;dm/-3;dm^3;dm3"
-msgstr "cubic decimeter;cubic decimeters;dm³;dm/-3;dm^3;dm3;세제곱데시미터"
+msgstr ""
+"cubic decimeter;cubic decimeters;dm³;dm/-3;dm^3;dm3;세제곱데시미터;입방데시미"
+"터"
 
 #: volume.cpp:139
 #, kde-format
@@ -14195,7 +14234,9 @@ msgstr "세제곱센티미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic centimeter;cubic centimeters;cm³;cm/-3;cm^3;cm3"
-msgstr "cubic centimeter;cubic centimeters;cm³;cm/-3;cm^3;cm3;세제곱센티미터"
+msgstr ""
+"cubic centimeter;cubic centimeters;cm³;cm/-3;cm^3;cm3;세제곱센티미터;입방센티"
+"미터"
 
 #: volume.cpp:149
 #, kde-format
@@ -14226,7 +14267,9 @@ msgstr "세제곱밀리미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic millimeter;cubic millimeters;mm³;mm/-3;mm^3;mm3"
-msgstr "cubic millimeter;cubic millimeters;mm³;mm/-3;mm^3;mm3;세제곱밀리미터"
+msgstr ""
+"cubic millimeter;cubic millimeters;mm³;mm/-3;mm^3;mm3;세제곱밀리미터;입방밀리"
+"미터"
 
 #: volume.cpp:159
 #, kde-format
@@ -14258,7 +14301,8 @@ msgstr "세제곱마이크로미터"
 msgctxt "unit synonyms for matching user input"
 msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3"
 msgstr ""
-"cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3;세제곱마이크로미터"
+"cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3;세제곱마이크로미터;"
+"입방마이크로미터"
 
 #: volume.cpp:169
 #, kde-format
@@ -14289,7 +14333,9 @@ msgstr "세제곱나노미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic nanometer;cubic nanometers;nm³;nm/-3;nm^3;nm3"
-msgstr "cubic nanometer;cubic nanometers;nm³;nm/-3;nm^3;nm3;세제곱나노미터"
+msgstr ""
+"cubic nanometer;cubic nanometers;nm³;nm/-3;nm^3;nm3;세제곱나노미터;입방나노미"
+"터"
 
 #: volume.cpp:179
 #, kde-format
@@ -14320,7 +14366,9 @@ msgstr "세제곱피코미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic picometer;cubic picometers;pm³;pm/-3;pm^3;pm3"
-msgstr "cubic picometer;cubic picometers;pm³;pm/-3;pm^3;pm3;세제곱피코미터"
+msgstr ""
+"cubic picometer;cubic picometers;pm³;pm/-3;pm^3;pm3;세제곱피코미터;입방피코미"
+"터"
 
 #: volume.cpp:189
 #, kde-format
@@ -14351,7 +14399,9 @@ msgstr "세제곱펨토미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic femtometer;cubic femtometers;fm³;fm/-3;fm^3;fm3"
-msgstr "cubic femtometer;cubic femtometers;fm³;fm/-3;fm^3;fm3;세제곱펨토미터"
+msgstr ""
+"cubic femtometer;cubic femtometers;fm³;fm/-3;fm^3;fm3;세제곱펨토미터;입방펨토"
+"미터"
 
 #: volume.cpp:199
 #, kde-format
@@ -14382,7 +14432,9 @@ msgstr "세제곱아토미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic attometer;cubic attometers;am³;am/-3;am^3;am3"
-msgstr "cubic attometer;cubic attometers;am³;am/-3;am^3;am3;세제곱아토미터"
+msgstr ""
+"cubic attometer;cubic attometers;am³;am/-3;am^3;am3;세제곱아토미터;입방아토미"
+"터"
 
 #: volume.cpp:209
 #, kde-format
@@ -14413,7 +14465,9 @@ msgstr "세제곱젭토미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic zeptometer;cubic zeptometers;zm³;zm/-3;zm^3;zm3"
-msgstr "cubic zeptometer;cubic zeptometers;zm³;zm/-3;zm^3;zm3;세제곱젭토미터"
+msgstr ""
+"cubic zeptometer;cubic zeptometers;zm³;zm/-3;zm^3;zm3;세제곱젭토미터;입방젭토"
+"미터"
 
 #: volume.cpp:219
 #, kde-format
@@ -14444,7 +14498,9 @@ msgstr "세제곱욕토미터"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic yoctometer;cubic yoctometers;ym³;ym/-3;ym^3;ym3"
-msgstr "cubic yoctometer;cubic yoctometers;ym³;ym/-3;ym^3;ym3;세제곱욕토미터"
+msgstr ""
+"cubic yoctometer;cubic yoctometers;ym³;ym/-3;ym^3;ym3;세제곱욕토미터;입방욕토"
+"미터"
 
 #: volume.cpp:229
 #, kde-format
@@ -15127,7 +15183,8 @@ msgstr "세제곱피트"
 msgctxt "unit synonyms for matching user input"
 msgid "cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"
 msgstr ""
-"cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³;세제곱피트"
+"cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³;세제곱피트;입"
+"방피트"
 
 #: volume.cpp:449
 #, kde-format
@@ -15161,7 +15218,7 @@ msgid ""
 "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;inch³"
 msgstr ""
 "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;"
-"inch³;세제곱인치"
+"inch³;세제곱인치;입방인치"
 
 #: volume.cpp:459
 #, kde-format
@@ -15195,7 +15252,7 @@ msgid ""
 "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"
 msgstr ""
 "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³;"
-"세제곱마일"
+"세제곱마일;입방마일"
 
 #: volume.cpp:469
 #, kde-format
