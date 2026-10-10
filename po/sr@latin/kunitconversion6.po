@@ -1,13 +1,14 @@
 # Translation of kunitconversion5.po into Serbian.
 # Chusslove Illich <caslav.ilic@gmx.net>, 2009, 2010, 2011, 2012, 2014, 2016.
 # Dalibor Djuric <daliborddjuric@gmail.com>, 2010.
+# Nemanja Hiršl <nemhirsl@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: kunitconversion5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-07 00:40+0000\n"
-"PO-Revision-Date: 2016-11-28 01:32+0100\n"
-"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"PO-Revision-Date: 2026-10-09 18:40+0200\n"
+"Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@latin\n"
 "MIME-Version: 1.0\n"
@@ -634,9 +635,7 @@ msgid "square kilometers"
 msgstr "kilometar kvadratni"
 
 #: area.cpp:114
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square kilometer;square kilometers;km²;km/-2;km^2;km2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square kilometer;square kilometers;sq km;km²;km/-2;km^2;km2"
 msgstr ""
@@ -751,9 +750,7 @@ msgid "square meters"
 msgstr "metar kvadratni"
 
 #: area.cpp:144
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square meter;square meters;m²;m/-2;m^2;m2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square meter;square meters;sq m;m²;m/-2;m^2;m2"
 msgstr ""
@@ -828,9 +825,7 @@ msgid "square centimeters"
 msgstr "centimetar kvadratni"
 
 #: area.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square centimeter;square centimeters;cm²;cm/-2;cm^2;cm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square centimeter;square centimeters;sq cm;cm²;cm/-2;cm^2;cm2"
 msgstr ""
@@ -871,9 +866,7 @@ msgid "square millimeters"
 msgstr "milimetar kvadratni"
 
 #: area.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square millimeter;square millimeters;mm²;mm/-2;mm^2;mm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square millimeter;square millimeters;sq mm;mm²;mm/-2;mm^2;mm2"
 msgstr ""
@@ -913,16 +906,14 @@ msgstr "mikrometar kvadratni"
 
 # |, no-check-spell
 #: area.cpp:184
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;µm2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "square micrometer;square micrometers;µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
 msgstr ""
 "kvadratni mikrometar;kvadratnih mikrometara;kvadratni mikrometri;kvadratne "
 "mikrometre;kvadratnim mikrometrima;mikrometar kvadratni;mikrometara "
 "kvadratnih;mikrometri kvadratni;mikrometre kvadratne;mikrometrima kvadratnim;"
-"µm²;um²;µm/-2;µm^2;µm2"
+"µm²;um²;µm/-2;µm^2;um^2;µm2;um2"
 
 #: area.cpp:186
 #, kde-format
@@ -1197,7 +1188,7 @@ msgstr "%1 akra"
 msgctxt "amount in units (integer)"
 msgid "%1 acre"
 msgid_plural "%1 acres"
-msgstr[0] "%1 akra"
+msgstr[0] "%1 akr"
 msgstr[1] "%1 akra"
 msgstr[2] "%1 akra"
 msgstr[3] "%1 akr"
@@ -1215,9 +1206,7 @@ msgid "square feet"
 msgstr "stopa kvadratna"
 
 #: area.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square foot;square feet;ft²;square ft;sq foot;sq ft;sq feet;feet²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square foot;square feet;ft²;ft2;ft^2;square ft;sq foot;sq ft;sq feet;feet²;"
@@ -1256,11 +1245,7 @@ msgid "square inches"
 msgstr "inč kvadratni"
 
 #: area.cpp:274
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq "
-#| "in;inch²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square inch;square inches;in²;in2;in^2;square inch;square in;sq inches;sq "
@@ -1299,9 +1284,7 @@ msgid "square miles"
 msgstr "milja kvadratna"
 
 #: area.cpp:284
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "square mile;square miles;mi²;square mi;sq miles;sq mile;sq mi;mile²"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "square mile;square miles;mi²;mi2;mi^2;square mi;sq miles;sq mile;sq mi;mile²;"
@@ -1330,17 +1313,15 @@ msgstr[3] "%1 kvadratna milja"
 #: binary_data.cpp:44
 #, kde-format
 msgid "Binary Data"
-msgstr ""
+msgstr "Binarni podaci"
 
 #: binary_data.cpp:44
 #, kde-format
 msgid "Binary Data Size"
-msgstr ""
+msgstr "Veličina binarnih podataka"
 
 #: binary_data.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (binary data)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -1349,1397 +1330,1161 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "YiB"
-msgstr ""
+msgstr "YiB"
 
 #: binary_data.cpp:52
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yobibytes"
-msgstr ""
+msgstr "jobibajt"
 
 #: binary_data.cpp:53
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "YiB;yobibyte;yobibytes"
-msgstr ""
+msgstr "YiB;jobibajt;jobibajti;jobibajta;jobibajte;jobibajtima"
 
 #: binary_data.cpp:55
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yobibytes"
-msgstr "%1 jotalitara"
+msgstr "%1 jobibajta"
 
 #: binary_data.cpp:56
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottaliter"
-#| msgid_plural "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yobibyte"
 msgid_plural "%1 yobibytes"
-msgstr[0] "%1 jotalitar"
-msgstr[1] "%1 jotalitra"
-msgstr[2] "%1 jotalitara"
-msgstr[3] "%1 jotalitar"
+msgstr[0] "%1 jobibajt"
+msgstr[1] "%1 jobibajta"
+msgstr[2] "%1 jobibajta"
+msgstr[3] "%1 jobibajt"
 
 #: binary_data.cpp:61
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Yib"
-msgstr ""
+msgstr "Yib"
 
 #: binary_data.cpp:62
 #, kde-format
 msgctxt "unit description in lists"
 msgid "yobibits"
-msgstr ""
+msgstr "jobibit"
 
 #: binary_data.cpp:63
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Yib;yobibit;yobibits"
-msgstr ""
+msgstr "Yib;jobibit;jobibiti;jobibita;jobibite;jobibitima"
 
 #: binary_data.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yobibits"
-msgstr "%1 jotalitara"
+msgstr "%1 jobibita"
 
 #: binary_data.cpp:66
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottaliter"
-#| msgid_plural "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yobibit"
 msgid_plural "%1 yobibits"
-msgstr[0] "%1 jotalitar"
-msgstr[1] "%1 jotalitra"
-msgstr[2] "%1 jotalitara"
-msgstr[3] "%1 jotalitar"
+msgstr[0] "%1 jobibit"
+msgstr[1] "%1 jobibita"
+msgstr[2] "%1 jobibita"
+msgstr[3] "%1 jobibit"
 
 #: binary_data.cpp:71
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "YB"
-msgstr ""
+msgstr "YB"
 
 #: binary_data.cpp:72
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yottameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yottabytes"
-msgstr "jotametar"
+msgstr "jotabajt"
 
 #: binary_data.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yottameter;yottameters;Ym"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "YB;yottabyte;yottabytes"
-msgstr "Ym;jotametar;jotametri;jotametara;jotametre;jotametrima"
+msgstr "YB;jotabajt;jotabajti;jotabajta;jotabajte;jotabajtima"
 
 #: binary_data.cpp:75
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottabytes"
-msgstr "%1 jotametara"
+msgstr "%1 jotabajta"
 
 #: binary_data.cpp:76
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottameter"
-#| msgid_plural "%1 yottameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottabyte"
 msgid_plural "%1 yottabytes"
-msgstr[0] "%1 jotametar"
-msgstr[1] "%1 jotametra"
-msgstr[2] "%1 jotametara"
-msgstr[3] "%1 jotametar"
+msgstr[0] "%1 jotabajt"
+msgstr[1] "%1 jotabajta"
+msgstr[2] "%1 jotabajta"
+msgstr[3] "%1 jotabajt"
 
 #: binary_data.cpp:81
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Yb"
-msgstr ""
+msgstr "Yb"
 
 #: binary_data.cpp:82
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "yottaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "yottabits"
-msgstr "jotalitar"
+msgstr "jotabit"
 
 #: binary_data.cpp:83
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "yottaliter;yottaliters;Yl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Yb;yottabit;yottabits"
-msgstr "Yl;jotalitar;jotalitri;jotalitara;jotalitre;jotalitrima"
+msgstr "Yb;jotabit;jotabiti;jotabita;jotabite;jotabitima"
 
 #: binary_data.cpp:85
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 yottabits"
-msgstr "%1 jotalitara"
+msgstr "%1 jotabita"
 
 #: binary_data.cpp:86
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottaliter"
-#| msgid_plural "%1 yottaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottabit"
 msgid_plural "%1 yottabits"
-msgstr[0] "%1 jotalitar"
-msgstr[1] "%1 jotalitra"
-msgstr[2] "%1 jotalitara"
-msgstr[3] "%1 jotalitar"
+msgstr[0] "%1 jotabit"
+msgstr[1] "%1 jotabita"
+msgstr[2] "%1 jotabita"
+msgstr[3] "%1 jotabit"
 
 #: binary_data.cpp:91
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "ZiB"
-msgstr ""
+msgstr "ZiB"
 
 #: binary_data.cpp:92
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zebibytes"
-msgstr ""
+msgstr "zebibajt"
 
 #: binary_data.cpp:93
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ZiB;zebibyte;zebibytes"
-msgstr ""
+msgstr "ZiB;zebibajt;zebibajti;zebibajta;zebibajte;zebibajtima"
 
 #: binary_data.cpp:95
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zebibytes"
-msgstr "%1 zetalitara"
+msgstr "%1 zebibajta"
 
 #: binary_data.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettaliter"
-#| msgid_plural "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zebibyte"
 msgid_plural "%1 zebibytes"
-msgstr[0] "%1 zetalitar"
-msgstr[1] "%1 zetalitra"
-msgstr[2] "%1 zetalitara"
-msgstr[3] "%1 zetalitar"
+msgstr[0] "%1 zebibajt"
+msgstr[1] "%1 zebibajta"
+msgstr[2] "%1 zebibajta"
+msgstr[3] "%1 zebibajt"
 
 #: binary_data.cpp:101
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zib"
-msgstr ""
+msgstr "Zib"
 
 #: binary_data.cpp:102
 #, kde-format
 msgctxt "unit description in lists"
 msgid "zebibits"
-msgstr ""
+msgstr "zebibit"
 
 #: binary_data.cpp:103
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Zib;zebibit;zebibits"
-msgstr ""
+msgstr "Zib;zebibit;zebibiti;zebibita;zebibite;zebibitima"
 
 #: binary_data.cpp:105
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zebibits"
-msgstr "%1 zetalitara"
+msgstr "%1 zebibita"
 
 #: binary_data.cpp:106
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettaliter"
-#| msgid_plural "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zebibit"
 msgid_plural "%1 zebibits"
-msgstr[0] "%1 zetalitar"
-msgstr[1] "%1 zetalitra"
-msgstr[2] "%1 zetalitara"
-msgstr[3] "%1 zetalitar"
+msgstr[0] "%1 zebibit"
+msgstr[1] "%1 zebibita"
+msgstr[2] "%1 zebibita"
+msgstr[3] "%1 zebibit"
 
 #: binary_data.cpp:111
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "ZB"
-msgstr ""
+msgstr "ZB"
 
 #: binary_data.cpp:112
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zettameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zettabytes"
-msgstr "zetametar"
+msgstr "zetabajt"
 
 #: binary_data.cpp:113
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zettameter;zettameters;Zm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ZB;zettabyte;zettabytes"
-msgstr "Zm;zetametar;zetametri;zetametara;zetametre;zetametrima"
+msgstr "ZB;zetabajt;zetabajti;zetabajta;zetabajte;zetabajtima"
 
 #: binary_data.cpp:115
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettabytes"
-msgstr "%1 zetametara"
+msgstr "%1 zetabajta"
 
 #: binary_data.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettameter"
-#| msgid_plural "%1 zettameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettabyte"
 msgid_plural "%1 zettabytes"
-msgstr[0] "%1 zetametar"
-msgstr[1] "%1 zetametra"
-msgstr[2] "%1 zetametara"
-msgstr[3] "%1 zetametar"
+msgstr[0] "%1 zetabajt"
+msgstr[1] "%1 zetabajta"
+msgstr[2] "%1 zetabajta"
+msgstr[3] "%1 zetabajt"
 
 #: binary_data.cpp:121
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Zb"
-msgstr ""
+msgstr "Zb"
 
 #: binary_data.cpp:122
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "zettaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "zettabits"
-msgstr "zetalitar"
+msgstr "zetabit"
 
 #: binary_data.cpp:123
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "zettaliter;zettaliters;Zl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Zb;zettabit;zettabits"
-msgstr "Zl;zetalitar;zetalitri;zetalitara;zetalitre;zetalitrima"
+msgstr "Zb;zetabit;zetabiti;zetabita;zetabite;zetabitima"
 
 #: binary_data.cpp:125
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettabits"
-msgstr "%1 zetalitara"
+msgstr "%1 zetabita"
 
 #: binary_data.cpp:126
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettaliter"
-#| msgid_plural "%1 zettaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettabit"
 msgid_plural "%1 zettabits"
-msgstr[0] "%1 zetalitar"
-msgstr[1] "%1 zetalitra"
-msgstr[2] "%1 zetalitara"
-msgstr[3] "%1 zetalitar"
+msgstr[0] "%1 zetabit"
+msgstr[1] "%1 zetabita"
+msgstr[2] "%1 zetabita"
+msgstr[3] "%1 zetabit"
 
 #: binary_data.cpp:131
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "EiB"
-msgstr ""
+msgstr "EiB"
 
 #: binary_data.cpp:132
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exbibytes"
-msgstr ""
+msgstr "eksbibajt"
 
 #: binary_data.cpp:133
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "EiB;exbibyte;exbibytes"
-msgstr ""
+msgstr "EiB;eksbibajt;eksbibajti;eksbibajta;eksbibajte;eksbibajtima"
 
 #: binary_data.cpp:135
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exbibytes"
-msgstr "%1 eksalitara"
+msgstr "%1 eksbibajta"
 
 #: binary_data.cpp:136
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exaliter"
-#| msgid_plural "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exbibyte"
 msgid_plural "%1 exbibytes"
-msgstr[0] "%1 eksalitar"
-msgstr[1] "%1 eksalitra"
-msgstr[2] "%1 eksalitara"
-msgstr[3] "%1 eksalitar"
+msgstr[0] "%1 eksbibajt"
+msgstr[1] "%1 eksbibajta"
+msgstr[2] "%1 eksbibajta"
+msgstr[3] "%1 eksbibajt"
 
 #: binary_data.cpp:141
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Eib"
-msgstr ""
+msgstr "Eib"
 
 #: binary_data.cpp:142
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exbibits"
-msgstr ""
+msgstr "eksbibit"
 
 #: binary_data.cpp:143
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Eib;exbibit;exbibits"
-msgstr ""
+msgstr "Eib;eksbibit;eksbibiti;eksbibita;eksbibite;eksbibitima"
 
 #: binary_data.cpp:145
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exbibits"
-msgstr "%1 eksalitara"
+msgstr "%1 eksbibita"
 
 #: binary_data.cpp:146
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exaliter"
-#| msgid_plural "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exbibit"
 msgid_plural "%1 exbibits"
-msgstr[0] "%1 eksalitar"
-msgstr[1] "%1 eksalitra"
-msgstr[2] "%1 eksalitara"
-msgstr[3] "%1 eksalitar"
+msgstr[0] "%1 eksbibit"
+msgstr[1] "%1 eksbibita"
+msgstr[2] "%1 eksbibita"
+msgstr[3] "%1 eksbibit"
 
 #: binary_data.cpp:151
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "EB"
-msgstr ""
+msgstr "EB"
 
 #: binary_data.cpp:152
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exabytes"
-msgstr ""
+msgstr "eksabajt"
 
 #: binary_data.cpp:153
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "exameter;exameters;Em"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "EB;exabyte;exabytes"
-msgstr "Em;eksametar;eksametri;eksametara;eksametre;eksametrima"
+msgstr "EB;eksabajt;eksabajti;eksabajta;eksabajte;eksabajtima"
 
 #: binary_data.cpp:155
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exabytes"
-msgstr "%1 eksametara"
+msgstr "%1 eksabajta"
 
 #: binary_data.cpp:156
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exameter"
-#| msgid_plural "%1 exameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exabyte"
 msgid_plural "%1 exabytes"
-msgstr[0] "%1 eksametar"
-msgstr[1] "%1 eksametra"
-msgstr[2] "%1 eksametara"
-msgstr[3] "%1 eksametar"
+msgstr[0] "%1 eksabajt"
+msgstr[1] "%1 eksabajta"
+msgstr[2] "%1 eksabajta"
+msgstr[3] "%1 eksabajt"
 
 #: binary_data.cpp:161
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Eb"
-msgstr ""
+msgstr "Eb"
 
 #: binary_data.cpp:162
 #, kde-format
 msgctxt "unit description in lists"
 msgid "exabits"
-msgstr ""
+msgstr "eksabit"
 
 #: binary_data.cpp:163
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "exaliter;exaliters;El"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Eb;exabit;exabits"
-msgstr "El;eksalitar;eksalitri;eksalitara;eksalitre;eksalitrima"
+msgstr "Eb;eksabit;eksabiti;eksabita;eksabite;eksabitima"
 
 #: binary_data.cpp:165
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 exabits"
-msgstr "%1 eksalitara"
+msgstr "%1 eksabita"
 
 #: binary_data.cpp:166
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exaliter"
-#| msgid_plural "%1 exaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exabit"
 msgid_plural "%1 exabits"
-msgstr[0] "%1 eksalitar"
-msgstr[1] "%1 eksalitra"
-msgstr[2] "%1 eksalitara"
-msgstr[3] "%1 eksalitar"
+msgstr[0] "%1 eksabit"
+msgstr[1] "%1 eksabita"
+msgstr[2] "%1 eksabita"
+msgstr[3] "%1 eksabit"
 
 #: binary_data.cpp:171
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #: binary_data.cpp:172
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pebibytes"
-msgstr ""
+msgstr "pebibajt"
 
 #: binary_data.cpp:173
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "PiB;pebibyte;pebibytes"
-msgstr ""
+msgstr "PiB;pebibajt;pebibajti;pebibajta;pebibajte;pebibajtima"
 
 #: binary_data.cpp:175
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pebibytes"
-msgstr "%1 petalitara"
+msgstr "%1 pebibajta"
 
 #: binary_data.cpp:176
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petaliter"
-#| msgid_plural "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pebibyte"
 msgid_plural "%1 pebibytes"
-msgstr[0] "%1 petalitar"
-msgstr[1] "%1 petalitra"
-msgstr[2] "%1 petalitara"
-msgstr[3] "%1 petalitar"
+msgstr[0] "%1 pebibajt"
+msgstr[1] "%1 pebibajta"
+msgstr[2] "%1 pebibajta"
+msgstr[3] "%1 pebibajt"
 
 #: binary_data.cpp:181
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Pib"
-msgstr ""
+msgstr "Pib"
 
 #: binary_data.cpp:182
 #, kde-format
 msgctxt "unit description in lists"
 msgid "pebibits"
-msgstr ""
+msgstr "pebibit"
 
 #: binary_data.cpp:183
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Pib;pebibit;pebibits"
-msgstr ""
+msgstr "Pib;pebibit;pebibiti;pebibita;pebibite;pebibitima"
 
 #: binary_data.cpp:185
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pesetas"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pebibits"
-msgstr "%1 pezeta"
+msgstr "%1 pebibita"
 
 #: binary_data.cpp:186
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petaliter"
-#| msgid_plural "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pebibit"
 msgid_plural "%1 pebibits"
-msgstr[0] "%1 petalitar"
-msgstr[1] "%1 petalitra"
-msgstr[2] "%1 petalitara"
-msgstr[3] "%1 petalitar"
+msgstr[0] "%1 pebibit"
+msgstr[1] "%1 pebibita"
+msgstr[2] "%1 pebibita"
+msgstr[3] "%1 pebibit"
 
 #: binary_data.cpp:191
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "PB"
-msgstr ""
+msgstr "PB"
 
 #: binary_data.cpp:192
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "petameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "petabytes"
-msgstr "petametar"
+msgstr "petabajt"
 
 #: binary_data.cpp:193
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "petameter;petameters;Pm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "PB;petabyte;petabytes"
-msgstr "Pm;petametar;petametri;petametara;petametre;petametrima"
+msgstr "PB;petabajt;petabajti;petabajta;petabajte;petabajtima"
 
 #: binary_data.cpp:195
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 petameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petabytes"
-msgstr "%1 petametara"
+msgstr "%1 petabajta"
 
 #: binary_data.cpp:196
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petameter"
-#| msgid_plural "%1 petameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petabyte"
 msgid_plural "%1 petabytes"
-msgstr[0] "%1 petametar"
-msgstr[1] "%1 petametra"
-msgstr[2] "%1 petametara"
-msgstr[3] "%1 petametar"
+msgstr[0] "%1 petabajt"
+msgstr[1] "%1 petabajta"
+msgstr[2] "%1 petabajta"
+msgstr[3] "%1 petabajt"
 
 #: binary_data.cpp:201
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Pb"
-msgstr ""
+msgstr "Pb"
 
 #: binary_data.cpp:202
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "petaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "petabits"
-msgstr "petalitar"
+msgstr "petabit"
 
 #: binary_data.cpp:203
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "petaliter;petaliters;Pl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Pb;petabit;petabits"
-msgstr "Pl;petalitar;petalitri;petalitara;petalitre;petalitrima"
+msgstr "Pb;petabit;petabiti;petabita;petabite;petabitima"
 
 #: binary_data.cpp:205
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 petabits"
-msgstr "%1 petalitara"
+msgstr "%1 petabita"
 
 #: binary_data.cpp:206
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petaliter"
-#| msgid_plural "%1 petaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 petabit"
 msgid_plural "%1 petabits"
-msgstr[0] "%1 petalitar"
-msgstr[1] "%1 petalitra"
-msgstr[2] "%1 petalitara"
-msgstr[3] "%1 petalitar"
+msgstr[0] "%1 petabit"
+msgstr[1] "%1 petabita"
+msgstr[2] "%1 petabita"
+msgstr[3] "%1 petabit"
 
 #: binary_data.cpp:211
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #: binary_data.cpp:212
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tebibytes"
-msgstr ""
+msgstr "tebibajt"
 
 #: binary_data.cpp:213
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "TiB;tebibyte;tebibytes"
-msgstr ""
+msgstr "TiB;tebibajt;tebibajti;tebibajta;tebibajte;tebibajtima"
 
 #: binary_data.cpp:215
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tebibytes"
-msgstr "%1 teralitara"
+msgstr "%1 tebibajta"
 
 #: binary_data.cpp:216
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 teraliter"
-#| msgid_plural "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tebibyte"
 msgid_plural "%1 tebibytes"
-msgstr[0] "%1 teralitar"
-msgstr[1] "%1 teralitra"
-msgstr[2] "%1 teralitara"
-msgstr[3] "%1 teralitar"
+msgstr[0] "%1 tebibajt"
+msgstr[1] "%1 tebibajta"
+msgstr[2] "%1 tebibajta"
+msgstr[3] "%1 tebibajt"
 
 #: binary_data.cpp:221
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Tib"
-msgstr ""
+msgstr "Tib"
 
 #: binary_data.cpp:222
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tebibits"
-msgstr ""
+msgstr "tebibit"
 
 #: binary_data.cpp:223
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Tib;tebibit;tebibits"
-msgstr ""
+msgstr "Tib;tebibit;tebibiti;tebibita;tebibite;tebibitima"
 
 #: binary_data.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tebibits"
-msgstr "%1 teralitara"
+msgstr "%1 tebibita"
 
 #: binary_data.cpp:226
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 teraliter"
-#| msgid_plural "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tebibit"
 msgid_plural "%1 tebibits"
-msgstr[0] "%1 teralitar"
-msgstr[1] "%1 teralitra"
-msgstr[2] "%1 teralitara"
-msgstr[3] "%1 teralitar"
+msgstr[0] "%1 tebibit"
+msgstr[1] "%1 tebibita"
+msgstr[2] "%1 tebibita"
+msgstr[3] "%1 tebibit"
 
 #: binary_data.cpp:231
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "TB"
-msgstr ""
+msgstr "TB"
 
 #: binary_data.cpp:232
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "terameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "terabytes"
-msgstr "terametar"
+msgstr "terabajt"
 
 #: binary_data.cpp:233
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terameter;terameters;Tm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "TB;terabyte;terabytes"
-msgstr "Tm;terametar;terametri;terametara;terametre;terametrima"
+msgstr "TB;TB;terabajt;terabajti;terabajta;terabajte;terabajtima"
 
 #: binary_data.cpp:235
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terabytes"
-msgstr "%1 terametara"
+msgstr "%1 terabajta"
 
 #: binary_data.cpp:236
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terameter"
-#| msgid_plural "%1 terameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terabyte"
 msgid_plural "%1 terabytes"
-msgstr[0] "%1 terametar"
-msgstr[1] "%1 terametra"
-msgstr[2] "%1 terametara"
-msgstr[3] "%1 terametar"
+msgstr[0] "%1 terabajt"
+msgstr[1] "%1 terabajta"
+msgstr[2] "%1 terabajta"
+msgstr[3] "%1 terabajt"
 
 #: binary_data.cpp:241
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Tb"
-msgstr ""
+msgstr "Tb"
 
 #: binary_data.cpp:242
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "teraliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "terabits"
-msgstr "teralitar"
+msgstr "terabit"
 
 #: binary_data.cpp:243
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "teraliter;teraliters;Tl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Tb;terabit;terabits"
-msgstr "Tl;teralitar;teralitri;teralitara;teralitre;teralitrima"
+msgstr "Tb;terabit;terabiti;terabita;terabite;terabitima"
 
 #: binary_data.cpp:245
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terabits"
-msgstr "%1 teralitara"
+msgstr "%1 terabita"
 
 #: binary_data.cpp:246
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 teraliter"
-#| msgid_plural "%1 teraliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terabit"
 msgid_plural "%1 terabits"
-msgstr[0] "%1 teralitar"
-msgstr[1] "%1 teralitra"
-msgstr[2] "%1 teralitara"
-msgstr[3] "%1 teralitar"
+msgstr[0] "%1 terabit"
+msgstr[1] "%1 terabita"
+msgstr[2] "%1 terabita"
+msgstr[3] "%1 terabit"
 
 #: binary_data.cpp:251
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: binary_data.cpp:252
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gibibytes"
-msgstr ""
+msgstr "gibibajt"
 
 #: binary_data.cpp:253
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "GiB;gibibyte;gibibytes"
-msgstr ""
+msgstr "GiB;gibibajt;gibibajti;gibibajta;gibibajte;gibibajtima"
 
 #: binary_data.cpp:255
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gibibytes"
-msgstr "%1 gigalitara"
+msgstr "%1 gibibajta"
 
 #: binary_data.cpp:256
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigaliter"
-#| msgid_plural "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gibibyte"
 msgid_plural "%1 gibibytes"
-msgstr[0] "%1 gigalitar"
-msgstr[1] "%1 gigalitra"
-msgstr[2] "%1 gigalitara"
-msgstr[3] "%1 gigalitar"
+msgstr[0] "%1 gibibajt"
+msgstr[1] "%1 gibibajta"
+msgstr[2] "%1 gibibajta"
+msgstr[3] "%1 gibibajt"
 
 #: binary_data.cpp:261
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Gib"
-msgstr ""
+msgstr "Gib"
 
 #: binary_data.cpp:262
 #, kde-format
 msgctxt "unit description in lists"
 msgid "gibibits"
-msgstr ""
+msgstr "gibibit"
 
 #: binary_data.cpp:263
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Gib;gibibit;gibibits"
-msgstr ""
+msgstr "Gib;gibibit;gibibiti;gibibita;gibibite;gibibitima"
 
 #: binary_data.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gibibits"
-msgstr "%1 gigalitara"
+msgstr "%1 gibibita"
 
 #: binary_data.cpp:266
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigaliter"
-#| msgid_plural "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gibibit"
 msgid_plural "%1 gibibits"
-msgstr[0] "%1 gigalitar"
-msgstr[1] "%1 gigalitra"
-msgstr[2] "%1 gigalitara"
-msgstr[3] "%1 gigalitar"
+msgstr[0] "%1 gibibit"
+msgstr[1] "%1 gibibita"
+msgstr[2] "%1 gibibita"
+msgstr[3] "%1 gibibit"
 
 #: binary_data.cpp:271
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #: binary_data.cpp:272
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigabytes"
-msgstr "gigametar"
+msgstr "gigabajt"
 
 #: binary_data.cpp:273
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigameter;gigameters;Gm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "GB;gigabyte;gigabytes"
-msgstr "Gm;gigametar;gigametri;gigametara;gigametre;gigametrima"
+msgstr "GB;GB;gigabajt;gigabajti;gigabajta;gigabajte;gigabajtima"
 
 #: binary_data.cpp:275
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigabytes"
-msgstr "%1 gigametara"
+msgstr "%1 gigabajta"
 
 #: binary_data.cpp:276
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigameter"
-#| msgid_plural "%1 gigameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigabyte"
 msgid_plural "%1 gigabytes"
-msgstr[0] "%1 gigametar"
-msgstr[1] "%1 gigametra"
-msgstr[2] "%1 gigametara"
-msgstr[3] "%1 gigametar"
+msgstr[0] "%1 gigabajt"
+msgstr[1] "%1 gigabajta"
+msgstr[2] "%1 gigabajta"
+msgstr[3] "%1 gigabajt"
 
 #: binary_data.cpp:281
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Gb"
-msgstr ""
+msgstr "Gb"
 
 #: binary_data.cpp:282
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigabits"
-msgstr "gigalitar"
+msgstr "gigabit"
 
 #: binary_data.cpp:283
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigaliter;gigaliters;Gl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Gb;gigabit;gigabits"
-msgstr "Gl;gigalitar;gigalitri;gigalitara;gigalitre;gigalitrima"
+msgstr "Gb;gigabit;gigabiti;gigabita;gigabite;gigabitima"
 
 #: binary_data.cpp:285
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigabits"
-msgstr "%1 gigalitara"
+msgstr "%1 gigabita"
 
 #: binary_data.cpp:286
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigaliter"
-#| msgid_plural "%1 gigaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigabit"
 msgid_plural "%1 gigabits"
-msgstr[0] "%1 gigalitar"
-msgstr[1] "%1 gigalitra"
-msgstr[2] "%1 gigalitara"
-msgstr[3] "%1 gigalitar"
+msgstr[0] "%1 gigabit"
+msgstr[1] "%1 gigabita"
+msgstr[2] "%1 gigabita"
+msgstr[3] "%1 gigabit"
 
 #: binary_data.cpp:291
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: binary_data.cpp:292
 #, kde-format
 msgctxt "unit description in lists"
 msgid "mebibytes"
-msgstr ""
+msgstr "mebibajt"
 
 #: binary_data.cpp:293
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "MiB;mebibyte;mebibytes"
-msgstr ""
+msgstr "MiB;mebibajt;mebibajti;mebibajta;mebibajte;mebibajtima"
 
 #: binary_data.cpp:295
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 meters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 mebibytes"
-msgstr "%1 metara"
+msgstr "%1 mebibajta"
 
 #: binary_data.cpp:296
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 meter"
-#| msgid_plural "%1 meters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mebibyte"
 msgid_plural "%1 mebibytes"
-msgstr[0] "%1 metar"
-msgstr[1] "%1 metra"
-msgstr[2] "%1 metara"
-msgstr[3] "%1 metar"
+msgstr[0] "%1 mebibajt"
+msgstr[1] "%1 mebibajta"
+msgstr[2] "%1 mebibajta"
+msgstr[3] "%1 mebibajt"
 
 #: binary_data.cpp:301
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Mib"
-msgstr ""
+msgstr "Mib"
 
 #: binary_data.cpp:302
 #, kde-format
 msgctxt "unit description in lists"
 msgid "mebibits"
-msgstr ""
+msgstr "mebibit"
 
 #: binary_data.cpp:303
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Mib;mebibit;mebibits"
-msgstr ""
+msgstr "Mib;mebibit;mebibiti;mebibita;mebibite;mebibitima"
 
 #: binary_data.cpp:305
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 meters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 mebibits"
-msgstr "%1 metara"
+msgstr "%1 mebibita"
 
 #: binary_data.cpp:306
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 meter"
-#| msgid_plural "%1 meters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 mebibit"
 msgid_plural "%1 mebibits"
-msgstr[0] "%1 metar"
-msgstr[1] "%1 metra"
-msgstr[2] "%1 metara"
-msgstr[3] "%1 metar"
+msgstr[0] "%1 mebibit"
+msgstr[1] "%1 mebibita"
+msgstr[2] "%1 mebibita"
+msgstr[3] "%1 mebibit"
 
 #: binary_data.cpp:311
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: binary_data.cpp:312
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megameters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megabytes"
-msgstr "megametar"
+msgstr "megabajt"
 
 #: binary_data.cpp:313
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megameter;megameters;Mm"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "MB;megabyte;megabytes"
-msgstr "Mm;megametar;megametri;megametara;megametre;megametrima"
+msgstr "MB;MB;megabajt;megabajti;megabajta;megabajte;megabajtima"
 
 #: binary_data.cpp:315
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 megameters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megabytes"
-msgstr "%1 megametara"
+msgstr "%1 megabajta"
 
 #: binary_data.cpp:316
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megameter"
-#| msgid_plural "%1 megameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megabyte"
 msgid_plural "%1 megabytes"
-msgstr[0] "%1 megametar"
-msgstr[1] "%1 megametra"
-msgstr[2] "%1 megametara"
-msgstr[3] "%1 megametar"
+msgstr[0] "%1 megabajt"
+msgstr[1] "%1 megabajta"
+msgstr[2] "%1 megabajta"
+msgstr[3] "%1 megabajt"
 
 #: binary_data.cpp:321
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Mb"
-msgstr ""
+msgstr "Mb"
 
 #: binary_data.cpp:322
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megaliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megabits"
-msgstr "megalitar"
+msgstr "megabit"
 
 #: binary_data.cpp:323
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megaliter;megaliters;Ml"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Mb;megabit;megabits"
-msgstr "Ml;megalitar;megalitri;megalitara;megalitre;megalitrima"
+msgstr "Mb;megabit;megabiti;megabita;megabite;megabitima"
 
 #: binary_data.cpp:325
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 megaliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megabits"
-msgstr "%1 megalitara"
+msgstr "%1 megabita"
 
 #: binary_data.cpp:326
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megaliter"
-#| msgid_plural "%1 megaliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megabit"
 msgid_plural "%1 megabits"
-msgstr[0] "%1 megalitar"
-msgstr[1] "%1 megalitra"
-msgstr[2] "%1 megalitara"
-msgstr[3] "%1 megalitar"
+msgstr[0] "%1 megabit"
+msgstr[1] "%1 megabita"
+msgstr[2] "%1 megabita"
+msgstr[3] "%1 megabit"
 
 #: binary_data.cpp:331
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: binary_data.cpp:332
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kibibytes"
-msgstr ""
+msgstr "kibibajt"
 
 #: binary_data.cpp:333
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer;kilometers;km"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "KiB;kiB;kibibyte;kibibytes"
-msgstr "km;km;kilometar;kilometri;kilometara;kilometre;kilometrima"
+msgstr "KiB;kiB;kibibajt;kibibajti;kibibajta;kibibajte;kibibajtima"
 
 #: binary_data.cpp:335
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kibibytes"
-msgstr "%1 kilolitara"
+msgstr "%1 kibibajta"
 
 #: binary_data.cpp:336
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kiloliter"
-#| msgid_plural "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kibibyte"
 msgid_plural "%1 kibibytes"
-msgstr[0] "%1 kilolitar"
-msgstr[1] "%1 kilolitra"
-msgstr[2] "%1 kilolitara"
-msgstr[3] "%1 kilolitar"
+msgstr[0] "%1 kibibajt"
+msgstr[1] "%1 kibibajta"
+msgstr[2] "%1 kibibajta"
+msgstr[3] "%1 kibibajt"
 
 #: binary_data.cpp:341
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "Kib"
-msgstr ""
+msgstr "Kib"
 
 #: binary_data.cpp:342
 #, kde-format
 msgctxt "unit description in lists"
 msgid "kibibits"
-msgstr ""
+msgstr "kibibit"
 
 #: binary_data.cpp:343
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kiloliter;kiloliters;kl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Kib;kib;kibibit;kibibits"
-msgstr "kl;kilolitar;kilolitri;kilolitara;kilolitre;kilolitrima"
+msgstr "Kib;kib;kibibit;kibibiti;kibibita;kibibite;kibibitima"
 
 #: binary_data.cpp:345
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kibibits"
-msgstr "%1 kilolitara"
+msgstr "%1 kibibita"
 
 #: binary_data.cpp:346
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kiloliter"
-#| msgid_plural "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kibibit"
 msgid_plural "%1 kibibits"
-msgstr[0] "%1 kilolitar"
-msgstr[1] "%1 kilolitra"
-msgstr[2] "%1 kilolitara"
-msgstr[3] "%1 kilolitar"
+msgstr[0] "%1 kibibit"
+msgstr[1] "%1 kibibita"
+msgstr[2] "%1 kibibita"
+msgstr[3] "%1 kibibit"
 
 #: binary_data.cpp:351
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kB"
-msgstr ""
+msgstr "kB"
 
 #: binary_data.cpp:352
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kilobytes"
-msgstr "kilometar"
+msgstr "kilobajt"
 
 #: binary_data.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer;kilometers;km"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kB;KB;kilobyte;kilobytes"
-msgstr "km;km;kilometar;kilometri;kilometara;kilometre;kilometrima"
+msgstr "kB;KB;kB;KB;kilobajt;kilobajti;kilobajta;kilobajte;kilobajtima"
 
 #: binary_data.cpp:355
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilobytes"
-msgstr "%1 kilometara"
+msgstr "%1 kilobajta"
 
 #: binary_data.cpp:356
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilometer"
-#| msgid_plural "%1 kilometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilobyte"
 msgid_plural "%1 kilobytes"
-msgstr[0] "%1 kilometar"
-msgstr[1] "%1 kilometra"
-msgstr[2] "%1 kilometara"
-msgstr[3] "%1 kilometar"
+msgstr[0] "%1 kilobajt"
+msgstr[1] "%1 kilobajta"
+msgstr[2] "%1 kilobajta"
+msgstr[3] "%1 kilobajt"
 
 #: binary_data.cpp:361
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "kb"
-msgstr ""
+msgstr "kb"
 
 #: binary_data.cpp:362
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kiloliters"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kilobits"
-msgstr "kilolitar"
+msgstr "kilobit"
 
 #: binary_data.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kiloliter;kiloliters;kl"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kb;Kb;kilobit;kilobits"
-msgstr "kl;kilolitar;kilolitri;kilolitara;kilolitre;kilolitrima"
+msgstr "kb;Kb;kilobit;kilobiti;kilobita;kilobite;kilobitima"
 
 #: binary_data.cpp:365
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilobits"
-msgstr "%1 kilolitara"
+msgstr "%1 kilobita"
 
 #: binary_data.cpp:366
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kiloliter"
-#| msgid_plural "%1 kiloliters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilobit"
 msgid_plural "%1 kilobits"
-msgstr[0] "%1 kilolitar"
-msgstr[1] "%1 kilolitra"
-msgstr[2] "%1 kilolitara"
-msgstr[3] "%1 kilolitar"
+msgstr[0] "%1 kilobit"
+msgstr[1] "%1 kilobita"
+msgstr[2] "%1 kilobita"
+msgstr[3] "%1 kilobit"
 
 #: binary_data.cpp:371
 #, kde-format
 msgctxt "binary data unit symbol"
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: binary_data.cpp:372
 #, kde-format
 msgctxt "unit description in lists"
 msgid "bytes"
-msgstr ""
+msgstr "bajt"
 
 #: binary_data.cpp:373
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "B;byte;bytes"
-msgstr ""
+msgstr "B;bajt;bajtovi;bajtova;bajtove;bajtovima"
 
 # |, no-check-spell
 #: binary_data.cpp:375
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 baht"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 bytes"
-msgstr "%1 bata"
+msgstr "%1 bajtova"
 
 # |, no-check-spell
 #: binary_data.cpp:376
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 baht"
-#| msgid_plural "%1 baht"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] "%1 bat"
-msgstr[1] "%1 bata"
-msgstr[2] "%1 bata"
-msgstr[3] "%1 bat"
+msgstr[0] "%1 bajt"
+msgstr[1] "%1 bajta"
+msgstr[2] "%1 bajtova"
+msgstr[3] "%1 bajt"
 
 #: binary_data.cpp:381
-#, fuzzy, kde-format
-#| msgctxt "mass unit symbol"
-#| msgid "lb"
+#, kde-format
 msgctxt "binary data unit symbol"
 msgid "b"
-msgstr "lb"
+msgstr "b"
 
 #: binary_data.cpp:382
 #, kde-format
 msgctxt "unit description in lists"
 msgid "bits"
-msgstr ""
+msgstr "bit"
 
 #: binary_data.cpp:383
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "b;bit;bits"
-msgstr ""
+msgstr "b;bit;bitovi;bitova;bitove;bitovima"
 
 # |, no-check-spell
 #: binary_data.cpp:385
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 baht"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 bits"
-msgstr "%1 bata"
+msgstr "%1 bitova"
 
 # |, no-check-spell
 #: binary_data.cpp:386
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 baht"
-#| msgid_plural "%1 baht"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 bit"
 msgid_plural "%1 bits"
-msgstr[0] "%1 bat"
-msgstr[1] "%1 bata"
-msgstr[2] "%1 bata"
-msgstr[3] "%1 bat"
+msgstr[0] "%1 bit"
+msgstr[1] "%1 bita"
+msgstr[2] "%1 bitova"
+msgstr[3] "%1 bit"
 
 #: currency.cpp:64
 #, kde-format
@@ -2947,7 +2692,7 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 marks"
-msgstr "%1 maraka"
+msgstr "%1 nemačkih maraka"
 
 #: currency.cpp:144
 #, kde-format
@@ -3005,7 +2750,7 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Italian lira"
-msgstr "%1 lira"
+msgstr "%1 italijanskih lira"
 
 #: currency.cpp:166
 #, kde-format
@@ -3247,34 +2992,32 @@ msgstr[3] "%1 slovačka kruna"
 #, kde-format
 msgctxt "currency name"
 msgid "CFP franc"
-msgstr ""
+msgstr "CFP franak"
 
 #: currency.cpp:261
 #, kde-format
 msgctxt "XPF CFP franc - unit synonyms for matching user input"
 msgid "CFP;CFP franc;CFP francs;Pacific franc;Pacific francs"
 msgstr ""
+"CFP;CFP;CFP franak;CFP franci;CFP franaka;CFP franke;CFP francima;pacifički "
+"franak;pacifički franci;pacifičkih franaka;pacifičke franke;pacifičkim "
+"francima"
 
 #: currency.cpp:264
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 French francs"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 CFP francs"
-msgstr "%1 francuskih franaka"
+msgstr "%1 CFP franaka"
 
 #: currency.cpp:265
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 French franc"
-#| msgid_plural "%1 French francs"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 CFP franc"
 msgid_plural "%1 CFP francs"
-msgstr[0] "%1 francuski franak"
-msgstr[1] "%1 francuska franka"
-msgstr[2] "%1 francuskih franaka"
-msgstr[3] "%1 francuski franak"
+msgstr[0] "%1 CFP franak"
+msgstr[1] "%1 CFP franka"
+msgstr[2] "%1 CFP franaka"
+msgstr[3] "%1 CFP franak"
 
 #: currency.cpp:272 currency.cpp:274
 #, kde-format
@@ -3679,7 +3422,7 @@ msgstr "%1 švedskih kruna"
 msgctxt "amount in units (integer)"
 msgid "%1 krona"
 msgid_plural "%1 kronor"
-msgstr[0] "%1 švedskih kruna"
+msgstr[0] "%1 švedska kruna"
 msgstr[1] "%1 švedske krune"
 msgstr[2] "%1 švedskih kruna"
 msgstr[3] "%1 švedska kruna"
@@ -4273,39 +4016,32 @@ msgstr[2] "%1 randa"
 msgstr[3] "%1 rand"
 
 #: currency.cpp:649 currency.cpp:651
-#, fuzzy, kde-format
-#| msgctxt "currency name"
-#| msgid "Swedish Krona"
+#, kde-format
 msgctxt "currency name"
 msgid "Icelandic Krona"
-msgstr "švedska kruna"
+msgstr "islandska kruna"
 
 #: currency.cpp:650
 #, kde-format
 msgctxt "Icelandic Krona - unit synonyms for matching user input"
 msgid "Icelandic krona;Icelandic crown"
-msgstr ""
+msgstr "islandska kruna;islandske krune;islandskih kruna;islandskim krunama"
 
 #: currency.cpp:653
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 Danish kroner"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Icelandic kronur"
-msgstr "%1 danskih kruna"
+msgstr "%1 islandskih kruna"
 
 #: currency.cpp:654
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 Danish krone"
-#| msgid_plural "%1 Danish kroner"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Icelandic krona"
 msgid_plural "%1 Icelandic kronur"
-msgstr[0] "%1 danska kruna"
-msgstr[1] "%1 danske krune"
-msgstr[2] "%1 danskih kruna"
-msgstr[3] "%1 danska kruna"
+msgstr[0] "%1 islandska kruna"
+msgstr[1] "%1 islandske krune"
+msgstr[2] "%1 islandskih kruna"
+msgstr[3] "%1 islandska kruna"
 
 #: density.cpp:17
 #, kde-format
@@ -4331,9 +4067,7 @@ msgid "kilograms per cubic meter"
 msgstr "kilogram po kubnom metru"
 
 #: density.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³;kg/m3;kg/m^3"
 msgstr ""
@@ -4382,7 +4116,7 @@ msgstr ""
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilograms per liter"
-msgstr "%1 kilometara po litru"
+msgstr "%1 kilograma po litru"
 
 #: density.cpp:40
 #, kde-format
@@ -4479,9 +4213,7 @@ msgid "ounces per cubic inch"
 msgstr "unca po kubnom inču"
 
 #: density.cpp:68
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ounce per cubic inch;ounces per cubic inch;oz/in³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic inch;ounces per cubic inch;oz/in³;oz/in3;oz/in^3"
 msgstr ""
@@ -4518,9 +4250,7 @@ msgid "ounces per cubic foot"
 msgstr "unca po kubnoj stopi"
 
 #: density.cpp:78
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic foot;ounces per cubic foot;oz/ft³;oz/ft3;oz/ft^3"
 msgstr ""
@@ -4557,9 +4287,7 @@ msgid "pounds per cubic inch"
 msgstr "funta po kubnom inču"
 
 #: density.cpp:88
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound per cubic inch;pounds per cubic inch;lb/in³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic inch;pounds per cubic inch;lb/in³;lb/in3;lb/in^3"
 msgstr ""
@@ -4596,9 +4324,7 @@ msgid "pounds per cubic foot"
 msgstr "funta po kubnoj stopi"
 
 #: density.cpp:98
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound per cubic foot;pounds per cubic foot;lb/ft³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic foot;pounds per cubic foot;lb/ft³;lb/ft3;lb/ft^3"
 msgstr ""
@@ -4635,9 +4361,7 @@ msgid "pounds per cubic yard"
 msgstr "funta po kubnom jardu"
 
 #: density.cpp:108
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound per cubic yard;pounds per cubic yard;lb/yd³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic yard;pounds per cubic yard;lb/yd³;lb/yd3;lb/yd^3"
 msgstr ""
@@ -7158,222 +6882,181 @@ msgstr[3] "%1 nanometar"
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "TW⋅h"
-msgstr ""
+msgstr "TW⋅h"
 
 #: energy.cpp:353
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "terawatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "terawatt-hours"
-msgstr "teravat"
+msgstr "teravat‑čas"
 
 #: energy.cpp:354
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terawatt;terawatts;TW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "terawattHours;terawatt Hours;TWh;Twh;TW⋅h"
-msgstr "TW;teravat;teravati;teravata;teravate;teravatima"
+msgstr ""
+"TWh;Twh;TW⋅h;teravat‑čas;teravat‑časa;teravat-časovi;teravat-časova;teravat-"
+"časove;teravat-časovima;teravat‑sat;teravat‑sati;teravat‑sata;teravat-satima"
 
 #: energy.cpp:356
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terawatt"
-#| msgid_plural "%1 terawatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 terawatt-hours"
-msgstr "%1 teravat"
+msgstr "%1 teravat-časova"
 
 #: energy.cpp:357
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terawatt"
-#| msgid_plural "%1 terawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terawatt-hour"
 msgid_plural "%1 terawatt-hours"
-msgstr[0] "%1 teravat"
-msgstr[1] "%1 teravata"
-msgstr[2] "%1 teravati"
-msgstr[3] "%1 teravat"
+msgstr[0] "%1 teravat‑čas"
+msgstr[1] "%1 teravat‑časa"
+msgstr[2] "%1 teravat-časova"
+msgstr[3] "%1 teravat‑čas"
 
 #: energy.cpp:362
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "GW⋅h"
-msgstr ""
+msgstr "GW⋅h"
 
 #: energy.cpp:363
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gigawatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gigawatt-hours"
-msgstr "gigavat"
+msgstr "gigavat‑čas"
 
 #: energy.cpp:364
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "gigawatt;gigawatts;GW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "gigawattHours;gigawatt Hours;GWh;Gwh;GW⋅h"
-msgstr "GW;gigavat;gigavati;gigavata;gigavate;gigavatima"
+msgstr ""
+"GWh;Gwh;GW⋅h;gigavat‑čas;gigavat‑časa;gigavat-časovi;gigavat-časova;gigavat-"
+"časove;gigavat-časovima;gigavat‑sat;gigavat‑sati;gigavat‑sata;gigavat-satima"
 
 #: energy.cpp:366
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigawatt"
-#| msgid_plural "%1 gigawatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gigawatt-hours"
-msgstr "%1 gigavat"
+msgstr "%1 gigavat-časova"
 
 #: energy.cpp:367
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigawatt"
-#| msgid_plural "%1 gigawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gigawatt-hour"
 msgid_plural "%1 gigawatt-hours"
-msgstr[0] "%1 gigavat"
-msgstr[1] "%1 gigavata"
-msgstr[2] "%1 gigavati"
-msgstr[3] "%1 gigavat"
+msgstr[0] "%1 gigavat‑čas"
+msgstr[1] "%1 gigavat‑časa"
+msgstr[2] "%1 gigavat-časova"
+msgstr[3] "%1 gigavat‑čas"
 
 #: energy.cpp:372
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "MW⋅h"
-msgstr ""
+msgstr "MW⋅h"
 
 #: energy.cpp:373
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "megawatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "megawatt-hours"
-msgstr "megavat"
+msgstr "megavat‑čas"
 
 #: energy.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "megawatt;megawatts;MW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "megawattHours;megawatt Hours;MWh;Mwh;MW⋅h"
-msgstr "MW;megavat;megavati;megavata;megavate;megavatima"
+msgstr ""
+"MWh;Mwh;MW⋅h;megavat‑čas;megavat‑časa;megavat-časovi;megavat-časova;megavat-"
+"časove;megavat-časovima;megavat‑sat;megavat‑sati;megavat‑sata;megavat-satima"
 
 #: energy.cpp:376
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megawatt"
-#| msgid_plural "%1 megawatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 megawatt-hours"
-msgstr "%1 megavat"
+msgstr "%1 megavat-časova"
 
 #: energy.cpp:377
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megawatt"
-#| msgid_plural "%1 megawatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 megawatt-hour"
 msgid_plural "%1 megawatt-hours"
-msgstr[0] "%1 megavat"
-msgstr[1] "%1 megavata"
-msgstr[2] "%1 megavati"
-msgstr[3] "%1 megavat"
+msgstr[0] "%1 megavat‑čas"
+msgstr[1] "%1 megavat‑časa"
+msgstr[2] "%1 megavat-časova"
+msgstr[3] "%1 megavat‑čas"
 
 #: energy.cpp:382
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "kW⋅h"
-msgstr ""
+msgstr "kW⋅h"
 
 #: energy.cpp:383
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilowatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "kilowatt-hours"
-msgstr "kilovat"
+msgstr "kilovat‑čas"
 
 #: energy.cpp:384
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilowatt;kilowatts;kW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilowattHours;kilowatt Hours;kWh;kwh;kW⋅h"
-msgstr "kW;kv;kilovat;kilovati;kilovata;kilovate;kilovatima"
+msgstr ""
+"kWh;kwh;kW⋅h;kilovat‑čas;kilovat‑časa;kilovat-časovi;kilovat-časova;kilovat-"
+"časove;kilovat-časovima;kilovat‑sat;kilovat‑sati;kilovat‑sata;kilovat-satima"
 
 #: energy.cpp:386
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilowatt"
-#| msgid_plural "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 kilowatt-hours"
-msgstr "%1 kilovat"
+msgstr "%1 kilovat-časova"
 
 #: energy.cpp:387
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilowatt"
-#| msgid_plural "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 kilowatt-hour"
 msgid_plural "%1 kilowatt-hours"
-msgstr[0] "%1 kilovat"
-msgstr[1] "%1 kilovata"
-msgstr[2] "%1 kilovati"
-msgstr[3] "%1 kilovat"
+msgstr[0] "%1 kilovat‑čas"
+msgstr[1] "%1 kilovat‑časa"
+msgstr[2] "%1 kilovat-časova"
+msgstr[3] "%1 kilovat‑čas"
 
 #: energy.cpp:392
 #, kde-format
 msgctxt "energy unit symbol"
 msgid "W⋅h"
-msgstr ""
+msgstr "W⋅h"
 
 #: energy.cpp:393
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 watt"
-#| msgid_plural "%1 watts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "watt-hours"
-msgstr "%1 vat"
+msgstr "vat‑čas"
 
 #: energy.cpp:394
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "terawatt;terawatts;TW"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "wattHours;watt Hours;Wh;wh;W⋅h"
-msgstr "TW;teravat;teravati;teravata;teravate;teravatima"
+msgstr ""
+"Wh;wh;W⋅h;vat‑čas;vat‑časa;vat‑časovi;vat‑časova;vat‑časove;vat‑časovima;"
+"vat‑sat;vat‑sati;vat‑sata;vat‑satima"
 
 #: energy.cpp:396
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 watt"
-#| msgid_plural "%1 watts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 watt-hours"
-msgstr "%1 vat"
+msgstr "%1 vat‑časova"
 
 #: energy.cpp:397
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 watt"
-#| msgid_plural "%1 watts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 watt-hour"
 msgid_plural "%1 watt-hours"
-msgstr[0] "%1 vat"
-msgstr[1] "%1 vata"
-msgstr[2] "%1 vati"
-msgstr[3] "%1 vat"
+msgstr[0] "%1 vat‑čas"
+msgstr[1] "%1 vat‑časa"
+msgstr[2] "%1 vat‑časova"
+msgstr[3] "%1 vat‑čas"
 
 # skip-rule: t-force
 #: force.cpp:17
@@ -7443,7 +7126,7 @@ msgstr "ZN;zetanjutn;zetanjutni;zetanjutna;zetanjutne;zetanjutnima"
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 zettanewtons"
-msgstr "%1 zetanjutn"
+msgstr "%1 zetanjutna"
 
 #: force.cpp:39
 #, kde-format
@@ -7675,7 +7358,7 @@ msgstr "hektonjutn"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "hectonewton;hectonewtons;hN"
-msgstr "hN;hetkonjutn;hetkonjutni;hetkonjutna;hetkonjutne;hetkonjutnima"
+msgstr "hN;hektonjutn;hektonjutni;hektonjutna;hektonjutne;hektonjutnima"
 
 #: force.cpp:108
 #, kde-format
@@ -9100,18 +8783,16 @@ msgid "miles per imperial gallon"
 msgstr "milja po imperijalnom galonu"
 
 #: fuel_efficiency.cpp:89
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "mile per imperial gallon;miles per imperial gallon;mpg (imperial)"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;"
 "mpg (imp)"
 msgstr ""
-"mi/gal (imperial);mpg (imperial);mi/gal (imperijalni);mpg (imperijalni);"
-"milja po imperijalnom galonu;milje po imperijalnom galonu;miljama po "
-"imperijalnom galonu;milja na imperijalni galon;milje na imperijalni galon;"
-"miljama na imperijalni galon"
+"mi/gal (imperial);mpg (imperial);imp mpg;mpg (imp);mi/gal (imperijalni);mpg "
+"(imperijalni);milja po imperijalnom galonu;milje po imperijalnom galonu;"
+"miljama po imperijalnom galonu;milja na imperijalni galon;milje na "
+"imperijalni galon;miljama na imperijalni galon"
 
 #: fuel_efficiency.cpp:91
 #, kde-format
@@ -10225,237 +9906,209 @@ msgstr[3] "%1 astronomska jedinica"
 #, kde-format
 msgctxt "length unit symbol"
 msgid "ru"
-msgstr ""
+msgstr "ru"
 
 #: length.cpp:336
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rack units"
-msgstr ""
+msgstr "rek jedinica"
 
 #: length.cpp:337
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rack unit;rack units;U;RU"
-msgstr ""
+msgstr "U;RU;rek jedinica;rek jedinice;rek jedinicama"
 
 #: length.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 reais"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rack units"
-msgstr "%1 reala"
+msgstr "%1 rek jedinica"
 
 # |, no-check-spell
 #: length.cpp:340
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 ringgit"
-#| msgid_plural "%1 ringgit"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rack unit"
 msgid_plural "%1 rack units"
-msgstr[0] "%1 ringit"
-msgstr[1] "%1 ringita"
-msgstr[2] "%1 ringita"
-msgstr[3] "%1 ringit"
+msgstr[0] "%1 rek jedinica"
+msgstr[1] "%1 rek jedinice"
+msgstr[2] "%1 rek jedinica"
+msgstr[3] "%1 rek jedinica"
 
 #: length.cpp:345
-#, fuzzy, kde-format
-#| msgctxt "volume unit symbol"
-#| msgid "l"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "li"
-msgstr "l"
+msgstr "li"
 
 #: length.cpp:346
 #, kde-format
 msgctxt "unit description in lists"
 msgid "links"
-msgstr ""
+msgstr "karika"
 
 #: length.cpp:347
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "link;links"
-msgstr ""
+msgstr "karika;karike;karikama"
 
 # |, no-check-spell
 #: length.cpp:349
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 litas"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 links"
-msgstr "%1 litasa"
+msgstr "%1 karika"
 
 #: length.cpp:350
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 lei"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 link"
 msgid_plural "%1 links"
-msgstr[0] "%1 leja"
-msgstr[1] "%1 leja"
-msgstr[2] "%1 leja"
-msgstr[3] "%1 leja"
+msgstr[0] "%1 karika"
+msgstr[1] "%1 karike"
+msgstr[2] "%1 karika"
+msgstr[3] "%1 karika"
 
 #: length.cpp:355
-#, fuzzy, kde-format
-#| msgctxt "time unit symbol"
-#| msgid "h"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "ch"
-msgstr "h"
+msgstr "ch"
 
 #: length.cpp:356
 #, kde-format
 msgctxt "unit description in lists"
 msgid "chains"
-msgstr ""
+msgstr "lanac"
 
 #: length.cpp:357
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "chain;chains"
-msgstr ""
+msgstr "lanac;lanci;lanaca;lance;lancima"
 
 #: length.cpp:359
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 carats"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 chains"
-msgstr "%1 karata"
+msgstr "%1 lanaca"
 
 #: length.cpp:360
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 carat"
-#| msgid_plural "%1 carats"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 chain"
 msgid_plural "%1 chains"
-msgstr[0] "%1 karat"
-msgstr[1] "%1 karata"
-msgstr[2] "%1 karata"
-msgstr[3] "%1 karat"
+msgstr[0] "%1 lanac"
+msgstr[1] "%1 lanca"
+msgstr[2] "%1 lanaca"
+msgstr[3] "%1 lanac"
 
 #: length.cpp:364
 #, kde-format
 msgctxt "length unit symbol"
 msgid "fu"
-msgstr ""
+msgstr "fu"
 
 #: length.cpp:365
 #, kde-format
 msgctxt "unit description in lists"
 msgid "furlongs"
-msgstr ""
+msgstr "furlong"
 
 #: length.cpp:366
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "furlong;furlongs"
-msgstr ""
+msgstr "furlong;furlonzi;furlonga;furlonge;furlonzima"
 
 #: length.cpp:368
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 fluid ounces"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 furlongs"
-msgstr "%1 tečnih unci"
+msgstr "%1 furlonga"
 
 #: length.cpp:369
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 forint"
-#| msgid_plural "%1 forint"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 furlong"
 msgid_plural "%1 furlongs"
-msgstr[0] "%1 forinta"
-msgstr[1] "%1 forinte"
-msgstr[2] "%1 forinti"
-msgstr[3] "%1 forinta"
+msgstr[0] "%1 furlong"
+msgstr[1] "%1 furlonga"
+msgstr[2] "%1 furlonga"
+msgstr[3] "%1 furlong"
 
 #: length.cpp:374
-#, fuzzy, kde-format
-#| msgctxt "pressure unit symbol"
-#| msgid "fPa"
+#, kde-format
 msgctxt "length unit symbol"
 msgid "fa"
-msgstr "fPa"
+msgstr "fa"
 
 #: length.cpp:375
 #, kde-format
 msgctxt "unit description in lists"
 msgid "fathom"
-msgstr ""
+msgstr "hvat"
 
 #: length.cpp:376
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "fathom;fathoms"
-msgstr ""
+msgstr "hvat;hvati;hvata;hvate;hvatima"
 
 #: length.cpp:378
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 femtoohms"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 fathoms"
-msgstr "%1 femtooma"
+msgstr "%1 hvata"
 
 #: length.cpp:379
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 femtoohm"
-#| msgid_plural "%1 femtoohms"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 fathom"
 msgid_plural "%1 fathoms"
-msgstr[0] "%1 femtoom"
-msgstr[1] "%1 femtooma"
-msgstr[2] "%1 femtooma"
-msgstr[3] "%1 femtoom"
+msgstr[0] "%1 hvat"
+msgstr[1] "%1 hvata"
+msgstr[2] "%1 hvata"
+msgstr[3] "%1 hvat"
 
 #: length.cpp:384
 #, kde-format
 msgctxt "length unit symbol"
 msgid "r/p/p"
-msgstr ""
+msgstr "r/p/p"
 
 #: length.cpp:385
 #, kde-format
 msgctxt "unit description in lists"
 msgid "rods/perches/poles"
-msgstr ""
+msgstr "rod/perč/pol"
 
 #: length.cpp:386
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "rod;rods;perch;perches;pole;poles"
 msgstr ""
+"rod;rodovi;rodova;rodove;rodovima;perč;perčevi;perčeva;perčeve;perčevima;pol;"
+"polovi;polova;polove;polovima"
 
 #: length.cpp:388
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 rods/perches/poles"
-msgstr ""
+msgstr "%1 rodova/perčeva/polova"
 
 #: length.cpp:389
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 rod/perch/pole"
 msgid_plural "%1 rods/perches/poles"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 rod/perč/pol"
+msgstr[1] "%1 roda/perča/pola"
+msgstr[2] "%1 rodova/perčeva/polova"
+msgstr[3] "%1 rod/perč/pol"
 
 #: mass.cpp:18
 #, kde-format
@@ -11195,9 +10848,7 @@ msgid "tons"
 msgstr "ton"
 
 #: mass.cpp:237
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "ton;tons;t;tonne"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ton;tons;t;tonne;tonnes"
 msgstr "t;t;ton;toni;tona;tone;tonima;tonama"
@@ -11231,12 +10882,10 @@ msgid "carats"
 msgstr "karat"
 
 #: mass.cpp:248
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "carat;carats;CD"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "carat;carats;CD;ct"
-msgstr "CD;karat;karati;karata;karate;karatima"
+msgstr "CD;ct;karat;karati;karata;karate;karatima"
 
 #: mass.cpp:250
 #, kde-format
@@ -11267,12 +10916,10 @@ msgid "pounds"
 msgstr "funta"
 
 #: mass.cpp:259
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pound;pounds;lb"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound;pounds;lb;lbs"
-msgstr "lb;funta;funte;funti;funtama"
+msgstr "lb;lbs;funta;funte;funti;funtama"
 
 #: mass.cpp:261
 #, kde-format
@@ -11428,12 +11075,10 @@ msgstr[3] "%1 stoun"
 #: permeability.cpp:16
 #, kde-format
 msgid "Permeability"
-msgstr ""
+msgstr "Propustljivost"
 
 #: permeability.cpp:18
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (permeability)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -11442,91 +11087,79 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "Darcy"
-msgstr ""
+msgstr "darsi"
 
 #: permeability.cpp:24
 #, kde-format
 msgctxt "unit description in lists"
 msgid "Darcy"
-msgstr ""
+msgstr "darsi"
 
 #: permeability.cpp:25
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Darcy;Darcys;Dar;Darc"
-msgstr ""
+msgstr "Darcy;Dar;Darc;darsi"
 
 #: permeability.cpp:27
 #, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Darcy"
-msgstr ""
+msgstr "%1 darsi"
 
 #: permeability.cpp:28
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Darcy"
 msgid_plural "%1 Darcys"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 darsi"
+msgstr[1] "%1 darsi"
+msgstr[2] "%1 darsi"
+msgstr[3] "%1 darsi"
 
 #: permeability.cpp:33
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "mDarcy"
-msgstr ""
+msgstr "mdarsi"
 
 #: permeability.cpp:34
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "millibars"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "Milli-Darcy"
-msgstr "milibar"
+msgstr "milidarsi"
 
 #: permeability.cpp:35
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "Milli-Darcy;MilliDarcy;MilliDar;mDarcy;mDar;mDarc"
-msgstr ""
+msgstr "mDarcy;mDar;mDarc;milidarsi;mdarsi"
 
 #: permeability.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 millibar"
-#| msgid_plural "%1 millibars"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 Milli-Darcy"
-msgstr "%1 milibar"
+msgstr "%1 milidarsi"
 
 #: permeability.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 millibar"
-#| msgid_plural "%1 millibars"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 Milli-Darcy"
 msgid_plural "%1 Milli-Darcys"
-msgstr[0] "%1 milibar"
-msgstr[1] "%1 milibara"
-msgstr[2] "%1 milibara"
-msgstr[3] "%1 milibar"
+msgstr[0] "%1 milidarsi"
+msgstr[1] "%1 milidarsi"
+msgstr[2] "%1 milidarsi"
+msgstr[3] "%1 milidarsi"
 
 # |, no-check-spell
 #: permeability.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "area unit symbol"
-#| msgid "µm²"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "µm²"
 msgstr "µm²"
 
 #: permeability.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "square micrometers"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "squaremicrometers"
 msgstr "mikrometar kvadratni"
@@ -11536,27 +11169,25 @@ msgstr "mikrometar kvadratni"
 msgctxt "unit synonyms for matching user input"
 msgid "Permeability;Pµm²;Pµm^2;Pµm2;PSquare µm;squaremicrometers"
 msgstr ""
+"Pµm²;Pµm^2;Pµm2;propustljivost;kvadratni mikrometar;kvadratni mikrometri;"
+"kvadratnih mikrometara;kvadratne mikrometre;kvadratnim mikrometrima;"
+"mikrometar kvadratni;mikrometri kvadratni;mikrometara kvadratnih"
 
 #: permeability.cpp:47
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 micrometers"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 micrometers²"
-msgstr "%1 mikrometara"
+msgstr "%1 kvadratnih mikrometara"
 
 #: permeability.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 micrometer"
-#| msgid_plural "%1 micrometers"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 micrometer²"
 msgid_plural "%1 micrometers²"
-msgstr[0] "%1 mikrometar"
-msgstr[1] "%1 mikrometra"
-msgstr[2] "%1 mikrometara"
-msgstr[3] "%1 mikrometar"
+msgstr[0] "%1 kvadratni mikrometar"
+msgstr[1] "%1 kvadratna mikrometra"
+msgstr[2] "%1 kvadratnih mikrometara"
+msgstr[3] "%1 kvadratni mikrometar"
 
 #: power.cpp:49
 #, kde-format
@@ -12321,169 +11952,144 @@ msgstr[3] "%1 konjska snaga"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBk"
-msgstr ""
+msgstr "dBk"
 
 #: power.cpp:279
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "kilowatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decibel kilowatts"
-msgstr "kilovat"
+msgstr "decibel-kilovat"
 
 #: power.cpp:280
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBk;dBkW;dB(kW)"
 msgstr ""
+"dBk;dBkW;dB(kW);decibel-kilovat;decibel-kilovati;decibel-kilovata;decibel-"
+"kilovate;decibel-kilovatima"
 
 #: power.cpp:282
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decibel kilowatts"
-msgstr "%1 kilovati"
+msgstr "%1 decibel-kilovati"
 
 #: power.cpp:283
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilowatt"
-#| msgid_plural "%1 kilowatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decibel kilowatt"
 msgid_plural "%1 decibel kilowatts"
-msgstr[0] "%1 kilovat"
-msgstr[1] "%1 kilovata"
-msgstr[2] "%1 kilovati"
-msgstr[3] "%1 kilovat"
+msgstr[0] "%1 decibel-kilovat"
+msgstr[1] "%1 decibel-kilovata"
+msgstr[2] "%1 decibel-kilovati"
+msgstr[3] "%1 decibel-kilovat"
 
 #: power.cpp:288
-#, fuzzy, kde-format
-#| msgctxt "power unit symbol"
-#| msgid "dW"
+#, kde-format
 msgctxt "power unit symbol"
 msgid "dBW"
-msgstr "dW"
+msgstr "dBW"
 
 #: power.cpp:289
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "deciwatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decibel watts"
-msgstr "decivat"
+msgstr "decibel‑vat"
 
 #: power.cpp:290
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBW;dB(W)"
 msgstr ""
+"dBW;dB(W);decibel‑vat;decibel‑vati;decibel‑vata;decibel‑vate;decibel-vatima"
 
 #: power.cpp:292
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 deciwatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decibel watts"
-msgstr "%1 decivati"
+msgstr "%1 decibel‑vati"
 
 #: power.cpp:293
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 deciwatt"
-#| msgid_plural "%1 deciwatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decibel watt"
 msgid_plural "%1 decibel watts"
-msgstr[0] "%1 decivat"
-msgstr[1] "%1 decivata"
-msgstr[2] "%1 decivati"
-msgstr[3] "%1 decivat"
+msgstr[0] "%1 decibel‑vat"
+msgstr[1] "%1 decibel‑vata"
+msgstr[2] "%1 decibel‑vati"
+msgstr[3] "%1 decibel‑vat"
 
 #: power.cpp:298
-#, fuzzy, kde-format
-#| msgctxt "length unit symbol"
-#| msgid "dm"
+#, kde-format
 msgctxt "power unit symbol"
 msgid "dBm"
-msgstr "dm"
+msgstr "dBm"
 
 #: power.cpp:299
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "milliwatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decibel milliwatts"
-msgstr "milivat"
+msgstr "decibel-milivat"
 
 #: power.cpp:300
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBm;dBmW;dB(mW)"
 msgstr ""
+"dBm;dBmW;dB(mW);decibel-milivat;decibel-milivati;decibel-milivata;decibel-"
+"milivate;decibel-milivatima"
 
 #: power.cpp:302
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 milliwatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decibel milliwatts"
-msgstr "%1 milivati"
+msgstr "%1 decibel-milivati"
 
 #: power.cpp:303
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 milliwatt"
-#| msgid_plural "%1 milliwatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decibel milliwatt"
 msgid_plural "%1 decibel milliwatts"
-msgstr[0] "%1 milivat"
-msgstr[1] "%1 milivata"
-msgstr[2] "%1 milivati"
-msgstr[3] "%1 milivat"
+msgstr[0] "%1 decibel-milivat"
+msgstr[1] "%1 decibel-milivata"
+msgstr[2] "%1 decibel-milivati"
+msgstr[3] "%1 decibel-milivat"
 
 #: power.cpp:308
 #, kde-format
 msgctxt "power unit symbol"
 msgid "dBµW"
-msgstr ""
+msgstr "dBµW"
 
 #: power.cpp:309
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "microwatts"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "decibel microwatts"
-msgstr "mikrovat"
+msgstr "decibel-mikrovat"
 
 #: power.cpp:310
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "dBuW;dBµW;dB(uW);dB(µW)"
 msgstr ""
+"dBuW;dBµW;dB(uW);dB(µW);decibel-mikrovat;decibel-mikrovati;decibel-mikrovata;"
+"decibel-mikrovate;decibel-mikrovatima"
 
 #: power.cpp:312
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 microwatts"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 decibel microwatts"
-msgstr "%1 mikrovati"
+msgstr "%1 decibel-mikrovati"
 
 #: power.cpp:313
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 microwatt"
-#| msgid_plural "%1 microwatts"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decibel microwatt"
 msgid_plural "%1 decibel microwatts"
-msgstr[0] "%1 mikrovat"
-msgstr[1] "%1 mikrovata"
-msgstr[2] "%1 mikrovati"
-msgstr[3] "%1 mikrovat"
+msgstr[0] "%1 decibel-mikrovat"
+msgstr[1] "%1 decibel-mikrovata"
+msgstr[2] "%1 decibel-mikrovati"
+msgstr[3] "%1 decibel-mikrovat"
 
 #: pressure.cpp:17
 #, kde-format
@@ -13982,13 +13588,11 @@ msgid "watt per square meter"
 msgstr "vat po kvadratnom metru"
 
 #: thermal_flux.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "watt per square meter;W/m2;W/m^2"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per square meter;W/m²;W/m2;W/m^2"
 msgstr ""
-"W/m2;W/m^2;vat po kvadratnom metru;vati po kvadratnom metru;vata po "
+"W/m²;W/m2;W/m^2;vat po kvadratnom metru;vati po kvadratnom metru;vata po "
 "kvadratnom metru;vate po kvadratnom metru;vatima po kvadratnom metru"
 
 #: thermal_flux.cpp:29
@@ -14021,17 +13625,14 @@ msgstr "BTU po času po kvadratnoj stopi"
 
 # well-spelled: БТУ, бту
 #: thermal_flux.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per square foot;Btu/hr/ft²;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft²/hr;"
 "Btu/ft^2/hr;Btu/ft2/hr"
 msgstr ""
-"Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr;BTU po času po kvadratnoj "
-"stopi;BTU po času po kvadratnoj stopi"
+"Btu/hr/ft²;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft²/hr;Btu/ft^2/hr;Btu/ft2/hr;BTU po "
+"času po kvadratnoj stopi;BTU po času po kvadratnoj stopi"
 
 #: thermal_flux.cpp:39
 #, kde-format
@@ -14073,14 +13674,12 @@ msgid "watt per cubic meter"
 msgstr "vat po kubnom metru"
 
 #: thermal_generation.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "watt per cubic meter;W/m3;W/m^3"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "watt per cubic meter;W/m³;W/m3;W/m^3"
 msgstr ""
-"W/m3;W/m^3;vat po kubnom metru;vati po kubnom metru;vata po kubnom metru;"
-"vate po kubnom metru;vatima po kubnom metru"
+"W/m³;W/m3;W/m^3;vat po kubnom metru;vati po kubnom metru;vata po kubnom "
+"metru;vate po kubnom metru;vatima po kubnom metru"
 
 #: thermal_generation.cpp:28
 #, kde-format
@@ -14112,17 +13711,14 @@ msgstr "BTU po času po kubnoj stopi"
 
 # well-spelled: БТУ, бту
 #: thermal_generation.cpp:36
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "btu per hour per cubic foot;Btu/hr/ft³;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft³/hr;Btu/"
 "ft^3/hr;Btu/ft3/hr"
 msgstr ""
-"Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr;BTU po času po kubnoj stopi;"
-"BTU po času po kubnoj stopi"
+"Btu/hr/ft³;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft³/hr;Btu/ft^3/hr;Btu/ft3/hr;BTU po "
+"času po kubnoj stopi;BTU po času po kubnoj stopi"
 
 #: thermal_generation.cpp:38
 #, kde-format
@@ -14553,7 +14149,8 @@ msgstr "decisekunda"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "decisecond;deciseconds;ds"
-msgstr "ds;sekunda;sekunde;sekundi;sekundama;sekund;sekundima"
+msgstr ""
+"ds;decisekunda;decisekunde;decisekundi;decisekundama;decisekund;decisekundima"
 
 #: timeunit.cpp:138
 #, kde-format
@@ -15115,8 +14712,7 @@ msgstr "godina"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "year;years;y"
-msgstr ""
-"y;g;prestupna godina;prestupne godine;prestupnih godina;prestupnim godinama"
+msgstr "y;g;godina;godine;godinama"
 
 #: timeunit.cpp:299
 #, kde-format
@@ -15196,13 +14792,11 @@ msgstr "kilometar na čas"
 
 # well-spelled: кмч
 #: velocity.cpp:65
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "kilometer per hour;kilometers per hour;km/h;kmh"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilometer per hour;kilometers per hour;km/h;kmh;kph"
 msgstr ""
-"km/h;kmh;km/č;kmč;kilometar na čas;kilometri na čas;kilometara na čas;"
+"km/h;kmh;kph;km/č;kmč;kilometar na čas;kilometri na čas;kilometara na čas;"
 "kilometre na čas;kilometrima na čas;kilometar na sat;kilometri na sat;"
 "kilometara na sat;kilometre na sat;kilometrima na sat"
 
@@ -16776,16 +16370,13 @@ msgid "cubic micrometers"
 msgstr "mikrometar kubni"
 
 #: volume.cpp:167
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;µm3"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "cubic micrometer;cubic micrometers;µm³;um³;µm/-3;µm^3;um^3;µm3;um3"
 msgstr ""
-"km²;km/-2;km^2;km2;kubni mikrometar;kubnih mikrometara;kubni mikrometri;"
-"kubne mikrometre;kubnim mikrometrima;mikrometar kubni;mikrometara kubnih;"
-"mikrometri kubni;mikrometre kubne;mikrometrima kubnim;mikron;mikroni;mikrona;"
-"mikronima"
+"µm³;um³;µm/-3;µm^3;um^3;µm3;um3;kubni mikrometar;kubnih mikrometara;kubni "
+"mikrometri;kubne mikrometre;kubnim mikrometrima;mikrometar kubni;mikrometara "
+"kubnih;mikrometri kubni;mikrometre kubne;mikrometrima kubnim"
 
 #: volume.cpp:169
 #, kde-format
@@ -17752,9 +17343,7 @@ msgid "cubic feet"
 msgstr "stopa kubna"
 
 #: volume.cpp:447
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "cubic foot;cubic feet;ft³;cubic ft;cu foot;cu ft;cu feet;feet³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic foot;cubic feet;ft³;ft3;ft^3;cubic ft;cu foot;cu ft;cu feet;feet³;"
@@ -17792,11 +17381,7 @@ msgid "cubic inches"
 msgstr "inč kubni"
 
 #: volume.cpp:457
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;"
-#| "inch³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic inch;cubic inches;in³;in3;in^3;cubic inch;cubic in;cu inches;cu inch;"
@@ -17834,11 +17419,7 @@ msgid "cubic miles"
 msgstr "milja kubna"
 
 #: volume.cpp:467
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid ""
-#| "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;"
-#| "mile³"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "cubic mile;cubic miles;mi³;mi3;mi^3;cubic mile;cubic mi;cu miles;cu mile;cu "
@@ -17938,78 +17519,69 @@ msgstr[3] "%1 šolja"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tsp"
-msgstr ""
+msgstr "tsp"
 
 #: volume.cpp:496
 #, kde-format
 msgctxt "unit description in lists"
 msgid "teaspoon"
-msgstr ""
+msgstr "kašičica"
 
 #: volume.cpp:497
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "teaspoon;teaspoons;tsp;tsps"
-msgstr ""
+msgstr "tsp;tsps;kašičica;kašičice;kašičicama"
 
 #: volume.cpp:499
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 teaspoons"
-msgstr "%1 terasekundi"
+msgstr "%1 kašičica"
 
 #: volume.cpp:500
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terasecond"
-#| msgid_plural "%1 teraseconds"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 teaspoon"
 msgid_plural "%1 teaspoons"
-msgstr[0] "%1 terasekunda"
-msgstr[1] "%1 terasekunde"
-msgstr[2] "%1 terasekundi"
-msgstr[3] "%1 terasekunda"
+msgstr[0] "%1 kašičica"
+msgstr[1] "%1 kašičice"
+msgstr[2] "%1 kašičica"
+msgstr[3] "%1 kašičica"
 
 #: volume.cpp:505
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "tbsp"
-msgstr ""
+msgstr "tbsp"
 
 #: volume.cpp:506
 #, kde-format
 msgctxt "unit description in lists"
 msgid "tablespoon"
-msgstr ""
+msgstr "kašika"
 
 #: volume.cpp:507
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "tablespoon;tablespoons;tbsp;tbsps"
-msgstr ""
+msgstr "tbsp;tbsps;kašika;kašike;kašikama"
 
 #: volume.cpp:509
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 tons"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 tablespoons"
-msgstr "%1 tona"
+msgstr "%1 kašika"
 
 #: volume.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 terameters"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 tablespoon"
 msgid_plural "%1 tablespoons"
-msgstr[0] "%1 terametara"
-msgstr[1] "%1 terametara"
-msgstr[2] "%1 terametara"
-msgstr[3] "%1 terametara"
+msgstr[0] "%1 kašika"
+msgstr[1] "%1 kašike"
+msgstr[2] "%1 kašika"
+msgstr[3] "%1 kašika"
 
 #: volume.cpp:515
 #, kde-format
@@ -18051,15 +17623,13 @@ msgstr[3] "%1 galon (SAD tečni)"
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "imp gal"
-msgstr ""
+msgstr "gal (imperijalni)"
 
 #: volume.cpp:526
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pints (imperial)"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "gallons (imperial)"
-msgstr "pinta (imperijalna)"
+msgstr "galon (imperijalni)"
 
 #: volume.cpp:528
 #, kde-format
@@ -18068,35 +17638,32 @@ msgid ""
 "gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
 "gal;imperial gallon;imperial gallons"
 msgstr ""
+"imp gal;gal (imperijalni);galon imperijalni;galoni imperijalni;galona "
+"imperijalnih;galone imperijalne;galonima imperijalnim;imperijalni galon;"
+"imperijalni galoni;imperijalnih galona;imperijalne galone;imperijalnim "
+"galonima"
 
 #: volume.cpp:530
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pints (imperial)"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 gallons (imperial)"
-msgstr "%1 pinti (imperijalnih)"
+msgstr "%1 galona (imperijalnih)"
 
 #: volume.cpp:531
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 pint (imperial)"
-#| msgid_plural "%1 pints (imperial)"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 gallon (imperial)"
 msgid_plural "%1 gallons (imperial)"
-msgstr[0] "%1 pinta (imperijalna)"
-msgstr[1] "%1 pinte (imperijalne)"
-msgstr[2] "%1 pinti (imperijalnih)"
-msgstr[3] "%1 pinta (imperijalna)"
+msgstr[0] "%1 galon (imperijalni)"
+msgstr[1] "%1 galona (imperijalna)"
+msgstr[2] "%1 galona (imperijalnih)"
+msgstr[3] "%1 galon (imperijalni)"
 
 #: volume.cpp:536
-#, fuzzy, kde-format
-#| msgctxt "fuelefficiency unit symbol"
-#| msgid "mpg (imperial)"
+#, kde-format
 msgctxt "volume unit symbol"
 msgid "imperial pt"
-msgstr "mi/gal (imperijalni)"
+msgstr "pt (imperijalna)"
 
 #: volume.cpp:537
 #, kde-format
@@ -18105,16 +17672,15 @@ msgid "pints (imperial)"
 msgstr "pinta (imperijalna)"
 
 #: volume.cpp:538
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid ""
 "pint (imperial);pints (imperial);imperial pt;imperial pint;imperial pints;"
 "imperial p"
 msgstr ""
-"pt;p;pinta;pinte;pinti;pintama;pinta imperijalna;pinte imperijalne;pinta "
-"imperijalnih;pintama imperijalnim"
+"imperial pt;imperial p;pt (imperijalna);pinta imperijalna;pinte imperijalne;"
+"pinti imperijalnih;pintama imperijalnim;imperijalna pinta;imperijalne pinte;"
+"imperijalnih pinti;imperijalnim pintama"
 
 #: volume.cpp:540
 #, kde-format
@@ -18139,92 +17705,75 @@ msgid "pt"
 msgstr "pt"
 
 #: volume.cpp:547
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "gallons (U.S. liquid)"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "pints (U.S. liquid)"
-msgstr "galon (SAD tečni)"
+msgstr "pinta (SAD tečna)"
 
 #: volume.cpp:548
-#, fuzzy, kde-format
-#| msgctxt "unit synonyms for matching user input"
-#| msgid "pint (imperial);pints (imperial);pt;pint;pints;p"
+#, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pint (U.S. liquid);pints (U.S. liquid);pt;pint;pints;p"
 msgstr ""
-"pt;p;pinta;pinte;pinti;pintama;pinta imperijalna;pinte imperijalne;pinta "
-"imperijalnih;pintama imperijalnim"
+"pt;p;pinta;pinte;pinti;pintama;pinta SAD;pinte SAD;pinti SAD;pintama SAD"
 
 #: volume.cpp:550
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 pints (U.S. liquid)"
-msgstr "%1 galona (SAD tečnih)"
+msgstr "%1 pinti (SAD tečnih)"
 
 #: volume.cpp:551
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gallon (U.S. liquid)"
-#| msgid_plural "%1 gallons (U.S. liquid)"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 pint (U.S. liquid)"
 msgid_plural "%1 pints (U.S. liquid)"
-msgstr[0] "%1 galon (SAD tečni)"
-msgstr[1] "%1 galona (SAD tečna)"
-msgstr[2] "%1 galona (SAD tečnih)"
-msgstr[3] "%1 galon (SAD tečni)"
+msgstr[0] "%1 pinta (SAD tečna)"
+msgstr[1] "%1 pinte (SAD tečne)"
+msgstr[2] "%1 pinti (SAD tečnih)"
+msgstr[3] "%1 pinta (SAD tečna)"
 
 #: volume.cpp:556
 #, kde-format
 msgctxt "volume unit symbol"
 msgid "bbl"
-msgstr ""
+msgstr "bbl"
 
 #: volume.cpp:557
 #, kde-format
 msgctxt "unit description in lists"
 msgid "oil barrels"
-msgstr ""
+msgstr "barel nafte"
 
 #: volume.cpp:558
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "oil barrels;oil barrel;bbl"
-msgstr ""
+msgstr "bbl;barel nafte;bareli nafte;barela nafte;barele nafte;barelima nafte"
 
 #: volume.cpp:560
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 bars"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 oil barrels"
-msgstr "%1 bari"
+msgstr "%1 barela nafte"
 
 #: volume.cpp:561
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 bar"
-#| msgid_plural "%1 bars"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 oil barrel"
 msgid_plural "%1 oil barrels"
-msgstr[0] "%1 bar"
-msgstr[1] "%1 bara"
-msgstr[2] "%1 bari"
-msgstr[3] "%1 bar"
+msgstr[0] "%1 barel nafte"
+msgstr[1] "%1 barela nafte"
+msgstr[2] "%1 barela nafte"
+msgstr[3] "%1 barel nafte"
 
 #: weight_per_area.cpp:19
 #, kde-format
 msgid "Weight per Area"
-msgstr ""
+msgstr "Masa po površini"
 
 #: weight_per_area.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "%1 value, %2 unit symbol (acceleration)"
-#| msgid "%1 %2"
+#, kde-format
 msgctxt "%1 value, %2 unit symbol (weight per area)"
 msgid "%1 %2"
 msgstr "%1 %2"
@@ -18233,15 +17782,13 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "area unit symbol"
 msgid "g/m²"
-msgstr ""
+msgstr "g/m²"
 
 #: weight_per_area.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "watt per square meter"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "grams per square meter"
-msgstr "vat po kvadratnom metru"
+msgstr "gram po kvadratnom metru"
 
 #: weight_per_area.cpp:28
 #, kde-format
@@ -18250,40 +17797,37 @@ msgid ""
 "gsm;g/m;g/m²;g/m2;g/m^2;gm2;grams per meter;grams per square meter;grams per "
 "meter²;grams per meter^2"
 msgstr ""
+"gsm;g/m;g/m²;g/m2;g/m^2;gm2;gram po kvadratnom metru;grami po kvadratnom "
+"metru;grama po kvadratnom metru;grame po kvadratnom metru;gramima po "
+"kvadratnom metru"
 
 #: weight_per_area.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 grams per square meter"
-msgstr "%1 vata po kvadratnom metru"
+msgstr "%1 grama po kvadratnom metru"
 
 #: weight_per_area.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 watts per square meter"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 grams per square meter"
 msgid_plural "%1 grams per square meter"
-msgstr[0] "%1 vata po kvadratnom metru"
-msgstr[1] "%1 vata po kvadratnom metru"
-msgstr[2] "%1 vata po kvadratnom metru"
-msgstr[3] "%1 vata po kvadratnom metru"
+msgstr[0] "%1 gram po kvadratnom metru"
+msgstr[1] "%1 grama po kvadratnom metru"
+msgstr[2] "%1 grama po kvadratnom metru"
+msgstr[3] "%1 gram po kvadratnom metru"
 
 #: weight_per_area.cpp:37
 #, kde-format
 msgctxt "area unit symbol"
 msgid "oz/yd²"
-msgstr ""
+msgstr "oz/yd²"
 
 #: weight_per_area.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "unit description in lists"
-#| msgid "pounds per cubic yard"
+#, kde-format
 msgctxt "unit description in lists"
 msgid "ounces per square yard"
-msgstr "funta po kubnom jardu"
+msgstr "unca po kvadratnom jardu"
 
 #: weight_per_area.cpp:39
 #, kde-format
@@ -18292,63 +17836,55 @@ msgid ""
 "ozyd;ozyd2;oz/yd;oz/yd²;oz/yd2;oz/yd^2;ounces per yard;ounces per square "
 "yard;ounces per yard²;ounces per yard^2"
 msgstr ""
+"ozyd;ozyd2;oz/yd;oz/yd²;oz/yd2;oz/yd^2;unca po kvadratnom jardu;unce po "
+"kvadratnom jardu;unci po kvadratnom jardu;uncama po kvadratnom jardu"
 
 #: weight_per_area.cpp:41
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (real)"
 msgid "%1 ounces per square yard"
-msgstr "%1 funti po kubnom jardu"
+msgstr "%1 unci po kvadratnom jardu"
 
 #: weight_per_area.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 pounds per cubic yard"
+#, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 ounces per square yard"
 msgid_plural "%1 ounces per square yard"
-msgstr[0] "%1 funti po kubnom jardu"
-msgstr[1] "%1 funti po kubnom jardu"
-msgstr[2] "%1 funti po kubnom jardu"
-msgstr[3] "%1 funti po kubnom jardu"
+msgstr[0] "%1 unca po kvadratnom jardu"
+msgstr[1] "%1 unce po kvadratnom jardu"
+msgstr[2] "%1 unci po kvadratnom jardu"
+msgstr[3] "%1 unca po kvadratnom jardu"
 
 #: weight_per_area.cpp:48
 #, kde-format
 msgctxt "area unit symbol for silk fabric weight"
 msgid "momme"
-msgstr ""
+msgstr "mome"
 
 #: weight_per_area.cpp:49
 #, kde-format
 msgctxt "unit description for silk fabric weight in lists"
 msgid "momme"
-msgstr ""
+msgstr "mome"
 
 #: weight_per_area.cpp:50
 #, kde-format
 msgctxt "unit synonyms for silk fabric weight or matching user input"
 msgid "momme"
-msgstr ""
+msgstr "momme;mome"
 
 #: weight_per_area.cpp:52
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megaohm"
-#| msgid_plural "%1 megaohms"
+#, kde-format
 msgctxt "amount of silk fabric weight in units (real)"
 msgid "%1 momme"
-msgstr "%1 megaom"
+msgstr "%1 mome"
 
 #: weight_per_area.cpp:53
-#, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megaohm"
-#| msgid_plural "%1 megaohms"
+#, kde-format
 msgctxt "amount of silk fabric weight in units (integer)"
 msgid "%1 momme"
 msgid_plural "%1 momme"
-msgstr[0] "%1 megaom"
-msgstr[1] "%1 megaoma"
-msgstr[2] "%1 megaoma"
-msgstr[3] "%1 megaom"
+msgstr[0] "%1 mome"
+msgstr[1] "%1 mome"
+msgstr[2] "%1 mome"
+msgstr[3] "%1 mome"
