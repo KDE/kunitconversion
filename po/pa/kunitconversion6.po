@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-07 00:40+0000\n"
+"POT-Creation-Date: 2026-10-21 00:47+0000\n"
 "PO-Revision-Date: 2014-07-08 14:43-0500\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -7766,10 +7766,13 @@ msgid "YHz"
 msgstr "YHz"
 
 #: frequency.cpp:26
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 rupee"
+#| msgid_plural "%1 rupees"
 msgctxt "unit description in lists"
-msgid "yottahertzs"
-msgstr ""
+msgid "yottahertz"
+msgstr "%1 ਰੁਪਇਆ"
 
 #: frequency.cpp:27
 #, kde-format
@@ -7778,16 +7781,19 @@ msgid "yottahertz;yottahertzs;YHz"
 msgstr ""
 
 #: frequency.cpp:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 rupee"
+#| msgid_plural "%1 rupees"
 msgctxt "amount in units (real)"
-msgid "%1 yottahertzs"
-msgstr ""
+msgid "%1 yottahertz"
+msgstr "%1 ਰੁਪਇਆ"
 
 #: frequency.cpp:30
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yottahertz"
-msgid_plural "%1 yottahertzs"
+msgid_plural "%1 yottahertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7798,10 +7804,13 @@ msgid "ZHz"
 msgstr "ZHz"
 
 #: frequency.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 rupee"
+#| msgid_plural "%1 rupees"
 msgctxt "unit description in lists"
-msgid "zettahertzs"
-msgstr ""
+msgid "zettahertz"
+msgstr "%1 ਰੁਪਇਆ"
 
 #: frequency.cpp:37
 #, kde-format
@@ -7810,16 +7819,19 @@ msgid "zettahertz;zettahertzs;ZHz"
 msgstr ""
 
 #: frequency.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 rupee"
+#| msgid_plural "%1 rupees"
 msgctxt "amount in units (real)"
-msgid "%1 zettahertzs"
-msgstr ""
+msgid "%1 zettahertz"
+msgstr "%1 ਰੁਪਇਆ"
 
 #: frequency.cpp:40
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zettahertz"
-msgid_plural "%1 zettahertzs"
+msgid_plural "%1 zettahertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7830,10 +7842,12 @@ msgid "EHz"
 msgstr "EHz"
 
 #: frequency.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 euros"
 msgctxt "unit description in lists"
-msgid "exahertzs"
-msgstr ""
+msgid "exahertz"
+msgstr "%1 ਯੂਰੋ"
 
 #: frequency.cpp:47
 #, kde-format
@@ -7846,14 +7860,14 @@ msgstr ""
 #| msgctxt "amount in units (real)"
 #| msgid "%1 euros"
 msgctxt "amount in units (real)"
-msgid "%1 exahertzs"
+msgid "%1 exahertz"
 msgstr "%1 ਯੂਰੋ"
 
 #: frequency.cpp:50
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 exahertz"
-msgid_plural "%1 exahertzs"
+msgid_plural "%1 exahertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7864,10 +7878,13 @@ msgid "PHz"
 msgstr "PHz"
 
 #: frequency.cpp:56
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 rupee"
+#| msgid_plural "%1 rupees"
 msgctxt "unit description in lists"
-msgid "petahertzs"
-msgstr ""
+msgid "petahertz"
+msgstr "%1 ਰੁਪਇਆ"
 
 #: frequency.cpp:57
 #, kde-format
@@ -7877,11 +7894,12 @@ msgstr ""
 
 #: frequency.cpp:59
 #, fuzzy, kde-format
-#| msgctxt "amount in units (real)"
-#| msgid "%1 rupees"
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 rupee"
+#| msgid_plural "%1 rupees"
 msgctxt "amount in units (real)"
-msgid "%1 petahertzs"
-msgstr "%1 ਰੁਪਏ"
+msgid "%1 petahertz"
+msgstr "%1 ਰੁਪਇਆ"
 
 #: frequency.cpp:60
 #, fuzzy, kde-format
@@ -7890,7 +7908,7 @@ msgstr "%1 ਰੁਪਏ"
 #| msgid_plural "%1 rupees"
 msgctxt "amount in units (integer)"
 msgid "%1 petahertz"
-msgid_plural "%1 petahertzs"
+msgid_plural "%1 petahertz"
 msgstr[0] "%1 ਰੁਪਇਆ"
 msgstr[1] "%1 ਰੁਪਏ"
 
@@ -7901,10 +7919,12 @@ msgid "THz"
 msgstr "THz"
 
 #: frequency.cpp:66
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "megahertzs"
 msgctxt "unit description in lists"
-msgid "terahertzs"
-msgstr ""
+msgid "terahertz"
+msgstr "ਮੇਗਾਹਰਟਜ਼"
 
 #: frequency.cpp:67
 #, kde-format
@@ -7913,16 +7933,18 @@ msgid "terahertz;terahertzs;THz"
 msgstr ""
 
 #: frequency.cpp:69
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 euros"
 msgctxt "amount in units (real)"
-msgid "%1 terahertzs"
-msgstr ""
+msgid "%1 terahertz"
+msgstr "%1 ਯੂਰੋ"
 
 #: frequency.cpp:70
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 terahertz"
-msgid_plural "%1 terahertzs"
+msgid_plural "%1 terahertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7933,9 +7955,11 @@ msgid "GHz"
 msgstr "GHz"
 
 #: frequency.cpp:76
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "gigahertzs"
 msgctxt "unit description in lists"
-msgid "gigahertzs"
+msgid "gigahertz"
 msgstr "ਗੀਗਾਹਰਟਜ਼"
 
 #: frequency.cpp:77
@@ -7945,16 +7969,22 @@ msgid "gigahertz;gigahertzs;GHz"
 msgstr ""
 
 #: frequency.cpp:79
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 gigahertz"
+#| msgid_plural "%1 gigahertzs"
 msgctxt "amount in units (real)"
-msgid "%1 gigahertzs"
+msgid "%1 gigahertz"
 msgstr "%1 ਗੀਗਾਹਰਟਜ਼"
 
 #: frequency.cpp:80
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 gigahertz"
+#| msgid_plural "%1 gigahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 gigahertz"
-msgid_plural "%1 gigahertzs"
+msgid_plural "%1 gigahertz"
 msgstr[0] "%1 ਗੀਗਾਹਰਟਜ਼"
 msgstr[1] "%1 ਗੀਗਾਹਰਟਜ਼"
 
@@ -7965,9 +7995,11 @@ msgid "MHz"
 msgstr "MHz"
 
 #: frequency.cpp:86
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "megahertzs"
 msgctxt "unit description in lists"
-msgid "megahertzs"
+msgid "megahertz"
 msgstr "ਮੇਗਾਹਰਟਜ਼"
 
 #: frequency.cpp:87
@@ -7977,16 +8009,22 @@ msgid "megahertz;megahertzs;MHz"
 msgstr ""
 
 #: frequency.cpp:89
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 megahertz"
+#| msgid_plural "%1 megahertzs"
 msgctxt "amount in units (real)"
-msgid "%1 megahertzs"
+msgid "%1 megahertz"
 msgstr "%1 ਮੇਗਾਹਰਟਜ਼"
 
 #: frequency.cpp:90
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 megahertz"
+#| msgid_plural "%1 megahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 megahertz"
-msgid_plural "%1 megahertzs"
+msgid_plural "%1 megahertz"
 msgstr[0] "%1 ਮੇਗਾਹਰਟਜ਼"
 msgstr[1] "%1 ਮੇਗਾਹਰਟਜ਼"
 
@@ -7997,9 +8035,11 @@ msgid "kHz"
 msgstr "kHz"
 
 #: frequency.cpp:96
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "kilohertzs"
 msgctxt "unit description in lists"
-msgid "kilohertzs"
+msgid "kilohertz"
 msgstr "ਕਿਲੋਹਰਟਜ਼"
 
 #: frequency.cpp:97
@@ -8009,16 +8049,22 @@ msgid "kilohertz;kilohertzs;kHz"
 msgstr ""
 
 #: frequency.cpp:99
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 kilohertz"
+#| msgid_plural "%1 kilohertzs"
 msgctxt "amount in units (real)"
-msgid "%1 kilohertzs"
-msgstr ""
+msgid "%1 kilohertz"
+msgstr "%1 ਕਿਲੋਹਰਟਜ਼"
 
 #: frequency.cpp:100
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 kilohertz"
+#| msgid_plural "%1 kilohertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 kilohertz"
-msgid_plural "%1 kilohertzs"
+msgid_plural "%1 kilohertz"
 msgstr[0] "%1 ਕਿਲੋਹਰਟਜ਼"
 msgstr[1] "%1 ਕਿਲੋਹਰਟਜ਼"
 
@@ -8029,10 +8075,12 @@ msgid "hHz"
 msgstr ""
 
 #: frequency.cpp:106
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 square meters"
 msgctxt "unit description in lists"
-msgid "hectohertzs"
-msgstr ""
+msgid "hectohertz"
+msgstr "%1 ਵਰਗ ਮੀਟਰ"
 
 #: frequency.cpp:107
 #, kde-format
@@ -8041,16 +8089,18 @@ msgid "hectohertz;hectohertzs;hHz"
 msgstr ""
 
 #: frequency.cpp:109
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 square meters"
 msgctxt "amount in units (real)"
-msgid "%1 hectohertzs"
-msgstr ""
+msgid "%1 hectohertz"
+msgstr "%1 ਵਰਗ ਮੀਟਰ"
 
 #: frequency.cpp:110
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 hectohertz"
-msgid_plural "%1 hectohertzs"
+msgid_plural "%1 hectohertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8061,28 +8111,32 @@ msgid "daHz"
 msgstr ""
 
 #: frequency.cpp:116
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "megahertzs"
 msgctxt "unit description in lists"
-msgid "decahertzs"
-msgstr ""
+msgid "decahertz"
+msgstr "ਮੇਗਾਹਰਟਜ਼"
 
 #: frequency.cpp:117
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid "decahertz;decahertzs;daHz"
+msgid "decahertz;decahertz;daHz"
 msgstr ""
 
 #: frequency.cpp:119
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 euros"
 msgctxt "amount in units (real)"
-msgid "%1 decahertzs"
-msgstr ""
+msgid "%1 decahertz"
+msgstr "%1 ਯੂਰੋ"
 
 #: frequency.cpp:120
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decahertz"
-msgid_plural "%1 decahertzs"
+msgid_plural "%1 decahertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8093,9 +8147,11 @@ msgid "Hz"
 msgstr "Hz"
 
 #: frequency.cpp:126
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "hertzs"
 msgctxt "unit description in lists"
-msgid "hertzs"
+msgid "hertz"
 msgstr "ਹਰਟਜ਼"
 
 #: frequency.cpp:127
@@ -8105,16 +8161,22 @@ msgid "hertz;hertzs;Hz"
 msgstr ""
 
 #: frequency.cpp:129
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hertz"
+#| msgid_plural "%1 hertzs"
 msgctxt "amount in units (real)"
-msgid "%1 hertzs"
+msgid "%1 hertz"
 msgstr "%1 ਹਰਟਜ਼"
 
 #: frequency.cpp:130
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hertz"
+#| msgid_plural "%1 hertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 hertz"
-msgid_plural "%1 hertzs"
+msgid_plural "%1 hertz"
 msgstr[0] "%1 ਹਰਟਜ਼"
 msgstr[1] "%1 ਹਰਟਜ਼"
 
@@ -8125,10 +8187,12 @@ msgid "dHz"
 msgstr "dHz"
 
 #: frequency.cpp:136
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "hertzs"
 msgctxt "unit description in lists"
-msgid "decihertzs"
-msgstr ""
+msgid "decihertz"
+msgstr "ਹਰਟਜ਼"
 
 #: frequency.cpp:137
 #, kde-format
@@ -8137,16 +8201,19 @@ msgid "decihertz;decihertzs;dHz"
 msgstr ""
 
 #: frequency.cpp:139
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hertz"
+#| msgid_plural "%1 hertzs"
 msgctxt "amount in units (real)"
-msgid "%1 decihertzs"
-msgstr ""
+msgid "%1 decihertz"
+msgstr "%1 ਹਰਟਜ਼"
 
 #: frequency.cpp:140
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 decihertz"
-msgid_plural "%1 decihertzs"
+msgid_plural "%1 decihertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8157,10 +8224,12 @@ msgid "cHz"
 msgstr "cHz"
 
 #: frequency.cpp:146
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "centimeters"
 msgctxt "unit description in lists"
-msgid "centihertzs"
-msgstr ""
+msgid "centihertz"
+msgstr "ਸੈਂਟੀਮੀਟਰ"
 
 #: frequency.cpp:147
 #, kde-format
@@ -8169,16 +8238,19 @@ msgid "centihertz;centihertzs;cHz"
 msgstr ""
 
 #: frequency.cpp:149
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 rupee"
+#| msgid_plural "%1 rupees"
 msgctxt "amount in units (real)"
-msgid "%1 centihertzs"
-msgstr ""
+msgid "%1 centihertz"
+msgstr "%1 ਰੁਪਇਆ"
 
 #: frequency.cpp:150
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 centihertz"
-msgid_plural "%1 centihertzs"
+msgid_plural "%1 centihertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8189,10 +8261,12 @@ msgid "mHz"
 msgstr "mHz"
 
 #: frequency.cpp:156
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "kilohertzs"
 msgctxt "unit description in lists"
-msgid "millihertzs"
-msgstr ""
+msgid "millihertz"
+msgstr "ਕਿਲੋਹਰਟਜ਼"
 
 #: frequency.cpp:157
 #, kde-format
@@ -8201,16 +8275,19 @@ msgid "millihertz;millihertzs;mHz"
 msgstr ""
 
 #: frequency.cpp:159
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 kilohertz"
+#| msgid_plural "%1 kilohertzs"
 msgctxt "amount in units (real)"
-msgid "%1 millihertzs"
-msgstr ""
+msgid "%1 millihertz"
+msgstr "%1 ਕਿਲੋਹਰਟਜ਼"
 
 #: frequency.cpp:160
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 millihertz"
-msgid_plural "%1 millihertzs"
+msgid_plural "%1 millihertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8221,10 +8298,12 @@ msgid "µHz"
 msgstr "µHz"
 
 #: frequency.cpp:166
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "kilohertzs"
 msgctxt "unit description in lists"
-msgid "microhertzs"
-msgstr ""
+msgid "microhertz"
+msgstr "ਕਿਲੋਹਰਟਜ਼"
 
 #: frequency.cpp:167
 #, kde-format
@@ -8233,16 +8312,19 @@ msgid "microhertz;microhertzs;µHz;uHz"
 msgstr ""
 
 #: frequency.cpp:169
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 kilohertz"
+#| msgid_plural "%1 kilohertzs"
 msgctxt "amount in units (real)"
-msgid "%1 microhertzs"
-msgstr ""
+msgid "%1 microhertz"
+msgstr "%1 ਕਿਲੋਹਰਟਜ਼"
 
 #: frequency.cpp:170
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 microhertz"
-msgid_plural "%1 microhertzs"
+msgid_plural "%1 microhertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8253,10 +8335,12 @@ msgid "nHz"
 msgstr "nHz"
 
 #: frequency.cpp:176
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "hertzs"
 msgctxt "unit description in lists"
-msgid "nanohertzs"
-msgstr ""
+msgid "nanohertz"
+msgstr "ਹਰਟਜ਼"
 
 #: frequency.cpp:177
 #, kde-format
@@ -8265,16 +8349,19 @@ msgid "nanohertz;nanohertzs;nHz"
 msgstr ""
 
 #: frequency.cpp:179
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hertz"
+#| msgid_plural "%1 hertzs"
 msgctxt "amount in units (real)"
-msgid "%1 nanohertzs"
-msgstr ""
+msgid "%1 nanohertz"
+msgstr "%1 ਹਰਟਜ਼"
 
 #: frequency.cpp:180
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 nanohertz"
-msgid_plural "%1 nanohertzs"
+msgid_plural "%1 nanohertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8285,10 +8372,12 @@ msgid "pHz"
 msgstr "pHz"
 
 #: frequency.cpp:186
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "kilohertzs"
 msgctxt "unit description in lists"
-msgid "picohertzs"
-msgstr ""
+msgid "picohertz"
+msgstr "ਕਿਲੋਹਰਟਜ਼"
 
 #: frequency.cpp:187
 #, kde-format
@@ -8297,16 +8386,19 @@ msgid "picohertz;picohertzs;pHz"
 msgstr ""
 
 #: frequency.cpp:189
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 kilohertz"
+#| msgid_plural "%1 kilohertzs"
 msgctxt "amount in units (real)"
-msgid "%1 picohertzs"
-msgstr ""
+msgid "%1 picohertz"
+msgstr "%1 ਕਿਲੋਹਰਟਜ਼"
 
 #: frequency.cpp:190
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 picohertz"
-msgid_plural "%1 picohertzs"
+msgid_plural "%1 picohertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8317,10 +8409,12 @@ msgid "fHz"
 msgstr "fHz"
 
 #: frequency.cpp:196
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 square meters"
 msgctxt "unit description in lists"
-msgid "femtohertzs"
-msgstr ""
+msgid "femtohertz"
+msgstr "%1 ਵਰਗ ਮੀਟਰ"
 
 #: frequency.cpp:197
 #, kde-format
@@ -8333,14 +8427,14 @@ msgstr ""
 #| msgctxt "amount in units (real)"
 #| msgid "%1 square meters"
 msgctxt "amount in units (real)"
-msgid "%1 femtohertzs"
+msgid "%1 femtohertz"
 msgstr "%1 ਵਰਗ ਮੀਟਰ"
 
 #: frequency.cpp:200
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 femtohertz"
-msgid_plural "%1 femtohertzs"
+msgid_plural "%1 femtohertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8351,10 +8445,12 @@ msgid "aHz"
 msgstr "aHz"
 
 #: frequency.cpp:206
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "hertzs"
 msgctxt "unit description in lists"
-msgid "attohertzs"
-msgstr ""
+msgid "attohertz"
+msgstr "ਹਰਟਜ਼"
 
 #: frequency.cpp:207
 #, kde-format
@@ -8363,16 +8459,19 @@ msgid "attohertz;attohertzs;aHz"
 msgstr ""
 
 #: frequency.cpp:209
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hertz"
+#| msgid_plural "%1 hertzs"
 msgctxt "amount in units (real)"
-msgid "%1 attohertzs"
-msgstr ""
+msgid "%1 attohertz"
+msgstr "%1 ਹਰਟਜ਼"
 
 #: frequency.cpp:210
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 attohertz"
-msgid_plural "%1 attohertzs"
+msgid_plural "%1 attohertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8383,10 +8482,12 @@ msgid "zHz"
 msgstr "zHz"
 
 #: frequency.cpp:216
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 square meters"
 msgctxt "unit description in lists"
-msgid "zeptohertzs"
-msgstr ""
+msgid "zeptohertz"
+msgstr "%1 ਵਰਗ ਮੀਟਰ"
 
 #: frequency.cpp:217
 #, kde-format
@@ -8395,16 +8496,18 @@ msgid "zeptohertz;zeptohertzs;zHz"
 msgstr ""
 
 #: frequency.cpp:219
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (real)"
+#| msgid "%1 square meters"
 msgctxt "amount in units (real)"
-msgid "%1 zeptohertzs"
-msgstr ""
+msgid "%1 zeptohertz"
+msgstr "%1 ਵਰਗ ਮੀਟਰ"
 
 #: frequency.cpp:220
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 zeptohertz"
-msgid_plural "%1 zeptohertzs"
+msgid_plural "%1 zeptohertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -8415,10 +8518,12 @@ msgid "yHz"
 msgstr "yHz"
 
 #: frequency.cpp:226
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "unit description in lists"
+#| msgid "hertzs"
 msgctxt "unit description in lists"
-msgid "yoctohertzs"
-msgstr ""
+msgid "yoctohertz"
+msgstr "ਹਰਟਜ਼"
 
 #: frequency.cpp:227
 #, kde-format
@@ -8427,16 +8532,19 @@ msgid "yoctohertz;yoctohertzs;yHz"
 msgstr ""
 
 #: frequency.cpp:229
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "amount in units (integer)"
+#| msgid "%1 hertz"
+#| msgid_plural "%1 hertzs"
 msgctxt "amount in units (real)"
-msgid "%1 yoctohertzs"
-msgstr ""
+msgid "%1 yoctohertz"
+msgstr "%1 ਹਰਟਜ਼"
 
 #: frequency.cpp:230
 #, kde-format
 msgctxt "amount in units (integer)"
 msgid "%1 yoctohertz"
-msgid_plural "%1 yoctohertzs"
+msgid_plural "%1 yoctohertz"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -17200,6 +17308,25 @@ msgid "%1 momme"
 msgid_plural "%1 momme"
 msgstr[0] "%1 ਮੇਗਾਹਰਟਜ਼"
 msgstr[1] "%1 ਮੇਗਾਹਰਟਜ਼"
+
+#, fuzzy
+#~| msgctxt "amount in units (real)"
+#~| msgid "%1 rupees"
+#~ msgctxt "amount in units (real)"
+#~ msgid "%1 petahertzs"
+#~ msgstr "%1 ਰੁਪਏ"
+
+#~ msgctxt "amount in units (real)"
+#~ msgid "%1 gigahertzs"
+#~ msgstr "%1 ਗੀਗਾਹਰਟਜ਼"
+
+#~ msgctxt "amount in units (real)"
+#~ msgid "%1 megahertzs"
+#~ msgstr "%1 ਮੇਗਾਹਰਟਜ਼"
+
+#~ msgctxt "amount in units (real)"
+#~ msgid "%1 hertzs"
+#~ msgstr "%1 ਹਰਟਜ਼"
 
 #~ msgid "Invalid"
 #~ msgstr "ਗਲਤ"
