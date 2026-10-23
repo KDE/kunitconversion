@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-21 00:47+0000\n"
-"PO-Revision-Date: 2026-10-21 16:05+0200\n"
-"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"PO-Revision-Date: 2026-10-22 10:19+0300\n"
+"Last-Translator: Olesya Gerasimenko <goa@altlinux.org>\n"
 "Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -11098,7 +11098,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "power unit symbol"
 msgid "YW"
-msgstr "ЙВт"
+msgstr "ИВт"
 
 #: power.cpp:57
 #, kde-format
@@ -14941,7 +14941,7 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "voltage unit symbol"
 msgid "YV"
-msgstr "ЙВ"
+msgstr "ИВ"
 
 #: voltage.cpp:26
 #, kde-format
