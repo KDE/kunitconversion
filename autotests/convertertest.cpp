@@ -9,7 +9,6 @@
 #include <QSignalSpy>
 #include <QStandardPaths>
 #include <QThread>
-#include <currency_p.h>
 #include <kunitconversion/unitcategory.h>
 
 using namespace KUnitConversion;
