@@ -9,7 +9,6 @@
 #include <chrono>
 #include <currency_p.h>
 #include <kunitconversion/unitcategory.h>
-#include <unitcategory_p.h>
 #include <QSignalSpy>
 
 using namespace KUnitConversion;
