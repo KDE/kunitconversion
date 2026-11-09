@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libconversion\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 09:00+0000\n"
+"POT-Creation-Date: 2023-04-28 15:31+0000\n"
 "PO-Revision-Date: 2026-07-05 17:14+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
@@ -48,9 +48,7 @@ msgstr "meter per sekund kvadrert"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "meter per second squared;meters per second squared;m/s²;m/s2;m/s^2"
-msgstr ""
-"meter per sekund kvadrert;meter per sekund per sekund;meter per sekund i "
-"andre potens;m/s²;m/s2;m/s^2"
+msgstr "meter per sekund kvadrert;meter per sekund per sekund;meter per sekund i andre potens;m/s²;m/s2;m/s^2"
 
 # unreviewed-context
 #: acceleration.cpp:28
@@ -85,9 +83,7 @@ msgstr "fot per sekund kvadrert"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "foot per second squared;feet per second squared;ft/s²;ft/s2;ft/s^2"
-msgstr ""
-"fot per sekund kvadrert;fot per sekund per sekund;fot per sekund i andre "
-"potens;ft/s²;ft/s2;ft/s^2"
+msgstr "fot per sekund kvadrert;fot per sekund per sekund;fot per sekund i andre potens;ft/s²;ft/s2;ft/s^2"
 
 #: acceleration.cpp:38
 #, kde-format
@@ -609,8 +605,7 @@ msgstr "kvadrathektometer"
 #: area.cpp:124
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"square hectometer;square hectometers;hm²;hm/-2;hm^2;hm2;hectare;hectares"
+msgid "square hectometer;square hectometers;hm²;hm/-2;hm^2;hm2;hectare;hectares"
 msgstr "kvadrathektometer;hm²;hm/-2;hm^2;hm2;hektar;hektar"
 
 #: area.cpp:126
@@ -1091,9 +1086,7 @@ msgstr "kvadrattommar"
 #: area.cpp:274
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq "
-"in;inch²"
+msgid "square inch;square inches;in²;square inch;square in;sq inches;sq inch;sq in;inch²"
 msgstr "kvadrattomme;kvadrattommar;in²;in^2;in2"
 
 #: area.cpp:276
@@ -2506,8 +2499,7 @@ msgstr "Luxembourgske franc"
 #, kde-format
 msgctxt "LUF Luxembourgish Franc - unit synonyms for matching user input"
 msgid "franc;francs"
-msgstr ""
-"luxembourgsk franc;luxembourgske franc;luxemburgsk franc;luxemburgske franc"
+msgstr "luxembourgsk franc;luxembourgske franc;luxemburgsk franc;luxemburgske franc"
 
 #: currency.cpp:176
 #, kde-format
@@ -3264,9 +3256,7 @@ msgstr "Kanadiske dollar"
 #, kde-format
 msgctxt "Canadian Dollar - unit synonyms for matching user input"
 msgid "Canadian dollar;Canadian dollars"
-msgstr ""
-"canadisk dollar;canadiske dollar;canadiske dollars;kanadisk dollar;kanadiske "
-"dollar;kanadiske dollars"
+msgstr "canadisk dollar;canadiske dollar;canadiske dollars;kanadisk dollar;kanadiske dollar;kanadiske dollars"
 
 #: currency.cpp:499
 #, kde-format
@@ -3648,9 +3638,7 @@ msgstr "kilogram per kubikkmeter"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "kilogram per cubic meter;kilograms per cubic meter;kg/m³"
-msgstr ""
-"kilogram per kubikk;kilogram per kubikkmeter;kilo per kubikk;kilo per "
-"kubikkmeter;kg/m³;kg/m^3;kg/m3"
+msgstr "kilogram per kubikk;kilogram per kubikkmeter;kilo per kubikk;kilo per kubikkmeter;kg/m³;kg/m^3;kg/m3"
 
 #: density.cpp:28
 #, kde-format
@@ -3779,9 +3767,7 @@ msgstr "ouncar per kubikktomme"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "ounce per cubic inch;ounces per cubic inch;oz/in³"
-msgstr ""
-"ounce per kubikktomme;ouncar per kubikktomme;oz/tomme³;oz/tomme^3;oz/"
-"tomme;oz/in³;oz/in^3;oz/in3"
+msgstr "ounce per kubikktomme;ouncar per kubikktomme;oz/tomme³;oz/tomme^3;oz/tomme;oz/in³;oz/in^3;oz/in3"
 
 #: density.cpp:70
 #, kde-format
@@ -3845,9 +3831,7 @@ msgstr "pund per kubikktomme"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "pound per cubic inch;pounds per cubic inch;lb/in³"
-msgstr ""
-"pund per kubikktomme;pund/tomme³;pund/tomme^3;pund/tomme3;pund/in³;pund/"
-"in^3;pund/in3"
+msgstr "pund per kubikktomme;pund/tomme³;pund/tomme^3;pund/tomme3;pund/in³;pund/in^3;pund/in3"
 
 #: density.cpp:90
 #, kde-format
@@ -6092,9 +6076,7 @@ msgstr "kilojoule per mol"
 #: energy.cpp:293
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"kilojoule per mole;kilojoulepermole;kilojoule per mole;kilojoulemol;kjmol;kj/"
-"mol"
+msgid "kilojoule per mole;kilojoulepermole;kilojoule per mole;kilojoulemol;kjmol;kj/mol"
 msgstr "kilojoule per mol;kilojoulemol;kjmol;kj/mol"
 
 #: energy.cpp:295
@@ -7139,9 +7121,6 @@ msgstr "%1 yottahertz"
 
 #: frequency.cpp:30
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yottahertz"
-#| msgid_plural "%1 yottahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 yottahertz"
 msgid_plural "%1 yottahertzs"
@@ -7174,9 +7153,6 @@ msgstr "%1 zettahertzs"
 
 #: frequency.cpp:40
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zettahertz"
-#| msgid_plural "%1 zettahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 zettahertz"
 msgid_plural "%1 zettahertzs"
@@ -7209,9 +7185,6 @@ msgstr "%1 exahertz"
 
 #: frequency.cpp:50
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 exahertz"
-#| msgid_plural "%1 exahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 exahertz"
 msgid_plural "%1 exahertzs"
@@ -7244,9 +7217,6 @@ msgstr "%1 petahertz"
 
 #: frequency.cpp:60
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 petahertz"
-#| msgid_plural "%1 petahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 petahertz"
 msgid_plural "%1 petahertzs"
@@ -7279,9 +7249,6 @@ msgstr "%1 terahertz"
 
 #: frequency.cpp:70
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 terahertz"
-#| msgid_plural "%1 terahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 terahertz"
 msgid_plural "%1 terahertzs"
@@ -7314,9 +7281,6 @@ msgstr "%1 gigahertz"
 
 #: frequency.cpp:80
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 gigahertz"
-#| msgid_plural "%1 gigahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 gigahertz"
 msgid_plural "%1 gigahertzs"
@@ -7349,9 +7313,6 @@ msgstr "%1 megahertz"
 
 #: frequency.cpp:90
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 megahertz"
-#| msgid_plural "%1 megahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 megahertz"
 msgid_plural "%1 megahertzs"
@@ -7384,9 +7345,6 @@ msgstr "%1 kilohertz"
 
 #: frequency.cpp:100
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 kilohertz"
-#| msgid_plural "%1 kilohertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 kilohertz"
 msgid_plural "%1 kilohertzs"
@@ -7419,9 +7377,6 @@ msgstr "%1 hektohertz"
 
 #: frequency.cpp:110
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 hectohertz"
-#| msgid_plural "%1 hectohertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 hectohertz"
 msgid_plural "%1 hectohertzs"
@@ -7454,9 +7409,6 @@ msgstr "%1 dekahertz"
 
 #: frequency.cpp:120
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 decahertz"
-#| msgid_plural "%1 decahertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 decahertz"
 msgid_plural "%1 decahertzs"
@@ -7489,9 +7441,6 @@ msgstr "%1 hertz"
 
 #: frequency.cpp:130
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 hertz"
-#| msgid_plural "%1 hertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 hertz"
 msgid_plural "%1 hertzs"
@@ -7524,9 +7473,6 @@ msgstr "%1 desihertz"
 
 #: frequency.cpp:140
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 decihertz"
-#| msgid_plural "%1 decihertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 decihertz"
 msgid_plural "%1 decihertzs"
@@ -7559,9 +7505,6 @@ msgstr "%1 centihertz"
 
 #: frequency.cpp:150
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 centihertz"
-#| msgid_plural "%1 centihertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 centihertz"
 msgid_plural "%1 centihertzs"
@@ -7594,9 +7537,6 @@ msgstr "%1 millihertz"
 
 #: frequency.cpp:160
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 millihertz"
-#| msgid_plural "%1 millihertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 millihertz"
 msgid_plural "%1 millihertzs"
@@ -7629,9 +7569,6 @@ msgstr "%1 mikrohertz"
 
 #: frequency.cpp:170
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 microhertz"
-#| msgid_plural "%1 microhertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 microhertz"
 msgid_plural "%1 microhertzs"
@@ -7664,9 +7601,6 @@ msgstr "%1 nanohertz"
 
 #: frequency.cpp:180
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 nanohertz"
-#| msgid_plural "%1 nanohertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 nanohertz"
 msgid_plural "%1 nanohertzs"
@@ -7699,9 +7633,6 @@ msgstr "%1 pikohertz"
 
 #: frequency.cpp:190
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 picohertz"
-#| msgid_plural "%1 picohertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 picohertz"
 msgid_plural "%1 picohertzs"
@@ -7734,9 +7665,6 @@ msgstr "%1 femtohertz"
 
 #: frequency.cpp:200
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 femtohertz"
-#| msgid_plural "%1 femtohertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 femtohertz"
 msgid_plural "%1 femtohertzs"
@@ -7769,9 +7697,6 @@ msgstr "%1 attohertz"
 
 #: frequency.cpp:210
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 attohertz"
-#| msgid_plural "%1 attohertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 attohertz"
 msgid_plural "%1 attohertzs"
@@ -7804,9 +7729,6 @@ msgstr "%1 zeptohertz"
 
 #: frequency.cpp:220
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 zeptohertz"
-#| msgid_plural "%1 zeptohertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 zeptohertz"
 msgid_plural "%1 zeptohertzs"
@@ -7839,9 +7761,6 @@ msgstr "%1 yoktohertz"
 
 #: frequency.cpp:230
 #, fuzzy, kde-format
-#| msgctxt "amount in units (integer)"
-#| msgid "%1 yoctohertz"
-#| msgid_plural "%1 yoctohertzs"
 msgctxt "amount in units (integer)"
 msgid "%1 yoctohertz"
 msgid_plural "%1 yoctohertzs"
@@ -7941,9 +7860,7 @@ msgstr "miles per amerikanske gallon"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "mile per US gallon;miles per US gallon;mpg"
-msgstr ""
-"mile per amerikanske gallon;miles per amerikanske gallon;mpg;mile per "
-"gallon;miles per gallon"
+msgstr "mile per amerikanske gallon;miles per amerikanske gallon;mpg;mile per gallon;miles per gallon"
 
 #: fuel_efficiency.cpp:79
 #, kde-format
@@ -7976,9 +7893,7 @@ msgstr "miles per britiske gallon"
 #: fuel_efficiency.cpp:89
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp "
-"mpg;mpg (imp)"
+msgid "mile per imperial gallon;miles per imperial gallon;mpg (imperial);imp mpg;mpg (imp)"
 msgstr "mile per britiske gallon;miles per britiske gallon;britiske mpg"
 
 #: fuel_efficiency.cpp:91
@@ -11811,9 +11726,7 @@ msgstr "tommar kvikksølv"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "inch of mercury;inches of mercury;inHg;in\""
-msgstr ""
-"tomme kvikksølv;tommar kvikksølv;tomme kvikksylv;tommar "
-"kvikksylv;inHg;Hg\";Hg″"
+msgstr "tomme kvikksølv;tommar kvikksølv;tomme kvikksylv;tommar kvikksylv;inHg;Hg\";Hg″"
 
 #: pressure.cpp:309
 #, kde-format
@@ -12188,9 +12101,7 @@ msgstr "btu per fottime gradar fahrenheit"
 #: thermal_conductivity.cpp:37
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"btu per foot hour degree Fahrenheit;btu per foot hour Fahrenheit;btu per "
-"foot-hour-Fahrenheit;Btu/ft-hr-F"
+msgid "btu per foot hour degree Fahrenheit;btu per foot hour Fahrenheit;btu per foot-hour-Fahrenheit;Btu/ft-hr-F"
 msgstr "btu per fottime gradar fahrenheit;Btu/ft-hr-F"
 
 #: thermal_conductivity.cpp:39
@@ -12222,10 +12133,7 @@ msgstr "btu per kvadratfot time gradar fahrenheit per tomme"
 #: thermal_conductivity.cpp:48
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"btu per square foot hour degree Fahrenheit per inch;btu per foot squared "
-"hour Fahrenheit per inch;btu per sq foot-hour-Fahrenheit per inch;Btu/ft^2-"
-"hr-F/in"
+msgid "btu per square foot hour degree Fahrenheit per inch;btu per foot squared hour Fahrenheit per inch;btu per sq foot-hour-Fahrenheit per inch;Btu/ft^2-hr-F/in"
 msgstr "btu per kvadratfot time gradar fahrenheit per tomme;Btu/ft^2-hr-F/in"
 
 #: thermal_conductivity.cpp:51
@@ -12300,10 +12208,8 @@ msgstr "btu per time per kvadratfot"
 #: thermal_flux.cpp:37
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
-msgstr ""
-"btu per time per kvadratfot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
+msgid "btu per hour per square foot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
+msgstr "btu per time per kvadratfot;Btu/hr/ft2;Btu/hr/ft^2;Btu/ft^2/hr;Btu/ft2/hr"
 
 #: thermal_flux.cpp:39
 #, kde-format
@@ -12377,10 +12283,8 @@ msgstr "btu per time per kubikkfot"
 #: thermal_generation.cpp:36
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
-msgstr ""
-"btu per time per kubikkfot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
+msgid "btu per hour per cubic foot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
+msgstr "btu per time per kubikkfot;Btu/hr/ft3;Btu/hr/ft^3;Btu/ft^3/hr;Btu/ft3/hr"
 
 #: thermal_generation.cpp:38
 #, kde-format
@@ -13506,9 +13410,7 @@ msgstr "knop"
 #, kde-format
 msgctxt "unit synonyms for matching user input"
 msgid "knot;knots;kt;nautical miles per hour"
-msgstr ""
-"knop;nautiske mil i timen;nautiske mil per time;nautisk mil i timen;nautiske "
-"mil i timen"
+msgstr "knop;nautiske mil i timen;nautiske mil per time;nautisk mil i timen;nautiske mil i timen"
 
 #: velocity.cpp:107
 #, kde-format
@@ -15746,8 +15648,7 @@ msgstr "kubikktommar"
 #: volume.cpp:457
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;inch³"
+msgid "cubic inch;cubic inches;in³;cubic inch;cubic in;cu inches;cu inch;cu in;inch³"
 msgstr "kubikktomme;kubikktommar;tommar³;tommar^3;tommar3;in³;in^3;in3"
 
 #: volume.cpp:459
@@ -15781,8 +15682,7 @@ msgstr "kubikkmiles"
 #: volume.cpp:467
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"
+msgid "cubic mile;cubic miles;mi³;cubic mile;cubic mi;cu miles;cu mile;cu mi;mile³"
 msgstr "kubikkmile;kubikkmiles;mi³;mi^3;mi3;mile³;mile^3;mile3;miles³;miles^3;miles3"
 
 #: volume.cpp:469
@@ -15816,10 +15716,8 @@ msgstr "fluid ounces"
 #: volume.cpp:477
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"fluid ounce;fluid ounces;fl.oz.;oz.fl.;oz. fl.;fl. oz.;fl oz;fluid ounce"
-msgstr ""
-"fluid ounce;fluid ounces;fl.oz.;oz.fl.;oz. fl.;fl. oz.;fl oz;fluid ounce"
+msgid "fluid ounce;fluid ounces;fl.oz.;oz.fl.;oz. fl.;fl. oz.;fl oz;fluid ounce"
+msgstr "fluid ounce;fluid ounces;fl.oz.;oz.fl.;oz. fl.;fl. oz.;fl oz;fluid ounce"
 
 #: volume.cpp:479
 #, kde-format
@@ -15984,9 +15882,7 @@ msgstr "britiske gallon"
 #: volume.cpp:528
 #, kde-format
 msgctxt "unit synonyms for matching user input"
-msgid ""
-"gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial "
-"gal;imperial gallon;imperial gallons"
+msgid "gallon (imperial);gallons (imperial);imp gal;imp gallon;imp gallons;imperial gal;imperial gallon;imperial gallons"
 msgstr "britisk gallon;britiske gallons;britisk gal;britiske gal"
 
 #: volume.cpp:530
